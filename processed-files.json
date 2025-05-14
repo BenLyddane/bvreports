@@ -58,5 +58,15 @@
     "path": "PA DGS State Lab Facility.json",
     "lastModified": 1747253180676,
     "pdfPath": "../output/PA DGS State Lab Facility.pdf"
+  },
+  {
+    "path": "Villanova.json",
+    "lastModified": 1747254882996,
+    "pdfPath": "../output/Villanova.pdf"
+  },
+  {
+    "path": "NVS Mariana.json",
+    "lastModified": 1747256875405,
+    "pdfPath": "../output/NVS Mariana.pdf"
   }
 ]
