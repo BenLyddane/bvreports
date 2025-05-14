@@ -1,0 +1,88 @@
+{
+    "reportTitle": "BuildVision Project Report",
+    "customerInformation": {
+      "customerName": "",
+      "contactPerson": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "projectId": "",
+      "additionalFields": {}
+    },
+    "projectInformation": {
+      "projectName": "",
+      "location": "",
+      "startDate": "",
+      "completionDate": "",
+      "budget": "",
+      "scope": "",
+      "projectUrl": "",
+      "additionalFields": {}
+    },
+    "preparerInformation": {
+      "preparers": [
+        {
+          "name": "Ben Lyddane",
+          "email": "Ben@BuildVision.io",
+          "phone": "202-365-8628"
+        },
+        {
+          "name": "Mackenzie Hoover",
+          "email": "Mackenzie@buildvision.io",
+          "phone": "267-281-4339"
+        }
+      ],
+      "preparationDate": ""
+    },
+    "projectEquipment": [
+      {
+        "equipmentTag": "",
+        "manufacturer": "",
+        "equipmentType": "",
+        "model": "",
+        "specifications": {},
+        "notes": ""
+      }
+    ],
+    "alternateManufacturers": [
+      {
+        "componentType": "",
+        "basisOfDesign": "",
+        "alternateOptions": [
+          {
+            "manufacturer": "",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": ""
+          }
+        ]
+      }
+    ],
+    "designNotes": [
+      {
+        "systemType": "",
+        "technicalObservations": [],
+        "concerns": [],
+        "opportunities": []
+      }
+    ],
+    "buildVisionRecommendations": [
+      {
+        "id": 1,
+        "recommendation": "",
+        "rationale": "",
+        "estimatedImpact": "",
+        "implementation": "",
+        "priority": ""
+      }
+    ],
+    "conclusion": {
+      "summary": "",
+      "keyFindings": [],
+      "highestPriorityActions": []
+    }
+   }

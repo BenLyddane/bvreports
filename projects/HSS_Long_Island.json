@@ -1,0 +1,559 @@
+{
+    "reportTitle": "BuildVision Project Report",
+    "customerInformation": {
+      "customerName": "HRCG",
+      "contactPerson": "Anthony DiGirolamo",
+      "contactEmail": "adigirolamo@hrcg.com",
+      "contactPhone": "",
+      "projectId": "e4130056-0863-4954-974c-eae85b9a64bc",
+      "additionalFields": {
+        "address": "90 Merrick Avenue, East Meadow, NY 11554",
+        "projectLink": "https://app.buildvision.io/admin/organizations/e23bb8e-c745-447d-ba73-5755876f1a96/package-projects/e4130056-0863-4954-974c-eae85b9a64bc/packages"
+      }
+    },
+    "projectInformation": {
+      "projectName": "HSS Long Island ASC Fit-Out",
+      "location": "East Meadow, NY",
+      "startDate": "5/13/2025",
+      "completionDate": "NA",
+      "budget": "",
+      "scope": "Healthcare facility fit-out including HVAC systems with custom air handling units and modular heat pumps, plus backup power systems",
+      "additionalFields": {
+        "projectManager": ""
+      }
+    },
+    "preparerInformation": {
+      "preparers": [
+        {
+          "name": "Ben Lyddane",
+          "email": "Ben@BuildVision.io",
+          "phone": "202-365-8628"
+        },
+        {
+          "name": "Mackenzie Hoover",
+          "email": "Mackenzie@buildvision.io",
+          "phone": "267-281-4339"
+        }
+      ],
+      "preparationDate": ""
+    },
+    "projectEquipment": [
+      {
+        "equipmentTag": "AHU-3-1",
+        "manufacturer": "Haakon",
+        "equipmentType": "Indoor Central-Station Air-Handling Units",
+        "model": "CUSTOM",
+        "specifications": {},
+        "notes": "Custom air handling unit for healthcare application with likely premium components and construction"
+      },
+      {
+        "equipmentTag": "AHU-3-2",
+        "manufacturer": "Haakon",
+        "equipmentType": "Indoor Central-Station Air-Handling Units",
+        "model": "CUSTOM",
+        "specifications": {},
+        "notes": "Custom air handling unit for healthcare application with likely premium components and construction"
+      },
+      {
+        "equipmentTag": "ASHP-1.1",
+        "manufacturer": "AERMEC",
+        "equipmentType": "Modular Water Chillers",
+        "model": "NYK500HD",
+        "specifications": {
+          "capacity": "Approximately 125 tons per module"
+        },
+        "notes": "Module 1 of 7 in heat pump chiller system providing heating and cooling capability"
+      },
+      {
+        "equipmentTag": "ASHP-1.2",
+        "manufacturer": "AERMEC",
+        "equipmentType": "Modular Water Chillers",
+        "model": "NYK500HD",
+        "specifications": {
+          "capacity": "Approximately 125 tons per module"
+        },
+        "notes": "Module 2 of 7 in heat pump chiller system providing heating and cooling capability"
+      },
+      {
+        "equipmentTag": "ASHP-1.3",
+        "manufacturer": "AERMEC",
+        "equipmentType": "Modular Water Chillers",
+        "model": "NYK500HD",
+        "specifications": {
+          "capacity": "Approximately 125 tons per module"
+        },
+        "notes": "Module 3 of 7 in heat pump chiller system providing heating and cooling capability"
+      },
+      {
+        "equipmentTag": "ASHP-1.4",
+        "manufacturer": "AERMEC",
+        "equipmentType": "Modular Water Chillers",
+        "model": "NYK500HD",
+        "specifications": {
+          "capacity": "Approximately 125 tons per module"
+        },
+        "notes": "Module 4 of 7 in heat pump chiller system providing heating and cooling capability"
+      },
+      {
+        "equipmentTag": "ASHP-1.5",
+        "manufacturer": "AERMEC",
+        "equipmentType": "Modular Water Chillers",
+        "model": "NYK500HD",
+        "specifications": {
+          "capacity": "Approximately 125 tons per module"
+        },
+        "notes": "Module 5 of 7 in heat pump chiller system providing heating and cooling capability"
+      },
+      {
+        "equipmentTag": "ASHP-1.6",
+        "manufacturer": "AERMEC",
+        "equipmentType": "Modular Water Chillers",
+        "model": "NYK500HD",
+        "specifications": {
+          "capacity": "Approximately 125 tons per module"
+        },
+        "notes": "Module 6 of 7 in heat pump chiller system providing heating and cooling capability"
+      },
+      {
+        "equipmentTag": "ASHP-1.7",
+        "manufacturer": "AERMEC",
+        "equipmentType": "Modular Water Chillers",
+        "model": "NYK500HD",
+        "specifications": {
+          "capacity": "Approximately 125 tons per module"
+        },
+        "notes": "Module 7 of 7 in heat pump chiller system providing heating and cooling capability"
+      },
+      {
+        "equipmentTag": "G-1",
+        "manufacturer": "Caterpillar",
+        "equipmentType": "Diesel Engine Generators",
+        "model": "D600 GC",
+        "specifications": {
+          "capacity": "600 kW"
+        },
+        "notes": "Emergency generator for backup power"
+      },
+      {
+        "equipmentTag": "ATS-CR",
+        "manufacturer": "Schneider Electric",
+        "equipmentType": "Automatic Transfer Switches",
+        "model": "ASCO 7000 SERIES",
+        "specifications": {},
+        "notes": "Critical branch transfer switch"
+      },
+      {
+        "equipmentTag": "ATS-EQ1",
+        "manufacturer": "Schneider Electric",
+        "equipmentType": "Automatic Transfer Switches",
+        "model": "ASCO 7000 SERIES",
+        "specifications": {},
+        "notes": "Equipment branch transfer switch 1"
+      },
+      {
+        "equipmentTag": "ATS-EQ2",
+        "manufacturer": "Schneider Electric",
+        "equipmentType": "Automatic Transfer Switches",
+        "model": "ASCO 7000 SERIES",
+        "specifications": {},
+        "notes": "Equipment branch transfer switch 2"
+      },
+      {
+        "equipmentTag": "ATS-LS",
+        "manufacturer": "Schneider Electric",
+        "equipmentType": "Automatic Transfer Switches",
+        "model": "ASCO 7000 SERIES",
+        "specifications": {},
+        "notes": "Life safety branch transfer switch"
+      }
+    ],
+    "alternateManufacturers": [
+      {
+        "componentType": "Indoor Central-Station Air-Handling Units",
+        "basisOfDesign": "Haakon",
+        "alternateOptions": [
+          {
+            "manufacturer": "Daikin Applied",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "BD, RB, AA",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must specify healthcare-grade with double-wall construction, solid inner liners, hospital-grade drainage pans, premium filtration, low air leakage rates, antimicrobial surfaces"
+          },
+          {
+            "manufacturer": "Trane",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "DF, JC",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must specify healthcare-grade with double-wall construction, solid inner liners, hospital-grade drainage pans, premium filtration, low air leakage rates, antimicrobial surfaces"
+          },
+          {
+            "manufacturer": "York/Johnson Controls",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Critical Systems or Gil-Bar",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must specify healthcare-grade with double-wall construction, solid inner liners, hospital-grade drainage pans, premium filtration, low air leakage rates, antimicrobial surfaces"
+          },
+          {
+            "manufacturer": "Temtrol",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "ADE Systems",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must specify healthcare-grade with double-wall construction, solid inner liners, hospital-grade drainage pans, premium filtration, low air leakage rates, antimicrobial surfaces"
+          },
+          {
+            "manufacturer": "Climate Craft",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "SRS Enterprises",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must specify healthcare-grade with double-wall construction, solid inner liners, hospital-grade drainage pans, premium filtration, low air leakage rates, antimicrobial surfaces"
+          }
+        ]
+      },
+      {
+        "componentType": "Modular Water Chillers (Air-Source Heat Pump)",
+        "basisOfDesign": "AERMEC",
+        "alternateOptions": [
+          {
+            "manufacturer": "Daikin Applied",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "BD, RB, AA",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match high-efficiency heat pump chiller specifications with adequate total capacity (~875 tons)"
+          },
+          {
+            "manufacturer": "Trane",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "DF, JC",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match high-efficiency heat pump chiller specifications with adequate total capacity (~875 tons)"
+          },
+          {
+            "manufacturer": "Multistack",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Critical Systems",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match high-efficiency heat pump chiller specifications with adequate total capacity (~875 tons)"
+          },
+          {
+            "manufacturer": "ClimaCool",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Gil-Bar",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match high-efficiency heat pump chiller specifications with adequate total capacity (~875 tons)"
+          },
+          {
+            "manufacturer": "Arctic Chiller Group",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "SRS Enterprises",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match high-efficiency heat pump chiller specifications with adequate total capacity (~875 tons)"
+          },
+          {
+            "manufacturer": "Jetson",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "ADE Systems",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match high-efficiency heat pump chiller specifications with adequate total capacity (~875 tons)"
+          }
+        ]
+      },
+      {
+        "componentType": "Diesel Engine Generators",
+        "basisOfDesign": "Caterpillar",
+        "alternateOptions": [
+          {
+            "manufacturer": "Kohler",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "H.O. Penn",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match 600 kW capacity and healthcare-grade specifications including extended runtime, enhanced sound attenuation, paralleling capabilities"
+          },
+          {
+            "manufacturer": "Cummins",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Gil-Bar or HighMark",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match 600 kW capacity and healthcare-grade specifications including extended runtime, enhanced sound attenuation, paralleling capabilities"
+          },
+          {
+            "manufacturer": "MTU",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "various reps",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match 600 kW capacity and healthcare-grade specifications including extended runtime, enhanced sound attenuation, paralleling capabilities"
+          },
+          {
+            "manufacturer": "Generac",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "LaSalle Reps",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match 600 kW capacity and healthcare-grade specifications including extended runtime, enhanced sound attenuation, paralleling capabilities"
+          }
+        ]
+      },
+      {
+        "componentType": "Automatic Transfer Switches",
+        "basisOfDesign": "Schneider Electric (ASCO)",
+        "alternateOptions": [
+          {
+            "manufacturer": "Russelectric",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "various reps",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match premium quality and functionality of ASCO 7000 series for healthcare application"
+          },
+          {
+            "manufacturer": "Cummins",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Gil-Bar or HighMark",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match premium quality and functionality of ASCO 7000 series for healthcare application"
+          },
+          {
+            "manufacturer": "Kohler",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "H.O. Penn",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match premium quality and functionality of ASCO 7000 series for healthcare application"
+          },
+          {
+            "manufacturer": "Eaton",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Cooper Electric",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Must match premium quality and functionality of ASCO 7000 series for healthcare application"
+          }
+        ]
+      }
+    ],
+    "designNotes": [
+      {
+        "systemType": "HVAC Systems",
+        "technicalObservations": [
+          "Project utilizes custom Haakon air handling units, which are typically premium, high-quality units designed for healthcare applications",
+          "The air-source heat pump system consists of seven AERMEC NYK500HD modules, providing both heating and cooling capability",
+          "This modular approach offers redundancy and the ability to stage capacity based on load requirements",
+          "Total capacity of approximately 875 tons across the seven modules (estimated 125 tons per module)"
+        ],
+        "concerns": [
+          "Seven-module configuration may introduce unnecessary complexity and connection points",
+          "Long lead times (20-30 weeks) for custom AHUs could impact project schedule if not ordered early"
+        ],
+        "opportunities": [
+          "Consider if fewer, larger modules might reduce initial costs while still providing adequate redundancy",
+          "Explore alternative AHU manufacturers with healthcare expertise that can match Haakon's quality level"
+        ]
+      },
+      {
+        "systemType": "Power Systems",
+        "technicalObservations": [
+          "Backup power system features a Caterpillar D600 GC diesel generator (600 kW)",
+          "System includes four ASCO 7000 Series automatic transfer switches",
+          "Multiple transfer switches indicate a sophisticated power distribution system with separate emergency power branches",
+          "This configuration is common in healthcare facilities to meet code requirements (critical, equipment, and life safety branches)"
+        ],
+        "concerns": [
+          "Premium equipment selections may present cost optimization opportunities"
+        ],
+        "opportunities": [
+          "Solicit competitive bids from alternate premium generator manufacturers like Kohler, Cummins, and MTU",
+          "Consider Russelectric as a high-quality alternative to ASCO transfer switches"
+        ]
+      },
+      {
+        "systemType": "Air Handling Units",
+        "technicalObservations": [
+          "Custom Haakon AHUs specified to meet stringent healthcare requirements",
+          "These units likely include infection control features, noise mitigation, and specific airflow/filtration needs",
+          "AHUs are typically constructed with heavy-gauge materials, double-wall construction, and hospital-grade components"
+        ],
+        "concerns": [
+          "Custom units have long lead times which must be factored into project schedule",
+          "Limited competition can impact pricing for custom units"
+        ],
+        "opportunities": [
+          "Evaluate alternative manufacturers that can provide healthcare-grade specifications",
+          "Key specifications to match include double-wall construction, hospital-grade drainage, premium filtration, low air leakage, and antimicrobial surfaces"
+        ]
+      },
+      {
+        "systemType": "Distribution Systems",
+        "technicalObservations": [
+          "Project appears to use a hydronic distribution system",
+          "Modular heat pumps provide both chilled and hot water",
+          "This approach eliminates the need for separate boiler systems",
+          "Can offer energy efficiency advantages in the New York climate"
+        ],
+        "concerns": [],
+        "opportunities": [
+          "Consider enhanced control systems that optimize the operation of all modules",
+          "Potential for advanced BMS integration, predictive load management, heat recovery optimization, and smart defrost cycling"
+        ]
+      },
+      {
+        "systemType": "System Redundancy",
+        "technicalObservations": [
+          "Seven-module heat pump configuration provides significant redundancy",
+          "Multiple emergency power branches with dedicated transfer switches",
+          "Configuration appropriate for healthcare facility requirements"
+        ],
+        "concerns": [],
+        "opportunities": [
+          "Validate that the proposed systems meet the required redundancy levels (typically N+1 for critical systems)",
+          "Ensure appropriate emergency power distribution, backup controls, and failsafe modes for critical areas"
+        ]
+      }
+    ],
+    "buildVisionRecommendations": [
+      {
+        "id": 1,
+        "recommendation": "Reconsider the seven-module AERMEC heat pump configuration",
+        "rationale": "While the current configuration provides significant redundancy for a healthcare facility, it may introduce unnecessary complexity and connection points",
+        "estimatedImpact": "Potential reduction in initial costs, simplified maintenance, and fewer potential failure points while maintaining adequate redundancy",
+        "implementation": "Evaluate a 5-module configuration at 175 tons each to provide similar total capacity and reliability with reduced connection complexity",
+        "priority": "High"
+      },
+      {
+        "id": 2,
+        "recommendation": "Evaluate AHU alternatives from manufacturers with healthcare expertise",
+        "rationale": "While Haakon provides excellent custom units, other manufacturers may offer similar quality at potentially lower cost or shorter lead times",
+        "estimatedImpact": "Potential cost savings while maintaining required performance for healthcare application",
+        "implementation": "Request healthcare-grade specifications from Daikin Applied, Trane, York/JCI, Temtrol, or Climate Craft that match Haakon's quality level including double-wall construction, solid inner liners, hospital-grade drainage, premium filtration, and antimicrobial surfaces",
+        "priority": "High"
+      },
+      {
+        "id": 3,
+        "recommendation": "Solicit competitive bids for the emergency generator system",
+        "rationale": "While the Caterpillar D600 GC generator is appropriately sized, alternative manufacturers may offer similar performance at different price points",
+        "estimatedImpact": "Potential cost savings while maintaining required reliability for healthcare application",
+        "implementation": "Request quotes from Kohler, Cummins, and MTU with healthcare-grade specifications including extended runtime capability, enhanced sound attenuation, paralleling capabilities, premium fuel filtration, and advanced monitoring systems",
+        "priority": "Medium"
+      },
+      {
+        "id": 4,
+        "recommendation": "Consider high-quality alternatives to ASCO transfer switches",
+        "rationale": "ASCO 7000 Series transfer switches are top-tier equipment, but alternatives like Russelectric offer comparable quality and reliability",
+        "estimatedImpact": "Potential cost savings while maintaining required performance for healthcare application",
+        "implementation": "Evaluate Russelectric as the primary alternative, with careful assessment of Eaton or Kohler to ensure they meet healthcare code requirements and reliability expectations",
+        "priority": "Medium"
+      },
+      {
+        "id": 5,
+        "recommendation": "Develop early equipment procurement strategy",
+        "rationale": "Long lead times for custom AHUs and generators (20-30 weeks) can significantly impact project schedule if not addressed early",
+        "estimatedImpact": "Prevention of schedule delays and avoidance of costly temporary solutions",
+        "implementation": "Consider early release of equipment packages, phased delivery to match construction sequence, and contingency plans for temporary conditioning if permanent equipment cannot be installed in time for commissioning",
+        "priority": "High"
+      },
+      {
+        "id": 6,
+        "recommendation": "Enhance heat pump control system specifications",
+        "rationale": "The modular heat pump system offers good efficiency, but advanced controls can further optimize performance and energy savings",
+        "estimatedImpact": "Improved efficiency, reduced operating costs, and better system performance",
+        "implementation": "Specify enhanced control systems including advanced BMS integration, predictive load management, heat recovery optimization, and smart defrost cycling for winter operation",
+        "priority": "Medium"
+      },
+      {
+        "id": 7,
+        "recommendation": "Validate system redundancy requirements",
+        "rationale": "Healthcare facilities require specific levels of redundancy to ensure continuous operation of critical systems",
+        "estimatedImpact": "Assurance of code compliance and appropriate reliability for a healthcare facility",
+        "implementation": "Verify N+1 redundancy for critical cooling/heating systems, appropriate emergency power distribution, backup control systems, and failsafe modes for critical areas",
+        "priority": "High"
+      }
+    ],
+    "conclusion": {
+      "summary": "Based on our analysis, this project features premium equipment appropriate for a healthcare facility. The custom Haakon air handling units and seven-module AERMEC heat pump system provide the high performance and redundancy required for this application. The emergency power system with a 600 kW Caterpillar generator and multiple ASCO transfer switches is well-designed for healthcare facility requirements. While the specified manufacturers represent excellent quality, there are multiple viable alternatives that could offer similar performance, potentially at lower cost or with shorter lead times. The key opportunities for optimization include reconsidering the seven-module heat pump configuration, evaluating alternative AHU manufacturers that can meet healthcare requirements, soliciting competitive bids for emergency power equipment, and developing an early procurement strategy to address long lead times.",
+      "keyFindings": [
+        "Premium equipment selections are appropriate for a healthcare facility but present opportunities for cost optimization",
+        "Seven-module heat pump configuration provides significant redundancy but may introduce unnecessary complexity",
+        "Custom AHUs and emergency power systems have long lead times (20-30 weeks) that must be factored into project schedule",
+        "Multiple viable alternatives exist for all major equipment categories",
+        "System redundancy appears appropriate for healthcare application but should be validated against specific requirements",
+        "Hydronic distribution system eliminates need for separate boiler systems and offers energy efficiency advantages"
+      ],
+      "highestPriorityActions": [
+        "Reconsider the seven-module heat pump configuration to potentially reduce complexity while maintaining adequate redundancy",
+        "Evaluate AHU alternatives from manufacturers with healthcare expertise that can meet required specifications",
+        "Develop early equipment procurement strategy to address long lead times",
+        "Validate system redundancy requirements for healthcare application",
+        "Solicit competitive bids for emergency power equipment with healthcare-grade specifications"
+      ]
+    }
+  }

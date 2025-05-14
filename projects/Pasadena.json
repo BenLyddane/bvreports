@@ -1,0 +1,1068 @@
+{
+    "reportTitle": "BuildVision Project Report",
+    "customerInformation": {
+      "customerName": "STOBG",
+      "contactPerson": "David Hamilton",
+      "contactEmail": "david.hamilton@constructionprocurement.com",
+      "contactPhone": "212-481-6100",
+      "projectId": "e4130056-0863-4954-974c-eae85b9a64bc",
+      "additionalFields": {
+        "address": "330 W 34th St. 12th FL, New York, NY 10001",
+        "projectLink": "https://app.buildvision.io/admin/organizations/5a23bb8e-c745-447d-ba73-5755876f1a96/package-projects/e4130056-0863-4954-974c-eae85b9a64bc/packages"
+      }
+    },
+    "projectInformation": {
+      "projectName": "Pasadena Central Library Seismic Retrofit & Historic Renovation",
+      "location": "Pasadena, CA",
+      "startDate": "5/13/2025",
+      "completionDate": "NA",
+      "budget": "",
+      "scope": "HVAC system renovation including modular chiller installation, air handling units, and distribution systems",
+      "additionalFields": {
+        "projectManager": "Mackenzie Hoover"
+      }
+    },
+    "projectEquipment": [
+      {
+        "equipmentTag": "H-1",
+        "manufacturer": "DriSteem",
+        "equipmentType": "Humidifiers",
+        "model": "RX-12-1",
+        "specifications": {},
+        "notes": "Limited to 10' of interconnected piping"
+      },
+      {
+        "equipmentTag": "H-2",
+        "manufacturer": "DriSteem",
+        "equipmentType": "Humidifiers",
+        "model": "RX-12-1",
+        "specifications": {},
+        "notes": "Limited to 10' of interconnected piping"
+      },
+      {
+        "equipmentTag": "H-3",
+        "manufacturer": "DriSteem",
+        "equipmentType": "Humidifiers",
+        "model": "RX-12-1",
+        "specifications": {},
+        "notes": "Limited to 10' of interconnected piping"
+      },
+      {
+        "equipmentTag": "H-4",
+        "manufacturer": "DriSteem",
+        "equipmentType": "Humidifiers",
+        "model": "RX-126-2",
+        "specifications": {},
+        "notes": "Limited to 10' of interconnected piping"
+      },
+      {
+        "equipmentTag": "VFD-1",
+        "manufacturer": "ABB",
+        "equipmentType": "Variable Frequency Drives",
+        "model": "ACH580",
+        "specifications": {},
+        "notes": "For hydronic pumps"
+      },
+      {
+        "equipmentTag": "VFD-2",
+        "manufacturer": "ABB",
+        "equipmentType": "Variable Frequency Drives",
+        "model": "ACH580",
+        "specifications": {},
+        "notes": "For hydronic pumps"
+      },
+      {
+        "equipmentTag": "VFD-3",
+        "manufacturer": "ABB",
+        "equipmentType": "Variable Frequency Drives",
+        "model": "ACH580",
+        "specifications": {},
+        "notes": "For hydronic pumps"
+      },
+      {
+        "equipmentTag": "VFD-4",
+        "manufacturer": "ABB",
+        "equipmentType": "Variable Frequency Drives",
+        "model": "ACH580",
+        "specifications": {},
+        "notes": "For hydronic pumps"
+      },
+      {
+        "equipmentTag": "CH-1",
+        "manufacturer": "Trane",
+        "equipmentType": "Air-Cooled, Modular Water Chillers",
+        "model": "AMC 30T",
+        "specifications": {
+          "capacity": "90 tons",
+          "modules": "3 at 30 tons each"
+        },
+        "notes": "Cooling only unit"
+      },
+      {
+        "equipmentTag": "CHWP-1",
+        "manufacturer": "Bell and Gossett",
+        "equipmentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+        "model": "E-1510",
+        "specifications": {},
+        "notes": "Updated model from 1510 series"
+      },
+      {
+        "equipmentTag": "CHWP-2",
+        "manufacturer": "Bell and Gossett",
+        "equipmentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+        "model": "E-1510",
+        "specifications": {},
+        "notes": "Updated model from 1510 series"
+      },
+      {
+        "equipmentTag": "HHWP-1",
+        "manufacturer": "Bell and Gossett",
+        "equipmentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+        "model": "E-1510",
+        "specifications": {},
+        "notes": "Updated model from 1510 series"
+      },
+      {
+        "equipmentTag": "HHWP-2",
+        "manufacturer": "Bell and Gossett",
+        "equipmentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+        "model": "E-1510",
+        "specifications": {},
+        "notes": "Updated model from 1510 series"
+      },
+      {
+        "equipmentTag": "AS-1",
+        "manufacturer": "Bell and Gossett",
+        "equipmentType": "Hydronic Piping Specialties",
+        "model": "R-6F",
+        "specifications": {},
+        "notes": ""
+      },
+      {
+        "equipmentTag": "AS-2",
+        "manufacturer": "Bell and Gossett",
+        "equipmentType": "Hydronic Piping Specialties",
+        "model": "R-6F",
+        "specifications": {},
+        "notes": ""
+      },
+      {
+        "equipmentTag": "BT-1",
+        "manufacturer": "Cemline Corporation",
+        "equipmentType": "Hydronic Piping Specialties",
+        "model": "V200CWB",
+        "specifications": {},
+        "notes": ""
+      },
+      {
+        "equipmentTag": "BT-2",
+        "manufacturer": "Cemline Corporation",
+        "equipmentType": "Hydronic Piping Specialties",
+        "model": "V200SEB",
+        "specifications": {},
+        "notes": ""
+      },
+      {
+        "equipmentTag": "ET-1",
+        "manufacturer": "Bell and Gossett",
+        "equipmentType": "Hydronic Piping Specialties",
+        "model": "B300",
+        "specifications": {},
+        "notes": ""
+      },
+      {
+        "equipmentTag": "ET-2",
+        "manufacturer": "Bell and Gossett",
+        "equipmentType": "Hydronic Piping Specialties",
+        "model": "B35",
+        "specifications": {},
+        "notes": ""
+      },
+      {
+        "equipmentTag": "AHU-1",
+        "manufacturer": "Trane",
+        "equipmentType": "Indoor Central-Station Air-Handling Units",
+        "model": "PSCA",
+        "specifications": {},
+        "notes": "Semi-custom unit"
+      },
+      {
+        "equipmentTag": "AHU-2",
+        "manufacturer": "Trane",
+        "equipmentType": "Packaged Outdoor HVAC Equipment",
+        "model": "CSAA",
+        "specifications": {},
+        "notes": "Semi-custom unit"
+      },
+      {
+        "equipmentTag": "AHU-3",
+        "manufacturer": "Trane",
+        "equipmentType": "Indoor Central-Station Air-Handling Units",
+        "model": "PSCA",
+        "specifications": {},
+        "notes": "Semi-custom unit"
+      },
+      {
+        "equipmentTag": "AHU-4",
+        "manufacturer": "Trane",
+        "equipmentType": "Indoor Central-Station Air-Handling Units",
+        "model": "PSCA",
+        "specifications": {},
+        "notes": "Semi-custom unit"
+      },
+      {
+        "equipmentTag": "RTU-1",
+        "manufacturer": "Trane",
+        "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+        "model": "WHC074",
+        "specifications": {
+          "refrigerant": "A2L (R-454B)"
+        },
+        "notes": "Low GWP refrigerant"
+      },
+      {
+        "equipmentTag": "RTU-2",
+        "manufacturer": "Trane",
+        "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+        "model": "WHC074",
+        "specifications": {
+          "refrigerant": "A2L (R-454B)"
+        },
+        "notes": "Low GWP refrigerant"
+      },
+      {
+        "equipmentTag": "RTU-3",
+        "manufacturer": "Trane",
+        "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+        "model": "WHC092",
+        "specifications": {
+          "refrigerant": "A2L (R-454B)"
+        },
+        "notes": "Low GWP refrigerant"
+      },
+      {
+        "equipmentTag": "EF-1",
+        "manufacturer": "Greenheck",
+        "equipmentType": "HVAC Fans",
+        "model": "USF-15-B7",
+        "specifications": {
+          "motor": "EC"
+        },
+        "notes": "Electronically commutated motor"
+      },
+      {
+        "equipmentTag": "EF-2",
+        "manufacturer": "Greenheck",
+        "equipmentType": "HVAC Fans",
+        "model": "CSP-A200",
+        "specifications": {
+          "motor": "EC"
+        },
+        "notes": "Electronically commutated motor"
+      },
+      {
+        "equipmentTag": "EF-3",
+        "manufacturer": "Greenheck",
+        "equipmentType": "HVAC Fans",
+        "model": "USF-16-B7",
+        "specifications": {
+          "motor": "EC"
+        },
+        "notes": "Electronically commutated motor"
+      },
+      {
+        "equipmentTag": "EF-4",
+        "manufacturer": "Greenheck",
+        "equipmentType": "HVAC Fans",
+        "model": "USF-15-B7",
+        "specifications": {
+          "motor": "EC"
+        },
+        "notes": "Electronically commutated motor"
+      },
+      {
+        "equipmentTag": "EF-5",
+        "manufacturer": "Greenheck",
+        "equipmentType": "HVAC Fans",
+        "model": "USF-18",
+        "specifications": {
+          "motor": "EC"
+        },
+        "notes": "Electronically commutated motor"
+      },
+      {
+        "equipmentTag": "EF-6",
+        "manufacturer": "Greenheck",
+        "equipmentType": "HVAC Fans",
+        "model": "USF-15-B7",
+        "specifications": {
+          "motor": "EC"
+        },
+        "notes": "Electronically commutated motor"
+      },
+      {
+        "equipmentTag": "Fan Coil Package",
+        "manufacturer": "Trane",
+        "equipmentType": "Fan Coil Units",
+        "model": "BCHE Series",
+        "specifications": {},
+        "notes": ""
+      }
+    ],
+    "alternateManufacturers": [
+      {
+        "componentType": "Humidifiers",
+        "basisOfDesign": "DriSteem",
+        "alternateOptions": [
+          {
+            "manufacturer": "Carel",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "DMG HVAC",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Allows for longer interconnected piping runs than 10' limit of DriSteem"
+          },
+          {
+            "manufacturer": "Condair",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Allows for longer interconnected piping runs than 10' limit of DriSteem"
+          },
+          {
+            "manufacturer": "Neptronic",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "DMG HVAC",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Allows for longer interconnected piping runs than 10' limit of DriSteem"
+          },
+          {
+            "manufacturer": "Steamovap",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Drymaxx Air",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Allows for longer interconnected piping runs than 10' limit of DriSteem"
+          }
+        ]
+      },
+      {
+        "componentType": "Variable Frequency Drives",
+        "basisOfDesign": "ABB",
+        "alternateOptions": [
+          {
+            "manufacturer": "Danfoss",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Could be packaged with pumps for cost savings"
+          },
+          {
+            "manufacturer": "Eaton",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Could be packaged with pumps for cost savings"
+          },
+          {
+            "manufacturer": "Siemens",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Could be packaged with pumps for cost savings"
+          },
+          {
+            "manufacturer": "Yaskawa",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Could be packaged with pumps for cost savings"
+          }
+        ]
+      },
+      {
+        "componentType": "Air-Side Heat Recovery Chiller",
+        "basisOfDesign": "Trane",
+        "alternateOptions": [
+          {
+            "manufacturer": "Aermec",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "NSW Duckworth Mechanical",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Properly configured heat pump chiller rather than heat recovery"
+          },
+          {
+            "manufacturer": "ClimaCool",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "DMG Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Properly configured heat pump chiller rather than heat recovery"
+          },
+          {
+            "manufacturer": "Jetson",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Vertical Systems",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Properly configured heat pump chiller rather than heat recovery"
+          },
+          {
+            "manufacturer": "Multistack",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Properly configured heat pump chiller rather than heat recovery"
+          },
+          {
+            "manufacturer": "Petra",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Properly configured heat pump chiller rather than heat recovery"
+          },
+          {
+            "manufacturer": "Quantech",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Properly configured heat pump chiller rather than heat recovery"
+          },
+          {
+            "manufacturer": "Tandem",
+            "model": "",
+            "representativeInfo": {
+              "name": "Jeff Taylor",
+              "company": "Direct Sales",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Properly configured heat pump chiller rather than heat recovery"
+          }
+        ]
+      },
+      {
+        "componentType": "Air-Cooled, Modular Water Chillers",
+        "basisOfDesign": "Trane",
+        "alternateOptions": [
+          {
+            "manufacturer": "Aermec",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "NSW Duckworth Mechanical",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Cooling only, 3 modules at 30 tons each for 90 tons total"
+          },
+          {
+            "manufacturer": "ClimaCool",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "DMG Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Cooling only, 3 modules at 30 tons each for 90 tons total"
+          },
+          {
+            "manufacturer": "Jetson",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Vertical Systems",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Cooling only, 3 modules at 30 tons each for 90 tons total"
+          },
+          {
+            "manufacturer": "Multistack",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Cooling only, 3 modules at 30 tons each for 90 tons total"
+          },
+          {
+            "manufacturer": "Petra",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Cooling only, 3 modules at 30 tons each for 90 tons total"
+          },
+          {
+            "manufacturer": "Quantech",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Cooling only, 3 modules at 30 tons each for 90 tons total"
+          },
+          {
+            "manufacturer": "Tandem",
+            "model": "",
+            "representativeInfo": {
+              "name": "Jeff Taylor",
+              "company": "Direct Sales",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Cooling only, 3 modules at 30 tons each for 90 tons total"
+          }
+        ]
+      },
+      {
+        "componentType": "Hydronic Pumps",
+        "basisOfDesign": "Bell and Gossett",
+        "alternateOptions": [
+          {
+            "manufacturer": "Armstrong",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Vertical Systems",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Base mounted pumps, could include VFD packages"
+          },
+          {
+            "manufacturer": "Grundfos",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Barrett Engineered Pumps",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Base mounted pumps, could include VFD packages"
+          },
+          {
+            "manufacturer": "Taco",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "RF MacDonald",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Base mounted pumps, could include VFD packages"
+          }
+        ]
+      },
+      {
+        "componentType": "Air Handling Units",
+        "basisOfDesign": "Trane",
+        "alternateOptions": [
+          {
+            "manufacturer": "Carrier",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Sigler",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Semi-custom units with shorter lead times"
+          },
+          {
+            "manufacturer": "Daikin",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "NSW Anaheim",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Semi-custom units with shorter lead times"
+          },
+          {
+            "manufacturer": "Johnson Controls/York/Pace",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Semi-custom units with shorter lead times"
+          },
+          {
+            "manufacturer": "Nortek/Temtrol",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Semi-custom units with shorter lead times"
+          }
+        ]
+      },
+      {
+        "componentType": "Packaged RTUs",
+        "basisOfDesign": "Trane",
+        "alternateOptions": [
+          {
+            "manufacturer": "AAON",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "DMG Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "A2L (454b) refrigerant specified"
+          },
+          {
+            "manufacturer": "Addison",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Vertical Systems",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "A2L (454b) refrigerant specified"
+          },
+          {
+            "manufacturer": "AnnexAir",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "NSW Climatec",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "A2L (454b) refrigerant specified"
+          },
+          {
+            "manufacturer": "Daikin Applied",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "NSW Climatec",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "A2L (454b) refrigerant specified"
+          },
+          {
+            "manufacturer": "Petra",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "A2L (454b) refrigerant specified"
+          },
+          {
+            "manufacturer": "Seasons 4",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Bayer HVAC",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "A2L (454b) refrigerant specified"
+          },
+          {
+            "manufacturer": "Valent",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "A2L (454b) refrigerant specified"
+          },
+          {
+            "manufacturer": "York",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Direct Sales",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "A2L (454b) refrigerant specified"
+          }
+        ]
+      },
+      {
+        "componentType": "HVAC Fans",
+        "basisOfDesign": "Greenheck",
+        "alternateOptions": [
+          {
+            "manufacturer": "Loren Cook",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Haldeman",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "EC motor specified. Shouldn't be a big cost difference."
+          },
+          {
+            "manufacturer": "PennBarry",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "ToroAire",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "EC motor specified. Shouldn't be a big cost difference."
+          },
+          {
+            "manufacturer": "Twin City Fan",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Wirth Gas Equipment",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "EC motor specified. Shouldn't be a big cost difference."
+          }
+        ]
+      },
+      {
+        "componentType": "Air Terminal Units",
+        "basisOfDesign": "Titus",
+        "alternateOptions": [
+          {
+            "manufacturer": "Anemostat",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Products Sales",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "All VAVs scheduled with integral sound attenuator. 24V actuators could save significant electrical scope."
+          },
+          {
+            "manufacturer": "Enviro-Tec",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Treatment Corp",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "All VAVs scheduled with integral sound attenuator. 24V actuators could save significant electrical scope."
+          },
+          {
+            "manufacturer": "Greenheck",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Rep Unknown",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "All VAVs scheduled with integral sound attenuator. 24V actuators could save significant electrical scope."
+          },
+          {
+            "manufacturer": "Metalaire",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Air Handlers Supply",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "All VAVs scheduled with integral sound attenuator. 24V actuators could save significant electrical scope."
+          },
+          {
+            "manufacturer": "Nailor",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Toro Aire",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "All VAVs scheduled with integral sound attenuator. 24V actuators could save significant electrical scope."
+          },
+          {
+            "manufacturer": "Price Industries",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "NSW",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "All VAVs scheduled with integral sound attenuator. 24V actuators could save significant electrical scope."
+          },
+          {
+            "manufacturer": "Trane",
+            "model": "",
+            "representativeInfo": {
+              "name": "",
+              "company": "Direct Sales",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "All VAVs scheduled with integral sound attenuator. 24V actuators could save significant electrical scope."
+          }
+        ]
+      }
+    ],
+    "designNotes": [
+      {
+        "systemType": "Heating & Cooling Systems",
+        "technicalObservations": [
+          "Project utilizes a modular approach to HVAC with a 6-module air-source heat pump modular chiller (180 tons total capacity) and a 3-module cooling-only modular chiller (90 tons total)",
+          "The heat pump chiller is incorrectly labeled as 'heat recovery' in the schedules and requires revised control diagrams",
+          "Control documentation shows 2 chillers which do not match floor plans and will require updates",
+          "Heat pump chiller needs to provide hot water even when there isn't a cooling load"
+        ],
+        "concerns": [
+          "Incorrectly specified heat recovery chiller instead of heat pump chiller",
+          "Inconsistencies between control documentation and actual equipment quantities",
+          "No controls diagrams exist for the heat pump chiller equipment"
+        ],
+        "opportunities": [
+          "Replace incorrectly specified heat recovery chiller with properly configured heat pump chiller",
+          "Update controls to match actual equipment layout",
+          "Create proper control diagrams for the heat pump chiller"
+        ]
+      },
+      {
+        "systemType": "Pump Systems",
+        "technicalObservations": [
+          "Specified Bell and Gossett 1510 series pumps have been replaced by e-1510 series in current product offerings",
+          "Primary pumps not fully scheduled but appear in notes next to chiller schedules",
+          "VFDs specified separately from pumps"
+        ],
+        "concerns": [
+          "Outdated pump model specifications",
+          "Incomplete primary pump schedules"
+        ],
+        "opportunities": [
+          "Update pump specifications to current e-1510 series",
+          "Consider bundling VFDs with pumps as packaged components for cost savings",
+          "Complete and formalize primary pump schedules"
+        ]
+      },
+      {
+        "systemType": "Air Handling Units",
+        "technicalObservations": [
+          "AHUs are semi-custom units with likely shorter lead times than fully custom equipment",
+          "Openings can be reworked as needed for the project scope",
+          "Current specifications include Trane PSCA and CSAA series units"
+        ],
+        "concerns": [],
+        "opportunities": [
+          "Leverage semi-custom nature of specified AHUs to potentially accelerate delivery schedules",
+          "When evaluating alternatives, examine casing thickness and insulation values to meet specification intent"
+        ]
+      },
+      {
+        "systemType": "Distribution Systems",
+        "technicalObservations": [
+          "All VAVs scheduled to include integral sound attenuators, representing a significant cost addition",
+          "VAVs require 120V power, which is atypical for single-duct boxes"
+        ],
+        "concerns": [
+          "Significant cost addition due to integral sound attenuators on all VAVs",
+          "Atypical 120V power requirement for VAVs increases electrical scope substantially"
+        ],
+        "opportunities": [
+          "Consider alternative VAV manufacturers that can provide 24V actuators for the valve package",
+          "Evaluate whether integral sound attenuators are necessary for all VAVs or if they could be selectively applied",
+          "Significant electrical and power scope savings possible with 24V actuators"
+        ]
+      },
+      {
+        "systemType": "Humidity Control",
+        "technicalObservations": [
+          "Specified DriSteem humidifiers allow for only 10' of interconnected piping, which is notably restrictive",
+          "Alternate manufacturers can accommodate longer pipe runs for greater installation flexibility"
+        ],
+        "concerns": [
+          "10' piping limitation is notably restrictive for installation"
+        ],
+        "opportunities": [
+          "Consider alternate humidifier manufacturers (Carel, Condair, Neptronic) that allow for longer interconnected piping runs"
+        ]
+      },
+      {
+        "systemType": "Refrigerants",
+        "technicalObservations": [
+          "Packaged rooftop units specify A2L (R-454B) refrigerant, which is a lower global warming potential option",
+          "Otherwise, these are standard units with conventional configuration"
+        ],
+        "concerns": [],
+        "opportunities": []
+      },
+      {
+        "systemType": "Fan Systems",
+        "technicalObservations": [
+          "EC (electronically commutated) motors specified for the fan systems",
+          "Should not significantly impact costs while improving energy efficiency"
+        ],
+        "concerns": [],
+        "opportunities": []
+      }
+    ],
+    "buildVisionRecommendations": [
+      {
+        "id": 1,
+        "recommendation": "Replace the incorrectly specified 'heat recovery chiller' with a properly configured heat pump chiller",
+        "rationale": "Current specification as 'heat recovery chiller' is inaccurate for the intended application which is a heat pump chiller that can provide hot water even without a cooling load",
+        "estimatedImpact": "Proper equipment selection will ensure system functions as intended and controls are correctly configured",
+        "implementation": "Update specifications to clarify heat pump chiller requirements and review controls documentation to ensure consistency with actual equipment quantities shown on floor plans",
+        "priority": "High"
+      },
+      {
+        "id": 2,
+        "recommendation": "Consider alternative VAV manufacturers that can provide 24V actuators instead of the specified 120V power requirements",
+        "rationale": "Current specification requires 120V power which is atypical for single-duct boxes and significantly increases electrical scope",
+        "estimatedImpact": "Substantial reduction in electrical infrastructure requirements and associated costs across the building",
+        "implementation": "Review alternative VAV manufacturers like Nailor, Price Industries, or Trane that offer 24V actuators for valve packages",
+        "priority": "High"
+      },
+      {
+        "id": 3,
+        "recommendation": "Update pump specifications to current e-1510 series from Bell and Gossett rather than the discontinued 1510 series",
+        "rationale": "The specified 1510 series has been replaced by the e-1510 series in current product offerings",
+        "estimatedImpact": "Ensures current and available equipment is specified, avoiding potential procurement issues",
+        "implementation": "Revise pump schedules to specify e-1510 series and complete primary pump schedules that currently only appear as notes next to chiller schedules",
+        "priority": "Medium"
+      },
+      {
+        "id": 4,
+        "recommendation": "Consider bundling VFDs with pumps as packaged components for potential cost savings",
+        "rationale": "Integrated pump/VFD packages can reduce connection points, simplify controls, and potentially lower overall costs",
+        "estimatedImpact": "Moderate cost savings, simplified installation, and reduced control complexity",
+        "implementation": "Request integrated pump/VFD options from manufacturers such as Armstrong, Grundfos, or pump and VFD vendor partnerships",
+        "priority": "Medium"
+      },
+      {
+        "id": 5,
+        "recommendation": "Consider alternate humidifier manufacturers (Carel, Condair, Neptronic) that allow for longer interconnected piping runs",
+        "rationale": "DriSteem units allow only 10' of interconnected piping, which is notably restrictive for installation",
+        "estimatedImpact": "Improved installation flexibility and potentially reduced installation costs",
+        "implementation": "Evaluate Carel, Condair, or Neptronic humidifiers that allow for longer interconnected piping runs",
+        "priority": "Medium"
+      },
+      {
+        "id": 6,
+        "recommendation": "Evaluate whether integral sound attenuators are necessary for all VAVs or if they could be selectively applied",
+        "rationale": "Integral sound attenuators on all VAVs represent a significant cost addition",
+        "estimatedImpact": "Potential cost savings without compromising occupant comfort in critical areas",
+        "implementation": "Identify spaces with lower noise sensitivity where sound attenuators could be eliminated. Be sure to bid with silencers for accurate design pricing as a possible value engineering option.",
+        "priority": "Medium"
+      },
+      {
+        "id": 7,
+        "recommendation": "Solicit bids from Aermec, ClimaCool, Trane/Arctichill, and Multistack for the modular chillers",
+        "rationale": "Multiple viable alternatives exist for major equipment that can offer competitive pricing without compromising performance",
+        "estimatedImpact": "Potential cost savings through competitive bidding while maintaining design intent",
+        "implementation": "Include these manufacturers in bid specifications and evaluate responses based on both cost and technical compliance",
+        "priority": "Medium"
+      },
+      {
+        "id": 8,
+        "recommendation": "Leverage the semi-custom nature of the specified AHUs to potentially accelerate delivery schedules",
+        "rationale": "Semi-custom units should have shorter lead times than fully custom equipment",
+        "estimatedImpact": "Potential schedule acceleration and earlier project completion",
+        "implementation": "When evaluating alternatives, look at casing thickness and insulation values to meet the intention of the specification",
+        "priority": "Medium"
+      }
+    ],
+    "conclusion": {
+      "summary": "Based on our analysis, this project's HVAC design is generally sound but contains several areas for optimization that could improve performance, reduce costs, and enhance installation flexibility. Key equipment selections are appropriate for the application, but specification inconsistencies (particularly around the heat pump chiller and controls) should be addressed. We recommend focusing on the electrical requirements for VAVs as the highest-impact cost saving opportunity, potentially reducing scope significantly by transitioning from 120V to 24V operation where possible. Multiple competitive alternatives exist for all major equipment categories, allowing for value engineering without compromising system performance.",
+      "keyFindings": [
+        "Incorrectly specified heat recovery chiller should be properly documented as a heat pump chiller that can provide hot water even without a cooling load",
+        "The 120V power requirement for VAVs represents a significant opportunity for cost reduction through alternative VAV manufacturers that can provide 24V actuators",
+        "Control documentation inconsistencies need correction, particularly regarding chiller quantities",
+        "Multiple competitive alternatives exist for all major equipment categories without compromising performance",
+        "Several specifications reference outdated equipment models (e.g., pump series)",
+        "Selective application of sound attenuators could provide cost savings without compromising occupant comfort",
+        "DriSteem humidifiers have restrictive piping limitations that other manufacturers could overcome"
+      ],
+      "highestPriorityActions": [
+        "Replace incorrectly specified heat recovery chiller with properly configured heat pump chiller and update associated controls",
+        "Consider alternative VAV manufacturers that can provide 24V actuators to significantly reduce electrical scope and costs",
+        "Update pump specifications to current models and consider bundling with VFDs",
+        "Evaluate alternate humidifier manufacturers for improved installation flexibility",
+        "Review necessity of integral sound attenuators for all VAVs"
+      ]
+    }
+  }

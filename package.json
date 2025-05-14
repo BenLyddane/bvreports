@@ -1,0 +1,21 @@
+{
+  "name": "bvreports",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/main.js",
+    "clean": "rm -rf temp/* && echo 'Temporary files cleaned'",
+    "setup": "mkdir -p temp output"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A Node.js application that converts markdown files into beautifully formatted PDF reports using LaTeX",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.2",
+    "marked": "^15.0.11",
+    "yaml-front-matter": "^4.1.1"
+  }
+}
