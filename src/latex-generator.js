@@ -326,9 +326,9 @@ function generateEquipmentTable(equipmentTable) {
     latex += '\\vspace{1em}\n\n';
   });
   
-  // Generate alternate manufacturers table if it exists
+  // Generate suppliers table if it exists
   if (alternateManufacturers && alternateManufacturers.length > 0) {
-    latex += `\\section*{\\textbf{Alternate Manufacturers}}\n\n`;
+    latex += `\\section*{\\textbf{Suppliers}}\n\n`;
     
     // Process each component type separately
     alternateManufacturers.forEach(item => {
@@ -353,24 +353,15 @@ function generateEquipmentTable(equipmentTable) {
         boxsep=0pt
       ]\n`;
       
-      // Add basis of design information as a colored bar at the top
-      latex += `\\colorbox{${headerBg}}{\\parbox{\\textwidth}{
-        \\begin{center}
-        \\textbf{Basis of Design:} ${escapeLatex(item.basisOfDesign)}
-        \\end{center}
-      }}\n\n`;
-      
-      // Add some vertical space between the header and the table
-      latex += `\\vspace{0.3cm}\n`;
-      
       // Use longtable instead of tabularx to allow page breaks
       latex += `\\begin{longtable}{|`;
       
       // Column specifications
-      latex += `p{0.20\\textwidth}|`; // Manufacturer
+      latex += `p{0.15\\textwidth}|`; // Manufacturer
       latex += `p{0.15\\textwidth}|`; // Model
       latex += `p{0.15\\textwidth}|`; // Representative
-      latex += `p{0.50\\textwidth}|`; // Compatibility Notes
+      latex += `p{0.45\\textwidth}|`; // Compatibility Notes
+      latex += `p{0.10\\textwidth}|`; // Basis of Design
       latex += `}\n`;
       
       // Define header that repeats on each page
@@ -378,7 +369,7 @@ function generateEquipmentTable(equipmentTable) {
       latex += `\\rowcolor{${headerBg}}\n`;
       
       // Add headers with proper formatting and background color
-      const altHeaders = ['Manufacturer', 'Model', 'Representative', 'Compatibility Notes'];
+      const altHeaders = ['Manufacturer', 'Model', 'Representative', 'Compatibility Notes', 'BoD'];
       latex += altHeaders.map(header => {
         // Use makecell to allow line breaks in headers
         return `\\textbf{\\makecell{${escapeLatex(header)}}}`;
@@ -388,7 +379,7 @@ function generateEquipmentTable(equipmentTable) {
       
       // Define footer that repeats on each page (optional)
       latex += '\\hline\n';
-      latex += `\\multicolumn{4}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
+      latex += `\\multicolumn{5}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
       latex += '\\hline\n';
       latex += '\\endfoot\n\n';
       
@@ -396,18 +387,66 @@ function generateEquipmentTable(equipmentTable) {
       latex += '\\hline\n';
       latex += '\\endlastfoot\n\n';
       
-      // Add rows for each alternate option
+      // First extract the basis of design supplier from the JSON data
+      let bodSupplier = null;
+      if (item.basisOfDesign) {
+        // For backward compatibility with the old format
+        bodSupplier = {
+          manufacturer: item.basisOfDesign.split(' ')[0] || '',
+          model: item.basisOfDesign.split(' ').slice(1).join(' ') || '',
+          representative: 'N/A',
+          compatibilityNotes: 'Basis of Design',
+          isBasisOfDesign: true
+        };
+      }
+      
+      // Combine all suppliers (basis of design and alternates) into one array for display
+      const allSuppliers = [];
+      
+      // Add the basis of design supplier if found in the old format
+      if (bodSupplier) {
+        allSuppliers.push(bodSupplier);
+      }
+      
+      // Add all alternate options
       item.alternateOptions.forEach(alt => {
+        allSuppliers.push({
+          ...alt,
+          isBasisOfDesign: false
+        });
+      });
+      
+      // Sort the suppliers to make sure BoD appears first
+      allSuppliers.sort((a, b) => {
+        if (a.isBasisOfDesign) return -1;
+        if (b.isBasisOfDesign) return 1;
+        return 0;
+      });
+      
+      // Add rows for each supplier
+      allSuppliers.forEach(supplier => {
+        // Create special handling for BoD cell to prevent escaping LaTeX commands
+        const bodCell = supplier.isBasisOfDesign ? 'Yes' : 'No';
+        
+        // Apply highlighting to the basis of design row
+        if (supplier.isBasisOfDesign) {
+          latex += `\\rowcolor{bvNeutralLight}\n`;
+        }
+        
         const row = [
-          alt.manufacturer,
-          alt.model,
-          alt.representative,
-          alt.compatibilityNotes
+          supplier.manufacturer,
+          supplier.model,
+          supplier.representative,
+          supplier.compatibilityNotes
         ];
         
-        latex += row.map(cell => {
-          return escapeLatex(cell);
-        }).join(' & ') + ' \\\\\n';
+        // Escape all cells except the last one (BoD indicator)
+        const escapedCells = row.map(cell => escapeLatex(cell)).join(' & ');
+        
+        // Add the BoD cell separately with special formatting if it's the basis of design
+        const formattedBodCell = supplier.isBasisOfDesign ? '\\textbf{Yes}' : 'No';
+        
+        latex += escapedCells + ` & ${formattedBodCell}` + ' \\\\\n';
         latex += '\\hline\n';
       });
       

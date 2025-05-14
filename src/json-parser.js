@@ -8,6 +8,66 @@ const fs = require('fs-extra');
 const { escapeLatex } = require('./utils');
 
 /**
+ * Fix common JSON syntax issues including unescaped quotes and control characters
+ * @param {string} jsonString - Raw JSON string
+ * @returns {string} - Processed JSON string with fixed syntax issues
+ */
+function sanitizeJsonString(jsonString) {
+  if (!jsonString) return jsonString;
+  
+  try {
+    // First attempt - try to parse it as-is to avoid unnecessary processing
+    JSON.parse(jsonString);
+    return jsonString;
+  } catch (error) {
+    // Only apply fixes if there's a parse error
+    console.log(`JSON parse error detected: ${error.message}. Attempting to fix...`);
+    
+    let sanitized = jsonString;
+    
+    // Step 1: Remove or replace invalid control characters
+    // ASCII control chars (except allowed ones in JSON spec)
+    sanitized = sanitized.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, '');
+    
+    // Step 2: Handle unescaped quotes within string values
+    // First, try to find and fix obvious string patterns with unescaped quotes
+    sanitized = sanitized.replace(/(?<=([:,]\s*"|^\s*"))(?:\\"|[^"])*?(?<!\\)"/g, function(match) {
+      return match.replace(/(?<!\\)"/g, '\\"');
+    });
+    
+    // Step 3: Special case handling for the MS-1 size field that might have unescaped quotes
+    // Looking specifically for patterns like: "size": "32" x 32"" (note the unescaped quotes)
+    sanitized = sanitized.replace(/"size":\s*"(\d+)"\s*x\s*(\d+)"/g, '"size": "$1\\" x $2\\""');
+    
+    // Also handle other common measurement patterns with quotes
+    sanitized = sanitized.replace(/"([^"]*\d+)"\s*([^"]*)\s*(\d+)"/g, function(match, p1, p2, p3) {
+      // Only replace if p2 is a simple unit or operator like "x", "×", etc.
+      if (p2.trim().match(/^[x×*\/\-+\s]+$/)) {
+        return `"${p1}\\" ${p2} ${p3}\\""`; 
+      }
+      return match;
+    });
+    
+    // Step 4: Try to run a final validation - if it still fails, make a more aggressive attempt
+    try {
+      JSON.parse(sanitized);
+      return sanitized;
+    } catch (secondError) {
+      console.log(`First repair attempt failed. Making additional adjustments...`);
+      
+      // More aggressive replacement for any remaining suspicious patterns
+      // Replace all instances of unescaped quotes between colons and commas or braces
+      sanitized = sanitized.replace(/:\s*"([^"]*)(?<!\\)"(?=\s*[,}])/g, function(match, content) {
+        // Replace any remaining unescaped inner quotes
+        return match.replace(/(?<!")"/g, '\\"');
+      });
+      
+      return sanitized;
+    }
+  }
+}
+
+/**
  * Parse a JSON file and extract structured data
  * @param {string} filePath - Path to JSON file
  * @returns {Promise<Object>} - Parsed data
@@ -17,8 +77,19 @@ async function parseJsonFile(filePath) {
     // Read JSON file
     const fileContent = await fs.readFile(filePath, 'utf8');
     
-    // Parse JSON content
-    const jsonData = JSON.parse(fileContent);
+    // First try to sanitize the JSON content to fix common issues like unescaped quotes
+    const sanitizedContent = sanitizeJsonString(fileContent);
+    
+    let jsonData;
+    try {
+      // Try to parse the sanitized JSON content
+      jsonData = JSON.parse(sanitizedContent);
+    } catch (parseErr) {
+      // Enhanced error message with more details about the JSON parsing failure
+      const errorMessage = `JSON parsing error: ${parseErr.message}. Check for unescaped quotes or other syntax errors in the file: ${filePath}`;
+      console.error(errorMessage);
+      throw new Error(errorMessage);
+    }
     
     // Extract structured data
     const structuredData = extractStructuredData(jsonData);
@@ -55,7 +126,9 @@ function extractStructuredData(jsonData) {
   
   // Extract equipment table - use the new equipmentByType field if available, otherwise use projectEquipment
   const equipmentData = jsonData.equipmentByType || jsonData.projectEquipment;
-  const equipmentTable = extractEquipmentTable(equipmentData, jsonData.alternateManufacturers);
+  // Use suppliers field if available, otherwise fall back to alternateManufacturers for backward compatibility
+  const supplierData = jsonData.suppliers || jsonData.alternateManufacturers;
+  const equipmentTable = extractEquipmentTable(equipmentData, supplierData);
   
   // Extract sections
   const sections = extractSections(jsonData);
@@ -215,35 +288,108 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
     });
   }
   
-  // Process alternate manufacturers separately
+  // Process suppliers (or alternate manufacturers) separately
   let alternateManufacturersData = null;
   if (alternateManufacturers && alternateManufacturers.length > 0) {
     alternateManufacturersData = alternateManufacturers.map(item => {
       const componentType = item.componentType || '';
-      const basisOfDesign = item.basisOfDesign || '';
-      const alternateOptions = item.alternateOptions || [];
       
-      return {
-        componentType,
-        basisOfDesign,
-        alternateOptions: alternateOptions.map(alt => ({
+      // Check if we're using the new "suppliers" format or old "alternateManufacturers" format
+      if (item.suppliers) {
+        // New format - find the basis of design supplier (isBasisOfDesign is true)
+        const bodSupplier = item.suppliers.find(s => s.isBasisOfDesign === true) || item.suppliers[0];
+        const basisOfDesign = bodSupplier ? `${bodSupplier.manufacturer} ${bodSupplier.model}` : '';
+        
+        // Include both basis of design and alternate suppliers in the options
+        const alternateOptions = item.suppliers.map(s => ({
+          manufacturer: s.manufacturer || '',
+          model: s.model || '',
+          representative: s.representativeInfo?.company || 'N/A',
+          compatibilityNotes: s.compatibilityNotes || '',
+          isBasisOfDesign: s.isBasisOfDesign === true
+        }));
+        
+        return {
+          componentType,
+          basisOfDesign,
+          alternateOptions
+        };
+      } else {
+        // Old format
+        const basisOfDesign = item.basisOfDesign || '';
+        
+        // Extract manufacturer and model from the basisOfDesign string
+        const bodParts = basisOfDesign.split(' ');
+        const bodManufacturer = bodParts[0] || '';
+        const bodModel = bodParts.slice(1).join(' ') || '';
+        
+        // Create a basis of design supplier object
+        const bodSupplier = {
+          manufacturer: bodManufacturer,
+          model: bodModel,
+          representative: 'N/A',
+          compatibilityNotes: 'Basis of Design',
+          isBasisOfDesign: true
+        };
+        
+        // Get the alternate options
+        const alternateOptions = item.alternateOptions || [];
+        
+        // Map alternate options and mark them as not basis of design
+        const mappedAlternateOptions = alternateOptions.map(alt => ({
           manufacturer: alt.manufacturer || '',
           model: alt.model || '',
           representative: alt.representativeInfo?.company || 'N/A',
-          compatibilityNotes: alt.compatibilityNotes || ''
-        }))
-      };
+          compatibilityNotes: alt.compatibilityNotes || '',
+          isBasisOfDesign: false
+        }));
+        
+        // Combine the basis of design with alternate options
+        const allOptions = [bodSupplier, ...mappedAlternateOptions];
+        
+        return {
+          componentType,
+          basisOfDesign,
+          alternateOptions: allOptions
+        };
+      }
     });
     
     // For backward compatibility, also add to the flat rows structure
-    rows.push(['Alternate Manufacturers', '', '', '', '']);
+    rows.push(['Suppliers', '', '', '', '']);
     rows.push(['Component Type', 'BoD Manufacturer', 'Alternate Manufacturer', 'Model', 'Rep', 'Notes']);
     
     alternateManufacturers.forEach(item => {
       const componentType = item.componentType || '';
-      const basisOfDesign = item.basisOfDesign || '';
       
-      if (item.alternateOptions && item.alternateOptions.length > 0) {
+      // Handle both new and old formats
+      if (item.suppliers) {
+        // New format
+        const bodSupplier = item.suppliers.find(s => s.isBasisOfDesign === true) || item.suppliers[0];
+        const basisOfDesign = bodSupplier ? `${bodSupplier.manufacturer} ${bodSupplier.model}` : '';
+        
+        // Process non-BOD suppliers as alternate options
+        item.suppliers
+          .filter(s => s.isBasisOfDesign !== true)
+          .forEach(alt => {
+            const manufacturer = alt.manufacturer || '';
+            const model = alt.model || '';
+            const rep = alt.representativeInfo?.company || 'N/A';
+            const notes = alt.compatibilityNotes || '';
+            
+            rows.push([
+              componentType,
+              basisOfDesign,
+              manufacturer,
+              model,
+              rep,
+              notes
+            ]);
+          });
+      } else if (item.alternateOptions && item.alternateOptions.length > 0) {
+        // Old format
+        const basisOfDesign = item.basisOfDesign || '';
+        
         item.alternateOptions.forEach(alt => {
           const manufacturer = alt.manufacturer || '';
           const model = alt.model || '';

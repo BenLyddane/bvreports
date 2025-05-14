@@ -48,5 +48,15 @@
     "path": "SmokeTree Resort.json",
     "lastModified": 1747249295560,
     "pdfPath": "../output/SmokeTree Resort.pdf"
+  },
+  {
+    "path": "Town of Montgomery.json",
+    "lastModified": 1747252617568,
+    "pdfPath": "../output/Town of Montgomery.pdf"
+  },
+  {
+    "path": "PA DGS State Lab Facility.json",
+    "lastModified": 1747253180676,
+    "pdfPath": "../output/PA DGS State Lab Facility.pdf"
   }
 ]

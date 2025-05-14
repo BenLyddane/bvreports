@@ -1,0 +1,1024 @@
+{
+    "reportTitle": "BuildVision Project Report - Pennsylvania State Laboratory Facility",
+    "customerInformation": {
+      "customerName": "Pennsylvania Department of General Services",
+      "contactPerson": "Project Manager, DGS",
+      "contactEmail": "projects@dgs.pa.gov",
+      "contactPhone": "717-787-5000",
+      "projectId": "1050-1 PHASE 1",
+      "additionalFields": {
+        "location": "Harrisburg, PA",
+        "projectType": "Laboratory Facility"
+      }
+    },
+    "projectInformation": {
+      "projectName": "Pennsylvania State Laboratory Facility",
+      "location": "Harrisburg, PA",
+      "startDate": "2023-05-12",
+      "completionDate": "2025-12-31",
+      "budget": "Not specified in documentation",
+      "scope": "Construction of a new state laboratory facility including mechanical, electrical, plumbing, fire protection, and laboratory equipment systems",
+      "projectUrl": "",
+      "additionalFields": {
+        "projectPhase": "Documentation Phase 1",
+        "lastUpdated": "2024-11-25"
+      }
+    },
+    "preparerInformation": {
+      "preparers": [
+        {
+          "name": "Ben Lyddane",
+          "email": "Ben@BuildVision.io",
+          "phone": "202-365-8628"
+        },
+        {
+          "name": "Mackenzie Hoover",
+          "email": "Mackenzie@buildvision.io",
+          "phone": "267-281-4339"
+        }
+      ],
+      "preparationDate": "2025-05-14"
+    },
+    "equipmentByType": [
+      {
+        "equipmentType": "Air Handling Units",
+        "notes": "Multiple AHUs serving different building areas. Units include supply fans, coils, filters, and energy recovery systems.",
+        "items": [
+          {
+            "equipmentTag": "AHU-1",
+            "manufacturer": "VENTROL",
+            "model": "",
+            "specifications": {
+              "airflow": "50,000 CFM",
+              "supplyTemperature": "55°F",
+              "coilRows": "4",
+              "filterEfficiency": "MERV 15",
+              "voltage": "460/3/60"
+            }
+          },
+          {
+            "equipmentTag": "AHU-2",
+            "manufacturer": "VENTROL",
+            "model": "",
+            "specifications": {
+              "airflow": "50,000 CFM",
+              "supplyTemperature": "55°F",
+              "coilRows": "4",
+              "filterEfficiency": "MERV 15",
+              "voltage": "460/3/60"
+            }
+          },
+          {
+            "equipmentTag": "AHU-3",
+            "manufacturer": "VENTROL",
+            "model": "",
+            "specifications": {
+              "airflow": "50,000 CFM",
+              "supplyTemperature": "55°F",
+              "coilRows": "4",
+              "filterEfficiency": "MERV 15",
+              "voltage": "460/3/60"
+            }
+          },
+          {
+            "equipmentTag": "AHU-4",
+            "manufacturer": "VENTROL",
+            "model": "",
+            "specifications": {
+              "airflow": "50,000 CFM",
+              "supplyTemperature": "55°F",
+              "coilRows": "4",
+              "filterEfficiency": "MERV 15",
+              "voltage": "460/3/60"
+            }
+          },
+          {
+            "equipmentTag": "AHU-5",
+            "manufacturer": "VENTROL",
+            "model": "",
+            "specifications": {
+              "airflow": "50,000 CFM",
+              "supplyTemperature": "55°F",
+              "coilRows": "4",
+              "filterEfficiency": "MERV 15",
+              "voltage": "460/3/60"
+            }
+          },
+          {
+            "equipmentTag": "AHU-6",
+            "manufacturer": "VENTROL",
+            "model": "",
+            "specifications": {
+              "airflow": "50,000 CFM",
+              "supplyTemperature": "55°F",
+              "coilRows": "4",
+              "filterEfficiency": "MERV 15",
+              "voltage": "460/3/60"
+            }
+          },
+          {
+            "equipmentTag": "AHU-7",
+            "manufacturer": "VENTROL",
+            "model": "",
+            "specifications": {
+              "voltage": "460/3/60"
+            }
+          },
+          {
+            "equipmentTag": "AHU-8",
+            "manufacturer": "VENTROL",
+            "model": "",
+            "specifications": {
+              "voltage": "460/3/60"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Cooling Towers",
+        "notes": "Evaporative cooling towers with VFD control for hot water rejection",
+        "items": [
+          {
+            "equipmentTag": "CT-1",
+            "manufacturer": "EVAPCO",
+            "model": "AXS-12-9M22",
+            "specifications": {
+              "fanMotorHP": "20",
+              "voltage": "480-3-60",
+              "fullLoadAmps": "36",
+              "operatingWeight": "25,520 lbs",
+              "dimensions": "12' x 23' x 12'",
+              "sccr": "65"
+            }
+          },
+          {
+            "equipmentTag": "CT-2",
+            "manufacturer": "EVAPCO",
+            "model": "AXS-12-9M22",
+            "specifications": {
+              "fanMotorHP": "20",
+              "voltage": "480-3-60",
+              "fullLoadAmps": "36",
+              "operatingWeight": "25,520 lbs",
+              "dimensions": "12' x 23' x 12'",
+              "sccr": "65"
+            }
+          },
+          {
+            "equipmentTag": "CT-3",
+            "manufacturer": "EVAPCO",
+            "model": "AXS-12-9M22",
+            "specifications": {
+              "fanMotorHP": "20",
+              "voltage": "480-3-60",
+              "fullLoadAmps": "36",
+              "operatingWeight": "25,520 lbs",
+              "dimensions": "12' x 23' x 12'",
+              "sccr": "65"
+            }
+          },
+          {
+            "equipmentTag": "CT-4",
+            "manufacturer": "EVAPCO",
+            "model": "AXS-12-9M22",
+            "specifications": {
+              "fanMotorHP": "20",
+              "voltage": "480-3-60",
+              "fullLoadAmps": "36",
+              "operatingWeight": "25,520 lbs",
+              "dimensions": "12' x 23' x 12'",
+              "sccr": "65"
+            }
+          },
+          {
+            "equipmentTag": "CT-5 (Future)",
+            "manufacturer": "EVAPCO",
+            "model": "AXS-12-9M22",
+            "specifications": {
+              "fanMotorHP": "20",
+              "voltage": "480-3-60",
+              "fullLoadAmps": "36",
+              "operatingWeight": "25,520 lbs",
+              "dimensions": "12' x 23' x 12'",
+              "sccr": "65"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Hot Water Boilers",
+        "notes": "Gas-fired condensing boilers with high efficiency ratings",
+        "items": [
+          {
+            "equipmentTag": "B-1",
+            "manufacturer": "PATTERSON-KELLY",
+            "model": "",
+            "specifications": {
+              "capacity": "6,000 MBH",
+              "thermalEfficiency": "94% (96.5% AHRI)",
+              "waterVolume": "100 gallons",
+              "maxPressureDrop": "8.0 PSI",
+              "voltage": "480/3/60",
+              "fullLoadAmps": "15"
+            }
+          },
+          {
+            "equipmentTag": "B-2",
+            "manufacturer": "PATTERSON-KELLY",
+            "model": "",
+            "specifications": {
+              "capacity": "6,000 MBH",
+              "thermalEfficiency": "94% (96.5% AHRI)",
+              "waterVolume": "100 gallons",
+              "maxPressureDrop": "8.0 PSI",
+              "voltage": "480/3/60",
+              "fullLoadAmps": "15"
+            }
+          },
+          {
+            "equipmentTag": "B-3",
+            "manufacturer": "PATTERSON-KELLY",
+            "model": "",
+            "specifications": {
+              "capacity": "6,000 MBH",
+              "thermalEfficiency": "94% (96.5% AHRI)",
+              "waterVolume": "100 gallons",
+              "maxPressureDrop": "8.0 PSI",
+              "voltage": "480/3/60",
+              "fullLoadAmps": "15"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Pumps",
+        "notes": "End suction centrifugal pumps for various hydronic systems",
+        "items": [
+          {
+            "equipmentTag": "HWP-1",
+            "manufacturer": "B&G",
+            "model": "E-1510 5EB",
+            "specifications": {
+              "pumpType": "End Suction",
+              "flow": "1200 GPM",
+              "head": "70 ft",
+              "motorHP": "30",
+              "efficiency": "79.5%",
+              "voltage": "460-3-60",
+              "controlType": "VFD"
+            }
+          },
+          {
+            "equipmentTag": "HWP-2",
+            "manufacturer": "B&G",
+            "model": "E-1510 5EB",
+            "specifications": {
+              "pumpType": "End Suction",
+              "flow": "1200 GPM",
+              "head": "70 ft",
+              "motorHP": "30",
+              "efficiency": "79.5%",
+              "voltage": "460-3-60",
+              "controlType": "VFD"
+            }
+          },
+          {
+            "equipmentTag": "GHP-1",
+            "manufacturer": "B&G",
+            "model": "E-1510 6E",
+            "specifications": {
+              "pumpType": "End Suction",
+              "flow": "1520 GPM",
+              "head": "110 ft",
+              "motorHP": "60",
+              "efficiency": "85.2%",
+              "voltage": "460-3-60",
+              "controlType": "VFD"
+            }
+          },
+          {
+            "equipmentTag": "GHP-2",
+            "manufacturer": "B&G",
+            "model": "E-1510 6E",
+            "specifications": {
+              "pumpType": "End Suction",
+              "flow": "1520 GPM",
+              "head": "110 ft",
+              "motorHP": "60",
+              "efficiency": "85.2%",
+              "voltage": "460-3-60",
+              "controlType": "VFD"
+            }
+          },
+          {
+            "equipmentTag": "ERP-1",
+            "manufacturer": "B&G",
+            "model": "E-1510 6G",
+            "specifications": {
+              "pumpType": "End Suction",
+              "flow": "1600 GPM",
+              "head": "55 ft",
+              "motorHP": "30",
+              "efficiency": "81.5%",
+              "voltage": "460-3-60",
+              "controlType": "VFD"
+            }
+          },
+          {
+            "equipmentTag": "ERP-2",
+            "manufacturer": "B&G",
+            "model": "E-1510 6G",
+            "specifications": {
+              "pumpType": "End Suction",
+              "flow": "1600 GPM",
+              "head": "55 ft",
+              "motorHP": "30",
+              "efficiency": "81.5%",
+              "voltage": "460-3-60",
+              "controlType": "VFD"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Fans",
+        "notes": "Lab exhaust and general ventilation fans",
+        "items": [
+          {
+            "equipmentTag": "EF-1",
+            "manufacturer": "STROBIC",
+            "model": "Tri-Stack",
+            "specifications": {
+              "airflow": "3,000 CFM",
+              "staticPressure": "21.4 in WG",
+              "motorHP": "30",
+              "voltage": "460-3-60",
+              "controlType": "VFD",
+              "emergencyPower": "YES"
+            }
+          },
+          {
+            "equipmentTag": "EF-2",
+            "manufacturer": "STROBIC",
+            "model": "Tri-Stack",
+            "specifications": {
+              "airflow": "3,000 CFM",
+              "staticPressure": "21.4 in WG",
+              "motorHP": "30",
+              "voltage": "460-3-60",
+              "controlType": "VFD",
+              "emergencyPower": "YES"
+            }
+          },
+          {
+            "equipmentTag": "EF-3",
+            "manufacturer": "STROBIC",
+            "model": "Tri-Stack",
+            "specifications": {
+              "airflow": "3,800 CFM",
+              "staticPressure": "32.2 in WG",
+              "motorHP": "40",
+              "voltage": "460-3-61",
+              "controlType": "VFD",
+              "emergencyPower": "YES"
+            }
+          },
+          {
+            "equipmentTag": "EF-4",
+            "manufacturer": "STROBIC",
+            "model": "Tri-Stack",
+            "specifications": {
+              "airflow": "3,800 CFM",
+              "staticPressure": "32.2 in WG",
+              "motorHP": "40",
+              "voltage": "460-3-62",
+              "controlType": "VFD",
+              "emergencyPower": "YES"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Electrical Distribution",
+        "notes": "Power distribution system includes medium voltage switchgear, transformers, and low voltage distribution",
+        "items": [
+          {
+            "equipmentTag": "MDS-J1",
+            "manufacturer": "",
+            "model": "",
+            "specifications": {
+              "voltage": "480V",
+              "phaseConfig": "3Ø, 3W",
+              "ampacity": "4000A",
+              "interruptingRating": "100kA RMS SYM",
+              "busType": "Cu Bus"
+            }
+          },
+          {
+            "equipmentTag": "MDS-J2",
+            "manufacturer": "",
+            "model": "",
+            "specifications": {
+              "voltage": "480V",
+              "phaseConfig": "3Ø, 3W",
+              "ampacity": "4000A",
+              "interruptingRating": "100kA RMS SYM",
+              "busType": "Cu Bus"
+            }
+          },
+          {
+            "equipmentTag": "UPS-A",
+            "manufacturer": "",
+            "model": "",
+            "specifications": {
+              "capacity": "250kVA/250kW",
+              "voltage": "480/3P/3W input, 208Y/120V output",
+              "backupTime": "15 minutes at 250kW"
+            }
+          },
+          {
+            "equipmentTag": "UPS-B",
+            "manufacturer": "",
+            "model": "",
+            "specifications": {
+              "capacity": "250kVA/250kW",
+              "voltage": "480/3P/3W input, 208Y/120V output",
+              "backupTime": "15 minutes at 250kW"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Emergency Power",
+        "notes": "Emergency power generation system with generator paralleling capability",
+        "items": [
+          {
+            "equipmentTag": "JG1",
+            "manufacturer": "",
+            "model": "",
+            "specifications": {
+              "capacity": "2500kW / 3125kVA",
+              "voltage": "480Y/277V",
+              "phaseConfig": "3Ø, 4W",
+              "ampacity": "4000A"
+            }
+          },
+          {
+            "equipmentTag": "JG2",
+            "manufacturer": "",
+            "model": "",
+            "specifications": {
+              "capacity": "2500kW / 3125kVA",
+              "voltage": "480Y/277V",
+              "phaseConfig": "3Ø, 4W",
+              "ampacity": "4000A"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Grilles, Registers & Diffusers",
+        "notes": "Various air distribution devices throughout the facility",
+        "items": [
+          {
+            "equipmentTag": "CD-1",
+            "manufacturer": "TITUS",
+            "model": "OMNI",
+            "specifications": {
+              "type": "Supply",
+              "sizes": "6\", 8\", 10\", 12\", 14\"",
+              "airFlowRange": "0-600 CFM",
+              "maxAirPressureDrop": "0.1 in WG",
+              "maxNCLevel": "25"
+            }
+          },
+          {
+            "equipmentTag": "CD-2",
+            "manufacturer": "TITUS",
+            "model": "TLF",
+            "specifications": {
+              "type": "Supply",
+              "sizes": "8\", 10\", 12\"",
+              "airFlowRange": "0-320 CFM",
+              "maxAirPressureDrop": "0.1 in WG",
+              "maxNCLevel": "25"
+            }
+          },
+          {
+            "equipmentTag": "LD-1",
+            "manufacturer": "TITUS",
+            "model": "FL-10HT",
+            "specifications": {
+              "type": "Supply - Linear",
+              "slotConfig": "1-SLOT, 1\" SLOT",
+              "airFlowRange": "20-200 CFM",
+              "maxAirPressureDrop": "0.15 in WG",
+              "maxNCLevel": "25",
+              "accessory": "4'-0\" INSULATED PLENUM"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Hydronic Specialties",
+        "notes": "Support components for hydronic systems",
+        "items": [
+          {
+            "equipmentTag": "AS-1",
+            "manufacturer": "B&G",
+            "model": "",
+            "specifications": {
+              "system": "Chiller Water",
+              "lineSize": "8\"",
+              "capacity": "3910 GPM",
+              "maxWPD": "5 ft"
+            }
+          },
+          {
+            "equipmentTag": "AS-2",
+            "manufacturer": "B&G",
+            "model": "",
+            "specifications": {
+              "system": "Hot Water",
+              "lineSize": "6\"",
+              "capacity": "1380 GPM",
+              "maxWPD": "5 ft"
+            }
+          },
+          {
+            "equipmentTag": "AS-3",
+            "manufacturer": "B&G",
+            "model": "",
+            "specifications": {
+              "system": "Geothermal Loop",
+              "lineSize": "10\"",
+              "capacity": "1200 GPM",
+              "maxWPD": "5 ft"
+            }
+          },
+          {
+            "equipmentTag": "ET-1",
+            "manufacturer": "B&G",
+            "model": "",
+            "specifications": {
+              "system": "Chiller Water"
+            }
+          },
+          {
+            "equipmentTag": "ET-2",
+            "manufacturer": "B&G",
+            "model": "",
+            "specifications": {
+              "system": "Hot Water"
+            }
+          },
+          {
+            "equipmentTag": "ET-3",
+            "manufacturer": "B&G",
+            "model": "",
+            "specifications": {
+              "system": "Geothermal Loop"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "HEPA Filter Housings",
+        "notes": "Bag-in Bag-out filter housings for laboratory exhaust",
+        "items": [
+          {
+            "equipmentTag": "FHE-1",
+            "manufacturer": "AAF",
+            "model": "TSI-2H3W-4GG-304-D1",
+            "specifications": {
+              "preFilterEfficiency": "MERV 9",
+              "hepaFilterEfficiency": "99.99%",
+              "maxFaceVelocity": "500 FPM"
+            }
+          },
+          {
+            "equipmentTag": "FHE-2",
+            "manufacturer": "AAF",
+            "model": "TSI-1H2W-4GG-304-D1",
+            "specifications": {
+              "preFilterEfficiency": "MERV 9",
+              "hepaFilterEfficiency": "99.99%",
+              "maxFaceVelocity": "500 FPM"
+            }
+          }
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "componentType": "Air Handling Units",
+        "suppliers": [
+          {
+            "manufacturer": "VENTROL",
+            "model": "Custom",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "H.C. Nye Company",
+              "company": "H.C. Nye Company",
+              "contact": "717-561-2500"
+            },
+            "costDifference": "$0 (Basis of Design)",
+            "compatibilityNotes": "Custom units designed specifically for laboratory applications with high filtration requirements and energy recovery capabilities."
+          },
+          {
+            "manufacturer": "Trane",
+            "model": "Custom",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Trane Philadelphia",
+              "company": "Trane U.S. Inc.",
+              "contact": "215-768-3600"
+            },
+            "costDifference": "+5%",
+            "compatibilityNotes": "Compatible with design specifications but may require modifications to coil and fan arrangements. Different control interface."
+          },
+          {
+            "manufacturer": "York",
+            "model": "Custom",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Johnson Controls",
+              "company": "Johnson Controls",
+              "contact": "717-771-1117"
+            },
+            "costDifference": "+3%",
+            "compatibilityNotes": "Compatible option with similar energy recovery system. Would require different BAS integration approach."
+          }
+        ]
+      },
+      {
+        "componentType": "Cooling Towers",
+        "suppliers": [
+          {
+            "manufacturer": "EVAPCO",
+            "model": "AXS-12-9M22",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "Cummins-Wagner",
+              "company": "Cummins-Wagner",
+              "contact": "717-654-0281"
+            },
+            "costDifference": "$0 (Basis of Design)",
+            "compatibilityNotes": "Factory-assembled, induced draft, counterflow design with VFD control"
+          },
+          {
+            "manufacturer": "Baltimore Aircoil Company (BAC)",
+            "model": "Series 3000",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Thermal Products",
+              "company": "Thermal Products, Inc.",
+              "contact": "610-325-9229"
+            },
+            "costDifference": "-2%",
+            "compatibilityNotes": "Similar performance characteristics. May require modifications to piping connections."
+          },
+          {
+            "manufacturer": "SPX Cooling Technologies (Marley)",
+            "model": "NC Series",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Potomac Sales",
+              "company": "Potomac Sales Group",
+              "contact": "info@potomacsales.com"
+            },
+            "costDifference": "+4%",
+            "compatibilityNotes": "Premium option with enhanced water conservation features and low sound options. May require additional controls integration."
+          }
+        ]
+      },
+      {
+        "componentType": "Hot Water Boilers",
+        "suppliers": [
+          {
+            "manufacturer": "PATTERSON-KELLY",
+            "model": "SONIC SC",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "TabCo Sales Associates",
+              "company": "TabCo Sales Associates, Inc.",
+              "contact": "610-356-5193"
+            },
+            "costDifference": "$0 (Basis of Design)",
+            "compatibilityNotes": "High-efficiency condensing boilers with integrated controls"
+          },
+          {
+            "manufacturer": "Cleaver-Brooks",
+            "model": "ClearFire",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Cate Equipment",
+              "company": "Cate Equipment Company",
+              "contact": "info@cateequipment.com"
+            },
+            "costDifference": "+7%",
+            "compatibilityNotes": "Higher cost but includes enhanced control package with remote monitoring capabilities. Similar footprint."
+          },
+          {
+            "manufacturer": "Lochinvar",
+            "model": "CREST",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Harry M. Stevens, Inc.",
+              "company": "Harry M. Stevens, Inc.",
+              "contact": "hmstevens@hmstevens.com"
+            },
+            "costDifference": "-3%",
+            "compatibilityNotes": "Slightly different piping configuration required. Good turndown ratio but different control interface."
+          }
+        ]
+      },
+      {
+        "componentType": "Pumps",
+        "suppliers": [
+          {
+            "manufacturer": "B&G",
+            "model": "E-1510 Series",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "Wallace Eannace Associates",
+              "company": "Wallace Eannace Associates",
+              "contact": "215-542-8400"
+            },
+            "costDifference": "$0 (Basis of Design)",
+            "compatibilityNotes": "End suction centrifugal pumps with high efficiency motors and VFD compatibility"
+          },
+          {
+            "manufacturer": "Armstrong",
+            "model": "4300 Series",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Flow Control Equipment",
+              "company": "Flow Control Equipment",
+              "contact": "info@flowcontrolequipment.com"
+            },
+            "costDifference": "+2%",
+            "compatibilityNotes": "Similar performance characteristics with slightly different mounting arrangements. Compatible with specified VFDs."
+          },
+          {
+            "manufacturer": "Taco",
+            "model": "FI Series",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "United Electric Supply",
+              "company": "United Electric Supply",
+              "contact": "info@unitedelectric.com"
+            },
+            "costDifference": "-4%",
+            "compatibilityNotes": "Lower cost option but may have slightly different performance curves. Would require reselection to match flow requirements."
+          }
+        ]
+      },
+      {
+        "componentType": "Fans",
+        "suppliers": [
+          {
+            "manufacturer": "STROBIC",
+            "model": "Tri-Stack",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "Gunn & Pegelow",
+              "company": "Gunn & Pegelow",
+              "contact": "sales@gunnpegelow.com"
+            },
+            "costDifference": "$0 (Basis of Design)",
+            "compatibilityNotes": "Specialized laboratory exhaust fans designed for effective plume dispersion and entrainment"
+          },
+          {
+            "manufacturer": "Greenheck",
+            "model": "Vektor",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Pittsburgh Air Systems",
+              "company": "Pittsburgh Air Systems/Air Industrial, Inc.",
+              "contact": "412-922-6600"
+            },
+            "costDifference": "-8%",
+            "compatibilityNotes": "Lower cost option with similar plume height performance. May require different mounting arrangement and control interface."
+          },
+          {
+            "manufacturer": "Twin City Fan",
+            "model": "Laboratory Exhaust System",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Tom Barrow Company",
+              "company": "Tom Barrow Company",
+              "contact": "sales@tombarrow.com"
+            },
+            "costDifference": "-5%",
+            "compatibilityNotes": "Good alternative with similar performance. May require reconfiguration of discharge plenum and different structural support."
+          }
+        ]
+      },
+      {
+        "componentType": "Air Distribution Products",
+        "suppliers": [
+          {
+            "manufacturer": "Titus",
+            "model": "Various",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "H.C. Nye Company",
+              "company": "H.C. Nye Company",
+              "contact": "717-561-2500"
+            },
+            "costDifference": "$0 (Basis of Design)",
+            "compatibilityNotes": "Complete line of grilles, registers, diffusers and air terminal units for laboratory applications"
+          },
+          {
+            "manufacturer": "Krueger",
+            "model": "Various",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Air Distribution Products",
+              "company": "Air Distribution Products",
+              "contact": "sales@airproducts.com"
+            },
+            "costDifference": "-3%",
+            "compatibilityNotes": "Comparable performance with slightly different aesthetic options"
+          }
+        ]
+      },
+      {
+        "componentType": "Electrical Distribution Equipment",
+        "suppliers": [
+          {
+            "manufacturer": "Schneider Electric/Square D",
+            "model": "PowerPact Series",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "Graybar Electric",
+              "company": "Graybar Electric Company",
+              "contact": "717-939-8700"
+            },
+            "costDifference": "$0 (Basis of Design)",
+            "compatibilityNotes": "Full range of distribution equipment with integrated monitoring capabilities"
+          },
+          {
+            "manufacturer": "Eaton",
+            "model": "Power Defense Series",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Fromm Electric",
+              "company": "Fromm Electric Supply",
+              "contact": "info@frommelectric.com"
+            },
+            "costDifference": "-3%",
+            "compatibilityNotes": "Compatible alternative with similar performance specifications. Different interface for power monitoring system."
+          },
+          {
+            "manufacturer": "ABB",
+            "model": "SACE Tmax Series",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "Rumsey Electric",
+              "company": "Rumsey Electric Company",
+              "contact": "info@rumsey.com"
+            },
+            "costDifference": "+2%",
+            "compatibilityNotes": "Premium option with enhanced power quality monitoring. Requires additional coordination with BAS integration."
+          }
+        ]
+      }
+    ],
+    "designNotes": [
+      {
+        "systemType": "HVAC",
+        "technicalObservations": [
+          "The design incorporates a mix of centralized air handling systems for laboratory areas and more conventional systems for office/administrative areas.",
+          "Multiple AHUs provide redundancy for critical laboratory spaces.",
+          "Energy recovery is incorporated into exhaust systems to improve efficiency.",
+          "Geothermal system is integrated with conventional cooling systems."
+        ],
+        "concerns": [
+          "Coordination of ductwork in congested ceiling spaces may present challenges during construction.",
+          "Maintaining pressurization relationships between laboratory spaces requires careful balancing and commissioning.",
+          "Laboratory exhaust fans must be carefully coordinated with architectural features to ensure proper plume dispersion.",
+          "Noise levels from high static pressure fans and equipment must be carefully controlled especially near occupied spaces."
+        ],
+        "opportunities": [
+          "Enhanced monitoring and control systems could provide better energy use visibility and optimization potential.",
+          "Additional heat recovery opportunities may exist between exhaust air streams and incoming air.",
+          "Variable air volume strategies could be further optimized for laboratory spaces with intermittent occupancy.",
+          "Demand-controlled ventilation could be implemented in non-laboratory spaces to reduce energy consumption."
+        ]
+      },
+      {
+        "systemType": "Electrical",
+        "technicalObservations": [
+          "Robust electrical distribution system with redundant utility feeds and emergency power generation.",
+          "UPS systems provide critical power for laboratory equipment and controls.",
+          "Advanced generator paralleling system allows for flexible load shedding and priority-based power restoration.",
+          "Comprehensive grounding and lightning protection systems are included."
+        ],
+        "concerns": [
+          "The complex generator paralleling control system requires careful programming and testing.",
+          "Power quality must be maintained for sensitive laboratory equipment.",
+          "Physical space requirements for electrical equipment is substantial.",
+          "Coordination of emergency power distribution with mechanical system priorities requires careful planning."
+        ],
+        "opportunities": [
+          "Integration of power monitoring system with laboratory management systems could improve energy visibility.",
+          "Load shedding strategies could be further refined based on actual laboratory operations.",
+          "Additional selective coordination studies may identify opportunities to improve system reliability.",
+          "Power quality monitoring could be enhanced to protect sensitive equipment."
+        ]
+      },
+      {
+        "systemType": "Plumbing",
+        "technicalObservations": [
+          "Laboratory waste systems include provisions for neutralization and treatment as required.",
+          "Separate laboratory and domestic water systems are provided.",
+          "Emergency fixture water systems are provided for laboratory safety showers and eyewash stations."
+        ],
+        "concerns": [
+          "Chemical waste systems must be carefully coordinated with laboratory equipment layouts.",
+          "Emergency fixture water supplies must be maintained at appropriate temperatures.",
+          "Cross-contamination prevention between laboratory and domestic water systems is critical."
+        ],
+        "opportunities": [
+          "Water usage monitoring could be implemented to identify conservation opportunities.",
+          "Additional water reclamation systems could reduce overall water consumption.",
+          "Point-of-use water heating could potentially reduce energy consumption compared to centralized systems."
+        ]
+      }
+    ],
+    "buildVisionRecommendations": [
+      {
+        "id": 1,
+        "recommendation": "Implement enhanced energy monitoring and dashboard system integrated with BAS",
+        "rationale": "The complex systems in this laboratory facility would benefit from detailed energy monitoring. Current design includes basic monitoring, but an enhanced system would provide better visibility into energy use patterns and identify optimization opportunities.",
+        "estimatedImpact": "Potential 5-10% energy savings through identification of inefficiencies and operational improvements. Better data for future facility planning and optimization.",
+        "implementation": "Specify additional power metering points, especially on laboratory equipment circuits. Implement dashboard system accessible to facility management team. Include trending and analysis capabilities.",
+        "priority": "Medium"
+      },
+      {
+        "id": 2,
+        "recommendation": "Evaluate potential for additional variable frequency drives on secondary pumping systems",
+        "rationale": "While VFDs are included on primary equipment, some secondary distribution systems use constant speed pumping. Adding VFDs to these systems would allow for better pressure control and energy savings during partial load operation.",
+        "estimatedImpact": "Estimated 15-20% pump energy savings for affected systems. Improved system control and potential for extended equipment life due to reduced cycling and wear.",
+        "implementation": "Review secondary pumping systems, particularly for non-critical applications. Evaluate control strategies and implement VFDs where beneficial.",
+        "priority": "Medium-High"
+      },
+      {
+        "id": 3,
+        "recommendation": "Review and enhance arc flash mitigation strategies",
+        "rationale": "The complex electrical distribution system presents potential arc flash hazards. While basic protection is included, additional mitigation strategies could improve safety for maintenance personnel.",
+        "estimatedImpact": "Improved safety for maintenance personnel. Potential reduction in arc flash incident energy levels at key maintenance points. Reduced risk of equipment damage during fault conditions.",
+        "implementation": "Conduct detailed arc flash study during design. Consider zone-selective interlocking and maintenance-mode settings for circuit breakers. Review panel locations and maintenance access points.",
+        "priority": "High"
+      },
+      {
+        "id": 4,
+        "recommendation": "Implement lab exhaust fan optimization system",
+        "rationale": "The current design includes constant volume exhaust for laboratory spaces, which is energy-intensive. A wind-responsive, variable volume exhaust system could maintain safe plume dispersion while reducing energy consumption.",
+        "estimatedImpact": "Potential 30-40% reduction in exhaust fan energy. Significant heating and cooling energy savings from reduced exhaust air volumes. Typical payback period of 2-3 years for similar systems.",
+        "implementation": "Add wind speed/direction sensors and control system integration. Modify exhaust fan control sequences to respond to wind conditions. Ensure fail-safe operation for safety-critical spaces.",
+        "priority": "High"
+      },
+      {
+        "id": 5,
+        "recommendation": "Consider alternative suppliers for specified Strobic exhaust fans",
+        "rationale": "Strobic Tri-Stack fans are specified as basis of design but have long lead times and are typically high cost. Alternatives from Greenheck or Twin City Fan could provide similar performance at lower cost.",
+        "estimatedImpact": "Potential 5-8% cost savings on exhaust fan package. Improved schedule flexibility with potentially shorter lead times.",
+        "implementation": "Review alternative manufacturers and confirm performance requirements. Verify plume dispersion modeling with alternative equipment. Confirm structural and dimensional compatibility.",
+        "priority": "Medium"
+      },
+      {
+        "id": 6,
+        "recommendation": "Enhance emergency power system testing capabilities",
+        "rationale": "The current emergency power system includes basic testing provisions, but enhanced capabilities would simplify regular testing and reduce disruption to facility operations.",
+        "estimatedImpact": "Reduced facility disruption during testing. More thorough testing capability leading to improved system reliability. Simplified compliance with regulatory testing requirements.",
+        "implementation": "Add dedicated load bank connection points. Enhance generator control system to facilitate testing sequences. Implement automated test reporting system.",
+        "priority": "Medium"
+      },
+      {
+        "id": 7,
+        "recommendation": "Review redundancy requirements for critical laboratory systems",
+        "rationale": "The current design includes some redundancy for critical systems, but a comprehensive review could identify additional areas where enhanced redundancy would be beneficial based on criticality of laboratory functions.",
+        "estimatedImpact": "Improved reliability for critical laboratory functions. Reduced risk of experiment disruption or sample loss during equipment failures.",
+        "implementation": "Conduct criticality assessment for laboratory spaces and systems. Identify single points of failure in current design. Develop targeted redundancy enhancements based on criticality.",
+        "priority": "Medium-High"
+      }
+    ],
+    "conclusion": {
+      "summary": "The Pennsylvania State Laboratory Facility design represents a comprehensive approach to laboratory infrastructure with robust mechanical, electrical, and plumbing systems. The design incorporates high-efficiency equipment, redundancy for critical systems, and flexibility for future modifications. While the fundamental design is sound, there are several opportunities for enhancement that could improve energy efficiency, operational flexibility, and maintenance accessibility while potentially reducing first costs through selective value engineering of non-critical systems.",
+      "keyFindings": [
+        "The HVAC system design balances the need for precise environmental control with energy efficiency considerations, though additional optimization is possible.",
+        "Electrical systems are robust with multiple layers of redundancy appropriate for a critical laboratory facility.",
+        "Equipment selections generally favor reliability and performance over first cost, which is appropriate for this type of facility.",
+        "Several alternative equipment suppliers could provide similar performance with potential cost savings.",
+        "Enhanced monitoring and control systems would provide valuable operational data and optimization potential."
+      ],
+      "highestPriorityActions": [
+        "Implement lab exhaust fan optimization system to significantly reduce energy consumption while maintaining safety (Recommendation #4)",
+        "Review and enhance arc flash mitigation strategies to improve maintenance safety (Recommendation #3)",
+        "Review redundancy requirements for critical laboratory systems to identify potential vulnerabilities (Recommendation #7)"
+      ]
+    }
+}

@@ -47,14 +47,26 @@
         ]
       }
     ],
-    "alternateManufacturers": [
+    "suppliers": [
       {
         "componentType": "",
-        "basisOfDesign": "",
-        "alternateOptions": [
+        "suppliers": [
           {
             "manufacturer": "",
             "model": "",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": ""
+          },
+          {
+            "manufacturer": "",
+            "model": "",
+            "isBasisOfDesign": false,
             "representativeInfo": {
               "name": "",
               "company": "",
