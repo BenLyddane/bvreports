@@ -53,8 +53,9 @@ function extractStructuredData(jsonData) {
   // Extract project information
   const projectInfo = extractProjectInfo(jsonData.projectInformation, jsonData);
   
-  // Extract equipment table
-  const equipmentTable = extractEquipmentTable(jsonData.projectEquipment, jsonData.alternateManufacturers);
+  // Extract equipment table - use the new equipmentByType field if available, otherwise use projectEquipment
+  const equipmentData = jsonData.equipmentByType || jsonData.projectEquipment;
+  const equipmentTable = extractEquipmentTable(equipmentData, jsonData.alternateManufacturers);
   
   // Extract sections
   const sections = extractSections(jsonData);
@@ -149,45 +150,64 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
     return { headers: [], rows: [], groupedEquipment: [] };
   }
   
-  // Define headers for the equipment table
-  const headers = ['Equipment Tag', 'Manufacturer', 'Model', 'Notes'];
+  // Define headers for the equipment table - removing Notes as it's now at component type level
+  const headers = ['Equipment Tag', 'Manufacturer', 'Model'];
   
-  // Group equipment by component type
+  // Group equipment by component type and handle notes at type level
   const equipmentByType = {};
   
-  equipmentData.forEach(item => {
-    const componentType = item.equipmentType || 'Other';
-    
-    if (!equipmentByType[componentType]) {
-      equipmentByType[componentType] = [];
-    }
-    
-    equipmentByType[componentType].push({
-      equipmentTag: item.equipmentTag || '',
-      manufacturer: item.manufacturer || '',
-      model: item.model || '',
-      notes: item.notes || ''
+  // Handling equipmentByType structure from the updated JSON
+  if (equipmentData && Array.isArray(equipmentData)) {
+    equipmentData.forEach(group => {
+      const componentType = group.equipmentType || 'Other';
+      const notes = group.notes || '';
+      const items = group.items || [];
+      
+      if (!equipmentByType[componentType]) {
+        equipmentByType[componentType] = {
+          notes: notes,
+          equipment: []
+        };
+      }
+      
+      // Process each equipment item
+      items.forEach(item => {
+        equipmentByType[componentType].equipment.push({
+          equipmentTag: item.equipmentTag || '',
+          manufacturer: item.manufacturer || '',
+          model: item.model || ''
+        });
+      });
     });
-  });
+  }
   
   // Create a structured representation of the grouped equipment
   const groupedEquipment = Object.keys(equipmentByType).map(componentType => {
     return {
       componentType,
-      equipment: equipmentByType[componentType]
+      notes: equipmentByType[componentType].notes,
+      equipment: equipmentByType[componentType].equipment
     };
   });
   
   // For backward compatibility, also create the flat rows structure
-  const rows = equipmentData.map(item => {
-    return [
-      item.equipmentTag || '',
-      item.manufacturer || '',
-      item.equipmentType || '',
-      item.model || '',
-      item.notes || ''
-    ];
-  });
+  let rows = [];
+  
+  if (equipmentData && Array.isArray(equipmentData)) {
+    equipmentData.forEach(group => {
+      const componentType = group.equipmentType || 'Other';
+      const items = group.items || [];
+      
+      items.forEach(item => {
+        rows.push([
+          item.equipmentTag || '',
+          item.manufacturer || '',
+          componentType || '',
+          item.model || ''
+        ]);
+      });
+    });
+  }
   
   // Process alternate manufacturers separately
   let alternateManufacturersData = null;

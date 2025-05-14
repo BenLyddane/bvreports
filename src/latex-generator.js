@@ -261,10 +261,9 @@ function generateEquipmentTable(equipmentTable) {
     latex += `\\begin{longtable}{|`;
     
     // Column specifications with adjusted widths to prevent overfull hbox
-    latex += `p{0.15\\textwidth}|`; // Equipment Tag - slightly narrower
-    latex += `p{0.15\\textwidth}|`; // Manufacturer
-    latex += `p{0.15\\textwidth}|`; // Model
-    latex += `p{0.55\\textwidth}|`; // Notes - give more space for longer text
+    latex += `p{0.25\\textwidth}|`; // Equipment Tag - widened
+    latex += `p{0.35\\textwidth}|`; // Manufacturer - widened
+    latex += `p{0.40\\textwidth}|`; // Model - widened
     latex += `}\n`;
     
     // Define header that repeats on each page
@@ -278,7 +277,7 @@ function generateEquipmentTable(equipmentTable) {
     
     // Define footer that repeats on each page (optional)
     latex += '\\hline\n';
-    latex += `\\multicolumn{4}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
+    latex += `\\multicolumn{3}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
     latex += '\\hline\n';
     latex += '\\endfoot\n\n';
     
@@ -291,8 +290,7 @@ function generateEquipmentTable(equipmentTable) {
       const row = [
         item.equipmentTag,
         item.manufacturer,
-        item.model,
-        item.notes
+        item.model
       ];
       
       latex += row.map(cell => {
@@ -304,6 +302,27 @@ function generateEquipmentTable(equipmentTable) {
     // End the table
     latex += '\\end{longtable}\n';
     latex += '\\end{tcolorbox}\n\n';
+    
+    // Add notes section below the table if notes exist
+    if (group.notes && group.notes.trim()) {
+      latex += `\\begin{tcolorbox}[
+        enhanced,
+        colback=white!95!bvPrimaryLighter,
+        colframe=bvNeutralBorder,
+        arc=3pt,
+        boxrule=0.5pt,
+        left=10pt,
+        right=10pt,
+        top=8pt,
+        bottom=8pt,
+        width=\\textwidth,
+        boxsep=0pt,
+        title=\\textbf{Notes}
+      ]
+      ${escapeLatex(group.notes)}
+      \\end{tcolorbox}\n\n`;
+    }
+    
     latex += '\\vspace{1em}\n\n';
   });
   
