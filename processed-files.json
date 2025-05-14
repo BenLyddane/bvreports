@@ -28,5 +28,25 @@
     "path": "HSS Long Island.json",
     "lastModified": 1747237349862,
     "pdfPath": "../output/HSS Long Island.pdf"
+  },
+  {
+    "path": "Acadia.json",
+    "lastModified": 1747238433304,
+    "pdfPath": "../output/Acadia.pdf"
+  },
+  {
+    "path": "Norco College.json",
+    "lastModified": 1747246169099,
+    "pdfPath": "../output/Norco College.pdf"
+  },
+  {
+    "path": "Norco College Detailed.json",
+    "lastModified": 1747247397763,
+    "pdfPath": "../output/Norco College Detailed.pdf"
+  },
+  {
+    "path": "SmokeTree Resort.json",
+    "lastModified": 1747249295560,
+    "pdfPath": "../output/SmokeTree Resort.pdf"
   }
 ]

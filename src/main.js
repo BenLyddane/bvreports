@@ -38,8 +38,18 @@ async function main() {
     const jsonFiles = await findJsonFiles(CONFIG.paths.projectsDir);
     console.log(`Found ${jsonFiles.length} JSON files in projects directory`);
     
-    // Process all files regardless of whether they've been processed before
-    const filesToProcess = jsonFiles;
+    // Filter files to only process those that don't already have a PDF in the output folder
+    const filesToProcess = jsonFiles.filter(file => {
+      const baseName = path.basename(file, '.json');
+      const outputPath = path.join(CONFIG.paths.outputDir, `${baseName}.pdf`);
+      
+      // Check if the PDF already exists
+      if (fs.existsSync(outputPath)) {
+        console.log(`Skipping ${baseName}.json - PDF already exists at ${outputPath}`);
+        return false;
+      }
+      return true;
+    });
     
     console.log(`Processing ${filesToProcess.length} new or modified files`);
     

@@ -131,7 +131,13 @@ function extractProjectInfo(projectData, jsonData) {
     Object.entries(projectData.additionalFields).forEach(([key, value]) => {
       // Skip the projectManager field
       if (key !== 'projectManager') {
-        projectInfo.push({ label: key.charAt(0).toUpperCase() + key.slice(1), value: value || 'N/A' });
+        // Check if the value is a nested object and needs special handling
+        if (value && typeof value === 'object' && !Array.isArray(value)) {
+          // For nested objects, recursively add each property with a formatted label
+          processNestedObject(key, value, projectInfo);
+        } else {
+          projectInfo.push({ label: key.charAt(0).toUpperCase() + key.slice(1), value: value || 'N/A' });
+        }
       }
     });
   }
@@ -414,6 +420,35 @@ function extractSections(jsonData) {
   }
   
   return sections;
+}
+
+/**
+ * Process a nested object and add its properties to the info array
+ * @param {string} parentKey - The key of the parent object
+ * @param {Object} obj - The nested object to process
+ * @param {Array} infoArray - The array to add the processed properties to
+ */
+function processNestedObject(parentKey, obj, infoArray) {
+  // Format the parent key (capitalize first letter)
+  const formattedParentKey = parentKey.charAt(0).toUpperCase() + parentKey.slice(1);
+  
+  // Process each property in the nested object
+  Object.entries(obj).forEach(([key, value]) => {
+    // Format the key for display (capitalize first letter)
+    const formattedKey = key.charAt(0).toUpperCase() + key.slice(1);
+    
+    // Create a readable label combining parent and child keys
+    const label = `${formattedParentKey} (${formattedKey})`;
+    
+    // If the value is also an object, recurse deeper
+    if (value && typeof value === 'object' && !Array.isArray(value)) {
+      // Create a new parent key with the current key and recurse
+      processNestedObject(`${parentKey}.${key}`, value, infoArray);
+    } else {
+      // Add the entry with the formatted label and value
+      infoArray.push({ label, value: value || 'N/A' });
+    }
+  });
 }
 
 module.exports = {
