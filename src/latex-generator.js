@@ -317,7 +317,7 @@ function generateEquipmentTable(equipmentTable) {
         bottom=8pt,
         width=\\textwidth,
         boxsep=0pt,
-        title=\\textbf{Notes}
+        title=\\textcolor{bvPrimary}{\\textbf{Notes}}
       ]
       ${escapeLatex(group.notes)}
       \\end{tcolorbox}\n\n`;
