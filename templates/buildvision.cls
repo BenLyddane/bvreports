@@ -11,7 +11,9 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{longtable}
 \RequirePackage{array}
+\RequirePackage{colortbl}
 \RequirePackage{booktabs}
+\RequirePackage{makecell}
 \RequirePackage{enumitem}
 \RequirePackage{titlesec}
 \RequirePackage{hyperref}
@@ -28,6 +30,7 @@
 \RequirePackage{parskip}
 \RequirePackage{microtype}
 \RequirePackage{calc}
+\RequirePackage{lastpage}
 
 % Page geometry
 \geometry{
@@ -206,19 +209,19 @@
       \intersemibold\fontsize{14}{18}\selectfont\textcolor{bvPrimary}{Key Benefits}
       
       \vspace{0.2cm}
-      \bvbenefit{*}{Save Time}
+      \bvbenefit{T}{Save Time}
       \vspace{0.05cm}
       {\fontsize{10}{14}\selectfont\textcolor{bvTextSecondary}{Automate RFQs and reduce manual work by up to 50\%}\par}
       
       \vspace{0.2cm}
-      \bvbenefit{*}{Cut Costs}
+      \bvbenefit{\$}{Cut Costs}
       \vspace{0.05cm}
       {\fontsize{10}{14}\selectfont\textcolor{bvTextSecondary}{Negotiate directly with suppliers for better deals}\par}
       
       \vspace{0.2cm}
-      \bvbenefit{*}{Full Visibility}
+      \bvbenefit{→}{Streamlined Sourcing}
       \vspace{0.05cm}
-      {\fontsize{10}{14}\selectfont\textcolor{bvTextSecondary}{Manage procurement across all your projects from one platform}\par}
+      {\fontsize{10}{14}\selectfont\textcolor{bvTextSecondary}{Take BuildVision's structured data and send it to suppliers at \href{https://buildvision.io}{BuildVision.io}}\par}
     \end{tcolorbox}
     
     % Footer with BuildVision.io link
@@ -346,19 +349,19 @@
     \intersemibold\fontsize{14}{18}\selectfont\textcolor{bvPrimary}{Key Benefits}
     
     \vspace{0.5cm}
-    \bvbenefit{*}{Save Time}
+    \bvbenefit{T}{Save Time}
     \vspace{0.2cm}
     {\fontsize{11}{15}\selectfont\textcolor{bvTextSecondary}{Automate RFQs and reduce manual work by up to 50\%}\par}
     
     \vspace{0.5cm}
-    \bvbenefit{*}{Cut Costs}
+    \bvbenefit{\$}{Cut Costs}
     \vspace{0.2cm}
     {\fontsize{11}{15}\selectfont\textcolor{bvTextSecondary}{Negotiate directly with suppliers for better deals}\par}
     
     \vspace{0.5cm}
-    \bvbenefit{*}{Full Visibility}
+    \bvbenefit{→}{Streamlined Sourcing}
     \vspace{0.2cm}
-    {\fontsize{11}{15}\selectfont\textcolor{bvTextSecondary}{Manage procurement across all your projects from one platform}\par}
+    {\fontsize{11}{15}\selectfont\textcolor{bvTextSecondary}{Take BuildVision's structured data and send it to suppliers at \href{https://buildvision.io}{BuildVision.io}}\par}
   \end{tcolorbox}
 }
 
@@ -398,5 +401,4 @@
 }
 
 % Last page label for page counting
-\AtEndDocument{\label{LastPage}}
 \AtEndDocument{\label{LastPage}}

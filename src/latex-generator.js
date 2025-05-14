@@ -217,138 +217,186 @@ function generateInfoSection(title, infoData, icon) {
  * @returns {string} - LaTeX code for the equipment table
  */
 function generateEquipmentTable(equipmentTable) {
-  const { headers, rows } = equipmentTable;
+  const { headers, groupedEquipment, alternateManufacturers } = equipmentTable;
   
   let latex = `\\section*{\\textbf{Project Equipment}}\n\n`;
   
   // Check if we have data to display
-  if (headers.length === 0 || rows.length === 0) {
+  if (!groupedEquipment || groupedEquipment.length === 0) {
     return latex + "No equipment data available.\n\n";
   }
   
-  // Determine if we have the main equipment table and alternate manufacturers table
-  // by checking for a row with "Alternate Manufacturers" in the first column
-  let mainTableRows = rows;
-  let alternateTableData = null;
+  // Define colors for the table - using existing BuildVision colors
+  const gridColor = 'bvNeutralBorder'; // Use existing neutral border color
+  const headerBg = 'bvPrimaryLighter'; // Use existing light primary color
   
-  for (let i = 0; i < rows.length; i++) {
-    if (rows[i][0] && rows[i][0].includes("Alternate Manufacturers")) {
-      // Split the tables
-      mainTableRows = rows.slice(0, i);
-      
-      // Extract alternate manufacturers table data
-      // Find headers row (should be the next row)
-      if (i + 1 < rows.length) {
-        const altHeaders = rows[i + 1];
-        const altRows = rows.slice(i + 2); // Skip the "Alternate Manufacturers" row and headers row
-        alternateTableData = { headers: altHeaders, rows: altRows };
-      }
-      break;
-    }
-  }
-  
-  // Generate main equipment table with responsive columns
-  latex += `\\setlength{\\tabcolsep}{3pt}\n`;
+  // Set table spacing
+  latex += `\\setlength{\\tabcolsep}{5pt}\n`;
   latex += `\\renewcommand{\\arraystretch}{1.2}\n`;
   
-  // Determine the number of columns and create appropriate column specification
-  const numColumns = headers.length;
-  
-  // Calculate column widths based on the number of columns
-  // Use tabularx for better table formatting and automatic width adjustment
-  latex += `\\begin{center}\n`;
-  latex += `\\begin{tabularx}{\\textwidth}{|`;
-  
-  // First column (Equipment Tag) gets a bit more space to prevent cut-off
-  latex += `p{0.18\\textwidth}|`;
-  
-  // Distribute remaining width among other columns
-  const remainingWidth = (0.82 / (numColumns - 1)).toFixed(2);
-  for (let i = 1; i < numColumns; i++) {
-    latex += `p{${remainingWidth}\\textwidth}|`;
-  }
-  
-  latex += `}\n`;
-  latex += `\\hline\n`;
-  
-  // Add headers with proper formatting
-  latex += headers.map(header => {
-    // Replace ampersands with "and" to avoid LaTeX issues
-    const safeHeader = header.replace(/&/g, ' and ');
-    return `\\textbf{${escapeLatex(safeHeader)}}`;
-  }).join(' & ') + ' \\\\\n';
-  latex += '\\hline\n';
-  
-  // Add rows with proper formatting
-  mainTableRows.forEach(row => {
-    latex += row.map(cell => {
-      // Replace ampersands with "and" to avoid LaTeX issues
-      const safeCell = cell ? cell.replace(/&/g, ' and ') : '';
-      return escapeLatex(safeCell);
-    }).join(' & ') + ' \\\\\n';
-    latex += '\\hline\n';
-  });
-  
-  // End the table
-  latex += '\\end{tabularx}\n';
-  latex += '\\end{center}\n\n';
-  
-  // Generate alternate manufacturers table if it exists
-  if (alternateTableData) {
-    latex += `\\vspace{1em}\n`;
-    latex += `\\section*{\\textbf{Alternate Manufacturers}}\n\n`;
+  // Generate a mini-table for each component type
+  groupedEquipment.forEach(group => {
+    // Add component type header with styling similar to section headers
+    latex += `\\subsection*{\\textbf{${escapeLatex(group.componentType)}}}\n\n`;
     
-    // Create a new table structure for alternate manufacturers
-    // with each manufacturer on its own row
+    // Create a tcolorbox for the table with shadow and modern styling
+    // Make it breakable to allow page breaks
+    latex += `\\begin{tcolorbox}[
+      enhanced,
+      breakable=true,
+      colback=white,
+      colframe=white,
+      arc=3pt,
+      boxrule=0pt,
+      shadow={0.5mm}{0.5mm}{2mm}{black!15},
+      left=0pt,
+      right=0pt,
+      top=0pt,
+      bottom=0pt,
+      width=\\textwidth,
+      boxsep=0pt
+    ]\n`;
     
-    // Define the headers we want to display
-    const displayHeaders = ['Component Type', 'Basis of Design', 'Alternate Manufacturer', 'Model', 'Representative', 'Compatibility Notes'];
+    // Use longtable instead of tabularx to allow page breaks
+    latex += `\\begin{longtable}{|`;
     
-    // Use tabularx for better table formatting and automatic width adjustment
-    latex += `\\begin{center}\n`;
-    latex += `\\begin{tabularx}{\\textwidth}{|`;
-    
-    // Column widths for the new structure
-    latex += `p{0.18\\textwidth}|`; // Component Type
-    latex += `p{0.12\\textwidth}|`; // Basis of Design
-    latex += `p{0.15\\textwidth}|`; // Alternate Manufacturer
-    latex += `p{0.10\\textwidth}|`; // Model
-    latex += `p{0.15\\textwidth}|`; // Representative
-    latex += `p{0.30\\textwidth}|`; // Compatibility Notes
-    
+    // Column specifications with adjusted widths to prevent overfull hbox
+    latex += `p{0.15\\textwidth}|`; // Equipment Tag - slightly narrower
+    latex += `p{0.15\\textwidth}|`; // Manufacturer
+    latex += `p{0.15\\textwidth}|`; // Model
+    latex += `p{0.55\\textwidth}|`; // Notes - give more space for longer text
     latex += `}\n`;
-    latex += `\\hline\n`;
     
-    // Add headers with proper formatting
-    latex += displayHeaders.map(header => {
+    // Define header that repeats on each page
+    latex += `\\hline\n`;
+    latex += `\\rowcolor{${headerBg}}\n`;
+    latex += headers.map(header => {
       return `\\textbf{${escapeLatex(header)}}`;
     }).join(' & ') + ' \\\\\n';
     latex += '\\hline\n';
+    latex += '\\endhead\n\n';
     
-    // Process the alternate manufacturers data
-    // The data is now structured with each alternate manufacturer on its own row
-    // Skip the first two rows (the "Alternate Manufacturers" separator and the headers row)
-    const altRows = alternateTableData.rows.slice(2);
+    // Define footer that repeats on each page (optional)
+    latex += '\\hline\n';
+    latex += `\\multicolumn{4}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
+    latex += '\\hline\n';
+    latex += '\\endfoot\n\n';
     
-    // Add each row to the table
-    altRows.forEach(row => {
-      // The row structure is [Component Type, BoD, Manufacturer, Model, Rep, Notes]
-      // Make sure we have the right number of columns
-      while (row.length < 6) {
-        row.push('');
-      }
+    // Define last footer (no "continued" text)
+    latex += '\\hline\n';
+    latex += '\\endlastfoot\n\n';
+    
+    // Add rows with proper formatting
+    group.equipment.forEach(item => {
+      const row = [
+        item.equipmentTag,
+        item.manufacturer,
+        item.model,
+        item.notes
+      ];
       
-      // Add the row to the table
       latex += row.map(cell => {
-        const safeCell = cell ? cell.replace(/&/g, ' and ') : '';
-        return escapeLatex(safeCell);
+        return escapeLatex(cell);
       }).join(' & ') + ' \\\\\n';
       latex += '\\hline\n';
     });
     
-    // End the alternate table
-    latex += '\\end{tabularx}\n';
-    latex += '\\end{center}\n\n';
+    // End the table
+    latex += '\\end{longtable}\n';
+    latex += '\\end{tcolorbox}\n\n';
+    latex += '\\vspace{1em}\n\n';
+  });
+  
+  // Generate alternate manufacturers table if it exists
+  if (alternateManufacturers && alternateManufacturers.length > 0) {
+    latex += `\\section*{\\textbf{Alternate Manufacturers}}\n\n`;
+    
+    // Process each component type separately
+    alternateManufacturers.forEach(item => {
+      // Add component type header
+      latex += `\\subsection*{\\textbf{${escapeLatex(item.componentType)}}}\n\n`;
+      
+      // Create a single tcolorbox containing both the basis of design and the table
+      // Make it breakable to allow page breaks
+      latex += `\\begin{tcolorbox}[
+        enhanced,
+        breakable=true,
+        colback=white,
+        colframe=white,
+        arc=3pt,
+        boxrule=0pt,
+        shadow={0.5mm}{0.5mm}{2mm}{black!15},
+        left=0pt,
+        right=0pt,
+        top=0pt,
+        bottom=0pt,
+        width=\\textwidth,
+        boxsep=0pt
+      ]\n`;
+      
+      // Add basis of design information as a colored bar at the top
+      latex += `\\colorbox{${headerBg}}{\\parbox{\\textwidth}{
+        \\begin{center}
+        \\textbf{Basis of Design:} ${escapeLatex(item.basisOfDesign)}
+        \\end{center}
+      }}\n\n`;
+      
+      // Add some vertical space between the header and the table
+      latex += `\\vspace{0.3cm}\n`;
+      
+      // Use longtable instead of tabularx to allow page breaks
+      latex += `\\begin{longtable}{|`;
+      
+      // Column specifications
+      latex += `p{0.20\\textwidth}|`; // Manufacturer
+      latex += `p{0.15\\textwidth}|`; // Model
+      latex += `p{0.15\\textwidth}|`; // Representative
+      latex += `p{0.50\\textwidth}|`; // Compatibility Notes
+      latex += `}\n`;
+      
+      // Define header that repeats on each page
+      latex += `\\hline\n`;
+      latex += `\\rowcolor{${headerBg}}\n`;
+      
+      // Add headers with proper formatting and background color
+      const altHeaders = ['Manufacturer', 'Model', 'Representative', 'Compatibility Notes'];
+      latex += altHeaders.map(header => {
+        // Use makecell to allow line breaks in headers
+        return `\\textbf{\\makecell{${escapeLatex(header)}}}`;
+      }).join(' & ') + ' \\\\\n';
+      latex += '\\hline\n';
+      latex += '\\endhead\n\n';
+      
+      // Define footer that repeats on each page (optional)
+      latex += '\\hline\n';
+      latex += `\\multicolumn{4}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
+      latex += '\\hline\n';
+      latex += '\\endfoot\n\n';
+      
+      // Define last footer (no "continued" text)
+      latex += '\\hline\n';
+      latex += '\\endlastfoot\n\n';
+      
+      // Add rows for each alternate option
+      item.alternateOptions.forEach(alt => {
+        const row = [
+          alt.manufacturer,
+          alt.model,
+          alt.representative,
+          alt.compatibilityNotes
+        ];
+        
+        latex += row.map(cell => {
+          return escapeLatex(cell);
+        }).join(' & ') + ' \\\\\n';
+        latex += '\\hline\n';
+      });
+      
+      // End the table
+      latex += '\\end{longtable}\n';
+      latex += '\\end{tcolorbox}\n\n';
+      latex += '\\vspace{1em}\n\n';
+    });
   }
   
   return latex;
@@ -362,8 +410,14 @@ function generateEquipmentTable(equipmentTable) {
 function generateSection(section) {
   const icon = getSectionIcon(section.title);
   
+  // Check if this is the Design Notes section and add a page break if it is
+  let latex = '';
+  if (section.title === 'Design Notes') {
+    latex += `\\clearpage\n`;
+  }
+  
   // Use larger font and bold for section titles
-  let latex = `\\section*{\\Large\\textbf{${escapeLatex(section.title)}}}\n\n`;
+  latex += `\\section*{\\Large\\textbf{${escapeLatex(section.title)}}}\n\n`;
   
   // Add section content with proper spacing and formatting
   if (section.content.trim()) {

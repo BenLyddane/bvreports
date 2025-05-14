@@ -113,12 +113,21 @@ async function cleanupTempFiles(tempDir) {
 function escapeLatex(text) {
   if (!text) return '';
   
+  // Handle common case where text might be a number or other non-string
+  if (typeof text !== 'string') {
+    text = String(text);
+  }
+  
   // First, handle HTML entities
   text = text.replace(/&amp;/g, '\\&');
   text = text.replace(/&#39;/g, "'");
   text = text.replace(/&quot;/g, '"');
   text = text.replace(/&lt;/g, '<');
   text = text.replace(/&gt;/g, '>');
+  
+  // Replace ampersands with "and" for better readability in LaTeX
+  // This is especially important for terms like "O&M" which would otherwise cause alignment issues
+  text = text.replace(/\b([A-Za-z])&([A-Za-z])\b/g, '$1 and $2');
   
   // Replace LaTeX special characters with their escaped versions
   return text

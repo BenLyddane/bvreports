@@ -5,6 +5,7 @@
  */
 
 const fs = require('fs-extra');
+const { escapeLatex } = require('./utils');
 
 /**
  * Parse a JSON file and extract structured data
@@ -100,12 +101,16 @@ function extractCustomerInfo(customerData) {
 function extractProjectInfo(projectData, jsonData) {
   if (!projectData) return [];
   
-  // Get project link from customer information if available
+  // Get project URL from project information if available, or fall back to customer information
   let projectUrl = 'N/A';
-  if (jsonData && 
+  if (projectData && projectData.projectUrl) {
+    // Use the direct projectUrl field from projectInformation (new structure)
+    projectUrl = projectData.projectUrl;
+  } else if (jsonData && 
       jsonData.customerInformation && 
       jsonData.customerInformation.additionalFields && 
       jsonData.customerInformation.additionalFields.projectLink) {
+    // Fall back to the old structure for backward compatibility
     projectUrl = jsonData.customerInformation.additionalFields.projectLink;
   }
   
@@ -137,17 +142,43 @@ function extractProjectInfo(projectData, jsonData) {
  * Extract equipment table from JSON
  * @param {Array} equipmentData - Equipment data from JSON
  * @param {Array} alternateManufacturers - Alternate manufacturers data from JSON
- * @returns {Object} - Formatted equipment table
+ * @returns {Object} - Formatted equipment table with grouped equipment
  */
 function extractEquipmentTable(equipmentData, alternateManufacturers) {
   if (!equipmentData || equipmentData.length === 0) {
-    return { headers: [], rows: [] };
+    return { headers: [], rows: [], groupedEquipment: [] };
   }
   
   // Define headers for the equipment table
-  const headers = ['Equipment Tag', 'Manufacturer', 'Component Type', 'Model', 'Notes'];
+  const headers = ['Equipment Tag', 'Manufacturer', 'Model', 'Notes'];
   
-  // Extract rows for the equipment table
+  // Group equipment by component type
+  const equipmentByType = {};
+  
+  equipmentData.forEach(item => {
+    const componentType = item.equipmentType || 'Other';
+    
+    if (!equipmentByType[componentType]) {
+      equipmentByType[componentType] = [];
+    }
+    
+    equipmentByType[componentType].push({
+      equipmentTag: item.equipmentTag || '',
+      manufacturer: item.manufacturer || '',
+      model: item.model || '',
+      notes: item.notes || ''
+    });
+  });
+  
+  // Create a structured representation of the grouped equipment
+  const groupedEquipment = Object.keys(equipmentByType).map(componentType => {
+    return {
+      componentType,
+      equipment: equipmentByType[componentType]
+    };
+  });
+  
+  // For backward compatibility, also create the flat rows structure
   const rows = equipmentData.map(item => {
     return [
       item.equipmentTag || '',
@@ -159,20 +190,33 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
   });
   
   // Process alternate manufacturers separately
+  let alternateManufacturersData = null;
   if (alternateManufacturers && alternateManufacturers.length > 0) {
-    // Create a separate section for alternate manufacturers
-    // Add a separator row to indicate the start of alternate manufacturers
-    rows.push(['Alternate Manufacturers', '', '', '', '']);
+    alternateManufacturersData = alternateManufacturers.map(item => {
+      const componentType = item.componentType || '';
+      const basisOfDesign = item.basisOfDesign || '';
+      const alternateOptions = item.alternateOptions || [];
+      
+      return {
+        componentType,
+        basisOfDesign,
+        alternateOptions: alternateOptions.map(alt => ({
+          manufacturer: alt.manufacturer || '',
+          model: alt.model || '',
+          representative: alt.representativeInfo?.company || 'N/A',
+          compatibilityNotes: alt.compatibilityNotes || ''
+        }))
+      };
+    });
     
-    // Add headers for alternate manufacturers
+    // For backward compatibility, also add to the flat rows structure
+    rows.push(['Alternate Manufacturers', '', '', '', '']);
     rows.push(['Component Type', 'BoD Manufacturer', 'Alternate Manufacturer', 'Model', 'Rep', 'Notes']);
     
-    // Add rows for each alternate manufacturer option
     alternateManufacturers.forEach(item => {
       const componentType = item.componentType || '';
       const basisOfDesign = item.basisOfDesign || '';
       
-      // For each component type, add a row for each alternate option
       if (item.alternateOptions && item.alternateOptions.length > 0) {
         item.alternateOptions.forEach(alt => {
           const manufacturer = alt.manufacturer || '';
@@ -193,7 +237,12 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
     });
   }
   
-  return { headers, rows };
+  return { 
+    headers, 
+    rows, 
+    groupedEquipment,
+    alternateManufacturers: alternateManufacturersData
+  };
 }
 
 /**
@@ -214,7 +263,7 @@ function extractSections(jsonData) {
     
     jsonData.designNotes.forEach(note => {
       const subsection = {
-        title: note.systemType || 'System',
+        title: escapeLatex(note.systemType) || 'System',
         content: ''
       };
       
@@ -223,7 +272,7 @@ function extractSections(jsonData) {
         subsection.content += '\\textbf{Technical Observations:}\\par\n';
         subsection.content += '\\begin{itemize}\n';
         note.technicalObservations.forEach(observation => {
-          subsection.content += `\\item ${observation}\n`;
+          subsection.content += `\\item ${escapeLatex(observation)}\n`;
         });
         subsection.content += '\\end{itemize}\n\\par\n';
       }
@@ -233,7 +282,7 @@ function extractSections(jsonData) {
         subsection.content += '\\textbf{Concerns:}\\par\n';
         subsection.content += '\\begin{itemize}\n';
         note.concerns.forEach(concern => {
-          subsection.content += `\\item ${concern}\n`;
+          subsection.content += `\\item ${escapeLatex(concern)}\n`;
         });
         subsection.content += '\\end{itemize}\n\\par\n';
       }
@@ -243,7 +292,7 @@ function extractSections(jsonData) {
         subsection.content += '\\textbf{Opportunities:}\\par\n';
         subsection.content += '\\begin{itemize}\n';
         note.opportunities.forEach(opportunity => {
-          subsection.content += `\\item ${opportunity}\n`;
+          subsection.content += `\\item ${escapeLatex(opportunity)}\n`;
         });
         subsection.content += '\\end{itemize}\n\\par\n';
       }
@@ -264,28 +313,28 @@ function extractSections(jsonData) {
     
     jsonData.buildVisionRecommendations.forEach(rec => {
       const subsection = {
-        title: `${rec.id}. ${rec.recommendation}`,
+        title: `${rec.id}. ${escapeLatex(rec.recommendation)}`,
         content: ''
       };
       
       // Add rationale
       if (rec.rationale) {
-        subsection.content += `\\textbf{Rationale:} ${rec.rationale}\\par\\par\n`;
+        subsection.content += `\\textbf{Rationale:} ${escapeLatex(rec.rationale)}\\par\\par\n`;
       }
       
       // Add estimated impact
       if (rec.estimatedImpact) {
-        subsection.content += `\\textbf{Estimated Impact:} ${rec.estimatedImpact}\\par\\par\n`;
+        subsection.content += `\\textbf{Estimated Impact:} ${escapeLatex(rec.estimatedImpact)}\\par\\par\n`;
       }
       
       // Add implementation
       if (rec.implementation) {
-        subsection.content += `\\textbf{Implementation:} ${rec.implementation}\\par\\par\n`;
+        subsection.content += `\\textbf{Implementation:} ${escapeLatex(rec.implementation)}\\par\\par\n`;
       }
       
       // Add priority
       if (rec.priority) {
-        subsection.content += `\\textbf{Priority:} ${rec.priority}\\par\n`;
+        subsection.content += `\\textbf{Priority:} ${escapeLatex(rec.priority)}\\par\n`;
       }
       
       recommendationsSection.subsections.push(subsection);
@@ -310,7 +359,7 @@ function extractSections(jsonData) {
       };
       
       jsonData.conclusion.keyFindings.forEach(finding => {
-        keyFindingsSubsection.content += `\\item ${finding}\n`;
+        keyFindingsSubsection.content += `\\item ${escapeLatex(finding)}\n`;
       });
       
       keyFindingsSubsection.content += '\\end{itemize}\n';
@@ -325,7 +374,7 @@ function extractSections(jsonData) {
       };
       
       jsonData.conclusion.highestPriorityActions.forEach(action => {
-        priorityActionsSubsection.content += `\\item ${action}\n`;
+        priorityActionsSubsection.content += `\\item ${escapeLatex(action)}\n`;
       });
       
       priorityActionsSubsection.content += '\\end{itemize}\n';
@@ -336,7 +385,7 @@ function extractSections(jsonData) {
     if (jsonData.conclusion.summary) {
       const summarySubsection = {
         title: 'Summary',
-        content: jsonData.conclusion.summary
+        content: escapeLatex(jsonData.conclusion.summary)
       };
       conclusionSection.subsections.push(summarySubsection);
     }
