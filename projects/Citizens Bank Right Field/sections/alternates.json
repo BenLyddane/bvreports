@@ -9,11 +9,11 @@
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Gil-Bar Industries (JCI Rep)",
+            "name": "Matt Neumann (NJ) / Joe Cohen (NY) / Ian Sorenson (NY)",
             "company": "Gil-Bar Industries",
-            "contact": "Matt Neumann (NJ) / Joe Cohen (NY) / Ian Sorenson (NY)"
+            "contact": ""
           },
-          "costDifference": "0%",
+          "costDifference": "",
           "compatibilityNotes": "Basis of design specified in project documents. Provides specified 350 ton capacity, energy efficiency of 1.05 kW/ton, and includes required features such as VFDs and integral pump module with dual pumps."
         },
         {
@@ -22,9 +22,9 @@
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Trane New York",
-            "company": "Trane",
-            "contact": "Diana Froelich"
+            "name": "Diana Froelich",
+            "company": "Trane New York",
+            "contact": ""
           },
           "costDifference": "-5%",
           "compatibilityNotes": "SUGGESTED ALTERNATIVE: Helical rotary screw compressor technology with comparable efficiency ratings. Available with VFD options, dual refrigerant circuits, and can be configured with similar pump packages to match specifications."
@@ -35,9 +35,9 @@
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Carrier New York",
-            "company": "Carrier",
-            "contact": "Steve Handelman"
+            "name": "Steve Handelman",
+            "company": "Carrier New York",
+            "contact": ""
           },
           "costDifference": "-3%",
           "compatibilityNotes": "SUGGESTED ALTERNATIVE: AquaForce series offers similar capacity range and can be configured with VFDs and integrated hydronic packages to match specifications. Screw compressor technology with good part-load performance."
@@ -48,9 +48,9 @@
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Daikin Applied",
-            "company": "Daikin",
-            "contact": "Pam Biehl"
+            "name": "Pam Biehl",
+            "company": "Daikin Applied",
+            "contact": ""
           },
           "costDifference": "-2%",
           "compatibilityNotes": "SUGGESTED ALTERNATIVE: Pathfinder series offers high efficiency with VFD-driven screw compressors. Can be configured with similar pump packages and dual-circuit design for redundancy."
@@ -65,7 +65,7 @@
             "company": "Highmark",
             "contact": "Highmark New York"
           },
-          "costDifference": "+2%",
+          "costDifference": "+3%",
           "compatibilityNotes": "SUGGESTED ALTERNATIVE: European manufacturer with growing US presence. NRB series offers high efficiency and quiet operation with screw compressors. Available with integrated hydronic packages."
         },
         {
@@ -74,11 +74,11 @@
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Daikin Applied",
-            "company": "Daikin",
-            "contact": "Pam Biehl"
+            "name": "Pam Biehl",
+            "company": "Daikin Applied",
+            "contact": ""
           },
-          "costDifference": "-7%",
+          "costDifference": "-4%",
           "compatibilityNotes": "SUGGESTED ALTERNATIVE: AWS series offers good efficiency with semi-hermetic screw compressors. Available with VFD options and dual-circuit design for redundancy."
         }
       ]

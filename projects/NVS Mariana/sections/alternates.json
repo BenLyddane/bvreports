@@ -44,7 +44,7 @@
         },
         {
           "manufacturer": "York (Johnson Controls)",
-          "model": "Solution AHU",
+          "model": "Solution XT",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -53,11 +53,11 @@
             "contact": ""
           },
           "costDifference": "-8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York's Solution series provides comparable performance with competitive pricing. Strong service network and integration with JCI building automation systems."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Robust construction with good energy performance and factory testing. Compatible with laboratory applications requiring precise control."
         },
         {
           "manufacturer": "Carrier",
-          "model": "39CC Custom AHU",
+          "model": "39CC Custom",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -65,8 +65,8 @@
             "company": "Carrier",
             "contact": ""
           },
-          "costDifference": "-6%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Carrier's custom air handlers offer excellent build quality with strong engineering support and widespread service availability."
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-quality construction with extensive customization options suitable for laboratory environments requiring specialized configurations."
         }
       ]
     },
@@ -96,7 +96,7 @@
             "company": "XeteX",
             "contact": ""
           },
-          "costDifference": "-7%",
+          "costDifference": "-10%",
           "compatibilityNotes": "Versatile technology options with custom engineering capabilities for specialized laboratory environments. Less widespread service network but strong technical capabilities."
         },
         {
@@ -109,25 +109,12 @@
             "company": "Engineered Air",
             "contact": ""
           },
-          "costDifference": "-10%",
+          "costDifference": "-8%",
           "compatibilityNotes": "Durable construction specialized for industrial applications including forge labs with potential contaminants. Less aesthetic design but extremely robust."
         },
         {
-          "manufacturer": "Haakon Industries",
-          "model": "Custom ERU",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "Haakon Industries",
-            "contact": ""
-          },
-          "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Haakon offers fully custom engineered solutions with excellent build quality and laboratory-specific features. Good record of reliability in critical applications."
-        },
-        {
           "manufacturer": "Semco",
-          "model": "TEEE Energy Recovery",
+          "model": "NEUTON",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -135,8 +122,21 @@
             "company": "Semco",
             "contact": ""
           },
-          "costDifference": "-8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Semco's energy recovery technology provides excellent efficiency with proprietary energy exchange media. Strong technical support with energy modeling capabilities."
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency technology with proven performance in laboratory applications. Good support network and compatibility with existing infrastructure."
+        },
+        {
+          "manufacturer": "Innovent",
+          "model": "Energy Recovery",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Innovent",
+            "contact": ""
+          },
+          "costDifference": "-12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Custom-engineered units with multiple heat recovery options. Well-suited for laboratory applications requiring specialized configurations."
         }
       ]
     },
@@ -166,7 +166,7 @@
             "company": "Daikin Applied",
             "contact": ""
           },
-          "costDifference": "-4%",
+          "costDifference": "-3%",
           "compatibilityNotes": "Advanced magnetic bearing technology with excellent efficiency and low-noise operation. Premium pricing but superior part-load efficiency for variable laboratory loads."
         },
         {
@@ -183,8 +183,21 @@
           "compatibilityNotes": "Oil-free magnetic bearing technology with exceptional efficiency and reduced maintenance requirements. Higher initial cost but lower lifecycle cost."
         },
         {
+          "manufacturer": "York (Johnson Controls)",
+          "model": "YZ Centrifugal",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Johnson Controls",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Magnetic bearing centrifugal technology with excellent part-load efficiency and low-GWP refrigerant options. Compatible with laboratory cooling requirements."
+        },
+        {
           "manufacturer": "Trane",
-          "model": "CenTraVac",
+          "model": "Series R CenTraVac",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -193,20 +206,7 @@
             "contact": ""
           },
           "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Industry-leading reliability with low-pressure refrigerant options and excellent part-load performance. Strong service network and longevity in the field."
-        },
-        {
-          "manufacturer": "York (Johnson Controls)",
-          "model": "YZ Magnetic Bearing",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "Johnson Controls",
-            "contact": ""
-          },
-          "costDifference": "-6%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Magnetic bearing technology with excellent efficiency and wide operating envelope. Reduced maintenance requirements with good technical support."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Robust design with proven reliability record. Excellent support network and compatibility with complex central plant operations."
         }
       ]
     },
@@ -236,7 +236,7 @@
             "company": "Grundfos",
             "contact": ""
           },
-          "costDifference": "-8%",
+          "costDifference": "-12%",
           "compatibilityNotes": "High reliability with advanced monitoring and energy-efficient EC motors. Superior energy efficiency with advanced diagnostic capabilities."
         },
         {
@@ -249,12 +249,12 @@
             "company": "Bell & Gossett (Xylem)",
             "contact": ""
           },
-          "costDifference": "-12%",
+          "costDifference": "-15%",
           "compatibilityNotes": "Widespread availability with extensive service network and proven reliability. Solid performance with excellent parts and service availability."
         },
         {
           "manufacturer": "Taco",
-          "model": "SCI/KV Series",
+          "model": "FI Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -262,8 +262,8 @@
             "company": "Taco Comfort Solutions",
             "contact": ""
           },
-          "costDifference": "-15%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable construction with good efficiency and competitive pricing. Widely available with good service support and straightforward maintenance."
+          "costDifference": "-18%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable design with good efficiency and integrated VFD options. Compatible with the project specifications and widely available."
         },
         {
           "manufacturer": "Wilo",
@@ -276,7 +276,7 @@
             "contact": ""
           },
           "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Advanced EC motor technology with high efficiency and compact design. Excellent energy performance with good BMS integration capabilities."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency EC motor technology with excellent control capabilities. Good alternative for high-efficiency laboratory applications."
         }
       ]
     },
@@ -306,7 +306,7 @@
             "company": "Twin City Fan & Blower",
             "contact": ""
           },
-          "costDifference": "-10%",
+          "costDifference": "-15%",
           "compatibilityNotes": "Custom engineering capabilities with robust construction suitable for forge lab applications. Competitive pricing with strong performance."
         },
         {
@@ -319,21 +319,8 @@
             "company": "Loren Cook Company",
             "contact": ""
           },
-          "costDifference": "-15%",
+          "costDifference": "-18%",
           "compatibilityNotes": "Reliable construction with good support and competitive pricing. Solid performance focused on reliability and maintenance accessibility."
-        },
-        {
-          "manufacturer": "Strobic Air",
-          "model": "Tri-Stack",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "Strobic Air Corporation",
-            "contact": ""
-          },
-          "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Specialized laboratory exhaust systems with excellent plume characteristics and energy efficiency. Nozzle design provides superior dilution without external energy."
         },
         {
           "manufacturer": "MK Plastics",
@@ -346,7 +333,20 @@
             "contact": ""
           },
           "costDifference": "-12%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Corrosion-resistant construction ideal for chemical environments in forge laboratories. FRP construction provides excellent durability for harsh exhaust streams."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Specialized corrosion-resistant construction suitable for laboratory exhaust with potential contaminants. Good alternative for aggressive laboratory environments."
+        },
+        {
+          "manufacturer": "Strobic Air",
+          "model": "Tri-Stack",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Strobic Air",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-performance laboratory exhaust system with excellent plume height and low energy consumption. Well-established in critical laboratory applications."
         }
       ]
     },
@@ -376,7 +376,7 @@
             "company": "Electro-Steam",
             "contact": ""
           },
-          "costDifference": "-7%",
+          "costDifference": "-12%",
           "compatibilityNotes": "Long track record with reliable performance specifically designed for laboratory applications. Strong performance in medical and pharmaceutical settings."
         },
         {
@@ -394,7 +394,7 @@
         },
         {
           "manufacturer": "Reimers Electra Steam",
-          "model": "RES Series",
+          "model": "ES Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -402,12 +402,12 @@
             "company": "Reimers Electra Steam",
             "contact": ""
           },
-          "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Industrial-grade electric steam generators with reliable performance and competitive pricing. Simple design with good reliability record."
+          "costDifference": "-15%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable electric steam generators with clean steam options suitable for laboratory applications. Competitive pricing with good performance record."
         },
         {
           "manufacturer": "Fulton",
-          "model": "Electric Steam Boiler",
+          "model": "Pure Steam",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -415,8 +415,8 @@
             "company": "Fulton",
             "contact": ""
           },
-          "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-established manufacturer with excellent support network and spare parts availability. Robust construction with comprehensive controls."
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-established manufacturer with specialized pure steam options for laboratory and pharmaceutical applications. Excellent support network and reliability."
         }
       ]
     }

@@ -296,14 +296,21 @@ async function generateJsonSection(prompt, contextFiles) {
  * @param {string} projectDir - Path to the project directory
  * @param {string} sectionType - Type of section to generate (projectDetails, equipment, etc.)
  * @param {string} prompt - Specialized prompt for the specific section
+ * @param {Array} providedContextFiles - Optional pre-processed context files
  * @returns {Object} - Generated JSON object for the specified section
  */
-async function generateSectionJson(projectDir, sectionType, prompt) {
+async function generateSectionJson(projectDir, sectionType, prompt, providedContextFiles = null) {
   try {
     console.log(`Generating ${sectionType} JSON section for project: ${path.basename(projectDir)}`);
     
-    // Process all context files from the project directory
-    const contextFiles = await processContextFiles(projectDir);
+    // Use provided context files if available, otherwise process from the project directory
+    let contextFiles;
+    if (providedContextFiles) {
+      contextFiles = providedContextFiles;
+    } else {
+      // Process all context files from the project directory
+      contextFiles = await processContextFiles(projectDir);
+    }
     
     // Generate JSON using Claude API
     const sectionJson = await generateJsonSection(prompt, contextFiles);

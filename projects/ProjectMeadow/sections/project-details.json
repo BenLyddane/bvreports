@@ -7,26 +7,25 @@
     "contactPhone": "",
     "projectId": "23406.0000",
     "additionalFields": {
-      "address": "2323 North Field Street, Dallas, TX 75201",
       "bidStatus": "BuildingConnected Lead",
+      "requestType": "Proposal",
       "dateInvited": "4/4/2025",
       "dateDue": "5/13/2025",
-      "rfisDue": "4/10/2025",
-      "projectSize": "600000 sq. ft.",
-      "requestType": "Proposal"
+      "rfIsDue": "4/10/2025"
     }
   },
   "projectInformation": {
     "projectName": "Project Meadow",
     "location": "2323 North Field Street, Dallas, TX 75201",
-    "startDate": "",
-    "completionDate": "27 March 2025",
+    "startDate": "5/15/2025",
+    "completionDate": "3/27/2025",
     "budget": "",
-    "scope": "HVAC systems including air handling units, fan coil units, ductwork, piping, and controls",
+    "scope": "Mechanical, HVAC and related systems installation",
     "projectUrl": "https://app.buildvision.io/admin/organizations/cc7e5f0e-72e4-473c-8a38-493477f6b728/package-projects/7e55df4f-cd77-4526-ba75-6576cfeb23b4/details",
     "additionalFields": {
+      "projectSize": "600000 sq. ft.",
       "projectPhase": "50% Construction Documents",
-      "created": "5/15/2025"
+      "designDevelopment": "11/25/2024"
     }
   },
   "preparerInformation": {
@@ -42,6 +41,6 @@
         "phone": "843-609-3265"
       }
     ],
-    "preparationDate": "25 November 2024"
+    "preparationDate": "3/27/2025"
   }
 }

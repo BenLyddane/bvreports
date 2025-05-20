@@ -49,24 +49,24 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Nailor Industries",
+            "company": "",
             "contact": ""
           },
-          "costDifference": "-8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Nailor 3000 Series provides comparable performance with robust construction and digital controls integration. Direct replacement option with minimal design changes required."
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Nailor 3000 Series offers reliable performance with digital controls compatibility and competitive pricing. Direct replacement for Titus DESV with similar dimensional requirements."
         },
         {
-          "manufacturer": "Metalaire",
-          "model": "5000 Series",
+          "manufacturer": "Johnson Controls",
+          "model": "VMA Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Metalaire",
+            "company": "",
             "contact": ""
           },
-          "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Metalaire 5000 Series offers competitive pricing with appropriate controls compatibility and similar dimensional requirements. May offer cost advantages compared to Basis of Design."
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Johnson Controls VMA units feature high-quality construction and excellent integration with Metasys building automation systems, beneficial for campus-wide control integration."
         }
       ]
     },
@@ -96,7 +96,7 @@
             "company": "Norman S. Wright Climatec Mechanical Equipment",
             "contact": "Southern California, 714-632-9800"
           },
-          "costDifference": "-2%",
+          "costDifference": "-8%",
           "compatibilityNotes": "Daikin systems offer high-efficiency operation with comparable capacity and features."
         },
         {
@@ -122,21 +122,21 @@
             "company": "Norman S. Wright Climatec Mechanical Equipment",
             "contact": "Southern California, 714-632-9800"
           },
-          "costDifference": "+3%",
+          "costDifference": "-3%",
           "compatibilityNotes": "LG's Multi V S Series offers variable refrigerant flow technology with energy-efficient operation."
         },
         {
           "manufacturer": "Trane",
-          "model": "XR16/TAM8 Series",
+          "model": "XR16 Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Trane",
+            "company": "",
             "contact": ""
           },
-          "costDifference": "-4%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane's split systems provide reliable performance with good parts availability and service network. Similar performance specifications to Carrier with potential cost savings."
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane XR16 provides reliable performance with similar capacity ratings and dimensions, making it a straightforward substitution with minimal design changes required."
         },
         {
           "manufacturer": "York",
@@ -145,11 +145,11 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Johnson Controls",
+            "company": "",
             "contact": ""
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York LX Series offers value-oriented pricing while maintaining required performance specifications. May require additional review of electrical requirements but could provide significant cost savings."
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York LX Series offers cost-effective performance with good reliability and efficiency ratings, providing potential project savings without compromising quality."
         }
       ]
     },
@@ -171,42 +171,42 @@
         },
         {
           "manufacturer": "Trane",
-          "model": "Custom AHU Series",
+          "model": "Custom Air Handler",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Trane",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane custom AHUs provide comparable quality with potentially more local service support and parts availability. Design is adaptable to match the Energy Labs performance specifications."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "39CC Custom Air Handler",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
             "contact": ""
           },
           "costDifference": "-3%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane custom AHUs offer comparable quality and performance specifications with an extensive service network. Can match Energy Labs dimensional and performance requirements."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Carrier custom units offer good reliability with similar construction standards and can be designed to match the Energy Labs specifications with minimal changes."
         },
         {
           "manufacturer": "York",
-          "model": "Solution Custom AHU",
+          "model": "Custom Air Handler",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Johnson Controls",
+            "company": "",
             "contact": ""
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York Solution custom AHUs provide competitive pricing with good quality construction. May offer significant cost savings while meeting performance specifications."
-        },
-        {
-          "manufacturer": "Daikin",
-          "model": "Vision Custom AHU",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "Daikin Applied",
-            "contact": ""
-          },
-          "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin Vision custom AHUs feature high-quality construction with flexible configuration options. Similar performance to Energy Labs with slight cost advantage."
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York custom AHUs can provide significant cost savings while meeting the performance requirements. May require minor dimensional adjustments in the mechanical spaces."
         }
       ]
     },
@@ -215,7 +215,7 @@
       "suppliers": [
         {
           "manufacturer": "Greenheck",
-          "model": "CUE Series",
+          "model": "CUE-140-VG/CUE-100B-VG",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -228,29 +228,29 @@
         },
         {
           "manufacturer": "Twin City Fan",
-          "model": "BSI Series",
+          "model": "BCE Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Twin City Fan Companies",
+            "company": "",
             "contact": ""
           },
-          "costDifference": "-8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Twin City Fan BSI Series offers comparable performance with good acoustic properties. Direct replacement possibility with potential cost savings."
+          "costDifference": "-12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Twin City Fan BCE Series offers comparable performance at a more competitive price point. Direct dimensional equivalents to the specified Greenheck models."
         },
         {
           "manufacturer": "Loren Cook",
-          "model": "Gemini Series",
+          "model": "SQND Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Loren Cook Company",
+            "company": "",
             "contact": ""
           },
-          "costDifference": "-6%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Loren Cook Gemini Series provides similar utility exhaust capability with comparable efficiency ratings. Well-established manufacturer with good reputation for reliability."
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cook SQND Series fans provide similar performance specifications with good reliability and potentially shorter lead times. Drop-in replacement for the specified Greenheck models."
         },
         {
           "manufacturer": "PennBarry",
@@ -259,11 +259,11 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "PennBarry",
+            "company": "",
             "contact": ""
           },
-          "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: PennBarry Domex Series offers the most competitive pricing while maintaining acceptable performance characteristics. May be worth considering for significant cost savings."
+          "costDifference": "-15%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: PennBarry Domex fans offer the most significant cost savings while maintaining acceptable performance characteristics. May require some minor adapter curbs for direct replacement."
         }
       ]
     }

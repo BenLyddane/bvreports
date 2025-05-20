@@ -2,7 +2,7 @@
   "equipmentByType": [
     {
       "equipmentType": "Air Handling Units",
-      "notes": "Modular indoor central-station air-handling units with coils for indoor installations",
+      "notes": "Modular indoor central-station units with coils",
       "items": [
         {
           "equipmentTag": "AHU-1A-01",
@@ -25,7 +25,7 @@
           "manufacturer": "Temtrol",
           "model": "CUSTOM",
           "specifications": {
-            "type": "Indoor Central AHU Modular"
+            "type": "Indoor Central AHUs Modular"
           }
         },
         {
@@ -33,7 +33,7 @@
           "manufacturer": "Temtrol",
           "model": "CUSTOM",
           "specifications": {
-            "type": "Indoor Central AHU Modular"
+            "type": "Indoor Central AHUs Modular"
           }
         },
         {
@@ -80,14 +80,14 @@
     },
     {
       "equipmentType": "Fan Coil Units",
-      "notes": "Factory-packaged and tested units rated according to AHRI 440, ASHRAE 33, and UL 1995",
+      "notes": "Chassis with hydronic coils and fan/motor assembly",
       "items": [
         {
           "equipmentTag": "FCU-14A-01",
           "manufacturer": "Enviro-Tec",
           "model": "HDD-16",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -95,7 +95,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-30",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -103,7 +103,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-16",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -111,7 +111,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-08",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -119,7 +119,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-16",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -127,7 +127,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-40",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -135,7 +135,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-20",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -143,7 +143,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-40",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -151,7 +151,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-40",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -159,7 +159,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-20",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -167,7 +167,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-08",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -175,7 +175,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-20",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -183,7 +183,7 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-40",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         },
         {
@@ -191,14 +191,14 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-16",
           "specifications": {
-            "filter": "MERV 13"
+            "type": "Fan Coil Unit"
           }
         }
       ]
     },
     {
       "equipmentType": "HVAC Fans",
-      "notes": "Various fan types including centrifugal, in-line, and exhaust fans",
+      "notes": "Various fan types for ventilation and exhaust",
       "items": [
         {
           "equipmentTag": "DBF-2C-01",
@@ -246,6 +246,42 @@
           "model": "225SQN",
           "specifications": {
             "type": "HVAC Fan"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Terminal Units",
+      "notes": "Shutoff single-duct and parallel fan-powered units for air distribution",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Enviro-Tec, Metalaire, or Titus",
+          "model": "",
+          "specifications": {
+            "type": "Air Terminal Units",
+            "categories": [
+              "Shutoff single-duct air terminal units",
+              "Parallel fan-powered air terminal units"
+            ],
+            "construction": "Galvanized steel casing, insulated with 3/4-inch thick liner"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Control Valves",
+      "notes": "Used for hydronic system control",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Belimo",
+          "model": "",
+          "specifications": {
+            "type": "Ball-Style Control Valves",
+            "pressure rating": "Nominal 600 WOG for NPS 1 and smaller, Nominal 400 WOG for NPS 1-1/2 through NPS 2",
+            "close-off pressure": "200 psig",
+            "process temperature range": "Zero to 212 deg F"
           }
         }
       ]

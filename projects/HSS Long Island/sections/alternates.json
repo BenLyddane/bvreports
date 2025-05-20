@@ -52,47 +52,34 @@
             "company": "New York Thermal Systems",
             "contact": "212-991-8240"
           },
-          "costDifference": "-7%",
+          "costDifference": "-2%",
           "compatibilityNotes": "Listed as approved manufacturer in spec section 237313. Healthcare-grade specifications required."
         },
         {
           "manufacturer": "Trane",
-          "model": "Custom AHU Series",
+          "model": "Custom Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "Trane Commercial Sales",
-            "contact": "800-755-5115"
+            "company": "Trane New York",
+            "contact": "516-832-4000"
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane offers high-quality custom AHUs suitable for healthcare applications with double-wall construction and hospital-grade features."
+          "costDifference": "-1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane can provide custom healthcare-grade AHUs with double-wall construction and features comparable to Haakon units. Their large manufacturing capacity may offer shorter lead times."
         },
         {
-          "manufacturer": "Daikin Applied",
-          "model": "Vision Custom AHU",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "Sales Team",
-            "company": "Daikin Applied",
-            "contact": "800-432-1342"
-          },
-          "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin Applied Vision series offers custom healthcare-grade AHUs with antimicrobial treatments and premium filtration options."
-        },
-        {
-          "manufacturer": "York/Johnson Controls",
+          "manufacturer": "JCI/York",
           "model": "Solution XT",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
             "company": "Johnson Controls",
-            "contact": "844-884-4470"
+            "contact": "212-896-4600"
           },
           "costDifference": "-4%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York Solution XT custom AHUs can be configured for healthcare applications with appropriate filtration and construction features."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York Solution XT custom AHUs can be built to healthcare specifications with antimicrobial coatings, hospital-grade drainage, and high-efficiency filtration capabilities."
         }
       ]
     },
@@ -122,8 +109,21 @@
             "company": "SRS Enterprises",
             "contact": "718-714-4242"
           },
-          "costDifference": "-8%",
+          "costDifference": "-7%",
           "compatibilityNotes": "Listed as approved manufacturer in spec section 236213. The AERMEC NYK500HD is a high-efficiency heat pump chiller. The 7-module configuration suggests approximately 875 tons of capacity (125 tons per module). Modular system, good for redundancy."
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "AWH Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Sales Team",
+            "company": "Daikin Applied",
+            "contact": "631-242-8787"
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin's AWH Series heat pump chillers offer comparable performance to the AERMEC units with robust heat recovery capabilities. Available in modular design for similar redundancy benefits."
         },
         {
           "manufacturer": "Climacool",
@@ -132,37 +132,24 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "Climacool Northeast",
-            "contact": "800-825-6685"
+            "company": "H.O. Penn HVAC",
+            "contact": "718-784-9500"
           },
-          "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Climacool offers modular heat pump chillers that can provide similar redundancy and heating/cooling capabilities as the AERMEC system."
+          "costDifference": "-15%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: ClimaCool's modular chiller design specializes in redundancy and flexibility. Their UCW series offers simultaneous heating and cooling with competitive efficiency ratings."
         },
         {
-          "manufacturer": "Arctic Chiller Group",
-          "model": "ArcticCool Modular Series",
+          "manufacturer": "Trane",
+          "model": "Ascend Air-Cooled Heat Pump",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "Arctic Chiller Group",
-            "contact": "888-289-7299"
+            "company": "Trane New York",
+            "contact": "516-832-4000"
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: ArcticCool modular heat pump chillers offer flexible configurations with good energy efficiency and redundancy for healthcare applications."
-        },
-        {
-          "manufacturer": "Daikin Applied",
-          "model": "Pathfinder AWV Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "Sales Team",
-            "company": "Daikin Applied",
-            "contact": "800-432-1342"
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin's modular air-cooled heat pump chillers offer high efficiency and can be configured in multiple units for redundancy."
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane's Ascend air-cooled heat pump chillers can be configured in a modular arrangement similar to AERMEC. Established service network in New York area provides additional reliability benefits."
         }
       ]
     },
@@ -192,7 +179,7 @@
             "company": "H.O. Penn",
             "contact": "631-735-6497"
           },
-          "costDifference": "-3%",
+          "costDifference": "-8%",
           "compatibilityNotes": "The Caterpillar D600 GC is a 600 kW generator. Alternatives should match this capacity. H.O. Penn serves New York with full sales and service for Caterpillar products and represents Kohler generators."
         },
         {
@@ -218,34 +205,34 @@
             "company": "Atlantic Power",
             "contact": "631-981-3785"
           },
-          "costDifference": "-7%",
+          "costDifference": "-3%",
           "compatibilityNotes": "Verify healthcare-grade features and 600 kW capacity"
         },
         {
           "manufacturer": "Generac",
-          "model": "SG600",
+          "model": "SD600",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "Generac Industrial Power",
-            "contact": "888-436-3722"
+            "company": "GenServe",
+            "contact": "631-567-2290"
           },
           "costDifference": "-12%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Generac offers commercial-grade generators suitable for healthcare applications, typically at a lower price point than premium brands."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Generac's commercial generators provide good value with lower initial cost but comparable reliability for healthcare applications. The SD600 model matches the required 600kW capacity."
         },
         {
           "manufacturer": "HIPOWER Systems",
-          "model": "HRJW-600",
+          "model": "HRJW-605",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "HIPOWER Northeast",
-            "contact": "913-495-5557"
+            "company": "GenServe",
+            "contact": "631-567-2290"
           },
           "costDifference": "-15%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: HIPOWER provides reliable diesel generators that can meet healthcare facility requirements with competitive pricing."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: HIPOWER generators offer a more economical alternative while still meeting healthcare code requirements for emergency power systems. Their HRJW-605 model provides equivalent capacity to the Caterpillar unit."
         }
       ]
     },
@@ -275,7 +262,7 @@
             "company": "Russelectric Northeast",
             "contact": "781-749-6000"
           },
-          "costDifference": "-2%",
+          "costDifference": "-3%",
           "compatibilityNotes": "ASCO 7000 series are premium quality switches. Match quality and functionality."
         },
         {
@@ -301,7 +288,7 @@
             "company": "H.O. Penn",
             "contact": "631-735-6497"
           },
-          "costDifference": "-6%",
+          "costDifference": "-7%",
           "compatibilityNotes": "Verify healthcare code compliance"
         },
         {
@@ -324,24 +311,24 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "Thomson Power Systems",
-            "contact": "888-888-0110"
+            "company": "Northeast Power Systems",
+            "contact": "518-573-6916"
           },
           "costDifference": "-12%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Thomson offers high-quality transfer switches that can be configured for healthcare applications at competitive prices."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Thomson's TS870 Series transfer switches offer healthcare-grade reliability at a lower price point. These units meet NFPA 110 requirements for Emergency Power Supply Systems."
         },
         {
-          "manufacturer": "GE Zenith Controls",
-          "model": "ZTX Series",
+          "manufacturer": "ABB",
+          "model": "Zenith ZTS Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "GE Industrial Solutions",
-            "contact": "888-437-3765"
+            "company": "ABB Distribution",
+            "contact": "914-476-8000"
           },
           "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: GE Zenith transfer switches feature reliable operation suitable for healthcare critical power applications."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: ABB's Zenith ZTS Series offers comparable quality to ASCO with healthcare-specific features. Their bypass isolation design allows for maintenance without interrupting critical power."
         }
       ]
     },
@@ -359,37 +346,37 @@
             "contact": "631-351-0231"
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as approved manufacturer in spec section 238126.13. Equipment tag: AC-1-1."
+          "compatibilityNotes": "Equipment tag: AC-1-1"
         },
         {
           "manufacturer": "Daikin",
-          "model": "SkyAir Series",
+          "model": "FTXS Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
             "company": "Daikin North America",
-            "contact": "888-324-5461"
+            "contact": "631-242-8787"
           },
-          "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin SkyAir systems offer similar performance to Mitsubishi with good reliability and efficiency."
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin's FTXS series offers comparable efficiency and quiet operation suited for healthcare environments. Compatible with existing refrigerant piping design."
         },
         {
           "manufacturer": "LG",
-          "model": "Multi V S Series",
+          "model": "Art Cool Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "LG Electronics USA",
-            "contact": "888-865-3026"
+            "company": "LG Electronics",
+            "contact": "201-266-2000"
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: LG's commercial split systems provide efficient operation with low noise levels suitable for healthcare environments."
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: LG's Art Cool series provides excellent aesthetics for visible indoor units with efficiency ratings that match the Mitsubishi systems. Good option for staff areas and waiting rooms."
         },
         {
           "manufacturer": "Samsung",
-          "model": "DVM S Series",
+          "model": "Wind-Free Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -397,8 +384,8 @@
             "company": "Samsung HVAC",
             "contact": "888-699-6067"
           },
-          "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Samsung offers reliable split systems with good warranties and efficiency ratings at competitive prices."
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Samsung's Wind-Free technology provides draft-free comfort suitable for patient areas. Units offer competitive efficiency and quiet operation comparable to Mitsubishi."
         }
       ]
     },
@@ -419,30 +406,30 @@
           "compatibilityNotes": "Equipment tags: CHWP-1-1, CHWP-1-2, CHWP-2-1, CHWP-2-2. Emerson Swan is the authorized representative for Taco Comfort Solutions in New York state."
         },
         {
+          "manufacturer": "Bell & Gossett",
+          "model": "e-1510 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Sales Team",
+            "company": "Wallace Eannace",
+            "contact": "516-454-7500"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Bell & Gossett's e-1510 series offers comparable performance with excellent efficiency ratings. Wallace Eannace provides strong local support in the New York area."
+        },
+        {
           "manufacturer": "Armstrong",
           "model": "4300 Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "Armstrong Fluid Technology",
-            "contact": "866-238-1337"
+            "company": "Federal Pump",
+            "contact": "718-392-3080"
           },
-          "costDifference": "-3%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Armstrong offers high-quality in-line pumps with similar hydraulic performance to Taco."
-        },
-        {
-          "manufacturer": "Bell & Gossett",
-          "model": "e-80 Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "Sales Team",
-            "company": "Xylem Applied Water Systems",
-            "contact": "866-673-0428"
-          },
-          "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Bell & Gossett's e-80 series provides reliable performance for healthcare hydronic systems with good efficiency."
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Armstrong's 4300 series vertical in-line pumps feature a robust design well-suited for the heating and cooling requirements of this healthcare facility. Available with premium efficiency motors."
         },
         {
           "manufacturer": "Grundfos",
@@ -451,24 +438,11 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Sales Team",
-            "company": "Grundfos Pumps Corporation",
-            "contact": "800-921-7867"
+            "company": "Wallace Eannace",
+            "contact": "516-454-7500"
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Grundfos offers premium efficiency pumps with stainless steel options ideal for healthcare applications."
-        },
-        {
-          "manufacturer": "Wilo",
-          "model": "CronoLine-IL Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "Sales Team",
-            "company": "Wilo USA",
-            "contact": "866-945-6872"
-          },
-          "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Wilo's inline pumps offer competitive pricing with good reliability and efficiency for healthcare hydronic systems."
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Grundfos TP series pumps offer excellent efficiency and reliability with BMS compatibility for integration with building systems. Premium efficiency motors match or exceed Taco specifications."
         }
       ]
     }
