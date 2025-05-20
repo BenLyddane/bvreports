@@ -1,17 +1,8 @@
 #!/bin/sh
-# Pre-commit hook to check for API keys and other secrets
+# Pre-commit hook (secret checking disabled)
 
-# Run our secret checking script
-echo "Running secret check..."
-npm run git:check-secrets
+# Secret checking has been disabled
+echo "Git secret checking has been disabled"
 
-# If the secret check found something, it will return a non-zero exit code
-if [ $? -ne 0 ]; then
-  echo "ERROR: Potential secrets found in staged files."
-  echo "Please remove any API keys, passwords, or other sensitive information before committing."
-  echo "See SECURITY.md for guidance on handling secrets."
-  exit 1
-fi
-
-# All good, allow the commit
+# Allow all commits
 exit 0

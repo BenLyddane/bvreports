@@ -1,17 +1,19 @@
 {
   "equipmentByType": [
     {
-      "equipmentType": "Air Handling Units",
-      "notes": "Indoor central-station air-handling units, modular design with cooling coils and heating capabilities.",
+      "equipmentType": "Indoor Central-Station Air-Handling Units",
+      "notes": "Modular air-handling units for indoor installations with coils and various configurations",
       "items": [
         {
           "equipmentTag": "AHU-1A-01",
           "manufacturer": "York",
           "model": "XTI-63X69",
           "specifications": {
-            "type": "Indoor Central-Station Air-Handling Unit",
-            "features": "Factory assembled with fans, motor, coils, dampers, plenums, filters, condensate pans, mixing dampers",
-            "insulation": "1 inch thick with thermal conductivity (k-Value) of 0.26 at 75 deg F"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         },
         {
@@ -19,9 +21,11 @@
           "manufacturer": "York",
           "model": "XTI-75X69",
           "specifications": {
-            "type": "Indoor Central-Station Air-Handling Unit",
-            "features": "Factory assembled with fans, motor, coils, dampers, plenums, filters, condensate pans, mixing dampers",
-            "insulation": "1 inch thick with thermal conductivity (k-Value) of 0.26 at 75 deg F"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         },
         {
@@ -29,8 +33,11 @@
           "manufacturer": "Temtrol",
           "model": "CUSTOM",
           "specifications": {
-            "type": "Indoor Central AHUs Modular",
-            "features": "Custom design, factory assembled modular construction"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         },
         {
@@ -38,8 +45,11 @@
           "manufacturer": "Temtrol",
           "model": "CUSTOM",
           "specifications": {
-            "type": "Indoor Central AHUs Modular",
-            "features": "Custom design, factory assembled modular construction"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         },
         {
@@ -47,9 +57,11 @@
           "manufacturer": "York",
           "model": "XTI-33X54",
           "specifications": {
-            "type": "Indoor Central-Station Air-Handling Unit",
-            "features": "Factory assembled with fans, motor, coils, dampers, plenums, filters, condensate pans, mixing dampers",
-            "insulation": "1 inch thick with thermal conductivity (k-Value) of 0.26 at 75 deg F"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         },
         {
@@ -57,9 +69,11 @@
           "manufacturer": "York",
           "model": "XTI-96X96",
           "specifications": {
-            "type": "Indoor Central-Station Air-Handling Unit",
-            "features": "Factory assembled with fans, motor, coils, dampers, plenums, filters, condensate pans, mixing dampers",
-            "insulation": "1 inch thick with thermal conductivity (k-Value) of 0.26 at 75 deg F"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         },
         {
@@ -67,9 +81,11 @@
           "manufacturer": "York",
           "model": "XTI-75X69",
           "specifications": {
-            "type": "Indoor Central-Station Air-Handling Unit",
-            "features": "Factory assembled with fans, motor, coils, dampers, plenums, filters, condensate pans, mixing dampers",
-            "insulation": "1 inch thick with thermal conductivity (k-Value) of 0.26 at 75 deg F"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         },
         {
@@ -77,9 +93,11 @@
           "manufacturer": "York",
           "model": "XTI-84X84",
           "specifications": {
-            "type": "Indoor Central-Station Air-Handling Unit",
-            "features": "Factory assembled with fans, motor, coils, dampers, plenums, filters, condensate pans, mixing dampers",
-            "insulation": "1 inch thick with thermal conductivity (k-Value) of 0.26 at 75 deg F"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         },
         {
@@ -87,26 +105,30 @@
           "manufacturer": "York",
           "model": "XTI-48X63",
           "specifications": {
-            "type": "Indoor Central-Station Air-Handling Unit",
-            "features": "Factory assembled with fans, motor, coils, dampers, plenums, filters, condensate pans, mixing dampers",
-            "insulation": "1 inch thick with thermal conductivity (k-Value) of 0.26 at 75 deg F"
+            "cabinetMaterial": "Galvanized steel with double-wall insulated panels",
+            "insulation": "1 inch thick, NFPA 90A compliant",
+            "drainPan": "Formed sections of 304 stainless-steel sheet with double wall construction",
+            "filterType": "MERV 13 final filters, 4-inch thick",
+            "preFilters": "2-inch disposable panel filters"
           }
         }
       ]
     },
     {
       "equipmentType": "Fan Coil Units",
-      "notes": "Factory-packaged, floor or ceiling mounted units with hydronic cooling coil.",
+      "notes": "Floor-mounted and suspended fan coil units for various building areas",
       "items": [
         {
           "equipmentTag": "FCU-14A-01",
           "manufacturer": "Enviro-Tec",
           "model": "HDD-16",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -114,10 +136,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-30",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -125,10 +149,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-16",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -136,10 +162,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-08",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -147,10 +175,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-16",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -158,10 +188,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-40",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -169,10 +201,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-20",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -180,10 +214,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-40",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -191,10 +227,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-40",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -202,10 +240,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-20",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -213,10 +253,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-08",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -224,10 +266,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-20",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -235,10 +279,12 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-40",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         },
         {
@@ -246,24 +292,28 @@
           "manufacturer": "Enviro-Tec",
           "model": "HDD-16",
           "specifications": {
-            "drain_pan": "Stainless steel",
-            "filters": "MERV 13",
-            "coil": "Copper tube with aluminum fins, rated for 200 psig",
-            "fan": "Forward curved, double width, centrifugal"
+            "drainPan": "Stainless steel",
+            "chassis": "Galvanized steel with baked-enamel finish",
+            "filterRating": "MERV 13",
+            "coil": "Copper tube with aluminum fins",
+            "fan": "Forward curved, centrifugal",
+            "motor": "Permanently lubricated, multispeed"
           }
         }
       ]
     },
     {
       "equipmentType": "HVAC Fans",
-      "notes": "Various types of fans for exhaust and air circulation applications.",
+      "notes": "Various exhaust and transfer fans for building ventilation systems",
       "items": [
         {
           "equipmentTag": "DBF-2C-01",
           "manufacturer": "LF Systems",
           "model": "DEF035",
           "specifications": {
-            "type": "Centrifugal HVAC Fan"
+            "type": "In-line fan for dryer exhaust",
+            "construction": "Split, spun aluminum housing",
+            "wheel": "Aluminum airfoil blades welded to aluminum hub"
           }
         },
         {
@@ -271,7 +321,7 @@
           "manufacturer": "",
           "model": "",
           "specifications": {
-            "type": "HVAC Fan"
+            "type": "Exhaust Fan"
           }
         },
         {
@@ -279,65 +329,8 @@
           "manufacturer": "Loren Cook",
           "model": "135CA-SWSI",
           "specifications": {
-            "type": "HVAC Fan"
-          }
-        },
-        {
-          "equipmentTag": "KEF-1C-02",
-          "manufacturer": "Loren Cook",
-          "model": "135CA-SWSI",
-          "specifications": {
-            "type": "HVAC Fan"
-          }
-        },
-        {
-          "equipmentTag": "TF-1C-01",
-          "manufacturer": "Loren Cook",
-          "model": "225SQN",
-          "specifications": {
-            "type": "HVAC Fan"
-          }
-        },
-        {
-          "equipmentTag": "TF-1C-02",
-          "manufacturer": "Loren Cook",
-          "model": "225SQN",
-          "specifications": {
-            "type": "HVAC Fan"
-          }
-        }
-      ]
-    },
-    {
-      "equipmentType": "Controls and Instrumentation",
-      "notes": "Building Management System (BMS) components for monitoring and controlling HVAC systems.",
-      "items": [
-        {
-          "equipmentTag": "BMS",
-          "manufacturer": "Tridium",
-          "model": "Niagara Framework N4",
-          "specifications": {
-            "type": "Building Management System",
-            "communications": "BACnet/IP protocol",
-            "components": "Unitary Controller, damper actuators, temperature sensors, pressure sensors"
-          }
-        }
-      ]
-    },
-    {
-      "equipmentType": "Control Valves",
-      "notes": "Valves for controlling fluid flow in HVAC piping systems.",
-      "items": [
-        {
-          "equipmentTag": "Control Valves",
-          "manufacturer": "Belimo",
-          "model": "",
-          "specifications": {
-            "types": "Ball valves, butterfly valves",
-            "pressure_rating": "600 WOG for NPS 1 and smaller, 400 WOG for NPS 1-1/2 through NPS 2",
-            "close_off_pressure": "200 psig",
-            "temperature_range": "Zero to 212 deg F",
-            "construction": "Cast bronze or forged brass with nickel plating, chrome-plated ball"
+            "type": "Kitchen Exhaust Fan",
+            "construction": "Single width, single inlet"
           }
         }
       ]

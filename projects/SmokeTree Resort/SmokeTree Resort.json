@@ -1,1081 +1,1081 @@
 {
-    "reportTitle": "BuildVision Project Report - SmokeTree Resort",
-    "customerInformation": {
-      "customerName": "SmokeTree Resort",
-      "contactPerson": "Brett Henderson",
-      "contactEmail": "hendersonb@consolidated-distribution.com",
-      "contactPhone": "",
-      "projectId": "22018820-00",
-      "additionalFields": {
-        "address": "7010 East Lincoln Drive, Paradise Valley, AZ 63114",
-        "projectSize": "132,652 sq. ft."
+  "reportTitle": "BuildVision Project Report - SmokeTree Resort",
+  "customerInformation": {
+    "customerName": "SmokeTree Resort",
+    "contactPerson": "Brett Henderson",
+    "contactEmail": "hendersonb@consolidated-distribution.com",
+    "contactPhone": "",
+    "projectId": "22018820-00",
+    "additionalFields": {
+      "address": "7010 East Lincoln Drive, Paradise Valley, AZ 63114",
+      "projectSize": "132,652 sq. ft."
+    }
+  },
+  "projectInformation": {
+    "projectName": "SmokeTree Resort HVAC Renovation",
+    "location": "Paradise Valley, AZ",
+    "startDate": "Expected Q2 2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "The project consists of providing new mechanical (HVAC) systems for the new three-story SmokeTree hotel resort, outdoor pool deck, amenities, F&B restaurants, and a lower-level parking area. A new chiller plant with associated pumps will provide cooling for the resort. Air handling equipment will consist of indoor AHU's (Air Handling Units), RTU's (Rooftop Air Handling Units), indoor and outdoor DOAS (Dedicated Outside Air System) units, kitchen hood MAU's (Makeup Air Units) and fan coil units to serve all the indoor spaces. Heat will be provided by electric resistance heaters.",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/5e982f97-9bd6-438b-a283-8451d4916a75/package-projects/326391f9-5f7a-43c4-a46b-a7ea36b32456/packages",
+    "additionalFields": {
+      "climateZone": "2B",
+      "designTemperature": {
+        "summer": "110.9°F Dry Bulb, 70.0°F Mean Coincident Wet Bulb",
+        "winter": "34.8°F Dry Bulb (99.6%), 26.7°F Dry Bulb (5 years low)"
+      },
+      "currentPhase": "Bidding",
+      "status": "Draft",
+      "dateCreated": "January 15, 2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "267-281-4339"
       }
-    },
-    "projectInformation": {
-      "projectName": "SmokeTree Resort HVAC Renovation",
-      "location": "Paradise Valley, AZ",
-      "startDate": "Expected Q2 2025",
-      "completionDate": "",
-      "budget": "",
-      "scope": "The project consists of providing new mechanical (HVAC) systems for the new three-story SmokeTree hotel resort, outdoor pool deck, amenities, F&B restaurants, and a lower-level parking area. A new chiller plant with associated pumps will provide cooling for the resort. Air handling equipment will consist of indoor AHU's (Air Handling Units), RTU's (Rooftop Air Handling Units), indoor and outdoor DOAS (Dedicated Outside Air System) units, kitchen hood MAU's (Makeup Air Units) and fan coil units to serve all the indoor spaces. Heat will be provided by electric resistance heaters.",
-      "projectUrl": "https://app.buildvision.io/admin/organizations/5e982f97-9bd6-438b-a283-8451d4916a75/package-projects/326391f9-5f7a-43c4-a46b-a7ea36b32456/packages",
-      "additionalFields": {
-        "climateZone": "2B",
-        "designTemperature": {
-          "summer": "110.9°F Dry Bulb, 70.0°F Mean Coincident Wet Bulb",
-          "winter": "34.8°F Dry Bulb (99.6%), 26.7°F Dry Bulb (5 years low)"
-        },
-        "currentPhase": "Bidding",
-        "status": "Draft",
-        "dateCreated": "January 15, 2025"
-      }
-    },
-    "preparerInformation": {
-      "preparers": [
+    ],
+    "preparationDate": "2025-05-20"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled, Rotary-Screw Water Chillers",
+      "notes": "The expected cooling load for the new expansion is 640 tons. Chilled water will be supplied to the resort from a plant capacity of 750 tons consisting of three (3) air cooled chillers at 250 tons each.",
+      "items": [
         {
-          "name": "Ben Lyddane",
-          "email": "Ben@BuildVision.io",
-          "phone": "202-365-8628"
+          "equipmentTag": "CH-01",
+          "manufacturer": "Daikin Applied",
+          "model": "Air-Cooled, Rotary-Screw Water Chiller",
+          "specifications": {
+            "capacity": "250 tons",
+            "flow": "427 GPM",
+            "EWT": "55°F",
+            "LWT": "45°F",
+            "ambient": "115°F",
+            "altitude": "2160 ft",
+            "input": "400 kW"
+          }
         },
         {
-          "name": "Mackenzie Hoover",
-          "email": "Mackenzie@buildvision.io",
-          "phone": "267-281-4339"
+          "equipmentTag": "CH-02",
+          "manufacturer": "Daikin Applied",
+          "model": "Air-Cooled, Rotary-Screw Water Chiller",
+          "specifications": {
+            "capacity": "250 tons",
+            "flow": "427 GPM",
+            "EWT": "55°F",
+            "LWT": "45°F",
+            "ambient": "115°F",
+            "altitude": "2160 ft",
+            "input": "400 kW"
+          }
+        },
+        {
+          "equipmentTag": "CH-03",
+          "manufacturer": "Daikin Applied",
+          "model": "Air-Cooled, Rotary-Screw Water Chiller",
+          "specifications": {
+            "capacity": "250 tons",
+            "flow": "427 GPM",
+            "EWT": "55°F",
+            "LWT": "45°F",
+            "ambient": "115°F",
+            "altitude": "2160 ft",
+            "input": "400 kW"
+          }
         }
-      ],
-      "preparationDate": "May 14, 2025"
+      ]
     },
-    "equipmentByType": [
-      {
-        "equipmentType": "Air-Cooled, Rotary-Screw Water Chillers",
-        "notes": "The expected cooling load for the new expansion is 640 tons. Chilled water will be supplied to the resort from a plant capacity of 750 tons consisting of three (3) air cooled chillers at 250 tons each.",
-        "items": [
-          {
-            "equipmentTag": "CH-01",
-            "manufacturer": "Daikin Applied",
-            "model": "Air-Cooled, Rotary-Screw Water Chiller",
-            "specifications": {
-              "capacity": "250 tons",
-              "flow": "427 GPM",
-              "EWT": "55°F",
-              "LWT": "45°F",
-              "ambient": "115°F",
-              "altitude": "2160 ft",
-              "input": "400 kW"
-            }
-          },
-          {
-            "equipmentTag": "CH-02",
-            "manufacturer": "Daikin Applied",
-            "model": "Air-Cooled, Rotary-Screw Water Chiller",
-            "specifications": {
-              "capacity": "250 tons",
-              "flow": "427 GPM",
-              "EWT": "55°F",
-              "LWT": "45°F",
-              "ambient": "115°F",
-              "altitude": "2160 ft",
-              "input": "400 kW"
-            }
-          },
-          {
-            "equipmentTag": "CH-03",
-            "manufacturer": "Daikin Applied",
-            "model": "Air-Cooled, Rotary-Screw Water Chiller",
-            "specifications": {
-              "capacity": "250 tons",
-              "flow": "427 GPM",
-              "EWT": "55°F",
-              "LWT": "45°F",
-              "ambient": "115°F",
-              "altitude": "2160 ft",
-              "input": "400 kW"
+    {
+      "equipmentType": "Rooftop Units (Chilled Water)",
+      "notes": "Multi-zone variable air volume chilled water units will be used for spaces like event centers and restaurants.",
+      "items": [
+        {
+          "equipmentTag": "RTU-1.1",
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "specifications": {
+            "service": "COMMOS Restaurant",
+            "type": "VAV",
+            "airflow": "12,540 CFM",
+            "minOA": "4,389 CFM",
+            "motor": "25 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "293 MBH",
+              "kW": "86"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "617 MBH total, 425 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "91.5"
             }
           }
-        ]
-      },
-      {
-        "equipmentType": "Rooftop Units (Chilled Water)",
-        "notes": "Multi-zone variable air volume chilled water units will be used for spaces like event centers and restaurants.",
-        "items": [
-          {
-            "equipmentTag": "RTU-1.1",
-            "manufacturer": "Daikin Applied",
-            "model": "Packaged Rooftop Air-Conditioning Unit",
-            "specifications": {
-              "service": "COMMOS Restaurant",
-              "type": "VAV",
-              "airflow": "12,540 CFM",
-              "minOA": "4,389 CFM",
-              "motor": "25 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "78°F",
-                "capacity": "293 MBH",
-                "kW": "86"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 53.5°F WB",
-                "capacity": "617 MBH total, 425 MBH sensible",
-                "EWT": "42°F",
-                "LWT": "56°F",
-                "GPM": "91.5"
-              }
-            }
-          },
-          {
-            "equipmentTag": "RTU-1.2",
-            "manufacturer": "Daikin Applied",
-            "model": "Packaged Rooftop Air-Conditioning Unit",
-            "specifications": {
-              "service": "Main Kitchen",
-              "type": "VAV",
-              "airflow": "8,460 CFM",
-              "minOA": "2,538 CFM",
-              "motor": "20 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "78°F",
-                "capacity": "182 MBH",
-                "kW": "53"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 53.5°F WB",
-                "capacity": "398 MBH total, 270 MBH sensible",
-                "EWT": "42°F",
-                "LWT": "56°F",
-                "GPM": "58.9"
-              }
-            }
-          },
-          {
-            "equipmentTag": "RTU-1.3",
-            "manufacturer": "Daikin Applied",
-            "model": "Packaged Rooftop Air-Conditioning Unit",
-            "specifications": {
-              "service": "Lobby",
-              "type": "SZVAV",
-              "airflow": "5,063 CFM",
-              "minOA": "1,772 CFM",
-              "motor": "10 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "78°F",
-                "capacity": "118 MBH",
-                "kW": "35"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 53.5°F WB",
-                "capacity": "249 MBH total, 171 MBH sensible",
-                "EWT": "42°F",
-                "LWT": "56°F",
-                "GPM": "36.9"
-              }
-            }
-          },
-          {
-            "equipmentTag": "RTU-1.4",
-            "manufacturer": "Daikin Applied",
-            "model": "Packaged Rooftop Air-Conditioning Unit",
-            "specifications": {
-              "service": "Meeting",
-              "type": "VAV",
-              "airflow": "16,683 CFM",
-              "minOA": "5,839 CFM",
-              "motor": "40 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "78°F",
-                "capacity": "390 MBH",
-                "kW": "114"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 53.5°F WB",
-                "capacity": "821 MBH total, 565 MBH sensible",
-                "EWT": "42°F",
-                "LWT": "56°F",
-                "GPM": "121.7"
-              }
+        },
+        {
+          "equipmentTag": "RTU-1.2",
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "specifications": {
+            "service": "Main Kitchen",
+            "type": "VAV",
+            "airflow": "8,460 CFM",
+            "minOA": "2,538 CFM",
+            "motor": "20 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "182 MBH",
+              "kW": "53"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "398 MBH total, 270 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "58.9"
             }
           }
-        ]
-      },
-      {
-        "equipmentType": "Fan Coil Units",
-        "notes": "Horizontal units serving support areas and public spaces.",
-        "items": [
-          {
-            "equipmentTag": "FCU-00.1 to 5",
-            "manufacturer": "Daikin Applied",
-            "model": "Fan Coil Units",
-            "specifications": {
-              "service": "Support Level 00",
-              "type": "SZVAV",
-              "airflow": "5,804 CFM",
-              "minOA": "1,451 CFM",
-              "motor": "10 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "80°F",
-                "capacity": "108 MBH",
-                "kW": "31.8"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 54.5°F WB",
-                "capacity": "174 MBH total, 164 MBH sensible",
-                "GPM": "34.8"
-              }
-            }
-          },
-          {
-            "equipmentTag": "FCU-01.1 to 10",
-            "manufacturer": "Daikin Applied",
-            "model": "Fan Coil Units",
-            "specifications": {
-              "service": "Support Level 01",
-              "type": "SZVAV",
-              "airflow": "9,575 CFM",
-              "minOA": "2,394 CFM",
-              "motor": "20 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "80°F",
-                "capacity": "179 MBH",
-                "kW": "52.4"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 54.5°F WB",
-                "capacity": "287 MBH total, 271 MBH sensible",
-                "GPM": "57.5"
-              }
-            }
-          },
-          {
-            "equipmentTag": "FCU-01.10 to 14",
-            "manufacturer": "Daikin Applied",
-            "model": "Fan Coil Units",
-            "specifications": {
-              "service": "Fitness Level 01",
-              "type": "SZVAV",
-              "airflow": "2,700 CFM",
-              "minOA": "675 CFM",
-              "motor": "5 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "80°F",
-                "capacity": "50 MBH",
-                "kW": "14.8"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 54.5°F WB",
-                "capacity": "81 MBH total, 76 MBH sensible",
-                "GPM": "16.2"
-              }
-            }
-          },
-          {
-            "equipmentTag": "FCU-01.14 to 20",
-            "manufacturer": "Daikin Applied",
-            "model": "Fan Coil Units",
-            "specifications": {
-              "service": "Spa Level 01",
-              "type": "SZVAV",
-              "airflow": "6,261 CFM",
-              "minOA": "1,565 CFM",
-              "motor": "10 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "80°F",
-                "capacity": "117 MBH",
-                "kW": "34.3"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 54.5°F WB",
-                "capacity": "188 MBH total, 177 MBH sensible",
-                "GPM": "37.6"
-              }
+        },
+        {
+          "equipmentTag": "RTU-1.3",
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "specifications": {
+            "service": "Lobby",
+            "type": "SZVAV",
+            "airflow": "5,063 CFM",
+            "minOA": "1,772 CFM",
+            "motor": "10 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "118 MBH",
+              "kW": "35"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "249 MBH total, 171 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "36.9"
             }
           }
-        ]
-      },
-      {
-        "equipmentType": "Guest Room Fan Coil Units",
-        "notes": "Vertical high-rise units with chilled water cooling and electric heating, featuring 2-pipe configuration.",
-        "items": [
-          {
-            "equipmentTag": "FCU-A",
-            "manufacturer": "IEC",
-            "model": "MUY",
-            "specifications": {
-              "service": "Standard Guestroom",
-              "supply": {
-                "CFM": "300",
-                "HP": "1/2",
-                "outsideAir": "35"
-              },
-              "cooling": {
-                "capacity": "8.7 MBH total, 7.7 MBH sensible",
-                "DB": "55.0°F",
-                "WB": "54.5°F",
-                "GPM": "1.7"
-              },
-              "heating": {
-                "LAT": "85.0°F",
-                "kW": "1.5",
-                "capacity": "5.1 MBH"
-              },
-              "electrical": {
-                "volt": "120",
-                "phase": "1",
-                "Hz": "60"
-              }
-            }
-          },
-          {
-            "equipmentTag": "FCU-B",
-            "manufacturer": "IEC",
-            "model": "MUY",
-            "specifications": {
-              "service": "One Bedroom Suite",
-              "supply": {
-                "CFM": "500",
-                "HP": "3/4",
-                "outsideAir": "35"
-              },
-              "cooling": {
-                "capacity": "13.9 MBH total, 11.9 MBH sensible",
-                "DB": "55.0°F",
-                "WB": "54.5°F",
-                "GPM": "2.8"
-              },
-              "heating": {
-                "LAT": "85.0°F",
-                "kW": "2.5",
-                "capacity": "8.5 MBH"
-              },
-              "electrical": {
-                "volt": "120",
-                "phase": "1",
-                "Hz": "60"
-              }
-            }
-          },
-          {
-            "equipmentTag": "FCU-C",
-            "manufacturer": "IEC",
-            "model": "MUY",
-            "specifications": {
-              "service": "Casitas",
-              "supply": {
-                "CFM": "800",
-                "HP": "3/4",
-                "outsideAir": "50"
-              },
-              "cooling": {
-                "capacity": "21.9 MBH total, 18.7 MBH sensible",
-                "DB": "55.0°F",
-                "WB": "54.5°F",
-                "GPM": "4.4"
-              },
-              "heating": {
-                "LAT": "84.0°F",
-                "kW": "3.5",
-                "capacity": "11.9 MBH"
-              },
-              "electrical": {
-                "volt": "120",
-                "phase": "1",
-                "Hz": "60"
-              }
+        },
+        {
+          "equipmentTag": "RTU-1.4",
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "specifications": {
+            "service": "Meeting",
+            "type": "VAV",
+            "airflow": "16,683 CFM",
+            "minOA": "5,839 CFM",
+            "motor": "40 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "390 MBH",
+              "kW": "114"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "821 MBH total, 565 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "121.7"
             }
           }
-        ]
-      },
-      {
-        "equipmentType": "Dedicated Outdoor Air Systems",
-        "notes": "DOAS units provide conditioned outdoor air to spaces.",
-        "items": [
-          {
-            "equipmentTag": "DOAS-1.1",
-            "manufacturer": "Daikin Applied",
-            "model": "Dedicated Outdoor-Air Unit",
-            "specifications": {
-              "service": "Spa Fresh Air",
-              "level": "Level 01",
-              "type": "VAV",
-              "airflow": "2,240 CFM",
-              "motor": "5 HP, 480V, 3 phase",
-              "VFD": "Yes",
-              "heating": {
-                "LAT": "78°F",
-                "capacity": "105 MBH sensible",
-                "kW": "31"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 54.5°F WB",
-                "capacity": "169 MBH total, 135 MBH sensible",
-                "EWT": "42°F",
-                "LWT": "56°F",
-                "GPM": "25.1"
-              },
-              "features": "Has a total energy recovery wheel"
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Horizontal units serving support areas and public spaces.",
+      "items": [
+        {
+          "equipmentTag": "FCU-00.1 to 5",
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "specifications": {
+            "service": "Support Level 00",
+            "type": "SZVAV",
+            "airflow": "5,804 CFM",
+            "minOA": "1,451 CFM",
+            "motor": "10 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "80°F",
+              "capacity": "108 MBH",
+              "kW": "31.8"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "174 MBH total, 164 MBH sensible",
+              "GPM": "34.8"
             }
           }
-        ]
-      },
-      {
-        "equipmentType": "Kitchen Make-up Air Units",
-        "notes": "Provides tempered make-up air for kitchen exhaust hoods.",
-        "items": [
-          {
-            "equipmentTag": "MAU-0.1",
-            "manufacturer": "",
-            "model": "Kitchen Make-up Air Unit",
-            "specifications": {
-              "service": "Basement Kitchen",
-              "airflow": "2,730 CFM",
-              "motor": "2 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "65°F",
-                "capacity": "89 MBH",
-                "kW": "26"
-              },
-              "cooling": {
-                "LAT": "65.0°F DB, 64.5°F WB",
-                "capacity": "125 MBH total, 135 MBH sensible",
-                "EWT": "42°F",
-                "LWT": "57°F",
-                "GPM": "16.6"
-              }
-            }
-          },
-          {
-            "equipmentTag": "MAU-1.1",
-            "manufacturer": "",
-            "model": "Kitchen Make-up Air Unit",
-            "specifications": {
-              "service": "Main Kitchen",
-              "airflow": "9,660 CFM",
-              "motor": "7.5 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "65°F",
-                "capacity": "315 MBH",
-                "kW": "92"
-              },
-              "cooling": {
-                "LAT": "65.0°F DB, 64.5°F WB",
-                "capacity": "441 MBH total, 479 MBH sensible",
-                "EWT": "42°F",
-                "LWT": "57°F",
-                "GPM": "58.7"
-              }
+        },
+        {
+          "equipmentTag": "FCU-01.1 to 10",
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "specifications": {
+            "service": "Support Level 01",
+            "type": "SZVAV",
+            "airflow": "9,575 CFM",
+            "minOA": "2,394 CFM",
+            "motor": "20 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "80°F",
+              "capacity": "179 MBH",
+              "kW": "52.4"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "287 MBH total, 271 MBH sensible",
+              "GPM": "57.5"
             }
           }
-        ]
-      },
-      {
-        "equipmentType": "Indoor Air Handling Units",
-        "notes": "Packaged water-cooled units for indoor installation.",
-        "items": [
-          {
-            "equipmentTag": "AHU-0.1",
-            "manufacturer": "Daikin Applied",
-            "model": "Daikin AHU",
-            "specifications": {
-              "service": "Basement Kitchen",
-              "type": "SZVAV",
-              "airflow": "8,280 CFM",
-              "minOA": "2,484 CFM",
-              "motor": "20 HP, 480V, 3Ph",
-              "heating": {
-                "LAT": "78°F",
-                "capacity": "178 MBH sensible",
-                "kW": "52"
-              },
-              "cooling": {
-                "LAT": "55.0°F DB, 53.5°F WB",
-                "capacity": "389 MBH total, 264 MBH sensible",
-                "EWT": "42°F",
-                "LWT": "56°F",
-                "GPM": "57.7"
-              }
+        },
+        {
+          "equipmentTag": "FCU-01.10 to 14",
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "specifications": {
+            "service": "Fitness Level 01",
+            "type": "SZVAV",
+            "airflow": "2,700 CFM",
+            "minOA": "675 CFM",
+            "motor": "5 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "80°F",
+              "capacity": "50 MBH",
+              "kW": "14.8"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "81 MBH total, 76 MBH sensible",
+              "GPM": "16.2"
             }
           }
-        ]
-      },
-      {
-        "equipmentType": "Switchboards",
-        "notes": "Main electrical distribution equipment.",
-        "items": [
-          {
-            "equipmentTag": "SWBDs",
-            "manufacturer": "Schneider Electric",
-            "model": "QED",
-            "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-01.14 to 20",
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "specifications": {
+            "service": "Spa Level 01",
+            "type": "SZVAV",
+            "airflow": "6,261 CFM",
+            "minOA": "1,565 CFM",
+            "motor": "10 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "80°F",
+              "capacity": "117 MBH",
+              "kW": "34.3"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "188 MBH total, 177 MBH sensible",
+              "GPM": "37.6"
+            }
           }
-        ]
-      },
-      {
-        "equipmentType": "Panelboards",
-        "notes": "Electrical distribution panelboards.",
-        "items": [
-          {
-            "equipmentTag": "Panelboards",
-            "manufacturer": "Schneider Electric",
-            "model": "NQOD",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "Panelboards",
-            "manufacturer": "Schneider Electric",
-            "model": "NF",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "Panelboards",
-            "manufacturer": "Schneider Electric",
-            "model": "I-line",
-            "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Guest Room Fan Coil Units",
+      "notes": "Vertical high-rise units with chilled water cooling and electric heating, featuring 2-pipe configuration.",
+      "items": [
+        {
+          "equipmentTag": "FCU-A",
+          "manufacturer": "IEC",
+          "model": "MUY",
+          "specifications": {
+            "service": "Standard Guestroom",
+            "supply": {
+              "CFM": "300",
+              "HP": "1/2",
+              "outsideAir": "35"
+            },
+            "cooling": {
+              "capacity": "8.7 MBH total, 7.7 MBH sensible",
+              "DB": "55.0°F",
+              "WB": "54.5°F",
+              "GPM": "1.7"
+            },
+            "heating": {
+              "LAT": "85.0°F",
+              "kW": "1.5",
+              "capacity": "5.1 MBH"
+            },
+            "electrical": {
+              "volt": "120",
+              "phase": "1",
+              "Hz": "60"
+            }
           }
-        ]
-      },
-      {
-        "equipmentType": "Low-Voltage Transformers",
-        "notes": "Power distribution transformers.",
-        "items": [
-          {
-            "equipmentTag": "Transformers",
-            "manufacturer": "Schneider Electric",
-            "model": "Low Voltage Distribution Transformers, Three Phase",
-            "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-B",
+          "manufacturer": "IEC",
+          "model": "MUY",
+          "specifications": {
+            "service": "One Bedroom Suite",
+            "supply": {
+              "CFM": "500",
+              "HP": "3/4",
+              "outsideAir": "35"
+            },
+            "cooling": {
+              "capacity": "13.9 MBH total, 11.9 MBH sensible",
+              "DB": "55.0°F",
+              "WB": "54.5°F",
+              "GPM": "2.8"
+            },
+            "heating": {
+              "LAT": "85.0°F",
+              "kW": "2.5",
+              "capacity": "8.5 MBH"
+            },
+            "electrical": {
+              "volt": "120",
+              "phase": "1",
+              "Hz": "60"
+            }
           }
-        ]
-      },
-      {
-        "equipmentType": "Diesel Engine Generators",
-        "notes": "Emergency power backup.",
-        "items": [
-          {
-            "equipmentTag": "Gen-1",
-            "manufacturer": "Cummins Inc",
-            "model": "C400D6",
-            "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-C",
+          "manufacturer": "IEC",
+          "model": "MUY",
+          "specifications": {
+            "service": "Casitas",
+            "supply": {
+              "CFM": "800",
+              "HP": "3/4",
+              "outsideAir": "50"
+            },
+            "cooling": {
+              "capacity": "21.9 MBH total, 18.7 MBH sensible",
+              "DB": "55.0°F",
+              "WB": "54.5°F",
+              "GPM": "4.4"
+            },
+            "heating": {
+              "LAT": "84.0°F",
+              "kW": "3.5",
+              "capacity": "11.9 MBH"
+            },
+            "electrical": {
+              "volt": "120",
+              "phase": "1",
+              "Hz": "60"
+            }
           }
-        ]
-      },
-      {
-        "equipmentType": "Automatic Transfer Switches",
-        "notes": "Switches between utility and emergency power.",
-        "items": [
-          {
-            "equipmentTag": "ATSs",
-            "manufacturer": "Schneider Electric",
-            "model": "ASCO 300 Series",
-            "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dedicated Outdoor Air Systems",
+      "notes": "DOAS units provide conditioned outdoor air to spaces.",
+      "items": [
+        {
+          "equipmentTag": "DOAS-1.1",
+          "manufacturer": "Daikin Applied",
+          "model": "Dedicated Outdoor-Air Unit",
+          "specifications": {
+            "service": "Spa Fresh Air",
+            "level": "Level 01",
+            "type": "VAV",
+            "airflow": "2,240 CFM",
+            "motor": "5 HP, 480V, 3 phase",
+            "VFD": "Yes",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "105 MBH sensible",
+              "kW": "31"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "169 MBH total, 135 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "25.1"
+            },
+            "features": "Has a total energy recovery wheel"
           }
-        ]
-      }
-    ],
-    "alternateManufacturers": [
-      {
-        "componentType": "Air-Cooled Chillers",
-        "basisOfDesign": "Daikin Applied",
-        "alternateOptions": [
-          {
-            "manufacturer": "Trane",
-            "model": "Series R",
-            "representativeInfo": {
-              "name": "Mechanical Products Southwest",
-              "company": "Mechanical Products Southwest",
-              "contact": "602-437-3500"
+        }
+      ]
+    },
+    {
+      "equipmentType": "Kitchen Make-up Air Units",
+      "notes": "Provides tempered make-up air for kitchen exhaust hoods.",
+      "items": [
+        {
+          "equipmentTag": "MAU-0.1",
+          "manufacturer": "",
+          "model": "Kitchen Make-up Air Unit",
+          "specifications": {
+            "service": "Basement Kitchen",
+            "airflow": "2,730 CFM",
+            "motor": "2 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "65°F",
+              "capacity": "89 MBH",
+              "kW": "26"
             },
-            "costDifference": "Similar, potential 2-5% premium",
-            "compatibilityNotes": "Fully compatible with design specifications. Integrated controls for optimization with other equipment. Slightly better efficiency ratings."
-          },
-          {
-            "manufacturer": "York",
-            "model": "YVAA",
-            "representativeInfo": {
-              "name": "Johnson Controls Arizona",
-              "company": "Johnson Controls",
-              "contact": "480-967-5015"
-            },
-            "costDifference": "Competitive, potential 3-4% savings",
-            "compatibilityNotes": "Compatible with design specifications. Requires additional coordination for control integration."
-          },
-          {
-            "manufacturer": "Carrier",
-            "model": "AquaForce 30XA",
-            "representativeInfo": {
-              "name": "Arizona Air Balance Company",
-              "company": "Arizona Air Balance Company",
-              "contact": "602-788-8990"
-            },
-            "costDifference": "Slightly higher, 1-3% premium",
-            "compatibilityNotes": "Good alternative with similar efficiency. May require minor changes to piping connections."
+            "cooling": {
+              "LAT": "65.0°F DB, 64.5°F WB",
+              "capacity": "125 MBH total, 135 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "57°F",
+              "GPM": "16.6"
+            }
           }
-        ]
-      },
-      {
-        "componentType": "Rooftop Units",
-        "basisOfDesign": "Daikin Applied",
-        "alternateOptions": [
-          {
-            "manufacturer": "Trane",
-            "model": "IntelliPak",
-            "representativeInfo": {
-              "name": "Mechanical Products Southwest",
-              "company": "Mechanical Products Southwest",
-              "contact": "602-437-3500"
+        },
+        {
+          "equipmentTag": "MAU-1.1",
+          "manufacturer": "",
+          "model": "Kitchen Make-up Air Unit",
+          "specifications": {
+            "service": "Main Kitchen",
+            "airflow": "9,660 CFM",
+            "motor": "7.5 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "65°F",
+              "capacity": "315 MBH",
+              "kW": "92"
             },
-            "costDifference": "Comparable, potential 1-2% premium",
-            "compatibilityNotes": "Excellent compatibility with design specifications. Superior controls integration."
-          },
-          {
-            "manufacturer": "York",
-            "model": "Solution",
-            "representativeInfo": {
-              "name": "Johnson Controls Arizona",
-              "company": "Johnson Controls",
-              "contact": "480-967-5015"
-            },
-            "costDifference": "Competitive, potential 2-3% savings",
-            "compatibilityNotes": "Solid alternative with similar performance characteristics. May require minor curb adapter modifications."
-          },
-          {
-            "manufacturer": "Carrier",
-            "model": "WeatherExpert",
-            "representativeInfo": {
-              "name": "Arizona Air Balance Company",
-              "company": "Arizona Air Balance Company",
-              "contact": "602-788-8990"
-            },
-            "costDifference": "Similar to basis of design",
-            "compatibilityNotes": "Good option with comparable efficiency. May require slight adjustment to ductwork connections."
+            "cooling": {
+              "LAT": "65.0°F DB, 64.5°F WB",
+              "capacity": "441 MBH total, 479 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "57°F",
+              "GPM": "58.7"
+            }
           }
-        ]
-      },
-      {
-        "componentType": "Fan Coil Units",
-        "basisOfDesign": "Daikin Applied",
-        "alternateOptions": [
-          {
-            "manufacturer": "Trane",
-            "model": "UniTrane",
-            "representativeInfo": {
-              "name": "Mechanical Products Southwest",
-              "company": "Mechanical Products Southwest",
-              "contact": "602-437-3500"
+        }
+      ]
+    },
+    {
+      "equipmentType": "Indoor Air Handling Units",
+      "notes": "Packaged water-cooled units for indoor installation.",
+      "items": [
+        {
+          "equipmentTag": "AHU-0.1",
+          "manufacturer": "Daikin Applied",
+          "model": "Daikin AHU",
+          "specifications": {
+            "service": "Basement Kitchen",
+            "type": "SZVAV",
+            "airflow": "8,280 CFM",
+            "minOA": "2,484 CFM",
+            "motor": "20 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "178 MBH sensible",
+              "kW": "52"
             },
-            "costDifference": "Comparable, potential 1-3% premium",
-            "compatibilityNotes": "Good compatibility with design specifications. Slightly larger footprint may require minor coordination."
-          },
-          {
-            "manufacturer": "JCI/York",
-            "model": "Vertical Stacked",
-            "representativeInfo": {
-              "name": "Johnson Controls Arizona",
-              "company": "Johnson Controls",
-              "contact": "480-967-5015"
-            },
-            "costDifference": "Slightly lower, 2-4% savings",
-            "compatibilityNotes": "Good alternative with similar performance. May require minor piping adjustments."
-          },
-          {
-            "manufacturer": "Carrier",
-            "model": "Aero",
-            "representativeInfo": {
-              "name": "Arizona Air Balance Company",
-              "company": "Arizona Air Balance Company",
-              "contact": "602-788-8990"
-            },
-            "costDifference": "Comparable to basis of design",
-            "compatibilityNotes": "Compatible option with similar dimensions and performance characteristics."
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "389 MBH total, 264 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "57.7"
+            }
           }
-        ]
-      },
-      {
-        "componentType": "Guest Room Fan Coil Units",
-        "basisOfDesign": "IEC",
-        "alternateOptions": [
-          {
-            "manufacturer": "Daikin Applied",
-            "model": "ThinLine",
-            "representativeInfo": {
-              "name": "Norman S. Wright Mechanical Equipment",
-              "company": "Norman S. Wright",
-              "contact": "480-317-8880"
-            },
-            "costDifference": "Slightly higher, 3-5% premium",
-            "compatibilityNotes": "Good compatibility, may offer better integration with central plant controls. Similar dimensions."
-          },
-          {
-            "manufacturer": "First Co.",
-            "model": "Vertical Hi-Rise",
-            "representativeInfo": {
-              "name": "Arizona Controls",
-              "company": "Arizona Controls",
-              "contact": "623-939-0135"
-            },
-            "costDifference": "Lower cost, 5-7% savings",
-            "compatibilityNotes": "Compatible with design specifications, may require minor adjustments to ductwork connections."
-          },
-          {
-            "manufacturer": "Williams",
-            "model": "Slim-Line",
-            "representativeInfo": {
-              "name": "Specialized Mechanical Contractors",
-              "company": "Specialized Mechanical",
-              "contact": "480-968-9192"
-            },
-            "costDifference": "Significantly lower, 8-10% savings",
-            "compatibilityNotes": "Budget-friendly option with adequate performance. May have higher maintenance requirements."
-          }
-        ]
-      },
-      {
-        "componentType": "Dedicated Outdoor Air Systems",
-        "basisOfDesign": "Daikin Applied",
-        "alternateOptions": [
-          {
-            "manufacturer": "Trane",
-            "model": "Performance Climate Changer",
-            "representativeInfo": {
-              "name": "Mechanical Products Southwest",
-              "company": "Mechanical Products Southwest",
-              "contact": "602-437-3500"
-            },
-            "costDifference": "Comparable, potential 2-3% premium",
-            "compatibilityNotes": "Excellent compatibility with high-quality energy recovery options."
-          },
-          {
-            "manufacturer": "AAON",
-            "model": "RN Series",
-            "representativeInfo": {
-              "name": "Engineered Air Equipment, Inc.",
-              "company": "Engineered Air",
-              "contact": "480-921-0125"
-            },
-            "costDifference": "Slightly higher, 3-5% premium",
-            "compatibilityNotes": "High-quality alternative with excellent energy recovery efficiency. May require some coordination for controls integration."
-          },
-          {
-            "manufacturer": "Greenheck",
-            "model": "Greenheck Dedicated Outdoor Air System",
-            "representativeInfo": {
-              "name": "Air Handling Solutions",
-              "company": "Air Handling Solutions",
-              "contact": "602-437-2473"
-            },
-            "costDifference": "Lower cost, 4-6% savings",
-            "compatibilityNotes": "Good alternative with similar performance characteristics. May require adjustments to ductwork connections."
-          }
-        ]
-      },
-      {
-        "componentType": "Kitchen Make-up Air Units",
-        "basisOfDesign": "Captive Aire",
-        "alternateOptions": [
-          {
-            "manufacturer": "Greenheck",
-            "model": "MSX",
-            "representativeInfo": {
-              "name": "Air Handling Solutions",
-              "company": "Air Handling Solutions",
-              "contact": "602-437-2473"
-            },
-            "costDifference": "Similar to basis of design",
-            "compatibilityNotes": "Good compatibility with kitchen ventilation systems. Meets all required specifications."
-          },
-          {
-            "manufacturer": "Modine",
-            "model": "Hot Dawg",
-            "representativeInfo": {
-              "name": "Modine Sales of Arizona",
-              "company": "Modine Sales",
-              "contact": "480-921-0305"
-            },
-            "costDifference": "Lower cost, 5-7% savings",
-            "compatibilityNotes": "Budget-friendly option with adequate performance for this application."
-          },
-          {
-            "manufacturer": "Reznor",
-            "model": "MAPSIII",
-            "representativeInfo": {
-              "name": "Nortek Global HVAC",
-              "company": "Nortek Global HVAC",
-              "contact": "480-968-0311"
-            },
-            "costDifference": "Slightly lower, 3-5% savings",
-            "compatibilityNotes": "Good alternative with proven reliability in similar applications."
-          }
-        ]
-      },
-      {
-        "componentType": "Switchboards and Panelboards",
-        "basisOfDesign": "Schneider Electric",
-        "alternateOptions": [
-          {
-            "manufacturer": "Eaton",
-            "model": "Pow-R-Line",
-            "representativeInfo": {
-              "name": "Eaton Electrical Products",
-              "company": "Eaton",
-              "contact": "602-437-3500"
-            },
-            "costDifference": "Comparable, potential 1-2% savings",
-            "compatibilityNotes": "Excellent alternative with similar quality and performance characteristics."
-          },
-          {
-            "manufacturer": "ABB",
-            "model": "Spectra Series",
-            "representativeInfo": {
-              "name": "Border States Electric",
-              "company": "Border States Electric",
-              "contact": "602-437-7878"
-            },
-            "costDifference": "Slightly higher, 2-3% premium",
-            "compatibilityNotes": "High-quality option with excellent fault current ratings and protection features."
-          },
-          {
-            "manufacturer": "Siemens",
-            "model": "Sentron",
-            "representativeInfo": {
-              "name": "Siemens Industry, Inc.",
-              "company": "Siemens",
-              "contact": "480-460-1500"
-            },
-            "costDifference": "Comparable to basis of design",
-            "compatibilityNotes": "Highly compatible alternative with similar performance characteristics."
-          }
-        ]
-      },
-      {
-        "componentType": "Diesel Engine Generators",
-        "basisOfDesign": "Cummins Inc",
-        "alternateOptions": [
-          {
-            "manufacturer": "Caterpillar",
-            "model": "D400",
-            "representativeInfo": {
-              "name": "Empire Power Systems",
-              "company": "Empire Cat",
-              "contact": "480-633-4000"
-            },
-            "costDifference": "Slightly higher, 3-5% premium",
-            "compatibilityNotes": "Excellent alternative with robust design and proven reliability."
-          },
-          {
-            "manufacturer": "Generac",
-            "model": "SD400",
-            "representativeInfo": {
-              "name": "Generac Industrial Power",
-              "company": "Generac",
-              "contact": "602-732-2900"
-            },
-            "costDifference": "Lower cost, 5-7% savings",
-            "compatibilityNotes": "Good alternative with adequate performance for this application. May have higher maintenance requirements."
-          },
-          {
-            "manufacturer": "Kohler",
-            "model": "400REOZJ",
-            "representativeInfo": {
-              "name": "Kohler Power Systems",
-              "company": "Kohler",
-              "contact": "480-968-8675"
-            },
-            "costDifference": "Comparable to basis of design",
-            "compatibilityNotes": "Highly compatible alternative with similar quality and performance characteristics."
-          }
-        ]
-      },
-      {
-        "componentType": "Automatic Transfer Switches",
-        "basisOfDesign": "Schneider Electric ASCO 300 Series",
-        "alternateOptions": [
-          {
-            "manufacturer": "Cummins",
-            "model": "OTPC",
-            "representativeInfo": {
-              "name": "Cummins Sales and Service",
-              "company": "Cummins",
-              "contact": "602-257-5900"
-            },
-            "costDifference": "Comparable to basis of design",
-            "compatibilityNotes": "Excellent compatibility with Cummins generators, may offer advantages if paired together."
-          },
-          {
-            "manufacturer": "Eaton",
-            "model": "Automatic Transfer Switch",
-            "representativeInfo": {
-              "name": "Eaton Electrical Products",
-              "company": "Eaton",
-              "contact": "602-437-3500"
-            },
-            "costDifference": "Slightly lower, 2-4% savings",
-            "compatibilityNotes": "Good alternative with similar performance specifications."
-          },
-          {
-            "manufacturer": "Generac",
-            "model": "GTS Series",
-            "representativeInfo": {
-              "name": "Generac Industrial Power",
-              "company": "Generac",
-              "contact": "602-732-2900"
-            },
-            "costDifference": "Lower cost, 4-6% savings",
-            "compatibilityNotes": "Budget-friendly option with adequate performance. Excellent compatibility if paired with Generac generator."
-          }
-        ]
-      }
-    ],
-    "designNotes": [
-      {
-        "systemType": "Central Energy Plant",
-        "technicalObservations": [
-          "The expected cooling load for the new expansion is 640 tons.",
-          "Chilled water will be supplied to the resort from a plant capacity of 750 tons consisting of three (3) air cooled chillers at 250 tons each.",
-          "The system is designed with N redundancy providing 75% firm capacity.",
-          "The chiller yard will be located adjacent to the fitness area with walls but an exposed top."
-        ],
-        "concerns": [
-          "Ambient temperatures regularly exceed 110°F in summer months, which could impact chiller efficiency and capacity.",
-          "Noise from chillers could potentially impact guest experience in nearby areas.",
-          "Ensuring adequate airflow around chillers in the partially enclosed area is critical for optimal performance."
-        ],
-        "opportunities": [
-          "Consider implementing dynamic optimization controls to maximize efficiency based on varying load conditions.",
-          "Evaluate the possibility of thermal storage to reduce peak demand and operational costs.",
-          "Evaluate additional sound attenuation measures to minimize noise impact on adjacent spaces."
-        ]
-      },
-      {
-        "systemType": "Air Distribution Systems",
-        "technicalObservations": [
-          "The air conditioning systems will generally be provided by indoor variable air volume chilled water AHUs in the BOH mechanical rooms and roof wells located throughout the complex.",
-          "The event center will be conditioned by multi-zone variable air volume chilled water central station roof top air handling unit.",
-          "Hotel guestrooms will be conditioned by vertical high-rise 2-pipe fan coil units with electric heating.",
-          "Outdoor air will be ducted directly into fan coil units from sidewall louvers at the exterior."
-        ],
-        "concerns": [
-          "Ensuring adequate ventilation in all spaces while maintaining energy efficiency could be challenging in the desert climate.",
-          "The 2-pipe system for guestrooms will require seasonal changeover that may limit flexibility during shoulder seasons.",
-          "Ensuring proper air balancing across the complex with varying occupancy patterns."
-        ],
-        "opportunities": [
-          "Consider implementing demand-controlled ventilation in all high-occupancy areas to optimize energy usage.",
-          "Incorporate enhanced filtration options as an add-on to mitigate airborne contaminants.",
-          "Evaluate potential for heat recovery on exhaust air streams to improve overall system efficiency."
-        ]
-      },
-      {
-        "systemType": "Guest Room HVAC",
-        "technicalObservations": [
-          "High rise type 2-pipe chilled water Vertical Fan Coil Units with electric heat will condition each guestroom.",
-          "Each unit will be provided with disconnecting means and over current protection with ECM motors.",
-          "Outdoor air will be supplied to the guestrooms from a sidewall louver at the exterior.",
-          "Guestroom toilet exhaust will be intermittent, controlled by powered 2-position ZRT dampers tied into room occupancy sensor."
-        ],
-        "concerns": [
-          "Maintaining uniform comfort levels across all guestrooms during seasonal transitions might be challenging with a 2-pipe system.",
-          "Condensate management for high-rise fan coil units will require careful consideration to prevent leaks.",
-          "Noise transmission from fan coil units could potentially impact guest comfort."
-        ],
-        "opportunities": [
-          "Implement occupancy-based controls to optimize energy usage when rooms are unoccupied.",
-          "Consider enhanced system monitoring to detect potential maintenance issues before they impact guest experience.",
-          "Evaluate potential for predictive maintenance strategies to reduce operational costs."
-        ]
-      },
-      {
-        "systemType": "Building Automation and Controls",
-        "technicalObservations": [
-          "HVAC systems will be controlled by a central Direct Digital Control System with graphic interface.",
-          "Guestroom units will be controlled by standalone digital wall mounted thermostats with occupancy sensors and door switches.",
-          "Guestrooms temperature control systems will utilize wireless ZigBee communications to eliminate low voltage wiring needs.",
-          "Demand controlled ventilation will be utilized throughout all high occupancy areas."
-        ],
-        "concerns": [
-          "Integration between different control systems (BAS, guestroom controls, etc.) could present challenges.",
-          "Ensuring reliable wireless communication in guestroom control systems.",
-          "Maintaining optimal system performance while accommodating varying occupancy patterns."
-        ],
-        "opportunities": [
-          "Consider implementing analytics-based monitoring and fault detection to optimize system performance.",
-          "Evaluate potential for integration with property management system for enhanced operational efficiency.",
-          "Implement automated reporting to track energy usage and identify optimization opportunities."
-        ]
-      },
-      {
-        "systemType": "Energy Efficiency Measures",
-        "technicalObservations": [
-          "Single Zone VAV and Multi-Zone VAV systems will be implemented for air conditioning systems.",
-          "Variable Frequency Drives will be provided on equipment and pumps where applicable.",
-          "Outside Air Delivery Monitoring and Demand Controlled Ventilation will be implemented in high occupancy areas.",
-          "Premium Efficiency Electric Motors will be used throughout the project."
-        ],
-        "concerns": [
-          "Balancing energy efficiency with guest comfort expectations in a luxury resort environment.",
-          "Optimizing system performance in the extreme desert climate conditions.",
-          "Ensuring proper commissioning and optimization of complex control strategies."
-        ],
-        "opportunities": [
-          "Evaluate potential for additional heat recovery strategies to improve overall system efficiency.",
-          "Consider implementing enhanced monitoring and reporting tools to track and optimize energy performance.",
-          "Explore potential for renewable energy integration to reduce operational costs and environmental impact."
-        ]
-      }
-    ],
-    "buildVisionRecommendations": [
-      {
-        "id": 1,
-        "recommendation": "Implement enhanced sound attenuation measures for the chiller plant",
-        "rationale": "The chiller yard's location adjacent to the fitness area presents potential noise concerns. Enhanced sound attenuation would improve guest experience in nearby areas.",
-        "estimatedImpact": "Reduces potential noise complaints by 80-90% and enhances overall guest experience. Minimal impact on system performance.",
-        "implementation": "Add acoustic barriers/screens around the chiller yard, implement vibration isolation mounts, and consider sound blankets for compressors. Estimated cost: $35,000-45,000.",
-        "priority": "High"
-      },
-      {
-        "id": 2,
-        "recommendation": "Upgrade the Building Automation System to include predictive analytics and fault detection capabilities",
-        "rationale": "Enhanced monitoring and analytics would help identify potential issues before they impact guest comfort and optimize system performance for improved energy efficiency.",
-        "estimatedImpact": "Potential energy savings of 8-12% through optimized operation. Reduced maintenance costs through early detection of issues. Enhanced system reliability.",
-        "implementation": "Implement analytics software package with the BAS, install additional sensors where needed, and provide staff training on system use. Estimated cost: $65,000-80,000.",
-        "priority": "Medium"
-      },
-      {
-        "id": 3,
-        "recommendation": "Incorporate waterside economizer mode for the chilled water system",
-        "rationale": "During cooler periods in winter/spring/fall, a waterside economizer could significantly reduce cooling energy consumption in the Phoenix climate.",
-        "estimatedImpact": "Potential energy savings of 15-20% on annual cooling costs. Reduced wear on chillers and extended equipment life. ROI in approximately 3-4 years.",
-        "implementation": "Add plate heat exchangers, control valves, and associated piping to allow cooling tower water to directly cool the chilled water loop during favorable conditions. Modify controls programming. Estimated cost: $120,000-150,000.",
-        "priority": "Medium"
-      },
-      {
-        "id": 4,
-        "recommendation": "Evaluate 4-pipe fan coil system for high-end suites or climate transition areas",
-        "rationale": "The current 2-pipe system with seasonal changeover may limit comfort flexibility in premium areas, particularly during spring/fall when both heating and cooling might be required on the same day.",
-        "estimatedImpact": "Enhanced guest comfort and flexibility in premium areas. Potential energy savings through eliminating reheat in certain zones.",
-        "implementation": "Implement 4-pipe fan coil units in selected areas (presidential suite, penthouse, etc.) and provide appropriate piping/controls modifications. Estimated cost: $85,000-100,000 depending on scope.",
-        "priority": "Low"
-      },
-      {
-        "id": 5,
-        "recommendation": "Enhance guestroom controls interface with mobile app integration",
-        "rationale": "Modern luxury hospitality trends include providing guests with mobile control of their room environment. This would enhance the guest experience while potentially improving energy efficiency.",
-        "estimatedImpact": "Enhanced guest satisfaction and brand differentiation. Potential additional energy savings of 5-8% through improved occupancy control.",
-        "implementation": "Upgrade the guestroom control system to include mobile app integration. Provide necessary IT infrastructure. Coordinate with property management system. Estimated cost: $45,000-60,000.",
-        "priority": "Medium"
-      }
-    ],
-    "conclusion": {
-      "summary": "The SmokeTree Resort HVAC system design utilizes modern, efficient equipment with appropriate redundancy for a luxury resort application. The central plant design with three chillers provides good operational flexibility and the distributed air handling approach should deliver excellent comfort control. Overall, the mechanical systems are well-designed for the challenging desert climate of Paradise Valley, Arizona, with adequate consideration for energy efficiency, comfort, and reliability. The BuildVision recommendations focus on enhancing guest experience, improving operational efficiency, and incorporating additional sustainability features that align with luxury resort expectations.",
-      "keyFindings": [
-        "The mechanical system design is appropriate for the climate and application, with good redundancy in critical systems.",
-        "The central plant approach with multiple chillers provides good operational flexibility and efficiency potential.",
-        "Guestroom comfort systems utilize modern controls with occupancy sensing for enhanced efficiency.",
-        "The BAS system provides good baseline functionality but could be enhanced with additional analytics capabilities.",
-        "Primary equipment selections from established manufacturers should provide reliable operation with good support availability.",
-        "Several opportunities exist to enhance system performance, efficiency, and guest experience through targeted upgrades."
-      ],
-      "highestPriorityActions": [
-        "Implement enhanced sound attenuation for the chiller plant to protect guest experience in adjacent areas.",
-        "Consider upgrading the BAS to include predictive analytics for improved operational efficiency and maintenance planning.",
-        "Evaluate potential for waterside economizer implementation to reduce energy consumption during favorable weather conditions.",
-        "Review specifications for key equipment to ensure noise and vibration control measures are adequately addressed.",
-        "Confirm appropriate commissioning scope to ensure all systems are properly optimized at startup."
+        }
+      ]
+    },
+    {
+      "equipmentType": "Switchboards",
+      "notes": "Main electrical distribution equipment.",
+      "items": [
+        {
+          "equipmentTag": "SWBDs",
+          "manufacturer": "Schneider Electric",
+          "model": "QED",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Panelboards",
+      "notes": "Electrical distribution panelboards.",
+      "items": [
+        {
+          "equipmentTag": "Panelboards",
+          "manufacturer": "Schneider Electric",
+          "model": "NQOD",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "Panelboards",
+          "manufacturer": "Schneider Electric",
+          "model": "NF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "Panelboards",
+          "manufacturer": "Schneider Electric",
+          "model": "I-line",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Low-Voltage Transformers",
+      "notes": "Power distribution transformers.",
+      "items": [
+        {
+          "equipmentTag": "Transformers",
+          "manufacturer": "Schneider Electric",
+          "model": "Low Voltage Distribution Transformers, Three Phase",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Diesel Engine Generators",
+      "notes": "Emergency power backup.",
+      "items": [
+        {
+          "equipmentTag": "Gen-1",
+          "manufacturer": "Cummins Inc",
+          "model": "C400D6",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Automatic Transfer Switches",
+      "notes": "Switches between utility and emergency power.",
+      "items": [
+        {
+          "equipmentTag": "ATSs",
+          "manufacturer": "Schneider Electric",
+          "model": "ASCO 300 Series",
+          "specifications": {}
+        }
       ]
     }
+  ],
+  "alternateManufacturers": [
+    {
+      "componentType": "Air-Cooled Chillers",
+      "basisOfDesign": "Daikin Applied",
+      "alternateOptions": [
+        {
+          "manufacturer": "Trane",
+          "model": "Series R",
+          "representativeInfo": {
+            "name": "Mechanical Products Southwest",
+            "company": "Mechanical Products Southwest",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Similar, potential 2-5% premium",
+          "compatibilityNotes": "Fully compatible with design specifications. Integrated controls for optimization with other equipment. Slightly better efficiency ratings."
+        },
+        {
+          "manufacturer": "York",
+          "model": "YVAA",
+          "representativeInfo": {
+            "name": "Johnson Controls Arizona",
+            "company": "Johnson Controls",
+            "contact": "480-967-5015"
+          },
+          "costDifference": "Competitive, potential 3-4% savings",
+          "compatibilityNotes": "Compatible with design specifications. Requires additional coordination for control integration."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce 30XA",
+          "representativeInfo": {
+            "name": "Arizona Air Balance Company",
+            "company": "Arizona Air Balance Company",
+            "contact": "602-788-8990"
+          },
+          "costDifference": "Slightly higher, 1-3% premium",
+          "compatibilityNotes": "Good alternative with similar efficiency. May require minor changes to piping connections."
+        }
+      ]
+    },
+    {
+      "componentType": "Rooftop Units",
+      "basisOfDesign": "Daikin Applied",
+      "alternateOptions": [
+        {
+          "manufacturer": "Trane",
+          "model": "IntelliPak",
+          "representativeInfo": {
+            "name": "Mechanical Products Southwest",
+            "company": "Mechanical Products Southwest",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Comparable, potential 1-2% premium",
+          "compatibilityNotes": "Excellent compatibility with design specifications. Superior controls integration."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Solution",
+          "representativeInfo": {
+            "name": "Johnson Controls Arizona",
+            "company": "Johnson Controls",
+            "contact": "480-967-5015"
+          },
+          "costDifference": "Competitive, potential 2-3% savings",
+          "compatibilityNotes": "Solid alternative with similar performance characteristics. May require minor curb adapter modifications."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "WeatherExpert",
+          "representativeInfo": {
+            "name": "Arizona Air Balance Company",
+            "company": "Arizona Air Balance Company",
+            "contact": "602-788-8990"
+          },
+          "costDifference": "Similar to basis of design",
+          "compatibilityNotes": "Good option with comparable efficiency. May require slight adjustment to ductwork connections."
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "basisOfDesign": "Daikin Applied",
+      "alternateOptions": [
+        {
+          "manufacturer": "Trane",
+          "model": "UniTrane",
+          "representativeInfo": {
+            "name": "Mechanical Products Southwest",
+            "company": "Mechanical Products Southwest",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Comparable, potential 1-3% premium",
+          "compatibilityNotes": "Good compatibility with design specifications. Slightly larger footprint may require minor coordination."
+        },
+        {
+          "manufacturer": "JCI/York",
+          "model": "Vertical Stacked",
+          "representativeInfo": {
+            "name": "Johnson Controls Arizona",
+            "company": "Johnson Controls",
+            "contact": "480-967-5015"
+          },
+          "costDifference": "Slightly lower, 2-4% savings",
+          "compatibilityNotes": "Good alternative with similar performance. May require minor piping adjustments."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Aero",
+          "representativeInfo": {
+            "name": "Arizona Air Balance Company",
+            "company": "Arizona Air Balance Company",
+            "contact": "602-788-8990"
+          },
+          "costDifference": "Comparable to basis of design",
+          "compatibilityNotes": "Compatible option with similar dimensions and performance characteristics."
+        }
+      ]
+    },
+    {
+      "componentType": "Guest Room Fan Coil Units",
+      "basisOfDesign": "IEC",
+      "alternateOptions": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "ThinLine",
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "Slightly higher, 3-5% premium",
+          "compatibilityNotes": "Good compatibility, may offer better integration with central plant controls. Similar dimensions."
+        },
+        {
+          "manufacturer": "First Co.",
+          "model": "Vertical Hi-Rise",
+          "representativeInfo": {
+            "name": "Arizona Controls",
+            "company": "Arizona Controls",
+            "contact": "623-939-0135"
+          },
+          "costDifference": "Lower cost, 5-7% savings",
+          "compatibilityNotes": "Compatible with design specifications, may require minor adjustments to ductwork connections."
+        },
+        {
+          "manufacturer": "Williams",
+          "model": "Slim-Line",
+          "representativeInfo": {
+            "name": "Specialized Mechanical Contractors",
+            "company": "Specialized Mechanical",
+            "contact": "480-968-9192"
+          },
+          "costDifference": "Significantly lower, 8-10% savings",
+          "compatibilityNotes": "Budget-friendly option with adequate performance. May have higher maintenance requirements."
+        }
+      ]
+    },
+    {
+      "componentType": "Dedicated Outdoor Air Systems",
+      "basisOfDesign": "Daikin Applied",
+      "alternateOptions": [
+        {
+          "manufacturer": "Trane",
+          "model": "Performance Climate Changer",
+          "representativeInfo": {
+            "name": "Mechanical Products Southwest",
+            "company": "Mechanical Products Southwest",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Comparable, potential 2-3% premium",
+          "compatibilityNotes": "Excellent compatibility with high-quality energy recovery options."
+        },
+        {
+          "manufacturer": "AAON",
+          "model": "RN Series",
+          "representativeInfo": {
+            "name": "Engineered Air Equipment, Inc.",
+            "company": "Engineered Air",
+            "contact": "480-921-0125"
+          },
+          "costDifference": "Slightly higher, 3-5% premium",
+          "compatibilityNotes": "High-quality alternative with excellent energy recovery efficiency. May require some coordination for controls integration."
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "Greenheck Dedicated Outdoor Air System",
+          "representativeInfo": {
+            "name": "Air Handling Solutions",
+            "company": "Air Handling Solutions",
+            "contact": "602-437-2473"
+          },
+          "costDifference": "Lower cost, 4-6% savings",
+          "compatibilityNotes": "Good alternative with similar performance characteristics. May require adjustments to ductwork connections."
+        }
+      ]
+    },
+    {
+      "componentType": "Kitchen Make-up Air Units",
+      "basisOfDesign": "Captive Aire",
+      "alternateOptions": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "MSX",
+          "representativeInfo": {
+            "name": "Air Handling Solutions",
+            "company": "Air Handling Solutions",
+            "contact": "602-437-2473"
+          },
+          "costDifference": "Similar to basis of design",
+          "compatibilityNotes": "Good compatibility with kitchen ventilation systems. Meets all required specifications."
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "Hot Dawg",
+          "representativeInfo": {
+            "name": "Modine Sales of Arizona",
+            "company": "Modine Sales",
+            "contact": "480-921-0305"
+          },
+          "costDifference": "Lower cost, 5-7% savings",
+          "compatibilityNotes": "Budget-friendly option with adequate performance for this application."
+        },
+        {
+          "manufacturer": "Reznor",
+          "model": "MAPSIII",
+          "representativeInfo": {
+            "name": "Nortek Global HVAC",
+            "company": "Nortek Global HVAC",
+            "contact": "480-968-0311"
+          },
+          "costDifference": "Slightly lower, 3-5% savings",
+          "compatibilityNotes": "Good alternative with proven reliability in similar applications."
+        }
+      ]
+    },
+    {
+      "componentType": "Switchboards and Panelboards",
+      "basisOfDesign": "Schneider Electric",
+      "alternateOptions": [
+        {
+          "manufacturer": "Eaton",
+          "model": "Pow-R-Line",
+          "representativeInfo": {
+            "name": "Eaton Electrical Products",
+            "company": "Eaton",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Comparable, potential 1-2% savings",
+          "compatibilityNotes": "Excellent alternative with similar quality and performance characteristics."
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Spectra Series",
+          "representativeInfo": {
+            "name": "Border States Electric",
+            "company": "Border States Electric",
+            "contact": "602-437-7878"
+          },
+          "costDifference": "Slightly higher, 2-3% premium",
+          "compatibilityNotes": "High-quality option with excellent fault current ratings and protection features."
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Sentron",
+          "representativeInfo": {
+            "name": "Siemens Industry, Inc.",
+            "company": "Siemens",
+            "contact": "480-460-1500"
+          },
+          "costDifference": "Comparable to basis of design",
+          "compatibilityNotes": "Highly compatible alternative with similar performance characteristics."
+        }
+      ]
+    },
+    {
+      "componentType": "Diesel Engine Generators",
+      "basisOfDesign": "Cummins Inc",
+      "alternateOptions": [
+        {
+          "manufacturer": "Caterpillar",
+          "model": "D400",
+          "representativeInfo": {
+            "name": "Empire Power Systems",
+            "company": "Empire Cat",
+            "contact": "480-633-4000"
+          },
+          "costDifference": "Slightly higher, 3-5% premium",
+          "compatibilityNotes": "Excellent alternative with robust design and proven reliability."
+        },
+        {
+          "manufacturer": "Generac",
+          "model": "SD400",
+          "representativeInfo": {
+            "name": "Generac Industrial Power",
+            "company": "Generac",
+            "contact": "602-732-2900"
+          },
+          "costDifference": "Lower cost, 5-7% savings",
+          "compatibilityNotes": "Good alternative with adequate performance for this application. May have higher maintenance requirements."
+        },
+        {
+          "manufacturer": "Kohler",
+          "model": "400REOZJ",
+          "representativeInfo": {
+            "name": "Kohler Power Systems",
+            "company": "Kohler",
+            "contact": "480-968-8675"
+          },
+          "costDifference": "Comparable to basis of design",
+          "compatibilityNotes": "Highly compatible alternative with similar quality and performance characteristics."
+        }
+      ]
+    },
+    {
+      "componentType": "Automatic Transfer Switches",
+      "basisOfDesign": "Schneider Electric ASCO 300 Series",
+      "alternateOptions": [
+        {
+          "manufacturer": "Cummins",
+          "model": "OTPC",
+          "representativeInfo": {
+            "name": "Cummins Sales and Service",
+            "company": "Cummins",
+            "contact": "602-257-5900"
+          },
+          "costDifference": "Comparable to basis of design",
+          "compatibilityNotes": "Excellent compatibility with Cummins generators, may offer advantages if paired together."
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Automatic Transfer Switch",
+          "representativeInfo": {
+            "name": "Eaton Electrical Products",
+            "company": "Eaton",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Slightly lower, 2-4% savings",
+          "compatibilityNotes": "Good alternative with similar performance specifications."
+        },
+        {
+          "manufacturer": "Generac",
+          "model": "GTS Series",
+          "representativeInfo": {
+            "name": "Generac Industrial Power",
+            "company": "Generac",
+            "contact": "602-732-2900"
+          },
+          "costDifference": "Lower cost, 4-6% savings",
+          "compatibilityNotes": "Budget-friendly option with adequate performance. Excellent compatibility if paired with Generac generator."
+        }
+      ]
+    }
+  ],
+  "designNotes": [
+    {
+      "systemType": "Central Energy Plant",
+      "technicalObservations": [
+        "The expected cooling load for the new expansion is 640 tons.",
+        "Chilled water will be supplied to the resort from a plant capacity of 750 tons consisting of three (3) air cooled chillers at 250 tons each.",
+        "The system is designed with N redundancy providing 75% firm capacity.",
+        "The chiller yard will be located adjacent to the fitness area with walls but an exposed top."
+      ],
+      "concerns": [
+        "Ambient temperatures regularly exceed 110°F in summer months, which could impact chiller efficiency and capacity.",
+        "Noise from chillers could potentially impact guest experience in nearby areas.",
+        "Ensuring adequate airflow around chillers in the partially enclosed area is critical for optimal performance."
+      ],
+      "opportunities": [
+        "Consider implementing dynamic optimization controls to maximize efficiency based on varying load conditions.",
+        "Evaluate the possibility of thermal storage to reduce peak demand and operational costs.",
+        "Evaluate additional sound attenuation measures to minimize noise impact on adjacent spaces."
+      ]
+    },
+    {
+      "systemType": "Air Distribution Systems",
+      "technicalObservations": [
+        "The air conditioning systems will generally be provided by indoor variable air volume chilled water AHUs in the BOH mechanical rooms and roof wells located throughout the complex.",
+        "The event center will be conditioned by multi-zone variable air volume chilled water central station roof top air handling unit.",
+        "Hotel guestrooms will be conditioned by vertical high-rise 2-pipe fan coil units with electric heating.",
+        "Outdoor air will be ducted directly into fan coil units from sidewall louvers at the exterior."
+      ],
+      "concerns": [
+        "Ensuring adequate ventilation in all spaces while maintaining energy efficiency could be challenging in the desert climate.",
+        "The 2-pipe system for guestrooms will require seasonal changeover that may limit flexibility during shoulder seasons.",
+        "Ensuring proper air balancing across the complex with varying occupancy patterns."
+      ],
+      "opportunities": [
+        "Consider implementing demand-controlled ventilation in all high-occupancy areas to optimize energy usage.",
+        "Incorporate enhanced filtration options as an add-on to mitigate airborne contaminants.",
+        "Evaluate potential for heat recovery on exhaust air streams to improve overall system efficiency."
+      ]
+    },
+    {
+      "systemType": "Guest Room HVAC",
+      "technicalObservations": [
+        "High rise type 2-pipe chilled water Vertical Fan Coil Units with electric heat will condition each guestroom.",
+        "Each unit will be provided with disconnecting means and over current protection with ECM motors.",
+        "Outdoor air will be supplied to the guestrooms from a sidewall louver at the exterior.",
+        "Guestroom toilet exhaust will be intermittent, controlled by powered 2-position ZRT dampers tied into room occupancy sensor."
+      ],
+      "concerns": [
+        "Maintaining uniform comfort levels across all guestrooms during seasonal transitions might be challenging with a 2-pipe system.",
+        "Condensate management for high-rise fan coil units will require careful consideration to prevent leaks.",
+        "Noise transmission from fan coil units could potentially impact guest comfort."
+      ],
+      "opportunities": [
+        "Implement occupancy-based controls to optimize energy usage when rooms are unoccupied.",
+        "Consider enhanced system monitoring to detect potential maintenance issues before they impact guest experience.",
+        "Evaluate potential for predictive maintenance strategies to reduce operational costs."
+      ]
+    },
+    {
+      "systemType": "Building Automation and Controls",
+      "technicalObservations": [
+        "HVAC systems will be controlled by a central Direct Digital Control System with graphic interface.",
+        "Guestroom units will be controlled by standalone digital wall mounted thermostats with occupancy sensors and door switches.",
+        "Guestrooms temperature control systems will utilize wireless ZigBee communications to eliminate low voltage wiring needs.",
+        "Demand controlled ventilation will be utilized throughout all high occupancy areas."
+      ],
+      "concerns": [
+        "Integration between different control systems (BAS, guestroom controls, etc.) could present challenges.",
+        "Ensuring reliable wireless communication in guestroom control systems.",
+        "Maintaining optimal system performance while accommodating varying occupancy patterns."
+      ],
+      "opportunities": [
+        "Consider implementing analytics-based monitoring and fault detection to optimize system performance.",
+        "Evaluate potential for integration with property management system for enhanced operational efficiency.",
+        "Implement automated reporting to track energy usage and identify optimization opportunities."
+      ]
+    },
+    {
+      "systemType": "Energy Efficiency Measures",
+      "technicalObservations": [
+        "Single Zone VAV and Multi-Zone VAV systems will be implemented for air conditioning systems.",
+        "Variable Frequency Drives will be provided on equipment and pumps where applicable.",
+        "Outside Air Delivery Monitoring and Demand Controlled Ventilation will be implemented in high occupancy areas.",
+        "Premium Efficiency Electric Motors will be used throughout the project."
+      ],
+      "concerns": [
+        "Balancing energy efficiency with guest comfort expectations in a luxury resort environment.",
+        "Optimizing system performance in the extreme desert climate conditions.",
+        "Ensuring proper commissioning and optimization of complex control strategies."
+      ],
+      "opportunities": [
+        "Evaluate potential for additional heat recovery strategies to improve overall system efficiency.",
+        "Consider implementing enhanced monitoring and reporting tools to track and optimize energy performance.",
+        "Explore potential for renewable energy integration to reduce operational costs and environmental impact."
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement enhanced sound attenuation measures for the chiller plant",
+      "rationale": "The chiller yard's location adjacent to the fitness area presents potential noise concerns. Enhanced sound attenuation would improve guest experience in nearby areas.",
+      "estimatedImpact": "Reduces potential noise complaints by 80-90% and enhances overall guest experience. Minimal impact on system performance.",
+      "implementation": "Add acoustic barriers/screens around the chiller yard, implement vibration isolation mounts, and consider sound blankets for compressors. Estimated cost: $35,000-45,000.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Upgrade the Building Automation System to include predictive analytics and fault detection capabilities",
+      "rationale": "Enhanced monitoring and analytics would help identify potential issues before they impact guest comfort and optimize system performance for improved energy efficiency.",
+      "estimatedImpact": "Potential energy savings of 8-12% through optimized operation. Reduced maintenance costs through early detection of issues. Enhanced system reliability.",
+      "implementation": "Implement analytics software package with the BAS, install additional sensors where needed, and provide staff training on system use. Estimated cost: $65,000-80,000.",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Incorporate waterside economizer mode for the chilled water system",
+      "rationale": "During cooler periods in winter/spring/fall, a waterside economizer could significantly reduce cooling energy consumption in the Phoenix climate.",
+      "estimatedImpact": "Potential energy savings of 15-20% on annual cooling costs. Reduced wear on chillers and extended equipment life. ROI in approximately 3-4 years.",
+      "implementation": "Add plate heat exchangers, control valves, and associated piping to allow cooling tower water to directly cool the chilled water loop during favorable conditions. Modify controls programming. Estimated cost: $120,000-150,000.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Evaluate 4-pipe fan coil system for high-end suites or climate transition areas",
+      "rationale": "The current 2-pipe system with seasonal changeover may limit comfort flexibility in premium areas, particularly during spring/fall when both heating and cooling might be required on the same day.",
+      "estimatedImpact": "Enhanced guest comfort and flexibility in premium areas. Potential energy savings through eliminating reheat in certain zones.",
+      "implementation": "Implement 4-pipe fan coil units in selected areas (presidential suite, penthouse, etc.) and provide appropriate piping/controls modifications. Estimated cost: $85,000-100,000 depending on scope.",
+      "priority": "Low"
+    },
+    {
+      "id": 5,
+      "recommendation": "Enhance guestroom controls interface with mobile app integration",
+      "rationale": "Modern luxury hospitality trends include providing guests with mobile control of their room environment. This would enhance the guest experience while potentially improving energy efficiency.",
+      "estimatedImpact": "Enhanced guest satisfaction and brand differentiation. Potential additional energy savings of 5-8% through improved occupancy control.",
+      "implementation": "Upgrade the guestroom control system to include mobile app integration. Provide necessary IT infrastructure. Coordinate with property management system. Estimated cost: $45,000-60,000.",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "The SmokeTree Resort HVAC system design utilizes modern, efficient equipment with appropriate redundancy for a luxury resort application. The central plant design with three chillers provides good operational flexibility and the distributed air handling approach should deliver excellent comfort control. Overall, the mechanical systems are well-designed for the challenging desert climate of Paradise Valley, Arizona, with adequate consideration for energy efficiency, comfort, and reliability. The BuildVision recommendations focus on enhancing guest experience, improving operational efficiency, and incorporating additional sustainability features that align with luxury resort expectations.",
+    "keyFindings": [
+      "The mechanical system design is appropriate for the climate and application, with good redundancy in critical systems.",
+      "The central plant approach with multiple chillers provides good operational flexibility and efficiency potential.",
+      "Guestroom comfort systems utilize modern controls with occupancy sensing for enhanced efficiency.",
+      "The BAS system provides good baseline functionality but could be enhanced with additional analytics capabilities.",
+      "Primary equipment selections from established manufacturers should provide reliable operation with good support availability.",
+      "Several opportunities exist to enhance system performance, efficiency, and guest experience through targeted upgrades."
+    ],
+    "highestPriorityActions": [
+      "Implement enhanced sound attenuation for the chiller plant to protect guest experience in adjacent areas.",
+      "Consider upgrading the BAS to include predictive analytics for improved operational efficiency and maintenance planning.",
+      "Evaluate potential for waterside economizer implementation to reduce energy consumption during favorable weather conditions.",
+      "Review specifications for key equipment to ensure noise and vibration control measures are adequately addressed.",
+      "Confirm appropriate commissioning scope to ensure all systems are properly optimized at startup."
+    ]
+  }
 }

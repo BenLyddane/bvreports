@@ -308,6 +308,7 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
             model: s.model || '',
             representative: s.representativeInfo?.company || 'N/A',
             compatibilityNotes: s.compatibilityNotes || '',
+            costDifference: s.costDifference || '',
             isBasisOfDesign: false, // These are definitely not basis of design
             isListedAlternate: s.isListedAlternate || false // Preserve the Listed Alternate flag
           }));
@@ -344,6 +345,7 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
           model: alt.model || '',
           representative: alt.representativeInfo?.company || 'N/A',
           compatibilityNotes: alt.compatibilityNotes || '',
+          costDifference: alt.costDifference || '',
           isBasisOfDesign: false
         }));
         

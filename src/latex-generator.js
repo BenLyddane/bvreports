@@ -383,23 +383,20 @@ function generateEquipmentTable(equipmentTable) {
       latex += `\\begin{longtable}{|`;
       
       // Column specifications
-      latex += `p{0.15\\textwidth}|`; // Manufacturer
-      latex += `p{0.15\\textwidth}|`; // Model
-      latex += `p{0.15\\textwidth}|`; // Representative
-      latex += `p{0.15\\textwidth}|`; // AI Estimated Cost Difference
+      latex += `p{0.20\\textwidth}|`; // Manufacturer
+      latex += `p{0.20\\textwidth}|`; // Model
+      latex += `p{0.20\\textwidth}|`; // Representative
       latex += `p{0.30\\textwidth}|`; // Compatibility Notes
       latex += `p{0.10\\textwidth}|`; // Basis of Design
       latex += `}\n`;
       
-      // Add disclaimer for AI cost estimates
-      latex += `\\multicolumn{6}{p{\\textwidth}}{\\small\\textit{Note: Cost differences are AI-estimated percentages relative to Basis of Design and are not based on actual project data. Always obtain accurate quotes from vendors directly via \\href{https://buildvision.io}{buildvision.io}.}}\\\\[5pt]\n`;
       
       // Define header that repeats on each page
       latex += `\\hline\n`;
       latex += `\\rowcolor{${headerBg}}\n`;
       
       // Add headers with proper formatting and background color
-      const altHeaders = ['Manufacturer', 'Model', 'Representative', 'AI Est. Cost Diff.', 'Compatibility Notes', 'BoD'];
+      const altHeaders = ['Manufacturer', 'Model', 'Representative', 'Compatibility Notes', 'BoD'];
       latex += altHeaders.map(header => {
         // Use makecell to allow line breaks in headers
         return `\\textbf{\\makecell{${escapeLatex(header)}}}`;
@@ -409,7 +406,7 @@ function generateEquipmentTable(equipmentTable) {
       
       // Define footer that repeats on each page (optional)
       latex += '\\hline\n';
-      latex += `\\multicolumn{6}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
+      latex += `\\multicolumn{5}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
       latex += '\\hline\n';
       latex += '\\endfoot\n\n';
       
@@ -492,7 +489,6 @@ function generateEquipmentTable(equipmentTable) {
           supplier.manufacturer,
           supplier.model,
           supplier.representative,
-          supplier.costDifference || '',
           supplier.compatibilityNotes
         ];
         

@@ -1,469 +1,469 @@
 {
-    "reportTitle": "BuildVision Project Report - Riverside HVAC System",
-    "customerInformation": {
-      "customerName": "Layton Construction",
-      "contactPerson": "William Winslow",
-      "contactEmail": "wwinslow@laytonconstruction.com",
-      "contactPhone": "",
-      "projectId": "0d812dd8-cf65-48c4-87a6-c7d6be1f64dd",
-      "additionalFields": {
-        "dateInvited": "5/7/2025",
-        "dateDue": "5/27/2025",
-        "rfIsDue": "5/13/2025",
-        "requestType": "Proposal"
+  "reportTitle": "BuildVision Project Report - Riverside HVAC System",
+  "customerInformation": {
+    "customerName": "Layton Construction",
+    "contactPerson": "William Winslow",
+    "contactEmail": "wwinslow@laytonconstruction.com",
+    "contactPhone": "",
+    "projectId": "0d812dd8-cf65-48c4-87a6-c7d6be1f64dd",
+    "additionalFields": {
+      "dateInvited": "5/7/2025",
+      "dateDue": "5/27/2025",
+      "rfIsDue": "5/13/2025",
+      "requestType": "Proposal"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Riverside HVAC System Upgrade",
+    "location": "5900 Brockton Avenue, Riverside, CA 92506",
+    "startDate": "3/30/2026",
+    "completionDate": "",
+    "budget": "",
+    "scope": "HVAC System Equipment Installation",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/f94e986c-cfce-4e0f-a24c-200a374ab999/package-projects/0d812dd8-cf65-48c4-87a6-c7d6be1f64dd/details",
+    "additionalFields": {
+      "created": "5/7/2025",
+      "contractType": "",
+      "jobWalk": "",
+      "projectSize": ""
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
       }
-    },
-    "projectInformation": {
-      "projectName": "Riverside HVAC System Upgrade",
-      "location": "5900 Brockton Avenue, Riverside, CA 92506",
-      "startDate": "3/30/2026",
-      "completionDate": "",
-      "budget": "",
-      "scope": "HVAC System Equipment Installation",
-      "projectUrl": "https://app.buildvision.io/admin/organizations/f94e986c-cfce-4e0f-a24c-200a374ab999/package-projects/0d812dd8-cf65-48c4-87a6-c7d6be1f64dd/details",
-      "additionalFields": {
-        "created": "5/7/2025",
-        "contractType": "",
-        "jobWalk": "",
-        "projectSize": ""
-      }
-    },
-    "preparerInformation": {
-      "preparers": [
+    ],
+    "preparationDate": "2025-05-20"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Split System Air Conditioners",
+      "notes": "Samsung HVAC split systems for distributed cooling",
+      "items": [
         {
-          "name": "Ben Lyddane",
-          "email": "Ben@BuildVision.io",
-          "phone": "202-365-8628"
+          "equipmentTag": "AC-1-2",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC024NADCC0AA",
+          "specifications": {}
         },
         {
-          "name": "Mackenzie Hoover",
-          "email": "Mackenzie@buildvision.io",
-          "phone": "843-609-3265"
+          "equipmentTag": "AC-1-3",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC024NADCC0AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-3-1",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC036DNTDCG/AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-1-2",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC024MXADCF2AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-1-3",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC024MXADCF2AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-3-1",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC036DXSCCF/AA",
+          "specifications": {}
         }
-      ],
-      "preparationDate": "5/14/2025"
+      ]
     },
-    "equipmentByType": [
-      {
-        "equipmentType": "Split System Air Conditioners",
-        "notes": "Samsung HVAC split systems for distributed cooling",
-        "items": [
-          {
-            "equipmentTag": "AC-1-2",
-            "manufacturer": "Samsung HVAC",
-            "model": "AC024NADCC0AA",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "AC-1-3",
-            "manufacturer": "Samsung HVAC",
-            "model": "AC024NADCC0AA",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "AC-3-1",
-            "manufacturer": "Samsung HVAC",
-            "model": "AC036DNTDCG/AA",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "CU-1-2",
-            "manufacturer": "Samsung HVAC",
-            "model": "AC024MXADCF2AA",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "CU-1-3",
-            "manufacturer": "Samsung HVAC",
-            "model": "AC024MXADCF2AA",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "CU-3-1",
-            "manufacturer": "Samsung HVAC",
-            "model": "AC036DXSCCF/AA",
-            "specifications": {}
-          }
-        ]
-      },
-      {
-        "equipmentType": "Packaged Rooftop Air-Conditioning Units",
-        "notes": "York packaged DX units for central air distribution",
-        "items": [
-          {
-            "equipmentTag": "RTU-1",
-            "manufacturer": "York",
-            "model": "PACKAGED DX",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "RTU-2",
-            "manufacturer": "York",
-            "model": "PACKAGED DX",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "RTU-3",
-            "manufacturer": "York",
-            "model": "PACKAGED DX",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "RTU-3-1",
-            "manufacturer": "York",
-            "model": "GZCAA-0B5AK-4P20A",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "RTU-3-2",
-            "manufacturer": "York",
-            "model": "GZCAA-0B5AK-4P20A",
-            "specifications": {}
-          }
-        ]
-      },
-      {
-        "equipmentType": "Dedicated Outdoor-Air Units",
-        "notes": "iAire dedicated outdoor air system for ventilation",
-        "items": [
-          {
-            "equipmentTag": "DOAS-1",
-            "manufacturer": "iAire",
-            "model": "PHC-KJ150HHT",
-            "specifications": {}
-          }
-        ]
-      },
-      {
-        "equipmentType": "HVAC Fans",
-        "notes": "Greenheck fans for ventilation and exhaust requirements",
-        "items": [
-          {
-            "equipmentTag": "DEF-1",
-            "manufacturer": "Greenheck",
-            "model": "CUE-100-VG",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "EF-1",
-            "manufacturer": "Greenheck",
-            "model": "CUE-130-VG",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "EF-2",
-            "manufacturer": "Greenheck",
-            "model": "CUE-130-VG",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "EF-3",
-            "manufacturer": "Greenheck",
-            "model": "FJI-07-BI-X",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "EF-4",
-            "manufacturer": "Greenheck",
-            "model": "FJI-07-BI-X",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "KEF-1",
-            "manufacturer": "Greenheck",
-            "model": "CUE-140-VG",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "KEF-2",
-            "manufacturer": "Greenheck",
-            "model": "CUE-160-VG",
-            "specifications": {}
-          }
-        ]
-      },
-      {
-        "equipmentType": "Condensing Boilers",
-        "notes": "Raypak high-efficiency condensing boilers for heating system",
-        "items": [
-          {
-            "equipmentTag": "B-1",
-            "manufacturer": "Raypak",
-            "model": "H7-500B",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "B-2",
-            "manufacturer": "Raypak",
-            "model": "H7-500B",
-            "specifications": {}
-          }
-        ]
-      },
-      {
-        "equipmentType": "Hydronic Piping Specialties",
-        "notes": "Components for hydronic distribution system",
-        "items": [
-          {
-            "equipmentTag": "AS-1",
-            "manufacturer": "",
-            "model": "",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "BT-1",
-            "manufacturer": "",
-            "model": "",
-            "specifications": {}
-          },
-          {
-            "equipmentTag": "ET-1",
-            "manufacturer": "",
-            "model": "",
-            "specifications": {}
-          }
-        ]
-      }
-    ],
-        "alternateManufacturers": [
-      {
-        "componentType": "Split System Air Conditioners",
-        "basisOfDesign": "Samsung HVAC",
-        "alternateOptions": [
-          {
-            "manufacturer": "Daikin",
-            "model": "FTXS Series",
-            "representativeInfo": {
-              "name": "Norman S. Wright Climatec",
-              "company": "Norman S. Wright Climatec Mechanical Equipment",
-              "contact": "(714) 632-9800"
-            },
-            "costDifference": "-5%",
-            "compatibilityNotes": "Compatible with existing ductwork, may require adapters for refrigerant lines"
-          },
-          {
-            "manufacturer": "Mitsubishi Electric",
-            "model": "MSZ-FS Series",
-            "representativeInfo": {
-              "name": "CFM Equipment Distributors",
-              "company": "CFM Equipment Distributors",
-              "contact": "(916) 447-7022"
-            },
-            "costDifference": "+8%",
-            "compatibilityNotes": "Premium option with improved energy efficiency ratings"
-          }
-        ]
-      },
-      {
-        "componentType": "Packaged Rooftop Air-Conditioning Units",
-        "basisOfDesign": "York",
-        "alternateOptions": [
-          {
-            "manufacturer": "Carrier",
-            "model": "WeatherMaker Series",
-            "representativeInfo": {
-              "name": "Russell Sigler Inc.",
-              "company": "Russell Sigler Inc.",
-              "contact": "sales@siglers.com"
-            },
-            "costDifference": "+3%",
-            "compatibilityNotes": "Similar footprint, would require minimal roof curb modifications"
-          },
-          {
-            "manufacturer": "Trane",
-            "model": "Precedent Series",
-            "representativeInfo": {
-              "name": "US Air Conditioning Distributors",
-              "company": "US Air Conditioning Distributors",
-              "contact": "info@us-ac.com"
-            },
-            "costDifference": "+6%",
-            "compatibilityNotes": "Higher efficiency option with robust control package"
-          }
-        ]
-      },
-      {
-        "componentType": "Condensing Boilers",
-        "basisOfDesign": "Raypak",
-        "alternateOptions": [
-          {
-            "manufacturer": "Lochinvar",
-            "model": "KNIGHT Series",
-            "representativeInfo": {
-              "name": "DB Sales & Service",
-              "company": "DB Sales & Service",
-              "contact": "(714) 897-1036"
-            },
-            "costDifference": "+4%",
-            "compatibilityNotes": "Higher efficiency with built-in redundancy features"
-          },
-          {
-            "manufacturer": "Aerco",
-            "model": "Benchmark Series",
-            "representativeInfo": {
-              "name": "DMG North",
-              "company": "DMG North Inc.",
-              "contact": "sales@dmgn.com"
-            },
-            "costDifference": "+10%",
-            "compatibilityNotes": "Premium option with advanced modulation capabilities"
-          }
-        ]
-      },
-      {
-        "componentType": "Packaged Rooftop Air-Conditioning Units",
-        "basisOfDesign": "York",
-        "alternateOptions": [
-          {
-            "manufacturer": "Carrier",
-            "model": "WeatherMaker Series",
-            "representativeInfo": {
-              "name": "Russell Sigler Inc.",
-              "company": "Russell Sigler Inc.",
-              "contact": "sales@siglers.com"
-            },
-            "costDifference": "+3%",
-            "compatibilityNotes": "Similar footprint, would require minimal roof curb modifications"
-          },
-          {
-            "manufacturer": "Trane",
-            "model": "Precedent Series",
-            "representativeInfo": {
-              "name": "US Air Conditioning Distributors",
-              "company": "US Air Conditioning Distributors",
-              "contact": "info@us-ac.com"
-            },
-            "costDifference": "+6%",
-            "compatibilityNotes": "Higher efficiency option with robust control package"
-          }
-        ]
-      },
-      {
-        "componentType": "Condensing Boilers",
-        "basisOfDesign": "Raypak",
-        "alternateOptions": [
-          {
-            "manufacturer": "Lochinvar",
-            "model": "KNIGHT Series",
-            "representativeInfo": {
-              "name": "DB Sales & Service",
-              "company": "DB Sales & Service",
-              "contact": "(714) 897-1036"
-            },
-            "costDifference": "+4%",
-            "compatibilityNotes": "Higher efficiency with built-in redundancy features"
-          },
-          {
-            "manufacturer": "Aerco",
-            "model": "Benchmark Series",
-            "representativeInfo": {
-              "name": "California Hot Water Supply",
-              "company": "California Hot Water Supply",
-              "contact": "(888) 249-7244"
-            },
-            "costDifference": "+10%",
-            "compatibilityNotes": "Premium option with advanced modulation capabilities"
-          }
-        ]
-      }
-    ],
-    "designNotes": [
-      {
-        "systemType": "HVAC Cooling Systems",
-        "technicalObservations": [
-          "Multiple split systems indicate a zoned approach to cooling",
-          "Combination of split systems and packaged units suggests a hybrid approach",
-          "Samsung equipment selected as basis of design for split systems"
-        ],
-        "concerns": [
-          "Coordination between multiple system types will require careful control integration",
-          "Refrigerant line routing for split systems needs to be validated"
-        ],
-        "opportunities": [
-          "Potential for energy savings through optimization of multiple systems",
-          "Zoning approach allows for more granular temperature control"
-        ]
-      },
-      {
-        "systemType": "Ventilation Systems",
-        "technicalObservations": [
-          "Dedicated outdoor air system (DOAS) provides centralized fresh air delivery",
-          "Multiple exhaust fans indicate distributed exhaust requirements",
-          "Kitchen exhaust fans (KEF) suggest commercial kitchen ventilation needs"
-        ],
-        "concerns": [
-          "Balancing of supply and exhaust air will be critical",
-          "Kitchen exhaust compliance with NFPA 96 should be verified"
-        ],
-        "opportunities": [
-          "Energy recovery potential between exhaust and outdoor air streams",
-          "Demand-controlled ventilation could reduce energy consumption"
-        ]
-      },
-      {
-        "systemType": "Hydronic Heating System",
-        "technicalObservations": [
-          "Dual boiler system provides redundancy",
-          "High-efficiency condensing boilers selected as basis of design",
-          "Hydronic piping specialties indicate a distributed hot water system"
-        ],
-        "concerns": [
-          "Condensate management for high-efficiency boilers needs to be addressed",
-          "System water quality maintenance is essential for longevity"
-        ],
-        "opportunities": [
-          "Potential for further efficiency optimization through outdoor air reset controls",
-          "Dual boiler staging can maximize condensing operation"
-        ]
-      }
-    ],
-    "buildVisionRecommendations": [
-      {
-        "id": 1,
-        "recommendation": "Implement integrated building automation system",
-        "rationale": "Multiple equipment types and manufacturers require coordinated control for optimal operation",
-        "estimatedImpact": "15-20% energy savings through optimized sequencing and setpoint management",
-        "implementation": "Specify BACnet compatibility for all equipment and central BAS controller",
-        "priority": "High"
-      },
-      {
-        "id": 2,
-        "recommendation": "Consider demand-controlled ventilation for DOAS",
-        "rationale": "CO2-based control can reduce unnecessary ventilation during periods of low occupancy",
-        "estimatedImpact": "10-15% reduction in ventilation-related energy consumption",
-        "implementation": "Add CO2 sensors in major zones and modify DOAS controls",
-        "priority": "Medium"
-      },
-      {
-        "id": 3,
-        "recommendation": "Evaluate hydronic system water treatment options",
-        "rationale": "Proper water treatment is essential for condensing boiler efficiency and longevity",
-        "estimatedImpact": "Extended equipment life by 3-5 years, maintained efficiency",
-        "implementation": "Specify advanced filtration and chemical treatment package",
-        "priority": "Medium"
-      },
-      {
-        "id": 4,
-        "recommendation": "Consider variable primary flow for boiler system",
-        "rationale": "Variable flow matches system capacity to load more precisely than primary/secondary",
-        "estimatedImpact": "5-8% reduction in pumping energy, improved delta-T",
-        "implementation": "Modify hydronic design to variable primary, specify VFDs for pumps",
-        "priority": "Low"
-      }
-    ],
-    "conclusion": {
-      "summary": "The proposed HVAC system for this Riverside, CA project incorporates a diverse range of equipment to meet various heating, cooling, and ventilation needs. The design utilizes a hybrid approach with both split systems and packaged rooftop units for cooling, dedicated outdoor air for ventilation, and a dual condensing boiler system for heating. While the equipment selections are appropriate for the application, there are opportunities for optimization in controls integration, energy recovery, and system operation.",
-      "keyFindings": [
-        "The hybrid cooling approach provides good zoning capabilities but requires careful control integration",
-        "Dedicated outdoor air system provides centralized fresh air delivery with potential for energy recovery",
-        "High-efficiency condensing boilers provide good redundancy and efficiency for the heating system",
-        "Multiple exhaust systems indicate specialized ventilation requirements that must be carefully balanced"
-      ],
-      "highestPriorityActions": [
-        "Implement integrated building automation system for coordinated control",
-        "Ensure proper refrigerant line routing and sizing for split systems",
-        "Verify kitchen exhaust compliance with applicable codes",
-        "Develop comprehensive water treatment strategy for hydronic system"
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "York packaged DX units for central air distribution",
+      "items": [
+        {
+          "equipmentTag": "RTU-1",
+          "manufacturer": "York",
+          "model": "PACKAGED DX",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "RTU-2",
+          "manufacturer": "York",
+          "model": "PACKAGED DX",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "RTU-3",
+          "manufacturer": "York",
+          "model": "PACKAGED DX",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "RTU-3-1",
+          "manufacturer": "York",
+          "model": "GZCAA-0B5AK-4P20A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "RTU-3-2",
+          "manufacturer": "York",
+          "model": "GZCAA-0B5AK-4P20A",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dedicated Outdoor-Air Units",
+      "notes": "iAire dedicated outdoor air system for ventilation",
+      "items": [
+        {
+          "equipmentTag": "DOAS-1",
+          "manufacturer": "iAire",
+          "model": "PHC-KJ150HHT",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Greenheck fans for ventilation and exhaust requirements",
+      "items": [
+        {
+          "equipmentTag": "DEF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-100-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-130-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "Greenheck",
+          "model": "CUE-130-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "Greenheck",
+          "model": "FJI-07-BI-X",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-4",
+          "manufacturer": "Greenheck",
+          "model": "FJI-07-BI-X",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "KEF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "KEF-2",
+          "manufacturer": "Greenheck",
+          "model": "CUE-160-VG",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Condensing Boilers",
+      "notes": "Raypak high-efficiency condensing boilers for heating system",
+      "items": [
+        {
+          "equipmentTag": "B-1",
+          "manufacturer": "Raypak",
+          "model": "H7-500B",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "B-2",
+          "manufacturer": "Raypak",
+          "model": "H7-500B",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Hydronic Piping Specialties",
+      "notes": "Components for hydronic distribution system",
+      "items": [
+        {
+          "equipmentTag": "AS-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "BT-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ET-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {}
+        }
       ]
     }
+  ],
+  "alternateManufacturers": [
+    {
+      "componentType": "Split System Air Conditioners",
+      "basisOfDesign": "Samsung HVAC",
+      "alternateOptions": [
+        {
+          "manufacturer": "Daikin",
+          "model": "FTXS Series",
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec Mechanical Equipment",
+            "contact": "(714) 632-9800"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compatible with existing ductwork, may require adapters for refrigerant lines"
+        },
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "MSZ-FS Series",
+          "representativeInfo": {
+            "name": "CFM Equipment Distributors",
+            "company": "CFM Equipment Distributors",
+            "contact": "(916) 447-7022"
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Premium option with improved energy efficiency ratings"
+        }
+      ]
+    },
+    {
+      "componentType": "Packaged Rooftop Air-Conditioning Units",
+      "basisOfDesign": "York",
+      "alternateOptions": [
+        {
+          "manufacturer": "Carrier",
+          "model": "WeatherMaker Series",
+          "representativeInfo": {
+            "name": "Russell Sigler Inc.",
+            "company": "Russell Sigler Inc.",
+            "contact": "sales@siglers.com"
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Similar footprint, would require minimal roof curb modifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Precedent Series",
+          "representativeInfo": {
+            "name": "US Air Conditioning Distributors",
+            "company": "US Air Conditioning Distributors",
+            "contact": "info@us-ac.com"
+          },
+          "costDifference": "+6%",
+          "compatibilityNotes": "Higher efficiency option with robust control package"
+        }
+      ]
+    },
+    {
+      "componentType": "Condensing Boilers",
+      "basisOfDesign": "Raypak",
+      "alternateOptions": [
+        {
+          "manufacturer": "Lochinvar",
+          "model": "KNIGHT Series",
+          "representativeInfo": {
+            "name": "DB Sales & Service",
+            "company": "DB Sales & Service",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Higher efficiency with built-in redundancy features"
+        },
+        {
+          "manufacturer": "Aerco",
+          "model": "Benchmark Series",
+          "representativeInfo": {
+            "name": "DMG North",
+            "company": "DMG North Inc.",
+            "contact": "sales@dmgn.com"
+          },
+          "costDifference": "+10%",
+          "compatibilityNotes": "Premium option with advanced modulation capabilities"
+        }
+      ]
+    },
+    {
+      "componentType": "Packaged Rooftop Air-Conditioning Units",
+      "basisOfDesign": "York",
+      "alternateOptions": [
+        {
+          "manufacturer": "Carrier",
+          "model": "WeatherMaker Series",
+          "representativeInfo": {
+            "name": "Russell Sigler Inc.",
+            "company": "Russell Sigler Inc.",
+            "contact": "sales@siglers.com"
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Similar footprint, would require minimal roof curb modifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Precedent Series",
+          "representativeInfo": {
+            "name": "US Air Conditioning Distributors",
+            "company": "US Air Conditioning Distributors",
+            "contact": "info@us-ac.com"
+          },
+          "costDifference": "+6%",
+          "compatibilityNotes": "Higher efficiency option with robust control package"
+        }
+      ]
+    },
+    {
+      "componentType": "Condensing Boilers",
+      "basisOfDesign": "Raypak",
+      "alternateOptions": [
+        {
+          "manufacturer": "Lochinvar",
+          "model": "KNIGHT Series",
+          "representativeInfo": {
+            "name": "DB Sales & Service",
+            "company": "DB Sales & Service",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Higher efficiency with built-in redundancy features"
+        },
+        {
+          "manufacturer": "Aerco",
+          "model": "Benchmark Series",
+          "representativeInfo": {
+            "name": "California Hot Water Supply",
+            "company": "California Hot Water Supply",
+            "contact": "(888) 249-7244"
+          },
+          "costDifference": "+10%",
+          "compatibilityNotes": "Premium option with advanced modulation capabilities"
+        }
+      ]
+    }
+  ],
+  "designNotes": [
+    {
+      "systemType": "HVAC Cooling Systems",
+      "technicalObservations": [
+        "Multiple split systems indicate a zoned approach to cooling",
+        "Combination of split systems and packaged units suggests a hybrid approach",
+        "Samsung equipment selected as basis of design for split systems"
+      ],
+      "concerns": [
+        "Coordination between multiple system types will require careful control integration",
+        "Refrigerant line routing for split systems needs to be validated"
+      ],
+      "opportunities": [
+        "Potential for energy savings through optimization of multiple systems",
+        "Zoning approach allows for more granular temperature control"
+      ]
+    },
+    {
+      "systemType": "Ventilation Systems",
+      "technicalObservations": [
+        "Dedicated outdoor air system (DOAS) provides centralized fresh air delivery",
+        "Multiple exhaust fans indicate distributed exhaust requirements",
+        "Kitchen exhaust fans (KEF) suggest commercial kitchen ventilation needs"
+      ],
+      "concerns": [
+        "Balancing of supply and exhaust air will be critical",
+        "Kitchen exhaust compliance with NFPA 96 should be verified"
+      ],
+      "opportunities": [
+        "Energy recovery potential between exhaust and outdoor air streams",
+        "Demand-controlled ventilation could reduce energy consumption"
+      ]
+    },
+    {
+      "systemType": "Hydronic Heating System",
+      "technicalObservations": [
+        "Dual boiler system provides redundancy",
+        "High-efficiency condensing boilers selected as basis of design",
+        "Hydronic piping specialties indicate a distributed hot water system"
+      ],
+      "concerns": [
+        "Condensate management for high-efficiency boilers needs to be addressed",
+        "System water quality maintenance is essential for longevity"
+      ],
+      "opportunities": [
+        "Potential for further efficiency optimization through outdoor air reset controls",
+        "Dual boiler staging can maximize condensing operation"
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement integrated building automation system",
+      "rationale": "Multiple equipment types and manufacturers require coordinated control for optimal operation",
+      "estimatedImpact": "15-20% energy savings through optimized sequencing and setpoint management",
+      "implementation": "Specify BACnet compatibility for all equipment and central BAS controller",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Consider demand-controlled ventilation for DOAS",
+      "rationale": "CO2-based control can reduce unnecessary ventilation during periods of low occupancy",
+      "estimatedImpact": "10-15% reduction in ventilation-related energy consumption",
+      "implementation": "Add CO2 sensors in major zones and modify DOAS controls",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Evaluate hydronic system water treatment options",
+      "rationale": "Proper water treatment is essential for condensing boiler efficiency and longevity",
+      "estimatedImpact": "Extended equipment life by 3-5 years, maintained efficiency",
+      "implementation": "Specify advanced filtration and chemical treatment package",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Consider variable primary flow for boiler system",
+      "rationale": "Variable flow matches system capacity to load more precisely than primary/secondary",
+      "estimatedImpact": "5-8% reduction in pumping energy, improved delta-T",
+      "implementation": "Modify hydronic design to variable primary, specify VFDs for pumps",
+      "priority": "Low"
+    }
+  ],
+  "conclusion": {
+    "summary": "The proposed HVAC system for this Riverside, CA project incorporates a diverse range of equipment to meet various heating, cooling, and ventilation needs. The design utilizes a hybrid approach with both split systems and packaged rooftop units for cooling, dedicated outdoor air for ventilation, and a dual condensing boiler system for heating. While the equipment selections are appropriate for the application, there are opportunities for optimization in controls integration, energy recovery, and system operation.",
+    "keyFindings": [
+      "The hybrid cooling approach provides good zoning capabilities but requires careful control integration",
+      "Dedicated outdoor air system provides centralized fresh air delivery with potential for energy recovery",
+      "High-efficiency condensing boilers provide good redundancy and efficiency for the heating system",
+      "Multiple exhaust systems indicate specialized ventilation requirements that must be carefully balanced"
+    ],
+    "highestPriorityActions": [
+      "Implement integrated building automation system for coordinated control",
+      "Ensure proper refrigerant line routing and sizing for split systems",
+      "Verify kitchen exhaust compliance with applicable codes",
+      "Develop comprehensive water treatment strategy for hydronic system"
+    ]
   }
+}
