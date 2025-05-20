@@ -1,0 +1,43 @@
+{
+  "reportTitle": "BuildVision Project Report - Villanova University Founders Hall",
+  "customerInformation": {
+    "customerName": "Villanova University",
+    "contactPerson": "Not Specified",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "Founders Hall HVAC System",
+    "additionalFields": {
+      "architect": "Blackney Hayes Architects",
+      "engineerOfRecord": "PSquared Consulting Engineers",
+      "contractor": "Not Specified"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Villanova University - Founders Hall HVAC Renovation",
+    "location": "Founders Hall, 610 King of Prussia Road, Wayne, PA 19087",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "HVAC system installation/renovation including makeup air units, water-source heat pumps, cooling tower, dedicated outdoor air system, and variable refrigerant flow system",
+    "projectUrl": "",
+    "additionalFields": {
+      "designStage": "Issued for Bid",
+      "designDate": "May 5, 2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "May 14, 2025"
+  }
+}

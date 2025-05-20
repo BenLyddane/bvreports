@@ -1,0 +1,932 @@
+{
+    "reportTitle": "BuildVision Project Report",
+    "customerInformation": {
+      "customerName": "Gilbane Building Company",
+      "contactPerson": "Gregory Garvin",
+      "contactEmail": "ggarvin@gilbaneco.com",
+      "contactPhone": "",
+      "projectId": "fffe0884-e5d2-4f6d-9c91-7a96d6cbf65f",
+      "additionalFields": {}
+    },
+    "projectInformation": {
+      "projectName": "RI DCYF: New Female Youth Residential Facility",
+      "location": "160 Main Street, Exeter, RI 02822",
+      "startDate": "6/17/2024",
+      "completionDate": "",
+      "budget": "",
+      "scope": "HVAC Systems Installation",
+      "projectUrl": "https://app.buildvision.io/dashboard/package-projects/fffe0884-e5d2-4f6d-9c91-7a96d6cbf65f/packages",
+      "additionalFields": {}
+    },
+    "preparerInformation": {
+      "preparers": [
+        {
+          "name": "Ben Lyddane",
+          "email": "Ben@BuildVision.io",
+          "phone": "202-365-8628"
+        },
+        {
+          "name": "Mackenzie Hoover",
+          "email": "Mackenzie@buildvision.io",
+          "phone": "267-281-4339"
+        }
+      ],
+      "preparationDate": "5/14/2025"
+    },
+    "equipmentByType": [
+      {
+        "equipmentType": "Air-to-Air Energy Recovery Equipment",
+        "notes": "High latent transfer static core energy recovery units. AHRI certified. Insulated wall construction. Supply and exhaust blower motors. MERV 13 intake filters, MERV 8 exhaust filters. Units ERV-101 through ERV-105 run continuously 24/7. Other units have occupied and unoccupied modes per owner's hours of operation.",
+        "items": [
+          {
+            "equipmentTag": "ERV-101",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-102",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-103",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-104",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-105",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-201",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-301",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-302",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-401",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-501",
+            "manufacturer": "Aldes",
+            "model": "E1000L-FI-N",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "ERV-601",
+            "manufacturer": "Aldes",
+            "model": "E1800L-FI-N",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "Variable Refrigerant Flow Systems",
+        "notes": "VRF air handlers connected to water-source heat pumps. BACnet integration with facility management system. Includes both vertical air handlers (PVFY models) and ceiling-concealed ducted air handlers (PEFY models).",
+        "items": [
+          {
+            "equipmentTag": "AH-101",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P018AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-102",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P012AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-103",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P012AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-104",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P008MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-105",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-106",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P008MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-107",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P012AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-108",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P012AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-109",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P018AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-201",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P024MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-202",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P006MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-203",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-204",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P006MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-205",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-206",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P015MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-207",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-208",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P008MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-209",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P018MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-210",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-211",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P015MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-301",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P024AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-302",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P018AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-303",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P024AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-304",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P018AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-305",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P008AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-306",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P030AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-307",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P006MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-308",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P006MA-E4A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-309",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P018AM4-E1A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-401",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA144A4",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-402",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA144A4",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-403",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P008MA144A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-404",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P048M141A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-405",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P048M141A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-406",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P006MA144A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-407",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P006MA144A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-408",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P008MA144A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-501",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA144A4",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-502",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P015MA144A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-503",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA144A4",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-504",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P018MA144A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-505",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P012MA144A4",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-506",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PEFY-P015MA144A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-601",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P036M141A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-602",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P036M141A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-603",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P036M141A",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AH-604",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PVFY-P036M141A",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "VRF Branch Selectors",
+        "notes": "Branch circuit controllers for VRF system. Allow simultaneous heating and cooling operation. Connected to water-source heat pumps.",
+        "items": [
+          {
+            "equipmentTag": "BC-101",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "CMB-P1012NU-JA1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "BC-201",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "CMB-P1012NU-JA1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "BC-301",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "CMB-P1012NU-JA1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "BC-401",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "CMB-P1012NU-JA1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "BC-501",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "CMB-P108NU-J1",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "Water-Source Heat Pumps",
+        "notes": "Ground water source heat pump systems with heat recovery. All systems tie into a new touch screen central controller with BACnet interface.",
+        "items": [
+          {
+            "equipmentTag": "WHP-1",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PQRY-P120TLMU-A1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "WHP-2",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PQRY-P144TLMU-A1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "WHP-3",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PQRY-P144TLMU-A1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "WHP-4",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PQRY-P144TLMU-A1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "WHP-5",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PQRY-P72TLMU-A1",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "WHP-6",
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PQRY-P144TLMU-A1",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "In-Line Centrifugal Hydronic Pumps",
+        "notes": "In-line variable speed circulators with ECM motors for water-source heat pump circulation. 40% propylene glycol at 50°F. Connection to building management system via BACnet.",
+        "items": [
+          {
+            "equipmentTag": "VCP-1",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "VR20L",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VCP-2",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "VR20M",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VCP-3",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "VR20M",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VCP-4",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "VR20M",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VCP-5",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "VR20L",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VCP-6",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "VR20M",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "DCP-1",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "VR15M",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "DCP-2",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "VR15M",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+        "notes": "Vertical in-line pumps for geothermal well field. All iron construction. ANSI B16.1 Class 125. VFD motors to maintain loop temperature. Lead/lag operation between GTP-1 and GTP-2.",
+        "items": [
+          {
+            "equipmentTag": "GTP-1",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "SKY3009D-1760-5.00",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "GTP-2",
+            "manufacturer": "Taco Comfort Solutions",
+            "model": "SKY3009D-1760-5.00",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "Automatic Condensate Pump Units",
+        "notes": "Commercial grade automatic condensate pump. 6' power cord. Safety switch for equipment shut down. Integral check valve. Plenum rated UL listed.",
+        "items": [
+          {
+            "equipmentTag": "CP-1",
+            "manufacturer": "Little Giant",
+            "model": "VCL-14ULS",
+            "specifications": {}
+          }
+        ]
+      }
+    ],
+    "alternateManufacturers": [
+      {
+        "componentType": "Air-to-Air Energy Recovery Equipment",
+        "basisOfDesign": "Aldes",
+        "alternateOptions": [
+          {
+            "manufacturer": "Greenheck",
+            "model": "ERV Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Equivalent performance specifications. Verify physical dimensions and connection locations."
+          },
+          {
+            "manufacturer": "RenewAire",
+            "model": "EV Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify recovery effectiveness and physical dimensions."
+          },
+          {
+            "manufacturer": "Ventacity",
+            "model": "VS Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Equivalent performance. Verify controls compatibility with BMS."
+          }
+        ]
+      },
+      {
+        "componentType": "Variable Refrigerant Flow Systems",
+        "basisOfDesign": "Mitsubishi Electric",
+        "alternateOptions": [
+          {
+            "manufacturer": "Trane",
+            "model": "TVR Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Equivalent performance specifications. Verify physical dimensions, connection locations, and refrigerant piping requirements."
+          },
+          {
+            "manufacturer": "Daikin",
+            "model": "VRV Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify controls compatibility with BMS and refrigerant piping requirements."
+          }
+        ]
+      },
+      {
+        "componentType": "Water-Source Heat Pumps",
+        "basisOfDesign": "Mitsubishi Electric",
+        "alternateOptions": [
+          {
+            "manufacturer": "Trane",
+            "model": "Water-Source VRF Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Equivalent performance specifications. Verify physical dimensions, connection locations, and refrigerant piping requirements."
+          },
+          {
+            "manufacturer": "Daikin",
+            "model": "VRV-W Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify controls compatibility with BMS and refrigerant piping requirements."
+          }
+        ]
+      },
+      {
+        "componentType": "VRF Branch Selectors",
+        "basisOfDesign": "Mitsubishi Electric",
+        "alternateOptions": [
+          {
+            "manufacturer": "Trane",
+            "model": "Refrigerant Distribution Units",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify compatibility with VRF system and refrigerant piping requirements."
+          },
+          {
+            "manufacturer": "Daikin",
+            "model": "BS Units",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify compatibility with VRF system and refrigerant piping requirements."
+          }
+        ]
+      },
+      {
+        "componentType": "In-Line Centrifugal Hydronic Pumps",
+        "basisOfDesign": "Taco Comfort Solutions",
+        "alternateOptions": [
+          {
+            "manufacturer": "Bell & Gossett",
+            "model": "ecocirc XL Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Equivalent performance. Verify physical dimensions and connection locations."
+          },
+          {
+            "manufacturer": "Grundfos",
+            "model": "Magna3 Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify ECM motor compatibility and BACnet connectivity."
+          },
+          {
+            "manufacturer": "Armstrong",
+            "model": "IVS Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Equivalent performance. Verify physical dimensions."
+          },
+          {
+            "manufacturer": "Wilo",
+            "model": "Stratos MAXO Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify controls compatibility and physical dimensions."
+          }
+        ]
+      },
+      {
+        "componentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+        "basisOfDesign": "Taco Comfort Solutions",
+        "alternateOptions": [
+          {
+            "manufacturer": "Bell & Gossett",
+            "model": "e-1510 Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Equivalent performance. Verify physical dimensions and connection locations."
+          },
+          {
+            "manufacturer": "Armstrong",
+            "model": "Design Envelope Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify VFD compatibility and BACnet connectivity."
+          },
+          {
+            "manufacturer": "Grundfos",
+            "model": "TP Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify physical dimensions and impeller size."
+          }
+        ]
+      },
+      {
+        "componentType": "Automatic Condensate Pump Units",
+        "basisOfDesign": "Little Giant",
+        "alternateOptions": [
+          {
+            "manufacturer": "Diversitech",
+            "model": "CP-Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Equivalent performance. Verify UL listing for plenum applications."
+          },
+          {
+            "manufacturer": "Hartell",
+            "model": "A Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify safety switch compatibility and tank volume."
+          },
+          {
+            "manufacturer": "DiversiTech",
+            "model": "ClearVue Series",
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Verify physical dimensions and safety switch compatibility."
+          }
+        ]
+      }
+    ],
+    "designNotes": [
+      {
+        "systemType": "Variable Refrigerant Flow (VRF) System",
+        "technicalObservations": [
+          "Water-source heat pumps connected to geothermal well field",
+          "Simultaneous heating and cooling capability",
+          "BACnet integration with facility management system",
+          "Individual zone control with wall-mounted controllers",
+          "Refrigerant leak detection system in mechanical room"
+        ],
+        "concerns": [
+          "Manufacturer-certified installation required for warranty",
+          "Proper commissioning and startup procedures essential",
+          "Refrigerant piping must follow manufacturer guidelines"
+        ],
+        "opportunities": [
+          "High efficiency operation with water-source heat recovery",
+          "Reduced mechanical space requirements",
+          "Individual zone temperature control"
+        ]
+      },
+      {
+        "systemType": "Geothermal Ground Source Water System",
+        "technicalObservations": [
+          "Closed loop system with 40% propylene glycol solution",
+          "Ground loop temperature maintained between 52-54°F",
+          "Redundant pumping system with lead/lag operation",
+          "Variable speed pumping with VFD control"
+        ],
+        "concerns": [
+          "System must be properly flushed and purged before operation",
+          "Glycol maintenance program required",
+          "Proper flow balancing critical for system performance"
+        ],
+        "opportunities": [
+          "Stable year-round ground temperatures optimize heat pump efficiency",
+          "Reduced maintenance compared to air-cooled systems",
+          "Extended equipment life expectancy"
+        ]
+      },
+      {
+        "systemType": "Energy Recovery Ventilation",
+        "technicalObservations": [
+          "High latent transfer static core energy recovery units",
+          "MERV 13 intake filters and MERV 8 exhaust filters",
+          "Occupied/unoccupied scheduling capability",
+          "ERV-101 for resident spaces runs continuously"
+        ],
+        "concerns": [
+          "Unit accessibility for filter changes and maintenance",
+          "Proper condensate management during defrost cycles",
+          "Coordination of controls with BMS"
+        ],
+        "opportunities": [
+          "Significant energy savings from heat recovery",
+          "Improved indoor air quality with high efficiency filtration",
+          "Dedicated outdoor air for each building zone"
+        ]
+      }
+    ],
+    "buildVisionRecommendations": [
+      {
+        "id": 1,
+        "recommendation": "Implement comprehensive testing and balancing of the VRF and geothermal systems",
+        "rationale": "Proper system balancing is critical for optimal performance of water-source VRF systems and will ensure designed flow rates are achieved at all heat pumps",
+        "estimatedImpact": "Properly balanced systems can result in 10-15% energy savings and prevent issues with insufficient flow through heat exchangers",
+        "implementation": "Engage a certified balancing contractor with experience in VRF systems. Coordinate with VRF manufacturer's representative during balancing process.",
+        "priority": "High"
+      },
+      {
+        "id": 2,
+        "recommendation": "Provide comprehensive training for facility staff on VRF system operation and maintenance",
+        "rationale": "VRF systems require specific maintenance procedures and operational knowledge for optimal performance",
+        "estimatedImpact": "Proper staff training will extend equipment life, reduce service calls, and maintain system efficiency",
+        "implementation": "Schedule multiple training sessions with the VRF manufacturer's technical representative. Document all training and provide comprehensive O&M manuals.",
+        "priority": "High"
+      },
+      {
+        "id": 3,
+        "recommendation": "Implement glycol monitoring and maintenance program",
+        "rationale": "Maintaining proper glycol concentration and pH is essential for system longevity and performance",
+        "estimatedImpact": "Regular glycol testing and maintenance prevents corrosion, ensures freeze protection, and extends equipment life",
+        "implementation": "Establish quarterly glycol testing schedule and maintain logs of concentration, pH, and inhibitor levels",
+        "priority": "Medium"
+      },
+      {
+        "id": 4,
+        "recommendation": "Create detailed sequence of operations documentation with seasonal changeover procedures",
+        "rationale": "Complex VRF systems benefit from clear operational procedures, particularly for seasonal transitions",
+        "estimatedImpact": "Proper sequences ensure optimal performance year-round and prevent operational issues during transition seasons",
+        "implementation": "Work with controls contractor and VRF manufacturer to document detailed sequences for all operating modes",
+        "priority": "Medium"
+      },
+      {
+        "id": 5,
+        "recommendation": "Verify refrigerant leak detection system installation and testing",
+        "rationale": "Proper refrigerant monitoring is required by code and essential for safety in mechanical rooms with VRF equipment",
+        "estimatedImpact": "Ensures building safety and code compliance",
+        "implementation": "Coordinate with mechanical contractor and controls contractor to verify proper installation, calibration, and testing of refrigerant monitoring system and emergency ventilation response",
+        "priority": "High"
+      }
+    ],
+    "conclusion": {
+      "summary": "The HVAC system for the RI DCYF New Female Youth Residential Facility utilizes a ground source water-cooled variable refrigerant flow (VRF) system with energy recovery ventilation. This design provides high efficiency operation, individual zone control, and excellent indoor air quality. The system is designed for reliability with redundant pumping and comprehensive controls integration.",
+      "keyFindings": [
+        "Water-source VRF system provides efficient simultaneous heating and cooling capability",
+        "Energy recovery ventilators with high-efficiency filtration improve indoor air quality and reduce energy consumption",
+        "Ground source water loop provides stable operating temperatures for optimal heat pump efficiency",
+        "Full BACnet integration with building management system allows for comprehensive monitoring and control",
+        "Variable speed pumping optimizes system efficiency at partial loads"
+      ],
+      "highestPriorityActions": [
+        "Ensure VRF manufacturer provides certified startup, commissioning, and staff training",
+        "Implement comprehensive testing and balancing of VRF and geothermal systems",
+        "Verify proper installation and testing of refrigerant leak detection system",
+        "Establish glycol monitoring and maintenance program",
+        "Create detailed sequence of operations documentation for facility staff"
+      ]
+    }
+}

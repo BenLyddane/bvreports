@@ -1,0 +1,37 @@
+{
+  "reportTitle": "BuildVision Project Report - NVS Mariana 500 Forge Lab/Office Fit-Out",
+  "customerInformation": {
+    "customerName": "NVS Technologies",
+    "contactPerson": "Not Specified",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "M-22-0584",
+    "additionalFields": {
+      "projectAddress": "500 Mariana Way, Research Park",
+      "projectType": "Laboratory and Office Fit-Out"
+    }
+  },
+  "projectInformation": {
+    "projectName": "NVS Mariana 500 Forge Lab/Office Fit-Out",
+    "location": "500 Mariana Way, Research Park",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Laboratory and Office Fit-Out",
+    "projectUrl": "",
+    "additionalFields": {
+      "buildingArea": "45000 square feet",
+      "projectNumber": "M-22-0584"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "BuildVision Engineering Team",
+        "email": "engineering@buildvision.io",
+        "phone": ""
+      }
+    ],
+    "preparationDate": "2025-05-14"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "HVAC System Optimization",
+      "rationale": "The seven-module AERMEC heat pump system provides significant redundancy, which is important for a healthcare facility. However, fewer, larger modules might reduce initial costs while still providing adequate redundancy.",
+      "estimatedImpact": "Potential reduction in initial costs and decreased connection complexity without compromising system reliability.",
+      "implementation": "Consider a 5-module configuration at 175 tons each instead of 7 modules at 125 tons each.",
+      "priority": "Medium"
+    },
+    {
+      "id": 2,
+      "recommendation": "AHU Alternatives Evaluation",
+      "rationale": "While Haakon provides excellent custom units, other manufacturers with healthcare expertise may offer comparable quality at competitive prices.",
+      "estimatedImpact": "Potential cost savings while maintaining required performance for healthcare applications.",
+      "implementation": "Request 'healthcare grade' specifications from alternative manufacturers that match Haakon's quality level, including double-wall construction, hospital-grade drainage pans, premium filtration systems, low air leakage rates, antimicrobial interior surfaces, and premium fan systems.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Generator System Alternatives",
+      "rationale": "The Caterpillar D600 GC generator is appropriately sized, but competitive bidding may identify cost-effective alternatives.",
+      "estimatedImpact": "Potential cost savings while maintaining reliability and performance.",
+      "implementation": "Solicit competitive bids from Kohler, Cummins, and MTU with 'healthcare grade' specifications including extended runtime capability, enhanced sound attenuation, robust paralleling capabilities, premium fuel filtration, and advanced monitoring systems.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Transfer Switch Evaluation",
+      "rationale": "ASCO 7000 Series transfer switches are top-tier equipment, but alternatives like Russelectric offer comparable quality.",
+      "estimatedImpact": "Potential cost savings while maintaining reliability for critical power systems.",
+      "implementation": "Evaluate alternatives carefully to ensure they meet healthcare code requirements and reliability expectations.",
+      "priority": "Low"
+    },
+    {
+      "id": 5,
+      "recommendation": "Project Phasing Coordination",
+      "rationale": "Long lead times for custom AHUs and generators (20-30 weeks) should be factored into the project schedule early.",
+      "estimatedImpact": "Prevention of project delays and avoidance of costly temporary measures.",
+      "implementation": "Consider early release of equipment packages, phased delivery to match construction sequence, and temporary conditioning options if permanent equipment cannot be installed in time for commissioning.",
+      "priority": "High"
+    },
+    {
+      "id": 6,
+      "recommendation": "Energy Efficiency Enhancement",
+      "rationale": "Enhanced control systems could optimize the operation of all AERMEC heat pump modules.",
+      "estimatedImpact": "Improved energy efficiency and reduced operational costs.",
+      "implementation": "Specify advanced BMS integration, predictive load management, heat recovery optimization, and smart defrost cycling for winter operation.",
+      "priority": "Medium"
+    },
+    {
+      "id": 7,
+      "recommendation": "System Redundancy Validation",
+      "rationale": "Healthcare facilities require robust redundancy in critical systems.",
+      "estimatedImpact": "Ensured continuity of operations and compliance with healthcare facility requirements.",
+      "implementation": "Validate that the proposed systems meet N+1 redundancy for critical cooling/heating systems, appropriate emergency power distribution, backup control systems, and failsafe modes for critical areas.",
+      "priority": "High"
+    }
+  ]
+}

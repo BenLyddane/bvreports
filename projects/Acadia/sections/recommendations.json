@@ -1,0 +1,36 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement integrated building automation system",
+      "rationale": "Multiple equipment types and manufacturers require coordinated control for optimal operation",
+      "estimatedImpact": "15-20% energy savings through optimized sequencing and setpoint management",
+      "implementation": "Specify BACnet compatibility for all equipment and central BAS controller",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Consider demand-controlled ventilation for DOAS",
+      "rationale": "CO2-based control can reduce unnecessary ventilation during periods of low occupancy",
+      "estimatedImpact": "10-15% reduction in ventilation-related energy consumption",
+      "implementation": "Add CO2 sensors in major zones and modify DOAS controls",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Evaluate hydronic system water treatment options",
+      "rationale": "Proper water treatment is essential for condensing boiler efficiency and longevity",
+      "estimatedImpact": "Extended equipment life by 3-5 years, maintained efficiency",
+      "implementation": "Specify advanced filtration and chemical treatment package",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Consider variable primary flow for boiler system",
+      "rationale": "Variable flow matches system capacity to load more precisely than primary/secondary",
+      "estimatedImpact": "5-8% reduction in pumping energy, improved delta-T",
+      "implementation": "Modify hydronic design to variable primary, specify VFDs for pumps",
+      "priority": "Low"
+    }
+  ]
+}

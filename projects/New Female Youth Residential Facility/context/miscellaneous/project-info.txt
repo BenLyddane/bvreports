@@ -1,0 +1,12 @@
+
+Project information for New Female Youth Residential Facility
+====================================
+
+This is a sample context file for the New Female Youth Residential Facility project.
+Real context files would contain specifications, schedules, and other project documents
+that Claude API can use to generate the JSON sections.
+
+The original JSON data has been split into separate section files and placed in:
+projects/New Female Youth Residential Facility/sections
+
+This structure allows for modular generation and updating of individual sections.

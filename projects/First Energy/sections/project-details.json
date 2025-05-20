@@ -1,0 +1,45 @@
+{
+  "reportTitle": "BuildVision Project Report",
+  "customerInformation": {
+    "customerName": "First Energy",
+    "contactPerson": "Des Neary",
+    "contactEmail": "dneary@structuretone.com",
+    "contactPhone": "",
+    "projectId": "f0eb16d2-bbf8-45ba-b9fb-1b57adcaf1b7",
+    "additionalFields": {
+      "organization": "Structure Tone (NY)"
+    }
+  },
+  "projectInformation": {
+    "projectName": "First Energy-Dover Richboynton Service Center HVAC Upgrades",
+    "location": "13 Richboynton Road, Dover, NJ 07801",
+    "startDate": "2025-05-15",
+    "completionDate": "2025-06-04",
+    "budget": "",
+    "scope": "HVAC Systems Upgrades",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/f0eb16d2-bbf8-45ba-b9fb-1b57adcaf1b7/details",
+    "additionalFields": {
+      "projectSize": "5000 sq. ft.",
+      "bidStatus": "BuildingConnected Lead",
+      "contractType": "",
+      "requestType": "Proposal",
+      "rfisDue": "2025-05-22",
+      "dateInvited": "2025-05-15"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-05-15"
+  }
+}

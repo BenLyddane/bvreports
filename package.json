@@ -1,0 +1,42 @@
+{
+  "name": "bvreports",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/process-all-projects.js",
+    "generate:one": "node src/process-all-projects.js",
+    "clean": "rm -rf temp/* && echo 'Temporary files cleaned'",
+    "setup": "mkdir -p temp output",
+    "setup:hooks": "cp scripts/git-hooks/pre-commit .git/hooks/ && chmod +x .git/hooks/pre-commit && echo 'Git hooks installed successfully'",
+    "postinstall": "npm run setup && npm run setup:hooks",
+    "project:create": "node src/main.js --create",
+    "project:list": "node src/main.js --list",
+    "project:add-context": "node src/main.js --add-context",
+    "archive": "node move-old-json.js",
+    "git:status": "git status",
+    "git:check-secrets": "git diff --staged --name-only | xargs grep -l 'ANTHROPIC_KEY\\|API_KEY\\|SECRET\\|PASSWORD\\|TOKEN\\|APIKEY\\|sk-\\|key=\\|secret=\\|token='",
+    "precommit": "npm run git:check-secrets",
+    "git:save": "git add . && git commit -m 'Update project files'",
+    "git:push": "git push",
+    "git:pull": "git pull"
+  },
+  "keywords": [
+    "buildvision",
+    "report",
+    "pdf",
+    "latex",
+    "claude"
+  ],
+  "author": "BuildVision",
+  "license": "ISC",
+  "description": "A Node.js application that generates modular BuildVision reports using Claude API and LaTeX",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.2",
+    "marked": "^15.0.11",
+    "yaml-front-matter": "^4.1.1"
+  }
+}

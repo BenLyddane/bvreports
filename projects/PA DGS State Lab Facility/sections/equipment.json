@@ -1,0 +1,572 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Multiple AHUs serving different building areas. Units include supply fans, coils, filters, and energy recovery systems.",
+      "items": [
+        {
+          "equipmentTag": "AHU-1",
+          "manufacturer": "VENTROL",
+          "model": "",
+          "specifications": {
+            "airflow": "50,000 CFM",
+            "supplyTemperature": "55°F",
+            "coilRows": "4",
+            "filterEfficiency": "MERV 15",
+            "voltage": "460/3/60"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2",
+          "manufacturer": "VENTROL",
+          "model": "",
+          "specifications": {
+            "airflow": "50,000 CFM",
+            "supplyTemperature": "55°F",
+            "coilRows": "4",
+            "filterEfficiency": "MERV 15",
+            "voltage": "460/3/60"
+          }
+        },
+        {
+          "equipmentTag": "AHU-3",
+          "manufacturer": "VENTROL",
+          "model": "",
+          "specifications": {
+            "airflow": "50,000 CFM",
+            "supplyTemperature": "55°F",
+            "coilRows": "4",
+            "filterEfficiency": "MERV 15",
+            "voltage": "460/3/60"
+          }
+        },
+        {
+          "equipmentTag": "AHU-4",
+          "manufacturer": "VENTROL",
+          "model": "",
+          "specifications": {
+            "airflow": "50,000 CFM",
+            "supplyTemperature": "55°F",
+            "coilRows": "4",
+            "filterEfficiency": "MERV 15",
+            "voltage": "460/3/60"
+          }
+        },
+        {
+          "equipmentTag": "AHU-5",
+          "manufacturer": "VENTROL",
+          "model": "",
+          "specifications": {
+            "airflow": "50,000 CFM",
+            "supplyTemperature": "55°F",
+            "coilRows": "4",
+            "filterEfficiency": "MERV 15",
+            "voltage": "460/3/60"
+          }
+        },
+        {
+          "equipmentTag": "AHU-6",
+          "manufacturer": "VENTROL",
+          "model": "",
+          "specifications": {
+            "airflow": "50,000 CFM",
+            "supplyTemperature": "55°F",
+            "coilRows": "4",
+            "filterEfficiency": "MERV 15",
+            "voltage": "460/3/60"
+          }
+        },
+        {
+          "equipmentTag": "AHU-7",
+          "manufacturer": "VENTROL",
+          "model": "",
+          "specifications": {
+            "voltage": "460/3/60"
+          }
+        },
+        {
+          "equipmentTag": "AHU-8",
+          "manufacturer": "VENTROL",
+          "model": "",
+          "specifications": {
+            "voltage": "460/3/60"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Cooling Towers",
+      "notes": "Evaporative cooling towers with VFD control for hot water rejection",
+      "items": [
+        {
+          "equipmentTag": "CT-1",
+          "manufacturer": "EVAPCO",
+          "model": "AXS-12-9M22",
+          "specifications": {
+            "fanMotorHP": "20",
+            "voltage": "480-3-60",
+            "fullLoadAmps": "36",
+            "operatingWeight": "25,520 lbs",
+            "dimensions": "12' x 23' x 12'",
+            "sccr": "65"
+          }
+        },
+        {
+          "equipmentTag": "CT-2",
+          "manufacturer": "EVAPCO",
+          "model": "AXS-12-9M22",
+          "specifications": {
+            "fanMotorHP": "20",
+            "voltage": "480-3-60",
+            "fullLoadAmps": "36",
+            "operatingWeight": "25,520 lbs",
+            "dimensions": "12' x 23' x 12'",
+            "sccr": "65"
+          }
+        },
+        {
+          "equipmentTag": "CT-3",
+          "manufacturer": "EVAPCO",
+          "model": "AXS-12-9M22",
+          "specifications": {
+            "fanMotorHP": "20",
+            "voltage": "480-3-60",
+            "fullLoadAmps": "36",
+            "operatingWeight": "25,520 lbs",
+            "dimensions": "12' x 23' x 12'",
+            "sccr": "65"
+          }
+        },
+        {
+          "equipmentTag": "CT-4",
+          "manufacturer": "EVAPCO",
+          "model": "AXS-12-9M22",
+          "specifications": {
+            "fanMotorHP": "20",
+            "voltage": "480-3-60",
+            "fullLoadAmps": "36",
+            "operatingWeight": "25,520 lbs",
+            "dimensions": "12' x 23' x 12'",
+            "sccr": "65"
+          }
+        },
+        {
+          "equipmentTag": "CT-5 (Future)",
+          "manufacturer": "EVAPCO",
+          "model": "AXS-12-9M22",
+          "specifications": {
+            "fanMotorHP": "20",
+            "voltage": "480-3-60",
+            "fullLoadAmps": "36",
+            "operatingWeight": "25,520 lbs",
+            "dimensions": "12' x 23' x 12'",
+            "sccr": "65"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Hot Water Boilers",
+      "notes": "Gas-fired condensing boilers with high efficiency ratings",
+      "items": [
+        {
+          "equipmentTag": "B-1",
+          "manufacturer": "PATTERSON-KELLY",
+          "model": "",
+          "specifications": {
+            "capacity": "6,000 MBH",
+            "thermalEfficiency": "94% (96.5% AHRI)",
+            "waterVolume": "100 gallons",
+            "maxPressureDrop": "8.0 PSI",
+            "voltage": "480/3/60",
+            "fullLoadAmps": "15"
+          }
+        },
+        {
+          "equipmentTag": "B-2",
+          "manufacturer": "PATTERSON-KELLY",
+          "model": "",
+          "specifications": {
+            "capacity": "6,000 MBH",
+            "thermalEfficiency": "94% (96.5% AHRI)",
+            "waterVolume": "100 gallons",
+            "maxPressureDrop": "8.0 PSI",
+            "voltage": "480/3/60",
+            "fullLoadAmps": "15"
+          }
+        },
+        {
+          "equipmentTag": "B-3",
+          "manufacturer": "PATTERSON-KELLY",
+          "model": "",
+          "specifications": {
+            "capacity": "6,000 MBH",
+            "thermalEfficiency": "94% (96.5% AHRI)",
+            "waterVolume": "100 gallons",
+            "maxPressureDrop": "8.0 PSI",
+            "voltage": "480/3/60",
+            "fullLoadAmps": "15"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "End suction centrifugal pumps for various hydronic systems",
+      "items": [
+        {
+          "equipmentTag": "HWP-1",
+          "manufacturer": "B&G",
+          "model": "E-1510 5EB",
+          "specifications": {
+            "pumpType": "End Suction",
+            "flow": "1200 GPM",
+            "head": "70 ft",
+            "motorHP": "30",
+            "efficiency": "79.5%",
+            "voltage": "460-3-60",
+            "controlType": "VFD"
+          }
+        },
+        {
+          "equipmentTag": "HWP-2",
+          "manufacturer": "B&G",
+          "model": "E-1510 5EB",
+          "specifications": {
+            "pumpType": "End Suction",
+            "flow": "1200 GPM",
+            "head": "70 ft",
+            "motorHP": "30",
+            "efficiency": "79.5%",
+            "voltage": "460-3-60",
+            "controlType": "VFD"
+          }
+        },
+        {
+          "equipmentTag": "GHP-1",
+          "manufacturer": "B&G",
+          "model": "E-1510 6E",
+          "specifications": {
+            "pumpType": "End Suction",
+            "flow": "1520 GPM",
+            "head": "110 ft",
+            "motorHP": "60",
+            "efficiency": "85.2%",
+            "voltage": "460-3-60",
+            "controlType": "VFD"
+          }
+        },
+        {
+          "equipmentTag": "GHP-2",
+          "manufacturer": "B&G",
+          "model": "E-1510 6E",
+          "specifications": {
+            "pumpType": "End Suction",
+            "flow": "1520 GPM",
+            "head": "110 ft",
+            "motorHP": "60",
+            "efficiency": "85.2%",
+            "voltage": "460-3-60",
+            "controlType": "VFD"
+          }
+        },
+        {
+          "equipmentTag": "ERP-1",
+          "manufacturer": "B&G",
+          "model": "E-1510 6G",
+          "specifications": {
+            "pumpType": "End Suction",
+            "flow": "1600 GPM",
+            "head": "55 ft",
+            "motorHP": "30",
+            "efficiency": "81.5%",
+            "voltage": "460-3-60",
+            "controlType": "VFD"
+          }
+        },
+        {
+          "equipmentTag": "ERP-2",
+          "manufacturer": "B&G",
+          "model": "E-1510 6G",
+          "specifications": {
+            "pumpType": "End Suction",
+            "flow": "1600 GPM",
+            "head": "55 ft",
+            "motorHP": "30",
+            "efficiency": "81.5%",
+            "voltage": "460-3-60",
+            "controlType": "VFD"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fans",
+      "notes": "Lab exhaust and general ventilation fans",
+      "items": [
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "STROBIC",
+          "model": "Tri-Stack",
+          "specifications": {
+            "airflow": "3,000 CFM",
+            "staticPressure": "21.4 in WG",
+            "motorHP": "30",
+            "voltage": "460-3-60",
+            "controlType": "VFD",
+            "emergencyPower": "YES"
+          }
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "STROBIC",
+          "model": "Tri-Stack",
+          "specifications": {
+            "airflow": "3,000 CFM",
+            "staticPressure": "21.4 in WG",
+            "motorHP": "30",
+            "voltage": "460-3-60",
+            "controlType": "VFD",
+            "emergencyPower": "YES"
+          }
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "STROBIC",
+          "model": "Tri-Stack",
+          "specifications": {
+            "airflow": "3,800 CFM",
+            "staticPressure": "32.2 in WG",
+            "motorHP": "40",
+            "voltage": "460-3-61",
+            "controlType": "VFD",
+            "emergencyPower": "YES"
+          }
+        },
+        {
+          "equipmentTag": "EF-4",
+          "manufacturer": "STROBIC",
+          "model": "Tri-Stack",
+          "specifications": {
+            "airflow": "3,800 CFM",
+            "staticPressure": "32.2 in WG",
+            "motorHP": "40",
+            "voltage": "460-3-62",
+            "controlType": "VFD",
+            "emergencyPower": "YES"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Electrical Distribution",
+      "notes": "Power distribution system includes medium voltage switchgear, transformers, and low voltage distribution",
+      "items": [
+        {
+          "equipmentTag": "MDS-J1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "voltage": "480V",
+            "phaseConfig": "3Ø, 3W",
+            "ampacity": "4000A",
+            "interruptingRating": "100kA RMS SYM",
+            "busType": "Cu Bus"
+          }
+        },
+        {
+          "equipmentTag": "MDS-J2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "voltage": "480V",
+            "phaseConfig": "3Ø, 3W",
+            "ampacity": "4000A",
+            "interruptingRating": "100kA RMS SYM",
+            "busType": "Cu Bus"
+          }
+        },
+        {
+          "equipmentTag": "UPS-A",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "250kVA/250kW",
+            "voltage": "480/3P/3W input, 208Y/120V output",
+            "backupTime": "15 minutes at 250kW"
+          }
+        },
+        {
+          "equipmentTag": "UPS-B",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "250kVA/250kW",
+            "voltage": "480/3P/3W input, 208Y/120V output",
+            "backupTime": "15 minutes at 250kW"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Emergency Power",
+      "notes": "Emergency power generation system with generator paralleling capability",
+      "items": [
+        {
+          "equipmentTag": "JG1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2500kW / 3125kVA",
+            "voltage": "480Y/277V",
+            "phaseConfig": "3Ø, 4W",
+            "ampacity": "4000A"
+          }
+        },
+        {
+          "equipmentTag": "JG2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2500kW / 3125kVA",
+            "voltage": "480Y/277V",
+            "phaseConfig": "3Ø, 4W",
+            "ampacity": "4000A"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Grilles, Registers & Diffusers",
+      "notes": "Various air distribution devices throughout the facility",
+      "items": [
+        {
+          "equipmentTag": "CD-1",
+          "manufacturer": "TITUS",
+          "model": "OMNI",
+          "specifications": {
+            "type": "Supply",
+            "sizes": "6\", 8\", 10\", 12\", 14\"",
+            "airFlowRange": "0-600 CFM",
+            "maxAirPressureDrop": "0.1 in WG",
+            "maxNCLevel": "25"
+          }
+        },
+        {
+          "equipmentTag": "CD-2",
+          "manufacturer": "TITUS",
+          "model": "TLF",
+          "specifications": {
+            "type": "Supply",
+            "sizes": "8\", 10\", 12\"",
+            "airFlowRange": "0-320 CFM",
+            "maxAirPressureDrop": "0.1 in WG",
+            "maxNCLevel": "25"
+          }
+        },
+        {
+          "equipmentTag": "LD-1",
+          "manufacturer": "TITUS",
+          "model": "FL-10HT",
+          "specifications": {
+            "type": "Supply - Linear",
+            "slotConfig": "1-SLOT, 1\" SLOT",
+            "airFlowRange": "20-200 CFM",
+            "maxAirPressureDrop": "0.15 in WG",
+            "maxNCLevel": "25",
+            "accessory": "4'-0\" INSULATED PLENUM"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Hydronic Specialties",
+      "notes": "Support components for hydronic systems",
+      "items": [
+        {
+          "equipmentTag": "AS-1",
+          "manufacturer": "B&G",
+          "model": "",
+          "specifications": {
+            "system": "Chiller Water",
+            "lineSize": "8\"",
+            "capacity": "3910 GPM",
+            "maxWPD": "5 ft"
+          }
+        },
+        {
+          "equipmentTag": "AS-2",
+          "manufacturer": "B&G",
+          "model": "",
+          "specifications": {
+            "system": "Hot Water",
+            "lineSize": "6\"",
+            "capacity": "1380 GPM",
+            "maxWPD": "5 ft"
+          }
+        },
+        {
+          "equipmentTag": "AS-3",
+          "manufacturer": "B&G",
+          "model": "",
+          "specifications": {
+            "system": "Geothermal Loop",
+            "lineSize": "10\"",
+            "capacity": "1200 GPM",
+            "maxWPD": "5 ft"
+          }
+        },
+        {
+          "equipmentTag": "ET-1",
+          "manufacturer": "B&G",
+          "model": "",
+          "specifications": {
+            "system": "Chiller Water"
+          }
+        },
+        {
+          "equipmentTag": "ET-2",
+          "manufacturer": "B&G",
+          "model": "",
+          "specifications": {
+            "system": "Hot Water"
+          }
+        },
+        {
+          "equipmentTag": "ET-3",
+          "manufacturer": "B&G",
+          "model": "",
+          "specifications": {
+            "system": "Geothermal Loop"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HEPA Filter Housings",
+      "notes": "Bag-in Bag-out filter housings for laboratory exhaust",
+      "items": [
+        {
+          "equipmentTag": "FHE-1",
+          "manufacturer": "AAF",
+          "model": "TSI-2H3W-4GG-304-D1",
+          "specifications": {
+            "preFilterEfficiency": "MERV 9",
+            "hepaFilterEfficiency": "99.99%",
+            "maxFaceVelocity": "500 FPM"
+          }
+        },
+        {
+          "equipmentTag": "FHE-2",
+          "manufacturer": "AAF",
+          "model": "TSI-1H2W-4GG-304-D1",
+          "specifications": {
+            "preFilterEfficiency": "MERV 9",
+            "hepaFilterEfficiency": "99.99%",
+            "maxFaceVelocity": "500 FPM"
+          }
+        }
+      ]
+    }
+  ]
+}

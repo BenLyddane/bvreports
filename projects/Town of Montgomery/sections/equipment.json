@@ -1,0 +1,328 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Packaged Rooftop Air Handling Units",
+      "notes": "DX/Electric heat pump units with economizer capability; 10-20 week lead time",
+      "items": [
+        {
+          "equipmentTag": "RTU-1",
+          "manufacturer": "Daikin Applied",
+          "model": "DPSH03B",
+          "specifications": {
+            "serviceArea": "VAV-1(1-6)",
+            "supplyAirCapacity": "2250 CFM",
+            "minSupplyAir": "1000 CFM",
+            "externalStaticPressure": "1.4 in. WC",
+            "totalStaticPressure": "4.3 in. WC",
+            "maxMotorBHP": "2.70",
+            "fanType": "SWSI",
+            "fanBlade": "BI",
+            "fanDriveType": "DIRECT",
+            "coolingCapacity": "95.7 MBH",
+            "coolingCapacitySensible": "77.4 MBH",
+            "heatingCapacity": "90.7 MBH",
+            "refrigerant": "R32",
+            "electricalRequirements": "208V/3-Phase/60Hz",
+            "fullLoadAmps": "60.7",
+            "minimumEfficiency": "AHRI 365",
+            "leadTime": "10-20 weeks",
+            "pricingMetric": "$/ton",
+            "specSection": "23 81 43"
+          }
+        },
+        {
+          "equipmentTag": "RTU-2",
+          "manufacturer": "Daikin Applied",
+          "model": "DPSH12B",
+          "specifications": {
+            "serviceArea": "VAV-2(1-15)",
+            "supplyAirCapacity": "5250 CFM",
+            "minSupplyAir": "2500 CFM",
+            "externalStaticPressure": "4.3 in. WC",
+            "totalStaticPressure": "5.41 in. WC",
+            "maxMotorBHP": "13.2",
+            "fanType": "SWSI",
+            "fanBlade": "BI",
+            "fanDriveType": "DIRECT",
+            "coolingCapacity": "151.5 MBH",
+            "coolingCapacitySensible": "129.4 MBH",
+            "heatingCapacity": "340.2 MBH",
+            "refrigerant": "R32",
+            "electricalRequirements": "208V/3-Phase/60Hz",
+            "fullLoadAmps": "132.2",
+            "minimumEfficiency": "AHRI 365",
+            "leadTime": "10-20 weeks",
+            "pricingMetric": "$/ton",
+            "specSection": "23 81 43"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Air Conditioning Units",
+      "notes": "Heat Pump Type; 10-20 week lead time",
+      "items": [
+        {
+          "equipmentTag": "AC-01",
+          "manufacturer": "Trane",
+          "model": "MSZ-GS36NA (Indoor) / MUZ-GS36NA (Outdoor)",
+          "specifications": {
+            "location": "202-IT CLOSET",
+            "unitType": "WALL",
+            "airFlow": "915 CFM",
+            "coolingCapacity": "33,200 BTU/H",
+            "heatingCapacity": "30,500 BTU/H",
+            "minHeatingCapacity": "10,300 BTU/H",
+            "refrigerant": "R410A",
+            "electricalRequirements": "208V/1-Phase/60Hz",
+            "minEAT": "57°F",
+            "maxEAT": "95°F",
+            "leadTime": "10-20 weeks",
+            "pricingMetric": "$/ton",
+            "specSection": "23 81 26.11",
+            "notes": "Model naming scheme is Mitsubishi designation; verify compatibility"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Exhaust Fans",
+      "notes": "Downblast type for roof installation; 10-14 week lead time",
+      "items": [
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "Greenheck",
+          "model": "G-120-VG",
+          "specifications": {
+            "serviceArea": "EXHAUST",
+            "fanType": "DOWNBLAST",
+            "bladetype": "BI",
+            "airFlow": "1050 CFM",
+            "staticPressure": "0.25 in. WC",
+            "maxBHP": "0.16",
+            "maxRPM": "1176",
+            "maxOutletVelocity": "594 FPM",
+            "motorHP": "1/4",
+            "electricalRequirements": "208V/1-Phase/60Hz",
+            "leadTime": "10-14 weeks",
+            "pricingMetric": "$/CFM",
+            "specSection": "23 34 00"
+          }
+        },
+        {
+          "equipmentTag": "EF-122",
+          "manufacturer": "Greenheck",
+          "model": "G-060-VG",
+          "specifications": {
+            "serviceArea": "EXHAUST",
+            "fanType": "DOWNBLAST",
+            "bladetype": "BI",
+            "airFlow": "100 CFM",
+            "staticPressure": "0.25 in. WC",
+            "maxBHP": "0.01",
+            "maxRPM": "1476",
+            "maxOutletVelocity": "528 FPM",
+            "motorHP": "1/15",
+            "electricalRequirements": "120V/1-Phase/60Hz",
+            "leadTime": "10-14 weeks",
+            "pricingMetric": "$/CFM",
+            "specSection": "23 34 00"
+          }
+        },
+        {
+          "equipmentTag": "EF-124",
+          "manufacturer": "Greenheck",
+          "model": "G-060-VG",
+          "specifications": {
+            "serviceArea": "EXHAUST",
+            "fanType": "DOWNBLAST",
+            "bladetype": "BI",
+            "airFlow": "75 CFM",
+            "staticPressure": "0.25 in. WC",
+            "maxBHP": "0.01",
+            "maxRPM": "1387",
+            "maxOutletVelocity": "396 FPM",
+            "motorHP": "1/15",
+            "electricalRequirements": "120V/1-Phase/60Hz",
+            "leadTime": "10-14 weeks",
+            "pricingMetric": "$/CFM",
+            "specSection": "23 34 00"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Unit Heaters",
+      "notes": "Electric unit heaters; <10 week lead time",
+      "items": [
+        {
+          "equipmentTag": "UH-111",
+          "manufacturer": "QMark",
+          "model": "MUH0581-PRO",
+          "specifications": {
+            "airFlow": "350 CFM",
+            "heatingCapacity": "5 kW",
+            "electricalRequirements": "208V/1-Phase/60Hz",
+            "leadTime": "<10 weeks",
+            "pricingMetric": "$/MBH",
+            "specSection": "23 82 39"
+          }
+        },
+        {
+          "equipmentTag": "UH-125",
+          "manufacturer": "QMark",
+          "model": "MUH0581-PRO",
+          "specifications": {
+            "airFlow": "350 CFM",
+            "heatingCapacity": "5 kW",
+            "electricalRequirements": "208V/1-Phase/60Hz",
+            "leadTime": "<10 weeks",
+            "pricingMetric": "$/MBH",
+            "specSection": "23 82 39"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Cabinet Unit Heaters",
+      "notes": "Electric cabinet heaters; <10 week lead time",
+      "items": [
+        {
+          "equipmentTag": "CUH-1",
+          "manufacturer": "QMark",
+          "model": "AWH4408",
+          "specifications": {
+            "throw": "1.25 inch",
+            "heatingCapacity": "4 kW",
+            "electricalRequirements": "208V/1-Phase/60Hz",
+            "leadTime": "<10 weeks",
+            "pricingMetric": "$/MBH",
+            "specSection": "23 82 39"
+          }
+        },
+        {
+          "equipmentTag": "CUH-2",
+          "manufacturer": "QMark",
+          "model": "EFF4008",
+          "specifications": {
+            "throw": "1.25 inch",
+            "heatingCapacity": "4 kW",
+            "electricalRequirements": "208V/1-Phase/60Hz",
+            "leadTime": "<10 weeks",
+            "pricingMetric": "$/MBH",
+            "specSection": "23 82 39"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Plumbing Fixtures",
+      "notes": "As specified in Section 22 40 00",
+      "items": [
+        {
+          "equipmentTag": "DF-1",
+          "manufacturer": "Elkay Manufacturing Company",
+          "model": "LZWSM8K",
+          "specifications": {
+            "type": "Bottle Filling Drinking Fountain"
+          }
+        },
+        {
+          "equipmentTag": "DF-2",
+          "manufacturer": "Elkay Manufacturing Company",
+          "model": "LZS-LRPBM28K",
+          "specifications": {
+            "type": "Bi-Level, Electric Water Cooler"
+          }
+        },
+        {
+          "equipmentTag": "MS-1",
+          "manufacturer": "Fiat",
+          "model": "TSB-300",
+          "specifications": {
+            "type": "Terrazzo Mop Sink",
+            "size": "32\" x 32\"",
+            "faucet": "Fiat 830AA",
+            "hose/bracket": "832AA"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water Treatment Equipment",
+      "notes": "As specified in Section 22 67 00",
+      "items": [
+        {
+          "equipmentTag": "SF-1",
+          "manufacturer": "Watts",
+          "model": "PHSJUM40",
+          "specifications": {
+            "type": "Sediment Filter",
+            "material": "316 SS housing",
+            "serviceFlow": "50 GPM",
+            "pipeSize": "2 in.",
+            "filterCartridge": "Watts Jumbo Filter Cartridge Series \"40\" Model No. PWJPL40M100, 20 micron filter"
+          }
+        },
+        {
+          "equipmentTag": "UV-A",
+          "manufacturer": "VIQUA",
+          "model": "PRO20",
+          "specifications": {
+            "type": "Ultraviolet Sterilizer",
+            "material": "Type 316L SST stainless housing",
+            "flowRate": "20 GPM",
+            "pipeSize": "1-1/4 in.",
+            "electricalRequirements": "120V/1-Phase/60Hz",
+            "powerConsumption": "160 watts",
+            "uvLampOutput": "140 watts"
+          }
+        },
+        {
+          "equipmentTag": "UV-B",
+          "manufacturer": "VIQUA",
+          "model": "PRO20",
+          "specifications": {
+            "type": "Ultraviolet Sterilizer",
+            "material": "Type 316L SST stainless housing",
+            "flowRate": "20 GPM",
+            "pipeSize": "1-1/4 in.",
+            "electricalRequirements": "120V/1-Phase/60Hz",
+            "powerConsumption": "160 watts",
+            "uvLampOutput": "140 watts"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Equipment Curbs and Supports",
+      "notes": "Wind-rated supports for rooftop equipment; <10 week lead time",
+      "items": [
+        {
+          "equipmentTag": "EC-1",
+          "manufacturer": "RPS",
+          "model": "Custom",
+          "specifications": {
+            "type": "Equipment Curb",
+            "features": "Raised cant, wind-rated design",
+            "leadTime": "<10 weeks",
+            "pricingMetric": "$/curb",
+            "specSection": "23 05 30"
+          }
+        },
+        {
+          "equipmentTag": "PC-1",
+          "manufacturer": "RPS",
+          "model": "Custom",
+          "specifications": {
+            "type": "Pipe Curb",
+            "features": "Raised cant, wind-rated design",
+            "leadTime": "<10 weeks",
+            "pricingMetric": "$/curb",
+            "specSection": "23 05 30"
+          }
+        }
+      ]
+    }
+  ]
+}

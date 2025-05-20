@@ -1,0 +1,48 @@
+{
+  "reportTitle": "BuildVision Project Report - SmokeTree Resort",
+  "customerInformation": {
+    "customerName": "SmokeTree Resort",
+    "contactPerson": "Brett Henderson",
+    "contactEmail": "hendersonb@consolidated-distribution.com",
+    "contactPhone": "",
+    "projectId": "22018820-00",
+    "additionalFields": {
+      "address": "7010 East Lincoln Drive, Paradise Valley, AZ 63114",
+      "projectSize": "132,652 sq. ft."
+    }
+  },
+  "projectInformation": {
+    "projectName": "SmokeTree Resort HVAC Renovation",
+    "location": "Paradise Valley, AZ",
+    "startDate": "Expected Q2 2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "The project consists of providing new mechanical (HVAC) systems for the new three-story SmokeTree hotel resort, outdoor pool deck, amenities, F&B restaurants, and a lower-level parking area. A new chiller plant with associated pumps will provide cooling for the resort. Air handling equipment will consist of indoor AHU's (Air Handling Units), RTU's (Rooftop Air Handling Units), indoor and outdoor DOAS (Dedicated Outside Air System) units, kitchen hood MAU's (Makeup Air Units) and fan coil units to serve all the indoor spaces. Heat will be provided by electric resistance heaters.",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/5e982f97-9bd6-438b-a283-8451d4916a75/package-projects/326391f9-5f7a-43c4-a46b-a7ea36b32456/packages",
+    "additionalFields": {
+      "climateZone": "2B",
+      "designTemperature": {
+        "summer": "110.9°F Dry Bulb, 70.0°F Mean Coincident Wet Bulb",
+        "winter": "34.8°F Dry Bulb (99.6%), 26.7°F Dry Bulb (5 years low)"
+      },
+      "currentPhase": "Bidding",
+      "status": "Draft",
+      "dateCreated": "January 15, 2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "267-281-4339"
+      }
+    ],
+    "preparationDate": "May 14, 2025"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement demand-controlled ventilation with air quality sensors",
+      "rationale": "Current design provides constant air change rates regardless of actual occupancy or contaminant levels. Adjusting ventilation rates based on actual conditions could significantly reduce fan energy while maintaining safe laboratory environments.",
+      "estimatedImpact": "20-30% reduction in fan energy consumption while maintaining safe laboratory conditions",
+      "implementation": "Install air quality sensors in key zones and integrate with the VAV control system. Add occupancy sensors tied to the ventilation control system for further optimization.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Implement chilled water temperature reset controls",
+      "rationale": "Current fixed chilled water temperature does not account for varying cooling and dehumidification requirements. Raising the chilled water temperature during periods of lower humidity or reduced cooling loads can significantly improve chiller efficiency.",
+      "estimatedImpact": "10-15% reduction in chiller energy consumption with minimal impact to comfort conditions",
+      "implementation": "Modify BMS programming to adjust chilled water setpoint based on cooling load and dehumidification requirements. Consider implementing waterside economizer operation during cooler months.",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Lower heating hot water temperature setpoint during shoulder seasons",
+      "rationale": "Current design temperature range of 140-180°F doesn't maximize condensing boiler efficiency. Maintaining return water temperatures below 130°F whenever possible can significantly improve boiler efficiency.",
+      "estimatedImpact": "10-15% improvement in boiler efficiency during non-peak heating periods",
+      "implementation": "Implement advanced boiler sequencing controls to optimize part-load operation. Modify BMS programming for more aggressive outdoor air temperature reset.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Enhance run-around coil heat recovery system",
+      "rationale": "Current heat recovery system achieves approximately 62% efficiency. Higher efficiency coils and intelligent control algorithms could improve energy recovery while minimizing pumping energy.",
+      "estimatedImpact": "5-10% improvement in heat recovery effectiveness with minimal increase in pumping energy",
+      "implementation": "Add variable glycol flow control based on temperature differential to optimize heat recovery while minimizing pumping energy. Consider implementing heat recovery from chiller condensers for domestic hot water preheating.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Improve maintenance accessibility for air handling equipment",
+      "rationale": "Current design may have limited service access around air handling equipment and heat recovery units. Improved accessibility would reduce maintenance costs and improve equipment uptime.",
+      "estimatedImpact": "15-20% reduction in maintenance time and labor costs for routine servicing",
+      "implementation": "Provide additional service platforms and removable panels for coil cleaning and filter replacement. Consider implementing sliding rail systems for heavy components that require periodic removal for service.",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Implement differential pressure monitoring across filter banks",
+      "rationale": "Current design likely uses time-based filter replacement which is inefficient. Condition-based filter replacement would optimize filter life and reduce maintenance costs.",
+      "estimatedImpact": "10-15% reduction in filter replacement costs and improved system efficiency",
+      "implementation": "Install differential pressure sensors across all filter banks with integration to the building management system for real-time monitoring. Use extended-surface filter designs to reduce replacement frequency.",
+      "priority": "Low"
+    }
+  ]
+}

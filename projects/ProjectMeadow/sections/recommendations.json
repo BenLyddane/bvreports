@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Standardize Fan Coil Unit Procurement",
+      "rationale": "The project requires 14 fan coil units (FCUs) from Enviro-Tec with various model numbers (HDD-08, HDD-16, HDD-20, HDD-30, HDD-40). Consolidating the order with a single supplier can result in better pricing, streamlined delivery scheduling, and consistent quality control.",
+      "estimatedImpact": "Potential 8-12% cost reduction through bulk purchasing discounts, reduced shipping costs, and simplified coordination. Additional savings in maintenance costs through standardized spare parts inventory.",
+      "implementation": "1. Request a comprehensive quote from Enviro-Tec for all fan coil units. 2. Negotiate volume discounts based on the total order. 3. Coordinate with the manufacturer for phased delivery to align with construction schedule. 4. Establish a single point of contact for technical support and warranty issues.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Consolidate Air Handling Unit Purchases",
+      "rationale": "The project includes 9 air handling units (AHUs) with York and Temtrol as specified manufacturers. Consolidating orders with a single manufacturer where possible can reduce costs and simplify project management, particularly for the York XTI series units which represent the majority of AHUs.",
+      "estimatedImpact": "Potential 10-15% cost savings through volume discounts and reduced administrative overhead. Standardized equipment can also reduce commissioning time by approximately 20%.",
+      "implementation": "1. Evaluate if the custom Temtrol units (AHU-2A-01 and AHU-2A-02) could be replaced with standard York models without compromising performance. 2. If not possible, maintain the split but consolidate all other units with York. 3. Negotiate package pricing with York for the 7 specified units. 4. Coordinate delivery schedule to reduce storage requirements and handling costs.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Implement Early Equipment Procurement Strategy",
+      "rationale": "Given current supply chain challenges in the HVAC industry, early procurement of long-lead items such as AHUs and specialty fans is critical to maintain the project schedule. The March 2025 construction documents indicate this is a time-sensitive concern.",
+      "estimatedImpact": "Potential schedule savings of 4-8 weeks by avoiding manufacturing delays. Early procurement also creates opportunities for price locking before potential industry price increases.",
+      "implementation": "1. Identify critical long-lead items (AHUs, FCUs, and specialized fans). 2. Initiate procurement processes immediately after design approval. 3. Establish secure storage solutions if equipment arrives before installation is possible. 4. Develop a phased delivery schedule aligned with the construction timeline.",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Evaluate Coil Material Optimization",
+      "rationale": "Specifications call for copper tube with aluminum fins for hydronic coils. For this Dallas location, standard copper/aluminum coils are appropriate, but procurement should consider optimal fin spacing and thickness based on the specific application to balance cost and performance.",
+      "estimatedImpact": "Potential 3-5% cost reduction on coil components while maintaining or improving performance. Optimized coil design can also improve energy efficiency by 2-3%.",
+      "implementation": "1. Consult with manufacturers to determine optimal fin spacing for the specific application. 2. Request data on performance differences between standard and premium coil options. 3. Perform cost-benefit analysis to select the most economical option that meets performance requirements. 4. Document selections to ensure consistent implementation across all units.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consolidate Control Valve Procurement",
+      "rationale": "The project requires numerous control valves for the hydronic systems. Standardizing on a single supplier (such as Belimo mentioned in the specifications) for all control valves will ensure compatibility, reduce complexity in spare parts inventory, and potentially reduce costs through volume purchasing.",
+      "estimatedImpact": "Approximately 7-10% cost savings on control components through bulk purchasing. Additional lifecycle cost benefits from simplified maintenance and reduced spare parts inventory.",
+      "implementation": "1. Create a comprehensive valve schedule from all mechanical drawings. 2. Group valves by type, size, and function. 3. Request package pricing from Belimo for all control valves. 4. Coordinate delivery timing to align with installation schedule for different systems.",
+      "priority": "Medium"
+    }
+  ]
+}

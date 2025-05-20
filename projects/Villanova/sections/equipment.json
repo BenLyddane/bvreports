@@ -1,0 +1,299 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Packaged, Outdoor, Heating-Only Makeup-Air Units",
+      "notes": "Low lead time (<10 weeks), specification section 23 73 23",
+      "items": [
+        {
+          "equipmentTag": "MUA-1",
+          "manufacturer": "CaptiveAire",
+          "model": "A2D-250-20B",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM"
+          }
+        },
+        {
+          "equipmentTag": "MUA-2",
+          "manufacturer": "CaptiveAire",
+          "model": "A2D-250-20B",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM"
+          }
+        },
+        {
+          "equipmentTag": "MUA-3",
+          "manufacturer": "CaptiveAire",
+          "model": "A2D-250-20B",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Automatic Condensate Pump Units",
+      "notes": "Low lead time (<10 weeks), specification section 23 05 33",
+      "items": [
+        {
+          "equipmentTag": "CP-239",
+          "manufacturer": "Blue Diamond Pumps Inc.",
+          "model": "X87-721 MANULUC",
+          "specifications": {
+            "characteristicPricingMetric": "$/unit",
+            "notes": "Small scope but coordinate for condensate management"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Low lead time (<10 weeks), specification section 23 34 23",
+      "items": [
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "CaptiveAire",
+          "model": "USDH-RM",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM"
+          }
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "CaptiveAire",
+          "model": "USDH-RM",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM"
+          }
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "CaptiveAire",
+          "model": "DLX260-TA",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM"
+          }
+        },
+        {
+          "equipmentTag": "EF-5",
+          "manufacturer": "PennBarry",
+          "model": "DX-38",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "In-Line Centrifugal Hydronic Pumps",
+      "notes": "Medium lead time (10-20 weeks), specification section 23 21 23",
+      "items": [
+        {
+          "equipmentTag": "P-3A",
+          "manufacturer": "Bell & Gossett",
+          "model": "E-80",
+          "specifications": {
+            "characteristicPricingMetric": "$/HP"
+          }
+        },
+        {
+          "equipmentTag": "P-3B",
+          "manufacturer": "Bell & Gossett",
+          "model": "E-80",
+          "specifications": {
+            "characteristicPricingMetric": "$/HP"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+      "notes": "Medium lead time (10-20 weeks), specification section 23 21 23",
+      "items": [
+        {
+          "equipmentTag": "P-6A",
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510",
+          "specifications": {
+            "characteristicPricingMetric": "$/HP"
+          }
+        },
+        {
+          "equipmentTag": "P-6B",
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510",
+          "specifications": {
+            "characteristicPricingMetric": "$/HP"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water-Source Heat Pumps",
+      "notes": "Medium lead time (10-20 weeks), specification section 23 81 29, prefabrication coordination advised",
+      "items": [
+        {
+          "equipmentTag": "WSHP-1",
+          "manufacturer": "Trane",
+          "model": "EXRK009",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        },
+        {
+          "equipmentTag": "WSHP-2",
+          "manufacturer": "Trane",
+          "model": "EXRK012",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        },
+        {
+          "equipmentTag": "WSHP-3",
+          "manufacturer": "Trane",
+          "model": "EXRK012",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        },
+        {
+          "equipmentTag": "WSHP-4",
+          "manufacturer": "Trane",
+          "model": "EXRK020",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        },
+        {
+          "equipmentTag": "WSHP-5",
+          "manufacturer": "Trane",
+          "model": "EXRK030",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        },
+        {
+          "equipmentTag": "WSHP-6",
+          "manufacturer": "Trane",
+          "model": "EXRK035",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        },
+        {
+          "equipmentTag": "WSHP-7",
+          "manufacturer": "Trane",
+          "model": "EXRK042",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        },
+        {
+          "equipmentTag": "WSHP-8",
+          "manufacturer": "Trane",
+          "model": "EXRK042",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        },
+        {
+          "equipmentTag": "WSHP-9",
+          "manufacturer": "Trane",
+          "model": "EXRK055",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Closed-Circuit, Forced-Draft Cooling Towers",
+      "notes": "High lead time (>20 weeks), specification section 23 65 33, high-cost driver, ensure early release",
+      "items": [
+        {
+          "equipmentTag": "CT-1",
+          "manufacturer": "EVAPCO",
+          "model": "ATWB 7-7-9",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Radiators",
+      "notes": "Low lead time (<10 weeks), specification section 23 83 19",
+      "items": [
+        {
+          "equipmentTag": "CUH-1",
+          "manufacturer": "Sterling HVAC",
+          "model": "MODEL RW SIZE 02",
+          "specifications": {
+            "characteristicPricingMetric": "$/MBH"
+          }
+        },
+        {
+          "equipmentTag": "CUH-2",
+          "manufacturer": "Sterling HVAC",
+          "model": "MODEL F SIZE 02",
+          "specifications": {
+            "characteristicPricingMetric": "$/MBH"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dedicated Outdoor-Air Units",
+      "notes": "Medium lead time (10-20 weeks), specification section 23 73 13, high-cost driver, ensure early release",
+      "items": [
+        {
+          "equipmentTag": "DOAS-1",
+          "manufacturer": "Trane",
+          "model": "OADG030C3-DAB1GB600",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM",
+            "notes": "Large dedicated OA with heat recovery"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "Medium lead time (10-20 weeks), specification section 23 74 13",
+      "items": [
+        {
+          "equipmentTag": "RTU-4",
+          "manufacturer": "Trane",
+          "model": "YCH420D4P",
+          "specifications": {
+            "characteristicPricingMetric": "$/CFM",
+            "notes": "Packaged DX rooftop unit"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Variable Refrigerant Flow Systems",
+      "notes": "High lead time (>20 weeks), specification section 23 81 26, verify controls integration",
+      "items": [
+        {
+          "equipmentTag": "AC-239",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA-AK24NL",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton",
+            "notes": "VRF indoor unit"
+          }
+        },
+        {
+          "equipmentTag": "CU-239",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PUY-AH24NL",
+          "specifications": {
+            "characteristicPricingMetric": "$/ton",
+            "notes": "VRF outdoor unit, consider refrigerant piping support"
+          }
+        }
+      ]
+    }
+  ]
+}

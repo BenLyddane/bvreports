@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Consider VRF system alternatives for some or all of the split system locations",
+      "rationale": "Modern VRF systems offer improved energy efficiency, flexible zoning, and reduced refrigerant piping compared to traditional split systems. Manufacturers like Daikin, Mitsubishi, and LG offer VRF solutions that could provide better performance.",
+      "estimatedImpact": "Potential 15-30% energy savings for cooling and heating operations, improved zone-level comfort control, and reduced maintenance requirements.",
+      "implementation": "Would require modification of the design specification to incorporate VRF outdoor units and indoor fan coils. Additional control wiring would be needed, but refrigerant piping requirements might be reduced.",
+      "priority": "Medium"
+    },
+    {
+      "id": 2,
+      "recommendation": "Integrate all HVAC components into a unified building automation system",
+      "rationale": "The project includes multiple system types (AHUs, VAV boxes, split systems) that would benefit from centralized control. A unified BMS would optimize overall system performance and provide better data for operations.",
+      "estimatedImpact": "Improved energy efficiency through coordinated control, enhanced troubleshooting capabilities, and better management of indoor environmental conditions.",
+      "implementation": "Specify compatible controls for all equipment and include BACnet or similar protocol for integration. Include front-end software for monitoring and control.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Add energy recovery to the air handling units",
+      "rationale": "For a facility like the Center for Human Performance & Kinesiology, ventilation requirements are likely significant. Energy recovery devices could capture waste energy from exhaust air and reduce overall HVAC energy consumption.",
+      "estimatedImpact": "Potential 10-20% reduction in heating and cooling energy for the ventilation load, improving overall building efficiency.",
+      "implementation": "Work with Energy Labs to incorporate energy recovery wheels or plates into the custom AHU designs. May require some additional space allocation for the equipment.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Evaluate acoustic treatment for areas with multiple terminal units",
+      "rationale": "Educational facilities require good acoustic conditions for effective learning. The extensive use of VAV and CAV terminal units could create noise issues if not properly addressed.",
+      "estimatedImpact": "Improved learning environment, reduced complaints, better speech intelligibility in classrooms and meeting spaces.",
+      "implementation": "Add sound attenuators downstream of terminal units, specify low-noise diffusers, and ensure proper equipment selection for noise-sensitive areas.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consider demand-controlled ventilation for high-occupancy spaces",
+      "rationale": "Spaces with variable occupancy like gymnasiums, classrooms, and assembly areas can benefit from CO2-based ventilation control to match fresh air delivery with actual occupancy.",
+      "estimatedImpact": "Reduced energy consumption while maintaining or improving indoor air quality. Typical savings of 5-15% on ventilation-related energy costs.",
+      "implementation": "Add CO2 sensors in key spaces, ensure VAV terminal units serving these areas are properly configured for demand control, and program the BMS accordingly.",
+      "priority": "Medium"
+    }
+  ]
+}

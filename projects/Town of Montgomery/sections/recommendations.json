@@ -1,0 +1,60 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Install additional monitoring systems for water treatment equipment",
+      "rationale": "The current design includes dual UV disinfection systems but would benefit from real-time monitoring to ensure continuous operation and immediate notification of any issues.",
+      "estimatedImpact": "Increased reliability of water treatment system and reduced risk of water quality issues.",
+      "implementation": "Add water quality monitoring system with remote notification capabilities to alert maintenance staff of any issues.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Implement advanced controls for rooftop units",
+      "rationale": "The specified HVAC equipment supports advanced controls that could optimize performance beyond the base requirements.",
+      "estimatedImpact": "Potential energy savings of 10-15% through optimized operation and enhanced economizer control.",
+      "implementation": "Upgrade control sequences to include demand-controlled ventilation and integration with building automation system.",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Provide additional roof curb insulation",
+      "rationale": "Standard roof curbs may create thermal bridging that can reduce overall system efficiency.",
+      "estimatedImpact": "Reduction in energy loss and potential condensation issues.",
+      "implementation": "Specify higher R-value insulation for rooftop equipment curbs beyond minimum requirements.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Implement comprehensive commissioning plan",
+      "rationale": "Complex HVAC and water treatment systems require thorough commissioning to ensure proper operation.",
+      "estimatedImpact": "Verification of proper system operation and documentation for future maintenance.",
+      "implementation": "Develop detailed commissioning plan including testing of all control sequences and system performance metrics.",
+      "priority": "High"
+    },
+    {
+      "id": 5,
+      "recommendation": "Schedule early procurement of long-lead equipment",
+      "rationale": "Daikin RTUs have 10-20 week lead times which could impact project schedule if not ordered early.",
+      "estimatedImpact": "Avoidance of potential project delays of 4-8 weeks.",
+      "implementation": "Early submittal and procurement process for Daikin RTUs and other long-lead items.",
+      "priority": "High"
+    },
+    {
+      "id": 6,
+      "recommendation": "Verify ductless split system model compatibility",
+      "rationale": "Trane split system specifications show model numbers with Mitsubishi designations (MSZ/MUZ), indicating potential supply chain or specification issue.",
+      "estimatedImpact": "Prevention of procurement delays and installation issues.",
+      "implementation": "Coordinate with design team to verify correct manufacturer and model specifications before procurement.",
+      "priority": "High"
+    },
+    {
+      "id": 7,
+      "recommendation": "Ensure wind restraint submittals meet requirements",
+      "rationale": "Division 23 requires PE-stamped calculations and submittals for rooftop equipment curbs and supports.",
+      "estimatedImpact": "Compliance with code requirements and prevention of inspection issues.",
+      "implementation": "Coordinate with structural engineer for wind restraint design and certification of all rooftop equipment.",
+      "priority": "Medium"
+    }
+  ]
+}

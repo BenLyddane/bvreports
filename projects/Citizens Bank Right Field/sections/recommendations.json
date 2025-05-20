@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Conduct a thorough site survey to verify available space, clearances, and structural capacity for the chiller installation.",
+      "rationale": "The York YVAA0456 air-cooled chiller requires significant clearance (minimum 6 feet on all sides) for proper airflow and service access. The structural support must also be adequate for the operating weight of approximately 22,000 lbs plus the weight of water and piping.",
+      "estimatedImpact": "Prevents costly modifications during installation, ensures proper equipment operation and serviceability, and avoids potential airflow restrictions that could reduce capacity and efficiency.",
+      "implementation": "Coordinate with the design team to verify site conditions, clearances, and structural capacity before finalizing equipment selection. Develop detailed installation plans that include service access requirements.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Coordinate electrical requirements with a focus on dual point power connections and harmonics mitigation.",
+      "rationale": "The specified chiller requires significant electrical capacity (MCA of 882.4 amps) with dual point power connections. Ultra-low harmonic VFDs require specific electrical coordination to ensure proper operation and compliance with IEEE-519 harmonic distortion limits.",
+      "estimatedImpact": "Ensures proper electrical service without delays, prevents potential harmonic issues that could affect other stadium systems, and avoids costly electrical modifications during installation.",
+      "implementation": "Work with electrical engineer to verify service capacity, coordinate breaker sizes and wiring requirements for dual point connections, and document harmonic mitigation strategy.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Develop a detailed BAS integration plan that includes points list, control sequences, and communication protocols.",
+      "rationale": "Modern chillers with advanced controls require proper integration with building automation systems for optimal operation. The chiller has robust onboard controls that need proper interface with the stadium's existing BAS.",
+      "estimatedImpact": "Enables proactive monitoring, optimized system operation, improved energy efficiency, and facilitates remote troubleshooting capabilities.",
+      "implementation": "Request detailed points list from manufacturer, coordinate with BAS contractor on communication protocols (BACnet, Modbus, etc.), and develop comprehensive control sequences for normal and emergency operation.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Conduct a sound analysis and develop mitigation strategy if needed.",
+      "rationale": "In a stadium environment, equipment noise could impact the fan experience during events. The York YVAA chiller produces approximately 85-90 dBA at 30 feet, which could be significant depending on proximity to occupied areas.",
+      "estimatedImpact": "Prevents potential noise complaints, ensures compliance with local sound ordinances, and maintains optimal fan experience during stadium events.",
+      "implementation": "Perform sound analysis based on equipment location relative to seating areas, evaluate need for additional sound attenuation measures, and implement appropriate solutions such as sound barriers or acoustic treatment.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Develop a comprehensive commissioning and water treatment plan.",
+      "rationale": "Proper commissioning and water treatment are critical for ensuring long-term reliability and efficiency of the chiller system. The integrated pump module requires specific commissioning procedures to ensure proper flow rates and system performance.",
+      "estimatedImpact": "Extends equipment life, maintains efficiency, prevents premature component failure, and establishes performance baseline for future reference.",
+      "implementation": "Engage manufacturer's startup technician, develop detailed commissioning plan that includes performance verification at various load conditions, and implement a comprehensive water treatment program specific to this application.",
+      "priority": "Medium"
+    }
+  ]
+}

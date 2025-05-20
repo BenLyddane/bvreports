@@ -1,0 +1,843 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Custom indoor central-station air-handling units",
+      "items": [
+        {
+          "equipmentTag": "AHU-1",
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C",
+          "specifications": {
+            "type": "Custom Indoor AHU",
+            "cooling": "Chilled Water",
+            "heating": "Hot Water",
+            "airflow": "Variable Volume",
+            "controlType": "DDC"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2",
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C",
+          "specifications": {
+            "type": "Custom Indoor AHU",
+            "cooling": "Chilled Water",
+            "heating": "Hot Water",
+            "airflow": "Variable Volume",
+            "controlType": "DDC"
+          }
+        },
+        {
+          "equipmentTag": "AHU-3",
+          "manufacturer": "Energy Labs",
+          "model": "C661364-C",
+          "specifications": {
+            "type": "Custom Indoor AHU",
+            "cooling": "Chilled Water",
+            "heating": "Hot Water",
+            "airflow": "Variable Volume",
+            "controlType": "DDC"
+          }
+        },
+        {
+          "equipmentTag": "AHU-4",
+          "manufacturer": "Energy Labs",
+          "model": "C661364-C",
+          "specifications": {
+            "type": "Custom Indoor AHU",
+            "cooling": "Chilled Water",
+            "heating": "Hot Water",
+            "airflow": "Variable Volume",
+            "controlType": "DDC"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Exhaust fans",
+      "items": [
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {
+            "type": "Centrifugal Exhaust Fan",
+            "cfm": "Varies by application",
+            "staticPressure": "Medium",
+            "mountingType": "Roof-Mounted",
+            "controlType": "On/Off with VFD option"
+          }
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {
+            "type": "Centrifugal Exhaust Fan",
+            "cfm": "Varies by application",
+            "staticPressure": "Medium",
+            "mountingType": "Roof-Mounted",
+            "controlType": "On/Off with VFD option"
+          }
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {
+            "type": "Centrifugal Exhaust Fan",
+            "cfm": "Varies by application",
+            "staticPressure": "Medium",
+            "mountingType": "Roof-Mounted",
+            "controlType": "On/Off with VFD option"
+          }
+        },
+        {
+          "equipmentTag": "EF-4",
+          "manufacturer": "Greenheck",
+          "model": "CUE-100B-VG",
+          "specifications": {
+            "type": "Centrifugal Exhaust Fan",
+            "cfm": "Varies by application",
+            "staticPressure": "Medium",
+            "mountingType": "Roof-Mounted",
+            "controlType": "On/Off with VFD option"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Air Conditioners",
+      "notes": "Condensing units with matching fan coil units",
+      "items": [
+        {
+          "equipmentTag": "CU-1",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-2",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-3",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-4",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-5",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-6",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-7",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-8",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Indoor units paired with condensing units",
+      "items": [
+        {
+          "equipmentTag": "FCU-1",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-2",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-3",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-4",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-5",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-6",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-7",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Terminal Units",
+      "notes": "DESV model variable-air-volume and constant-air-volume terminal units",
+      "items": [
+        {
+          "equipmentTag": "CAV-3-10",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "CAV-3-11",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "CAV-3-4",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "CAV-3-9",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "CAV-4-12",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-1",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-12A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-12B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-13A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-13B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-14",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-15",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-2",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-3",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-5",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-6",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-7",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-8",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-10",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-11",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-13",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-1A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-1B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-2",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-3A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-3B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-4",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-5",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-6A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-6B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-6C",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-7A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-7B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-8",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4-9",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        }
+      ]
+    }
+  ]
+}

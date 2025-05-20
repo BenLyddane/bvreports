@@ -1,0 +1,267 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Designed for 10 air changes per hour in critical laboratory spaces with capability for 100% outside air operation and VAV control",
+      "items": [
+        {
+          "equipmentTag": "AHU-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "location": "Mechanical Penthouse - East Wing",
+            "serviceArea": "Forge Laboratory Level 2",
+            "capacity": "25000 CFM",
+            "coolingCapacity": "60 tons",
+            "staticPressure": "2.5 inches WG",
+            "filterTypes": "Pre-filter (MERV 12, qty 12), Final filter (MERV 15, qty 12)",
+            "fanType": "Direct-drive plenum",
+            "motorHP": "40",
+            "coolingCoil": "Chilled water - 6 row",
+            "heatingCoil": "Hot water - 2 row",
+            "controls": "DDC with BMS integration"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heat Recovery Units",
+      "notes": "Designed for laboratory exhaust with no cross-contamination risk, includes exhaust stack discharge at 3500 FPM for proper dispersion",
+      "items": [
+        {
+          "equipmentTag": "EAHU-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "location": "Roof - North",
+            "serviceArea": "Laboratory Exhaust System",
+            "supplyAirflow": "18000 CFM",
+            "exhaustAirflow": "20000 CFM",
+            "recoveryType": "Run-around coil",
+            "recoveryEfficiency": "62 percent",
+            "supplyFanHP": "25",
+            "exhaustFanHP": "30",
+            "filterTypes": "Supply pre-filter (MERV 8, qty 8), Supply final filter (MERV 14, qty 8)",
+            "controls": "DDC with BMS integration and bypass option"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Chillers",
+      "notes": "Central plant serving laboratory cooling loads, variable speed drives for part-load efficiency",
+      "items": [
+        {
+          "equipmentTag": "CH-3",
+          "manufacturer": "",
+          "model": "Water-cooled centrifugal",
+          "specifications": {
+            "location": "Central Plant - Basement",
+            "capacity": "250 tons",
+            "refrigerant": "R-134a",
+            "efficiency": "0.57 kW/ton",
+            "compressorType": "Variable speed centrifugal",
+            "condenser": "Water-cooled shell and tube",
+            "evaporator": "Shell and tube with marine water boxes",
+            "controls": "Microprocessor with BMS integration",
+            "notes": "Primary chiller for laboratory cooling loads, variable speed drive for part-load efficiency"
+          }
+        },
+        {
+          "equipmentTag": "CH-4",
+          "manufacturer": "",
+          "model": "Water-cooled centrifugal",
+          "specifications": {
+            "location": "Central Plant - Basement",
+            "capacity": "250 tons",
+            "refrigerant": "R-134a",
+            "efficiency": "0.57 kW/ton",
+            "compressorType": "Variable speed centrifugal",
+            "condenser": "Water-cooled shell and tube",
+            "evaporator": "Shell and tube with marine water boxes",
+            "controls": "Microprocessor with BMS integration",
+            "notes": "Secondary chiller for laboratory cooling loads, alternating operation with CH-3"
+          }
+        },
+        {
+          "equipmentTag": "CH-5",
+          "manufacturer": "",
+          "model": "Water-cooled screw",
+          "specifications": {
+            "location": "Central Plant - Basement",
+            "capacity": "150 tons",
+            "refrigerant": "R-134a",
+            "efficiency": "0.62 kW/ton",
+            "compressorType": "Twin helical rotary screw",
+            "condenser": "Water-cooled shell and tube",
+            "evaporator": "Shell and tube with marine water boxes",
+            "controls": "Microprocessor with BMS integration",
+            "notes": "Swing/backup chiller, provides redundancy and supplemental cooling during peak loads"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Variable frequency drive control for all pumps with lead-lag configurations for redundancy",
+      "items": [
+        {
+          "equipmentTag": "CHWP-1",
+          "manufacturer": "",
+          "model": "Chilled water primary",
+          "specifications": {
+            "location": "Central Plant - Basement",
+            "configuration": "End suction",
+            "flow": "600 GPM",
+            "head": "65 feet",
+            "motorHP": "20",
+            "controls": "Variable frequency drive",
+            "notes": "Primary chilled water pump for CH-3, lead pump in alternating operation"
+          }
+        },
+        {
+          "equipmentTag": "CHWP-2",
+          "manufacturer": "",
+          "model": "Chilled water primary",
+          "specifications": {
+            "location": "Central Plant - Basement",
+            "configuration": "End suction",
+            "flow": "600 GPM",
+            "head": "65 feet",
+            "motorHP": "20",
+            "controls": "Variable frequency drive",
+            "notes": "Primary chilled water pump for CH-4, lag pump in alternating operation"
+          }
+        },
+        {
+          "equipmentTag": "HWP-8",
+          "manufacturer": "",
+          "model": "Heating hot water",
+          "specifications": {
+            "location": "Central Plant - Basement",
+            "configuration": "End suction",
+            "flow": "350 GPM",
+            "head": "45 feet",
+            "motorHP": "10",
+            "controls": "Variable frequency drive",
+            "notes": "Primary heating hot water pump, lead pump in alternating operation"
+          }
+        },
+        {
+          "equipmentTag": "HWP-9",
+          "manufacturer": "",
+          "model": "Heating hot water",
+          "specifications": {
+            "location": "Central Plant - Basement",
+            "configuration": "End suction",
+            "flow": "350 GPM",
+            "head": "45 feet",
+            "motorHP": "10",
+            "controls": "Variable frequency drive",
+            "notes": "Secondary heating hot water pump, lag pump in alternating operation"
+          }
+        },
+        {
+          "equipmentTag": "HRP-4",
+          "manufacturer": "",
+          "model": "Heat recovery",
+          "specifications": {
+            "location": "Roof - North",
+            "configuration": "End suction",
+            "flow": "175 GPM",
+            "head": "60 feet",
+            "motorHP": "7.5",
+            "controls": "Variable frequency drive",
+            "notes": "Heat recovery glycol pump for EAHU-3, lead pump in alternating operation"
+          }
+        },
+        {
+          "equipmentTag": "HRP-5",
+          "manufacturer": "",
+          "model": "Heat recovery",
+          "specifications": {
+            "location": "Roof - North",
+            "configuration": "End suction",
+            "flow": "175 GPM",
+            "head": "60 feet",
+            "motorHP": "7.5",
+            "controls": "Variable frequency drive",
+            "notes": "Heat recovery glycol pump for EAHU-3, lag pump in alternating operation"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fans",
+      "notes": "High plume dilution fans for laboratory exhaust with variable frequency drives",
+      "items": [
+        {
+          "equipmentTag": "EF-12",
+          "manufacturer": "",
+          "model": "Laboratory exhaust",
+          "specifications": {
+            "location": "Roof - South",
+            "fanType": "High plume dilution",
+            "airflow": "15000 CFM",
+            "staticPressure": "3.5 inches WG",
+            "motorHP": "25",
+            "exitVelocity": "3800 FPM",
+            "controls": "Variable frequency drive",
+            "notes": "Laboratory general exhaust fan serving Level 1 forge lab areas, high plume for proper dispersion"
+          }
+        },
+        {
+          "equipmentTag": "EF-13",
+          "manufacturer": "",
+          "model": "Laboratory exhaust",
+          "specifications": {
+            "location": "Roof - South",
+            "fanType": "High plume dilution",
+            "airflow": "12000 CFM",
+            "staticPressure": "3.5 inches WG",
+            "motorHP": "20",
+            "exitVelocity": "3800 FPM",
+            "controls": "Variable frequency drive",
+            "notes": "Laboratory general exhaust fan serving Level 2 forge lab areas, high plume for proper dispersion"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Steam Generators",
+      "notes": "Clean steam generators for laboratory process loads with redundant operation",
+      "items": [
+        {
+          "equipmentTag": "SG-1",
+          "manufacturer": "",
+          "model": "Clean steam generator",
+          "specifications": {
+            "location": "Mechanical Room - Level 1",
+            "capacity": "120 lb/hr",
+            "pressure": "15 PSIG",
+            "heatingMethod": "Electric",
+            "electricalRequirements": "105 kW, 480V/3ph",
+            "materials": "316L stainless steel",
+            "controls": "Microprocessor with BMS integration",
+            "notes": "Primary clean steam generator for laboratory process loads, RO water feed with water pretreatment system"
+          }
+        },
+        {
+          "equipmentTag": "SG-2",
+          "manufacturer": "",
+          "model": "Clean steam generator",
+          "specifications": {
+            "location": "Mechanical Room - Level 1",
+            "capacity": "120 lb/hr",
+            "pressure": "15 PSIG",
+            "heatingMethod": "Electric",
+            "electricalRequirements": "105 kW, 480V/3ph",
+            "materials": "316L stainless steel",
+            "controls": "Microprocessor with BMS integration",
+            "notes": "Backup clean steam generator for laboratory process loads, redundant operation with SG-1"
+          }
+        }
+      ]
+    }
+  ]
+}

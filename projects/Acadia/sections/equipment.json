@@ -1,0 +1,184 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Split System Air Conditioners",
+      "notes": "Samsung HVAC split systems for distributed cooling",
+      "items": [
+        {
+          "equipmentTag": "AC-1-2",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC024NADCC0AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-1-3",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC024NADCC0AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-3-1",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC036DNTDCG/AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-1-2",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC024MXADCF2AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-1-3",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC024MXADCF2AA",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-3-1",
+          "manufacturer": "Samsung HVAC",
+          "model": "AC036DXSCCF/AA",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "York packaged DX units for central air distribution",
+      "items": [
+        {
+          "equipmentTag": "RTU-1",
+          "manufacturer": "York",
+          "model": "PACKAGED DX",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "RTU-2",
+          "manufacturer": "York",
+          "model": "PACKAGED DX",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "RTU-3",
+          "manufacturer": "York",
+          "model": "PACKAGED DX",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "RTU-3-1",
+          "manufacturer": "York",
+          "model": "GZCAA-0B5AK-4P20A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "RTU-3-2",
+          "manufacturer": "York",
+          "model": "GZCAA-0B5AK-4P20A",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dedicated Outdoor-Air Units",
+      "notes": "iAire dedicated outdoor air system for ventilation",
+      "items": [
+        {
+          "equipmentTag": "DOAS-1",
+          "manufacturer": "iAire",
+          "model": "PHC-KJ150HHT",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Greenheck fans for ventilation and exhaust requirements",
+      "items": [
+        {
+          "equipmentTag": "DEF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-100-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-130-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "Greenheck",
+          "model": "CUE-130-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "Greenheck",
+          "model": "FJI-07-BI-X",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-4",
+          "manufacturer": "Greenheck",
+          "model": "FJI-07-BI-X",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "KEF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "KEF-2",
+          "manufacturer": "Greenheck",
+          "model": "CUE-160-VG",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Condensing Boilers",
+      "notes": "Raypak high-efficiency condensing boilers for heating system",
+      "items": [
+        {
+          "equipmentTag": "B-1",
+          "manufacturer": "Raypak",
+          "model": "H7-500B",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "B-2",
+          "manufacturer": "Raypak",
+          "model": "H7-500B",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Hydronic Piping Specialties",
+      "notes": "Components for hydronic distribution system",
+      "items": [
+        {
+          "equipmentTag": "AS-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "BT-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ET-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

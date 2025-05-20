@@ -1,0 +1,526 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-to-Air Energy Recovery Equipment",
+      "notes": "High latent transfer static core energy recovery units. AHRI certified. Insulated wall construction. Supply and exhaust blower motors. MERV 13 intake filters, MERV 8 exhaust filters. Units ERV-101 through ERV-105 run continuously 24/7. Other units have occupied and unoccupied modes per owner's hours of operation.",
+      "items": [
+        {
+          "equipmentTag": "ERV-101",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-102",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-103",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-104",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-105",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-201",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-301",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-302",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-401",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-501",
+          "manufacturer": "Aldes",
+          "model": "E1000L-FI-N",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ERV-601",
+          "manufacturer": "Aldes",
+          "model": "E1800L-FI-N",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Variable Refrigerant Flow Systems",
+      "notes": "VRF air handlers connected to water-source heat pumps. BACnet integration with facility management system. Includes both vertical air handlers (PVFY models) and ceiling-concealed ducted air handlers (PEFY models).",
+      "items": [
+        {
+          "equipmentTag": "AH-101",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P018AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-102",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P012AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-103",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P012AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-104",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P008MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-105",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-106",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P008MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-107",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P012AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-108",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P012AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-109",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P018AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-201",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P024MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-202",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P006MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-203",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-204",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P006MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-205",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-206",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P015MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-207",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-208",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P008MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-209",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P018MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-210",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-211",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P015MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-301",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P024AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-302",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P018AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-303",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P024AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-304",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P018AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-305",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P008AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-306",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P030AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-307",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P006MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-308",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P006MA-E4A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-309",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P018AM4-E1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-401",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA144A4",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-402",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA144A4",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-403",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P008MA144A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-404",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P048M141A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-405",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P048M141A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-406",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P006MA144A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-407",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P006MA144A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-408",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P008MA144A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-501",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA144A4",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-502",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P015MA144A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-503",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA144A4",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-504",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P018MA144A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-505",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P012MA144A4",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-506",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PEFY-P015MA144A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-601",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P036M141A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-602",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P036M141A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-603",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P036M141A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AH-604",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY-P036M141A",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "VRF Branch Selectors",
+      "notes": "Branch circuit controllers for VRF system. Allow simultaneous heating and cooling operation. Connected to water-source heat pumps.",
+      "items": [
+        {
+          "equipmentTag": "BC-101",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "CMB-P1012NU-JA1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "BC-201",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "CMB-P1012NU-JA1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "BC-301",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "CMB-P1012NU-JA1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "BC-401",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "CMB-P1012NU-JA1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "BC-501",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "CMB-P108NU-J1",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water-Source Heat Pumps",
+      "notes": "Ground water source heat pump systems with heat recovery. All systems tie into a new touch screen central controller with BACnet interface.",
+      "items": [
+        {
+          "equipmentTag": "WHP-1",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PQRY-P120TLMU-A1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "WHP-2",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PQRY-P144TLMU-A1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "WHP-3",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PQRY-P144TLMU-A1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "WHP-4",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PQRY-P144TLMU-A1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "WHP-5",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PQRY-P72TLMU-A1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "WHP-6",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PQRY-P144TLMU-A1",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "In-Line Centrifugal Hydronic Pumps",
+      "notes": "In-line variable speed circulators with ECM motors for water-source heat pump circulation. 40% propylene glycol at 50°F. Connection to building management system via BACnet.",
+      "items": [
+        {
+          "equipmentTag": "VCP-1",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR20L",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VCP-2",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR20M",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VCP-3",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR20M",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VCP-4",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR20M",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VCP-5",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR20L",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VCP-6",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR20M",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "DCP-1",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR15M",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "DCP-2",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR15M",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+      "notes": "Vertical in-line pumps for geothermal well field. All iron construction. ANSI B16.1 Class 125. VFD motors to maintain loop temperature. Lead/lag operation between GTP-1 and GTP-2.",
+      "items": [
+        {
+          "equipmentTag": "GTP-1",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "SKY3009D-1760-5.00",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "GTP-2",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "SKY3009D-1760-5.00",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Automatic Condensate Pump Units",
+      "notes": "Commercial grade automatic condensate pump. 6' power cord. Safety switch for equipment shut down. Integral check valve. Plenum rated UL listed.",
+      "items": [
+        {
+          "equipmentTag": "CP-1",
+          "manufacturer": "Little Giant",
+          "model": "VCL-14ULS",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

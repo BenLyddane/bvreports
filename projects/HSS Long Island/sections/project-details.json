@@ -1,0 +1,38 @@
+{
+  "reportTitle": "BuildVision Project Report",
+  "customerInformation": {
+    "customerName": "HRCG",
+    "contactPerson": "Anthony DiGirolamo",
+    "contactEmail": "adigirolamo@hrcg.com",
+    "contactPhone": "",
+    "projectId": "e4130056-0863-4954-974c-eae85b9a64bc",
+    "additionalFields": {
+      "address": "90 Merrick Avenue, East Meadow, NY 11554"
+    }
+  },
+  "projectInformation": {
+    "projectName": "HSS Long Island ASC Fit-Out",
+    "location": "East Meadow, NY",
+    "startDate": "5/13/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Healthcare facility fit-out with HVAC and power systems installation",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/e23bb8e-c745-447d-ba73-5755876f1a96/package-projects/e4130056-0863-4954-974c-eae85b9a64bc/packages",
+    "additionalFields": {}
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "5/14/2025"
+  }
+}

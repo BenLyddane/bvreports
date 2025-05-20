@@ -1,0 +1,104 @@
+{
+    "reportTitle": "BuildVision Project Report",
+    "customerInformation": {
+      "customerName": "",
+      "contactPerson": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "projectId": "",
+      "additionalFields": {}
+    },
+    "projectInformation": {
+      "projectName": "",
+      "location": "",
+      "startDate": "",
+      "completionDate": "",
+      "budget": "",
+      "scope": "",
+      "projectUrl": "",
+      "additionalFields": {}
+    },
+    "preparerInformation": {
+      "preparers": [
+        {
+          "name": "Ben Lyddane",
+          "email": "Ben@BuildVision.io",
+          "phone": "202-365-8628"
+        },
+        {
+          "name": "Mackenzie Hoover",
+          "email": "Mackenzie@buildvision.io",
+          "phone": "843-609-3265"
+        }
+      ],
+      "preparationDate": ""
+    },
+    "equipmentByType": [
+      {
+        "equipmentType": "",
+        "notes": "",
+        "items": [
+          {
+            "equipmentTag": "",
+            "manufacturer": "",
+            "model": "",
+            "specifications": {}
+          }
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "componentType": "",
+        "suppliers": [
+          {
+            "manufacturer": "",
+            "model": "",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": ""
+          },
+          {
+            "manufacturer": "",
+            "model": "",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "",
+              "company": "",
+              "contact": ""
+            },
+            "costDifference": "",
+            "compatibilityNotes": ""
+          }
+        ]
+      }
+    ],
+    "designNotes": [
+      {
+        "systemType": "",
+        "technicalObservations": [],
+        "concerns": [],
+        "opportunities": []
+      }
+    ],
+    "buildVisionRecommendations": [
+      {
+        "id": 1,
+        "recommendation": "",
+        "rationale": "",
+        "estimatedImpact": "",
+        "implementation": "",
+        "priority": ""
+      }
+    ],
+    "conclusion": {
+      "summary": "",
+      "keyFindings": [],
+      "highestPriorityActions": []
+    }
+}

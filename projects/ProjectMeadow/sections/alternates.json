@@ -1,0 +1,180 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "First Company",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Titus",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        }
+      ]
+    },
+    {
+      "componentType": "Indoor Central-Station Air-Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "XTI Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Temtrol",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Loren Cook Company",
+          "model": "",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Greenheck Fan Corporation",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        }
+      ]
+    },
+    {
+      "componentType": "Control Valves",
+      "suppliers": [
+        {
+          "manufacturer": "Belimo Aircontrols (USA), Inc.",
+          "model": "",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Honeywell International Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Johnson Controls, Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Siemens Industry, Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        }
+      ]
+    }
+  ]
+}

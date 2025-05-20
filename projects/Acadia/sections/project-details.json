@@ -1,0 +1,46 @@
+{
+  "reportTitle": "BuildVision Project Report - Riverside HVAC System",
+  "customerInformation": {
+    "customerName": "Layton Construction",
+    "contactPerson": "William Winslow",
+    "contactEmail": "wwinslow@laytonconstruction.com",
+    "contactPhone": "",
+    "projectId": "0d812dd8-cf65-48c4-87a6-c7d6be1f64dd",
+    "additionalFields": {
+      "dateInvited": "5/7/2025",
+      "dateDue": "5/27/2025",
+      "rfIsDue": "5/13/2025",
+      "requestType": "Proposal"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Riverside HVAC System Upgrade",
+    "location": "5900 Brockton Avenue, Riverside, CA 92506",
+    "startDate": "3/30/2026",
+    "completionDate": "",
+    "budget": "",
+    "scope": "HVAC System Equipment Installation",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/f94e986c-cfce-4e0f-a24c-200a374ab999/package-projects/0d812dd8-cf65-48c4-87a6-c7d6be1f64dd/details",
+    "additionalFields": {
+      "created": "5/7/2025",
+      "contractType": "",
+      "jobWalk": "",
+      "projectSize": ""
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "5/14/2025"
+  }
+}

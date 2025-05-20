@@ -1,0 +1,39 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled, Rotary-Screw Water Chiller",
+      "notes": "Chiller shall operate using R-513A refrigerant. Unit shall include twin screw compressors, direct expansion type evaporator, air-cooled condenser, and integral pump module.",
+      "items": [
+        {
+          "equipmentTag": "CH-4",
+          "manufacturer": "York",
+          "model": "YVAA0456",
+          "specifications": {
+            "capacity": "350 tons",
+            "evaporatorFlow": "700 GPM",
+            "evaporatorPressureDrop": "13.2 ft WG",
+            "evaporatorEnteringTemp": "55°F",
+            "evaporatorLeavingTemp": "43°F",
+            "waterConnSize": "8 inches",
+            "numberOfCondFans": "24",
+            "condenserFanHP": "2 HP each",
+            "condenserEnteringAirTemp": "95°F",
+            "numberOfCompressors": "2",
+            "totalCompressorPower": "367.8 kW",
+            "efficiencyRating": "1.05 kW/ton",
+            "EER": "11.4",
+            "refrigerantType": "R-513A",
+            "electricalCharacteristics": "460V-3ph",
+            "minimumCircuitAmpacity": "882.4",
+            "vibrationIsolation": "FSNTL",
+            "numberOfPumps": "2",
+            "pumpFlow": "700 GPM",
+            "pumpTotalHead": "75 ft WG",
+            "pumpMotorHP": "25 HP each",
+            "specialFeatures": "Unit mounted ultra low harmonic VFD (1 per compressor), suction shut-off service valve for each compressor, dual point power and unit controller, integral pump module with active/spare pumps and VFDs, dual point power connection, isolation valves on pump suction and discharge"
+          }
+        }
+      ]
+    }
+  ]
+}

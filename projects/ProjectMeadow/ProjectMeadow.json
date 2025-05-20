@@ -1,0 +1,661 @@
+{
+  "reportTitle": "BuildVision Project Report for Project Meadow",
+  "customerInformation": {
+    "customerName": "Structure Tone Southwest",
+    "contactPerson": "Kelly Ioannou",
+    "contactEmail": "kelly.ioannou@structuretone.com",
+    "contactPhone": "",
+    "projectId": "23406.0000",
+    "additionalFields": {
+      "bidStatus": "BuildingConnected Lead",
+      "dateInvited": "4/4/2025",
+      "requestType": "Proposal",
+      "RFIsDue": "4/10/2025",
+      "dateDue": "5/13/2025"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Project Meadow",
+    "location": "2323 North Field Street, Dallas, TX 75201",
+    "startDate": "",
+    "completionDate": "3/27/2025",
+    "budget": "",
+    "scope": "HVAC systems including air handling units, fan coil units, and ventilation systems",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/cc7e5f0e-72e4-473c-8a38-493477f6b728/package-projects/7e55df4f-cd77-4526-ba75-6576cfeb23b4/details",
+    "additionalFields": {
+      "projectSize": "600000 sq. ft.",
+      "phaseStatus": "50% Construction Documents",
+      "created": "5/15/2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "3/27/2025"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Indoor central-station air-handling units with coils for indoor installations",
+      "items": [
+        {
+          "equipmentTag": "AHU-1A-01",
+          "manufacturer": "York",
+          "model": "XTI-63X69",
+          "specifications": {
+            "type": "Indoor Central-Station Air-Handling Unit",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        },
+        {
+          "equipmentTag": "AHU-1C-01",
+          "manufacturer": "York",
+          "model": "XTI-75X69",
+          "specifications": {
+            "type": "Indoor Central-Station Air-Handling Unit",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2A-01",
+          "manufacturer": "Temtrol",
+          "model": "CUSTOM",
+          "specifications": {
+            "type": "Indoor Central AHUs Modular",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2A-02",
+          "manufacturer": "Temtrol",
+          "model": "CUSTOM",
+          "specifications": {
+            "type": "Indoor Central AHUs Modular",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2A-03",
+          "manufacturer": "York",
+          "model": "XTI-33X54",
+          "specifications": {
+            "type": "Indoor Central-Station Air-Handling Unit",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2C-01",
+          "manufacturer": "York",
+          "model": "XTI-96X96",
+          "specifications": {
+            "type": "Indoor Central-Station Air-Handling Unit",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2C-02",
+          "manufacturer": "York",
+          "model": "XTI-75X69",
+          "specifications": {
+            "type": "Indoor Central-Station Air-Handling Unit",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2C-03",
+          "manufacturer": "York",
+          "model": "XTI-84X84",
+          "specifications": {
+            "type": "Indoor Central-Station Air-Handling Unit",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2C-04",
+          "manufacturer": "York",
+          "model": "XTI-48X63",
+          "specifications": {
+            "type": "Indoor Central-Station Air-Handling Unit",
+            "cabinet": "Double-wall insulated panels",
+            "insulation": "1-inch thick, NFPA 90A compliant",
+            "fan": "Centrifugal with backward-inclined blades",
+            "filters": "MERV 13 final filters, 2-inch disposable panel pre-filters"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Floor-mounted and suspended fan coil units with hydronic coils",
+      "items": [
+        {
+          "equipmentTag": "FCU-14A-01",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-16",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-14A-02",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-30",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-14A-03",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-16",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-14A-04",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-08",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-14A-05",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-16",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-1C-01",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-40",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-1C-02",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-20",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-1C-03A",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-40",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-1C-03B",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-40",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-2C-01",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-20",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-2C-02",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-08",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-2C-03",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-20",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-8C-01",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-40",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        },
+        {
+          "equipmentTag": "FCU-B1-18",
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD-16",
+          "specifications": {
+            "cabinet": "Steel with baked-enamel finish",
+            "drain_pan": "Stainless steel",
+            "coil": "Copper tube with aluminum fins",
+            "filter": "MERV 13",
+            "fan": "Forward curved, double width, centrifugal"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Various types of HVAC fans including dryer exhaust, in-line, and centrifugal fans",
+      "items": [
+        {
+          "equipmentTag": "DBF-2C-01",
+          "manufacturer": "LF Systems",
+          "model": "DEF035",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "housing": "Split, spun aluminum",
+            "wheel": "Aluminum, airfoil blades welded to aluminum hub",
+            "drive": "Direct-drive"
+          }
+        },
+        {
+          "equipmentTag": "EF-2C-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "HVAC Fan",
+            "housing": "",
+            "wheel": "",
+            "drive": ""
+          }
+        },
+        {
+          "equipmentTag": "KEF-1C-01",
+          "manufacturer": "Loren Cook",
+          "model": "135CA-SWSI",
+          "specifications": {
+            "type": "HVAC Fan",
+            "housing": "",
+            "wheel": "",
+            "drive": ""
+          }
+        },
+        {
+          "equipmentTag": "KEF-1C-02",
+          "manufacturer": "Loren Cook",
+          "model": "135CA-SWSI",
+          "specifications": {
+            "type": "HVAC Fan",
+            "housing": "",
+            "wheel": "",
+            "drive": ""
+          }
+        },
+        {
+          "equipmentTag": "TF-1C-01",
+          "manufacturer": "Loren Cook",
+          "model": "225SQN",
+          "specifications": {
+            "type": "HVAC Fan",
+            "housing": "",
+            "wheel": "",
+            "drive": ""
+          }
+        },
+        {
+          "equipmentTag": "TF-1C-02",
+          "manufacturer": "Loren Cook",
+          "model": "225SQN",
+          "specifications": {
+            "type": "HVAC Fan",
+            "housing": "",
+            "wheel": "",
+            "drive": ""
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Control Valves",
+      "notes": "Control valves for hydronic systems",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Belimo",
+          "model": "",
+          "specifications": {
+            "type": "Ball-style control valves",
+            "body": "Bronze or brass",
+            "pressure_rating": "200 psig close-off pressure",
+            "temperature_range": "0 to 212 deg F",
+            "actuator": "Electric, 24V AC"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Enviro-Tec",
+          "model": "HDD Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "First Company",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Titus",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        }
+      ]
+    },
+    {
+      "componentType": "Indoor Central-Station Air-Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "XTI Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Temtrol",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Loren Cook Company",
+          "model": "",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Greenheck Fan Corporation",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        }
+      ]
+    },
+    {
+      "componentType": "Control Valves",
+      "suppliers": [
+        {
+          "manufacturer": "Belimo Aircontrols (USA), Inc.",
+          "model": "",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Honeywell International Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Johnson Controls, Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Siemens Industry, Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Standardize Fan Coil Unit Procurement",
+      "rationale": "The project requires 14 fan coil units (FCUs) from Enviro-Tec with various model numbers (HDD-08, HDD-16, HDD-20, HDD-30, HDD-40). Consolidating the order with a single supplier can result in better pricing, streamlined delivery scheduling, and consistent quality control.",
+      "estimatedImpact": "Potential 8-12% cost reduction through bulk purchasing discounts, reduced shipping costs, and simplified coordination. Additional savings in maintenance costs through standardized spare parts inventory.",
+      "implementation": "1. Request a comprehensive quote from Enviro-Tec for all fan coil units. 2. Negotiate volume discounts based on the total order. 3. Coordinate with the manufacturer for phased delivery to align with construction schedule. 4. Establish a single point of contact for technical support and warranty issues.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Consolidate Air Handling Unit Purchases",
+      "rationale": "The project includes 9 air handling units (AHUs) with York and Temtrol as specified manufacturers. Consolidating orders with a single manufacturer where possible can reduce costs and simplify project management, particularly for the York XTI series units which represent the majority of AHUs.",
+      "estimatedImpact": "Potential 10-15% cost savings through volume discounts and reduced administrative overhead. Standardized equipment can also reduce commissioning time by approximately 20%.",
+      "implementation": "1. Evaluate if the custom Temtrol units (AHU-2A-01 and AHU-2A-02) could be replaced with standard York models without compromising performance. 2. If not possible, maintain the split but consolidate all other units with York. 3. Negotiate package pricing with York for the 7 specified units. 4. Coordinate delivery schedule to reduce storage requirements and handling costs.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Implement Early Equipment Procurement Strategy",
+      "rationale": "Given current supply chain challenges in the HVAC industry, early procurement of long-lead items such as AHUs and specialty fans is critical to maintain the project schedule. The March 2025 construction documents indicate this is a time-sensitive concern.",
+      "estimatedImpact": "Potential schedule savings of 4-8 weeks by avoiding manufacturing delays. Early procurement also creates opportunities for price locking before potential industry price increases.",
+      "implementation": "1. Identify critical long-lead items (AHUs, FCUs, and specialized fans). 2. Initiate procurement processes immediately after design approval. 3. Establish secure storage solutions if equipment arrives before installation is possible. 4. Develop a phased delivery schedule aligned with the construction timeline.",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Evaluate Coil Material Optimization",
+      "rationale": "Specifications call for copper tube with aluminum fins for hydronic coils. For this Dallas location, standard copper/aluminum coils are appropriate, but procurement should consider optimal fin spacing and thickness based on the specific application to balance cost and performance.",
+      "estimatedImpact": "Potential 3-5% cost reduction on coil components while maintaining or improving performance. Optimized coil design can also improve energy efficiency by 2-3%.",
+      "implementation": "1. Consult with manufacturers to determine optimal fin spacing for the specific application. 2. Request data on performance differences between standard and premium coil options. 3. Perform cost-benefit analysis to select the most economical option that meets performance requirements. 4. Document selections to ensure consistent implementation across all units.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consolidate Control Valve Procurement",
+      "rationale": "The project requires numerous control valves for the hydronic systems. Standardizing on a single supplier (such as Belimo mentioned in the specifications) for all control valves will ensure compatibility, reduce complexity in spare parts inventory, and potentially reduce costs through volume purchasing.",
+      "estimatedImpact": "Approximately 7-10% cost savings on control components through bulk purchasing. Additional lifecycle cost benefits from simplified maintenance and reduced spare parts inventory.",
+      "implementation": "1. Create a comprehensive valve schedule from all mechanical drawings. 2. Group valves by type, size, and function. 3. Request package pricing from Belimo for all control valves. 4. Coordinate delivery timing to align with installation schedule for different systems.",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "Project Meadow involves the installation of a comprehensive HVAC system with a focus on energy efficiency and building automation. The procurement strategy centers on high-quality equipment from specified manufacturers including York, Temtrol, Enviro-Tec, and Loren Cook. The project includes air handling units, fan coil units, ventilation fans, and associated control systems with BACnet compatibility for open protocol integration.",
+    "keyFindings": [
+      "The project requires BTL certified BACnet-based building management system (BMS) with Tridium Niagara Framework N4 that must remain open and unlocked for owner access and maintenance",
+      "Careful coordination is required between multiple contractors including BMS, mechanical, and network communications contractors for successful integration of all systems",
+      "The project is targeting LEED platinum certification which impacts equipment selection and system monitoring requirements",
+      "Equipment procurement must account for precise specifications including MERV 13 filtration, stainless steel drain pans, and specific control requirements"
+    ],
+    "highestPriorityActions": [
+      "Secure commitments from specified manufacturers (York, Enviro-Tec, Temtrol, Loren Cook) to meet delivery schedules for the project timeline targeting March 2025 completion",
+      "Coordinate with network communications contractor on OT network infrastructure requirements for BMS integration",
+      "Develop quality control plan to ensure all equipment meets specifications including energy efficiency ratings and BACnet compatibility",
+      "Establish procurement tracking system to monitor equipment delivery status against construction schedule milestones"
+    ]
+  }
+}

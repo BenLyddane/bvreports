@@ -1,0 +1,214 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Packaged Rooftop Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "DPSH Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Thermal Environment Sales",
+            "company": "Thermal Environment Sales",
+            "contact": "11 Sitterly Road, Clifton Park, NY 12065 | (518) 373-1100"
+          },
+          "costDifference": "Basis of Design",
+          "compatibilityNotes": "Basis of Design unit."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "48HC",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "RJ Murray Company",
+            "company": "RJ Murray Company",
+            "contact": "7 Northway Lane, Albany, NY 12110 | (518) 690-4455"
+          },
+          "costDifference": "+3-5%",
+          "compatibilityNotes": "Compatible with specified requirements. 208V/3-Phase electrical connection."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Precedent",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Trane Albany",
+            "company": "Trane Technologies",
+            "contact": "301 Old Niskayuna Road, Suite 1, Latham, NY 12110 | (518) 785-1315"
+          },
+          "costDifference": "+2-4%",
+          "compatibilityNotes": "Compatible with specified requirements. 208V/3-Phase electrical connection."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Predator",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Johnson Controls",
+            "company": "Johnson Controls",
+            "contact": "518-783-1235"
+          },
+          "costDifference": "+1-3%",
+          "compatibilityNotes": "Compatible with specified requirements. 208V/3-Phase electrical connection."
+        }
+      ]
+    },
+    {
+      "componentType": "Split System Air Conditioning Units",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "MSZ-GS36NA/MUZ-GS36NA",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Trane Albany",
+            "company": "Trane Technologies",
+            "contact": "301 Old Niskayuna Road, Suite 1, Latham, NY 12110 | (518) 785-1315"
+          },
+          "costDifference": "Basis of Design",
+          "compatibilityNotes": "Basis of Design unit. Note: Model naming uses Mitsubishi designation; verify compatibility."
+        }
+      ]
+    },
+    {
+      "componentType": "Ultraviolet Sterilizers",
+      "suppliers": [
+        {
+          "manufacturer": "VIQUA",
+          "model": "PRO20",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "VIQUA",
+            "company": "VIQUA (Trojan Technologies)",
+            "contact": "1-800-265-7246 | www.viqua.com"
+          },
+          "costDifference": "Basis of Design",
+          "compatibilityNotes": "Basis of Design unit."
+        },
+        {
+          "manufacturer": "Atlantic Ultraviolet",
+          "model": "Sanitron S5000C",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Atlantic Ultraviolet Corporation",
+            "company": "Atlantic Ultraviolet Corporation",
+            "contact": "631-273-0500 | www.ultraviolet.com"
+          },
+          "costDifference": "-2-5%",
+          "compatibilityNotes": "Must meet NSF Standard 61 and Standard 55 Class A certification as required by NYS Department of Health."
+        },
+        {
+          "manufacturer": "Trojan Technologies",
+          "model": "UV Max Pro20",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Trojan Technologies",
+            "company": "Trojan Technologies",
+            "contact": "888-220-6118 | www.trojantechnologies.com"
+          },
+          "costDifference": "+3-7%",
+          "compatibilityNotes": "Must meet NSF Standard 61 and Standard 55 Class A certification as required by NYS Department of Health."
+        }
+      ]
+    },
+    {
+      "componentType": "Exhaust Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "G-Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Buckley Associates",
+            "company": "Buckley Associates",
+            "contact": "120 Railroad Avenue, Albany, NY 12205 | (518) 438-7423"
+          },
+          "costDifference": "Basis of Design",
+          "compatibilityNotes": "Basis of Design unit."
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "ACE-B",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "RF Peck Company, Inc.",
+            "company": "RF Peck Company, Inc.",
+            "contact": "22 Computer Drive West, Albany, NY 12205 | (518) 869-3541"
+          },
+          "costDifference": "-1-3%",
+          "compatibilityNotes": "Compatible with specified requirements."
+        },
+        {
+          "manufacturer": "PennBarry",
+          "model": "Domex",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Kane-Davey Associates, Inc.",
+            "company": "Kane-Davey Associates, Inc.",
+            "contact": "2 Schooner Lane, Unit 12, Milford, CT 06460 | (203) 255-1354"
+          },
+          "costDifference": "-2-4%",
+          "compatibilityNotes": "Compatible with specified requirements."
+        }
+      ]
+    },
+    {
+      "componentType": "Unit Heaters & Cabinet Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "QMark",
+          "model": "MUH Series/AWH Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "QMark",
+            "company": "QMark (Marley Engineered Products)",
+            "contact": "800-642-4328"
+          },
+          "costDifference": "Basis of Design",
+          "compatibilityNotes": "Basis of Design unit."
+        },
+        {
+          "manufacturer": "Markel",
+          "model": "HF/HT Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Applied Thermal Systems Inc.",
+            "company": "Applied Thermal Systems Inc.",
+            "contact": "845-628-5051"
+          },
+          "costDifference": "-3-5%",
+          "compatibilityNotes": "Compatible with specified requirements. Verify panel compatibility."
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "HUHAA Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Electrical Equipment Corp.",
+            "company": "Electrical Equipment Corp.",
+            "contact": "518-436-9751"
+          },
+          "costDifference": "+1-4%",
+          "compatibilityNotes": "Compatible with specified requirements. Verify panel compatibility."
+        }
+      ]
+    },
+    {
+      "componentType": "Equipment Curbs and Supports",
+      "suppliers": [
+        {
+          "manufacturer": "RPS",
+          "model": "Custom",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Roof Products & Systems Corporation",
+            "company": "Roof Products & Systems Corporation",
+            "contact": "484 N Thomas Dr., Bensenville, IL 60106 | (630) 595-7320"
+          },
+          "costDifference": "Basis of Design",
+          "compatibilityNotes": "Basis of Design custom equipment curbs with wind-rated design."
+        }
+      ]
+    }
+  ]
+}

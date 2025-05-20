@@ -1,0 +1,48 @@
+{
+  "reportTitle": "BuildVision Project Report",
+  "customerInformation": {
+    "customerName": "Philadelphia Phillies",
+    "contactPerson": "Ken Rienstra",
+    "contactEmail": "krienstra@lfdriscoll.com",
+    "contactPhone": "",
+    "projectId": "20240795",
+    "additionalFields": {
+      "contractType": "Proposal",
+      "requestType": "Proposal",
+      "dateInvited": "5/15/2025",
+      "dateDue": "5/28/2025"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Citizens Bank Park - Right Field Club",
+    "location": "One Citizens Bank Way, Philadelphia, PA 19148",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Furnish and install air-cooled rotary-screw water chiller for the Right Field Club renovation project, including all necessary accessories, controls, and vibration isolation as specified in technical specifications.",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/9474ffd3-66c9-4316-b45c-c71e80a1d3b4/package-projects/53e23006-b3ca-4dee-b92b-6aeb8923b69c/details",
+    "additionalFields": {
+      "architect": "EwingCole",
+      "architectProjectNumber": "20240795",
+      "engineerOfRecord": "EwingCole",
+      "constructionManager": "LF Driscoll",
+      "bidStatus": "BuildingConnected Lead",
+      "projectPhase": "Bidding"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "5/15/2025"
+  }
+}

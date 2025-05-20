@@ -1,0 +1,52 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Early procurement of high-risk, long lead-time items",
+      "rationale": "Cooling tower (EVAPCO ATWB), DOAS (Trane), and VRF components (Mitsubishi) all have lead times exceeding 20 weeks and are critical to the project schedule.",
+      "estimatedImpact": "Reduction of project schedule risk by 4-6 weeks, avoiding costly temporary solutions",
+      "implementation": "Issue early purchase orders for cooling tower, DOAS, and VRF equipment after expedited submittal review",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Comprehensive controls coordination meeting",
+      "rationale": "Multiple system types (hydronic, airside, VRF) with different manufacturers will require careful integration with the building automation system.",
+      "estimatedImpact": "Reduction of commissioning duration by 2-3 weeks and minimization of change orders related to controls integration",
+      "implementation": "Schedule pre-submittal controls coordination meeting with all equipment vendors, controls contractor, and engineer",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "WSHP prefabrication strategy",
+      "rationale": "Nine water-source heat pumps with similar configurations present an opportunity for prefabrication and standardized installation.",
+      "estimatedImpact": "Labor savings of 15-20% on WSHP installation, improved quality control, and reduced field coordination issues",
+      "implementation": "Develop prefabrication drawings for WSHP installations including piping assemblies, supports, and connection details",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Review and verify specification coverage",
+      "rationale": "Several discrepancies noted in specification references, particularly for cooling tower, VRF, and pumps.",
+      "estimatedImpact": "Elimination of RFIs and potential change orders related to unclear specifications",
+      "implementation": "Conduct comprehensive specification review and submit consolidated RFI for all identified gaps",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Prioritized submittal schedule",
+      "rationale": "Complex project with multiple equipment types requires strategic approach to submittal process.",
+      "estimatedImpact": "Streamlined approval process for critical path items, reducing overall procurement timeline by 2-3 weeks",
+      "implementation": "Develop tiered submittal schedule with priority for cooling tower, DOAS, VRF, and controls integration",
+      "priority": "High"
+    },
+    {
+      "id": 6,
+      "recommendation": "Alternative VRF manufacturer evaluation",
+      "rationale": "Mitsubishi VRF components have long lead times and relatively high cost compared to alternatives.",
+      "estimatedImpact": "Potential cost savings of 5-10% on VRF components and possible lead time reduction of 2-4 weeks",
+      "implementation": "Evaluate Daikin or LG as alternative VRF suppliers, focusing on controls compatibility and performance specifications",
+      "priority": "Medium"
+    }
+  ]
+}

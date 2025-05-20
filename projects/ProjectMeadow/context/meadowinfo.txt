@@ -1,0 +1,213 @@
+BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone Southwest
+package projects
+Project Meadow
+
+    packages
+
+MH
+Project Meadow
+2323 North Field Street, Dallas, TX 75201
+Organization Logo
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Action
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+DBF-2C-01	LF Systems	Centrifugal HVAC Fans	DEF035	
+Annotation
+	
+EF-2C-01		HVAC Fans	--	
+Annotation
+	
+KEF-1C-01	Loren Cook	HVAC Fans	135CA-SWSI	
+Annotation
+	
+KEF-1C-02	Loren Cook	HVAC Fans	135CA-SWSI	
+Annotation
+	
+TF-1C-01	Loren Cook	HVAC Fans	225SQN	
+Annotation
+	
+TF-1C-02	Loren Cook	HVAC Fans	225SQN	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+FCU-14A-01	Enviro-Tec	Fan Coil Units	HDD-16	
+Annotation
+	
+FCU-14A-02	Enviro-Tec	Fan Coil Units	HDD-30	
+Annotation
+	
+FCU-14A-03	Enviro-Tec	Fan Coil Units	HDD-16	
+Annotation
+	
+FCU-14A-04	Enviro-Tec	Fan Coil Units	HDD-08	
+Annotation
+	
+FCU-14A-05	Enviro-Tec	Fan Coil Units	HDD-16	
+Annotation
+	
+FCU-1C-01	Enviro-Tec	Fan Coil Units	HDD-40	
+Annotation
+	
+FCU-1C-02	Enviro-Tec	Fan Coil Units	HDD-20	
+Annotation
+	
+FCU-1C-03A	Enviro-Tec	Fan Coil Units	HDD-40	
+Annotation
+	
+FCU-1C-03B	Enviro-Tec	Fan Coil Units	HDD-40	
+Annotation
+	
+FCU-2C-01	Enviro-Tec	Fan Coil Units	HDD-20	
+Annotation
+	
+FCU-2C-02	Enviro-Tec	Fan Coil Units	HDD-08	
+Annotation
+	
+FCU-2C-03	Enviro-Tec	Fan Coil Units	HDD-20	
+Annotation
+	
+FCU-8C-01	Enviro-Tec	Fan Coil Units	HDD-40	
+Annotation
+	
+FCU-B1-18	Enviro-Tec	Fan Coil Units	HDD-16	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AHU-1A-01	York	Indoor Central-Station Air-Handling Units	XTI-63X69	
+Annotation
+	
+AHU-1C-01	York	Indoor Central-Station Air-Handling Units	XTI-75X69	
+Annotation
+	
+AHU-2A-01	Temtrol	Indoor Central AHUs Modular	CUSTOM	
+Annotation
+	
+AHU-2A-02	Temtrol	Indoor Central AHUs Modular	CUSTOM	
+Annotation
+	
+AHU-2A-03	York	Indoor Central-Station Air-Handling Units	XTI-33X54	
+Annotation
+	
+AHU-2C-01	York	Indoor Central-Station Air-Handling Units	XTI-96X96	
+Annotation
+	
+AHU-2C-02	York	Indoor Central-Station Air-Handling Units	XTI-75X69	
+Annotation
+	
+AHU-2C-03	York	Indoor Central-Station Air-Handling Units	XTI-84X84	
+Annotation
+	
+AHU-2C-04	York	Indoor Central-Station Air-Handling Units	XTI-48X63	
+Annotation
+	
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone Southwest
+package projects
+Project Meadow
+
+    details
+
+MH
+Project Meadow
+2323 North Field Street, Dallas, TX 75201
+Organization Logo
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+Kelly Ioannou (kelly.ioannou@structuretone.com)
+Address
+2323 North Field Street, Dallas, TX 75201
+Created
+5/15/2025
+Expected Start
+--
+Date Due
+5/13/2025
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+4/10/2025
+Date Invited
+4/4/2025
+Request Type
+Proposal
+Project Size
+600000 sq. ft.
+
+https://app.buildvision.io/admin/organizations/cc7e5f0e-72e4-473c-8a38-493477f6b728/package-projects/7e55df4f-cd77-4526-ba75-6576cfeb23b4/details

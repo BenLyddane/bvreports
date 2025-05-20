@@ -1,0 +1,46 @@
+{
+  "reportTitle": "BuildVision Project Report - Norco College Center for Human Performance & Kinesiology",
+  "customerInformation": {
+    "customerName": "Norco College",
+    "contactPerson": "Gerald Stosek",
+    "contactEmail": "gerry.stosek@clarkconstruction.com",
+    "contactPhone": "",
+    "projectId": "75-21620-00",
+    "additionalFields": {
+      "address": "Norco, California",
+      "invitedDate": "5/13/2025",
+      "dueDate": "5/28/2025"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Center for Human Performance & Kinesiology",
+    "location": "Norco College, Norco, California",
+    "startDate": "7/22/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "HVAC system installation including air handling units, exhaust fans, split system air conditioners, fan coil units, and air terminal units",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/6a99bd29-3eca-4a6b-b0ad-285950a721bf/package-projects/1713459d-1c10-4272-8fda-1d8ea190d39d/details",
+    "additionalFields": {
+      "projectSize": "40,741 sq. ft.",
+      "requestType": "Proposal",
+      "contractType": "--",
+      "RFIsDue": "5/9/2025",
+      "jobWalk": "4/29/2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "267-281-4339"
+      }
+    ],
+    "preparationDate": "May 14, 2025"
+  }
+}

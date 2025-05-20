@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement BACnet integration for all HVAC equipment",
+      "rationale": "Unified control system will improve operational efficiency and enable advanced scheduling and monitoring",
+      "estimatedImpact": "10-15% reduction in energy usage through optimized control",
+      "implementation": "Ensure all equipment has BACnet compatibility and coordinate with building automation contractor",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Add variable frequency drives (VFDs) to all applicable fan motors",
+      "rationale": "VFDs allow for modulation of fan speed based on demand, reducing energy consumption during partial load conditions",
+      "estimatedImpact": "15-20% reduction in fan energy usage",
+      "implementation": "Specify VFDs compatible with motor sizes and control system",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Consider increasing MERV rating of filters",
+      "rationale": "Higher MERV rating filters improve indoor air quality by capturing smaller particulates",
+      "estimatedImpact": "Improved indoor air quality and potential reduction in airborne contaminants",
+      "implementation": "Verify equipment compatibility with higher pressure drop of improved filters",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Implement duct leakage testing",
+      "rationale": "Ensuring minimal duct leakage improves system efficiency and reduces energy waste",
+      "estimatedImpact": "5-10% improvement in system efficiency",
+      "implementation": "Specify duct leakage testing in accordance with SMACNA standards",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consider adding UV-C lamps in air handlers",
+      "rationale": "UV-C technology can reduce microbial growth on coils and improve indoor air quality",
+      "estimatedImpact": "Reduced maintenance costs and improved indoor air quality",
+      "implementation": "Add UV-C lamps to air handling units, particularly the DOAS and rooftop units",
+      "priority": "Low"
+    }
+  ]
+}

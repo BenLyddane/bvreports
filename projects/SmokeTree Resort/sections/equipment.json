@@ -1,0 +1,525 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled, Rotary-Screw Water Chillers",
+      "notes": "The expected cooling load for the new expansion is 640 tons. Chilled water will be supplied to the resort from a plant capacity of 750 tons consisting of three (3) air cooled chillers at 250 tons each.",
+      "items": [
+        {
+          "equipmentTag": "CH-01",
+          "manufacturer": "Daikin Applied",
+          "model": "Air-Cooled, Rotary-Screw Water Chiller",
+          "specifications": {
+            "capacity": "250 tons",
+            "flow": "427 GPM",
+            "EWT": "55°F",
+            "LWT": "45°F",
+            "ambient": "115°F",
+            "altitude": "2160 ft",
+            "input": "400 kW"
+          }
+        },
+        {
+          "equipmentTag": "CH-02",
+          "manufacturer": "Daikin Applied",
+          "model": "Air-Cooled, Rotary-Screw Water Chiller",
+          "specifications": {
+            "capacity": "250 tons",
+            "flow": "427 GPM",
+            "EWT": "55°F",
+            "LWT": "45°F",
+            "ambient": "115°F",
+            "altitude": "2160 ft",
+            "input": "400 kW"
+          }
+        },
+        {
+          "equipmentTag": "CH-03",
+          "manufacturer": "Daikin Applied",
+          "model": "Air-Cooled, Rotary-Screw Water Chiller",
+          "specifications": {
+            "capacity": "250 tons",
+            "flow": "427 GPM",
+            "EWT": "55°F",
+            "LWT": "45°F",
+            "ambient": "115°F",
+            "altitude": "2160 ft",
+            "input": "400 kW"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Rooftop Units (Chilled Water)",
+      "notes": "Multi-zone variable air volume chilled water units will be used for spaces like event centers and restaurants.",
+      "items": [
+        {
+          "equipmentTag": "RTU-1.1",
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "specifications": {
+            "service": "COMMOS Restaurant",
+            "type": "VAV",
+            "airflow": "12,540 CFM",
+            "minOA": "4,389 CFM",
+            "motor": "25 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "293 MBH",
+              "kW": "86"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "617 MBH total, 425 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "91.5"
+            }
+          }
+        },
+        {
+          "equipmentTag": "RTU-1.2",
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "specifications": {
+            "service": "Main Kitchen",
+            "type": "VAV",
+            "airflow": "8,460 CFM",
+            "minOA": "2,538 CFM",
+            "motor": "20 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "182 MBH",
+              "kW": "53"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "398 MBH total, 270 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "58.9"
+            }
+          }
+        },
+        {
+          "equipmentTag": "RTU-1.3",
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "specifications": {
+            "service": "Lobby",
+            "type": "SZVAV",
+            "airflow": "5,063 CFM",
+            "minOA": "1,772 CFM",
+            "motor": "10 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "118 MBH",
+              "kW": "35"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "249 MBH total, 171 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "36.9"
+            }
+          }
+        },
+        {
+          "equipmentTag": "RTU-1.4",
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "specifications": {
+            "service": "Meeting",
+            "type": "VAV",
+            "airflow": "16,683 CFM",
+            "minOA": "5,839 CFM",
+            "motor": "40 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "390 MBH",
+              "kW": "114"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "821 MBH total, 565 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "121.7"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Horizontal units serving support areas and public spaces.",
+      "items": [
+        {
+          "equipmentTag": "FCU-00.1 to 5",
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "specifications": {
+            "service": "Support Level 00",
+            "type": "SZVAV",
+            "airflow": "5,804 CFM",
+            "minOA": "1,451 CFM",
+            "motor": "10 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "80°F",
+              "capacity": "108 MBH",
+              "kW": "31.8"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "174 MBH total, 164 MBH sensible",
+              "GPM": "34.8"
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-01.1 to 10",
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "specifications": {
+            "service": "Support Level 01",
+            "type": "SZVAV",
+            "airflow": "9,575 CFM",
+            "minOA": "2,394 CFM",
+            "motor": "20 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "80°F",
+              "capacity": "179 MBH",
+              "kW": "52.4"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "287 MBH total, 271 MBH sensible",
+              "GPM": "57.5"
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-01.10 to 14",
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "specifications": {
+            "service": "Fitness Level 01",
+            "type": "SZVAV",
+            "airflow": "2,700 CFM",
+            "minOA": "675 CFM",
+            "motor": "5 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "80°F",
+              "capacity": "50 MBH",
+              "kW": "14.8"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "81 MBH total, 76 MBH sensible",
+              "GPM": "16.2"
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-01.14 to 20",
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "specifications": {
+            "service": "Spa Level 01",
+            "type": "SZVAV",
+            "airflow": "6,261 CFM",
+            "minOA": "1,565 CFM",
+            "motor": "10 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "80°F",
+              "capacity": "117 MBH",
+              "kW": "34.3"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "188 MBH total, 177 MBH sensible",
+              "GPM": "37.6"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Guest Room Fan Coil Units",
+      "notes": "Vertical high-rise units with chilled water cooling and electric heating, featuring 2-pipe configuration.",
+      "items": [
+        {
+          "equipmentTag": "FCU-A",
+          "manufacturer": "IEC",
+          "model": "MUY",
+          "specifications": {
+            "service": "Standard Guestroom",
+            "supply": {
+              "CFM": "300",
+              "HP": "1/2",
+              "outsideAir": "35"
+            },
+            "cooling": {
+              "capacity": "8.7 MBH total, 7.7 MBH sensible",
+              "DB": "55.0°F",
+              "WB": "54.5°F",
+              "GPM": "1.7"
+            },
+            "heating": {
+              "LAT": "85.0°F",
+              "kW": "1.5",
+              "capacity": "5.1 MBH"
+            },
+            "electrical": {
+              "volt": "120",
+              "phase": "1",
+              "Hz": "60"
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-B",
+          "manufacturer": "IEC",
+          "model": "MUY",
+          "specifications": {
+            "service": "One Bedroom Suite",
+            "supply": {
+              "CFM": "500",
+              "HP": "3/4",
+              "outsideAir": "35"
+            },
+            "cooling": {
+              "capacity": "13.9 MBH total, 11.9 MBH sensible",
+              "DB": "55.0°F",
+              "WB": "54.5°F",
+              "GPM": "2.8"
+            },
+            "heating": {
+              "LAT": "85.0°F",
+              "kW": "2.5",
+              "capacity": "8.5 MBH"
+            },
+            "electrical": {
+              "volt": "120",
+              "phase": "1",
+              "Hz": "60"
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-C",
+          "manufacturer": "IEC",
+          "model": "MUY",
+          "specifications": {
+            "service": "Casitas",
+            "supply": {
+              "CFM": "800",
+              "HP": "3/4",
+              "outsideAir": "50"
+            },
+            "cooling": {
+              "capacity": "21.9 MBH total, 18.7 MBH sensible",
+              "DB": "55.0°F",
+              "WB": "54.5°F",
+              "GPM": "4.4"
+            },
+            "heating": {
+              "LAT": "84.0°F",
+              "kW": "3.5",
+              "capacity": "11.9 MBH"
+            },
+            "electrical": {
+              "volt": "120",
+              "phase": "1",
+              "Hz": "60"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dedicated Outdoor Air Systems",
+      "notes": "DOAS units provide conditioned outdoor air to spaces.",
+      "items": [
+        {
+          "equipmentTag": "DOAS-1.1",
+          "manufacturer": "Daikin Applied",
+          "model": "Dedicated Outdoor-Air Unit",
+          "specifications": {
+            "service": "Spa Fresh Air",
+            "level": "Level 01",
+            "type": "VAV",
+            "airflow": "2,240 CFM",
+            "motor": "5 HP, 480V, 3 phase",
+            "VFD": "Yes",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "105 MBH sensible",
+              "kW": "31"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 54.5°F WB",
+              "capacity": "169 MBH total, 135 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "25.1"
+            },
+            "features": "Has a total energy recovery wheel"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Kitchen Make-up Air Units",
+      "notes": "Provides tempered make-up air for kitchen exhaust hoods.",
+      "items": [
+        {
+          "equipmentTag": "MAU-0.1",
+          "manufacturer": "",
+          "model": "Kitchen Make-up Air Unit",
+          "specifications": {
+            "service": "Basement Kitchen",
+            "airflow": "2,730 CFM",
+            "motor": "2 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "65°F",
+              "capacity": "89 MBH",
+              "kW": "26"
+            },
+            "cooling": {
+              "LAT": "65.0°F DB, 64.5°F WB",
+              "capacity": "125 MBH total, 135 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "57°F",
+              "GPM": "16.6"
+            }
+          }
+        },
+        {
+          "equipmentTag": "MAU-1.1",
+          "manufacturer": "",
+          "model": "Kitchen Make-up Air Unit",
+          "specifications": {
+            "service": "Main Kitchen",
+            "airflow": "9,660 CFM",
+            "motor": "7.5 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "65°F",
+              "capacity": "315 MBH",
+              "kW": "92"
+            },
+            "cooling": {
+              "LAT": "65.0°F DB, 64.5°F WB",
+              "capacity": "441 MBH total, 479 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "57°F",
+              "GPM": "58.7"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Indoor Air Handling Units",
+      "notes": "Packaged water-cooled units for indoor installation.",
+      "items": [
+        {
+          "equipmentTag": "AHU-0.1",
+          "manufacturer": "Daikin Applied",
+          "model": "Daikin AHU",
+          "specifications": {
+            "service": "Basement Kitchen",
+            "type": "SZVAV",
+            "airflow": "8,280 CFM",
+            "minOA": "2,484 CFM",
+            "motor": "20 HP, 480V, 3Ph",
+            "heating": {
+              "LAT": "78°F",
+              "capacity": "178 MBH sensible",
+              "kW": "52"
+            },
+            "cooling": {
+              "LAT": "55.0°F DB, 53.5°F WB",
+              "capacity": "389 MBH total, 264 MBH sensible",
+              "EWT": "42°F",
+              "LWT": "56°F",
+              "GPM": "57.7"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Switchboards",
+      "notes": "Main electrical distribution equipment.",
+      "items": [
+        {
+          "equipmentTag": "SWBDs",
+          "manufacturer": "Schneider Electric",
+          "model": "QED",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Panelboards",
+      "notes": "Electrical distribution panelboards.",
+      "items": [
+        {
+          "equipmentTag": "Panelboards",
+          "manufacturer": "Schneider Electric",
+          "model": "NQOD",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "Panelboards",
+          "manufacturer": "Schneider Electric",
+          "model": "NF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "Panelboards",
+          "manufacturer": "Schneider Electric",
+          "model": "I-line",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Low-Voltage Transformers",
+      "notes": "Power distribution transformers.",
+      "items": [
+        {
+          "equipmentTag": "Transformers",
+          "manufacturer": "Schneider Electric",
+          "model": "Low Voltage Distribution Transformers, Three Phase",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Diesel Engine Generators",
+      "notes": "Emergency power backup.",
+      "items": [
+        {
+          "equipmentTag": "Gen-1",
+          "manufacturer": "Cummins Inc",
+          "model": "C400D6",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Automatic Transfer Switches",
+      "notes": "Switches between utility and emergency power.",
+      "items": [
+        {
+          "equipmentTag": "ATSs",
+          "manufacturer": "Schneider Electric",
+          "model": "ASCO 300 Series",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

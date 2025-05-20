@@ -1,0 +1,382 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Custom indoor central-station air-handling units",
+      "items": [
+        {
+          "equipmentTag": "AHU-1",
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-2",
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-3",
+          "manufacturer": "Energy Labs",
+          "model": "C661364-C",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-4",
+          "manufacturer": "Energy Labs",
+          "model": "C661364-C",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Exhaust fans",
+      "items": [
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EF-4",
+          "manufacturer": "Greenheck",
+          "model": "CUE-100B-VG",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Air Conditioners",
+      "notes": "Condensing units with matching fan coil units",
+      "items": [
+        {
+          "equipmentTag": "CU-1",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-2",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-3",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-4",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-5",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-6",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-7",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-8",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Indoor units paired with condensing units",
+      "items": [
+        {
+          "equipmentTag": "FCU-1",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-2",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-3",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-4",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-5",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-6",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "FCU-7",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Terminal Units",
+      "notes": "DESV model variable-air-volume and constant-air-volume terminal units",
+      "items": [
+        {
+          "equipmentTag": "CAV-3-10",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CAV-3-11",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CAV-3-4",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CAV-3-9",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CAV-4-12",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-1",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-12A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-12B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-13A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-13B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-14",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-15",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-2",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-3",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-5",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-6",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-7",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-3-8",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-10",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-11",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-13",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-1A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-1B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-2",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-3A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-3B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-4",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-5",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-6A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-6B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-6C",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-7A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-7B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-8",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-4-9",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

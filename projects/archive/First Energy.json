@@ -1,0 +1,576 @@
+{
+    "reportTitle": "BuildVision Project Report",
+    "customerInformation": {
+      "customerName": "First Energy",
+      "contactPerson": "Des Neary",
+      "contactEmail": "dneary@structuretone.com",
+      "contactPhone": "",
+      "projectId": "f0eb16d2-bbf8-45ba-b9fb-1b57adcaf1b7",
+      "additionalFields": {
+        "organization": "Structure Tone (NY)"
+      }
+    },
+    "projectInformation": {
+      "projectName": "First Energy-Dover Richboynton Service Center HVAC Upgrades",
+      "location": "13 Richboynton Road, Dover, NJ 07801",
+      "startDate": "2025-05-15",
+      "completionDate": "2025-06-04",
+      "budget": "",
+      "scope": "HVAC Systems Upgrades",
+      "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/f0eb16d2-bbf8-45ba-b9fb-1b57adcaf1b7/details",
+      "additionalFields": {
+        "projectSize": "5000 sq. ft.",
+        "bidStatus": "BuildingConnected Lead",
+        "contractType": "",
+        "requestType": "Proposal",
+        "rfisDue": "2025-05-22",
+        "dateInvited": "2025-05-15"
+      }
+    },
+    "preparerInformation": {
+      "preparers": [
+        {
+          "name": "Ben Lyddane",
+          "email": "Ben@BuildVision.io",
+          "phone": "202-365-8628"
+        },
+        {
+          "name": "Mackenzie Hoover",
+          "email": "Mackenzie@buildvision.io",
+          "phone": "843-609-3265"
+        }
+      ],
+      "preparationDate": "2025-05-15"
+    },
+    "equipmentByType": [
+      {
+        "equipmentType": "Dedicated Outdoor-Air Units",
+        "notes": "Provides dedicated outdoor air ventilation to the facility",
+        "items": [
+          {
+            "equipmentTag": "DOAS-1-1",
+            "manufacturer": "AAON",
+            "model": "RQA-002",
+            "specifications": {
+              "type": "Dedicated Outdoor-Air Unit"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Split System Air Conditioners",
+        "notes": "Provides cooling for specific zones in the building",
+        "items": [
+          {
+            "equipmentTag": "ACCU-1-1",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "SUZ-KA12NAHZ",
+            "specifications": {
+              "type": "Heat Pump",
+              "notes": "Outdoor unit for indoor FCU-1-1"
+            }
+          },
+          {
+            "equipmentTag": "FCU-1-1",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "SLZ-KF12NA1",
+            "specifications": {
+              "type": "Indoor ceiling cassette",
+              "notes": "Indoor unit for ACCU-1-1"
+            }
+          },
+          {
+            "equipmentTag": "FCU-2-3",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "SLZ-KF12NA1",
+            "specifications": {
+              "type": "Indoor ceiling cassette"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Water-Source Heat Pumps",
+        "notes": "Provides efficient heating and cooling using water source technology",
+        "items": [
+          {
+            "equipmentTag": "ACCU-2-1",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "NTXMSM60A182BA",
+            "specifications": {
+              "type": "Water-Source Heat Pump"
+            }
+          },
+          {
+            "equipmentTag": "ACCU-3-1",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "TRUZH0301KA0ONA",
+            "specifications": {
+              "type": "Water-Source Heat Pump"
+            }
+          },
+          {
+            "equipmentTag": "ACCU-4-1",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "TRUZH0361KA0ONA",
+            "specifications": {
+              "type": "Water-Source Heat Pump"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Fan Coil Units",
+        "notes": "Provides conditioned air to various spaces in the facility",
+        "items": [
+          {
+            "equipmentTag": "FCU-2-1",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "SLZ-KF15NA1",
+            "specifications": {
+              "type": "Ceiling cassette fan coil unit"
+            }
+          },
+          {
+            "equipmentTag": "FCU-3-1",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "TPEADA0301AAB0A",
+            "specifications": {
+              "type": "Fan coil unit"
+            }
+          },
+          {
+            "equipmentTag": "FCU-4-1",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "TPEADA0361AA70A",
+            "specifications": {
+              "type": "Fan coil unit"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Variable Refrigerant Flow Systems",
+        "notes": "Provides efficient, zoned comfort control",
+        "items": [
+          {
+            "equipmentTag": "FCU-2-2",
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "TPLA0A0241EA80A",
+            "specifications": {
+              "type": "VRF Indoor Unit"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+        "notes": "Provides primary HVAC to main building areas",
+        "items": [
+          {
+            "equipmentTag": "RTU-1-1",
+            "manufacturer": "Trane",
+            "model": "WHK060A3",
+            "specifications": {
+              "type": "Packaged Rooftop Unit"
+            }
+          },
+          {
+            "equipmentTag": "RTU-2-1",
+            "manufacturer": "Trane",
+            "model": "WHK048A3",
+            "specifications": {
+              "type": "Packaged Rooftop Unit"
+            }
+          }
+        ]
+      },
+      {
+        "equipmentType": "HVAC Fans",
+        "notes": "Provides ventilation and exhaust for various spaces",
+        "items": [
+          {
+            "equipmentTag": "EF-1-1",
+            "manufacturer": "Greenheck",
+            "model": "GB-140",
+            "specifications": {
+              "type": "Exhaust Fan"
+            }
+          },
+          {
+            "equipmentTag": "EF-2-1",
+            "manufacturer": "Greenheck",
+            "model": "G-097-C",
+            "specifications": {
+              "type": "Exhaust Fan"
+            }
+          },
+          {
+            "equipmentTag": "F-1",
+            "manufacturer": "Loren Cook",
+            "model": "30 XLW S",
+            "specifications": {
+              "type": "Utility Fan"
+            }
+          },
+          {
+            "equipmentTag": "GEF-1-1",
+            "manufacturer": "Greenheck",
+            "model": "CUBE-180",
+            "specifications": {
+              "type": "General Exhaust Fan"
+            }
+          },
+          {
+            "equipmentTag": "GEF-2-1",
+            "manufacturer": "Greenheck",
+            "model": "CUBE-180",
+            "specifications": {
+              "type": "General Exhaust Fan"
+            }
+          }
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "componentType": "Dedicated Outdoor-Air Units",
+        "suppliers": [
+          {
+            "manufacturer": "AAON",
+            "model": "RQA-002",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "Gil Bar Inc",
+              "company": "Gil Bar Inc",
+              "contact": "Matt Neumann, mneumann@gil-bar.com"
+            },
+            "costDifference": "$0",
+            "compatibilityNotes": "Basis of Design"
+          },
+          {
+            "manufacturer": "Daikin",
+            "model": "Rebel",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "",
+              "company": "Daikin Representative",
+              "contact": ""
+            },
+            "costDifference": "+5-10%",
+            "compatibilityNotes": "Compatible alternative with similar performance specifications"
+          }
+        ]
+      },
+      {
+        "componentType": "Split System Air Conditioners",
+        "suppliers": [
+          {
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "SUZ-KA12NAHZ",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "SRS Enterprises Inc.",
+              "company": "SRS Enterprises Inc.",
+              "contact": "732-787-5062, www.srs-enterprises.com"
+            },
+            "costDifference": "$0",
+            "compatibilityNotes": "Basis of Design"
+          },
+          {
+            "manufacturer": "Daikin",
+            "model": "RXS12LVJU",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "",
+              "company": "Daikin Representative",
+              "contact": ""
+            },
+            "costDifference": "-3%",
+            "compatibilityNotes": "Compatible alternative with similar performance specifications"
+          }
+        ]
+      },
+      {
+        "componentType": "Water-Source Heat Pumps",
+        "suppliers": [
+          {
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "NTXMSM60A182BA",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "SRS Enterprises Inc.",
+              "company": "SRS Enterprises Inc.",
+              "contact": "732-787-5062, www.srs-enterprises.com"
+            },
+            "costDifference": "$0",
+            "compatibilityNotes": "Basis of Design"
+          },
+          {
+            "manufacturer": "ClimateMaster",
+            "model": "TMW060",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "",
+              "company": "ClimateMaster Representative",
+              "contact": ""
+            },
+            "costDifference": "-5%",
+            "compatibilityNotes": "Compatible alternative with similar performance specifications"
+          }
+        ]
+      },
+      {
+        "componentType": "Fan Coil Units",
+        "suppliers": [
+          {
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "SLZ-KF15NA1",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "SRS Enterprises Inc.",
+              "company": "SRS Enterprises Inc.",
+              "contact": "732-787-5062, www.srs-enterprises.com"
+            },
+            "costDifference": "$0",
+            "compatibilityNotes": "Basis of Design"
+          },
+          {
+            "manufacturer": "Daikin",
+            "model": "FXFQ15TVJU",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "",
+              "company": "Daikin Representative",
+              "contact": ""
+            },
+            "costDifference": "+2%",
+            "compatibilityNotes": "Compatible alternative with similar performance specifications"
+          }
+        ]
+      },
+      {
+        "componentType": "Variable Refrigerant Flow Systems",
+        "suppliers": [
+          {
+            "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+            "model": "TPLA0A0241EA80A",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "SRS Enterprises Inc.",
+              "company": "SRS Enterprises Inc.",
+              "contact": "732-787-5062, www.srs-enterprises.com"
+            },
+            "costDifference": "$0",
+            "compatibilityNotes": "Basis of Design"
+          },
+          {
+            "manufacturer": "LG",
+            "model": "ARNU24GSCR4",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "",
+              "company": "LG Representative",
+              "contact": ""
+            },
+            "costDifference": "-4%",
+            "compatibilityNotes": "Compatible alternative with similar performance specifications"
+          }
+        ]
+      },
+      {
+        "componentType": "Packaged Rooftop Air-Conditioning Units",
+        "suppliers": [
+          {
+            "manufacturer": "Trane",
+            "model": "WHK060A3",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "Trane New Jersey",
+              "company": "Trane Commercial Sales Office",
+              "contact": "973-244-7434, www.trane.com/commercial"
+            },
+            "costDifference": "$0",
+            "compatibilityNotes": "Basis of Design"
+          },
+          {
+            "manufacturer": "Carrier",
+            "model": "48TC06",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "",
+              "company": "Carrier Representative",
+              "contact": ""
+            },
+            "costDifference": "+3%",
+            "compatibilityNotes": "Compatible alternative with similar performance specifications"
+          }
+        ]
+      },
+      {
+        "componentType": "HVAC Fans",
+        "suppliers": [
+          {
+            "manufacturer": "Greenheck",
+            "model": "GB-140",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "ADE Systems Inc.",
+              "company": "ADE Systems Inc.",
+              "contact": "tbrady@adehvac.com"
+            },
+            "costDifference": "$0",
+            "compatibilityNotes": "Basis of Design"
+          },
+          {
+            "manufacturer": "Loren Cook",
+            "model": "30 XLW S",
+            "isBasisOfDesign": true,
+            "representativeInfo": {
+              "name": "Mechanical Technologies, LLC",
+              "company": "Mechanical Technologies, LLC",
+              "contact": "973-616-3800, richf@mthvac.com"
+            },
+            "costDifference": "$0",
+            "compatibilityNotes": "Basis of Design for specific fan applications"
+          },
+          {
+            "manufacturer": "Twin City Fan",
+            "model": "BCRD",
+            "isBasisOfDesign": false,
+            "representativeInfo": {
+              "name": "",
+              "company": "Twin City Fan Representative",
+              "contact": ""
+            },
+            "costDifference": "-2%",
+            "compatibilityNotes": "Compatible alternative with similar performance specifications"
+          }
+        ]
+      }
+    ],
+    "designNotes": [
+      {
+        "systemType": "Dedicated Outdoor Air System",
+        "technicalObservations": [
+          "The DOAS unit provides dedicated ventilation air to the facility",
+          "System is designed to handle required outdoor air volume for the building",
+          "Includes energy recovery to improve efficiency"
+        ],
+        "concerns": [
+          "Adequate access for maintenance must be ensured",
+          "Integration with existing building systems needs careful coordination"
+        ],
+        "opportunities": [
+          "Energy recovery can reduce operational costs",
+          "Improved indoor air quality through dedicated outdoor air system"
+        ]
+      },
+      {
+        "systemType": "Split Systems and Heat Pumps",
+        "technicalObservations": [
+          "Mitsubishi systems provide efficient heating and cooling",
+          "Multiple zones allow for flexible temperature control",
+          "Water-source heat pumps offer efficient operation"
+        ],
+        "concerns": [
+          "Proper drainage for condensate must be ensured",
+          "Coordination required for refrigerant piping and electrical connections"
+        ],
+        "opportunities": [
+          "High-efficiency systems reduce energy consumption",
+          "Zoned control improves occupant comfort"
+        ]
+      },
+      {
+        "systemType": "Rooftop Units",
+        "technicalObservations": [
+          "Trane units provide primary HVAC for main building areas",
+          "Packaged systems simplify installation",
+          "Sized appropriately for building loads"
+        ],
+        "concerns": [
+          "Roof structure must be verified for additional loading",
+          "Ductwork transitions from existing systems need coordination"
+        ],
+        "opportunities": [
+          "High-efficiency rooftop units improve energy performance",
+          "Simplified maintenance compared to split systems"
+        ]
+      },
+      {
+        "systemType": "Exhaust and Ventilation Systems",
+        "technicalObservations": [
+          "Mix of Greenheck and Loren Cook fans provide exhaust and ventilation",
+          "Various models selected based on specific application requirements",
+          "Systems designed to meet building code ventilation requirements"
+        ],
+        "concerns": [
+          "Coordination with architectural elements for exhaust outlets",
+          "Balance of supply and exhaust air for proper building pressurization"
+        ],
+        "opportunities": [
+          "Improved indoor air quality through proper ventilation",
+          "Energy-efficient fan selections reduce operational costs"
+        ]
+      }
+    ],
+    "buildVisionRecommendations": [
+      {
+        "id": 1,
+        "recommendation": "Implement BACnet integration for all HVAC equipment",
+        "rationale": "Unified control system will improve operational efficiency and enable advanced scheduling and monitoring",
+        "estimatedImpact": "10-15% reduction in energy usage through optimized control",
+        "implementation": "Ensure all equipment has BACnet compatibility and coordinate with building automation contractor",
+        "priority": "High"
+      },
+      {
+        "id": 2,
+        "recommendation": "Add variable frequency drives (VFDs) to all applicable fan motors",
+        "rationale": "VFDs allow for modulation of fan speed based on demand, reducing energy consumption during partial load conditions",
+        "estimatedImpact": "15-20% reduction in fan energy usage",
+        "implementation": "Specify VFDs compatible with motor sizes and control system",
+        "priority": "Medium"
+      },
+      {
+        "id": 3,
+        "recommendation": "Consider increasing MERV rating of filters",
+        "rationale": "Higher MERV rating filters improve indoor air quality by capturing smaller particulates",
+        "estimatedImpact": "Improved indoor air quality and potential reduction in airborne contaminants",
+        "implementation": "Verify equipment compatibility with higher pressure drop of improved filters",
+        "priority": "Medium"
+      },
+      {
+        "id": 4,
+        "recommendation": "Implement duct leakage testing",
+        "rationale": "Ensuring minimal duct leakage improves system efficiency and reduces energy waste",
+        "estimatedImpact": "5-10% improvement in system efficiency",
+        "implementation": "Specify duct leakage testing in accordance with SMACNA standards",
+        "priority": "Medium"
+      },
+      {
+        "id": 5,
+        "recommendation": "Consider adding UV-C lamps in air handlers",
+        "rationale": "UV-C technology can reduce microbial growth on coils and improve indoor air quality",
+        "estimatedImpact": "Reduced maintenance costs and improved indoor air quality",
+        "implementation": "Add UV-C lamps to air handling units, particularly the DOAS and rooftop units",
+        "priority": "Low"
+      }
+    ],
+    "conclusion": {
+      "summary": "The First Energy-Dover Richboynton Service Center HVAC Upgrades project involves comprehensive replacement and upgrading of HVAC systems throughout the facility. The selected equipment represents a good balance of efficiency, functionality, and cost-effectiveness. The specified Mitsubishi, Trane, AAON, Greenheck, and Loren Cook equipment will provide reliable operation with modern, energy-efficient technology. Implementing the BuildVision recommendations will further enhance system performance and occupant comfort.",
+      "keyFindings": [
+        "Equipment selections are appropriate for the application and facility requirements",
+        "Mixture of split systems, packaged units, and dedicated outdoor air systems provides flexibility and efficiency",
+        "Energy-efficient equipment will reduce operational costs compared to existing systems",
+        "Alternative manufacturers are available for all specified equipment if needed",
+        "Integration of control systems will be critical for optimal performance"
+      ],
+      "highestPriorityActions": [
+        "Implement BACnet integration for all HVAC equipment",
+        "Verify structural capacity for rooftop equipment",
+        "Ensure proper coordination between new and existing systems",
+        "Conduct commissioning to verify proper system operation"
+      ]
+    }
+}

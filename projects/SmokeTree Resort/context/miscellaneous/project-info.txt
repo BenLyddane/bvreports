@@ -1,0 +1,12 @@
+
+Project information for SmokeTree Resort
+====================================
+
+This is a sample context file for the SmokeTree Resort project.
+Real context files would contain specifications, schedules, and other project documents
+that Claude API can use to generate the JSON sections.
+
+The original JSON data has been split into separate section files and placed in:
+projects/SmokeTree Resort/sections
+
+This structure allows for modular generation and updating of individual sections.

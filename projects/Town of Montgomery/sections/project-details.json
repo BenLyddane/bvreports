@@ -1,0 +1,45 @@
+{
+  "reportTitle": "BuildVision Project Report",
+  "customerInformation": {
+    "customerName": "Town of Montgomery Police Station",
+    "contactPerson": "Matt Seckler",
+    "contactEmail": "mseckler@consigli.com",
+    "contactPhone": "845-391-1925",
+    "projectId": "TOM Police Station",
+    "additionalFields": {
+      "bidDueDate": "05/23/2025 02:00 PM",
+      "constructionManager": "Consigli Construction Co., Inc.",
+      "architect": "ADG Architects (Jason T. Anderson Architect, P.C.)",
+      "engineerOfRecord": "M/E Engineering (Schenectady, NY)"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Town of Montgomery Police Station HVAC System",
+    "location": "110 Bracken Road, Montgomery, NY 12549",
+    "startDate": "02-24-25",
+    "completionDate": "",
+    "budget": "",
+    "scope": "HVAC and Plumbing Systems Installation",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/abd1dc0d-febc-4c99-99d2-b34353de2b67/package-projects/d77d25a3-939c-4392-8c95-a5e383609476/packages",
+    "additionalFields": {
+      "designStage": "Bid Documents",
+      "projectStatus": "Bidding",
+      "applicableSpecifications": "22 0000 - Plumbing, 23 0000 - HVAC, 26 0000 - Electrical"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "05-14-25"
+  }
+}

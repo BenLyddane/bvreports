@@ -1,0 +1,219 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Dedicated Outdoor-Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "AAON",
+          "model": "RQA-002",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Gil Bar Inc",
+            "company": "Gil Bar Inc",
+            "contact": "Matt Neumann, mneumann@gil-bar.com"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Basis of Design"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Rebel",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Representative",
+            "contact": ""
+          },
+          "costDifference": "+5-10%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Split System Air Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "SUZ-KA12NAHZ",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "SRS Enterprises Inc.",
+            "company": "SRS Enterprises Inc.",
+            "contact": "732-787-5062, www.srs-enterprises.com"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Basis of Design"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "RXS12LVJU",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Representative",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Water-Source Heat Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "NTXMSM60A182BA",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "SRS Enterprises Inc.",
+            "company": "SRS Enterprises Inc.",
+            "contact": "732-787-5062, www.srs-enterprises.com"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Basis of Design"
+        },
+        {
+          "manufacturer": "ClimateMaster",
+          "model": "TMW060",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ClimateMaster Representative",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "SLZ-KF15NA1",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "SRS Enterprises Inc.",
+            "company": "SRS Enterprises Inc.",
+            "contact": "732-787-5062, www.srs-enterprises.com"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Basis of Design"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "FXFQ15TVJU",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Representative",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Variable Refrigerant Flow Systems",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "TPLA0A0241EA80A",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "SRS Enterprises Inc.",
+            "company": "SRS Enterprises Inc.",
+            "contact": "732-787-5062, www.srs-enterprises.com"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Basis of Design"
+        },
+        {
+          "manufacturer": "LG",
+          "model": "ARNU24GSCR4",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "LG Representative",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Packaged Rooftop Air-Conditioning Units",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "WHK060A3",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Trane New Jersey",
+            "company": "Trane Commercial Sales Office",
+            "contact": "973-244-7434, www.trane.com/commercial"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Basis of Design"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "48TC06",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Carrier Representative",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "GB-140",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "ADE Systems Inc.",
+            "company": "ADE Systems Inc.",
+            "contact": "tbrady@adehvac.com"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Basis of Design"
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "30 XLW S",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Mechanical Technologies, LLC",
+            "company": "Mechanical Technologies, LLC",
+            "contact": "973-616-3800, richf@mthvac.com"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Basis of Design for specific fan applications"
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "BCRD",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Twin City Fan Representative",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        }
+      ]
+    }
+  ]
+}

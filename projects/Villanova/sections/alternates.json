@@ -1,0 +1,349 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Packaged, Outdoor, Heating-Only Makeup-Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "CaptiveAire",
+          "model": "A2D Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Chris Stauffer",
+            "company": "CaptiveAire Systems",
+            "contact": "215-942-5900"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base model specified in design documents"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "MSX Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Klinger & Associates",
+            "company": "Greenheck Representative",
+            "contact": "717-939-9993"
+          },
+          "costDifference": "+5-10%",
+          "compatibilityNotes": "Compatible alternative, verify footprint and gas connection locations"
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "Hot Dawg Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Harry Eklof & Associates",
+            "company": "Modine Representative",
+            "contact": "301-468-1901"
+          },
+          "costDifference": "-3-5%",
+          "compatibilityNotes": "May require modifications to ductwork connections and controls interface"
+        }
+      ]
+    },
+    {
+      "componentType": "Automatic Condensate Pump Units",
+      "suppliers": [
+        {
+          "manufacturer": "Blue Diamond Pumps Inc.",
+          "model": "X87-721 MANULUC",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Harry Eklof & Associates",
+            "company": "Blue Diamond Pumps Representative",
+            "contact": "301-468-1901"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base model specified in design documents"
+        },
+        {
+          "manufacturer": "Little Giant",
+          "model": "VCMA Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "N.H. Yates & Co.",
+            "company": "Little Giant Representative",
+            "contact": "410-363-0300"
+          },
+          "costDifference": "-5-10%",
+          "compatibilityNotes": "Widely available alternative, verify power requirements and capacity"
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "CaptiveAire",
+          "model": "USDH-RM/DLX Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Chris Stauffer",
+            "company": "CaptiveAire Systems",
+            "contact": "215-942-5900"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base model specified for EF-1, EF-2, EF-3"
+        },
+        {
+          "manufacturer": "PennBarry",
+          "model": "DX Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "TriState HVAC Equipment",
+            "company": "PennBarry Representative",
+            "contact": "610-941-9100"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base model specified for EF-5"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "SQ/SP Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Klinger & Associates",
+            "company": "Greenheck Representative",
+            "contact": "717-939-9993"
+          },
+          "costDifference": "+2-8%",
+          "compatibilityNotes": "Compatible alternative, verify dimensions and electrical requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-80/E-1510 Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Cummins-Wagner Co.",
+            "company": "Bell & Gossett Representative",
+            "contact": "610-631-7700"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base models specified in design documents"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "FI/KS Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Harry Eklof & Associates",
+            "company": "Taco Representative",
+            "contact": "301-468-1901"
+          },
+          "costDifference": "-2-5%",
+          "compatibilityNotes": "Compatible alternative, confirm pump curves and electrical characteristics"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TP/HS Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Flow-Tech Inc.",
+            "company": "Grundfos Representative",
+            "contact": "215-429-9900"
+          },
+          "costDifference": "+5-10%",
+          "compatibilityNotes": "Premium efficiency models available, confirm flange dimensions and compatibility"
+        }
+      ]
+    },
+    {
+      "componentType": "Water-Source Heat Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "EXRK Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Trane Philadelphia",
+            "company": "Trane Technologies",
+            "contact": "215-244-6900"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base models specified in design documents"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "SmartSource Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Metro Group",
+            "company": "Daikin Representative",
+            "contact": "610-668-0110"
+          },
+          "costDifference": "+3-7%",
+          "compatibilityNotes": "Verify dimensions, connection locations, and control compatibility"
+        },
+        {
+          "manufacturer": "ClimateMaster",
+          "model": "Tranquility Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "United CoolAir",
+            "company": "ClimateMaster Representative",
+            "contact": "717-843-4311"
+          },
+          "costDifference": "-2-5%",
+          "compatibilityNotes": "May require different control interface, verify dimensions and connection points"
+        }
+      ]
+    },
+    {
+      "componentType": "Closed-Circuit, Forced-Draft Cooling Towers",
+      "suppliers": [
+        {
+          "manufacturer": "EVAPCO",
+          "model": "ATWB Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Clancy & Theys",
+            "company": "EVAPCO Representative",
+            "contact": "410-918-2400"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base model specified in design documents"
+        },
+        {
+          "manufacturer": "Baltimore Aircoil Company (BAC)",
+          "model": "FXV Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Havtech",
+            "company": "BAC Representative",
+            "contact": "301-206-9225"
+          },
+          "costDifference": "+8-12%",
+          "compatibilityNotes": "Premium alternative, verify footprint, connection locations, and structural requirements"
+        },
+        {
+          "manufacturer": "SPX Cooling Technologies (Marley)",
+          "model": "NC Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Eastern Hydrotech",
+            "company": "SPX/Marley Representative",
+            "contact": "717-898-6500"
+          },
+          "costDifference": "+5-8%",
+          "compatibilityNotes": "Verify physical dimensions, structural requirements, and water treatment compatibility"
+        }
+      ]
+    },
+    {
+      "componentType": "Radiators",
+      "suppliers": [
+        {
+          "manufacturer": "Sterling HVAC",
+          "model": "RW/F Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "R.D. Bitzer",
+            "company": "Sterling HVAC Representative",
+            "contact": "610-363-6000"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base models specified in design documents"
+        },
+        {
+          "manufacturer": "Rittling",
+          "model": "Cabinet Unit Heaters",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Harry Eklof & Associates",
+            "company": "Rittling Representative",
+            "contact": "301-468-1901"
+          },
+          "costDifference": "+3-7%",
+          "compatibilityNotes": "Compatible alternative, verify dimensions and connection points"
+        }
+      ]
+    },
+    {
+      "componentType": "Dedicated Outdoor-Air Units and Rooftop Units",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "OADG/YCH Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "Trane Philadelphia",
+            "company": "Trane Technologies",
+            "contact": "215-244-6900"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base models specified in design documents"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Rebel/Rooftop Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Metro Group",
+            "company": "Daikin Representative",
+            "contact": "610-668-0110"
+          },
+          "costDifference": "+5-10%",
+          "compatibilityNotes": "Verify dimensions, weight, connection points, and controls compatibility"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "62X/48HC Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Elliott-Lewis Corporation",
+            "company": "Carrier Representative",
+            "contact": "215-698-5000"
+          },
+          "costDifference": "+2-6%",
+          "compatibilityNotes": "Compatible alternative, verify footprint, connection locations, and controls"
+        }
+      ]
+    },
+    {
+      "componentType": "Variable Refrigerant Flow Systems",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PKA/PUY Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "H&H Commercial Services",
+            "company": "Mitsubishi Electric Representative",
+            "contact": "267-803-4920"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Base models specified in design documents"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "VRV System",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Metro Group",
+            "company": "Daikin Representative",
+            "contact": "610-668-0110"
+          },
+          "costDifference": "-3-8%",
+          "compatibilityNotes": "May require reconfiguration of refrigerant piping and controls"
+        },
+        {
+          "manufacturer": "LG Electronics",
+          "model": "Multi V Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "Stillman Equipment Corporation",
+            "company": "LG HVAC Representative",
+            "contact": "215-442-0700"
+          },
+          "costDifference": "-5-10%",
+          "compatibilityNotes": "Verify compatibility with building management system and refrigerant line sizing"
+        }
+      ]
+    }
+  ]
+}

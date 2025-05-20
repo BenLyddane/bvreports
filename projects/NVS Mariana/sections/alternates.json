@@ -1,0 +1,250 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Vision",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Applied",
+            "contact": ""
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "High energy efficiency with advanced control options and modular design. Premium price point but excellent for laboratory applications with highly configurable options."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Performance Climate Changer",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Robust construction with excellent reliability and comprehensive controls. Higher initial cost but exceptionally reliable for critical laboratory applications."
+        },
+        {
+          "manufacturer": "Energy Labs",
+          "model": "Custom AHU",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Energy Labs",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Custom-engineered solutions with high energy efficiency, specifically designed for laboratory applications. Longer lead times but superior for complex laboratory requirements."
+        }
+      ]
+    },
+    {
+      "componentType": "Heat Recovery Units",
+      "suppliers": [
+        {
+          "manufacturer": "Thermotech Enterprises",
+          "model": "LabRecover",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Thermotech Enterprises",
+            "contact": ""
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "High recovery efficiency (up to 90%) with robust construction specifically designed for laboratory applications. Premium pricing but excellent performance."
+        },
+        {
+          "manufacturer": "XeteX",
+          "model": "AirMatrix",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "XeteX",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Versatile technology options with custom engineering capabilities for specialized laboratory environments. Less widespread service network but strong technical capabilities."
+        },
+        {
+          "manufacturer": "Engineered Air",
+          "model": "FW Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Engineered Air",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Durable construction specialized for industrial applications including forge labs with potential contaminants. Less aesthetic design but extremely robust."
+        }
+      ]
+    },
+    {
+      "componentType": "Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaEdge 19DV",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Carrier",
+            "contact": ""
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "High reliability with excellent service network and wide capacity range. Strong performance record in critical laboratory applications."
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Magnitude WMC",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Applied",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Advanced magnetic bearing technology with excellent efficiency and low-noise operation. Premium pricing but superior part-load efficiency for variable laboratory loads."
+        },
+        {
+          "manufacturer": "Smardt Chiller Group",
+          "model": "WA Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Smardt Chiller Group",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Oil-free magnetic bearing technology with exceptional efficiency and reduced maintenance requirements. Higher initial cost but lower lifecycle cost."
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Armstrong",
+          "model": "Design Envelope",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Armstrong",
+            "contact": ""
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "High efficiency with integrated controls and extensive selection options. Excellent for variable flow applications with integrated intelligence."
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "MAGNA3/TPE Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Grundfos",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High reliability with advanced monitoring and energy-efficient EC motors. Superior energy efficiency with advanced diagnostic capabilities."
+        },
+        {
+          "manufacturer": "Bell & Gossett (Xylem)",
+          "model": "e-Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Bell & Gossett (Xylem)",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Widespread availability with extensive service network and proven reliability. Solid performance with excellent parts and service availability."
+        }
+      ]
+    },
+    {
+      "componentType": "Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "Vektor-H",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Greenheck",
+            "contact": ""
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Laboratory-specific high plume exhaust fans with excellent dispersion characteristics. Premium pricing but purpose-built for laboratory applications."
+        },
+        {
+          "manufacturer": "Twin City Fan & Blower",
+          "model": "Aerovent Laboratory Exhaust",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Twin City Fan & Blower",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Custom engineering capabilities with robust construction suitable for forge lab applications. Competitive pricing with strong performance."
+        },
+        {
+          "manufacturer": "Loren Cook Company",
+          "model": "Centrex Vane",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Loren Cook Company",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Reliable construction with good support and competitive pricing. Solid performance focused on reliability and maintenance accessibility."
+        }
+      ]
+    },
+    {
+      "componentType": "Steam Generators",
+      "suppliers": [
+        {
+          "manufacturer": "Sussman Electric Boilers",
+          "model": "MBA Series",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Sussman Electric Boilers",
+            "contact": ""
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Compact design with stainless steel construction and clean steam capability. Excellent for laboratory applications requiring pure steam."
+        },
+        {
+          "manufacturer": "Electro-Steam",
+          "model": "ESG Series",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Electro-Steam",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Long track record with reliable performance specifically designed for laboratory applications. Strong performance in medical and pharmaceutical settings."
+        },
+        {
+          "manufacturer": "BMT USA",
+          "model": "Steam Master",
+          "isBasisOfDesign": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "BMT USA",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pure and clean steam options with GMP-compliant designs for critical applications. Premium pricing but superior for pharmaceutical and critical laboratory applications."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Conduct thorough supplier evaluations",
+      "rationale": "Carefully assessing suppliers' capabilities, quality, reliability and pricing will help select the best vendors for critical resort equipment and ensure on-time delivery of high-quality products at optimal costs.",
+      "estimatedImpact": "Proper supplier selection can lead to 10-15% cost savings on major equipment purchases while reducing risks of quality issues or delays.",
+      "implementation": "1. Define key criteria for evaluating suppliers. 2. Request proposals from multiple qualified vendors. 3. Assess proposals based on defined criteria. 4. Conduct site visits/audits of top candidates. 5. Select suppliers that provide best overall value. 6. Establish QA processes and KPIs to monitor ongoing performance.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Leverage volume discounts",
+      "rationale": "Bundling equipment purchases into larger orders where possible will provide opportunities to negotiate volume-based discounts from suppliers, reducing overall procurement costs.",
+      "estimatedImpact": "Volume discounts can typically provide 5-20% savings depending on the supplier and size of orders.",
+      "implementation": "1. Analyze equipment needs to identify opportunities for bundling purchases. 2. Request volume discount quotes from suppliers on larger orders. 3. Evaluate cost savings against storage, logistical and cash flow considerations. 4. Negotiate favorable terms and lead times for volume purchases. 5. Place bundled orders strategically to optimize discounts and project timelines.",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Explore leasing options for select equipment",
+      "rationale": "Leasing can be a cost-effective option for some equipment by reducing upfront capital expenditure, providing tax advantages, and ensuring access to updated models in the future.",
+      "estimatedImpact": "Leasing can reduce upfront equipment costs by 10-30% in many cases, improving cash flow. However, total cost of ownership should be analyzed for each leasing decision.",
+      "implementation": "1. Identify resort equipment that could be good candidates for leasing based on anticipated usage, lifetime, maintenance needs, etc. 2. Obtain quotes from equipment leasing providers. 3. Conduct a cost/benefit analysis of leasing vs. purchase. 4. For items where leasing is advantageous, negotiate favorable rates and terms. 5. Establish processes for managing and returning leased equipment.",
+      "priority": "Low"
+    }
+  ]
+}

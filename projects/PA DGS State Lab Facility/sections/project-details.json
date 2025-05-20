@@ -1,0 +1,42 @@
+{
+  "reportTitle": "BuildVision Project Report - Pennsylvania State Laboratory Facility",
+  "customerInformation": {
+    "customerName": "Pennsylvania Department of General Services",
+    "contactPerson": "Project Manager, DGS",
+    "contactEmail": "projects@dgs.pa.gov",
+    "contactPhone": "717-787-5000",
+    "projectId": "1050-1 PHASE 1",
+    "additionalFields": {
+      "location": "Harrisburg, PA",
+      "projectType": "Laboratory Facility"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Pennsylvania State Laboratory Facility",
+    "location": "Harrisburg, PA",
+    "startDate": "2023-05-12",
+    "completionDate": "2025-12-31",
+    "budget": "Not specified in documentation",
+    "scope": "Construction of a new state laboratory facility including mechanical, electrical, plumbing, fire protection, and laboratory equipment systems",
+    "projectUrl": "",
+    "additionalFields": {
+      "projectPhase": "Documentation Phase 1",
+      "lastUpdated": "2024-11-25"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "267-281-4339"
+      }
+    ],
+    "preparationDate": "2025-05-14"
+  }
+}

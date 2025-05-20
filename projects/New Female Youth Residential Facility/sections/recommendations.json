@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement comprehensive testing and balancing of the VRF and geothermal systems",
+      "rationale": "Proper system balancing is critical for optimal performance of water-source VRF systems and will ensure designed flow rates are achieved at all heat pumps",
+      "estimatedImpact": "Properly balanced systems can result in 10-15% energy savings and prevent issues with insufficient flow through heat exchangers",
+      "implementation": "Engage a certified balancing contractor with experience in VRF systems. Coordinate with VRF manufacturer's representative during balancing process.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Provide comprehensive training for facility staff on VRF system operation and maintenance",
+      "rationale": "VRF systems require specific maintenance procedures and operational knowledge for optimal performance",
+      "estimatedImpact": "Proper staff training will extend equipment life, reduce service calls, and maintain system efficiency",
+      "implementation": "Schedule multiple training sessions with the VRF manufacturer's technical representative. Document all training and provide comprehensive O&M manuals.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Implement glycol monitoring and maintenance program",
+      "rationale": "Maintaining proper glycol concentration and pH is essential for system longevity and performance",
+      "estimatedImpact": "Regular glycol testing and maintenance prevents corrosion, ensures freeze protection, and extends equipment life",
+      "implementation": "Establish quarterly glycol testing schedule and maintain logs of concentration, pH, and inhibitor levels",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Create detailed sequence of operations documentation with seasonal changeover procedures",
+      "rationale": "Complex VRF systems benefit from clear operational procedures, particularly for seasonal transitions",
+      "estimatedImpact": "Proper sequences ensure optimal performance year-round and prevent operational issues during transition seasons",
+      "implementation": "Work with controls contractor and VRF manufacturer to document detailed sequences for all operating modes",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Verify refrigerant leak detection system installation and testing",
+      "rationale": "Proper refrigerant monitoring is required by code and essential for safety in mechanical rooms with VRF equipment",
+      "estimatedImpact": "Ensures building safety and code compliance",
+      "implementation": "Coordinate with mechanical contractor and controls contractor to verify proper installation, calibration, and testing of refrigerant monitoring system and emergency ventilation response",
+      "priority": "High"
+    }
+  ]
+}

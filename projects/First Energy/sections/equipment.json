@@ -1,0 +1,192 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Dedicated Outdoor-Air Units",
+      "notes": "Provides dedicated outdoor air ventilation to the facility",
+      "items": [
+        {
+          "equipmentTag": "DOAS-1-1",
+          "manufacturer": "AAON",
+          "model": "RQA-002",
+          "specifications": {
+            "type": "Dedicated Outdoor-Air Unit"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Air Conditioners",
+      "notes": "Provides cooling for specific zones in the building",
+      "items": [
+        {
+          "equipmentTag": "ACCU-1-1",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "SUZ-KA12NAHZ",
+          "specifications": {
+            "type": "Heat Pump",
+            "notes": "Outdoor unit for indoor FCU-1-1"
+          }
+        },
+        {
+          "equipmentTag": "FCU-1-1",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "SLZ-KF12NA1",
+          "specifications": {
+            "type": "Indoor ceiling cassette",
+            "notes": "Indoor unit for ACCU-1-1"
+          }
+        },
+        {
+          "equipmentTag": "FCU-2-3",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "SLZ-KF12NA1",
+          "specifications": {
+            "type": "Indoor ceiling cassette"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water-Source Heat Pumps",
+      "notes": "Provides efficient heating and cooling using water source technology",
+      "items": [
+        {
+          "equipmentTag": "ACCU-2-1",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "NTXMSM60A182BA",
+          "specifications": {
+            "type": "Water-Source Heat Pump"
+          }
+        },
+        {
+          "equipmentTag": "ACCU-3-1",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "TRUZH0301KA0ONA",
+          "specifications": {
+            "type": "Water-Source Heat Pump"
+          }
+        },
+        {
+          "equipmentTag": "ACCU-4-1",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "TRUZH0361KA0ONA",
+          "specifications": {
+            "type": "Water-Source Heat Pump"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Provides conditioned air to various spaces in the facility",
+      "items": [
+        {
+          "equipmentTag": "FCU-2-1",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "SLZ-KF15NA1",
+          "specifications": {
+            "type": "Ceiling cassette fan coil unit"
+          }
+        },
+        {
+          "equipmentTag": "FCU-3-1",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "TPEADA0301AAB0A",
+          "specifications": {
+            "type": "Fan coil unit"
+          }
+        },
+        {
+          "equipmentTag": "FCU-4-1",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "TPEADA0361AA70A",
+          "specifications": {
+            "type": "Fan coil unit"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Variable Refrigerant Flow Systems",
+      "notes": "Provides efficient, zoned comfort control",
+      "items": [
+        {
+          "equipmentTag": "FCU-2-2",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "TPLA0A0241EA80A",
+          "specifications": {
+            "type": "VRF Indoor Unit"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "Provides primary HVAC to main building areas",
+      "items": [
+        {
+          "equipmentTag": "RTU-1-1",
+          "manufacturer": "Trane",
+          "model": "WHK060A3",
+          "specifications": {
+            "type": "Packaged Rooftop Unit"
+          }
+        },
+        {
+          "equipmentTag": "RTU-2-1",
+          "manufacturer": "Trane",
+          "model": "WHK048A3",
+          "specifications": {
+            "type": "Packaged Rooftop Unit"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Provides ventilation and exhaust for various spaces",
+      "items": [
+        {
+          "equipmentTag": "EF-1-1",
+          "manufacturer": "Greenheck",
+          "model": "GB-140",
+          "specifications": {
+            "type": "Exhaust Fan"
+          }
+        },
+        {
+          "equipmentTag": "EF-2-1",
+          "manufacturer": "Greenheck",
+          "model": "G-097-C",
+          "specifications": {
+            "type": "Exhaust Fan"
+          }
+        },
+        {
+          "equipmentTag": "F-1",
+          "manufacturer": "Loren Cook",
+          "model": "30 XLW S",
+          "specifications": {
+            "type": "Utility Fan"
+          }
+        },
+        {
+          "equipmentTag": "GEF-1-1",
+          "manufacturer": "Greenheck",
+          "model": "CUBE-180",
+          "specifications": {
+            "type": "General Exhaust Fan"
+          }
+        },
+        {
+          "equipmentTag": "GEF-2-1",
+          "manufacturer": "Greenheck",
+          "model": "CUBE-180",
+          "specifications": {
+            "type": "General Exhaust Fan"
+          }
+        }
+      ]
+    }
+  ]
+}

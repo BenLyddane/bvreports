@@ -1,0 +1,112 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Indoor Central-Station Air-Handling Units",
+      "notes": "Custom AHUs designed for healthcare application",
+      "items": [
+        {
+          "equipmentTag": "AHU-3-1",
+          "manufacturer": "Haakon",
+          "model": "CUSTOM",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-3-2",
+          "manufacturer": "Haakon",
+          "model": "CUSTOM",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Modular Water Chillers",
+      "notes": "Heat pump chiller modules in 7-module configuration for heating and cooling",
+      "items": [
+        {
+          "equipmentTag": "ASHP-1.1",
+          "manufacturer": "AERMEC",
+          "model": "NYK500HD",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ASHP-1.2",
+          "manufacturer": "AERMEC",
+          "model": "NYK500HD",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ASHP-1.3",
+          "manufacturer": "AERMEC",
+          "model": "NYK500HD",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ASHP-1.4",
+          "manufacturer": "AERMEC",
+          "model": "NYK500HD",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ASHP-1.5",
+          "manufacturer": "AERMEC",
+          "model": "NYK500HD",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ASHP-1.6",
+          "manufacturer": "AERMEC",
+          "model": "NYK500HD",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ASHP-1.7",
+          "manufacturer": "AERMEC",
+          "model": "NYK500HD",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Diesel Engine Generators",
+      "notes": "600 kW generator for backup power",
+      "items": [
+        {
+          "equipmentTag": "G-1",
+          "manufacturer": "Caterpillar",
+          "model": "D600 GC",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Automatic Transfer Switches",
+      "notes": "Premium quality transfer switches for healthcare facility power distribution",
+      "items": [
+        {
+          "equipmentTag": "ATS-CR",
+          "manufacturer": "Schneider Electric",
+          "model": "ASCO 7000 SERIES",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ATS-EQ1",
+          "manufacturer": "Schneider Electric",
+          "model": "ASCO 7000 SERIES",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ATS-EQ2",
+          "manufacturer": "Schneider Electric",
+          "model": "ASCO 7000 SERIES",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "ATS-LS",
+          "manufacturer": "Schneider Electric",
+          "model": "ASCO 7000 SERIES",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}
