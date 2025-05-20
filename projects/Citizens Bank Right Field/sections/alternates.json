@@ -7,78 +7,79 @@
           "manufacturer": "York",
           "model": "YVAA0456",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Gil-Bar Industries (JCI Rep)",
             "company": "Gil-Bar Industries",
             "contact": "Matt Neumann (NJ) / Joe Cohen (NY) / Ian Sorenson (NY)"
           },
-          "costDifference": "$0 (Basis of Design)",
+          "costDifference": "0%",
           "compatibilityNotes": "Basis of design specified in project documents. Provides specified 350 ton capacity, energy efficiency of 1.05 kW/ton, and includes required features such as VFDs and integral pump module with dual pumps."
-        }
-      ]
-    },
-    {
-      "componentType": "Air-Cooled, Rotary-Screw Water Chiller (Alternatives)",
-      "suppliers": [
+        },
         {
           "manufacturer": "Trane",
           "model": "RTAC Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Trane New York",
             "company": "Trane",
             "contact": "Diana Froelich"
           },
-          "costDifference": "TBD",
-          "compatibilityNotes": "Helical rotary screw compressor technology with comparable efficiency ratings. Available with VFD options, dual refrigerant circuits, and can be configured with similar pump packages to match specifications."
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Helical rotary screw compressor technology with comparable efficiency ratings. Available with VFD options, dual refrigerant circuits, and can be configured with similar pump packages to match specifications."
         },
         {
           "manufacturer": "Carrier",
           "model": "30XA Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Carrier New York",
             "company": "Carrier",
             "contact": "Steve Handelman"
           },
-          "costDifference": "TBD",
-          "compatibilityNotes": "AquaForce series offers similar capacity range and can be configured with VFDs and integrated hydronic packages to match specifications. Screw compressor technology with good part-load performance."
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: AquaForce series offers similar capacity range and can be configured with VFDs and integrated hydronic packages to match specifications. Screw compressor technology with good part-load performance."
         },
         {
           "manufacturer": "Daikin",
           "model": "AGZ Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Daikin Applied",
             "company": "Daikin",
             "contact": "Pam Biehl"
           },
-          "costDifference": "TBD",
-          "compatibilityNotes": "Pathfinder series offers high efficiency with VFD-driven screw compressors. Can be configured with similar pump packages and dual-circuit design for redundancy."
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Pathfinder series offers high efficiency with VFD-driven screw compressors. Can be configured with similar pump packages and dual-circuit design for redundancy."
         },
         {
           "manufacturer": "Aermec",
           "model": "NRB Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Daniel Breit",
             "company": "Highmark",
             "contact": "Highmark New York"
           },
-          "costDifference": "TBD",
-          "compatibilityNotes": "European manufacturer with growing US presence. NRB series offers high efficiency and quiet operation with screw compressors. Available with integrated hydronic packages."
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: European manufacturer with growing US presence. NRB series offers high efficiency and quiet operation with screw compressors. Available with integrated hydronic packages."
         },
         {
           "manufacturer": "McQuay/Daikin",
           "model": "AWS Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Daikin Applied",
             "company": "Daikin",
             "contact": "Pam Biehl"
           },
-          "costDifference": "TBD",
-          "compatibilityNotes": "AWS series offers good efficiency with semi-hermetic screw compressors. Available with VFD options and dual-circuit design for redundancy."
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: AWS series offers good efficiency with semi-hermetic screw compressors. Available with VFD options and dual-circuit design for redundancy."
         }
       ]
     }

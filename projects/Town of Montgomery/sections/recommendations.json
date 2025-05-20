@@ -2,59 +2,59 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Install additional monitoring systems for water treatment equipment",
-      "rationale": "The current design includes dual UV disinfection systems but would benefit from real-time monitoring to ensure continuous operation and immediate notification of any issues.",
-      "estimatedImpact": "Increased reliability of water treatment system and reduced risk of water quality issues.",
-      "implementation": "Add water quality monitoring system with remote notification capabilities to alert maintenance staff of any issues.",
+      "recommendation": "Early Procurement of Critical HVAC Equipment",
+      "rationale": "Daikin RTUs have 10-20 week lead times which will significantly impact project schedule if not ordered early. Starting the procurement process immediately can prevent schedule delays.",
+      "estimatedImpact": "Prevention of 4-8 week project delays, potential cost savings of 2-3% by avoiding rush shipping fees and emergency substitutions.",
+      "implementation": "1. Release HVAC package early for shop drawing submissions\n2. Fast-track submittal reviews for Daikin RTUs\n3. Issue early release purchase orders with manufacturing priority\n4. Establish weekly tracking of manufacturing status",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Implement advanced controls for rooftop units",
-      "rationale": "The specified HVAC equipment supports advanced controls that could optimize performance beyond the base requirements.",
-      "estimatedImpact": "Potential energy savings of 10-15% through optimized operation and enhanced economizer control.",
-      "implementation": "Upgrade control sequences to include demand-controlled ventilation and integration with building automation system.",
-      "priority": "Medium"
+      "recommendation": "Verify Ductless Split System Compatibility Issue",
+      "rationale": "The specified Trane split system (AC-01) shows Mitsubishi model designations (MSZ-GS36NA/MUZ-GS36NA), indicating a potential specification error that could lead to procurement issues, delays, or incompatible installations.",
+      "estimatedImpact": "Prevention of potential 3-4 week procurement delays, avoidance of incompatible equipment installation, and approximately $3,000-5,000 in potential rework costs.",
+      "implementation": "1. Request clarification from design team regarding correct manufacturer\n2. Determine if Trane is providing rebranded Mitsubishi equipment\n3. Verify electrical requirements match building infrastructure\n4. Secure written documentation confirming compatibility",
+      "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Provide additional roof curb insulation",
-      "rationale": "Standard roof curbs may create thermal bridging that can reduce overall system efficiency.",
-      "estimatedImpact": "Reduction in energy loss and potential condensation issues.",
-      "implementation": "Specify higher R-value insulation for rooftop equipment curbs beyond minimum requirements.",
+      "recommendation": "Consider Alternative UV Sterilizer Suppliers",
+      "rationale": "Atlantic Ultraviolet offers a compatible alternative (Sanitron S5000C) at 2-5% lower cost than the specified VIQUA units. This represents a potential cost savings while meeting the same NSF certifications required by NYS Department of Health.",
+      "estimatedImpact": "Potential savings of $1,500-2,500 for both UV sterilizer units with no reduction in performance or compliance.",
+      "implementation": "1. Submit product data for Atlantic Ultraviolet as equivalent\n2. Verify NSF Standard 61 and Standard 55 Class A certification compliance\n3. Request approval from engineer and owner for substitution\n4. Document equivalent performance specifications",
       "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Implement comprehensive commissioning plan",
-      "rationale": "Complex HVAC and water treatment systems require thorough commissioning to ensure proper operation.",
-      "estimatedImpact": "Verification of proper system operation and documentation for future maintenance.",
-      "implementation": "Develop detailed commissioning plan including testing of all control sequences and system performance metrics.",
-      "priority": "High"
+      "recommendation": "Evaluate Greenheck Alternatives for Exhaust Fans",
+      "rationale": "PennBarry Domex series fans are listed as 2-4% less expensive than the specified Greenheck G-Series fans while meeting the same performance requirements. With multiple exhaust fans in the project, this represents a potential cost saving opportunity.",
+      "estimatedImpact": "Estimated savings of $1,000-1,800 across all exhaust fan units without compromising system performance.",
+      "implementation": "1. Request quotes from local PennBarry representative\n2. Submit comparative performance data showing equivalent specifications\n3. Verify compatibility with specified roof curbs\n4. Secure engineer approval for substitution",
+      "priority": "Medium"
     },
     {
       "id": 5,
-      "recommendation": "Schedule early procurement of long-lead equipment",
-      "rationale": "Daikin RTUs have 10-20 week lead times which could impact project schedule if not ordered early.",
-      "estimatedImpact": "Avoidance of potential project delays of 4-8 weeks.",
-      "implementation": "Early submittal and procurement process for Daikin RTUs and other long-lead items.",
-      "priority": "High"
+      "recommendation": "Bundle Equipment Purchases by Manufacturer",
+      "rationale": "Consolidating purchases from the same manufacturer or supplier can leverage volume discounts and streamline the procurement process. For example, purchasing all exhaust fans from Greenheck or all electric heaters from the same supplier.",
+      "estimatedImpact": "Potential 3-5% cost reduction through volume discounts, simplified procurement process, and reduced shipping costs.",
+      "implementation": "1. Group equipment items by potential supplier\n2. Request package pricing from representatives\n3. Evaluate total cost of ownership including shipping and coordination\n4. Standardize on manufacturers where advantageous",
+      "priority": "Medium"
     },
     {
       "id": 6,
-      "recommendation": "Verify ductless split system model compatibility",
-      "rationale": "Trane split system specifications show model numbers with Mitsubishi designations (MSZ/MUZ), indicating potential supply chain or specification issue.",
-      "estimatedImpact": "Prevention of procurement delays and installation issues.",
-      "implementation": "Coordinate with design team to verify correct manufacturer and model specifications before procurement.",
+      "recommendation": "Order Custom Equipment Curbs Early with Detailed Specifications",
+      "rationale": "Wind-rated equipment curbs require custom fabrication and PE certification. Early procurement with detailed equipment dimensions will prevent rooftop installation delays.",
+      "estimatedImpact": "Prevention of 2-3 week installation delays, elimination of potential field modification costs of $2,000-3,000.",
+      "implementation": "1. Coordinate exact equipment dimensions with selected HVAC units\n2. Obtain PE-stamped wind restraint calculations early\n3. Place curb orders immediately after equipment selection\n4. Verify compatibility with roof construction details",
       "priority": "High"
     },
     {
       "id": 7,
-      "recommendation": "Ensure wind restraint submittals meet requirements",
-      "rationale": "Division 23 requires PE-stamped calculations and submittals for rooftop equipment curbs and supports.",
-      "estimatedImpact": "Compliance with code requirements and prevention of inspection issues.",
-      "implementation": "Coordinate with structural engineer for wind restraint design and certification of all rooftop equipment.",
-      "priority": "Medium"
+      "recommendation": "Explore Markel Unit Heaters as Cost-Effective Alternative",
+      "rationale": "Markel HF/HT Series unit heaters are identified as 3-5% less expensive than the specified QMark units while providing equivalent heating capacity and electrical compatibility.",
+      "estimatedImpact": "Potential savings of $800-1,200 across all unit heater and cabinet unit heater installations.",
+      "implementation": "1. Submit product data for Markel unit heaters as equivalent\n2. Verify electrical compatibility with building systems\n3. Confirm physical dimensions fit in designated spaces\n4. Document equivalent performance specifications",
+      "priority": "Low"
     }
   ]
 }

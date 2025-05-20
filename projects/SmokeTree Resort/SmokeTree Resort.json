@@ -1,5 +1,5 @@
 {
-  "reportTitle": "BuildVision Project Report - SmokeTree Resort",
+  "reportTitle": "BuildVision Project Report for SmokeTree Resort HVAC Renovation",
   "customerInformation": {
     "customerName": "SmokeTree Resort",
     "contactPerson": "Brett Henderson",
@@ -40,7 +40,7 @@
       {
         "name": "Mackenzie Hoover",
         "email": "Mackenzie@buildvision.io",
-        "phone": "267-281-4339"
+        "phone": "843-609-3265"
       }
     ],
     "preparationDate": "2025-05-20"
@@ -568,14 +568,28 @@
       ]
     }
   ],
-  "alternateManufacturers": [
+  "suppliers": [
     {
       "componentType": "Air-Cooled Chillers",
-      "basisOfDesign": "Daikin Applied",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Air-Cooled, Rotary-Screw Water Chiller",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Trane",
           "model": "Series R",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Mechanical Products Southwest",
             "company": "Mechanical Products Southwest",
@@ -587,6 +601,8 @@
         {
           "manufacturer": "York",
           "model": "YVAA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Johnson Controls Arizona",
             "company": "Johnson Controls",
@@ -598,6 +614,8 @@
         {
           "manufacturer": "Carrier",
           "model": "AquaForce 30XA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Arizona Air Balance Company",
             "company": "Arizona Air Balance Company",
@@ -605,16 +623,56 @@
           },
           "costDifference": "Slightly higher, 1-3% premium",
           "compatibilityNotes": "Good alternative with similar efficiency. May require minor changes to piping connections."
+        },
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "AART Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Climatic Comfort Products",
+            "company": "Climatic Comfort Products",
+            "contact": "480-991-0502"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency screw chillers with excellent part-load performance and low-noise options. Compatible with design specifications but may require controls integration work."
+        },
+        {
+          "manufacturer": "McQuay",
+          "model": "AWS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "McQuay Factory Service",
+            "company": "McQuay Factory Service",
+            "contact": "480-763-1200"
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with good performance metrics. Similar footprint to specified units with comparable connection locations."
         }
       ]
     },
     {
       "componentType": "Rooftop Units",
-      "basisOfDesign": "Daikin Applied",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Trane",
           "model": "IntelliPak",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Mechanical Products Southwest",
             "company": "Mechanical Products Southwest",
@@ -626,6 +684,8 @@
         {
           "manufacturer": "York",
           "model": "Solution",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Johnson Controls Arizona",
             "company": "Johnson Controls",
@@ -637,6 +697,8 @@
         {
           "manufacturer": "Carrier",
           "model": "WeatherExpert",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Arizona Air Balance Company",
             "company": "Arizona Air Balance Company",
@@ -644,16 +706,56 @@
           },
           "costDifference": "Similar to basis of design",
           "compatibilityNotes": "Good option with comparable efficiency. May require slight adjustment to ductwork connections."
+        },
+        {
+          "manufacturer": "AAON",
+          "model": "RN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Engineered Air Equipment, Inc.",
+            "company": "Engineered Air",
+            "contact": "480-921-0125"
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality units with excellent energy efficiency and noise characteristics. Known for robust construction and long service life."
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "Energence",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Lennox Industries",
+            "company": "Lennox Industries",
+            "contact": "602-438-9099"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with good efficiency ratings. May offer procurement advantages with shorter lead times than other manufacturers."
         }
       ]
     },
     {
       "componentType": "Fan Coil Units",
-      "basisOfDesign": "Daikin Applied",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Trane",
           "model": "UniTrane",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Mechanical Products Southwest",
             "company": "Mechanical Products Southwest",
@@ -665,6 +767,8 @@
         {
           "manufacturer": "JCI/York",
           "model": "Vertical Stacked",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Johnson Controls Arizona",
             "company": "Johnson Controls",
@@ -676,6 +780,8 @@
         {
           "manufacturer": "Carrier",
           "model": "Aero",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Arizona Air Balance Company",
             "company": "Arizona Air Balance Company",
@@ -683,16 +789,56 @@
           },
           "costDifference": "Comparable to basis of design",
           "compatibilityNotes": "Compatible option with similar dimensions and performance characteristics."
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "35 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Mechanical Representatives Inc.",
+            "company": "Mechanical Representatives Inc.",
+            "contact": "602-275-4467"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with good quality construction. Known for ease of maintenance and serviceability."
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "PFCU Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Distribution Technology",
+            "company": "Air Distribution Technology",
+            "contact": "602-275-1151"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium construction with superior sound characteristics. Excellent for noise-sensitive applications."
         }
       ]
     },
     {
       "componentType": "Guest Room Fan Coil Units",
-      "basisOfDesign": "IEC",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "IEC",
+          "model": "MUY",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Arizona Controls",
+            "company": "Arizona Controls",
+            "contact": "623-939-0135"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Daikin Applied",
           "model": "ThinLine",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Norman S. Wright Mechanical Equipment",
             "company": "Norman S. Wright",
@@ -704,6 +850,8 @@
         {
           "manufacturer": "First Co.",
           "model": "Vertical Hi-Rise",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Arizona Controls",
             "company": "Arizona Controls",
@@ -715,6 +863,8 @@
         {
           "manufacturer": "Williams",
           "model": "Slim-Line",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Specialized Mechanical Contractors",
             "company": "Specialized Mechanical",
@@ -722,16 +872,56 @@
           },
           "costDifference": "Significantly lower, 8-10% savings",
           "compatibilityNotes": "Budget-friendly option with adequate performance. May have higher maintenance requirements."
+        },
+        {
+          "manufacturer": "Zehnder",
+          "model": "Rittling Vertical",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Products Equipment Company",
+            "company": "Air Products Equipment",
+            "contact": "480-968-5343"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality units with low sound levels and energy-efficient EC motors. Comparable dimensions to specified units."
+        },
+        {
+          "manufacturer": "Titus",
+          "model": "Vertical Stack",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Distribution Technologies",
+            "company": "Air Distribution Technologies",
+            "contact": "602-275-1151"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality with excellent sound characteristics and filtration options. Good fit for luxury hospitality applications."
         }
       ]
     },
     {
       "componentType": "Dedicated Outdoor Air Systems",
-      "basisOfDesign": "Daikin Applied",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Dedicated Outdoor-Air Unit",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Trane",
           "model": "Performance Climate Changer",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Mechanical Products Southwest",
             "company": "Mechanical Products Southwest",
@@ -743,6 +933,8 @@
         {
           "manufacturer": "AAON",
           "model": "RN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Engineered Air Equipment, Inc.",
             "company": "Engineered Air",
@@ -754,6 +946,8 @@
         {
           "manufacturer": "Greenheck",
           "model": "Greenheck Dedicated Outdoor Air System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Air Handling Solutions",
             "company": "Air Handling Solutions",
@@ -761,16 +955,56 @@
           },
           "costDifference": "Lower cost, 4-6% savings",
           "compatibilityNotes": "Good alternative with similar performance characteristics. May require adjustments to ductwork connections."
+        },
+        {
+          "manufacturer": "Semco",
+          "model": "DOAS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Mechanical Products of Arizona",
+            "company": "Mechanical Products of Arizona",
+            "contact": "480-464-2300"
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium energy recovery systems with excellent humidity control capabilities. Well-suited for challenging desert climate conditions."
+        },
+        {
+          "manufacturer": "Desert Aire",
+          "model": "TotalAire",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Western Mechanical Solutions",
+            "company": "Western Mechanical Solutions",
+            "contact": "602-233-0877"
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Specialized in humidity control with integrated energy recovery. Well-suited for the spa areas and challenging desert climate."
         }
       ]
     },
     {
       "componentType": "Kitchen Make-up Air Units",
-      "basisOfDesign": "Captive Aire",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Captive Aire",
+          "model": "Kitchen Make-up Air Unit",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Captive Aire Systems",
+            "company": "Captive Aire Systems",
+            "contact": "602-795-9550"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Greenheck",
           "model": "MSX",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Air Handling Solutions",
             "company": "Air Handling Solutions",
@@ -782,6 +1016,8 @@
         {
           "manufacturer": "Modine",
           "model": "Hot Dawg",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Modine Sales of Arizona",
             "company": "Modine Sales",
@@ -793,6 +1029,8 @@
         {
           "manufacturer": "Reznor",
           "model": "MAPSIII",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Nortek Global HVAC",
             "company": "Nortek Global HVAC",
@@ -800,16 +1038,56 @@
           },
           "costDifference": "Slightly lower, 3-5% savings",
           "compatibilityNotes": "Good alternative with proven reliability in similar applications."
+        },
+        {
+          "manufacturer": "AAON",
+          "model": "M2 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Engineered Air Equipment, Inc.",
+            "company": "Engineered Air",
+            "contact": "480-921-0125"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium construction with excellent energy efficiency and low sound levels. Good fit for luxury resort applications."
+        },
+        {
+          "manufacturer": "Halton",
+          "model": "MakeUp Air Package",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Commercial Kitchen Supply",
+            "company": "Commercial Kitchen Supply",
+            "contact": "480-966-8363"
+          },
+          "costDifference": "-1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Specialized kitchen ventilation manufacturer with good integration between exhaust and makeup air systems. Good reputation in commercial kitchen applications."
         }
       ]
     },
     {
       "componentType": "Switchboards and Panelboards",
-      "basisOfDesign": "Schneider Electric",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "QED/NQOD/NF/I-line",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Schneider Electric Arizona",
+            "company": "Schneider Electric",
+            "contact": "480-460-1500"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Eaton",
           "model": "Pow-R-Line",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Eaton Electrical Products",
             "company": "Eaton",
@@ -821,6 +1099,8 @@
         {
           "manufacturer": "ABB",
           "model": "Spectra Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Border States Electric",
             "company": "Border States Electric",
@@ -832,6 +1112,8 @@
         {
           "manufacturer": "Siemens",
           "model": "Sentron",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Siemens Industry, Inc.",
             "company": "Siemens",
@@ -841,241 +1123,64 @@
           "compatibilityNotes": "Highly compatible alternative with similar performance characteristics."
         }
       ]
-    },
-    {
-      "componentType": "Diesel Engine Generators",
-      "basisOfDesign": "Cummins Inc",
-      "alternateOptions": [
-        {
-          "manufacturer": "Caterpillar",
-          "model": "D400",
-          "representativeInfo": {
-            "name": "Empire Power Systems",
-            "company": "Empire Cat",
-            "contact": "480-633-4000"
-          },
-          "costDifference": "Slightly higher, 3-5% premium",
-          "compatibilityNotes": "Excellent alternative with robust design and proven reliability."
-        },
-        {
-          "manufacturer": "Generac",
-          "model": "SD400",
-          "representativeInfo": {
-            "name": "Generac Industrial Power",
-            "company": "Generac",
-            "contact": "602-732-2900"
-          },
-          "costDifference": "Lower cost, 5-7% savings",
-          "compatibilityNotes": "Good alternative with adequate performance for this application. May have higher maintenance requirements."
-        },
-        {
-          "manufacturer": "Kohler",
-          "model": "400REOZJ",
-          "representativeInfo": {
-            "name": "Kohler Power Systems",
-            "company": "Kohler",
-            "contact": "480-968-8675"
-          },
-          "costDifference": "Comparable to basis of design",
-          "compatibilityNotes": "Highly compatible alternative with similar quality and performance characteristics."
-        }
-      ]
-    },
-    {
-      "componentType": "Automatic Transfer Switches",
-      "basisOfDesign": "Schneider Electric ASCO 300 Series",
-      "alternateOptions": [
-        {
-          "manufacturer": "Cummins",
-          "model": "OTPC",
-          "representativeInfo": {
-            "name": "Cummins Sales and Service",
-            "company": "Cummins",
-            "contact": "602-257-5900"
-          },
-          "costDifference": "Comparable to basis of design",
-          "compatibilityNotes": "Excellent compatibility with Cummins generators, may offer advantages if paired together."
-        },
-        {
-          "manufacturer": "Eaton",
-          "model": "Automatic Transfer Switch",
-          "representativeInfo": {
-            "name": "Eaton Electrical Products",
-            "company": "Eaton",
-            "contact": "602-437-3500"
-          },
-          "costDifference": "Slightly lower, 2-4% savings",
-          "compatibilityNotes": "Good alternative with similar performance specifications."
-        },
-        {
-          "manufacturer": "Generac",
-          "model": "GTS Series",
-          "representativeInfo": {
-            "name": "Generac Industrial Power",
-            "company": "Generac",
-            "contact": "602-732-2900"
-          },
-          "costDifference": "Lower cost, 4-6% savings",
-          "compatibilityNotes": "Budget-friendly option with adequate performance. Excellent compatibility if paired with Generac generator."
-        }
-      ]
-    }
-  ],
-  "designNotes": [
-    {
-      "systemType": "Central Energy Plant",
-      "technicalObservations": [
-        "The expected cooling load for the new expansion is 640 tons.",
-        "Chilled water will be supplied to the resort from a plant capacity of 750 tons consisting of three (3) air cooled chillers at 250 tons each.",
-        "The system is designed with N redundancy providing 75% firm capacity.",
-        "The chiller yard will be located adjacent to the fitness area with walls but an exposed top."
-      ],
-      "concerns": [
-        "Ambient temperatures regularly exceed 110°F in summer months, which could impact chiller efficiency and capacity.",
-        "Noise from chillers could potentially impact guest experience in nearby areas.",
-        "Ensuring adequate airflow around chillers in the partially enclosed area is critical for optimal performance."
-      ],
-      "opportunities": [
-        "Consider implementing dynamic optimization controls to maximize efficiency based on varying load conditions.",
-        "Evaluate the possibility of thermal storage to reduce peak demand and operational costs.",
-        "Evaluate additional sound attenuation measures to minimize noise impact on adjacent spaces."
-      ]
-    },
-    {
-      "systemType": "Air Distribution Systems",
-      "technicalObservations": [
-        "The air conditioning systems will generally be provided by indoor variable air volume chilled water AHUs in the BOH mechanical rooms and roof wells located throughout the complex.",
-        "The event center will be conditioned by multi-zone variable air volume chilled water central station roof top air handling unit.",
-        "Hotel guestrooms will be conditioned by vertical high-rise 2-pipe fan coil units with electric heating.",
-        "Outdoor air will be ducted directly into fan coil units from sidewall louvers at the exterior."
-      ],
-      "concerns": [
-        "Ensuring adequate ventilation in all spaces while maintaining energy efficiency could be challenging in the desert climate.",
-        "The 2-pipe system for guestrooms will require seasonal changeover that may limit flexibility during shoulder seasons.",
-        "Ensuring proper air balancing across the complex with varying occupancy patterns."
-      ],
-      "opportunities": [
-        "Consider implementing demand-controlled ventilation in all high-occupancy areas to optimize energy usage.",
-        "Incorporate enhanced filtration options as an add-on to mitigate airborne contaminants.",
-        "Evaluate potential for heat recovery on exhaust air streams to improve overall system efficiency."
-      ]
-    },
-    {
-      "systemType": "Guest Room HVAC",
-      "technicalObservations": [
-        "High rise type 2-pipe chilled water Vertical Fan Coil Units with electric heat will condition each guestroom.",
-        "Each unit will be provided with disconnecting means and over current protection with ECM motors.",
-        "Outdoor air will be supplied to the guestrooms from a sidewall louver at the exterior.",
-        "Guestroom toilet exhaust will be intermittent, controlled by powered 2-position ZRT dampers tied into room occupancy sensor."
-      ],
-      "concerns": [
-        "Maintaining uniform comfort levels across all guestrooms during seasonal transitions might be challenging with a 2-pipe system.",
-        "Condensate management for high-rise fan coil units will require careful consideration to prevent leaks.",
-        "Noise transmission from fan coil units could potentially impact guest comfort."
-      ],
-      "opportunities": [
-        "Implement occupancy-based controls to optimize energy usage when rooms are unoccupied.",
-        "Consider enhanced system monitoring to detect potential maintenance issues before they impact guest experience.",
-        "Evaluate potential for predictive maintenance strategies to reduce operational costs."
-      ]
-    },
-    {
-      "systemType": "Building Automation and Controls",
-      "technicalObservations": [
-        "HVAC systems will be controlled by a central Direct Digital Control System with graphic interface.",
-        "Guestroom units will be controlled by standalone digital wall mounted thermostats with occupancy sensors and door switches.",
-        "Guestrooms temperature control systems will utilize wireless ZigBee communications to eliminate low voltage wiring needs.",
-        "Demand controlled ventilation will be utilized throughout all high occupancy areas."
-      ],
-      "concerns": [
-        "Integration between different control systems (BAS, guestroom controls, etc.) could present challenges.",
-        "Ensuring reliable wireless communication in guestroom control systems.",
-        "Maintaining optimal system performance while accommodating varying occupancy patterns."
-      ],
-      "opportunities": [
-        "Consider implementing analytics-based monitoring and fault detection to optimize system performance.",
-        "Evaluate potential for integration with property management system for enhanced operational efficiency.",
-        "Implement automated reporting to track energy usage and identify optimization opportunities."
-      ]
-    },
-    {
-      "systemType": "Energy Efficiency Measures",
-      "technicalObservations": [
-        "Single Zone VAV and Multi-Zone VAV systems will be implemented for air conditioning systems.",
-        "Variable Frequency Drives will be provided on equipment and pumps where applicable.",
-        "Outside Air Delivery Monitoring and Demand Controlled Ventilation will be implemented in high occupancy areas.",
-        "Premium Efficiency Electric Motors will be used throughout the project."
-      ],
-      "concerns": [
-        "Balancing energy efficiency with guest comfort expectations in a luxury resort environment.",
-        "Optimizing system performance in the extreme desert climate conditions.",
-        "Ensuring proper commissioning and optimization of complex control strategies."
-      ],
-      "opportunities": [
-        "Evaluate potential for additional heat recovery strategies to improve overall system efficiency.",
-        "Consider implementing enhanced monitoring and reporting tools to track and optimize energy performance.",
-        "Explore potential for renewable energy integration to reduce operational costs and environmental impact."
-      ]
     }
   ],
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Implement enhanced sound attenuation measures for the chiller plant",
-      "rationale": "The chiller yard's location adjacent to the fitness area presents potential noise concerns. Enhanced sound attenuation would improve guest experience in nearby areas.",
-      "estimatedImpact": "Reduces potential noise complaints by 80-90% and enhances overall guest experience. Minimal impact on system performance.",
-      "implementation": "Add acoustic barriers/screens around the chiller yard, implement vibration isolation mounts, and consider sound blankets for compressors. Estimated cost: $35,000-45,000.",
+      "recommendation": "Consider Chiller Package from Multiple Suppliers",
+      "rationale": "The project specifies three 250-ton Daikin rotary-screw chillers. Requesting quotes from all qualified manufacturers identified in the alternate manufacturers list (Trane, York, and Carrier) could create competitive pricing and potentially yield significant cost savings while meeting the same performance specifications.",
+      "estimatedImpact": "Potential cost savings of 2-7% on the chiller package, which represents a substantial portion of the mechanical budget. This could amount to $30,000-$75,000 in savings on equipment costs alone.",
+      "implementation": "1. Issue RFQs to all qualified manufacturers (Daikin, Trane, York, and Carrier)\n2. Require performance data verification at design conditions (115°F ambient, 2160 ft altitude)\n3. Compare lifecycle costs including energy consumption and maintenance\n4. Evaluate controls compatibility with BAS\n5. Negotiate extended warranty options",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Upgrade the Building Automation System to include predictive analytics and fault detection capabilities",
-      "rationale": "Enhanced monitoring and analytics would help identify potential issues before they impact guest comfort and optimize system performance for improved energy efficiency.",
-      "estimatedImpact": "Potential energy savings of 8-12% through optimized operation. Reduced maintenance costs through early detection of issues. Enhanced system reliability.",
-      "implementation": "Implement analytics software package with the BAS, install additional sensors where needed, and provide staff training on system use. Estimated cost: $65,000-80,000.",
-      "priority": "Medium"
+      "recommendation": "Evaluate Guest Room Fan Coil Unit Alternatives",
+      "rationale": "The specified IEC MUY vertical fan coil units for guest rooms could be sourced from alternative suppliers. First Co. and Williams models are noted to offer 5-10% cost savings with adequate performance for this application.",
+      "estimatedImpact": "With approximately 200-250 guest rooms requiring fan coil units, a 5-10% savings on these units could result in $50,000-$100,000 in cost reductions while maintaining appropriate comfort levels.",
+      "implementation": "1. Request samples from Williams and First Co. for performance testing\n2. Evaluate noise levels which are critical for guest comfort\n3. Compare maintenance requirements and filter accessibility\n4. Verify dimensional compatibility with designed wall cavities\n5. Confirm warranty terms are comparable",
+      "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Incorporate waterside economizer mode for the chilled water system",
-      "rationale": "During cooler periods in winter/spring/fall, a waterside economizer could significantly reduce cooling energy consumption in the Phoenix climate.",
-      "estimatedImpact": "Potential energy savings of 15-20% on annual cooling costs. Reduced wear on chillers and extended equipment life. ROI in approximately 3-4 years.",
-      "implementation": "Add plate heat exchangers, control valves, and associated piping to allow cooling tower water to directly cool the chilled water loop during favorable conditions. Modify controls programming. Estimated cost: $120,000-150,000.",
+      "recommendation": "Combine Generator and ATS Procurement",
+      "rationale": "The project requires Cummins diesel generators and ASCO automatic transfer switches. Procuring both from the same manufacturer (Cummins OTPC switches) could provide better system integration, potentially simplified maintenance, and possible package pricing benefits.",
+      "estimatedImpact": "Package procurement could yield 3-5% savings on the combined equipment cost, improved system compatibility, and single-source responsibility for the emergency power system.",
+      "implementation": "1. Request package pricing from Cummins for both generator and ATS\n2. Compare to individual best pricing options\n3. Evaluate maintenance contract options for combined systems\n4. Verify compatibility with building electrical systems\n5. Confirm that critical performance parameters are maintained",
       "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Evaluate 4-pipe fan coil system for high-end suites or climate transition areas",
-      "rationale": "The current 2-pipe system with seasonal changeover may limit comfort flexibility in premium areas, particularly during spring/fall when both heating and cooling might be required on the same day.",
-      "estimatedImpact": "Enhanced guest comfort and flexibility in premium areas. Potential energy savings through eliminating reheat in certain zones.",
-      "implementation": "Implement 4-pipe fan coil units in selected areas (presidential suite, penthouse, etc.) and provide appropriate piping/controls modifications. Estimated cost: $85,000-100,000 depending on scope.",
-      "priority": "Low"
+      "recommendation": "Develop Strategic Procurement Plan for Rooftop Units",
+      "rationale": "The project requires multiple large rooftop units from Daikin. The alternates list indicates comparable units from Trane, York, and Carrier that could provide similar performance, with York potentially offering 2-3% savings.",
+      "estimatedImpact": "Potential savings of 2-3% on the rooftop package, improved delivery schedules, and potential standardization benefits if other equipment is sourced from the same manufacturer.",
+      "implementation": "1. Identify long-lead items and order those first\n2. Bundle RTU orders to maximize volume discounts\n3. Compare maintenance contract costs across manufacturers\n4. Verify curb compatibility with alternate manufacturers\n5. Consider impacts on controls integration",
+      "priority": "Medium"
     },
     {
       "id": 5,
-      "recommendation": "Enhance guestroom controls interface with mobile app integration",
-      "rationale": "Modern luxury hospitality trends include providing guests with mobile control of their room environment. This would enhance the guest experience while potentially improving energy efficiency.",
-      "estimatedImpact": "Enhanced guest satisfaction and brand differentiation. Potential additional energy savings of 5-8% through improved occupancy control.",
-      "implementation": "Upgrade the guestroom control system to include mobile app integration. Provide necessary IT infrastructure. Coordinate with property management system. Estimated cost: $45,000-60,000.",
+      "recommendation": "Consider Alternative Electrical Distribution Equipment",
+      "rationale": "Schneider Electric is specified for switchboards and panelboards, but Eaton is noted to offer comparable quality with potential 1-2% savings. Given the extensive electrical distribution requirements for the resort, these savings could be significant.",
+      "estimatedImpact": "1-2% savings on electrical distribution equipment could represent $15,000-$30,000 in cost reduction without compromising system reliability or performance.",
+      "implementation": "1. Request quotes from both Schneider and Eaton for the complete distribution package\n2. Compare delivery timeframes, which could impact construction schedule\n3. Verify compatibility with existing infrastructure if applicable\n4. Compare warranty terms and local support capabilities\n5. Evaluate any differences in physical space requirements",
       "priority": "Medium"
     }
   ],
   "conclusion": {
-    "summary": "The SmokeTree Resort HVAC system design utilizes modern, efficient equipment with appropriate redundancy for a luxury resort application. The central plant design with three chillers provides good operational flexibility and the distributed air handling approach should deliver excellent comfort control. Overall, the mechanical systems are well-designed for the challenging desert climate of Paradise Valley, Arizona, with adequate consideration for energy efficiency, comfort, and reliability. The BuildVision recommendations focus on enhancing guest experience, improving operational efficiency, and incorporating additional sustainability features that align with luxury resort expectations.",
+    "summary": "The SmokeTree Resort HVAC renovation project involves installing new mechanical systems for a three-story hotel resort in Paradise Valley, Arizona. The equipment procurement strategy centers around a 750-ton chilled water central plant with three 250-ton air-cooled chillers providing N redundancy. Distribution systems include rooftop units, fan coil units, dedicated outdoor air systems, and make-up air units. The design accommodates the challenging desert climate while prioritizing guest comfort and energy efficiency.",
     "keyFindings": [
-      "The mechanical system design is appropriate for the climate and application, with good redundancy in critical systems.",
-      "The central plant approach with multiple chillers provides good operational flexibility and efficiency potential.",
-      "Guestroom comfort systems utilize modern controls with occupancy sensing for enhanced efficiency.",
-      "The BAS system provides good baseline functionality but could be enhanced with additional analytics capabilities.",
-      "Primary equipment selections from established manufacturers should provide reliable operation with good support availability.",
-      "Several opportunities exist to enhance system performance, efficiency, and guest experience through targeted upgrades."
+      "Multiple equipment alternatives exist for each major component, offering potential cost savings of 2-7% depending on manufacturer selection",
+      "The central chiller plant design provides 75% firm capacity with N redundancy, balancing reliability with operational efficiency",
+      "Two-pipe fan coil units in guest rooms may present seasonal changeover challenges but offer cost advantages over four-pipe systems",
+      "Sound attenuation for the chiller plant is critical due to its location near guest areas",
+      "Enhanced automation and controls present opportunities for improved energy efficiency and guest experience"
     ],
     "highestPriorityActions": [
-      "Implement enhanced sound attenuation for the chiller plant to protect guest experience in adjacent areas.",
-      "Consider upgrading the BAS to include predictive analytics for improved operational efficiency and maintenance planning.",
-      "Evaluate potential for waterside economizer implementation to reduce energy consumption during favorable weather conditions.",
-      "Review specifications for key equipment to ensure noise and vibration control measures are adequately addressed.",
-      "Confirm appropriate commissioning scope to ensure all systems are properly optimized at startup."
+      "Implement sound attenuation measures for the chiller plant to minimize noise impact on adjacent guest areas",
+      "Evaluate alternative manufacturers for key equipment to optimize cost without compromising quality",
+      "Consider upgrading the Building Automation System to include predictive analytics for improved operational efficiency",
+      "Review specifications for guest room fan coil units to ensure adequate condensate management and noise control"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "reportTitle": "BuildVision Project Report",
+  "reportTitle": "BuildVision Project Report for Town of Montgomery Police Station HVAC System",
   "customerInformation": {
     "customerName": "Town of Montgomery Police Station",
     "contactPerson": "Matt Seckler",
@@ -376,6 +376,7 @@
           "manufacturer": "Daikin Applied",
           "model": "DPSH Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Thermal Environment Sales",
             "company": "Thermal Environment Sales",
@@ -388,6 +389,7 @@
           "manufacturer": "Carrier",
           "model": "48HC",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "RJ Murray Company",
             "company": "RJ Murray Company",
@@ -400,6 +402,7 @@
           "manufacturer": "Trane",
           "model": "Precedent",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Trane Albany",
             "company": "Trane Technologies",
@@ -412,13 +415,14 @@
           "manufacturer": "York",
           "model": "Predator",
           "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Johnson Controls",
             "company": "Johnson Controls",
             "contact": "518-783-1235"
           },
           "costDifference": "+1-3%",
-          "compatibilityNotes": "Compatible with specified requirements. 208V/3-Phase electrical connection."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with specified requirements. 208V/3-Phase electrical connection."
         }
       ]
     },
@@ -429,6 +433,7 @@
           "manufacturer": "Trane",
           "model": "MSZ-GS36NA/MUZ-GS36NA",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Trane Albany",
             "company": "Trane Technologies",
@@ -436,6 +441,45 @@
           },
           "costDifference": "Basis of Design",
           "compatibilityNotes": "Basis of Design unit. Note: Model naming uses Mitsubishi designation; verify compatibility."
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "MSZ-GL36NA/MUZ-GL36NA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Abco HVACR Supply + Solutions",
+            "company": "Abco HVACR Supply + Solutions",
+            "contact": "518-452-9800"
+          },
+          "costDifference": "-3-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Direct manufacturer of the equipment with model numbers referenced in the specifications. May offer cost savings over Trane-branded equivalent."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "FTX36NVJU/RX36NMVJU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Thermal Environment Sales",
+            "company": "Thermal Environment Sales",
+            "contact": "11 Sitterly Road, Clifton Park, NY 12065 | (518) 373-1100"
+          },
+          "costDifference": "+1-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with requirements, similar capacity wall-mount ductless split system."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "LS363HLV4/LU363HLV4",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Johnstone Supply",
+            "company": "Johnstone Supply",
+            "contact": "518-278-3820"
+          },
+          "costDifference": "-2-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy efficient model with similar cooling/heating capacity, potentially lower cost option."
         }
       ]
     },
@@ -446,6 +490,7 @@
           "manufacturer": "VIQUA",
           "model": "PRO20",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "VIQUA",
             "company": "VIQUA (Trojan Technologies)",
@@ -458,6 +503,7 @@
           "manufacturer": "Atlantic Ultraviolet",
           "model": "Sanitron S5000C",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Atlantic Ultraviolet Corporation",
             "company": "Atlantic Ultraviolet Corporation",
@@ -470,6 +516,7 @@
           "manufacturer": "Trojan Technologies",
           "model": "UV Max Pro20",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Trojan Technologies",
             "company": "Trojan Technologies",
@@ -477,6 +524,32 @@
           },
           "costDifference": "+3-7%",
           "compatibilityNotes": "Must meet NSF Standard 61 and Standard 55 Class A certification as required by NYS Department of Health."
+        },
+        {
+          "manufacturer": "Pentair",
+          "model": "E-Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Pentair Water Solutions",
+            "company": "Pentair",
+            "contact": "800-942-1153"
+          },
+          "costDifference": "-5-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: NSF certified system with comparable flow rates, typically more cost-effective than VIQUA systems."
+        },
+        {
+          "manufacturer": "UV Pure",
+          "model": "Hallett 30",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "UV Pure Technologies",
+            "company": "UV Pure Technologies",
+            "contact": "888-407-9997"
+          },
+          "costDifference": "+5-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium self-cleaning system with Crossfire Technology that provides 360° disinfection. Higher cost but lower maintenance."
         }
       ]
     },
@@ -487,6 +560,7 @@
           "manufacturer": "Greenheck",
           "model": "G-Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Buckley Associates",
             "company": "Buckley Associates",
@@ -499,6 +573,7 @@
           "manufacturer": "Loren Cook",
           "model": "ACE-B",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "RF Peck Company, Inc.",
             "company": "RF Peck Company, Inc.",
@@ -511,6 +586,7 @@
           "manufacturer": "PennBarry",
           "model": "Domex",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Kane-Davey Associates, Inc.",
             "company": "Kane-Davey Associates, Inc.",
@@ -518,6 +594,32 @@
           },
           "costDifference": "-2-4%",
           "compatibilityNotes": "Compatible with specified requirements."
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "BCRD",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Equipment Company",
+            "company": "Air Equipment Company",
+            "contact": "518-783-4455"
+          },
+          "costDifference": "-3-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible downblast centrifugal roof exhaust fans, typically at lower cost."
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "RGD Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Liberty Mechanical Services",
+            "company": "Liberty Mechanical Services",
+            "contact": "845-876-5232"
+          },
+          "costDifference": "-4-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Lower cost alternative for smaller CFM requirements like EF-122 and EF-124."
         }
       ]
     },
@@ -528,6 +630,7 @@
           "manufacturer": "QMark",
           "model": "MUH Series/AWH Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "QMark",
             "company": "QMark (Marley Engineered Products)",
@@ -540,6 +643,7 @@
           "manufacturer": "Markel",
           "model": "HF/HT Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Applied Thermal Systems Inc.",
             "company": "Applied Thermal Systems Inc.",
@@ -552,6 +656,7 @@
           "manufacturer": "Berko",
           "model": "HUHAA Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Electrical Equipment Corp.",
             "company": "Electrical Equipment Corp.",
@@ -559,6 +664,32 @@
           },
           "costDifference": "+1-4%",
           "compatibilityNotes": "Compatible with specified requirements. Verify panel compatibility."
+        },
+        {
+          "manufacturer": "Reznor",
+          "model": "EGHB Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "H. Danforth Associates",
+            "company": "H. Danforth Associates",
+            "contact": "518-384-1750"
+          },
+          "costDifference": "-2-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Heavy-duty construction with similar electrical requirements. Potentially more cost-effective."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "UHEC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Trane Albany",
+            "company": "Trane Technologies",
+            "contact": "301 Old Niskayuna Road, Suite 1, Latham, NY 12110 | (518) 785-1315"
+          },
+          "costDifference": "+2-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium construction with longer warranty. Compatible with existing Trane equipment on project."
         }
       ]
     },
@@ -569,6 +700,7 @@
           "manufacturer": "RPS",
           "model": "Custom",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Roof Products & Systems Corporation",
             "company": "Roof Products & Systems Corporation",
@@ -576,145 +708,121 @@
           },
           "costDifference": "Basis of Design",
           "compatibilityNotes": "Basis of Design custom equipment curbs with wind-rated design."
+        },
+        {
+          "manufacturer": "ThyCurb",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "ThyCurb Inc.",
+            "company": "ThyCurb Inc.",
+            "contact": "800-666-2872"
+          },
+          "costDifference": "-5-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Custom equipment curbs capable of meeting wind-rated design requirements, typically at lower cost."
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "GPIP/GRPD",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Buckley Associates",
+            "company": "Buckley Associates",
+            "contact": "120 Railroad Avenue, Albany, NY 12205 | (518) 438-7423"
+          },
+          "costDifference": "-1-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Wind-rated curbs from same manufacturer as exhaust fans, potential for package discount when ordered together."
+        },
+        {
+          "manufacturer": "Pate",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "The Pate Company",
+            "company": "The Pate Company",
+            "contact": "800-243-3018"
+          },
+          "costDifference": "-3-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Custom wind-rated designs with heavy gauge construction, can be made compatible with all specified rooftop equipment."
         }
-      ]
-    }
-  ],
-  "designNotes": [
-    {
-      "systemType": "Rooftop HVAC Systems",
-      "technicalObservations": [
-        "System designed with packaged rooftop heat pump units with economizer capability for fresh air intake",
-        "Variable air volume distribution system for improved energy efficiency",
-        "Minimum of VAV boxes with electric reheat for zone control",
-        "Exhaust systems designed for proper building ventilation",
-        "Long-lead risk on Daikin RTUs with 10-20 week lead times",
-        "Wind restraint requirements for all rooftop equipment per Division 23"
-      ],
-      "concerns": [
-        "Ensuring proper weatherproofing at all roof penetrations",
-        "Maintaining adequate access for maintenance of rooftop equipment",
-        "Sizing of ductwork for proper air distribution with minimal noise",
-        "Lead time risk for critical equipment could impact project schedule",
-        "Ductless Split model naming (MSZ/MUZ) shows Mitsubishi designations while specified as Trane"
-      ],
-      "opportunities": [
-        "High-efficiency heat pump systems for reduced energy consumption",
-        "Demand controlled ventilation opportunities where applicable",
-        "Economizer operation during moderate weather conditions",
-        "Early procurement of long-lead items to mitigate schedule risk"
-      ]
-    },
-    {
-      "systemType": "Water Treatment Systems",
-      "technicalObservations": [
-        "Sediment filtration system with 20 micron filter for incoming water",
-        "Dual UV disinfection system with redundancy in case of failure",
-        "NSF Standard 61 and Standard 55 Class A certification as required by NYS Department of Health"
-      ],
-      "concerns": [
-        "Ensuring proper installation of UV systems with adequate clearance for lamp replacement",
-        "Providing robust water quality monitoring and backup systems",
-        "Maintaining proper flow rates through treatment equipment"
-      ],
-      "opportunities": [
-        "Parallel installation of UV systems allows for maintenance without system shutdown",
-        "System designed for 40 GPM total capacity (2 x 20 GPM units)"
-      ]
-    },
-    {
-      "systemType": "Plumbing Systems",
-      "technicalObservations": [
-        "ADA-compliant fixtures throughout",
-        "High-efficiency water coolers with bottle filling stations",
-        "Specialized service basin fixtures in janitorial areas"
-      ],
-      "concerns": [
-        "Ensuring proper installation of backflow prevention devices",
-        "Coordinating fixture rough-ins with architectural details"
-      ],
-      "opportunities": [
-        "Water-efficient fixtures to reduce overall consumption",
-        "Durable materials selection for long service life"
       ]
     }
   ],
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Install additional monitoring systems for water treatment equipment",
-      "rationale": "The current design includes dual UV disinfection systems but would benefit from real-time monitoring to ensure continuous operation and immediate notification of any issues.",
-      "estimatedImpact": "Increased reliability of water treatment system and reduced risk of water quality issues.",
-      "implementation": "Add water quality monitoring system with remote notification capabilities to alert maintenance staff of any issues.",
+      "recommendation": "Early Procurement of Critical HVAC Equipment",
+      "rationale": "Daikin RTUs have 10-20 week lead times which will significantly impact project schedule if not ordered early. Starting the procurement process immediately can prevent schedule delays.",
+      "estimatedImpact": "Prevention of 4-8 week project delays, potential cost savings of 2-3% by avoiding rush shipping fees and emergency substitutions.",
+      "implementation": "1. Release HVAC package early for shop drawing submissions\n2. Fast-track submittal reviews for Daikin RTUs\n3. Issue early release purchase orders with manufacturing priority\n4. Establish weekly tracking of manufacturing status",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Implement advanced controls for rooftop units",
-      "rationale": "The specified HVAC equipment supports advanced controls that could optimize performance beyond the base requirements.",
-      "estimatedImpact": "Potential energy savings of 10-15% through optimized operation and enhanced economizer control.",
-      "implementation": "Upgrade control sequences to include demand-controlled ventilation and integration with building automation system.",
-      "priority": "Medium"
+      "recommendation": "Verify Ductless Split System Compatibility Issue",
+      "rationale": "The specified Trane split system (AC-01) shows Mitsubishi model designations (MSZ-GS36NA/MUZ-GS36NA), indicating a potential specification error that could lead to procurement issues, delays, or incompatible installations.",
+      "estimatedImpact": "Prevention of potential 3-4 week procurement delays, avoidance of incompatible equipment installation, and approximately $3,000-5,000 in potential rework costs.",
+      "implementation": "1. Request clarification from design team regarding correct manufacturer\n2. Determine if Trane is providing rebranded Mitsubishi equipment\n3. Verify electrical requirements match building infrastructure\n4. Secure written documentation confirming compatibility",
+      "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Provide additional roof curb insulation",
-      "rationale": "Standard roof curbs may create thermal bridging that can reduce overall system efficiency.",
-      "estimatedImpact": "Reduction in energy loss and potential condensation issues.",
-      "implementation": "Specify higher R-value insulation for rooftop equipment curbs beyond minimum requirements.",
+      "recommendation": "Consider Alternative UV Sterilizer Suppliers",
+      "rationale": "Atlantic Ultraviolet offers a compatible alternative (Sanitron S5000C) at 2-5% lower cost than the specified VIQUA units. This represents a potential cost savings while meeting the same NSF certifications required by NYS Department of Health.",
+      "estimatedImpact": "Potential savings of $1,500-2,500 for both UV sterilizer units with no reduction in performance or compliance.",
+      "implementation": "1. Submit product data for Atlantic Ultraviolet as equivalent\n2. Verify NSF Standard 61 and Standard 55 Class A certification compliance\n3. Request approval from engineer and owner for substitution\n4. Document equivalent performance specifications",
       "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Implement comprehensive commissioning plan",
-      "rationale": "Complex HVAC and water treatment systems require thorough commissioning to ensure proper operation.",
-      "estimatedImpact": "Verification of proper system operation and documentation for future maintenance.",
-      "implementation": "Develop detailed commissioning plan including testing of all control sequences and system performance metrics.",
-      "priority": "High"
+      "recommendation": "Evaluate Greenheck Alternatives for Exhaust Fans",
+      "rationale": "PennBarry Domex series fans are listed as 2-4% less expensive than the specified Greenheck G-Series fans while meeting the same performance requirements. With multiple exhaust fans in the project, this represents a potential cost saving opportunity.",
+      "estimatedImpact": "Estimated savings of $1,000-1,800 across all exhaust fan units without compromising system performance.",
+      "implementation": "1. Request quotes from local PennBarry representative\n2. Submit comparative performance data showing equivalent specifications\n3. Verify compatibility with specified roof curbs\n4. Secure engineer approval for substitution",
+      "priority": "Medium"
     },
     {
       "id": 5,
-      "recommendation": "Schedule early procurement of long-lead equipment",
-      "rationale": "Daikin RTUs have 10-20 week lead times which could impact project schedule if not ordered early.",
-      "estimatedImpact": "Avoidance of potential project delays of 4-8 weeks.",
-      "implementation": "Early submittal and procurement process for Daikin RTUs and other long-lead items.",
-      "priority": "High"
+      "recommendation": "Bundle Equipment Purchases by Manufacturer",
+      "rationale": "Consolidating purchases from the same manufacturer or supplier can leverage volume discounts and streamline the procurement process. For example, purchasing all exhaust fans from Greenheck or all electric heaters from the same supplier.",
+      "estimatedImpact": "Potential 3-5% cost reduction through volume discounts, simplified procurement process, and reduced shipping costs.",
+      "implementation": "1. Group equipment items by potential supplier\n2. Request package pricing from representatives\n3. Evaluate total cost of ownership including shipping and coordination\n4. Standardize on manufacturers where advantageous",
+      "priority": "Medium"
     },
     {
       "id": 6,
-      "recommendation": "Verify ductless split system model compatibility",
-      "rationale": "Trane split system specifications show model numbers with Mitsubishi designations (MSZ/MUZ), indicating potential supply chain or specification issue.",
-      "estimatedImpact": "Prevention of procurement delays and installation issues.",
-      "implementation": "Coordinate with design team to verify correct manufacturer and model specifications before procurement.",
+      "recommendation": "Order Custom Equipment Curbs Early with Detailed Specifications",
+      "rationale": "Wind-rated equipment curbs require custom fabrication and PE certification. Early procurement with detailed equipment dimensions will prevent rooftop installation delays.",
+      "estimatedImpact": "Prevention of 2-3 week installation delays, elimination of potential field modification costs of $2,000-3,000.",
+      "implementation": "1. Coordinate exact equipment dimensions with selected HVAC units\n2. Obtain PE-stamped wind restraint calculations early\n3. Place curb orders immediately after equipment selection\n4. Verify compatibility with roof construction details",
       "priority": "High"
     },
     {
       "id": 7,
-      "recommendation": "Ensure wind restraint submittals meet requirements",
-      "rationale": "Division 23 requires PE-stamped calculations and submittals for rooftop equipment curbs and supports.",
-      "estimatedImpact": "Compliance with code requirements and prevention of inspection issues.",
-      "implementation": "Coordinate with structural engineer for wind restraint design and certification of all rooftop equipment.",
-      "priority": "Medium"
+      "recommendation": "Explore Markel Unit Heaters as Cost-Effective Alternative",
+      "rationale": "Markel HF/HT Series unit heaters are identified as 3-5% less expensive than the specified QMark units while providing equivalent heating capacity and electrical compatibility.",
+      "estimatedImpact": "Potential savings of $800-1,200 across all unit heater and cabinet unit heater installations.",
+      "implementation": "1. Submit product data for Markel unit heaters as equivalent\n2. Verify electrical compatibility with building systems\n3. Confirm physical dimensions fit in designated spaces\n4. Document equivalent performance specifications",
+      "priority": "Low"
     }
   ],
   "conclusion": {
-    "summary": "The HVAC and plumbing systems designed for the Town of Montgomery Police Station incorporate energy-efficient equipment and provide for reliable operation. The use of variable air volume distribution with heat pump technology balances energy efficiency with occupant comfort. The water treatment system meets regulatory requirements while providing redundancy for critical functions. Several issues require attention, including long lead times for critical equipment, model number discrepancies for the ductless split system, and wind restraint requirements for rooftop equipment.",
+    "summary": "The Town of Montgomery Police Station HVAC project involves procurement of various equipment including packaged rooftop units, split system AC units, exhaust fans, unit heaters, and water treatment systems. Critical procurement concerns include long lead times (10-20 weeks) for Daikin rooftop units, model compatibility issues with the Trane split system specification, and wind restraint requirements for rooftop installations. The project requires early procurement planning to mitigate schedule risks while ensuring proper equipment selection that meets the project's performance specifications.",
     "keyFindings": [
-      "The selected equipment meets or exceeds energy efficiency requirements",
-      "The HVAC system provides appropriate zoning for different building areas",
-      "Water treatment systems include redundancy for critical functions",
-      "The overall design follows current best practices for safety and reliability",
-      "Long lead times for Daikin RTUs (10-20 weeks) present schedule risk",
-      "Model number discrepancies in the ductless split system specifications need resolution",
-      "Wind restraint requirements for rooftop equipment require PE certification"
+      "Long lead times (10-20 weeks) for critical Daikin RTUs present significant schedule risks",
+      "Model number discrepancies exist in the split system specifications (Trane models with Mitsubishi designations)",
+      "Multiple supplier options are available for most equipment types with cost variations of -5% to +7%",
+      "Wind restraint certification requirements add complexity to rooftop equipment installation",
+      "Water treatment systems require specific NSF certifications per NYS Department of Health regulations"
     ],
     "highestPriorityActions": [
-      "Implement comprehensive commissioning plan to verify proper system operation",
-      "Schedule early procurement of long-lead equipment to prevent schedule delays",
-      "Install additional monitoring for water treatment systems",
-      "Verify ductless split system model compatibility before procurement",
-      "Ensure PE-stamped wind restraint submittals for all rooftop equipment",
-      "Provide detailed training for maintenance staff on all specialized equipment"
+      "Immediately initiate procurement of long-lead Daikin rooftop units to prevent project delays",
+      "Verify correct manufacturer and model specifications for the ductless split system before ordering",
+      "Develop a comprehensive procurement schedule that prioritizes equipment based on lead times",
+      "Ensure all rooftop equipment meets wind restraint requirements with proper PE-stamped documentation"
     ]
   }
 }

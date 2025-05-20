@@ -1,3 +1,258 @@
 {
-  "suppliers": []
+  "suppliers": [
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C and C661364-C",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Custom Indoor Central-Station AHUs with chilled water cooling and hot water heating, variable volume operation and DDC controls."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Performance Climate Changer",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Trane Rep",
+            "company": "Trane",
+            "contact": "Southern California"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane's Performance Climate Changer series offers comparable custom AHUs with similar configuration options. Features include modular design for installation flexibility and high-efficiency components."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "39CC Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Carrier Rep",
+            "company": "Carrier Corporation",
+            "contact": "Southern California"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Carrier's custom AHU line provides similar performance characteristics with robust construction. Units can be configured to match the Energy Labs specifications with comparable air handling capabilities."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Solution Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Johnson Controls Rep",
+            "company": "Johnson Controls",
+            "contact": "Southern California"
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York Solution custom AHUs offer comparable performance with potential cost savings. Their modular design allows for configuration to match the specified performance requirements."
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG and CUE-100B-VG",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Centrifugal Exhaust Fans, roof-mounted with VFD options."
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "ACE/ACW Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Loren Cook Rep",
+            "company": "Loren Cook Company",
+            "contact": "Southern California"
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Loren Cook's centrifugal exhaust fans provide comparable performance to the specified Greenheck models with potential cost savings. Direct drive options available for improved reliability."
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "BCRD Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Twin City Rep",
+            "company": "Twin City Fan Companies",
+            "contact": "Western Region"
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Twin City's BCRD series offers direct drive centrifugal roof exhausters that are compatible with VFD control and provide similar performance characteristics to the specified fans."
+        },
+        {
+          "manufacturer": "Penn Ventilation",
+          "model": "Domex Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Penn Rep",
+            "company": "Penn Ventilation",
+            "contact": "California"
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Penn's Domex series provides good value with comparable performance specifications. Units are compatible with the project requirements and offer potential cost savings."
+        }
+      ]
+    },
+    {
+      "componentType": "Split System Air Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3/40KAH036026A3",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "9.25 kW nominal cooling, R-410A refrigerant, 14.0+ SEER efficiency, scroll compressor."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "FTXS Series/RXS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec Mechanical Equipment",
+            "contact": "Southern California, 714-632-9800"
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "High-efficiency operation with comparable capacity and features."
+        },
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PUZ/PLA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "FUSE HVAC",
+            "company": "FUSE HVAC",
+            "contact": "Southern California"
+          },
+          "costDifference": "+12%",
+          "compatibilityNotes": "High-efficiency, low-noise operation with robust control options."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "Multi V S Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec Mechanical Equipment",
+            "contact": "Southern California, 714-632-9800"
+          },
+          "costDifference": "0%",
+          "compatibilityNotes": "Variable refrigerant flow technology with energy-efficient operation."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "XR14",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Trane Rep",
+            "company": "Trane",
+            "contact": "Southern California"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane's XR14 split systems offer comparable performance to the specified Carrier models with a similar efficiency rating and reliability track record."
+        }
+      ]
+    },
+    {
+      "componentType": "Air Terminal Units",
+      "suppliers": [
+        {
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Single-Duct VAV/CAV, pressure independent with butterfly style damper and digital/analog control options."
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "LMHS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Denco Rep",
+            "company": "Denco",
+            "contact": "1011 West Foothill Blvd, Southern California"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Similar single-duct, pressure independent VAV terminal unit with comparable performance to the Titus DESV."
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "SDV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Toro Aire",
+            "company": "Toro Aire",
+            "contact": "Southern California"
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Comparable single-duct VAV terminal unit with similar control options and performance characteristics."
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "3000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Nailor Rep",
+            "company": "Nailor Industries",
+            "contact": "Western Region"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Nailor's 3000 Series VAV terminals provide reliable performance with similar features to the specified Titus units. Compatible with the project's control requirements and potential cost savings."
+        },
+        {
+          "manufacturer": "Metalaire",
+          "model": "ETDV/STDV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Metalaire Rep",
+            "company": "Metal Industries Inc.",
+            "contact": "California"
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Metalaire terminals offer good value with comparable performance to the specified units. They include digital control interfaces and can be configured with hot water reheat similar to the basis of design."
+        }
+      ]
+    }
+  ]
 }

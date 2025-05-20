@@ -1,3 +1,271 @@
 {
-  "suppliers": []
+  "suppliers": [
+    {
+      "componentType": "Air Terminal Units",
+      "suppliers": [
+        {
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "LMHS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Denco Rep",
+            "company": "Denco",
+            "contact": "1011 West Foothill Blvd, Southern California"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Krueger LMHS offers a similar single-duct, pressure independent VAV terminal unit with comparable performance to the Titus DESV."
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "SDV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Toro Aire",
+            "company": "Toro Aire",
+            "contact": "Southern California"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Price SDV offers a comparable single-duct VAV terminal unit with similar control options and performance characteristics."
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "3000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Nailor Industries",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Nailor 3000 Series provides comparable performance with robust construction and digital controls integration. Direct replacement option with minimal design changes required."
+        },
+        {
+          "manufacturer": "Metalaire",
+          "model": "5000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Metalaire",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Metalaire 5000 Series offers competitive pricing with appropriate controls compatibility and similar dimensional requirements. May offer cost advantages compared to Basis of Design."
+        }
+      ]
+    },
+    {
+      "componentType": "Split System Air Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3/40KAH036026A3",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "FTXS Series/RXS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec Mechanical Equipment",
+            "contact": "Southern California, 714-632-9800"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Daikin systems offer high-efficiency operation with comparable capacity and features."
+        },
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PUZ/PLA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "FUSE HVAC",
+            "company": "FUSE HVAC",
+            "contact": "Southern California"
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Mitsubishi systems feature high-efficiency, low-noise operation with robust control options."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "Multi V S Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec Mechanical Equipment",
+            "contact": "Southern California, 714-632-9800"
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "LG's Multi V S Series offers variable refrigerant flow technology with energy-efficient operation."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "XR16/TAM8 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane's split systems provide reliable performance with good parts availability and service network. Similar performance specifications to Carrier with potential cost savings."
+        },
+        {
+          "manufacturer": "York",
+          "model": "LX Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Johnson Controls",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York LX Series offers value-oriented pricing while maintaining required performance specifications. May require additional review of electrical requirements but could provide significant cost savings."
+        }
+      ]
+    },
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C/C661364-C",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Custom AHU Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane custom AHUs offer comparable quality and performance specifications with an extensive service network. Can match Energy Labs dimensional and performance requirements."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Solution Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Johnson Controls",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York Solution custom AHUs provide competitive pricing with good quality construction. May offer significant cost savings while meeting performance specifications."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Vision Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Applied",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin Vision custom AHUs feature high-quality construction with flexible configuration options. Similar performance to Energy Labs with slight cost advantage."
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "CUE Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "BSI Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Twin City Fan Companies",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Twin City Fan BSI Series offers comparable performance with good acoustic properties. Direct replacement possibility with potential cost savings."
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "Gemini Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Loren Cook Company",
+            "contact": ""
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Loren Cook Gemini Series provides similar utility exhaust capability with comparable efficiency ratings. Well-established manufacturer with good reputation for reliability."
+        },
+        {
+          "manufacturer": "PennBarry",
+          "model": "Domex Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "PennBarry",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: PennBarry Domex Series offers the most competitive pricing while maintaining acceptable performance characteristics. May be worth considering for significant cost savings."
+        }
+      ]
+    }
+  ]
 }

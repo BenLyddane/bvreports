@@ -2,83 +2,43 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Standardize on Premium Efficiency Motors for All HVAC Equipment",
-      "rationale": "The project documents specify premium efficiency motors complying with ASHRAE 90.1, but standardizing on specific motor manufacturers can improve reliability and reduce maintenance costs. Additionally, specifying motors with higher efficiency than required by code can result in operational savings over the equipment lifecycle.",
-      "estimatedImpact": "Annual energy savings of approximately 3-5% on motor operation costs. For a 600,000 sq. ft. building, this could represent $5,000-10,000 in annual energy savings. Standardization will also reduce spare parts inventory by approximately 25%.",
-      "implementation": "1. Specify ABB, Baldor, or WEG premium efficiency motors for all HVAC equipment. 2. Require documentation of motor efficiency at various loading points (50%, 75%, 100%). 3. Request extended 5-year warranties for all motors above 5 HP.",
+      "recommendation": "Implement Pre-Purchase of Critical HVAC Equipment",
+      "rationale": "The project documentation indicates a tight construction timeline with 50% CDs dated March 2025 and 100% DD dated November 2024. Long lead items such as air handling units (AHUs) and specialized fan coil units may cause schedule delays if not ordered early. York and Temtrol AHUs, particularly custom units like AHU-2A-01 and AHU-2A-02, typically have 12-16 week lead times that could impact the construction schedule.",
+      "estimatedImpact": "Potential schedule savings of 4-6 weeks by avoiding delays in mechanical system installation. Early procurement could also secure better pricing before potential material cost escalations, saving approximately 3-5% on major equipment costs.",
+      "implementation": "1. Identify long lead items from equipment schedules (AHUs, FCUs)\n2. Issue early equipment purchase orders with approved submittals\n3. Arrange for secure storage if equipment arrives before installation areas are ready\n4. Coordinate with electrical contractor for early provision of power connections",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Implement Bulk Purchasing Strategy for Fan Coil Units",
-      "rationale": "The project includes at least 14 Enviro-Tec fan coil units of varying sizes (HDD series). Consolidating the purchase order with a single supplier can yield significant volume discounts and ensure consistent delivery schedules.",
-      "estimatedImpact": "Potential cost reduction of 8-12% through volume pricing, representing approximately $15,000-25,000 in savings based on typical fan coil unit pricing. Additional savings from reduced procurement overhead and streamlined delivery scheduling.",
-      "implementation": "1. Identify all fan coil units needed for the project (currently 14+ Enviro-Tec units are specified). 2. Negotiate volume pricing directly with manufacturer rather than through distributors. 3. Consider pre-purchasing to lock in pricing and ensure availability. 4. Request consistent model features across all units to simplify maintenance.",
-      "priority": "High"
+      "recommendation": "Consolidate Fan Coil Unit Procurement to Single Manufacturer",
+      "rationale": "Project specifications show Enviro-Tec as basis of design for all FCUs, but also list acceptable alternatives like First Company and Titus. Selecting a single manufacturer for all units (15+ FCUs of various sizes) would provide procurement leverage, ensure consistent quality and controls integration, and simplify maintenance requirements with standardized parts inventory.",
+      "estimatedImpact": "Potential cost savings of 8-12% through volume purchasing of FCUs, reduced coordination issues between different systems, and long-term operational savings through standardized maintenance protocols and spare parts inventory.",
+      "implementation": "1. Issue RFQ to qualified FCU manufacturers for complete package\n2. Evaluate bids based on total cost of ownership rather than just upfront cost\n3. Arrange factory packaging of units by installation location\n4. Secure training from manufacturer for all maintenance staff on one system",
+      "priority": "Medium"
     },
     {
       "id": 3,
-      "recommendation": "Secure Early Procurement of York and Temtrol Air Handling Units",
-      "rationale": "The project specifies York and Temtrol air handling units, which typically have long lead times (16-30 weeks). Current market conditions show extended manufacturing delays for custom HVAC equipment, particularly for larger units like the XTI-96X96 models specified.",
-      "estimatedImpact": "Avoiding schedule delays of 4-6 weeks by early procurement. For a project of this size, each week of delay typically costs approximately $20,000-30,000 in extended general conditions, making this a $80,000-180,000 risk mitigation strategy.",
-      "implementation": "1. Issue early purchase orders for all air handling units, particularly the custom Temtrol units. 2. Secure manufacturing slots with a deposit (typically 15-25%). 3. Establish intermediate inspection points to verify production progress. 4. Arrange for climate-controlled storage if units arrive before the building is enclosed.",
-      "priority": "High"
+      "recommendation": "Establish Valve Standardization Strategy",
+      "rationale": "Specification section 230523 allows multiple manufacturers for control valves and general-duty valves. The project requires numerous valves for the hydronic systems including chilled water piping. Standardizing on a single valve manufacturer for each application type (ball, butterfly, check) would ensure consistent quality, simplify installation training, and provide better warranty coverage and future service support.",
+      "estimatedImpact": "Cost savings of approximately 5-7% on valve packages through volume purchasing and reduced administrative overhead. Additional savings from more efficient installation due to consistent installation procedures and simplified maintenance requirements.",
+      "implementation": "1. Review valve requirements across all hydronic systems\n2. Create standardized valve schedule by type and size\n3. Request manufacturer volume discount for package purchase\n4. Pre-purchase valve packages for timely delivery to installation zones",
+      "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Evaluate Alternative Suppliers for Control Valves",
-      "rationale": "Section 230923.11 specifies Belimo as the primary control valve supplier. While Belimo produces high-quality valves, alternative suppliers like Honeywell, Johnson Controls, and Siemens may offer competitive pricing while maintaining compatibility with the BMS system specified in Section 230900.",
-      "estimatedImpact": "Potential savings of 10-15% on valve costs, representing approximately $8,000-12,000 based on typical project valve requirements. May also improve delivery schedules by 2-3 weeks compared to potentially constrained supply chains.",
-      "implementation": "1. Request pricing from multiple approved control valve manufacturers. 2. Verify compatibility with specified Tridium Niagara N4 BMS system. 3. Evaluate each alternative based on price, delivery timeline, and warranty terms. 4. Perform lifecycle cost analysis including maintenance requirements.",
-      "priority": "Medium"
+      "recommendation": "Procure Complete BMS Package from Single Vendor",
+      "rationale": "Section 230900 outlines requirements for a comprehensive Building Management System (BMS) utilizing Tridium Niagara Framework N4. The specifications emphasize open protocols and interoperability. By procuring the complete control system (hardware, software, installation, and commissioning) from a single vendor, the project can ensure seamless integration, unified responsibility, and avoid coordination issues between multiple vendors.",
+      "estimatedImpact": "Reduced integration issues could save approximately 100-150 labor hours during commissioning. A comprehensive package would reduce change orders and RFIs related to control system interfaces, potentially saving 3-5% on total control system cost while providing better system performance.",
+      "implementation": "1. Develop comprehensive RFP for complete BMS package including all controllers, sensors, and software\n2. Require bidders to demonstrate Niagara Framework N4 experience and certification\n3. Include post-installation support and training requirements\n4. Evaluate proposals based on total cost of ownership and technical capability",
+      "priority": "High"
     },
     {
       "id": 5,
-      "recommendation": "Optimize Coil Selection for Air Handling Units",
-      "rationale": "The specifications call for copper tubes and aluminum fins for water coils. By carefully analyzing the required performance data and selecting optimized coil configurations (row depth, fin spacing, circuiting), material costs can be reduced without sacrificing performance.",
-      "estimatedImpact": "Optimized coil selections can reduce material costs by 5-8%, representing approximately $10,000-15,000 in savings across all air handling units. May also reduce water-side pressure drop, saving pumping energy costs of approximately $2,000-3,000 annually.",
-      "implementation": "1. Request detailed coil selection data from manufacturers. 2. Analyze options for tube diameter, wall thickness, fin spacing, and row depth. 3. Select configurations that minimize material while meeting performance requirements. 4. Consider partial coat of corrosion-resistant coating rather than full coating where appropriate.",
+      "recommendation": "Use Prefabricated Hydronic Piping Assemblies",
+      "rationale": "The mechanical specifications indicate extensive chilled water piping systems (Section 232113) with various valves, fittings, and connections. Utilizing prefabricated piping assemblies for standard configurations (pump connections, coil connections, valve assemblies) would improve quality control, reduce field labor, and decrease installation time while ensuring consistent installation standards.",
+      "estimatedImpact": "Labor savings of approximately 15-20% on piping installation. Potential schedule acceleration of 2-3 weeks for mechanical rough-in. Reduced field welding and assembly would improve quality and reduce rework, potentially saving an additional 2-3% in overall mechanical installation costs.",
+      "implementation": "1. Identify repetitive piping assembly configurations from drawings\n2. Create standardized assembly drawings for prefabrication\n3. Select qualified mechanical prefabricator with shop drawing capabilities\n4. Schedule deliveries to align with installation sequence",
       "priority": "Medium"
-    },
-    {
-      "id": 6,
-      "recommendation": "Consolidate Variable Frequency Drive Procurement",
-      "rationale": "The project specifications indicate variable frequency drives (VFDs) for air handling units. By consolidating the purchase of all VFDs to a single manufacturer and model series, significant volume discounts can be achieved while also simplifying maintenance and spare parts inventory.",
-      "estimatedImpact": "Potential savings of 12-18% on VFD costs through volume purchasing, representing approximately $10,000-15,000. Standardization will also reduce future maintenance costs by an estimated 20% and improve system reliability.",
-      "implementation": "1. Identify all VFD requirements across the project. 2. Select ABB, Danfoss, or Yaskawa as preferred suppliers based on competitive pricing and reliability. 3. Standardize on a single VFD series across similar horsepower ranges. 4. Pre-purchase VFDs to lock in pricing and ensure availability.",
-      "priority": "Medium"
-    },
-    {
-      "id": 7,
-      "recommendation": "Implement Direct Digital Control Valve Package Procurement",
-      "rationale": "The control valve specifications in Section 230923.11 indicate ball-style control valves with various actuator options. By ordering pre-assembled and factory-tested valve packages rather than separate components, installation time and potential field issues can be reduced.",
-      "estimatedImpact": "Reduction in installation labor by approximately 25% for control valves, representing estimated savings of $5,000-8,000. Additionally, factory testing will reduce commissioning time and warranty issues by an estimated 30%.",
-      "implementation": "1. Order complete valve assemblies including valve, actuator, and linkages as factory-assembled packages. 2. Require factory testing documentation for each valve assembly. 3. Specify consistent pressure ratings and connection types across similar applications. 4. Consider incorporating flow metering capability in critical valve locations.",
-      "priority": "Medium"
-    },
-    {
-      "id": 8,
-      "recommendation": "Evaluate MERV 13 Filter Supplier Alternatives",
-      "rationale": "The specifications require MERV 13 filters for air handling units and fan coil units. The filter market has seen significant price volatility, and establishing relationships with multiple suppliers can mitigate supply chain risks while potentially reducing costs.",
-      "estimatedImpact": "Potential savings of 8-12% on filter costs both for initial installation and ongoing replacement, representing approximately $3,000-5,000 initially and similar annual savings. Reduced risk of project delays due to filter availability issues.",
-      "implementation": "1. Identify total filter requirements across all air handling units and fan coil units. 2. Request pricing from multiple filter manufacturers including AAF, Camfil, and Flanders. 3. Consider standardizing filter sizes across equipment where possible to reduce inventory requirements. 4. Evaluate bulk purchasing for both initial filters and one replacement set.",
-      "priority": "Medium"
-    },
-    {
-      "id": 9,
-      "recommendation": "Consider Factory-Mounted Controls Package for Air Handling Units",
-      "rationale": "The project specifies a BMS system using Tridium Niagara N4 Framework. Having the air handling unit manufacturer pre-install and test controls components at the factory can reduce field installation time and potential coordination issues.",
-      "estimatedImpact": "Reduction in field labor for controls installation by approximately 30%, representing savings of $8,000-12,000. Reduced commissioning time by approximately 20%, and lower risk of integration issues between equipment and controls.",
-      "implementation": "1. Coordinate with the controls contractor to provide required components to the air handling unit manufacturer. 2. Specify factory mounting of control panels, sensors, actuators, and associated wiring. 3. Require factory testing documentation for all control components. 4. Establish clear division of responsibility between equipment and controls vendors.",
-      "priority": "Medium"
-    },
-    {
-      "id": 10,
-      "recommendation": "Optimize Stainless Steel Drain Pan Selection",
-      "rationale": "The specifications require stainless steel drain pans for both air handling units and fan coil units. By carefully selecting 304 stainless steel rather than more expensive 316 stainless for non-corrosive environments, material costs can be reduced without compromising durability.",
-      "estimatedImpact": "Potential savings of 15-20% on drain pan costs, representing approximately $3,000-5,000 across all equipment. No significant impact on equipment performance or maintenance requirements expected.",
-      "implementation": "1. Specify 304 stainless steel drain pans for standard indoor applications. 2. Reserve 316 stainless steel only for specialized areas with potential chemical exposure. 3. Require double-wall construction with proper insulation regardless of material selection. 4. Maintain proper slope and connection requirements per specifications.",
-      "priority": "Low"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "reportTitle": "BuildVision Project Report - NVS Mariana 500 Forge Lab/Office Fit-Out",
+  "reportTitle": "BuildVision Project Report for NVS Mariana 500 Forge Lab/Office Fit-Out",
   "customerInformation": {
     "customerName": "NVS Technologies",
     "contactPerson": "Not Specified",
@@ -27,11 +27,16 @@
   "preparerInformation": {
     "preparers": [
       {
-        "name": "BuildVision Engineering Team",
-        "email": "engineering@buildvision.io",
-        "phone": ""
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
       }
     ],
-    "preparationDate": "2025-05-14"
+    "preparationDate": ""
   }
 }

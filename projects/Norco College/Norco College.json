@@ -1,5 +1,5 @@
 {
-  "reportTitle": "BuildVision Project Report - Norco College Center for Human Performance & Kinesiology",
+  "reportTitle": "BuildVision Project Report for Center for Human Performance & Kinesiology",
   "customerInformation": {
     "customerName": "Norco College",
     "contactPerson": "Gerald Stosek",
@@ -38,7 +38,7 @@
       {
         "name": "Mackenzie Hoover",
         "email": "Mackenzie@buildvision.io",
-        "phone": "267-281-4339"
+        "phone": "843-609-3265"
       }
     ],
     "preparationDate": "2025-05-20"
@@ -423,188 +423,331 @@
       ]
     }
   ],
-  "alternateManufacturers": [
+  "suppliers": [
     {
       "componentType": "Air Terminal Units",
-      "basisOfDesign": "Titus DESV",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Krueger",
           "model": "LMHS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Denco Rep",
             "company": "Denco",
             "contact": "1011 West Foothill Blvd, Southern California"
           },
-          "costDifference": "",
+          "costDifference": "-5%",
           "compatibilityNotes": "Krueger LMHS offers a similar single-duct, pressure independent VAV terminal unit with comparable performance to the Titus DESV."
         },
         {
           "manufacturer": "Price Industries",
           "model": "SDV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Toro Aire",
             "company": "Toro Aire",
             "contact": "Southern California"
           },
-          "costDifference": "",
+          "costDifference": "-3%",
           "compatibilityNotes": "Price SDV offers a comparable single-duct VAV terminal unit with similar control options and performance characteristics."
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "3000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Nailor Industries",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Nailor 3000 Series provides comparable performance with robust construction and digital controls integration. Direct replacement option with minimal design changes required."
+        },
+        {
+          "manufacturer": "Metalaire",
+          "model": "5000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Metalaire",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Metalaire 5000 Series offers competitive pricing with appropriate controls compatibility and similar dimensional requirements. May offer cost advantages compared to Basis of Design."
         }
       ]
     },
     {
       "componentType": "Split System Air Conditioners",
-      "basisOfDesign": "Carrier 38MAR925DAA3/40KAH036026A3",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3/40KAH036026A3",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Daikin",
           "model": "FTXS Series/RXS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Norman S. Wright Climatec",
             "company": "Norman S. Wright Climatec Mechanical Equipment",
             "contact": "Southern California, 714-632-9800"
           },
-          "costDifference": "",
+          "costDifference": "-2%",
           "compatibilityNotes": "Daikin systems offer high-efficiency operation with comparable capacity and features."
         },
         {
           "manufacturer": "Mitsubishi Electric",
           "model": "PUZ/PLA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "FUSE HVAC",
             "company": "FUSE HVAC",
             "contact": "Southern California"
           },
-          "costDifference": "",
+          "costDifference": "+5%",
           "compatibilityNotes": "Mitsubishi systems feature high-efficiency, low-noise operation with robust control options."
         },
         {
           "manufacturer": "LG",
           "model": "Multi V S Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Norman S. Wright Climatec",
             "company": "Norman S. Wright Climatec Mechanical Equipment",
             "contact": "Southern California, 714-632-9800"
           },
-          "costDifference": "",
+          "costDifference": "+3%",
           "compatibilityNotes": "LG's Multi V S Series offers variable refrigerant flow technology with energy-efficient operation."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "XR16/TAM8 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane's split systems provide reliable performance with good parts availability and service network. Similar performance specifications to Carrier with potential cost savings."
+        },
+        {
+          "manufacturer": "York",
+          "model": "LX Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Johnson Controls",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York LX Series offers value-oriented pricing while maintaining required performance specifications. May require additional review of electrical requirements but could provide significant cost savings."
         }
       ]
-    }
-  ],
-  "designNotes": [
+    },
     {
-      "systemType": "HVAC System",
-      "technicalObservations": [
-        "The project includes a mix of central air handling systems and localized split systems for different zones and areas of the building.",
-        "The extensive use of VAV boxes suggests a zoned variable air volume approach for the primary air distribution system.",
-        "The custom AHUs from Energy Labs indicate a higher level of specification for the central air handling equipment."
-      ],
-      "concerns": [
-        "Coordination between the multiple system types (central AHUs and distributed split systems) will be critical for proper system operation.",
-        "Proper commissioning of the numerous VAV/CAV terminal units will be essential for balanced airflow and comfort.",
-        "Control integration between all equipment components will require careful planning."
-      ],
-      "opportunities": [
-        "Consider adding integrated building automation system for optimized control of all HVAC components.",
-        "Evaluate energy recovery options for the AHUs to improve overall system efficiency.",
-        "Review alternate manufacturers for potential cost savings or performance improvements."
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C/C661364-C",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Custom AHU Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Trane custom AHUs offer comparable quality and performance specifications with an extensive service network. Can match Energy Labs dimensional and performance requirements."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Solution Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Johnson Controls",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: York Solution custom AHUs provide competitive pricing with good quality construction. May offer significant cost savings while meeting performance specifications."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Vision Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Applied",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin Vision custom AHUs feature high-quality construction with flexible configuration options. Similar performance to Energy Labs with slight cost advantage."
+        }
       ]
     },
     {
-      "systemType": "Air Distribution",
-      "technicalObservations": [
-        "The extensive use of DESV terminal units from Titus indicates a focus on precise airflow control.",
-        "The project uses both VAV and CAV terminal units, suggesting different control requirements for different spaces.",
-        "Terminal units appear to be concentrated on the 3rd and 4th floors, based on equipment tagging."
-      ],
-      "concerns": [
-        "Acoustic performance of the terminal units in sensitive areas (classrooms, offices) will require attention.",
-        "Maintenance access to all terminal units should be verified during design review.",
-        "Ensure proper air balancing procedures are specified for the complex distribution system."
-      ],
-      "opportunities": [
-        "Consider upgrading terminal units to include energy-saving features like auto-reset or occupancy-based controls.",
-        "Evaluate acoustic treatment options for areas with multiple terminal units.",
-        "Review zoning arrangement to optimize comfort and energy efficiency."
-      ]
-    },
-    {
-      "systemType": "Split Systems",
-      "technicalObservations": [
-        "All split systems use the same Carrier models, suggesting a standardized approach to these systems.",
-        "The quantity of split systems indicates they serve a significant portion of the building's conditioning needs.",
-        "The specified Carrier equipment is designed for commercial applications with appropriate capacity for educational facilities."
-      ],
-      "concerns": [
-        "Refrigerant line routing and length limitations should be verified for all split system installations.",
-        "Condensate drainage paths need to be coordinated with the building structure.",
-        "Outdoor unit placement will need to address noise and aesthetic considerations."
-      ],
-      "opportunities": [
-        "Consider VRF (Variable Refrigerant Flow) alternatives for enhanced zoning and efficiency.",
-        "Evaluate control integration options to incorporate split systems into the central building management system.",
-        "Review refrigerant type and efficiency ratings against current best practices."
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "CUE Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "BSI Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Twin City Fan Companies",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Twin City Fan BSI Series offers comparable performance with good acoustic properties. Direct replacement possibility with potential cost savings."
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "Gemini Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Loren Cook Company",
+            "contact": ""
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Loren Cook Gemini Series provides similar utility exhaust capability with comparable efficiency ratings. Well-established manufacturer with good reputation for reliability."
+        },
+        {
+          "manufacturer": "PennBarry",
+          "model": "Domex Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "PennBarry",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: PennBarry Domex Series offers the most competitive pricing while maintaining acceptable performance characteristics. May be worth considering for significant cost savings."
+        }
       ]
     }
   ],
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Consider VRF system alternatives for some or all of the split system locations",
-      "rationale": "Modern VRF systems offer improved energy efficiency, flexible zoning, and reduced refrigerant piping compared to traditional split systems. Manufacturers like Daikin, Mitsubishi, and LG offer VRF solutions that could provide better performance.",
-      "estimatedImpact": "Potential 15-30% energy savings for cooling and heating operations, improved zone-level comfort control, and reduced maintenance requirements.",
-      "implementation": "Would require modification of the design specification to incorporate VRF outdoor units and indoor fan coils. Additional control wiring would be needed, but refrigerant piping requirements might be reduced.",
-      "priority": "Medium"
+      "recommendation": "Package Purchase of Terminal Units for Volume Discount",
+      "rationale": "The project requires 34 Titus DESV air terminal units. Purchasing these units as a complete package rather than individually can result in significant quantity discounts. Additionally, standardizing on a single manufacturer for all terminal units will simplify maintenance and spare parts inventory.",
+      "estimatedImpact": "Potential 5-10% cost savings on terminal unit procurement (approximately 34 units), improved delivery coordination, and reduced procurement administrative overhead.",
+      "implementation": "1. Request package pricing from Titus and authorized distributors\n2. Compare with package pricing from alternate manufacturers (Krueger, Price)\n3. Evaluate total cost of ownership including maintenance considerations\n4. Negotiate improved warranty terms based on volume purchase",
+      "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Integrate all HVAC components into a unified building automation system",
-      "rationale": "The project includes multiple system types (AHUs, VAV boxes, split systems) that would benefit from centralized control. A unified BMS would optimize overall system performance and provide better data for operations.",
-      "estimatedImpact": "Improved energy efficiency through coordinated control, enhanced troubleshooting capabilities, and better management of indoor environmental conditions.",
-      "implementation": "Specify compatible controls for all equipment and include BACnet or similar protocol for integration. Include front-end software for monitoring and control.",
+      "recommendation": "Consolidate Split System Purchases with Competitive Bidding",
+      "rationale": "The project includes 8 identical Carrier condensing units (38MAR925DAA3) and 7 matching fan coil units (40KAH036026A3). Alternative manufacturers (Daikin, Mitsubishi, LG) have been identified. A competitive bid process across all manufacturers with bulk purchasing can yield better pricing and potential performance improvements.",
+      "estimatedImpact": "Potential 8-15% cost reduction on split system equipment, improved warranty terms, and possibility of enhanced performance specifications or features at the same price point.",
+      "implementation": "1. Develop performance-based specification that allows multiple manufacturers\n2. Request bids from all identified alternative manufacturers\n3. Evaluate lifecycle costs including energy efficiency and maintenance\n4. Consider standardizing with manufacturer of other campus equipment",
       "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Add energy recovery to the air handling units",
-      "rationale": "For a facility like the Center for Human Performance & Kinesiology, ventilation requirements are likely significant. Energy recovery devices could capture waste energy from exhaust air and reduce overall HVAC energy consumption.",
-      "estimatedImpact": "Potential 10-20% reduction in heating and cooling energy for the ventilation load, improving overall building efficiency.",
-      "implementation": "Work with Energy Labs to incorporate energy recovery wheels or plates into the custom AHU designs. May require some additional space allocation for the equipment.",
-      "priority": "Medium"
+      "recommendation": "Pre-purchase Critical Air Handling Units to Mitigate Schedule Risk",
+      "rationale": "The four custom Energy Labs air handling units (AHUs) typically have long lead times that could impact the project schedule. Pre-purchasing these units ahead of other equipment can prevent schedule delays, particularly as the project is scheduled to start 7/22/2025.",
+      "estimatedImpact": "Reduced risk of project delays, potential cost savings by avoiding expedite fees, and better coordination of installation activities. Custom AHUs typically have 16-20 week lead times.",
+      "implementation": "1. Confirm final AHU specifications early in the project\n2. Issue purchase orders for AHUs before other equipment\n3. Secure storage if units arrive before installation readiness\n4. Coordinate delivery timing with construction schedule",
+      "priority": "High"
     },
     {
       "id": 4,
-      "recommendation": "Evaluate acoustic treatment for areas with multiple terminal units",
-      "rationale": "Educational facilities require good acoustic conditions for effective learning. The extensive use of VAV and CAV terminal units could create noise issues if not properly addressed.",
-      "estimatedImpact": "Improved learning environment, reduced complaints, better speech intelligibility in classrooms and meeting spaces.",
-      "implementation": "Add sound attenuators downstream of terminal units, specify low-noise diffusers, and ensure proper equipment selection for noise-sensitive areas.",
+      "recommendation": "Evaluate Local Stock Availability for Exhaust Fans",
+      "rationale": "The four Greenheck exhaust fans (models CUE-140-VG and CUE-100B-VG) are standard products that may be available from local distributors with shorter lead times than factory orders. Local sourcing could reduce procurement time and shipping costs.",
+      "estimatedImpact": "Potential 2-4 week reduction in lead time, reduced shipping costs, and increased flexibility for installation scheduling.",
+      "implementation": "1. Contact local Greenheck representatives to check stock availability\n2. Compare pricing between stock units and factory orders\n3. Verify that stock units meet all project specifications\n4. Include local availability as a factor in purchase decisions",
       "priority": "Medium"
     },
     {
       "id": 5,
-      "recommendation": "Consider demand-controlled ventilation for high-occupancy spaces",
-      "rationale": "Spaces with variable occupancy like gymnasiums, classrooms, and assembly areas can benefit from CO2-based ventilation control to match fresh air delivery with actual occupancy.",
-      "estimatedImpact": "Reduced energy consumption while maintaining or improving indoor air quality. Typical savings of 5-15% on ventilation-related energy costs.",
-      "implementation": "Add CO2 sensors in key spaces, ensure VAV terminal units serving these areas are properly configured for demand control, and program the BMS accordingly.",
+      "recommendation": "Establish Equipment Procurement Master Schedule",
+      "rationale": "With multiple equipment types from different manufacturers, a comprehensive procurement schedule is essential. This should align delivery timing with installation needs, account for varying lead times, and create accountability for timely ordering.",
+      "estimatedImpact": "Optimized cash flow by preventing premature purchases, reduced storage requirements, minimized risk of equipment damage from extended storage, and better coordination with installation contractors.",
+      "implementation": "1. Document lead times for all major equipment\n2. Work backward from construction schedule to determine order dates\n3. Track approval submittals to prevent delays\n4. Establish regular procurement status reporting",
       "priority": "Medium"
     }
   ],
   "conclusion": {
-    "summary": "The HVAC system design for the Norco College Center for Human Performance & Kinesiology utilizes a combination of central air handling units with VAV distribution and distributed split systems. The equipment specification includes quality manufacturers with appropriate commercial-grade equipment. Several opportunities exist to enhance the design through system integration, energy efficiency improvements, and careful attention to acoustics and controls.",
+    "summary": "The HVAC system procurement for Norco College's Center for Human Performance & Kinesiology encompasses a comprehensive equipment package including air handling units, exhaust fans, split system air conditioners, fan coil units, and air terminal units. The project requires coordinating multiple system types from manufacturers including Energy Labs, Greenheck, Carrier, and Titus. Several alternatives from manufacturers like Krueger, Price Industries, Daikin, Mitsubishi, and LG have been identified that could provide cost or performance benefits while maintaining system compatibility.",
     "keyFindings": [
-      "The project employs a mixed-system approach with central AHUs and multiple split systems, requiring careful coordination.",
-      "Extensive use of VAV terminal units provides good zone-level control capabilities but requires proper commissioning.",
-      "Standard equipment selections are suitable for the application, but opportunities exist for enhanced efficiency.",
-      "Control integration will be critical for optimal system performance.",
-      "Alternative manufacturers could provide comparable performance with potential advantages in specific areas."
+      "The mixed-system approach using central AHUs and split systems requires careful coordination of equipment procurement and installation timing",
+      "Alternative manufacturers for air terminal units and split systems could offer comparable performance with potential cost advantages",
+      "Integration of control systems across diverse equipment types is critical for optimal system performance",
+      "Energy efficiency improvements through VRF systems or energy recovery components represent significant opportunities",
+      "The extensive number of VAV/CAV terminal units (35+) suggests bulk purchasing opportunities"
     ],
     "highestPriorityActions": [
-      "Integrate all HVAC components into a unified building automation system for coordinated control and monitoring.",
-      "Evaluate VRF alternatives for the split system locations to improve efficiency and zoning capabilities.",
-      "Incorporate energy recovery into the air handling units to reduce ventilation energy consumption.",
-      "Address acoustic considerations for terminal units, particularly in learning environments.",
-      "Implement demand-controlled ventilation in variable occupancy spaces."
+      "Evaluate cost-benefit of alternative manufacturers, particularly for the numerous terminal units and split systems",
+      "Ensure procurement timeline accommodates long lead items, particularly the custom Energy Labs AHUs",
+      "Coordinate control system compatibility across all equipment components during procurement phase",
+      "Consider upgrading specifications to include energy recovery for AHUs and VRF technology for split systems"
     ]
   }
 }

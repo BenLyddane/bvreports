@@ -13,8 +13,8 @@ function getSummaryPrompt() {
   return `
 IMPORTANT: You are to return ONLY a JSON object without any additional text, explanation, or markdown formatting.
 
-Analyze the context files and create a concise summary and conclusion for the project.
-Focus ONLY on summarizing the key aspects of the project and providing concluding insights.
+Analyze the context files and the previously generated report sections to create a concise summary and conclusion for the project.
+Focus ONLY on summarizing the key aspects of the project and providing concluding insights with an emphasis on procurement guidance.
 
 Your response must be a valid JSON object with the following structure - nothing else:
 
@@ -32,11 +32,11 @@ Instructions for creating an effective summary:
 - The "highestPriorityActions" array should list 2-4 critical next steps the client should take
 
 The summary should focus on:
-- Equipment procurement strategy
-- Cost optimization opportunities
-- Supplier considerations
-- Timeline factors affecting procurement
-- Quality and performance considerations
+- Equipment procurement strategy and vendor selection guidelines
+- Purchasing best practices specific to the equipment types identified in earlier sections
+- Potential "gotchas" or challenges to watch for when procuring this type of equipment
+- Timeline considerations and lead time management for procurement
+- Quality standards, performance specifications, and criteria for evaluating equipment options
 
 Ensure all fields are populated based on available information in the context files, using consistent data types throughout.
 

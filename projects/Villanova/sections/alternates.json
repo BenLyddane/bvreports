@@ -7,37 +7,40 @@
           "manufacturer": "CaptiveAire",
           "model": "A2D Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Chris Stauffer",
             "company": "CaptiveAire Systems",
             "contact": "215-942-5900"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base model specified in design documents"
         },
         {
           "manufacturer": "Greenheck",
           "model": "MSX Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Klinger & Associates",
             "company": "Greenheck Representative",
             "contact": "717-939-9993"
           },
-          "costDifference": "+5-10%",
+          "costDifference": "+5%",
           "compatibilityNotes": "Compatible alternative, verify footprint and gas connection locations"
         },
         {
           "manufacturer": "Modine",
           "model": "Hot Dawg Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Harry Eklof & Associates",
             "company": "Modine Representative",
             "contact": "301-468-1901"
           },
-          "costDifference": "-3-5%",
-          "compatibilityNotes": "May require modifications to ductwork connections and controls interface"
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: May require modifications to ductwork connections and controls interface but offers competitive pricing"
         }
       ]
     },
@@ -48,25 +51,53 @@
           "manufacturer": "Blue Diamond Pumps Inc.",
           "model": "X87-721 MANULUC",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Harry Eklof & Associates",
             "company": "Blue Diamond Pumps Representative",
             "contact": "301-468-1901"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base model specified in design documents"
         },
         {
           "manufacturer": "Little Giant",
           "model": "VCMA Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "N.H. Yates & Co.",
             "company": "Little Giant Representative",
             "contact": "410-363-0300"
           },
-          "costDifference": "-5-10%",
+          "costDifference": "-8%",
           "compatibilityNotes": "Widely available alternative, verify power requirements and capacity"
+        },
+        {
+          "manufacturer": "Aspen Pumps",
+          "model": "Mini Orange Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Aspen Pumps North America",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compact size ideal for tight installations, reliable performance with lower price point"
+        },
+        {
+          "manufacturer": "Rectorseal",
+          "model": "Gobi II",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Rectorseal",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Low-profile design with reliable operation, widely available through distribution channels"
         }
       ]
     },
@@ -77,37 +108,66 @@
           "manufacturer": "CaptiveAire",
           "model": "USDH-RM/DLX Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Chris Stauffer",
             "company": "CaptiveAire Systems",
             "contact": "215-942-5900"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base model specified for EF-1, EF-2, EF-3"
         },
         {
           "manufacturer": "PennBarry",
           "model": "DX Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "TriState HVAC Equipment",
             "company": "PennBarry Representative",
             "contact": "610-941-9100"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base model specified for EF-5"
         },
         {
           "manufacturer": "Greenheck",
           "model": "SQ/SP Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Klinger & Associates",
             "company": "Greenheck Representative",
             "contact": "717-939-9993"
           },
-          "costDifference": "+2-8%",
+          "costDifference": "+5%",
           "compatibilityNotes": "Compatible alternative, verify dimensions and electrical requirements"
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "SQN/ACE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "R.E. Michel Company",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-regarded for quality and reliability with good price point compared to basis of design"
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "BSI/ESI Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Air Equipment Company",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Offers good value with similar performance specifications, verify mounting compatibility"
         }
       ]
     },
@@ -118,37 +178,66 @@
           "manufacturer": "Bell & Gossett",
           "model": "E-80/E-1510 Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Cummins-Wagner Co.",
             "company": "Bell & Gossett Representative",
             "contact": "610-631-7700"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base models specified in design documents"
         },
         {
           "manufacturer": "Taco",
           "model": "FI/KS Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Harry Eklof & Associates",
             "company": "Taco Representative",
             "contact": "301-468-1901"
           },
-          "costDifference": "-2-5%",
+          "costDifference": "-3%",
           "compatibilityNotes": "Compatible alternative, confirm pump curves and electrical characteristics"
         },
         {
           "manufacturer": "Grundfos",
           "model": "TP/HS Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Flow-Tech Inc.",
             "company": "Grundfos Representative",
             "contact": "215-429-9900"
           },
-          "costDifference": "+5-10%",
+          "costDifference": "+8%",
           "compatibilityNotes": "Premium efficiency models available, confirm flange dimensions and compatibility"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "4300/4380 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Associated Steam",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High quality with good service network, similar performance to basis of design"
+        },
+        {
+          "manufacturer": "Wilo",
+          "model": "TOP-S/IL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eastern Pump & Supply",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: European design with focus on efficiency, verify pipe connection compatibility"
         }
       ]
     },
@@ -159,37 +248,66 @@
           "manufacturer": "Trane",
           "model": "EXRK Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Trane Philadelphia",
             "company": "Trane Technologies",
             "contact": "215-244-6900"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base models specified in design documents"
         },
         {
           "manufacturer": "Daikin",
           "model": "SmartSource Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Metro Group",
             "company": "Daikin Representative",
             "contact": "610-668-0110"
           },
-          "costDifference": "+3-7%",
+          "costDifference": "+5%",
           "compatibilityNotes": "Verify dimensions, connection locations, and control compatibility"
         },
         {
           "manufacturer": "ClimateMaster",
           "model": "Tranquility Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "United CoolAir",
             "company": "ClimateMaster Representative",
             "contact": "717-843-4311"
           },
-          "costDifference": "-2-5%",
+          "costDifference": "-3%",
           "compatibilityNotes": "May require different control interface, verify dimensions and connection points"
+        },
+        {
+          "manufacturer": "WaterFurnace",
+          "model": "Envision Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "WaterFurnace Mid-Atlantic",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good reliability record with lower cost point than Trane, verify control compatibility"
+        },
+        {
+          "manufacturer": "Florida Heat Pump",
+          "model": "EC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Ferguson HVAC",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented option with similar specifications, may require controls adaptation"
         }
       ]
     },
@@ -200,37 +318,53 @@
           "manufacturer": "EVAPCO",
           "model": "ATWB Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Clancy & Theys",
             "company": "EVAPCO Representative",
             "contact": "410-918-2400"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base model specified in design documents"
         },
         {
           "manufacturer": "Baltimore Aircoil Company (BAC)",
           "model": "FXV Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Havtech",
             "company": "BAC Representative",
             "contact": "301-206-9225"
           },
-          "costDifference": "+8-12%",
+          "costDifference": "+10%",
           "compatibilityNotes": "Premium alternative, verify footprint, connection locations, and structural requirements"
         },
         {
           "manufacturer": "SPX Cooling Technologies (Marley)",
           "model": "NC Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Eastern Hydrotech",
             "company": "SPX/Marley Representative",
             "contact": "717-898-6500"
           },
-          "costDifference": "+5-8%",
+          "costDifference": "+7%",
           "compatibilityNotes": "Verify physical dimensions, structural requirements, and water treatment compatibility"
+        },
+        {
+          "manufacturer": "Tower Tech",
+          "model": "TTXL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Tower Tech",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Modular design may offer installation advantages, verify footprint and connection points"
         }
       ]
     },
@@ -241,25 +375,53 @@
           "manufacturer": "Sterling HVAC",
           "model": "RW/F Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "R.D. Bitzer",
             "company": "Sterling HVAC Representative",
             "contact": "610-363-6000"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base models specified in design documents"
         },
         {
           "manufacturer": "Rittling",
           "model": "Cabinet Unit Heaters",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Harry Eklof & Associates",
             "company": "Rittling Representative",
             "contact": "301-468-1901"
           },
-          "costDifference": "+3-7%",
+          "costDifference": "+5%",
           "compatibilityNotes": "Compatible alternative, verify dimensions and connection points"
+        },
+        {
+          "manufacturer": "Vulcan Radiator",
+          "model": "Commercial Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Vulcan Radiator",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Lower cost option with comparable output, verify dimensions and appearance"
+        },
+        {
+          "manufacturer": "Runtal",
+          "model": "Wall Panel Radiators",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Runtal North America",
+            "contact": ""
+          },
+          "costDifference": "+12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium aesthetics with higher output per square foot, European design may be appropriate for high-visibility areas"
         }
       ]
     },
@@ -270,37 +432,66 @@
           "manufacturer": "Trane",
           "model": "OADG/YCH Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Trane Philadelphia",
             "company": "Trane Technologies",
             "contact": "215-244-6900"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base models specified in design documents"
         },
         {
           "manufacturer": "Daikin",
           "model": "Rebel/Rooftop Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Metro Group",
             "company": "Daikin Representative",
             "contact": "610-668-0110"
           },
-          "costDifference": "+5-10%",
+          "costDifference": "+8%",
           "compatibilityNotes": "Verify dimensions, weight, connection points, and controls compatibility"
         },
         {
           "manufacturer": "Carrier",
           "model": "62X/48HC Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Elliott-Lewis Corporation",
             "company": "Carrier Representative",
             "contact": "215-698-5000"
           },
-          "costDifference": "+2-6%",
+          "costDifference": "+4%",
           "compatibilityNotes": "Compatible alternative, verify footprint, connection locations, and controls"
+        },
+        {
+          "manufacturer": "Aaon",
+          "model": "RN/M2 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "H&H Commercial",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High quality with custom capabilities, may provide better delivery schedule than basis of design"
+        },
+        {
+          "manufacturer": "York",
+          "model": "Solution/Predator Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Johnson Controls",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good value option with similar performance, verify physical dimensions and control integration"
         }
       ]
     },
@@ -311,37 +502,66 @@
           "manufacturer": "Mitsubishi Electric",
           "model": "PKA/PUY Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "H&H Commercial Services",
             "company": "Mitsubishi Electric Representative",
             "contact": "267-803-4920"
           },
-          "costDifference": "$0",
+          "costDifference": "",
           "compatibilityNotes": "Base models specified in design documents"
         },
         {
           "manufacturer": "Daikin",
           "model": "VRV System",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Metro Group",
             "company": "Daikin Representative",
             "contact": "610-668-0110"
           },
-          "costDifference": "-3-8%",
+          "costDifference": "-5%",
           "compatibilityNotes": "May require reconfiguration of refrigerant piping and controls"
         },
         {
           "manufacturer": "LG Electronics",
           "model": "Multi V Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Stillman Equipment Corporation",
             "company": "LG HVAC Representative",
             "contact": "215-442-0700"
           },
-          "costDifference": "-5-10%",
+          "costDifference": "-8%",
           "compatibilityNotes": "Verify compatibility with building management system and refrigerant line sizing"
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "DVM S Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Comfort Systems USA",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Competitive pricing with comprehensive product line, verify controls compatibility"
+        },
+        {
+          "manufacturer": "Toshiba-Carrier",
+          "model": "VRF Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Elliott-Lewis Corporation",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Joint venture benefits from Carrier's distribution network, may offer improved lead times"
         }
       ]
     }

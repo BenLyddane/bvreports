@@ -1,0 +1,610 @@
+{
+    "reportTitle": "BuildVision Project Report - Norco College Center for Human Performance & Kinesiology",
+    "customerInformation": {
+      "customerName": "Norco College",
+      "contactPerson": "Gerald Stosek",
+      "contactEmail": "gerry.stosek@clarkconstruction.com",
+      "contactPhone": "",
+      "projectId": "75-21620-00",
+      "additionalFields": {
+        "address": "Norco, California",
+        "invitedDate": "5/13/2025",
+        "dueDate": "5/28/2025"
+      }
+    },
+    "projectInformation": {
+      "projectName": "Center for Human Performance & Kinesiology",
+      "location": "Norco College, Norco, California",
+      "startDate": "7/22/2025",
+      "completionDate": "",
+      "budget": "",
+      "scope": "HVAC system installation including air handling units, exhaust fans, split system air conditioners, fan coil units, and air terminal units",
+      "projectUrl": "https://app.buildvision.io/admin/organizations/6a99bd29-3eca-4a6b-b0ad-285950a721bf/package-projects/1713459d-1c10-4272-8fda-1d8ea190d39d/details",
+      "additionalFields": {
+        "projectSize": "40,741 sq. ft.",
+        "requestType": "Proposal",
+        "contractType": "--",
+        "RFIsDue": "5/9/2025",
+        "jobWalk": "4/29/2025"
+      }
+    },
+    "preparerInformation": {
+      "preparers": [
+        {
+          "name": "Ben Lyddane",
+          "email": "Ben@BuildVision.io",
+          "phone": "202-365-8628"
+        },
+        {
+          "name": "Mackenzie Hoover",
+          "email": "Mackenzie@buildvision.io",
+          "phone": "267-281-4339"
+        }
+      ],
+      "preparationDate": "May 14, 2025"
+    },
+    "equipmentByType": [
+      {
+        "equipmentType": "Air Handling Units",
+        "notes": "Custom indoor central-station air-handling units",
+        "items": [
+          {
+            "equipmentTag": "AHU-1",
+            "manufacturer": "Energy Labs",
+            "model": "C661024-C",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AHU-2",
+            "manufacturer": "Energy Labs",
+            "model": "C661024-C",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AHU-3",
+            "manufacturer": "Energy Labs",
+            "model": "C661364-C",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "AHU-4",
+            "manufacturer": "Energy Labs",
+            "model": "C661364-C",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "HVAC Fans",
+        "notes": "Exhaust fans",
+        "items": [
+          {
+            "equipmentTag": "EF-1",
+            "manufacturer": "Greenheck",
+            "model": "CUE-140-VG",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "EF-2",
+            "manufacturer": "Greenheck",
+            "model": "CUE-140-VG",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "EF-3",
+            "manufacturer": "Greenheck",
+            "model": "CUE-140-VG",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "EF-4",
+            "manufacturer": "Greenheck",
+            "model": "CUE-100B-VG",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "Split System Air Conditioners",
+        "notes": "Condensing units with matching fan coil units",
+        "items": [
+          {
+            "equipmentTag": "CU-1",
+            "manufacturer": "Carrier",
+            "model": "38MAR925DAA3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CU-2",
+            "manufacturer": "Carrier",
+            "model": "38MAR925DAA3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CU-3",
+            "manufacturer": "Carrier",
+            "model": "38MAR925DAA3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CU-4",
+            "manufacturer": "Carrier",
+            "model": "38MAR925DAA3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CU-5",
+            "manufacturer": "Carrier",
+            "model": "38MAR925DAA3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CU-6",
+            "manufacturer": "Carrier",
+            "model": "38MAR925DAA3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CU-7",
+            "manufacturer": "Carrier",
+            "model": "38MAR925DAA3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CU-8",
+            "manufacturer": "Carrier",
+            "model": "38MAR925DAA3",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "Fan Coil Units",
+        "notes": "Indoor units paired with condensing units",
+        "items": [
+          {
+            "equipmentTag": "FCU-1",
+            "manufacturer": "Carrier",
+            "model": "40KAH036026A3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "FCU-2",
+            "manufacturer": "Carrier",
+            "model": "40KAH036026A3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "FCU-3",
+            "manufacturer": "Carrier",
+            "model": "40KAH036026A3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "FCU-4",
+            "manufacturer": "Carrier",
+            "model": "40KAH036026A3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "FCU-5",
+            "manufacturer": "Carrier",
+            "model": "40KAH036026A3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "FCU-6",
+            "manufacturer": "Carrier",
+            "model": "40KAH036026A3",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "FCU-7",
+            "manufacturer": "Carrier",
+            "model": "40KAH036026A3",
+            "specifications": {}
+          }
+        ]
+      },
+      {
+        "equipmentType": "Air Terminal Units",
+        "notes": "DESV model variable-air-volume and constant-air-volume terminal units",
+        "items": [
+          {
+            "equipmentTag": "CAV-3-10",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CAV-3-11",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CAV-3-4",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CAV-3-9",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "CAV-4-12",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-1",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-12A",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-12B",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-13A",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-13B",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-14",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-15",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-2",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-3",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-5",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-6",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-7",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-3-8",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-10",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-11",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-13",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-1A",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-1B",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-2",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-3A",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-3B",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-4",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-5",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-6A",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-6B",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-6C",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-7A",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-7B",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-8",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          },
+          {
+            "equipmentTag": "VAV-4-9",
+            "manufacturer": "Titus",
+            "model": "DESV",
+            "specifications": {}
+          }
+        ]
+      }
+    ],
+    "alternateManufacturers": [
+      {
+        "componentType": "Air Terminal Units",
+        "basisOfDesign": "Titus DESV",
+        "alternateOptions": [
+          {
+            "manufacturer": "Krueger",
+            "model": "LMHS",
+            "representativeInfo": {
+              "name": "Denco Rep",
+              "company": "Denco",
+              "contact": "1011 West Foothill Blvd, Southern California"
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Krueger LMHS offers a similar single-duct, pressure independent VAV terminal unit with comparable performance to the Titus DESV."
+          },
+          {
+            "manufacturer": "Price Industries",
+            "model": "SDV",
+            "representativeInfo": {
+              "name": "Toro Aire",
+              "company": "Toro Aire",
+              "contact": "Southern California"
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Price SDV offers a comparable single-duct VAV terminal unit with similar control options and performance characteristics."
+          }
+        ]
+      },
+      {
+        "componentType": "Split System Air Conditioners",
+        "basisOfDesign": "Carrier 38MAR925DAA3/40KAH036026A3",
+        "alternateOptions": [
+          {
+            "manufacturer": "Daikin",
+            "model": "FTXS Series/RXS Series",
+            "representativeInfo": {
+              "name": "Norman S. Wright Climatec",
+              "company": "Norman S. Wright Climatec Mechanical Equipment",
+              "contact": "Southern California, 714-632-9800"
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Daikin systems offer high-efficiency operation with comparable capacity and features."
+          },
+          {
+            "manufacturer": "Mitsubishi Electric",
+            "model": "PUZ/PLA Series",
+            "representativeInfo": {
+              "name": "FUSE HVAC",
+              "company": "FUSE HVAC",
+              "contact": "Southern California"
+            },
+            "costDifference": "",
+            "compatibilityNotes": "Mitsubishi systems feature high-efficiency, low-noise operation with robust control options."
+          },
+          {
+            "manufacturer": "LG",
+            "model": "Multi V S Series",
+            "representativeInfo": {
+              "name": "Norman S. Wright Climatec",
+              "company": "Norman S. Wright Climatec Mechanical Equipment",
+              "contact": "Southern California, 714-632-9800"
+            },
+            "costDifference": "",
+            "compatibilityNotes": "LG's Multi V S Series offers variable refrigerant flow technology with energy-efficient operation."
+          }
+        ]
+      }
+    ],
+    "designNotes": [
+      {
+        "systemType": "HVAC System",
+        "technicalObservations": [
+          "The project includes a mix of central air handling systems and localized split systems for different zones and areas of the building.",
+          "The extensive use of VAV boxes suggests a zoned variable air volume approach for the primary air distribution system.",
+          "The custom AHUs from Energy Labs indicate a higher level of specification for the central air handling equipment."
+        ],
+        "concerns": [
+          "Coordination between the multiple system types (central AHUs and distributed split systems) will be critical for proper system operation.",
+          "Proper commissioning of the numerous VAV/CAV terminal units will be essential for balanced airflow and comfort.",
+          "Control integration between all equipment components will require careful planning."
+        ],
+        "opportunities": [
+          "Consider adding integrated building automation system for optimized control of all HVAC components.",
+          "Evaluate energy recovery options for the AHUs to improve overall system efficiency.",
+          "Review alternate manufacturers for potential cost savings or performance improvements."
+        ]
+      },
+      {
+        "systemType": "Air Distribution",
+        "technicalObservations": [
+          "The extensive use of DESV terminal units from Titus indicates a focus on precise airflow control.",
+          "The project uses both VAV and CAV terminal units, suggesting different control requirements for different spaces.",
+          "Terminal units appear to be concentrated on the 3rd and 4th floors, based on equipment tagging."
+        ],
+        "concerns": [
+          "Acoustic performance of the terminal units in sensitive areas (classrooms, offices) will require attention.",
+          "Maintenance access to all terminal units should be verified during design review.",
+          "Ensure proper air balancing procedures are specified for the complex distribution system."
+        ],
+        "opportunities": [
+          "Consider upgrading terminal units to include energy-saving features like auto-reset or occupancy-based controls.",
+          "Evaluate acoustic treatment options for areas with multiple terminal units.",
+          "Review zoning arrangement to optimize comfort and energy efficiency."
+        ]
+      },
+      {
+        "systemType": "Split Systems",
+        "technicalObservations": [
+          "All split systems use the same Carrier models, suggesting a standardized approach to these systems.",
+          "The quantity of split systems indicates they serve a significant portion of the building's conditioning needs.",
+          "The specified Carrier equipment is designed for commercial applications with appropriate capacity for educational facilities."
+        ],
+        "concerns": [
+          "Refrigerant line routing and length limitations should be verified for all split system installations.",
+          "Condensate drainage paths need to be coordinated with the building structure.",
+          "Outdoor unit placement will need to address noise and aesthetic considerations."
+        ],
+        "opportunities": [
+          "Consider VRF (Variable Refrigerant Flow) alternatives for enhanced zoning and efficiency.",
+          "Evaluate control integration options to incorporate split systems into the central building management system.",
+          "Review refrigerant type and efficiency ratings against current best practices."
+        ]
+      }
+    ],
+    "buildVisionRecommendations": [
+      {
+        "id": 1,
+        "recommendation": "Consider VRF system alternatives for some or all of the split system locations",
+        "rationale": "Modern VRF systems offer improved energy efficiency, flexible zoning, and reduced refrigerant piping compared to traditional split systems. Manufacturers like Daikin, Mitsubishi, and LG offer VRF solutions that could provide better performance.",
+        "estimatedImpact": "Potential 15-30% energy savings for cooling and heating operations, improved zone-level comfort control, and reduced maintenance requirements.",
+        "implementation": "Would require modification of the design specification to incorporate VRF outdoor units and indoor fan coils. Additional control wiring would be needed, but refrigerant piping requirements might be reduced.",
+        "priority": "Medium"
+      },
+      {
+        "id": 2,
+        "recommendation": "Integrate all HVAC components into a unified building automation system",
+        "rationale": "The project includes multiple system types (AHUs, VAV boxes, split systems) that would benefit from centralized control. A unified BMS would optimize overall system performance and provide better data for operations.",
+        "estimatedImpact": "Improved energy efficiency through coordinated control, enhanced troubleshooting capabilities, and better management of indoor environmental conditions.",
+        "implementation": "Specify compatible controls for all equipment and include BACnet or similar protocol for integration. Include front-end software for monitoring and control.",
+        "priority": "High"
+      },
+      {
+        "id": 3,
+        "recommendation": "Add energy recovery to the air handling units",
+        "rationale": "For a facility like the Center for Human Performance & Kinesiology, ventilation requirements are likely significant. Energy recovery devices could capture waste energy from exhaust air and reduce overall HVAC energy consumption.",
+        "estimatedImpact": "Potential 10-20% reduction in heating and cooling energy for the ventilation load, improving overall building efficiency.",
+        "implementation": "Work with Energy Labs to incorporate energy recovery wheels or plates into the custom AHU designs. May require some additional space allocation for the equipment.",
+        "priority": "Medium"
+      },
+      {
+        "id": 4,
+        "recommendation": "Evaluate acoustic treatment for areas with multiple terminal units",
+        "rationale": "Educational facilities require good acoustic conditions for effective learning. The extensive use of VAV and CAV terminal units could create noise issues if not properly addressed.",
+        "estimatedImpact": "Improved learning environment, reduced complaints, better speech intelligibility in classrooms and meeting spaces.",
+        "implementation": "Add sound attenuators downstream of terminal units, specify low-noise diffusers, and ensure proper equipment selection for noise-sensitive areas.",
+        "priority": "Medium"
+      },
+      {
+        "id": 5,
+        "recommendation": "Consider demand-controlled ventilation for high-occupancy spaces",
+        "rationale": "Spaces with variable occupancy like gymnasiums, classrooms, and assembly areas can benefit from CO2-based ventilation control to match fresh air delivery with actual occupancy.",
+        "estimatedImpact": "Reduced energy consumption while maintaining or improving indoor air quality. Typical savings of 5-15% on ventilation-related energy costs.",
+        "implementation": "Add CO2 sensors in key spaces, ensure VAV terminal units serving these areas are properly configured for demand control, and program the BMS accordingly.",
+        "priority": "Medium"
+      }
+    ],
+    "conclusion": {
+      "summary": "The HVAC system design for the Norco College Center for Human Performance & Kinesiology utilizes a combination of central air handling units with VAV distribution and distributed split systems. The equipment specification includes quality manufacturers with appropriate commercial-grade equipment. Several opportunities exist to enhance the design through system integration, energy efficiency improvements, and careful attention to acoustics and controls.",
+      "keyFindings": [
+        "The project employs a mixed-system approach with central AHUs and multiple split systems, requiring careful coordination.",
+        "Extensive use of VAV terminal units provides good zone-level control capabilities but requires proper commissioning.",
+        "Standard equipment selections are suitable for the application, but opportunities exist for enhanced efficiency.",
+        "Control integration will be critical for optimal system performance.",
+        "Alternative manufacturers could provide comparable performance with potential advantages in specific areas."
+      ],
+      "highestPriorityActions": [
+        "Integrate all HVAC components into a unified building automation system for coordinated control and monitoring.",
+        "Evaluate VRF alternatives for the split system locations to improve efficiency and zoning capabilities.",
+        "Incorporate energy recovery into the air handling units to reduce ventilation energy consumption.",
+        "Address acoustic considerations for terminal units, particularly in learning environments.",
+        "Implement demand-controlled ventilation in variable occupancy spaces."
+      ]
+    }
+}

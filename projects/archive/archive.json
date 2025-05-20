@@ -1,0 +1,1153 @@
+{
+  "reportTitle": "BuildVision Project Report for [Project Name]",
+  "customerInformation": {
+    "customerName": "Villanova University",
+    "contactPerson": "Not Specified",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "Founders Hall HVAC System",
+    "additionalFields": {
+      "architect": "Blackney Hayes Architects",
+      "engineerOfRecord": "PSquared Consulting Engineers",
+      "contractor": "Not Specified"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Villanova University - Founders Hall HVAC Renovation",
+    "location": "Founders Hall, 610 King of Prussia Road, Wayne, PA 19087",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "HVAC system installation/renovation including makeup air units, water-source heat pumps, cooling tower, dedicated outdoor air system, and variable refrigerant flow system",
+    "projectUrl": "",
+    "additionalFields": {
+      "designStage": "Issued for Bid",
+      "designDate": "May 5, 2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-05-20"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Custom indoor central-station air-handling units",
+      "items": [
+        {
+          "equipmentTag": "AHU-1",
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C",
+          "specifications": {
+            "type": "Custom Indoor AHU",
+            "cooling": "Chilled Water",
+            "heating": "Hot Water",
+            "airflow": "Variable Volume",
+            "controlType": "DDC"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2",
+          "manufacturer": "Energy Labs",
+          "model": "C661024-C",
+          "specifications": {
+            "type": "Custom Indoor AHU",
+            "cooling": "Chilled Water",
+            "heating": "Hot Water",
+            "airflow": "Variable Volume",
+            "controlType": "DDC"
+          }
+        },
+        {
+          "equipmentTag": "AHU-3",
+          "manufacturer": "Energy Labs",
+          "model": "C661364-C",
+          "specifications": {
+            "type": "Custom Indoor AHU",
+            "cooling": "Chilled Water",
+            "heating": "Hot Water",
+            "airflow": "Variable Volume",
+            "controlType": "DDC"
+          }
+        },
+        {
+          "equipmentTag": "AHU-4",
+          "manufacturer": "Energy Labs",
+          "model": "C661364-C",
+          "specifications": {
+            "type": "Custom Indoor AHU",
+            "cooling": "Chilled Water",
+            "heating": "Hot Water",
+            "airflow": "Variable Volume",
+            "controlType": "DDC"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Exhaust fans",
+      "items": [
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {
+            "type": "Centrifugal Exhaust Fan",
+            "cfm": "Varies by application",
+            "staticPressure": "Medium",
+            "mountingType": "Roof-Mounted",
+            "controlType": "On/Off with VFD option"
+          }
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {
+            "type": "Centrifugal Exhaust Fan",
+            "cfm": "Varies by application",
+            "staticPressure": "Medium",
+            "mountingType": "Roof-Mounted",
+            "controlType": "On/Off with VFD option"
+          }
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "Greenheck",
+          "model": "CUE-140-VG",
+          "specifications": {
+            "type": "Centrifugal Exhaust Fan",
+            "cfm": "Varies by application",
+            "staticPressure": "Medium",
+            "mountingType": "Roof-Mounted",
+            "controlType": "On/Off with VFD option"
+          }
+        },
+        {
+          "equipmentTag": "EF-4",
+          "manufacturer": "Greenheck",
+          "model": "CUE-100B-VG",
+          "specifications": {
+            "type": "Centrifugal Exhaust Fan",
+            "cfm": "Varies by application",
+            "staticPressure": "Medium",
+            "mountingType": "Roof-Mounted",
+            "controlType": "On/Off with VFD option"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Air Conditioners",
+      "notes": "Condensing units with matching fan coil units",
+      "items": [
+        {
+          "equipmentTag": "CU-1",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-2",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-3",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-4",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-5",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-6",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-7",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        },
+        {
+          "equipmentTag": "CU-8",
+          "manufacturer": "Carrier",
+          "model": "38MAR925DAA3",
+          "specifications": {
+            "cooling": "9.25 kW nominal",
+            "refrigerant": "R-410A",
+            "compressorType": "Scroll",
+            "efficiency": "14.0+ SEER",
+            "ambientOperation": "0-115°F",
+            "voltageRange": "208/230V"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Indoor units paired with condensing units",
+      "items": [
+        {
+          "equipmentTag": "FCU-1",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-2",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-3",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-4",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-5",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-6",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        },
+        {
+          "equipmentTag": "FCU-7",
+          "manufacturer": "Carrier",
+          "model": "40KAH036026A3",
+          "specifications": {
+            "coolingCapacity": "36,000 BTU/h (3 ton)",
+            "airflow": "Nominal 1200 CFM",
+            "filtration": "MERV 8 standard",
+            "voltageRange": "208/230V",
+            "mountingType": "Concealed"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Terminal Units",
+      "notes": "DESV model variable-air-volume and constant-air-volume terminal units",
+      "items": [
+        {
+          "equipmentTag": "CAV-3-10",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "CAV-3-11",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "CAV-3-4",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "CAV-3-9",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "CAV-4-12",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-1",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-12A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-12B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-13A",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-13B",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-14",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-15",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-2",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-3",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-5",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-6",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-7",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3-8",
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "specifications": {
+            "type": "Single-Duct VAV/CAV",
+            "controlType": "Pressure Independent",
+            "construction": "24-gauge galvanized steel",
+            "insulation": "Dual density fiberglass liner",
+            "damperType": "Butterfly style damper",
+            "controlOptions": "Digital or Analog",
+            "reheat": "Hot water options available",
+            "soundData": "Per AHRI 880 standards"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "VENTROL",
+          "model": "Custom",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "H.C. Nye Company",
+            "company": "H.C. Nye Company",
+            "contact": "717-561-2500"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Custom units designed specifically for laboratory applications with high filtration requirements and energy recovery capabilities."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Trane Philadelphia",
+            "company": "Trane U.S. Inc.",
+            "contact": "215-768-3600"
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible with design specifications but may require modifications to coil and fan arrangements. Different control interface."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Johnson Controls",
+            "company": "Johnson Controls",
+            "contact": "717-771-1117"
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible option with similar energy recovery system. Would require different BAS integration approach."
+        },
+        {
+          "manufacturer": "Haakon",
+          "model": "Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "AHR Equipment",
+            "company": "AHR Equipment",
+            "contact": "717-453-1200"
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality custom AHU manufacturer with excellent reputation for laboratory applications. Robust construction and superior quality control."
+        }
+      ]
+    },
+    {
+      "componentType": "Cooling Towers",
+      "suppliers": [
+        {
+          "manufacturer": "EVAPCO",
+          "model": "AXS-12-9M22",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Cummins-Wagner",
+            "company": "Cummins-Wagner",
+            "contact": "717-654-0281"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Factory-assembled, induced draft, counterflow design with VFD control"
+        },
+        {
+          "manufacturer": "Baltimore Aircoil Company (BAC)",
+          "model": "Series 3000",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Thermal Products",
+            "company": "Thermal Products, Inc.",
+            "contact": "610-325-9229"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Similar performance characteristics. May require modifications to piping connections."
+        },
+        {
+          "manufacturer": "SPX Cooling Technologies (Marley)",
+          "model": "NC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Potomac Sales",
+            "company": "Potomac Sales Group",
+            "contact": "info@potomacsales.com"
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Premium option with enhanced water conservation features and low sound options. May require additional controls integration."
+        },
+        {
+          "manufacturer": "Tower Tech",
+          "model": "TTXL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Thermal Services",
+            "company": "Thermal Services Inc.",
+            "contact": "410-737-7330"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Modular cooling tower design allows for easier transportation and installation. Lower profile may reduce visual impact and wind loading requirements."
+        },
+        {
+          "manufacturer": "Delta Cooling Towers",
+          "model": "TM Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Delta Cooling",
+            "company": "Delta Cooling Towers",
+            "contact": "800-289-3358"
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Engineered plastic construction offers excellent corrosion resistance and 20-year warranty. May be advantageous for long-term maintenance considerations."
+        }
+      ]
+    },
+    {
+      "componentType": "Hot Water Boilers",
+      "suppliers": [
+        {
+          "manufacturer": "PATTERSON-KELLY",
+          "model": "SONIC SC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "TabCo Sales Associates",
+            "company": "TabCo Sales Associates, Inc.",
+            "contact": "610-356-5193"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "High-efficiency condensing boilers with integrated controls"
+        },
+        {
+          "manufacturer": "Cleaver-Brooks",
+          "model": "ClearFire",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Cate Equipment",
+            "company": "Cate Equipment Company",
+            "contact": "info@cateequipment.com"
+          },
+          "costDifference": "+7%",
+          "compatibilityNotes": "Higher cost but includes enhanced control package with remote monitoring capabilities. Similar footprint."
+        },
+        {
+          "manufacturer": "Lochinvar",
+          "model": "CREST",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Harry M. Stevens, Inc.",
+            "company": "Harry M. Stevens, Inc.",
+            "contact": "hmstevens@hmstevens.com"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Slightly different piping configuration required. Good turndown ratio but different control interface."
+        },
+        {
+          "manufacturer": "Aerco",
+          "model": "Benchmark",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Havtech",
+            "company": "Havtech",
+            "contact": "301-206-9225"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Industry leader in condensing boiler technology with excellent turndown capabilities. Compact footprint may provide space savings."
+        },
+        {
+          "manufacturer": "Viessmann",
+          "model": "Vitocrossal 300",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "H.B. McClure",
+            "company": "H.B. McClure Company",
+            "contact": "717-232-4328"
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium European design with high-quality stainless steel heat exchanger and excellent long-term reliability. Advanced controls integration capabilities."
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "B&G",
+          "model": "E-1510 Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Wallace Eannace Associates",
+            "company": "Wallace Eannace Associates",
+            "contact": "215-542-8400"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "End suction centrifugal pumps with high efficiency motors and VFD compatibility"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "4300 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Flow Control Equipment",
+            "company": "Flow Control Equipment",
+            "contact": "info@flowcontrolequipment.com"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Similar performance characteristics with slightly different mounting arrangements. Compatible with specified VFDs."
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "FI Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "United Electric Supply",
+            "company": "United Electric Supply",
+            "contact": "info@unitedelectric.com"
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "Lower cost option but may have slightly different performance curves. Would require reselection to match flow requirements."
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TP Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Grundfos",
+            "company": "Grundfos",
+            "contact": "410-544-4900"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency design with integrated sensors available for advanced control capabilities. Excellent reliability record and wide service network."
+        },
+        {
+          "manufacturer": "Wilo",
+          "model": "IL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Chesapeake Systems",
+            "company": "Chesapeake Systems",
+            "contact": "410-355-7800"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: German-engineered pumps with high efficiency ratings and robust construction. Growing US market presence with expanding service network."
+        }
+      ]
+    },
+    {
+      "componentType": "Fans",
+      "suppliers": [
+        {
+          "manufacturer": "STROBIC",
+          "model": "Tri-Stack",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Gunn & Pegelow",
+            "company": "Gunn & Pegelow",
+            "contact": "sales@gunnpegelow.com"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Specialized laboratory exhaust fans designed for effective plume dispersion and entrainment"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "Vektor",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Pittsburgh Air Systems",
+            "company": "Pittsburgh Air Systems/Air Industrial, Inc.",
+            "contact": "412-922-6600"
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Lower cost option with similar plume height performance. May require different mounting arrangement and control interface."
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "Laboratory Exhaust System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Tom Barrow Company",
+            "company": "Tom Barrow Company",
+            "contact": "sales@tombarrow.com"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Good alternative with similar performance. May require reconfiguration of discharge plenum and different structural support."
+        },
+        {
+          "manufacturer": "MK Plastics",
+          "model": "Axijet Vektor",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "H.C. Nye Company",
+            "company": "H.C. Nye Company",
+            "contact": "717-561-2500"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Corrosion-resistant construction specifically designed for laboratory applications with hazardous exhaust. FRP construction offers excellent chemical resistance."
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "Vari-Flow",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Control Products",
+            "company": "Air Control Products",
+            "contact": "717-939-7095"
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-established manufacturer with good support network and competitive pricing. Reliable performance with standard parts availability."
+        }
+      ]
+    },
+    {
+      "componentType": "Air Distribution Products",
+      "suppliers": [
+        {
+          "manufacturer": "Titus",
+          "model": "Various",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "H.C. Nye Company",
+            "company": "H.C. Nye Company",
+            "contact": "717-561-2500"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Complete line of grilles, registers, diffusers and air terminal units for laboratory applications"
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Air Distribution Products",
+            "company": "Air Distribution Products",
+            "contact": "sales@airproducts.com"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Comparable performance with slightly different aesthetic options"
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Price Industries",
+            "company": "Price Industries",
+            "contact": "770-623-8050"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality with excellent performance data documentation. Advanced air distribution patterns may improve room air mixing."
+        },
+        {
+          "manufacturer": "Nailor Industries",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Nailor Industries",
+            "company": "Nailor Industries",
+            "contact": "410-309-6000"
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality products with competitive pricing. Compatible with standard duct connections and mounting systems."
+        }
+      ]
+    },
+    {
+      "componentType": "Electrical Distribution Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Schneider Electric/Square D",
+          "model": "PowerPact Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Graybar Electric",
+            "company": "Graybar Electric Company",
+            "contact": "717-939-8700"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Full range of distribution equipment with integrated monitoring capabilities"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Power Defense Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Fromm Electric",
+            "company": "Fromm Electric Supply",
+            "contact": "info@frommelectric.com"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications. Different interface for power monitoring system."
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "SACE Tmax Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Rumsey Electric",
+            "company": "Rumsey Electric Company",
+            "contact": "info@rumsey.com"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Premium option with enhanced power quality monitoring. Requires additional coordination with BAS integration."
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "WL/VL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Siemens Industry",
+            "company": "Siemens Industry Inc.",
+            "contact": "800-743-6367"
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: German-engineered equipment with excellent build quality and reliability. Advanced power monitoring capabilities available."
+        },
+        {
+          "manufacturer": "GE Industrial",
+          "model": "Spectra Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Colonial Electric",
+            "company": "Colonial Electric Supply",
+            "contact": "610-278-9500"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-established product line with good service network and parts availability. Competitive pricing with reliable performance."
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Evaluate Cost-Effective Alternatives for Cooling Tower",
+      "rationale": "The EVAPCO cooling tower specified in the Villanova project has a lead time exceeding 20 weeks and represents a significant cost. Alternatives from BAC or SPX Cooling Technologies could provide comparable performance with potentially shorter lead times.",
+      "estimatedImpact": "Potential cost savings of 5-8% on cooling tower package while maintaining required performance specifications. Could reduce lead time by 2-4 weeks.",
+      "implementation": "Request quotations from BAC and SPX representatives with detailed specifications to ensure compatibility. Submit as value engineering option.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Consider Alternative Manufacturers for VRF System",
+      "rationale": "The specified Mitsubishi VRF system for the SmokeTree Resort and Villanova projects has extended lead times. Daikin and LG offer competitive alternatives with potentially shorter delivery timeframes and lower costs.",
+      "estimatedImpact": "Cost savings of 5-10% on VRF components with possible lead time reduction of 2-4 weeks. Both manufacturers have strong local representation.",
+      "implementation": "Submit RFI to confirm acceptability of alternative manufacturers, then obtain competitive quotes focusing on performance equivalency and controls compatibility.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Early Procurement Strategy for Critical HVAC Equipment",
+      "rationale": "Multiple projects show equipment with lead times exceeding 20 weeks, including Daikin chillers for the SmokeTree Resort, Ventrol air handling units for the PA DGS Lab, and EVAPCO cooling towers for Villanova.",
+      "estimatedImpact": "Reduction of schedule risk by 4-8 weeks, preventing costly temporary cooling solutions and project delays.",
+      "implementation": "Develop a procurement strategy that prioritizes early release and expedited submittal review for long-lead items. Consider pre-purchase agreements where feasible.",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Standardize Lab Exhaust Fan Manufacturers",
+      "rationale": "The PA DGS State Lab Facility specifies Strobic Tri-Stack fans which have long lead times and are typically high cost. Greenheck Vektor offers similar performance at 5-8% lower cost.",
+      "estimatedImpact": "Potential savings of $15,000-25,000 on the exhaust fan package while maintaining required plume dispersion and performance.",
+      "implementation": "Submit value engineering proposal with Greenheck Vektor as alternative, including supporting documentation on plume dispersion performance and containment capabilities.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Bulk Purchase Strategy for Multiple Water-Source Heat Pumps",
+      "rationale": "The Villanova project requires nine water-source heat pumps from Trane. Negotiating a package discount for all units could yield significant savings.",
+      "estimatedImpact": "Potential 8-12% volume discount on the total heat pump package, reducing equipment costs while maintaining specifications.",
+      "implementation": "Approach Trane representative with consolidated purchase request for all nine units, emphasizing the volume opportunity and requesting tiered pricing.",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "The procurement strategy for these HVAC system projects focuses on optimizing equipment selection, managing lead times, and ensuring system integration across multiple project types including healthcare facilities, educational institutions, and commercial buildings. The equipment specifications span various technologies including air handling units, water chillers, heat pumps, and variable refrigerant flow systems, with consideration for regional climate conditions and application-specific requirements.",
+    "keyFindings": [
+      "Long lead times for critical equipment (10-20+ weeks for chillers, cooling towers, and VRF systems) present significant schedule risks across multiple projects",
+      "Alternative manufacturer options could provide 3-10% cost savings while maintaining performance specifications",
+      "Integration between different control systems and equipment types represents a consistent challenge requiring early coordination",
+      "Energy efficiency and sustainability features offer opportunities for operational cost savings through strategic equipment selection",
+      "Healthcare and laboratory projects require specialized equipment with redundancy provisions and critical performance requirements"
+    ],
+    "highestPriorityActions": [
+      "Implement early procurement strategies for long-lead equipment to prevent project delays",
+      "Coordinate comprehensive control system integration meetings with all stakeholders before equipment selection",
+      "Conduct detailed analysis of alternative manufacturers to optimize cost-performance balance",
+      "Verify specialized requirements for critical applications (healthcare, laboratories) are properly addressed in specifications",
+      "Develop detailed commissioning plans to ensure proper system operation and performance verification"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "reportTitle": "BuildVision Project Report - Riverside HVAC System",
+  "reportTitle": "BuildVision Project Report for Riverside HVAC System Upgrade",
   "customerInformation": {
     "customerName": "Layton Construction",
     "contactPerson": "William Winslow",
@@ -225,14 +225,28 @@
       ]
     }
   ],
-  "alternateManufacturers": [
+  "suppliers": [
     {
       "componentType": "Split System Air Conditioners",
-      "basisOfDesign": "Samsung HVAC",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Samsung HVAC",
+          "model": "FTXS Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Daikin",
           "model": "FTXS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Norman S. Wright Climatec",
             "company": "Norman S. Wright Climatec Mechanical Equipment",
@@ -244,6 +258,8 @@
         {
           "manufacturer": "Mitsubishi Electric",
           "model": "MSZ-FS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "CFM Equipment Distributors",
             "company": "CFM Equipment Distributors",
@@ -251,16 +267,56 @@
           },
           "costDifference": "+8%",
           "compatibilityNotes": "Premium option with improved energy efficiency ratings"
+        },
+        {
+          "manufacturer": "LG Electronics",
+          "model": "Art Cool Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "R.E. Michel Company",
+            "company": "R.E. Michel Company",
+            "contact": "(800) 543-6318"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Comparable efficiency to Samsung with competitive pricing and strong warranty program"
+        },
+        {
+          "manufacturer": "Fujitsu",
+          "model": "Halcyon Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "GREE Comfort",
+            "company": "GREE Comfort",
+            "contact": "(909) 770-8688"
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented alternative with good reliability record and energy performance"
         }
       ]
     },
     {
       "componentType": "Packaged Rooftop Air-Conditioning Units",
-      "basisOfDesign": "York",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "PACKAGED DX",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Carrier",
           "model": "WeatherMaker Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Russell Sigler Inc.",
             "company": "Russell Sigler Inc.",
@@ -272,6 +328,8 @@
         {
           "manufacturer": "Trane",
           "model": "Precedent Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "US Air Conditioning Distributors",
             "company": "US Air Conditioning Distributors",
@@ -279,16 +337,56 @@
           },
           "costDifference": "+6%",
           "compatibilityNotes": "Higher efficiency option with robust control package"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "Landmark Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Lennox Industries",
+            "company": "Lennox Industries",
+            "contact": "(800) 953-6669"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good value option with reliable performance and wide service network in Southern California"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Rebel Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec",
+            "contact": "(714) 632-9800"
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium high-efficiency option with variable speed technology and advanced control capabilities"
         }
       ]
     },
     {
       "componentType": "Condensing Boilers",
-      "basisOfDesign": "Raypak",
-      "alternateOptions": [
+      "suppliers": [
+        {
+          "manufacturer": "Raypak",
+          "model": "H7-500B",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
         {
           "manufacturer": "Lochinvar",
           "model": "KNIGHT Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "DB Sales & Service",
             "company": "DB Sales & Service",
@@ -300,62 +398,8 @@
         {
           "manufacturer": "Aerco",
           "model": "Benchmark Series",
-          "representativeInfo": {
-            "name": "DMG North",
-            "company": "DMG North Inc.",
-            "contact": "sales@dmgn.com"
-          },
-          "costDifference": "+10%",
-          "compatibilityNotes": "Premium option with advanced modulation capabilities"
-        }
-      ]
-    },
-    {
-      "componentType": "Packaged Rooftop Air-Conditioning Units",
-      "basisOfDesign": "York",
-      "alternateOptions": [
-        {
-          "manufacturer": "Carrier",
-          "model": "WeatherMaker Series",
-          "representativeInfo": {
-            "name": "Russell Sigler Inc.",
-            "company": "Russell Sigler Inc.",
-            "contact": "sales@siglers.com"
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Similar footprint, would require minimal roof curb modifications"
-        },
-        {
-          "manufacturer": "Trane",
-          "model": "Precedent Series",
-          "representativeInfo": {
-            "name": "US Air Conditioning Distributors",
-            "company": "US Air Conditioning Distributors",
-            "contact": "info@us-ac.com"
-          },
-          "costDifference": "+6%",
-          "compatibilityNotes": "Higher efficiency option with robust control package"
-        }
-      ]
-    },
-    {
-      "componentType": "Condensing Boilers",
-      "basisOfDesign": "Raypak",
-      "alternateOptions": [
-        {
-          "manufacturer": "Lochinvar",
-          "model": "KNIGHT Series",
-          "representativeInfo": {
-            "name": "DB Sales & Service",
-            "company": "DB Sales & Service",
-            "contact": "(714) 897-1036"
-          },
-          "costDifference": "+4%",
-          "compatibilityNotes": "Higher efficiency with built-in redundancy features"
-        },
-        {
-          "manufacturer": "Aerco",
-          "model": "Benchmark Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "California Hot Water Supply",
             "company": "California Hot Water Supply",
@@ -363,107 +407,205 @@
           },
           "costDifference": "+10%",
           "compatibilityNotes": "Premium option with advanced modulation capabilities"
+        },
+        {
+          "manufacturer": "Cleaver-Brooks",
+          "model": "ClearFire Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "R.F. MacDonald Co.",
+            "company": "R.F. MacDonald Co.",
+            "contact": "(714) 257-0900"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Similar efficiency to Raypak with robust construction and excellent turndown ratio"
+        },
+        {
+          "manufacturer": "Viessmann",
+          "model": "Vitocrossal Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "DMG North",
+            "company": "DMG North",
+            "contact": "(510) 346-7755"
+          },
+          "costDifference": "+12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium European design with industry-leading efficiency and sophisticated controls"
         }
       ]
-    }
-  ],
-  "designNotes": [
+    },
     {
-      "systemType": "HVAC Cooling Systems",
-      "technicalObservations": [
-        "Multiple split systems indicate a zoned approach to cooling",
-        "Combination of split systems and packaged units suggests a hybrid approach",
-        "Samsung equipment selected as basis of design for split systems"
-      ],
-      "concerns": [
-        "Coordination between multiple system types will require careful control integration",
-        "Refrigerant line routing for split systems needs to be validated"
-      ],
-      "opportunities": [
-        "Potential for energy savings through optimization of multiple systems",
-        "Zoning approach allows for more granular temperature control"
+      "componentType": "Dedicated Outdoor-Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "iAire",
+          "model": "PHC-KJ150HHT",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Rebel DOAS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec",
+            "contact": "(714) 632-9800"
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency unit with energy recovery and advanced dehumidification capabilities"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "RV/RVE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Treatment Corporation",
+            "company": "Air Treatment Corporation",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective solution with good energy recovery options and proven reliability"
+        },
+        {
+          "manufacturer": "Semco",
+          "model": "Pinnacle Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Control Systems",
+            "company": "Air Control Systems",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium solution with total energy recovery wheel and advanced filtration options"
+        }
       ]
     },
     {
-      "systemType": "Ventilation Systems",
-      "technicalObservations": [
-        "Dedicated outdoor air system (DOAS) provides centralized fresh air delivery",
-        "Multiple exhaust fans indicate distributed exhaust requirements",
-        "Kitchen exhaust fans (KEF) suggest commercial kitchen ventilation needs"
-      ],
-      "concerns": [
-        "Balancing of supply and exhaust air will be critical",
-        "Kitchen exhaust compliance with NFPA 96 should be verified"
-      ],
-      "opportunities": [
-        "Energy recovery potential between exhaust and outdoor air streams",
-        "Demand-controlled ventilation could reduce energy consumption"
-      ]
-    },
-    {
-      "systemType": "Hydronic Heating System",
-      "technicalObservations": [
-        "Dual boiler system provides redundancy",
-        "High-efficiency condensing boilers selected as basis of design",
-        "Hydronic piping specialties indicate a distributed hot water system"
-      ],
-      "concerns": [
-        "Condensate management for high-efficiency boilers needs to be addressed",
-        "System water quality maintenance is essential for longevity"
-      ],
-      "opportunities": [
-        "Potential for further efficiency optimization through outdoor air reset controls",
-        "Dual boiler staging can maximize condensing operation"
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "Various",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Treatment Corporation",
+            "company": "Air Treatment Corporation",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented option with comparable performance to Greenheck"
+        },
+        {
+          "manufacturer": "Cook",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Balance, Inc.",
+            "company": "Air Balance, Inc.",
+            "contact": "(714) 529-5900"
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality alternative with simple installation and maintenance features"
+        },
+        {
+          "manufacturer": "PennBarry",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "DMG North",
+            "company": "DMG North",
+            "contact": "(510) 346-7755"
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with solid construction and reliability record"
+        }
       ]
     }
   ],
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Implement integrated building automation system",
-      "rationale": "Multiple equipment types and manufacturers require coordinated control for optimal operation",
-      "estimatedImpact": "15-20% energy savings through optimized sequencing and setpoint management",
-      "implementation": "Specify BACnet compatibility for all equipment and central BAS controller",
+      "recommendation": "Evaluate Daikin as an alternative to Samsung split systems",
+      "rationale": "Based on the project data, Daikin split systems offer a 5% cost reduction compared to the Samsung HVAC units currently specified. Given the multiple split system units required (AC-1-2, AC-1-3, etc.), this represents a significant potential cost saving without compromising system performance.",
+      "estimatedImpact": "Approximately 5% cost reduction on split system equipment, which could translate to thousands of dollars in savings while maintaining compatibility with existing ductwork.",
+      "implementation": "1. Contact Norman S. Wright Climatec for Daikin FTXS Series pricing and availability\n2. Review compatibility requirements for existing ductwork and refrigerant lines\n3. Compare warranty terms between Samsung and Daikin\n4. Evaluate any adapter requirements mentioned in compatibility notes\n5. Request formal quote and lead time information",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Consider demand-controlled ventilation for DOAS",
-      "rationale": "CO2-based control can reduce unnecessary ventilation during periods of low occupancy",
-      "estimatedImpact": "10-15% reduction in ventilation-related energy consumption",
-      "implementation": "Add CO2 sensors in major zones and modify DOAS controls",
-      "priority": "Medium"
+      "recommendation": "Implement equipment package purchasing strategy",
+      "rationale": "The project requires multiple units from the same manufacturers (e.g., York RTUs, Greenheck fans, Raypak boilers). Negotiating package deals with these manufacturers or their representatives could yield better pricing and delivery terms than purchasing each unit separately.",
+      "estimatedImpact": "Potential 3-7% reduction in equipment costs through volume discounts, plus streamlined delivery coordination and consistent warranty terms.",
+      "implementation": "1. Group equipment by manufacturer for consolidated purchasing\n2. Contact manufacturer representatives for package pricing\n3. Negotiate improved warranty terms for multi-unit purchases\n4. Coordinate delivery schedules to optimize installation sequence\n5. Establish single points of contact for each manufacturer",
+      "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Evaluate hydronic system water treatment options",
-      "rationale": "Proper water treatment is essential for condensing boiler efficiency and longevity",
-      "estimatedImpact": "Extended equipment life by 3-5 years, maintained efficiency",
-      "implementation": "Specify advanced filtration and chemical treatment package",
+      "recommendation": "Consider Lochinvar KNIGHT Series as alternative to Raypak boilers",
+      "rationale": "While Lochinvar boilers have a 4% higher initial cost compared to the specified Raypak units, they offer built-in redundancy features that could eliminate the need for some ancillary components and potentially reduce long-term maintenance costs. The higher efficiency would also provide ongoing operational savings.",
+      "estimatedImpact": "Initial cost increase of approximately 4%, offset by potential 5-10% reduction in maintenance costs over equipment lifetime and 3-5% improvement in operational efficiency.",
+      "implementation": "1. Contact DB Sales & Service for detailed specifications and pricing\n2. Perform lifecycle cost analysis comparing initial premium versus operational savings\n3. Review built-in redundancy features to identify potential simplifications in system design\n4. Evaluate compatibility with other hydronic system components\n5. Request case studies of similar installations",
       "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Consider variable primary flow for boiler system",
-      "rationale": "Variable flow matches system capacity to load more precisely than primary/secondary",
-      "estimatedImpact": "5-8% reduction in pumping energy, improved delta-T",
-      "implementation": "Modify hydronic design to variable primary, specify VFDs for pumps",
-      "priority": "Low"
+      "recommendation": "Standardize on Greenheck for all ventilation products",
+      "rationale": "The project already specifies multiple Greenheck fans (DEF-1, EF-1, EF-2, etc.). Expanding the Greenheck scope to include any additional ventilation products not yet specified could simplify procurement, ensure compatibility, and potentially improve pricing through volume purchasing.",
+      "estimatedImpact": "3-5% cost savings on ventilation equipment through volume purchasing, plus reduced coordination overhead and consistent maintenance procedures.",
+      "implementation": "1. Identify any ventilation equipment not currently specified as Greenheck\n2. Contact Greenheck representative for package pricing on all ventilation equipment\n3. Evaluate any performance differences between current specifications and Greenheck alternatives\n4. Negotiate improved warranty or maintenance terms based on expanded scope\n5. Streamline submittal process with single manufacturer",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Develop supplier contingency plan for long-lead equipment",
+      "rationale": "HVAC equipment has experienced significant supply chain disruptions in recent years. Identifying secondary suppliers or alternative models for critical equipment items helps mitigate schedule risks if primary suppliers face delays.",
+      "estimatedImpact": "Potential prevention of 2-4 week project delays that could result from equipment availability issues, avoiding associated costs of approximately $10,000-$20,000 per week of delay.",
+      "implementation": "1. Identify equipment with historically long lead times (typically RTUs and chillers)\n2. Pre-qualify at least one alternative supplier for each critical equipment type\n3. Maintain updated lead time information from all potential suppliers\n4. Include contract language allowing substitutions if lead times exceed specified thresholds\n5. Confirm all alternatives meet project specifications",
+      "priority": "High"
     }
   ],
   "conclusion": {
-    "summary": "The proposed HVAC system for this Riverside, CA project incorporates a diverse range of equipment to meet various heating, cooling, and ventilation needs. The design utilizes a hybrid approach with both split systems and packaged rooftop units for cooling, dedicated outdoor air for ventilation, and a dual condensing boiler system for heating. While the equipment selections are appropriate for the application, there are opportunities for optimization in controls integration, energy recovery, and system operation.",
+    "summary": "The Riverside HVAC System Upgrade project features a comprehensive equipment procurement strategy that combines Samsung HVAC split systems, York packaged rooftop units, iAire dedicated outdoor air systems, Greenheck ventilation fans, and Raypak condensing boilers. The procurement plan balances performance requirements with cost considerations, offering several alternative manufacturers that could provide cost savings or enhanced features. The project requires careful coordination of equipment from multiple vendors while ensuring system compatibility and integration.",
     "keyFindings": [
-      "The hybrid cooling approach provides good zoning capabilities but requires careful control integration",
-      "Dedicated outdoor air system provides centralized fresh air delivery with potential for energy recovery",
-      "High-efficiency condensing boilers provide good redundancy and efficiency for the heating system",
-      "Multiple exhaust systems indicate specialized ventilation requirements that must be carefully balanced"
+      "Multiple equipment types from different manufacturers require a coordinated procurement and control strategy for optimal system performance",
+      "Alternative manufacturers could provide cost savings up to 5% (Daikin) or premium options with enhanced efficiency at 6-10% higher cost (Trane, Aerco)",
+      "Hybrid cooling approach with both split systems and packaged units offers zoning flexibility but creates procurement complexity",
+      "Integrated building automation system is critical to coordinate diverse equipment and could deliver 15-20% energy savings"
     ],
     "highestPriorityActions": [
-      "Implement integrated building automation system for coordinated control",
-      "Ensure proper refrigerant line routing and sizing for split systems",
-      "Verify kitchen exhaust compliance with applicable codes",
-      "Develop comprehensive water treatment strategy for hydronic system"
+      "Implement an integrated building automation system with BACnet compatibility for all equipment to ensure coordinated control",
+      "Consider alternative manufacturers like Daikin for split systems which could provide 5% cost savings with minimal compatibility issues",
+      "Develop a comprehensive procurement schedule that accounts for lead times of all equipment types",
+      "Establish water treatment specifications for the hydronic system to ensure condensing boiler efficiency and longevity"
     ]
   }
 }

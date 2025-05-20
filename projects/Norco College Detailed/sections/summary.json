@@ -1,25 +1,18 @@
 {
   "conclusion": {
-    "summary": "The HVAC system design for the Norco College Center for Human Performance & Kinesiology utilizes a combination of central air handling units with VAV distribution and distributed split systems. The equipment specification includes quality manufacturers with appropriate commercial-grade equipment for an educational/athletic facility. The design demonstrates attention to zoning and control requirements specific to this building type. Several opportunities exist to enhance the design through system integration, energy efficiency improvements, and careful attention to acoustics and controls. By implementing the recommended improvements, the project could achieve significant energy savings, improved occupant comfort, and reduced operational costs over the building lifecycle.",
+    "summary": "The Norco College Center for Human Performance & Kinesiology project involves comprehensive HVAC system installation including air handling units, exhaust fans, split system air conditioners, fan coil units, and air terminal units. The procurement strategy encompasses multiple equipment types from specific manufacturers like Energy Labs, Greenheck, Carrier, and Titus. With a project start date of 7/22/2025 and a proposal due date of 5/28/2025, strategic procurement planning is essential to ensure timely equipment delivery and installation for this 40,741 sq. ft. facility.",
     "keyFindings": [
-      "The project employs a mixed-system approach with central AHUs and multiple split systems, requiring careful coordination for optimal performance.",
-      "Extensive use of VAV terminal units provides good zone-level control capabilities but requires proper commissioning and acoustic treatment.",
-      "Standard equipment selections are suitable for the application, but opportunities exist for enhanced efficiency through VRF technology and energy recovery.",
-      "Control integration will be critical for optimal system performance, with a unified BMS offering substantial operational benefits.",
-      "Alternative manufacturers could provide comparable performance with potential advantages in specific areas.",
-      "The athletic facility requires special attention to ventilation effectiveness, indoor air quality, and acoustic performance.",
-      "California energy code compliance requires careful attention to system efficiency and control strategies.",
-      "Comprehensive commissioning will be essential to ensure systems perform as designed."
+      "The project requires a mix of custom and standard HVAC equipment with specific manufacturers identified for each component, necessitating multi-vendor coordination",
+      "Long-lead items include custom indoor central-station air-handling units from Energy Labs that may require early procurement to meet the project timeline",
+      "Alternative manufacturer options exist for air terminal units and split systems that could offer cost savings or performance improvements",
+      "The extensive quantity of terminal units (35+ VAV/CAV boxes) represents a significant portion of the equipment package with standardization opportunities",
+      "California location may impose additional regulatory and compliance requirements affecting equipment specifications and procurement"
     ],
     "highestPriorityActions": [
-      "Integrate all HVAC components into a unified building automation system for coordinated control, monitoring, and optimization.",
-      "Implement advanced commissioning and measurement & verification to ensure systems perform as designed and maintain efficiency over time.",
-      "Evaluate VRF alternatives for the split system locations to improve efficiency, zoning capabilities, and control flexibility.",
-      "Incorporate energy recovery into the air handling units to reduce ventilation energy consumption.",
-      "Address acoustic considerations for terminal units, particularly in learning environments and athletic spaces.",
-      "Implement demand-controlled ventilation in variable occupancy spaces to balance energy efficiency with indoor air quality.",
-      "Consider enhanced filtration and IAQ monitoring specific to the needs of athletic and educational spaces.",
-      "Establish a comprehensive maintenance program with regular verification of system performance."
+      "Secure pricing and lead times for the custom Energy Labs air handling units immediately, as these will likely have the longest procurement cycle",
+      "Evaluate alternate manufacturers (Krueger, Price Industries for terminal units; Daikin, Mitsubishi, LG for split systems) for potential cost savings while maintaining performance requirements",
+      "Develop a phased delivery schedule aligned with construction sequence to avoid storage issues while ensuring equipment is available when needed",
+      "Implement quality control measures specific to the large quantity of terminal units to ensure consistent performance across all installations"
     ]
   }
 }

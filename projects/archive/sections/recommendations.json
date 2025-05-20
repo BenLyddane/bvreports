@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Evaluate Cost-Effective Alternatives for Cooling Tower",
+      "rationale": "The EVAPCO cooling tower specified in the Villanova project has a lead time exceeding 20 weeks and represents a significant cost. Alternatives from BAC or SPX Cooling Technologies could provide comparable performance with potentially shorter lead times.",
+      "estimatedImpact": "Potential cost savings of 5-8% on cooling tower package while maintaining required performance specifications. Could reduce lead time by 2-4 weeks.",
+      "implementation": "Request quotations from BAC and SPX representatives with detailed specifications to ensure compatibility. Submit as value engineering option.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Consider Alternative Manufacturers for VRF System",
+      "rationale": "The specified Mitsubishi VRF system for the SmokeTree Resort and Villanova projects has extended lead times. Daikin and LG offer competitive alternatives with potentially shorter delivery timeframes and lower costs.",
+      "estimatedImpact": "Cost savings of 5-10% on VRF components with possible lead time reduction of 2-4 weeks. Both manufacturers have strong local representation.",
+      "implementation": "Submit RFI to confirm acceptability of alternative manufacturers, then obtain competitive quotes focusing on performance equivalency and controls compatibility.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Early Procurement Strategy for Critical HVAC Equipment",
+      "rationale": "Multiple projects show equipment with lead times exceeding 20 weeks, including Daikin chillers for the SmokeTree Resort, Ventrol air handling units for the PA DGS Lab, and EVAPCO cooling towers for Villanova.",
+      "estimatedImpact": "Reduction of schedule risk by 4-8 weeks, preventing costly temporary cooling solutions and project delays.",
+      "implementation": "Develop a procurement strategy that prioritizes early release and expedited submittal review for long-lead items. Consider pre-purchase agreements where feasible.",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Standardize Lab Exhaust Fan Manufacturers",
+      "rationale": "The PA DGS State Lab Facility specifies Strobic Tri-Stack fans which have long lead times and are typically high cost. Greenheck Vektor offers similar performance at 5-8% lower cost.",
+      "estimatedImpact": "Potential savings of $15,000-25,000 on the exhaust fan package while maintaining required plume dispersion and performance.",
+      "implementation": "Submit value engineering proposal with Greenheck Vektor as alternative, including supporting documentation on plume dispersion performance and containment capabilities.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Bulk Purchase Strategy for Multiple Water-Source Heat Pumps",
+      "rationale": "The Villanova project requires nine water-source heat pumps from Trane. Negotiating a package discount for all units could yield significant savings.",
+      "estimatedImpact": "Potential 8-12% volume discount on the total heat pump package, reducing equipment costs while maintaining specifications.",
+      "implementation": "Approach Trane representative with consolidated purchase request for all nine units, emphasizing the volume opportunity and requesting tiered pricing.",
+      "priority": "Medium"
+    }
+  ]
+}

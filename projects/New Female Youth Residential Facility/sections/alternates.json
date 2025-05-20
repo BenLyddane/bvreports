@@ -1,3 +1,494 @@
 {
-  "suppliers": []
+  "suppliers": [
+    {
+      "componentType": "Air-to-Air Energy Recovery Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Aldes",
+          "model": "E Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "ERV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Equivalent performance specifications. Verify physical dimensions and connection locations."
+        },
+        {
+          "manufacturer": "RenewAire",
+          "model": "EV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Verify recovery effectiveness and physical dimensions."
+        },
+        {
+          "manufacturer": "Ventacity",
+          "model": "VS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency energy recovery units with similar performance characteristics. Compatible with building automation systems via BACnet."
+        },
+        {
+          "manufacturer": "Semco",
+          "model": "FV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium energy recovery solution with potentially higher effectiveness ratings. Verify physical dimensions and connection points."
+        }
+      ]
+    },
+    {
+      "componentType": "Variable Refrigerant Flow Systems",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PVFY/PEFY Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "TVR Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "Equivalent performance specifications. Verify physical dimensions, connection locations, and refrigerant piping requirements."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "VRV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Verify controls compatibility with BMS and refrigerant piping requirements."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "Multi V Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-established VRF manufacturer with water-source heat pump options. Compatible with the project's water-source system requirements."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "DVM S Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Water-source VRF system with BACnet capability. May offer cost savings but verify service network availability in the region."
+        }
+      ]
+    },
+    {
+      "componentType": "Water-Source Heat Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PQRY Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Water-Source VRF Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "Equivalent performance specifications. Verify physical dimensions, connection locations, and refrigerant piping requirements."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "VRV-W Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Verify controls compatibility with BMS and refrigerant piping requirements."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "Multi V Water Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with geothermal applications and offers similar BACnet integration capabilities. Verify service support availability in the region."
+        },
+        {
+          "manufacturer": "Climaveneta",
+          "model": "W3000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: European manufacturer with high-quality water-source VRF systems. Premium brand with excellent performance but verify U.S. support infrastructure."
+        }
+      ]
+    },
+    {
+      "componentType": "VRF Branch Selectors",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "CMB Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Refrigerant Distribution Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Verify compatibility with VRF system and refrigerant piping requirements."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "BS Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Verify compatibility with VRF system and refrigerant piping requirements."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "Heat Recovery Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with LG Multi V Water systems. Must be used as part of complete LG system."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "MCU Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-9%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Mode control units for Samsung DVM S systems. Cost-effective but requires full Samsung system implementation."
+        }
+      ]
+    },
+    {
+      "componentType": "In-Line Centrifugal Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VR Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "ecocirc XL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Equivalent performance. Verify physical dimensions and connection locations."
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "Magna3 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Verify ECM motor compatibility and BACnet connectivity."
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "IVS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Equivalent performance. Verify physical dimensions."
+        },
+        {
+          "manufacturer": "Wilo",
+          "model": "Stratos MAXO Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium smart pumps with integrated controls and excellent efficiency. Higher initial cost but potentially lower operating costs."
+        }
+      ]
+    },
+    {
+      "componentType": "Base-Mounted, Centrifugal Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "SKY Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "e-1510 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Equivalent performance. Verify physical dimensions and connection locations."
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "Design Envelope Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Verify VFD compatibility and BACnet connectivity."
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TP Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Verify physical dimensions and impeller size."
+        },
+        {
+          "manufacturer": "Patterson",
+          "model": "HVAC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable centrifugal pumps with good efficiency ratings. May offer competitive pricing."
+        }
+      ]
+    },
+    {
+      "componentType": "Automatic Condensate Pump Units",
+      "suppliers": [
+        {
+          "manufacturer": "Little Giant",
+          "model": "VCL Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Diversitech",
+          "model": "CP-Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "Equivalent performance. Verify UL listing for plenum applications."
+        },
+        {
+          "manufacturer": "Hartell",
+          "model": "A Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Verify safety switch compatibility and tank volume."
+        },
+        {
+          "manufacturer": "DiversiTech",
+          "model": "ClearVue Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Verify physical dimensions and safety switch compatibility."
+        },
+        {
+          "manufacturer": "Aspen",
+          "model": "Mini Orange Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-15%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Low-profile design suitable for tight spaces. Verify safety switch compatibility."
+        }
+      ]
+    }
+  ]
 }

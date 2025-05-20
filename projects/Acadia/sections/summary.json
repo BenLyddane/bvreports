@@ -1,17 +1,17 @@
 {
   "conclusion": {
-    "summary": "The proposed HVAC system for this Riverside, CA project incorporates a diverse range of equipment to meet various heating, cooling, and ventilation needs. The design utilizes a hybrid approach with both split systems and packaged rooftop units for cooling, dedicated outdoor air for ventilation, and a dual condensing boiler system for heating. While the equipment selections are appropriate for the application, there are opportunities for optimization in controls integration, energy recovery, and system operation.",
+    "summary": "The Riverside HVAC System Upgrade project features a comprehensive equipment procurement strategy that combines Samsung HVAC split systems, York packaged rooftop units, iAire dedicated outdoor air systems, Greenheck ventilation fans, and Raypak condensing boilers. The procurement plan balances performance requirements with cost considerations, offering several alternative manufacturers that could provide cost savings or enhanced features. The project requires careful coordination of equipment from multiple vendors while ensuring system compatibility and integration.",
     "keyFindings": [
-      "The hybrid cooling approach provides good zoning capabilities but requires careful control integration",
-      "Dedicated outdoor air system provides centralized fresh air delivery with potential for energy recovery",
-      "High-efficiency condensing boilers provide good redundancy and efficiency for the heating system",
-      "Multiple exhaust systems indicate specialized ventilation requirements that must be carefully balanced"
+      "Multiple equipment types from different manufacturers require a coordinated procurement and control strategy for optimal system performance",
+      "Alternative manufacturers could provide cost savings up to 5% (Daikin) or premium options with enhanced efficiency at 6-10% higher cost (Trane, Aerco)",
+      "Hybrid cooling approach with both split systems and packaged units offers zoning flexibility but creates procurement complexity",
+      "Integrated building automation system is critical to coordinate diverse equipment and could deliver 15-20% energy savings"
     ],
     "highestPriorityActions": [
-      "Implement integrated building automation system for coordinated control",
-      "Ensure proper refrigerant line routing and sizing for split systems",
-      "Verify kitchen exhaust compliance with applicable codes",
-      "Develop comprehensive water treatment strategy for hydronic system"
+      "Implement an integrated building automation system with BACnet compatibility for all equipment to ensure coordinated control",
+      "Consider alternative manufacturers like Daikin for split systems which could provide 5% cost savings with minimal compatibility issues",
+      "Develop a comprehensive procurement schedule that accounts for lead times of all equipment types",
+      "Establish water treatment specifications for the hydronic system to ensure condensing boiler efficiency and longevity"
     ]
   }
 }

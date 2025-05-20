@@ -107,6 +107,48 @@
           "specifications": {}
         }
       ]
+    },
+    {
+      "equipmentType": "Small-Capacity Split-System Air Conditioners",
+      "notes": "",
+      "items": [
+        {
+          "equipmentTag": "AC-1-1",
+          "manufacturer": "Mitsubishi Electric",
+          "model": "PUY-P24NKMU-E2 / PKY-P24NKMU-E2",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "In-Line Centrifugal Hydronic Pumps",
+      "notes": "",
+      "items": [
+        {
+          "equipmentTag": "CHWP-1-1",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VL 1508",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CHWP-1-2",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VL 1508",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CHWP-2-1",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VL 1508",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CHWP-2-2",
+          "manufacturer": "Taco Comfort Solutions",
+          "model": "VL 1508",
+          "specifications": {}
+        }
+      ]
     }
   ]
 }

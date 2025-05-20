@@ -7,6 +7,7 @@
           "manufacturer": "AAON",
           "model": "RQA-002",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Gil Bar Inc",
             "company": "Gil Bar Inc",
@@ -19,6 +20,7 @@
           "manufacturer": "Daikin",
           "model": "Rebel",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "Daikin Representative",
@@ -26,6 +28,32 @@
           },
           "costDifference": "+5-10%",
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "M-Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Commercial Sales Office",
+            "contact": ""
+          },
+          "costDifference": "+7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-quality unit with similar features, proven reliability and nationwide service support"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "ERV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ADE Systems Inc.",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good energy recovery performance with competitive pricing, compatible with building footprint"
         }
       ]
     },
@@ -36,6 +64,7 @@
           "manufacturer": "Mitsubishi Electric (Including Trane Products)",
           "model": "SUZ-KA12NAHZ",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "SRS Enterprises Inc.",
             "company": "SRS Enterprises Inc.",
@@ -48,6 +77,7 @@
           "manufacturer": "Daikin",
           "model": "RXS12LVJU",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "Daikin Representative",
@@ -55,6 +85,32 @@
           },
           "costDifference": "-3%",
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        },
+        {
+          "manufacturer": "LG",
+          "model": "LS120HEV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "LG HVAC",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy efficient alternative with good reliability and lower initial cost"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "38MHRB12",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Carrier Corporation",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium manufacturer with excellent support network and parts availability"
         }
       ]
     },
@@ -65,6 +121,7 @@
           "manufacturer": "Mitsubishi Electric (Including Trane Products)",
           "model": "NTXMSM60A182BA",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "SRS Enterprises Inc.",
             "company": "SRS Enterprises Inc.",
@@ -77,6 +134,7 @@
           "manufacturer": "ClimateMaster",
           "model": "TMW060",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "ClimateMaster Representative",
@@ -84,6 +142,32 @@
           },
           "costDifference": "-5%",
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        },
+        {
+          "manufacturer": "WaterFurnace",
+          "model": "NEV060",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "WaterFurnace",
+            "contact": ""
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High efficiency water-source heat pump with lower cost and good performance history"
+        },
+        {
+          "manufacturer": "Florida Heat Pump",
+          "model": "EC060",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "FHP Manufacturing",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with reliable performance and standard footprint that would work with existing design"
         }
       ]
     },
@@ -94,6 +178,7 @@
           "manufacturer": "Mitsubishi Electric (Including Trane Products)",
           "model": "SLZ-KF15NA1",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "SRS Enterprises Inc.",
             "company": "SRS Enterprises Inc.",
@@ -106,6 +191,7 @@
           "manufacturer": "Daikin",
           "model": "FXFQ15TVJU",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "Daikin Representative",
@@ -113,6 +199,32 @@
           },
           "costDifference": "+2%",
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "AM015FNNDCH",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Samsung HVAC",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy efficient option with good airflow distribution and lower cost"
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "S-15ML1U6",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Panasonic Air Conditioning",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable units with good warranty and similar dimensions for easier retrofitting"
         }
       ]
     },
@@ -123,6 +235,7 @@
           "manufacturer": "Mitsubishi Electric (Including Trane Products)",
           "model": "TPLA0A0241EA80A",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "SRS Enterprises Inc.",
             "company": "SRS Enterprises Inc.",
@@ -135,6 +248,7 @@
           "manufacturer": "LG",
           "model": "ARNU24GSCR4",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "LG Representative",
@@ -142,6 +256,32 @@
           },
           "costDifference": "-4%",
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "FXMQ24PVJU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin North America",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-quality VRF system with excellent support and training programs"
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "AM024FNMDCH",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Samsung HVAC",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with good efficiency ratings and growing market presence"
         }
       ]
     },
@@ -152,6 +292,7 @@
           "manufacturer": "Trane",
           "model": "WHK060A3",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Trane New Jersey",
             "company": "Trane Commercial Sales Office",
@@ -164,6 +305,7 @@
           "manufacturer": "Carrier",
           "model": "48TC06",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "Carrier Representative",
@@ -171,6 +313,32 @@
           },
           "costDifference": "+3%",
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "DCC060",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Applied",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy efficient units with good reliability record and similar dimensions"
+        },
+        {
+          "manufacturer": "York",
+          "model": "ZF060",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Johnson Controls",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Competitively priced units with good support network and reliability"
         }
       ]
     },
@@ -181,6 +349,7 @@
           "manufacturer": "Greenheck",
           "model": "GB-140",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "ADE Systems Inc.",
             "company": "ADE Systems Inc.",
@@ -193,6 +362,7 @@
           "manufacturer": "Loren Cook",
           "model": "30 XLW S",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Mechanical Technologies, LLC",
             "company": "Mechanical Technologies, LLC",
@@ -205,6 +375,7 @@
           "manufacturer": "Twin City Fan",
           "model": "BCRD",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "Twin City Fan Representative",
@@ -212,6 +383,32 @@
           },
           "costDifference": "-2%",
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
+        },
+        {
+          "manufacturer": "PennBarry",
+          "model": "Domex",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "PennBarry",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Lower cost option with acceptable performance and easy installation"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "FG Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Fantech",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective fans suitable for various exhaust applications with lower noise levels"
         }
       ]
     }

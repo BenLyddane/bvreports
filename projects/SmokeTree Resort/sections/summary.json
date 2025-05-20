@@ -1,20 +1,18 @@
 {
   "conclusion": {
-    "summary": "The SmokeTree Resort HVAC system design utilizes modern, efficient equipment with appropriate redundancy for a luxury resort application. The central plant design with three chillers provides good operational flexibility and the distributed air handling approach should deliver excellent comfort control. Overall, the mechanical systems are well-designed for the challenging desert climate of Paradise Valley, Arizona, with adequate consideration for energy efficiency, comfort, and reliability. The BuildVision recommendations focus on enhancing guest experience, improving operational efficiency, and incorporating additional sustainability features that align with luxury resort expectations.",
+    "summary": "The SmokeTree Resort HVAC renovation project involves installing new mechanical systems for a three-story hotel resort in Paradise Valley, Arizona. The equipment procurement strategy centers around a 750-ton chilled water central plant with three 250-ton air-cooled chillers providing N redundancy. Distribution systems include rooftop units, fan coil units, dedicated outdoor air systems, and make-up air units. The design accommodates the challenging desert climate while prioritizing guest comfort and energy efficiency.",
     "keyFindings": [
-      "The mechanical system design is appropriate for the climate and application, with good redundancy in critical systems.",
-      "The central plant approach with multiple chillers provides good operational flexibility and efficiency potential.",
-      "Guestroom comfort systems utilize modern controls with occupancy sensing for enhanced efficiency.",
-      "The BAS system provides good baseline functionality but could be enhanced with additional analytics capabilities.",
-      "Primary equipment selections from established manufacturers should provide reliable operation with good support availability.",
-      "Several opportunities exist to enhance system performance, efficiency, and guest experience through targeted upgrades."
+      "Multiple equipment alternatives exist for each major component, offering potential cost savings of 2-7% depending on manufacturer selection",
+      "The central chiller plant design provides 75% firm capacity with N redundancy, balancing reliability with operational efficiency",
+      "Two-pipe fan coil units in guest rooms may present seasonal changeover challenges but offer cost advantages over four-pipe systems",
+      "Sound attenuation for the chiller plant is critical due to its location near guest areas",
+      "Enhanced automation and controls present opportunities for improved energy efficiency and guest experience"
     ],
     "highestPriorityActions": [
-      "Implement enhanced sound attenuation for the chiller plant to protect guest experience in adjacent areas.",
-      "Consider upgrading the BAS to include predictive analytics for improved operational efficiency and maintenance planning.",
-      "Evaluate potential for waterside economizer implementation to reduce energy consumption during favorable weather conditions.",
-      "Review specifications for key equipment to ensure noise and vibration control measures are adequately addressed.",
-      "Confirm appropriate commissioning scope to ensure all systems are properly optimized at startup."
+      "Implement sound attenuation measures for the chiller plant to minimize noise impact on adjacent guest areas",
+      "Evaluate alternative manufacturers for key equipment to optimize cost without compromising quality",
+      "Consider upgrading the Building Automation System to include predictive analytics for improved operational efficiency",
+      "Review specifications for guest room fan coil units to ensure adequate condensate management and noise control"
     ]
   }
 }

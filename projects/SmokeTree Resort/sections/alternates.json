@@ -1,3 +1,559 @@
 {
-  "suppliers": []
+  "suppliers": [
+    {
+      "componentType": "Air-Cooled Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Air-Cooled, Rotary-Screw Water Chiller",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Series R",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Mechanical Products Southwest",
+            "company": "Mechanical Products Southwest",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Similar, potential 2-5% premium",
+          "compatibilityNotes": "Fully compatible with design specifications. Integrated controls for optimization with other equipment. Slightly better efficiency ratings."
+        },
+        {
+          "manufacturer": "York",
+          "model": "YVAA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Johnson Controls Arizona",
+            "company": "Johnson Controls",
+            "contact": "480-967-5015"
+          },
+          "costDifference": "Competitive, potential 3-4% savings",
+          "compatibilityNotes": "Compatible with design specifications. Requires additional coordination for control integration."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce 30XA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Arizona Air Balance Company",
+            "company": "Arizona Air Balance Company",
+            "contact": "602-788-8990"
+          },
+          "costDifference": "Slightly higher, 1-3% premium",
+          "compatibilityNotes": "Good alternative with similar efficiency. May require minor changes to piping connections."
+        },
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "AART Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Climatic Comfort Products",
+            "company": "Climatic Comfort Products",
+            "contact": "480-991-0502"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency screw chillers with excellent part-load performance and low-noise options. Compatible with design specifications but may require controls integration work."
+        },
+        {
+          "manufacturer": "McQuay",
+          "model": "AWS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "McQuay Factory Service",
+            "company": "McQuay Factory Service",
+            "contact": "480-763-1200"
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with good performance metrics. Similar footprint to specified units with comparable connection locations."
+        }
+      ]
+    },
+    {
+      "componentType": "Rooftop Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Packaged Rooftop Air-Conditioning Unit",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "IntelliPak",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Mechanical Products Southwest",
+            "company": "Mechanical Products Southwest",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Comparable, potential 1-2% premium",
+          "compatibilityNotes": "Excellent compatibility with design specifications. Superior controls integration."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Solution",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Johnson Controls Arizona",
+            "company": "Johnson Controls",
+            "contact": "480-967-5015"
+          },
+          "costDifference": "Competitive, potential 2-3% savings",
+          "compatibilityNotes": "Solid alternative with similar performance characteristics. May require minor curb adapter modifications."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "WeatherExpert",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Arizona Air Balance Company",
+            "company": "Arizona Air Balance Company",
+            "contact": "602-788-8990"
+          },
+          "costDifference": "Similar to basis of design",
+          "compatibilityNotes": "Good option with comparable efficiency. May require slight adjustment to ductwork connections."
+        },
+        {
+          "manufacturer": "AAON",
+          "model": "RN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Engineered Air Equipment, Inc.",
+            "company": "Engineered Air",
+            "contact": "480-921-0125"
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality units with excellent energy efficiency and noise characteristics. Known for robust construction and long service life."
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "Energence",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Lennox Industries",
+            "company": "Lennox Industries",
+            "contact": "602-438-9099"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with good efficiency ratings. May offer procurement advantages with shorter lead times than other manufacturers."
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Fan Coil Units",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "UniTrane",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Mechanical Products Southwest",
+            "company": "Mechanical Products Southwest",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Comparable, potential 1-3% premium",
+          "compatibilityNotes": "Good compatibility with design specifications. Slightly larger footprint may require minor coordination."
+        },
+        {
+          "manufacturer": "JCI/York",
+          "model": "Vertical Stacked",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Johnson Controls Arizona",
+            "company": "Johnson Controls",
+            "contact": "480-967-5015"
+          },
+          "costDifference": "Slightly lower, 2-4% savings",
+          "compatibilityNotes": "Good alternative with similar performance. May require minor piping adjustments."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Aero",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Arizona Air Balance Company",
+            "company": "Arizona Air Balance Company",
+            "contact": "602-788-8990"
+          },
+          "costDifference": "Comparable to basis of design",
+          "compatibilityNotes": "Compatible option with similar dimensions and performance characteristics."
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "35 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Mechanical Representatives Inc.",
+            "company": "Mechanical Representatives Inc.",
+            "contact": "602-275-4467"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with good quality construction. Known for ease of maintenance and serviceability."
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "PFCU Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Distribution Technology",
+            "company": "Air Distribution Technology",
+            "contact": "602-275-1151"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium construction with superior sound characteristics. Excellent for noise-sensitive applications."
+        }
+      ]
+    },
+    {
+      "componentType": "Guest Room Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "IEC",
+          "model": "MUY",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Arizona Controls",
+            "company": "Arizona Controls",
+            "contact": "623-939-0135"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "ThinLine",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "Slightly higher, 3-5% premium",
+          "compatibilityNotes": "Good compatibility, may offer better integration with central plant controls. Similar dimensions."
+        },
+        {
+          "manufacturer": "First Co.",
+          "model": "Vertical Hi-Rise",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Arizona Controls",
+            "company": "Arizona Controls",
+            "contact": "623-939-0135"
+          },
+          "costDifference": "Lower cost, 5-7% savings",
+          "compatibilityNotes": "Compatible with design specifications, may require minor adjustments to ductwork connections."
+        },
+        {
+          "manufacturer": "Williams",
+          "model": "Slim-Line",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Specialized Mechanical Contractors",
+            "company": "Specialized Mechanical",
+            "contact": "480-968-9192"
+          },
+          "costDifference": "Significantly lower, 8-10% savings",
+          "compatibilityNotes": "Budget-friendly option with adequate performance. May have higher maintenance requirements."
+        },
+        {
+          "manufacturer": "Zehnder",
+          "model": "Rittling Vertical",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Products Equipment Company",
+            "company": "Air Products Equipment",
+            "contact": "480-968-5343"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality units with low sound levels and energy-efficient EC motors. Comparable dimensions to specified units."
+        },
+        {
+          "manufacturer": "Titus",
+          "model": "Vertical Stack",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Distribution Technologies",
+            "company": "Air Distribution Technologies",
+            "contact": "602-275-1151"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality with excellent sound characteristics and filtration options. Good fit for luxury hospitality applications."
+        }
+      ]
+    },
+    {
+      "componentType": "Dedicated Outdoor Air Systems",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Dedicated Outdoor-Air Unit",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Mechanical Equipment",
+            "company": "Norman S. Wright",
+            "contact": "480-317-8880"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Performance Climate Changer",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Mechanical Products Southwest",
+            "company": "Mechanical Products Southwest",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Comparable, potential 2-3% premium",
+          "compatibilityNotes": "Excellent compatibility with high-quality energy recovery options."
+        },
+        {
+          "manufacturer": "AAON",
+          "model": "RN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Engineered Air Equipment, Inc.",
+            "company": "Engineered Air",
+            "contact": "480-921-0125"
+          },
+          "costDifference": "Slightly higher, 3-5% premium",
+          "compatibilityNotes": "High-quality alternative with excellent energy recovery efficiency. May require some coordination for controls integration."
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "Greenheck Dedicated Outdoor Air System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Air Handling Solutions",
+            "company": "Air Handling Solutions",
+            "contact": "602-437-2473"
+          },
+          "costDifference": "Lower cost, 4-6% savings",
+          "compatibilityNotes": "Good alternative with similar performance characteristics. May require adjustments to ductwork connections."
+        },
+        {
+          "manufacturer": "Semco",
+          "model": "DOAS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Mechanical Products of Arizona",
+            "company": "Mechanical Products of Arizona",
+            "contact": "480-464-2300"
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium energy recovery systems with excellent humidity control capabilities. Well-suited for challenging desert climate conditions."
+        },
+        {
+          "manufacturer": "Desert Aire",
+          "model": "TotalAire",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Western Mechanical Solutions",
+            "company": "Western Mechanical Solutions",
+            "contact": "602-233-0877"
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Specialized in humidity control with integrated energy recovery. Well-suited for the spa areas and challenging desert climate."
+        }
+      ]
+    },
+    {
+      "componentType": "Kitchen Make-up Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "Captive Aire",
+          "model": "Kitchen Make-up Air Unit",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Captive Aire Systems",
+            "company": "Captive Aire Systems",
+            "contact": "602-795-9550"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "MSX",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Air Handling Solutions",
+            "company": "Air Handling Solutions",
+            "contact": "602-437-2473"
+          },
+          "costDifference": "Similar to basis of design",
+          "compatibilityNotes": "Good compatibility with kitchen ventilation systems. Meets all required specifications."
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "Hot Dawg",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Modine Sales of Arizona",
+            "company": "Modine Sales",
+            "contact": "480-921-0305"
+          },
+          "costDifference": "Lower cost, 5-7% savings",
+          "compatibilityNotes": "Budget-friendly option with adequate performance for this application."
+        },
+        {
+          "manufacturer": "Reznor",
+          "model": "MAPSIII",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Nortek Global HVAC",
+            "company": "Nortek Global HVAC",
+            "contact": "480-968-0311"
+          },
+          "costDifference": "Slightly lower, 3-5% savings",
+          "compatibilityNotes": "Good alternative with proven reliability in similar applications."
+        },
+        {
+          "manufacturer": "AAON",
+          "model": "M2 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Engineered Air Equipment, Inc.",
+            "company": "Engineered Air",
+            "contact": "480-921-0125"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium construction with excellent energy efficiency and low sound levels. Good fit for luxury resort applications."
+        },
+        {
+          "manufacturer": "Halton",
+          "model": "MakeUp Air Package",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Commercial Kitchen Supply",
+            "company": "Commercial Kitchen Supply",
+            "contact": "480-966-8363"
+          },
+          "costDifference": "-1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Specialized kitchen ventilation manufacturer with good integration between exhaust and makeup air systems. Good reputation in commercial kitchen applications."
+        }
+      ]
+    },
+    {
+      "componentType": "Switchboards and Panelboards",
+      "suppliers": [
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "QED/NQOD/NF/I-line",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Schneider Electric Arizona",
+            "company": "Schneider Electric",
+            "contact": "480-460-1500"
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Pow-R-Line",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Eaton Electrical Products",
+            "company": "Eaton",
+            "contact": "602-437-3500"
+          },
+          "costDifference": "Comparable, potential 1-2% savings",
+          "compatibilityNotes": "Excellent alternative with similar quality and performance characteristics."
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Spectra Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Border States Electric",
+            "company": "Border States Electric",
+            "contact": "602-437-7878"
+          },
+          "costDifference": "Slightly higher, 2-3% premium",
+          "compatibilityNotes": "High-quality option with excellent fault current ratings and protection features."
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Sentron",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Siemens Industry, Inc.",
+            "company": "Siemens",
+            "contact": "480-460-1500"
+          },
+          "costDifference": "Comparable to basis of design",
+          "compatibilityNotes": "Highly compatible alternative with similar performance characteristics."
+        }
+      ]
+    }
+  ]
 }

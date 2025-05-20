@@ -2,27 +2,43 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Conduct thorough supplier evaluations",
-      "rationale": "Carefully assessing suppliers' capabilities, quality, reliability and pricing will help select the best vendors for critical resort equipment and ensure on-time delivery of high-quality products at optimal costs.",
-      "estimatedImpact": "Proper supplier selection can lead to 10-15% cost savings on major equipment purchases while reducing risks of quality issues or delays.",
-      "implementation": "1. Define key criteria for evaluating suppliers. 2. Request proposals from multiple qualified vendors. 3. Assess proposals based on defined criteria. 4. Conduct site visits/audits of top candidates. 5. Select suppliers that provide best overall value. 6. Establish QA processes and KPIs to monitor ongoing performance.",
+      "recommendation": "Consider Chiller Package from Multiple Suppliers",
+      "rationale": "The project specifies three 250-ton Daikin rotary-screw chillers. Requesting quotes from all qualified manufacturers identified in the alternate manufacturers list (Trane, York, and Carrier) could create competitive pricing and potentially yield significant cost savings while meeting the same performance specifications.",
+      "estimatedImpact": "Potential cost savings of 2-7% on the chiller package, which represents a substantial portion of the mechanical budget. This could amount to $30,000-$75,000 in savings on equipment costs alone.",
+      "implementation": "1. Issue RFQs to all qualified manufacturers (Daikin, Trane, York, and Carrier)\n2. Require performance data verification at design conditions (115°F ambient, 2160 ft altitude)\n3. Compare lifecycle costs including energy consumption and maintenance\n4. Evaluate controls compatibility with BAS\n5. Negotiate extended warranty options",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Leverage volume discounts",
-      "rationale": "Bundling equipment purchases into larger orders where possible will provide opportunities to negotiate volume-based discounts from suppliers, reducing overall procurement costs.",
-      "estimatedImpact": "Volume discounts can typically provide 5-20% savings depending on the supplier and size of orders.",
-      "implementation": "1. Analyze equipment needs to identify opportunities for bundling purchases. 2. Request volume discount quotes from suppliers on larger orders. 3. Evaluate cost savings against storage, logistical and cash flow considerations. 4. Negotiate favorable terms and lead times for volume purchases. 5. Place bundled orders strategically to optimize discounts and project timelines.",
-      "priority": "Medium"
+      "recommendation": "Evaluate Guest Room Fan Coil Unit Alternatives",
+      "rationale": "The specified IEC MUY vertical fan coil units for guest rooms could be sourced from alternative suppliers. First Co. and Williams models are noted to offer 5-10% cost savings with adequate performance for this application.",
+      "estimatedImpact": "With approximately 200-250 guest rooms requiring fan coil units, a 5-10% savings on these units could result in $50,000-$100,000 in cost reductions while maintaining appropriate comfort levels.",
+      "implementation": "1. Request samples from Williams and First Co. for performance testing\n2. Evaluate noise levels which are critical for guest comfort\n3. Compare maintenance requirements and filter accessibility\n4. Verify dimensional compatibility with designed wall cavities\n5. Confirm warranty terms are comparable",
+      "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Explore leasing options for select equipment",
-      "rationale": "Leasing can be a cost-effective option for some equipment by reducing upfront capital expenditure, providing tax advantages, and ensuring access to updated models in the future.",
-      "estimatedImpact": "Leasing can reduce upfront equipment costs by 10-30% in many cases, improving cash flow. However, total cost of ownership should be analyzed for each leasing decision.",
-      "implementation": "1. Identify resort equipment that could be good candidates for leasing based on anticipated usage, lifetime, maintenance needs, etc. 2. Obtain quotes from equipment leasing providers. 3. Conduct a cost/benefit analysis of leasing vs. purchase. 4. For items where leasing is advantageous, negotiate favorable rates and terms. 5. Establish processes for managing and returning leased equipment.",
-      "priority": "Low"
+      "recommendation": "Combine Generator and ATS Procurement",
+      "rationale": "The project requires Cummins diesel generators and ASCO automatic transfer switches. Procuring both from the same manufacturer (Cummins OTPC switches) could provide better system integration, potentially simplified maintenance, and possible package pricing benefits.",
+      "estimatedImpact": "Package procurement could yield 3-5% savings on the combined equipment cost, improved system compatibility, and single-source responsibility for the emergency power system.",
+      "implementation": "1. Request package pricing from Cummins for both generator and ATS\n2. Compare to individual best pricing options\n3. Evaluate maintenance contract options for combined systems\n4. Verify compatibility with building electrical systems\n5. Confirm that critical performance parameters are maintained",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Develop Strategic Procurement Plan for Rooftop Units",
+      "rationale": "The project requires multiple large rooftop units from Daikin. The alternates list indicates comparable units from Trane, York, and Carrier that could provide similar performance, with York potentially offering 2-3% savings.",
+      "estimatedImpact": "Potential savings of 2-3% on the rooftop package, improved delivery schedules, and potential standardization benefits if other equipment is sourced from the same manufacturer.",
+      "implementation": "1. Identify long-lead items and order those first\n2. Bundle RTU orders to maximize volume discounts\n3. Compare maintenance contract costs across manufacturers\n4. Verify curb compatibility with alternate manufacturers\n5. Consider impacts on controls integration",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consider Alternative Electrical Distribution Equipment",
+      "rationale": "Schneider Electric is specified for switchboards and panelboards, but Eaton is noted to offer comparable quality with potential 1-2% savings. Given the extensive electrical distribution requirements for the resort, these savings could be significant.",
+      "estimatedImpact": "1-2% savings on electrical distribution equipment could represent $15,000-$30,000 in cost reduction without compromising system reliability or performance.",
+      "implementation": "1. Request quotes from both Schneider and Eaton for the complete distribution package\n2. Compare delivery timeframes, which could impact construction schedule\n3. Verify compatibility with existing infrastructure if applicable\n4. Compare warranty terms and local support capabilities\n5. Evaluate any differences in physical space requirements",
+      "priority": "Medium"
     }
   ]
 }

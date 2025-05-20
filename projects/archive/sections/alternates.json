@@ -1,0 +1,467 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "VENTROL",
+          "model": "Custom",
+          "isBasisOfDesign": true,
+          "representativeInfo": {
+            "name": "H.C. Nye Company",
+            "company": "H.C. Nye Company",
+            "contact": "717-561-2500"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Custom units designed specifically for laboratory applications with high filtration requirements and energy recovery capabilities."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Trane Philadelphia",
+            "company": "Trane U.S. Inc.",
+            "contact": "215-768-3600"
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible with design specifications but may require modifications to coil and fan arrangements. Different control interface."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Johnson Controls",
+            "company": "Johnson Controls",
+            "contact": "717-771-1117"
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible option with similar energy recovery system. Would require different BAS integration approach."
+        },
+        {
+          "manufacturer": "Haakon",
+          "model": "Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "AHR Equipment",
+            "company": "AHR Equipment",
+            "contact": "717-453-1200"
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality custom AHU manufacturer with excellent reputation for laboratory applications. Robust construction and superior quality control."
+        }
+      ]
+    },
+    {
+      "componentType": "Cooling Towers",
+      "suppliers": [
+        {
+          "manufacturer": "EVAPCO",
+          "model": "AXS-12-9M22",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Cummins-Wagner",
+            "company": "Cummins-Wagner",
+            "contact": "717-654-0281"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Factory-assembled, induced draft, counterflow design with VFD control"
+        },
+        {
+          "manufacturer": "Baltimore Aircoil Company (BAC)",
+          "model": "Series 3000",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Thermal Products",
+            "company": "Thermal Products, Inc.",
+            "contact": "610-325-9229"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Similar performance characteristics. May require modifications to piping connections."
+        },
+        {
+          "manufacturer": "SPX Cooling Technologies (Marley)",
+          "model": "NC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Potomac Sales",
+            "company": "Potomac Sales Group",
+            "contact": "info@potomacsales.com"
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Premium option with enhanced water conservation features and low sound options. May require additional controls integration."
+        },
+        {
+          "manufacturer": "Tower Tech",
+          "model": "TTXL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Thermal Services",
+            "company": "Thermal Services Inc.",
+            "contact": "410-737-7330"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Modular cooling tower design allows for easier transportation and installation. Lower profile may reduce visual impact and wind loading requirements."
+        },
+        {
+          "manufacturer": "Delta Cooling Towers",
+          "model": "TM Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Delta Cooling",
+            "company": "Delta Cooling Towers",
+            "contact": "800-289-3358"
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Engineered plastic construction offers excellent corrosion resistance and 20-year warranty. May be advantageous for long-term maintenance considerations."
+        }
+      ]
+    },
+    {
+      "componentType": "Hot Water Boilers",
+      "suppliers": [
+        {
+          "manufacturer": "PATTERSON-KELLY",
+          "model": "SONIC SC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "TabCo Sales Associates",
+            "company": "TabCo Sales Associates, Inc.",
+            "contact": "610-356-5193"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "High-efficiency condensing boilers with integrated controls"
+        },
+        {
+          "manufacturer": "Cleaver-Brooks",
+          "model": "ClearFire",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Cate Equipment",
+            "company": "Cate Equipment Company",
+            "contact": "info@cateequipment.com"
+          },
+          "costDifference": "+7%",
+          "compatibilityNotes": "Higher cost but includes enhanced control package with remote monitoring capabilities. Similar footprint."
+        },
+        {
+          "manufacturer": "Lochinvar",
+          "model": "CREST",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Harry M. Stevens, Inc.",
+            "company": "Harry M. Stevens, Inc.",
+            "contact": "hmstevens@hmstevens.com"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Slightly different piping configuration required. Good turndown ratio but different control interface."
+        },
+        {
+          "manufacturer": "Aerco",
+          "model": "Benchmark",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Havtech",
+            "company": "Havtech",
+            "contact": "301-206-9225"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Industry leader in condensing boiler technology with excellent turndown capabilities. Compact footprint may provide space savings."
+        },
+        {
+          "manufacturer": "Viessmann",
+          "model": "Vitocrossal 300",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "H.B. McClure",
+            "company": "H.B. McClure Company",
+            "contact": "717-232-4328"
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium European design with high-quality stainless steel heat exchanger and excellent long-term reliability. Advanced controls integration capabilities."
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "B&G",
+          "model": "E-1510 Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Wallace Eannace Associates",
+            "company": "Wallace Eannace Associates",
+            "contact": "215-542-8400"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "End suction centrifugal pumps with high efficiency motors and VFD compatibility"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "4300 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Flow Control Equipment",
+            "company": "Flow Control Equipment",
+            "contact": "info@flowcontrolequipment.com"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Similar performance characteristics with slightly different mounting arrangements. Compatible with specified VFDs."
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "FI Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "United Electric Supply",
+            "company": "United Electric Supply",
+            "contact": "info@unitedelectric.com"
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "Lower cost option but may have slightly different performance curves. Would require reselection to match flow requirements."
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TP Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Grundfos",
+            "company": "Grundfos",
+            "contact": "410-544-4900"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency design with integrated sensors available for advanced control capabilities. Excellent reliability record and wide service network."
+        },
+        {
+          "manufacturer": "Wilo",
+          "model": "IL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Chesapeake Systems",
+            "company": "Chesapeake Systems",
+            "contact": "410-355-7800"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: German-engineered pumps with high efficiency ratings and robust construction. Growing US market presence with expanding service network."
+        }
+      ]
+    },
+    {
+      "componentType": "Fans",
+      "suppliers": [
+        {
+          "manufacturer": "STROBIC",
+          "model": "Tri-Stack",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Gunn & Pegelow",
+            "company": "Gunn & Pegelow",
+            "contact": "sales@gunnpegelow.com"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Specialized laboratory exhaust fans designed for effective plume dispersion and entrainment"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "Vektor",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Pittsburgh Air Systems",
+            "company": "Pittsburgh Air Systems/Air Industrial, Inc.",
+            "contact": "412-922-6600"
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Lower cost option with similar plume height performance. May require different mounting arrangement and control interface."
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "Laboratory Exhaust System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Tom Barrow Company",
+            "company": "Tom Barrow Company",
+            "contact": "sales@tombarrow.com"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Good alternative with similar performance. May require reconfiguration of discharge plenum and different structural support."
+        },
+        {
+          "manufacturer": "MK Plastics",
+          "model": "Axijet Vektor",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "H.C. Nye Company",
+            "company": "H.C. Nye Company",
+            "contact": "717-561-2500"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Corrosion-resistant construction specifically designed for laboratory applications with hazardous exhaust. FRP construction offers excellent chemical resistance."
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "Vari-Flow",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Control Products",
+            "company": "Air Control Products",
+            "contact": "717-939-7095"
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-established manufacturer with good support network and competitive pricing. Reliable performance with standard parts availability."
+        }
+      ]
+    },
+    {
+      "componentType": "Air Distribution Products",
+      "suppliers": [
+        {
+          "manufacturer": "Titus",
+          "model": "Various",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "H.C. Nye Company",
+            "company": "H.C. Nye Company",
+            "contact": "717-561-2500"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Complete line of grilles, registers, diffusers and air terminal units for laboratory applications"
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Air Distribution Products",
+            "company": "Air Distribution Products",
+            "contact": "sales@airproducts.com"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Comparable performance with slightly different aesthetic options"
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Price Industries",
+            "company": "Price Industries",
+            "contact": "770-623-8050"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality with excellent performance data documentation. Advanced air distribution patterns may improve room air mixing."
+        },
+        {
+          "manufacturer": "Nailor Industries",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Nailor Industries",
+            "company": "Nailor Industries",
+            "contact": "410-309-6000"
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality products with competitive pricing. Compatible with standard duct connections and mounting systems."
+        }
+      ]
+    },
+    {
+      "componentType": "Electrical Distribution Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Schneider Electric/Square D",
+          "model": "PowerPact Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Graybar Electric",
+            "company": "Graybar Electric Company",
+            "contact": "717-939-8700"
+          },
+          "costDifference": "$0 (Basis of Design)",
+          "compatibilityNotes": "Full range of distribution equipment with integrated monitoring capabilities"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Power Defense Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Fromm Electric",
+            "company": "Fromm Electric Supply",
+            "contact": "info@frommelectric.com"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Compatible alternative with similar performance specifications. Different interface for power monitoring system."
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "SACE Tmax Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Rumsey Electric",
+            "company": "Rumsey Electric Company",
+            "contact": "info@rumsey.com"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Premium option with enhanced power quality monitoring. Requires additional coordination with BAS integration."
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "WL/VL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Siemens Industry",
+            "company": "Siemens Industry Inc.",
+            "contact": "800-743-6367"
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: German-engineered equipment with excellent build quality and reliability. Advanced power monitoring capabilities available."
+        },
+        {
+          "manufacturer": "GE Industrial",
+          "model": "Spectra Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Colonial Electric",
+            "company": "Colonial Electric Supply",
+            "contact": "610-278-9500"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-established product line with good service network and parts availability. Competitive pricing with reliable performance."
+        }
+      ]
+    }
+  ]
+}

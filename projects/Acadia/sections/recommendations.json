@@ -2,35 +2,43 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Implement integrated building automation system",
-      "rationale": "Multiple equipment types and manufacturers require coordinated control for optimal operation",
-      "estimatedImpact": "15-20% energy savings through optimized sequencing and setpoint management",
-      "implementation": "Specify BACnet compatibility for all equipment and central BAS controller",
+      "recommendation": "Evaluate Daikin as an alternative to Samsung split systems",
+      "rationale": "Based on the project data, Daikin split systems offer a 5% cost reduction compared to the Samsung HVAC units currently specified. Given the multiple split system units required (AC-1-2, AC-1-3, etc.), this represents a significant potential cost saving without compromising system performance.",
+      "estimatedImpact": "Approximately 5% cost reduction on split system equipment, which could translate to thousands of dollars in savings while maintaining compatibility with existing ductwork.",
+      "implementation": "1. Contact Norman S. Wright Climatec for Daikin FTXS Series pricing and availability\n2. Review compatibility requirements for existing ductwork and refrigerant lines\n3. Compare warranty terms between Samsung and Daikin\n4. Evaluate any adapter requirements mentioned in compatibility notes\n5. Request formal quote and lead time information",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Consider demand-controlled ventilation for DOAS",
-      "rationale": "CO2-based control can reduce unnecessary ventilation during periods of low occupancy",
-      "estimatedImpact": "10-15% reduction in ventilation-related energy consumption",
-      "implementation": "Add CO2 sensors in major zones and modify DOAS controls",
-      "priority": "Medium"
+      "recommendation": "Implement equipment package purchasing strategy",
+      "rationale": "The project requires multiple units from the same manufacturers (e.g., York RTUs, Greenheck fans, Raypak boilers). Negotiating package deals with these manufacturers or their representatives could yield better pricing and delivery terms than purchasing each unit separately.",
+      "estimatedImpact": "Potential 3-7% reduction in equipment costs through volume discounts, plus streamlined delivery coordination and consistent warranty terms.",
+      "implementation": "1. Group equipment by manufacturer for consolidated purchasing\n2. Contact manufacturer representatives for package pricing\n3. Negotiate improved warranty terms for multi-unit purchases\n4. Coordinate delivery schedules to optimize installation sequence\n5. Establish single points of contact for each manufacturer",
+      "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Evaluate hydronic system water treatment options",
-      "rationale": "Proper water treatment is essential for condensing boiler efficiency and longevity",
-      "estimatedImpact": "Extended equipment life by 3-5 years, maintained efficiency",
-      "implementation": "Specify advanced filtration and chemical treatment package",
+      "recommendation": "Consider Lochinvar KNIGHT Series as alternative to Raypak boilers",
+      "rationale": "While Lochinvar boilers have a 4% higher initial cost compared to the specified Raypak units, they offer built-in redundancy features that could eliminate the need for some ancillary components and potentially reduce long-term maintenance costs. The higher efficiency would also provide ongoing operational savings.",
+      "estimatedImpact": "Initial cost increase of approximately 4%, offset by potential 5-10% reduction in maintenance costs over equipment lifetime and 3-5% improvement in operational efficiency.",
+      "implementation": "1. Contact DB Sales & Service for detailed specifications and pricing\n2. Perform lifecycle cost analysis comparing initial premium versus operational savings\n3. Review built-in redundancy features to identify potential simplifications in system design\n4. Evaluate compatibility with other hydronic system components\n5. Request case studies of similar installations",
       "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Consider variable primary flow for boiler system",
-      "rationale": "Variable flow matches system capacity to load more precisely than primary/secondary",
-      "estimatedImpact": "5-8% reduction in pumping energy, improved delta-T",
-      "implementation": "Modify hydronic design to variable primary, specify VFDs for pumps",
-      "priority": "Low"
+      "recommendation": "Standardize on Greenheck for all ventilation products",
+      "rationale": "The project already specifies multiple Greenheck fans (DEF-1, EF-1, EF-2, etc.). Expanding the Greenheck scope to include any additional ventilation products not yet specified could simplify procurement, ensure compatibility, and potentially improve pricing through volume purchasing.",
+      "estimatedImpact": "3-5% cost savings on ventilation equipment through volume purchasing, plus reduced coordination overhead and consistent maintenance procedures.",
+      "implementation": "1. Identify any ventilation equipment not currently specified as Greenheck\n2. Contact Greenheck representative for package pricing on all ventilation equipment\n3. Evaluate any performance differences between current specifications and Greenheck alternatives\n4. Negotiate improved warranty or maintenance terms based on expanded scope\n5. Streamline submittal process with single manufacturer",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Develop supplier contingency plan for long-lead equipment",
+      "rationale": "HVAC equipment has experienced significant supply chain disruptions in recent years. Identifying secondary suppliers or alternative models for critical equipment items helps mitigate schedule risks if primary suppliers face delays.",
+      "estimatedImpact": "Potential prevention of 2-4 week project delays that could result from equipment availability issues, avoiding associated costs of approximately $10,000-$20,000 per week of delay.",
+      "implementation": "1. Identify equipment with historically long lead times (typically RTUs and chillers)\n2. Pre-qualify at least one alternative supplier for each critical equipment type\n3. Maintain updated lead time information from all potential suppliers\n4. Include contract language allowing substitutions if lead times exceed specified thresholds\n5. Confirm all alternatives meet project specifications",
+      "priority": "High"
     }
   ]
 }

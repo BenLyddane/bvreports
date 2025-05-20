@@ -2,59 +2,43 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "HVAC System Optimization",
-      "rationale": "The seven-module AERMEC heat pump system provides significant redundancy, which is important for a healthcare facility. However, fewer, larger modules might reduce initial costs while still providing adequate redundancy.",
-      "estimatedImpact": "Potential reduction in initial costs and decreased connection complexity without compromising system reliability.",
-      "implementation": "Consider a 5-module configuration at 175 tons each instead of 7 modules at 125 tons each.",
-      "priority": "Medium"
+      "recommendation": "Early Procurement of Long Lead Items",
+      "rationale": "The custom Haakon AHUs and AERMEC heat pump modules have 20-30 week lead times. Early procurement is critical to avoid project delays, especially given the May 2025 start date.",
+      "estimatedImpact": "Prevention of 4-6 week project delays that could cost $50,000-$100,000 in extended general conditions and temporary measures.",
+      "implementation": "1. Issue early equipment purchase orders for AHUs and heat pumps\n2. Secure storage if equipment arrives before installation readiness\n3. Coordinate delivery schedules with construction sequence\n4. Consider progressive payments to manufacturers to accelerate production",
+      "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "AHU Alternatives Evaluation",
-      "rationale": "While Haakon provides excellent custom units, other manufacturers with healthcare expertise may offer comparable quality at competitive prices.",
-      "estimatedImpact": "Potential cost savings while maintaining required performance for healthcare applications.",
-      "implementation": "Request 'healthcare grade' specifications from alternative manufacturers that match Haakon's quality level, including double-wall construction, hospital-grade drainage pans, premium filtration systems, low air leakage rates, antimicrobial interior surfaces, and premium fan systems.",
+      "recommendation": "Competitive Bidding for AHU Alternatives",
+      "rationale": "Custom Haakon AHUs represent a significant cost, but three approved alternatives exist (CES/Ventrol, Nortek/Temtrol, Air Enterprise). Healthcare-grade specifications can be maintained while potentially reducing costs through competitive bidding.",
+      "estimatedImpact": "Potential 5-15% cost reduction on AHU package while maintaining quality and performance specifications.",
+      "implementation": "1. Develop detailed specification matrix of critical healthcare requirements\n2. Request quotes from all approved manufacturers\n3. Compare lifecycle costs, not just initial price\n4. Evaluate maintenance support availability from local representatives",
       "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Generator System Alternatives",
-      "rationale": "The Caterpillar D600 GC generator is appropriately sized, but competitive bidding may identify cost-effective alternatives.",
-      "estimatedImpact": "Potential cost savings while maintaining reliability and performance.",
-      "implementation": "Solicit competitive bids from Kohler, Cummins, and MTU with 'healthcare grade' specifications including extended runtime capability, enhanced sound attenuation, robust paralleling capabilities, premium fuel filtration, and advanced monitoring systems.",
+      "recommendation": "Modular Heat Pump System Optimization",
+      "rationale": "The current design specifies seven AERMEC NYK500HD modules. Reconsidering the module count and sizing could maintain redundancy while reducing procurement costs and simplifying the hydronic connections.",
+      "estimatedImpact": "Potential savings of 10-15% on heat pump system costs while maintaining redundancy requirements.",
+      "implementation": "1. Evaluate 5 larger modules vs 7 smaller modules\n2. Verify N+1 redundancy is maintained with fewer modules\n3. Calculate efficiency at typical operating loads with different configurations\n4. Consider Multistack as competitive alternative to AERMEC",
       "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Transfer Switch Evaluation",
-      "rationale": "ASCO 7000 Series transfer switches are top-tier equipment, but alternatives like Russelectric offer comparable quality.",
-      "estimatedImpact": "Potential cost savings while maintaining reliability for critical power systems.",
-      "implementation": "Evaluate alternatives carefully to ensure they meet healthcare code requirements and reliability expectations.",
-      "priority": "Low"
-    },
-    {
-      "id": 5,
-      "recommendation": "Project Phasing Coordination",
-      "rationale": "Long lead times for custom AHUs and generators (20-30 weeks) should be factored into the project schedule early.",
-      "estimatedImpact": "Prevention of project delays and avoidance of costly temporary measures.",
-      "implementation": "Consider early release of equipment packages, phased delivery to match construction sequence, and temporary conditioning options if permanent equipment cannot be installed in time for commissioning.",
-      "priority": "High"
-    },
-    {
-      "id": 6,
-      "recommendation": "Energy Efficiency Enhancement",
-      "rationale": "Enhanced control systems could optimize the operation of all AERMEC heat pump modules.",
-      "estimatedImpact": "Improved energy efficiency and reduced operational costs.",
-      "implementation": "Specify advanced BMS integration, predictive load management, heat recovery optimization, and smart defrost cycling for winter operation.",
+      "recommendation": "Generator Package Competitive Bidding",
+      "rationale": "The Caterpillar D600 GC generator specification can be met by multiple manufacturers (Kohler, Cummins, MTU). Healthcare applications require premium features, but competition can drive favorable pricing.",
+      "estimatedImpact": "Potential 5-10% cost reduction on generator package through competitive bidding while maintaining reliability and performance.",
+      "implementation": "1. Develop detailed healthcare-grade specifications\n2. Request bids from all four manufacturers with clear evaluation criteria\n3. Include service package options in bid evaluation\n4. Evaluate fuel efficiency and maintenance requirements",
       "priority": "Medium"
     },
     {
-      "id": 7,
-      "recommendation": "System Redundancy Validation",
-      "rationale": "Healthcare facilities require robust redundancy in critical systems.",
-      "estimatedImpact": "Ensured continuity of operations and compliance with healthcare facility requirements.",
-      "implementation": "Validate that the proposed systems meet N+1 redundancy for critical cooling/heating systems, appropriate emergency power distribution, backup control systems, and failsafe modes for critical areas.",
-      "priority": "High"
+      "id": 5,
+      "recommendation": "Transfer Switch Procurement Strategy",
+      "rationale": "The specified Schneider Electric ASCO 7000 Series transfer switches are premium products, but alternatives from Russelectric, Cummins, Kohler, and Eaton could offer comparable quality at potentially lower costs.",
+      "estimatedImpact": "Potential savings of 5-8% on transfer switch package while maintaining required performance for healthcare applications.",
+      "implementation": "1. Verify all alternatives meet healthcare code requirements\n2. Request bids with specific healthcare-related performance criteria\n3. Consider bundling generator and transfer switch procurement if manufacturer offers both\n4. Evaluate warranty differences between options",
+      "priority": "Medium"
     }
   ]
 }

@@ -7,6 +7,7 @@
           "manufacturer": "Daikin Applied",
           "model": "DPSH Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Thermal Environment Sales",
             "company": "Thermal Environment Sales",
@@ -19,6 +20,7 @@
           "manufacturer": "Carrier",
           "model": "48HC",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "RJ Murray Company",
             "company": "RJ Murray Company",
@@ -31,6 +33,7 @@
           "manufacturer": "Trane",
           "model": "Precedent",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Trane Albany",
             "company": "Trane Technologies",
@@ -43,13 +46,14 @@
           "manufacturer": "York",
           "model": "Predator",
           "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Johnson Controls",
             "company": "Johnson Controls",
             "contact": "518-783-1235"
           },
           "costDifference": "+1-3%",
-          "compatibilityNotes": "Compatible with specified requirements. 208V/3-Phase electrical connection."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with specified requirements. 208V/3-Phase electrical connection."
         }
       ]
     },
@@ -60,6 +64,7 @@
           "manufacturer": "Trane",
           "model": "MSZ-GS36NA/MUZ-GS36NA",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Trane Albany",
             "company": "Trane Technologies",
@@ -67,6 +72,45 @@
           },
           "costDifference": "Basis of Design",
           "compatibilityNotes": "Basis of Design unit. Note: Model naming uses Mitsubishi designation; verify compatibility."
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "MSZ-GL36NA/MUZ-GL36NA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Abco HVACR Supply + Solutions",
+            "company": "Abco HVACR Supply + Solutions",
+            "contact": "518-452-9800"
+          },
+          "costDifference": "-3-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Direct manufacturer of the equipment with model numbers referenced in the specifications. May offer cost savings over Trane-branded equivalent."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "FTX36NVJU/RX36NMVJU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Thermal Environment Sales",
+            "company": "Thermal Environment Sales",
+            "contact": "11 Sitterly Road, Clifton Park, NY 12065 | (518) 373-1100"
+          },
+          "costDifference": "+1-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with requirements, similar capacity wall-mount ductless split system."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "LS363HLV4/LU363HLV4",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Johnstone Supply",
+            "company": "Johnstone Supply",
+            "contact": "518-278-3820"
+          },
+          "costDifference": "-2-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy efficient model with similar cooling/heating capacity, potentially lower cost option."
         }
       ]
     },
@@ -77,6 +121,7 @@
           "manufacturer": "VIQUA",
           "model": "PRO20",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "VIQUA",
             "company": "VIQUA (Trojan Technologies)",
@@ -89,6 +134,7 @@
           "manufacturer": "Atlantic Ultraviolet",
           "model": "Sanitron S5000C",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Atlantic Ultraviolet Corporation",
             "company": "Atlantic Ultraviolet Corporation",
@@ -101,6 +147,7 @@
           "manufacturer": "Trojan Technologies",
           "model": "UV Max Pro20",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Trojan Technologies",
             "company": "Trojan Technologies",
@@ -108,6 +155,32 @@
           },
           "costDifference": "+3-7%",
           "compatibilityNotes": "Must meet NSF Standard 61 and Standard 55 Class A certification as required by NYS Department of Health."
+        },
+        {
+          "manufacturer": "Pentair",
+          "model": "E-Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Pentair Water Solutions",
+            "company": "Pentair",
+            "contact": "800-942-1153"
+          },
+          "costDifference": "-5-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: NSF certified system with comparable flow rates, typically more cost-effective than VIQUA systems."
+        },
+        {
+          "manufacturer": "UV Pure",
+          "model": "Hallett 30",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "UV Pure Technologies",
+            "company": "UV Pure Technologies",
+            "contact": "888-407-9997"
+          },
+          "costDifference": "+5-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium self-cleaning system with Crossfire Technology that provides 360° disinfection. Higher cost but lower maintenance."
         }
       ]
     },
@@ -118,6 +191,7 @@
           "manufacturer": "Greenheck",
           "model": "G-Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Buckley Associates",
             "company": "Buckley Associates",
@@ -130,6 +204,7 @@
           "manufacturer": "Loren Cook",
           "model": "ACE-B",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "RF Peck Company, Inc.",
             "company": "RF Peck Company, Inc.",
@@ -142,6 +217,7 @@
           "manufacturer": "PennBarry",
           "model": "Domex",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Kane-Davey Associates, Inc.",
             "company": "Kane-Davey Associates, Inc.",
@@ -149,6 +225,32 @@
           },
           "costDifference": "-2-4%",
           "compatibilityNotes": "Compatible with specified requirements."
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "BCRD",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Equipment Company",
+            "company": "Air Equipment Company",
+            "contact": "518-783-4455"
+          },
+          "costDifference": "-3-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible downblast centrifugal roof exhaust fans, typically at lower cost."
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "RGD Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Liberty Mechanical Services",
+            "company": "Liberty Mechanical Services",
+            "contact": "845-876-5232"
+          },
+          "costDifference": "-4-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Lower cost alternative for smaller CFM requirements like EF-122 and EF-124."
         }
       ]
     },
@@ -159,6 +261,7 @@
           "manufacturer": "QMark",
           "model": "MUH Series/AWH Series",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "QMark",
             "company": "QMark (Marley Engineered Products)",
@@ -171,6 +274,7 @@
           "manufacturer": "Markel",
           "model": "HF/HT Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Applied Thermal Systems Inc.",
             "company": "Applied Thermal Systems Inc.",
@@ -183,6 +287,7 @@
           "manufacturer": "Berko",
           "model": "HUHAA Series",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "Electrical Equipment Corp.",
             "company": "Electrical Equipment Corp.",
@@ -190,6 +295,32 @@
           },
           "costDifference": "+1-4%",
           "compatibilityNotes": "Compatible with specified requirements. Verify panel compatibility."
+        },
+        {
+          "manufacturer": "Reznor",
+          "model": "EGHB Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "H. Danforth Associates",
+            "company": "H. Danforth Associates",
+            "contact": "518-384-1750"
+          },
+          "costDifference": "-2-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Heavy-duty construction with similar electrical requirements. Potentially more cost-effective."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "UHEC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Trane Albany",
+            "company": "Trane Technologies",
+            "contact": "301 Old Niskayuna Road, Suite 1, Latham, NY 12110 | (518) 785-1315"
+          },
+          "costDifference": "+2-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium construction with longer warranty. Compatible with existing Trane equipment on project."
         }
       ]
     },
@@ -200,6 +331,7 @@
           "manufacturer": "RPS",
           "model": "Custom",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "Roof Products & Systems Corporation",
             "company": "Roof Products & Systems Corporation",
@@ -207,6 +339,45 @@
           },
           "costDifference": "Basis of Design",
           "compatibilityNotes": "Basis of Design custom equipment curbs with wind-rated design."
+        },
+        {
+          "manufacturer": "ThyCurb",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "ThyCurb Inc.",
+            "company": "ThyCurb Inc.",
+            "contact": "800-666-2872"
+          },
+          "costDifference": "-5-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Custom equipment curbs capable of meeting wind-rated design requirements, typically at lower cost."
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "GPIP/GRPD",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Buckley Associates",
+            "company": "Buckley Associates",
+            "contact": "120 Railroad Avenue, Albany, NY 12205 | (518) 438-7423"
+          },
+          "costDifference": "-1-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Wind-rated curbs from same manufacturer as exhaust fans, potential for package discount when ordered together."
+        },
+        {
+          "manufacturer": "Pate",
+          "model": "Custom",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "The Pate Company",
+            "company": "The Pate Company",
+            "contact": "800-243-3018"
+          },
+          "costDifference": "-3-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Custom wind-rated designs with heavy gauge construction, can be made compatible with all specified rooftop equipment."
         }
       ]
     }

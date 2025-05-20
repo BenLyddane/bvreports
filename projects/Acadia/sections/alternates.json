@@ -1,3 +1,328 @@
 {
-  "suppliers": []
+  "suppliers": [
+    {
+      "componentType": "Split System Air Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Samsung HVAC",
+          "model": "FTXS Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "FTXS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec Mechanical Equipment",
+            "contact": "(714) 632-9800"
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compatible with existing ductwork, may require adapters for refrigerant lines"
+        },
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "MSZ-FS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "CFM Equipment Distributors",
+            "company": "CFM Equipment Distributors",
+            "contact": "(916) 447-7022"
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Premium option with improved energy efficiency ratings"
+        },
+        {
+          "manufacturer": "LG Electronics",
+          "model": "Art Cool Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "R.E. Michel Company",
+            "company": "R.E. Michel Company",
+            "contact": "(800) 543-6318"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Comparable efficiency to Samsung with competitive pricing and strong warranty program"
+        },
+        {
+          "manufacturer": "Fujitsu",
+          "model": "Halcyon Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "GREE Comfort",
+            "company": "GREE Comfort",
+            "contact": "(909) 770-8688"
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented alternative with good reliability record and energy performance"
+        }
+      ]
+    },
+    {
+      "componentType": "Packaged Rooftop Air-Conditioning Units",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "PACKAGED DX",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "WeatherMaker Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Russell Sigler Inc.",
+            "company": "Russell Sigler Inc.",
+            "contact": "sales@siglers.com"
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Similar footprint, would require minimal roof curb modifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Precedent Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "US Air Conditioning Distributors",
+            "company": "US Air Conditioning Distributors",
+            "contact": "info@us-ac.com"
+          },
+          "costDifference": "+6%",
+          "compatibilityNotes": "Higher efficiency option with robust control package"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "Landmark Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Lennox Industries",
+            "company": "Lennox Industries",
+            "contact": "(800) 953-6669"
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good value option with reliable performance and wide service network in Southern California"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Rebel Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec",
+            "contact": "(714) 632-9800"
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium high-efficiency option with variable speed technology and advanced control capabilities"
+        }
+      ]
+    },
+    {
+      "componentType": "Condensing Boilers",
+      "suppliers": [
+        {
+          "manufacturer": "Raypak",
+          "model": "H7-500B",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Lochinvar",
+          "model": "KNIGHT Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "DB Sales & Service",
+            "company": "DB Sales & Service",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Higher efficiency with built-in redundancy features"
+        },
+        {
+          "manufacturer": "Aerco",
+          "model": "Benchmark Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "California Hot Water Supply",
+            "company": "California Hot Water Supply",
+            "contact": "(888) 249-7244"
+          },
+          "costDifference": "+10%",
+          "compatibilityNotes": "Premium option with advanced modulation capabilities"
+        },
+        {
+          "manufacturer": "Cleaver-Brooks",
+          "model": "ClearFire Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "R.F. MacDonald Co.",
+            "company": "R.F. MacDonald Co.",
+            "contact": "(714) 257-0900"
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Similar efficiency to Raypak with robust construction and excellent turndown ratio"
+        },
+        {
+          "manufacturer": "Viessmann",
+          "model": "Vitocrossal Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "DMG North",
+            "company": "DMG North",
+            "contact": "(510) 346-7755"
+          },
+          "costDifference": "+12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium European design with industry-leading efficiency and sophisticated controls"
+        }
+      ]
+    },
+    {
+      "componentType": "Dedicated Outdoor-Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "iAire",
+          "model": "PHC-KJ150HHT",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Rebel DOAS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Norman S. Wright Climatec",
+            "company": "Norman S. Wright Climatec",
+            "contact": "(714) 632-9800"
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency unit with energy recovery and advanced dehumidification capabilities"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "RV/RVE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Treatment Corporation",
+            "company": "Air Treatment Corporation",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective solution with good energy recovery options and proven reliability"
+        },
+        {
+          "manufacturer": "Semco",
+          "model": "Pinnacle Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Control Systems",
+            "company": "Air Control Systems",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium solution with total energy recovery wheel and advanced filtration options"
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "Various",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Treatment Corporation",
+            "company": "Air Treatment Corporation",
+            "contact": "(714) 897-1036"
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented option with comparable performance to Greenheck"
+        },
+        {
+          "manufacturer": "Cook",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Balance, Inc.",
+            "company": "Air Balance, Inc.",
+            "contact": "(714) 529-5900"
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality alternative with simple installation and maintenance features"
+        },
+        {
+          "manufacturer": "PennBarry",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "DMG North",
+            "company": "DMG North",
+            "contact": "(510) 346-7755"
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with solid construction and reliability record"
+        }
+      ]
+    }
+  ]
 }

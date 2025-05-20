@@ -1,17 +1,17 @@
 {
   "conclusion": {
-    "summary": "Project Meadow involves a comprehensive HVAC system procurement for a 600,000 sq. ft. facility in Dallas, TX. The project includes the installation of air handling units (AHUs), fan coil units (FCUs), mechanical equipment, control systems, and associated piping/ductwork. The procurement approach follows standard industry practices with specific requirements for quality assurance, materials, testing, and warranties.",
+    "summary": "Project Meadow involves the procurement and installation of an extensive HVAC system, including air handling units, fan coil units, ductwork, piping, and control systems. The project requires high-quality equipment from specified manufacturers with detailed requirements for materials, installation standards, and system performance. The project is currently at 50% Construction Documents phase with a March 2025 document date and an expected bid submission deadline of May 2025.",
     "keyFindings": [
-      "The project requires a mix of manufacturer-specific equipment including York and Temtrol AHUs, Enviro-Tec FCUs, and Loren Cook fans, with emphasis on quality and performance compliance to ASHRAE standards",
-      "Control systems utilize Tridium Niagara Framework N4 BMS with open protocol requirements for complete device level interoperability",
-      "Emphasis is placed on high-efficiency equipment, with Premium efficiency motors required and specific insulation and material requirements throughout",
-      "The project has a 2-year warranty period from Substantial Completion for equipment, materials, and workmanship"
+      "The project includes a BACnet-based Building Management System (BMS) with Tridium Niagara Framework N4 that must remain open and accessible to the owner without proprietary restrictions",
+      "Equipment specifications require high-efficiency components with specific performance ratings, including premium efficiency motors, MERV 13 filtration, and adherence to ASHRAE standards",
+      "Material quality requirements are rigorous, with detailed specifications for construction methods, corrosion resistance, and system integrity for long-term durability",
+      "The procurement strategy emphasizes competitive bidding with specific basis-of-design manufacturers while allowing equivalent alternatives subject to approval"
     ],
     "highestPriorityActions": [
-      "Submit detailed product data and shop drawings for all equipment with technical specifications and performance ratings for approval",
-      "Coordinate installation requirements with other trades, particularly for electrical connections, structural supports, and control systems integration",
-      "Ensure all equipment meets the specified efficiency requirements and control system compatibility",
-      "Prepare for comprehensive commissioning, testing, and balancing of all installed systems"
+      "Submit comprehensive product data and shop drawings for all HVAC equipment and components by the May 13, 2025 submission deadline",
+      "Coordinate with structural and electrical contractors regarding equipment support, power requirements, and BMS integration",
+      "Develop detailed procurement schedule to ensure timely delivery of long-lead items such as air handling units and specialized controls components",
+      "Prepare quality control protocols to ensure equipment and installation meet the detailed performance and construction specifications"
     ]
   }
 }

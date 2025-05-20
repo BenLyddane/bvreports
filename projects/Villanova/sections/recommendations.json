@@ -2,50 +2,42 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Early procurement of high-risk, long lead-time items",
-      "rationale": "Cooling tower (EVAPCO ATWB), DOAS (Trane), and VRF components (Mitsubishi) all have lead times exceeding 20 weeks and are critical to the project schedule.",
-      "estimatedImpact": "Reduction of project schedule risk by 4-6 weeks, avoiding costly temporary solutions",
-      "implementation": "Issue early purchase orders for cooling tower, DOAS, and VRF equipment after expedited submittal review",
+      "recommendation": "Early Pre-Purchase of Cooling Tower (CT-1)",
+      "rationale": "The EVAPCO ATWB 7-7-9 cooling tower has one of the longest lead times (>20 weeks) and is identified as a high-cost driver. Early procurement will prevent this component from delaying the overall project schedule.",
+      "estimatedImpact": "Schedule reduction of 3-4 weeks on critical path, potential cost savings of 3-5% through early ordering before potential price increases.",
+      "implementation": "1. Expedite the cooling tower submittal process\n2. Issue a separate purchase order specifically for this equipment\n3. Confirm storage requirements if delivery occurs before installation readiness\n4. Verify that seismic and winterization accessories are included",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Comprehensive controls coordination meeting",
-      "rationale": "Multiple system types (hydronic, airside, VRF) with different manufacturers will require careful integration with the building automation system.",
-      "estimatedImpact": "Reduction of commissioning duration by 2-3 weeks and minimization of change orders related to controls integration",
-      "implementation": "Schedule pre-submittal controls coordination meeting with all equipment vendors, controls contractor, and engineer",
+      "recommendation": "Consolidate VRF Equipment Orders for Vendor Leverage",
+      "rationale": "VRF components from Mitsubishi Electric have long lead times (>20 weeks) and the project includes both indoor (AC-239) and outdoor units (CU-239). Alternative manufacturers like Daikin and LG offer 3-10% lower costs according to supplier evaluation.",
+      "estimatedImpact": "Potential cost savings of 5-10% on VRF system, possible lead time reduction of 2-3 weeks through preferred vendor status.",
+      "implementation": "1. Request package pricing from all three VRF manufacturers (Mitsubishi, Daikin, LG)\n2. Evaluate control system compatibility with each option\n3. Compare warranty terms and support services\n4. Select vendor based on best value proposition considering both cost and schedule",
       "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "WSHP prefabrication strategy",
-      "rationale": "Nine water-source heat pumps with similar configurations present an opportunity for prefabrication and standardized installation.",
-      "estimatedImpact": "Labor savings of 15-20% on WSHP installation, improved quality control, and reduced field coordination issues",
-      "implementation": "Develop prefabrication drawings for WSHP installations including piping assemblies, supports, and connection details",
+      "recommendation": "Standardize Fan Manufacturer Selection",
+      "rationale": "The project specifies multiple fan manufacturers (CaptiveAire and PennBarry) which may complicate maintenance and parts inventory. Greenheck offers a compatible alternative that could cover all fan requirements.",
+      "estimatedImpact": "Standardization could yield 5-7% procurement savings through volume purchasing and reduce long-term maintenance costs by approximately 15% through simplified parts inventory.",
+      "implementation": "1. Review Greenheck or alternative fan manufacturers that can supply all required fan types\n2. Compare pricing for full package versus mixed manufacturer approach\n3. Verify compatibility with design specifications\n4. Issue PO for complete fan package to maximize vendor discount",
       "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Review and verify specification coverage",
-      "rationale": "Several discrepancies noted in specification references, particularly for cooling tower, VRF, and pumps.",
-      "estimatedImpact": "Elimination of RFIs and potential change orders related to unclear specifications",
-      "implementation": "Conduct comprehensive specification review and submit consolidated RFI for all identified gaps",
-      "priority": "Medium"
-    },
-    {
-      "id": 5,
-      "recommendation": "Prioritized submittal schedule",
-      "rationale": "Complex project with multiple equipment types requires strategic approach to submittal process.",
-      "estimatedImpact": "Streamlined approval process for critical path items, reducing overall procurement timeline by 2-3 weeks",
-      "implementation": "Develop tiered submittal schedule with priority for cooling tower, DOAS, VRF, and controls integration",
+      "recommendation": "Pursue Package Discount for Trane Equipment",
+      "rationale": "Multiple Trane components are specified (WSHP-1 through WSHP-9, DOAS-1, RTU-4) which presents an opportunity for package pricing. Consolidating these purchases could provide significant leverage with the supplier.",
+      "estimatedImpact": "Potential package discount of 8-12% compared to individual purchases, simplified submittal process, and consistent warranty/support structure.",
+      "implementation": "1. Contact Trane Philadelphia (215-244-6900) for consolidated quotation\n2. Request enhanced warranty terms for package purchase\n3. Negotiate expedited submittal review for early release items\n4. Consider maintenance agreement as part of package",
       "priority": "High"
     },
     {
-      "id": 6,
-      "recommendation": "Alternative VRF manufacturer evaluation",
-      "rationale": "Mitsubishi VRF components have long lead times and relatively high cost compared to alternatives.",
-      "estimatedImpact": "Potential cost savings of 5-10% on VRF components and possible lead time reduction of 2-4 weeks",
-      "implementation": "Evaluate Daikin or LG as alternative VRF suppliers, focusing on controls compatibility and performance specifications",
+      "id": 5,
+      "recommendation": "Evaluate Bell & Gossett Pump Alternatives",
+      "rationale": "The specified Bell & Gossett pumps (E-80/E-1510) have medium lead times (10-20 weeks). Alternative suppliers like Taco offer comparable products at 2-5% lower cost.",
+      "estimatedImpact": "Potential cost savings of 2-5% on pump procurement, possible lead time reduction of 1-2 weeks, depending on current manufacturer inventory.",
+      "implementation": "1. Request quotes from Taco (via Harry Eklof & Associates) and Grundfos (via Flow-Tech Inc.)\n2. Verify pump curves and electrical characteristics match specifications\n3. Confirm compatibility with existing piping connections\n4. Select best value option considering both cost and availability",
       "priority": "Medium"
     }
   ]
