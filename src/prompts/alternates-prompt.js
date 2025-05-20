@@ -27,6 +27,7 @@ Your response must be a valid JSON object with the following structure - nothing
           "manufacturer": "",
           "model": "",
           "isBasisOfDesign": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
             "company": "",
@@ -39,6 +40,7 @@ Your response must be a valid JSON object with the following structure - nothing
           "manufacturer": "",
           "model": "",
           "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "",
@@ -54,11 +56,30 @@ Your response must be a valid JSON object with the following structure - nothing
 
 Instructions for populating this section:
 - Group suppliers by component type (e.g., "Chillers", "Air Handling Units")
-- For each component type, identify the basis of design (BoD) manufacturer and mark with "isBasisOfDesign": true
+- For each component type, identify the basis of design (BoD) manufacturer and mark with "isBasisOfDesign": true and "isListedAlternate": false
+- IMPORTANT: Look for "Listed Alternates" or "Acceptable Manufacturers" specifically mentioned in specifications and set "isListedAlternate": true for these manufacturers
+- A manufacturer can only be one of these: Basis of Design (isBasisOfDesign: true), Listed Alternate (isListedAlternate: true), or neither
 - Include alternate manufacturers and their models that could be substituted
 - Provide representative information when available (full company names, not just initials)
-- Include cost differences (e.g., "+$5,000", "-$2,500") between alternates and BoD
+- Express cost differences as percentages relative to the basis of design (e.g., "-5%", "+12%")
+  * Assume the Basis of Design typically comes with a premium due to its status
+  * Alternates may offer cost savings but might come with other project risks
+  * Use reasonable percentage ranges based on typical industry pricing differences
 - Add compatibility notes about installation or performance differences
+
+How to identify "Listed Alternates":
+- Look for explicit mentions of "Listed Alternates", "Listed Manufacturers", "Acceptable Alternates", or "Acceptable Manufacturers" in specifications
+- Manufacturers that appear in specification lists labeled as "Approved" or "Accepted" should be marked as Listed Alternates
+- Manufacturers that appear in the same section as the Basis of Design but are not explicitly identified as the Basis of Design should be considered Listed Alternates
+- Only mark manufacturers as Listed Alternates if they are specifically included in the project specifications
+
+IMPORTANT - Suggesting Additional Alternatives:
+- After identifying BoD and Listed Alternates from the specifications, use your knowledge to suggest 2-4 additional manufacturers for each component type that would be suitable alternatives
+- For these suggested manufacturers, set both "isBasisOfDesign" and "isListedAlternate" to false
+- Focus on well-known, reputable manufacturers that produce compatible equipment
+- Include manufacturer name, typical model series, and explain compatibility in the notes
+- In the compatibilityNotes for these suggested alternatives, begin with "SUGGESTED ALTERNATIVE: " and then describe why this manufacturer would be suitable
+- Be realistic about potential cost differences compared to the BoD, based on industry knowledge (up or down)
 
 When identifying manufacturer representatives:
 - Only include commercial manufacturer's representatives or entities that can sell equipment

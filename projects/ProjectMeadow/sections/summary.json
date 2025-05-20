@@ -1,17 +1,17 @@
 {
   "conclusion": {
-    "summary": "Project Meadow involves the installation of a comprehensive HVAC system with a focus on energy efficiency and building automation. The procurement strategy centers on high-quality equipment from specified manufacturers including York, Temtrol, Enviro-Tec, and Loren Cook. The project includes air handling units, fan coil units, ventilation fans, and associated control systems with BACnet compatibility for open protocol integration.",
+    "summary": "Project Meadow involves the procurement and installation of HVAC equipment for a 600,000 sq. ft. building located at 2323 North Field Street, Dallas, TX. The mechanical systems include air handling units, fan coil units, ventilation fans, and associated piping, ductwork, and controls. The project is currently in the 50% Construction Documents phase with bid submissions due May 13, 2025, and construction estimated to start soon after.",
     "keyFindings": [
-      "The project requires BTL certified BACnet-based building management system (BMS) with Tridium Niagara Framework N4 that must remain open and unlocked for owner access and maintenance",
-      "Careful coordination is required between multiple contractors including BMS, mechanical, and network communications contractors for successful integration of all systems",
-      "The project is targeting LEED platinum certification which impacts equipment selection and system monitoring requirements",
-      "Equipment procurement must account for precise specifications including MERV 13 filtration, stainless steel drain pans, and specific control requirements"
+      "The HVAC systems incorporate multiple air handling units (AHUs) from manufacturers like York and Temtrol, along with numerous fan coil units from Enviro-Tec",
+      "The project requires specialized controls and BMS integration using Tridium Niagara Framework N4, with all systems designed to be open protocol for complete interoperability",
+      "High-efficiency requirements are specified throughout, including premium efficiency motors, MERV-13 filtration, and compliance with ASHRAE 90.1 standards",
+      "The project appears to be pursuing LEED platinum certification, requiring specific mechanical systems to support energy efficiency and indoor air quality metrics"
     ],
     "highestPriorityActions": [
-      "Secure commitments from specified manufacturers (York, Enviro-Tec, Temtrol, Loren Cook) to meet delivery schedules for the project timeline targeting March 2025 completion",
-      "Coordinate with network communications contractor on OT network infrastructure requirements for BMS integration",
-      "Develop quality control plan to ensure all equipment meets specifications including energy efficiency ratings and BACnet compatibility",
-      "Establish procurement tracking system to monitor equipment delivery status against construction schedule milestones"
+      "Review all equipment submittals against specifications to ensure compliance with energy efficiency, performance, and interoperability requirements",
+      "Coordinate control system integration between HVAC equipment and the Building Management System (BMS) for seamless operation",
+      "Develop a comprehensive procurement schedule to align with the May 2025 timeline, accounting for current equipment lead times",
+      "Ensure proper coordination between mechanical, electrical, and control systems contractors to prevent installation conflicts"
     ]
   }
 }

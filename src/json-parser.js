@@ -300,14 +300,17 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
         const bodSupplier = item.suppliers.find(s => s.isBasisOfDesign === true) || item.suppliers[0];
         const basisOfDesign = bodSupplier ? `${bodSupplier.manufacturer} ${bodSupplier.model}` : '';
         
-        // Include both basis of design and alternate suppliers in the options
-        const alternateOptions = item.suppliers.map(s => ({
-          manufacturer: s.manufacturer || '',
-          model: s.model || '',
-          representative: s.representativeInfo?.company || 'N/A',
-          compatibilityNotes: s.compatibilityNotes || '',
-          isBasisOfDesign: s.isBasisOfDesign === true
-        }));
+        // Include ONLY non-basis of design suppliers in the alternateOptions
+        const alternateOptions = item.suppliers
+          .filter(s => !s.isBasisOfDesign) // Filter out the basis of design supplier
+          .map(s => ({
+            manufacturer: s.manufacturer || '',
+            model: s.model || '',
+            representative: s.representativeInfo?.company || 'N/A',
+            compatibilityNotes: s.compatibilityNotes || '',
+            isBasisOfDesign: false, // These are definitely not basis of design
+            isListedAlternate: s.isListedAlternate || false // Preserve the Listed Alternate flag
+          }));
         
         return {
           componentType,

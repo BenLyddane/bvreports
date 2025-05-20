@@ -129,6 +129,19 @@ async function generateReport(projectName, regenerateSections = false) {
       try {
         await fs.access(mergedJsonPath);
         console.log(`Using existing merged JSON: ${mergedJsonPath}`);
+        
+        // Even when using existing JSON, we should update the preparation date
+        // Read the JSON file
+        const existingJson = await fs.readJson(mergedJsonPath);
+        
+        // Update the preparation date to today
+        if (existingJson.preparerInformation) {
+          existingJson.preparerInformation.preparationDate = new Date().toISOString().split('T')[0];
+          
+          // Write back the updated JSON
+          await fs.writeJson(mergedJsonPath, existingJson, { spaces: 2 });
+          console.log(`Updated preparation date in existing JSON to today's date`);
+        }
       } catch (error) {
         // Merged JSON doesn't exist, create it
         console.log(`Merged JSON not found. Generating sections...`);

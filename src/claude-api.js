@@ -12,6 +12,9 @@ require('dotenv').config({ path: path.resolve(__dirname, '..', '.env.local') });
 // Get API key from environment variables
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_KEY;
 
+// Maximum number of retries for JSON fixing
+const MAX_RETRIES = 2;
+
 /**
  * Validate environment setup before using the API
  * @returns {boolean} True if environment is properly set up
@@ -85,6 +88,94 @@ async function processContextFiles(projectDir) {
     return contextFiles;
   } catch (error) {
     console.error(`Error processing context files in ${projectDir}:`, error);
+    throw error;
+  }
+}
+
+/**
+ * Fix malformed JSON using Claude
+ * @param {string} malformedJson - The malformed JSON to fix
+ * @param {number} retryCount - Current retry attempt
+ * @returns {Object} - Fixed and parsed JSON object
+ */
+async function fixJsonWithClaude(malformedJson, retryCount = 0) {
+  // Don't exceed the maximum number of retries
+  if (retryCount >= MAX_RETRIES) {
+    throw new Error(`Failed to fix JSON after ${MAX_RETRIES} attempts`);
+  }
+
+  try {
+    console.log(`Attempting to fix malformed JSON (retry ${retryCount + 1}/${MAX_RETRIES})...`);
+    
+    // Create a prompt that asks Claude to fix the JSON
+    const fixPrompt = `I have a JSON object that has syntax errors and won't parse. 
+Please fix the JSON syntax errors and return ONLY the fixed JSON with no additional text or explanations.
+Do not modify the structure or data, only fix syntax errors.
+
+Here's the malformed JSON:
+
+${malformedJson}`;
+
+    // Make request to Claude API
+    const response = await axios.post(
+      CLAUDE_API_URL,
+      {
+        model: CLAUDE_MODEL,
+        messages: [
+          {
+            role: 'user',
+            content: [
+              { type: 'text', text: fixPrompt }
+            ]
+          }
+        ],
+        max_tokens: 4000
+      },
+      {
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': ANTHROPIC_API_KEY,
+          'anthropic-version': '2023-06-01'
+        }
+      }
+    );
+
+    // Extract the fixed JSON from Claude's response
+    const fixedContent = response.data.content[0].text;
+    
+    // Look for JSON content between triple backticks
+    const jsonMatch = fixedContent.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
+    let fixedJson;
+    
+    if (jsonMatch && jsonMatch[1]) {
+      fixedJson = jsonMatch[1].trim();
+    } else {
+      // If no backticks, use the full response if it looks like JSON
+      const possibleJson = fixedContent.trim();
+      if (possibleJson.startsWith('{') && possibleJson.endsWith('}')) {
+        fixedJson = possibleJson;
+      } else {
+        // Try to find anything that looks like JSON
+        const roughJsonMatch = fixedContent.match(/(\{[\s\S]*\})/);
+        if (roughJsonMatch && roughJsonMatch[1]) {
+          fixedJson = roughJsonMatch[1].trim();
+        } else {
+          // If we still can't find valid JSON, try again with a more specific prompt
+          return fixJsonWithClaude(malformedJson, retryCount + 1);
+        }
+      }
+    }
+    
+    // Try to parse the fixed JSON
+    try {
+      return JSON.parse(fixedJson);
+    } catch (parseError) {
+      // If we still can't parse it, try again recursively with the improved but still broken JSON
+      console.log("Fixed JSON still has issues, trying again...");
+      return fixJsonWithClaude(fixedJson, retryCount + 1);
+    }
+  } catch (error) {
+    console.error('Error in fixJsonWithClaude:', error);
     throw error;
   }
 }
@@ -171,7 +262,7 @@ async function generateJsonSection(prompt, contextFiles) {
     }
     
     try {
-      // Parse the JSON content
+      // Try to parse the JSON content
       console.log("\nAttempting to parse JSON content...");
       return JSON.parse(jsonContent);
     } catch (jsonError) {
@@ -183,7 +274,16 @@ async function generateJsonSection(prompt, contextFiles) {
       fs.writeFileSync(debugFile, jsonContent);
       console.log(`Failed JSON content saved to ${debugFile}`);
       
-      throw new Error('Invalid JSON structure in Claude response');
+      // Try to fix the JSON using Claude
+      console.log("Attempting to fix JSON with Claude...");
+      try {
+        const fixedJson = await fixJsonWithClaude(jsonContent);
+        console.log("Successfully fixed JSON with Claude");
+        return fixedJson;
+      } catch (fixError) {
+        console.error("Failed to fix JSON with Claude:", fixError);
+        throw new Error('Invalid JSON structure in Claude response');
+      }
     }
   } catch (error) {
     console.error('Error calling Claude API:', error);

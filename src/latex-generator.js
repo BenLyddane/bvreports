@@ -150,6 +150,19 @@ function formatPreparerInfo(preparerData) {
 }
 
 /**
+ * Break camelCase or PascalCase text into separate words
+ * @param {string} text - The camelCase or PascalCase text to break
+ * @returns {string} - Text with spaces inserted at word boundaries
+ */
+function formatCamelCaseText(text) {
+  if (!text) return '';
+  
+  // Insert a space before each uppercase letter that follows a lowercase letter
+  // or a number and is not the first character
+  return text.replace(/([a-z0-9])([A-Z])/g, '$1 $2');
+}
+
+/**
  * Generate LaTeX code for an information section (customer or project info)
  * @param {string} title - Section title
  * @param {Array} infoData - Information data
@@ -176,7 +189,10 @@ function generateInfoSection(title, infoData, icon) {
   
   // Optimize row height for more compact layout
   latex += '\\renewcommand{\\arraystretch}{1.3}\n'; // Slightly reduced row height
-  latex += '\\begin{tabular}{p{0.25\\textwidth} p{0.65\\textwidth}}\n';
+  
+  // Use narrower first column and allow more space for values in second column
+  // Also force line breaking in labels with parbox to handle very long labels
+  latex += '\\begin{tabular}{p{0.15\\textwidth} p{0.75\\textwidth}}\n';
   
   // Store project URL for later use with BuildVision link
   let projectUrl = '';
@@ -195,13 +211,23 @@ function generateInfoSection(title, infoData, icon) {
   filteredInfoData.forEach(item => {
     // Special handling for project URL to show "BuildVision Project Link" but keep the full URL in the hyperlink
     if (item.label === 'Project URL' && item.value.startsWith('http')) {
-      latex += `\\textbf{${escapeLatex(item.label)}} & \\href{${item.value}}{BuildVision Project Link} \\\\\n`;
+      // Process label to split camelCase/PascalCase
+      const formattedLabelText = formatCamelCaseText(item.label);
+      const labelText = escapeLatex(formattedLabelText);
+      // Use parbox inside makecell for project URL too
+      latex += `\\textbf{\\makecell[l]{\\parbox[t]{0.14\\textwidth}{${labelText}}}} & \\href{${item.value}}{BuildVision Project Link} \\\\\n`;
     }
     // Regular handling for other fields
     else {
+      // Process label to split camelCase/PascalCase and wrap long words
+      const formattedLabelText = formatCamelCaseText(item.label);
+      const labelText = escapeLatex(formattedLabelText);
+      // Use parbox inside makecell to force wrapping of long labels
+      const formattedLabel = `\\textbf{\\makecell[l]{\\parbox[t]{0.14\\textwidth}{${labelText}}}}`;
+      
       // Use line breaks for long values
       const value = escapeLatex(item.value).replace(/https?:\/\/[^\s]+/g, '\\url{$&}');
-      latex += `\\textbf{${escapeLatex(item.label)}} & ${value} \\\\\n`;
+      latex += `${formattedLabel} & ${value} \\\\\n`;
     }
   });
   
@@ -360,16 +386,20 @@ function generateEquipmentTable(equipmentTable) {
       latex += `p{0.15\\textwidth}|`; // Manufacturer
       latex += `p{0.15\\textwidth}|`; // Model
       latex += `p{0.15\\textwidth}|`; // Representative
-      latex += `p{0.45\\textwidth}|`; // Compatibility Notes
+      latex += `p{0.15\\textwidth}|`; // AI Estimated Cost Difference
+      latex += `p{0.30\\textwidth}|`; // Compatibility Notes
       latex += `p{0.10\\textwidth}|`; // Basis of Design
       latex += `}\n`;
+      
+      // Add disclaimer for AI cost estimates
+      latex += `\\multicolumn{6}{p{\\textwidth}}{\\small\\textit{Note: Cost differences are AI-estimated percentages relative to Basis of Design and are not based on actual project data. Always obtain accurate quotes from vendors directly via \\href{https://buildvision.io}{buildvision.io}.}}\\\\[5pt]\n`;
       
       // Define header that repeats on each page
       latex += `\\hline\n`;
       latex += `\\rowcolor{${headerBg}}\n`;
       
       // Add headers with proper formatting and background color
-      const altHeaders = ['Manufacturer', 'Model', 'Representative', 'Compatibility Notes', 'BoD'];
+      const altHeaders = ['Manufacturer', 'Model', 'Representative', 'AI Est. Cost Diff.', 'Compatibility Notes', 'BoD'];
       latex += altHeaders.map(header => {
         // Use makecell to allow line breaks in headers
         return `\\textbf{\\makecell{${escapeLatex(header)}}}`;
@@ -379,7 +409,7 @@ function generateEquipmentTable(equipmentTable) {
       
       // Define footer that repeats on each page (optional)
       latex += '\\hline\n';
-      latex += `\\multicolumn{5}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
+      latex += `\\multicolumn{6}{|r|}{\\textit{Continued on next page...}} \\\\\n`;
       latex += '\\hline\n';
       latex += '\\endfoot\n\n';
       
@@ -400,21 +430,46 @@ function generateEquipmentTable(equipmentTable) {
         };
       }
       
-      // Combine all suppliers (basis of design and alternates) into one array for display
+      // Combine basis of design and alternates into one array for display
       const allSuppliers = [];
       
-      // Add the basis of design supplier if found in the old format
-      if (bodSupplier) {
-        allSuppliers.push(bodSupplier);
-      }
-      
-      // Add all alternate options
-      item.alternateOptions.forEach(alt => {
-        allSuppliers.push({
-          ...alt,
-          isBasisOfDesign: false
+      // For the new format (where we have filtered alternateOptions already)
+      if (item.suppliers && item.suppliers.length > 0) {
+        // First, add the basis of design supplier (from the item.suppliers array)
+        const bodSupplier = item.suppliers.find(s => s.isBasisOfDesign === true);
+        if (bodSupplier) {
+          allSuppliers.push({
+            manufacturer: bodSupplier.manufacturer || '',
+            model: bodSupplier.model || '',
+            representative: bodSupplier.representativeInfo?.company || 'N/A',
+            compatibilityNotes: bodSupplier.compatibilityNotes || 'Basis of Design',
+            isBasisOfDesign: true
+          });
+        }
+        
+        // Then add the alternate options (already filtered in json-parser.js)
+        item.alternateOptions.forEach(alt => {
+          allSuppliers.push({
+            ...alt,
+            isBasisOfDesign: false
+          });
         });
-      });
+      } 
+      // For the old format
+      else {
+        // Add the basis of design supplier if found in the old format
+        if (bodSupplier) {
+          allSuppliers.push(bodSupplier);
+        }
+        
+        // Add all alternate options from the old format
+        item.alternateOptions.forEach(alt => {
+          allSuppliers.push({
+            ...alt,
+            isBasisOfDesign: false
+          });
+        });
+      }
       
       // Sort the suppliers to make sure BoD appears first
       allSuppliers.sort((a, b) => {
@@ -437,14 +492,22 @@ function generateEquipmentTable(equipmentTable) {
           supplier.manufacturer,
           supplier.model,
           supplier.representative,
+          supplier.costDifference || '',
           supplier.compatibilityNotes
         ];
         
         // Escape all cells except the last one (BoD indicator)
         const escapedCells = row.map(cell => escapeLatex(cell)).join(' & ');
         
-        // Add the BoD cell separately with special formatting if it's the basis of design
-        const formattedBodCell = supplier.isBasisOfDesign ? '\\textbf{Yes}' : 'No';
+        // Add the BoD cell separately with special formatting based on supplier type
+        let formattedBodCell;
+        if (supplier.isBasisOfDesign) {
+          formattedBodCell = '\\textbf{Yes}';
+        } else if (supplier.isListedAlternate) {
+          formattedBodCell = 'Listed';
+        } else {
+          formattedBodCell = 'No';
+        }
         
         latex += escapedCells + ` & ${formattedBodCell}` + ' \\\\\n';
         latex += '\\hline\n';

@@ -98,7 +98,13 @@ async function mergeJsonSections(projectName) {
       }
       
       if (projectDetailsJson.preparerInformation) {
+        // Merge preparerInformation but preserve today's date
+        const todaysDate = new Date().toISOString().split('T')[0]; // Today's date in YYYY-MM-DD format
+        
         mergedJson.preparerInformation = projectDetailsJson.preparerInformation;
+        
+        // Always override the date with today's date
+        mergedJson.preparerInformation.preparationDate = todaysDate;
       }
     }
     
