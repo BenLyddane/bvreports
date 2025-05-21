@@ -1,0 +1,460 @@
+{
+  "reportTitle": "BuildVision Project Report for Gervase Hall Interior Demolition",
+  "customerInformation": {
+    "customerName": "Georgetown University",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "2-J06-12",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Gervase Hall Interior Demolition",
+    "location": "3779 Library Walk, Washington, DC 20057",
+    "startDate": "4/28/25",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Interior demolition work",
+    "projectUrl": "",
+    "additionalFields": {}
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-05-21"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Electric Resistance Terminal Unit Heaters",
+      "notes": "1. Scheduled performance based on high speed fan operation.\n2. Provide unit with integral thermostat.\n3. Provide unit with integral disconnect from factory.",
+      "items": [
+        {
+          "equipmentTag": "PUH-1",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "GROUND FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-2",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "GROUND FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-3",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "FIRST FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-4",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "FIRST FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-5",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "SECOND FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-6",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "SECOND FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-7",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "THIRD FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-8",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "THIRD FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-9",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "FOURTH FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-10",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "FOURTH FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Electric Propeller Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Markel",
+          "model": "2900 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compatible with specified requirements for propeller-type electric unit heaters"
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "UH Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Compatible with specified requirements for propeller-type electric unit heaters"
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "LUH Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Industry-standard unit heater with similar specifications and performance to the BoD"
+        },
+        {
+          "manufacturer": "Stelpro",
+          "model": "SHU Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option that meets performance requirements but may have shorter warranty period"
+        },
+        {
+          "manufacturer": "TPI",
+          "model": "5100 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented alternative that meets basic performance criteria but may have fewer features"
+        }
+      ]
+    },
+    {
+      "componentType": "Lighting Controls",
+      "suppliers": [
+        {
+          "manufacturer": "Hubbell",
+          "model": "NX Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Acuity Brands",
+          "model": "nLight ARP Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Comparable non-networked digital lighting controls system"
+        },
+        {
+          "manufacturer": "Wattstopper",
+          "model": "DLM Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Comparable non-networked digital lighting controls system"
+        },
+        {
+          "manufacturer": "Lutron",
+          "model": "Energi Savr Node Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+15%",
+          "compatibilityNotes": "Comparable non-networked digital lighting controls system"
+        },
+        {
+          "manufacturer": "Eaton Controls",
+          "model": "Greengate Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Comparable non-networked digital lighting controls system"
+        },
+        {
+          "manufacturer": "Leviton",
+          "model": "Lumina RF",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Wireless controls option that provides similar functionality with easier installation"
+        },
+        {
+          "manufacturer": "Douglas Lighting Controls",
+          "model": "Dialog System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with comparable functionality"
+        }
+      ]
+    },
+    {
+      "componentType": "Fire Alarm System",
+      "suppliers": [
+        {
+          "manufacturer": "Siemens",
+          "model": "",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Existing system manufacturer"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Bulk Purchase of Unit Heaters",
+      "rationale": "The project requires 10 identical QMARK MUH102 electric propeller unit heaters (PUH-1 through PUH-10) across different floors. Bulk purchasing these identical units would likely result in volume discounts from the manufacturer or distributor.",
+      "estimatedImpact": "Potential cost savings of 10-15% on unit heater procurement, representing approximately $1,500-$2,250 in savings based on typical pricing for these units (approximately $1,500-2,000 each).",
+      "implementation": "1. Contact QMARK or authorized distributors to request volume pricing for 10 identical MUH102 units\n2. Specify delivery schedule aligned with construction phases if needed\n3. Ensure all required options (integral thermostat and disconnect) are included in the quote\n4. Compare quotes from multiple suppliers to leverage competitive pricing",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Standardize Electrical Components for Maintenance Efficiency",
+      "rationale": "The specifications call for consistent electrical components throughout the project. Standardizing on a single manufacturer for devices like switches, receptacles, and lighting controls would simplify procurement, installation, and future maintenance while potentially providing volume discounts.",
+      "estimatedImpact": "Reduced long-term maintenance costs by approximately 8-10% through simplified spare parts inventory and maintenance procedures. Potential upfront savings of 5-8% on electrical components through volume purchasing.",
+      "implementation": "1. Select a preferred manufacturer from the acceptable manufacturers listed (Pass & Seymour, Leviton, Hubbell/Bryant, or Eaton/Cooper)\n2. Standardize all wiring devices from a single product line\n3. Negotiate project pricing based on total quantities required\n4. Create a comprehensive parts list for future maintenance reference",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Evaluate Alternative Unit Heater Manufacturers",
+      "rationale": "While QMARK MUH102 is specified, the specifications allow for \"equal\" products. There may be comparable units from other manufacturers that offer better pricing, warranty terms, or energy efficiency while meeting the required specifications.",
+      "estimatedImpact": "Potential cost savings of 5-15% on heater procurement, plus possible energy efficiency improvements that could reduce operating costs over the equipment lifecycle.",
+      "implementation": "1. Identify alternative manufacturers offering comparable unit heaters meeting the specified requirements\n2. Request quotes and technical specifications from each manufacturer\n3. Compare pricing, warranty terms, energy efficiency, and delivery timelines\n4. Verify compliance with project specifications before making final selection\n5. Submit as substitution request if not listed as an acceptable manufacturer",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Leverage Fire Alarm System Compatibility Requirements",
+      "rationale": "The specifications state that the existing fire alarm panel is manufactured by Siemens and that new components must match existing equipment. This presents an opportunity to negotiate favorable pricing by emphasizing the lack of competition for these components.",
+      "estimatedImpact": "Potential 8-12% savings on fire alarm components by negotiating based on the required brand compatibility, while ensuring system reliability through manufacturer-certified components.",
+      "implementation": "1. Document the existing Siemens fire alarm panel model and compatible components needed\n2. Contact Siemens directly and multiple authorized Siemens distributors for competitive quotes\n3. Negotiate project pricing based on the specification requirement for matching components\n4. Consider service/maintenance package inclusion that could provide additional value",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Negotiate Package Pricing for Lighting Control System",
+      "rationale": "The specifications call for a complete, non-networked digital lighting controls system with several components that must work together. Purchasing the entire system from a single manufacturer as a package rather than as individual components could yield better pricing and ensure compatibility.",
+      "estimatedImpact": "Estimated 7-12% savings on the lighting control system through package pricing versus individual component procurement. Additional savings in reduced installation time due to confirmed component compatibility.",
+      "implementation": "1. Identify required components for the complete lighting control system based on drawings\n2. Request system package quotes from the basis-of-design manufacturer (Hubbell NX Series) and acceptable alternatives\n3. Compare total installed cost including programming requirements\n4. Verify that factory programming services are included in pricing\n5. Confirm warranty terms cover the complete system rather than individual components",
+      "priority": "High"
+    }
+  ],
+  "conclusion": {
+    "summary": "The Gervase Hall Interior Demolition project requires procurement of multiple electrical and mechanical systems, with a particular focus on electric resistance terminal unit heaters. The project specifications detail requirements for 10 identical QMARK MUH102 propeller-type electric unit heaters to be installed across five floors. The procurement strategy should focus on bulk purchasing these identical units, evaluating cost-effective alternatives that meet the specified performance criteria, and ensuring compatibility with existing systems, particularly for the fire alarm components which must match the existing Siemens equipment.",
+    "keyFindings": [
+      "All 10 electric propeller unit heaters (PUH-1 through PUH-10) are identical QMARK MUH102 models with the same specifications, creating an opportunity for volume purchasing to achieve discounts of 10-15%",
+      "Several viable alternative manufacturers for unit heaters could provide cost savings of 5-12% while meeting performance requirements",
+      "The lighting control system offers opportunities for package pricing versus individual component procurement, potentially saving 7-12% on these components",
+      "Fire alarm system components must be compatible with the existing Siemens panel, limiting supplier options but creating negotiation leverage"
+    ],
+    "highestPriorityActions": [
+      "Initiate bulk purchase negotiations for all 10 QMARK MUH102 electric unit heaters to maximize volume discounts",
+      "Evaluate alternative unit heater manufacturers (Markel, Berko, Chromalox, Stelpro, TPI) for potential cost savings while ensuring compliance with performance specifications",
+      "Request system package quotes for the complete lighting control system from Hubbell (basis-of-design) and acceptable alternatives to compare total installed costs",
+      "Verify lead times for all major equipment early in the procurement process to avoid construction delays, especially for the unit heaters which are required for all floors"
+    ]
+  }
+}

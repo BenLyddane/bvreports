@@ -1,0 +1,170 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Electric Resistance Terminal Unit Heaters",
+      "notes": "1. Scheduled performance based on high speed fan operation.\n2. Provide unit with integral thermostat.\n3. Provide unit with integral disconnect from factory.",
+      "items": [
+        {
+          "equipmentTag": "PUH-1",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "GROUND FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-2",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "GROUND FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-3",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "FIRST FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-4",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "FIRST FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-5",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "SECOND FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-6",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "SECOND FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-7",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "THIRD FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-8",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "THIRD FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-9",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "FOURTH FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        },
+        {
+          "equipmentTag": "PUH-10",
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "specifications": {
+            "area": "FOURTH FLOOR",
+            "type": "PROP",
+            "cfm": "650",
+            "air_temp_delta": "49°F",
+            "throw": "18 FT",
+            "kw": "7.5",
+            "rpm": "1,600",
+            "motor_hp": "1/30",
+            "voltage": "208V-3PH"
+          }
+        }
+      ]
+    }
+  ]
+}
