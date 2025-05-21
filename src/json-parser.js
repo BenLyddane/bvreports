@@ -481,147 +481,43 @@ function extractSections(jsonData) {
   }
   
   // Add BuildVision Recommendations section if present
-  if (jsonData.buildVisionRecommendations) {
+  if (jsonData.buildVisionRecommendations && jsonData.buildVisionRecommendations.length > 0) {
     const recommendationsSection = {
       title: 'BuildVision Recommendations',
       content: '',
       subsections: []
     };
     
-    // Check if we have the new nested structure
-    if (typeof jsonData.buildVisionRecommendations === 'object' && 
-        !Array.isArray(jsonData.buildVisionRecommendations)) {
+    jsonData.buildVisionRecommendations.forEach(rec => {
+      const subsection = {
+        title: `${rec.id}. ${escapeLatex(rec.recommendation)}`,
+        content: ''
+      };
       
-      // Process general recommendations first
-      if (jsonData.buildVisionRecommendations.generalRecommendations && 
-          jsonData.buildVisionRecommendations.generalRecommendations.length > 0) {
-        
-        const generalSubsection = {
-          title: 'General Recommendations',
-          content: ''
-        };
-        
-        // Process each general recommendation
-        jsonData.buildVisionRecommendations.generalRecommendations.forEach(rec => {
-          generalSubsection.content += `\\textbf{${rec.id}. ${escapeLatex(rec.recommendation)}}\\par\\par\n`;
-          
-          // Add rationale
-          if (rec.rationale) {
-            generalSubsection.content += `\\textbf{Rationale:} ${escapeLatex(rec.rationale)}\\par\\par\n`;
-          }
-          
-          // Add estimated impact
-          if (rec.estimatedImpact) {
-            generalSubsection.content += `\\textbf{Estimated Impact:} ${escapeLatex(rec.estimatedImpact)}\\par\\par\n`;
-          }
-          
-          // Add implementation
-          if (rec.implementation) {
-            generalSubsection.content += `\\textbf{Implementation:} ${escapeLatex(rec.implementation)}\\par\\par\n`;
-          }
-          
-          // Add priority
-          if (rec.priority) {
-            generalSubsection.content += `\\textbf{Priority:} ${escapeLatex(rec.priority)}\\par\\par\n`;
-          }
-          
-          // Add separator between recommendations
-          generalSubsection.content += `\\rule{0.8\\textwidth}{0.5pt}\\par\\par\n`;
-        });
-        
-        // Remove the last separator
-        generalSubsection.content = generalSubsection.content.replace(/\\rule\{0\.8\\textwidth\}\{0\.5pt\}\\par\\par\n$/, '');
-        
-        recommendationsSection.subsections.push(generalSubsection);
+      // Add rationale
+      if (rec.rationale) {
+        subsection.content += `\\textbf{Rationale:} ${escapeLatex(rec.rationale)}\\par\\par\n`;
       }
       
-      // Process equipment-specific recommendations
-      if (jsonData.buildVisionRecommendations.equipmentSpecificRecommendations && 
-          jsonData.buildVisionRecommendations.equipmentSpecificRecommendations.length > 0) {
-        
-        // For each equipment type
-        jsonData.buildVisionRecommendations.equipmentSpecificRecommendations.forEach(equipmentRec => {
-          if (equipmentRec.recommendations && equipmentRec.recommendations.length > 0) {
-            const equipmentSubsection = {
-              title: `${escapeLatex(equipmentRec.equipmentType)} Recommendations`,
-              content: ''
-            };
-            
-            // Process each recommendation for this equipment type
-            equipmentRec.recommendations.forEach(rec => {
-              equipmentSubsection.content += `\\textbf{${rec.id}. ${escapeLatex(rec.recommendation)}}\\par\\par\n`;
-              
-              // Add rationale
-              if (rec.rationale) {
-                equipmentSubsection.content += `\\textbf{Rationale:} ${escapeLatex(rec.rationale)}\\par\\par\n`;
-              }
-              
-              // Add estimated impact
-              if (rec.estimatedImpact) {
-                equipmentSubsection.content += `\\textbf{Estimated Impact:} ${escapeLatex(rec.estimatedImpact)}\\par\\par\n`;
-              }
-              
-              // Add implementation
-              if (rec.implementation) {
-                equipmentSubsection.content += `\\textbf{Implementation:} ${escapeLatex(rec.implementation)}\\par\\par\n`;
-              }
-              
-              // Add priority
-              if (rec.priority) {
-                equipmentSubsection.content += `\\textbf{Priority:} ${escapeLatex(rec.priority)}\\par\\par\n`;
-              }
-              
-              // Add separator between recommendations
-              equipmentSubsection.content += `\\rule{0.8\\textwidth}{0.5pt}\\par\\par\n`;
-            });
-            
-            // Remove the last separator
-            equipmentSubsection.content = equipmentSubsection.content.replace(/\\rule\{0\.8\\textwidth\}\{0\.5pt\}\\par\\par\n$/, '');
-            
-            recommendationsSection.subsections.push(equipmentSubsection);
-          }
-        });
+      // Add estimated impact
+      if (rec.estimatedImpact) {
+        subsection.content += `\\textbf{Estimated Impact:} ${escapeLatex(rec.estimatedImpact)}\\par\\par\n`;
       }
-    } 
-    // Backward compatibility with old format (array of recommendations)
-    else if (Array.isArray(jsonData.buildVisionRecommendations) && 
-             jsonData.buildVisionRecommendations.length > 0) {
       
-      // Create a subsection for each recommendation
-      jsonData.buildVisionRecommendations.forEach(rec => {
-        const subsection = {
-          title: `${rec.id}. ${escapeLatex(rec.recommendation)}`,
-          content: ''
-        };
-        
-        // Add rationale
-        if (rec.rationale) {
-          subsection.content += `\\textbf{Rationale:} ${escapeLatex(rec.rationale)}\\par\\par\n`;
-        }
-        
-        // Add estimated impact
-        if (rec.estimatedImpact) {
-          subsection.content += `\\textbf{Estimated Impact:} ${escapeLatex(rec.estimatedImpact)}\\par\\par\n`;
-        }
-        
-        // Add implementation
-        if (rec.implementation) {
-          subsection.content += `\\textbf{Implementation:} ${escapeLatex(rec.implementation)}\\par\\par\n`;
-        }
-        
-        // Add priority
-        if (rec.priority) {
-          subsection.content += `\\textbf{Priority:} ${escapeLatex(rec.priority)}\\par\n`;
-        }
-        
-        recommendationsSection.subsections.push(subsection);
-      });
-    }
+      // Add implementation
+      if (rec.implementation) {
+        subsection.content += `\\textbf{Implementation:} ${escapeLatex(rec.implementation)}\\par\\par\n`;
+      }
+      
+      // Add priority
+      if (rec.priority) {
+        subsection.content += `\\textbf{Priority:} ${escapeLatex(rec.priority)}\\par\n`;
+      }
+      
+      recommendationsSection.subsections.push(subsection);
+    });
     
-    // Only add the section if we have subsections
-    if (recommendationsSection.subsections.length > 0) {
-      sections.push(recommendationsSection);
-    }
+    sections.push(recommendationsSection);
   }
   
   // Add Conclusion section if present

@@ -55,24 +55,15 @@ async function generateSection(projectName, sectionType, preserveExistingData = 
         throw new Error(`Invalid section type: ${sectionType}`);
     }
     
-    // For the summary or recommendations section, include the previously generated sections as context
+    // For the summary section, include the previously generated sections as context
     let sectionData;
-    if (sectionType === 'summary' || sectionType === 'recommendations') {
+    if (sectionType === 'summary') {
       // Get paths to all section files
       const sectionPaths = getSectionPaths(projectName);
       const additionalContext = [];
       
-      // Determine which previous sections to include based on section type
-      let previousSections;
-      if (sectionType === 'summary') {
-        // For summary, include all previous sections
-        previousSections = ['projectDetails', 'equipment', 'alternates', 'recommendations'];
-      } else if (sectionType === 'recommendations') {
-        // For recommendations, primarily need equipment data 
-        previousSections = ['equipment', 'projectDetails'];
-      }
-      
       // For each previous section, check if it exists and add to context
+      const previousSections = ['projectDetails', 'equipment', 'alternates', 'recommendations'];
       for (const section of previousSections) {
         try {
           // Check if the section file exists
@@ -84,13 +75,13 @@ async function generateSection(projectName, sectionType, preserveExistingData = 
             name: `${section}.json`,
             content: JSON.stringify(sectionContent, null, 2)
           });
-          console.log(`Added ${section} section to ${sectionType} context`);
+          console.log(`Added ${section} section to summary context`);
         } catch (error) {
           console.log(`Section ${section} not found or error accessing it: ${error.message}`);
         }
       }
       
-      // Generate the section with the additional context
+      // Generate the summary section with the additional context
       console.log(`Generating ${sectionType} section for project: ${projectName} with ${additionalContext.length} previous sections as context`);
       
       // Process the regular context files
@@ -101,7 +92,8 @@ async function generateSection(projectName, sectionType, preserveExistingData = 
       const combinedContext = [...regularContext, ...additionalContext];
       
       // Generate the section using Claude API with the combined context
-      sectionData = await generateSectionJson(contextDir, sectionType, prompt, combinedContext);
+      const { generateJsonSection } = require('./claude-api');
+      sectionData = await generateJsonSection(prompt, combinedContext);
     } else {
       // Generate regular section using Claude API
       console.log(`Generating ${sectionType} section for project: ${projectName}`);

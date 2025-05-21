@@ -25,6 +25,19 @@ async function compilePdf(latexCode, outputPath) {
     const tempFileName = path.basename(outputPath, '.pdf');
     const tempFilePath = path.join(CONFIG.latex.tempDir, `${tempFileName}.tex`);
     
+    // Create a fonts directory in the temp directory
+    const tempFontsDir = path.join(CONFIG.latex.tempDir, 'fonts', 'inter', 'Inter Desktop');
+    await fs.ensureDir(tempFontsDir);
+    
+    // Copy the font files to the temp directory
+    const fontSourceDir = path.join(__dirname, '..', 'fonts', 'inter', 'Inter Desktop');
+    const fontFiles = await fs.readdir(fontSourceDir);
+    for (const fontFile of fontFiles) {
+      const sourcePath = path.join(fontSourceDir, fontFile);
+      const destPath = path.join(tempFontsDir, fontFile);
+      await fs.copy(sourcePath, destPath);
+    }
+    
     // Write LaTeX code to the temporary file
     await fs.writeFile(tempFilePath, latexCode, 'utf8');
     
@@ -80,20 +93,40 @@ function runLatexCompiler(filePath) {
  */
 function runCompilerProcess(compiler, args) {
   return new Promise((resolve, reject) => {
-    const process = spawn(compiler, args);
+    // Set up environment variables for the compiler process
+    const env = { ...process.env };
+    
+    // Add the fonts directory to the TEXINPUTS environment variable
+    // The trailing '//' tells TeX to search subdirectories recursively
+    const fontsDir = path.join(__dirname, '..', 'fonts');
+    
+    // TEXINPUTS format: path1:path2:path3:
+    // The trailing colon is important as it tells TeX to also search in the default locations
+    if (process.platform === 'win32') {
+      // Windows uses semicolons as path separators
+      env.TEXINPUTS = `${fontsDir}//;${env.TEXINPUTS || ''}`;
+    } else {
+      // Unix-like systems use colons as path separators
+      env.TEXINPUTS = `${fontsDir}//:${env.TEXINPUTS || ''}`;
+    }
+    
+    console.log(`Setting TEXINPUTS to: ${env.TEXINPUTS}`);
+    
+    // Spawn the process with the modified environment
+    const compilerProcess = spawn(compiler, args, { env });
     
     let stdout = '';
     let stderr = '';
     
-    process.stdout.on('data', (data) => {
+    compilerProcess.stdout.on('data', (data) => {
       stdout += data.toString();
     });
     
-    process.stderr.on('data', (data) => {
+    compilerProcess.stderr.on('data', (data) => {
       stderr += data.toString();
     });
     
-    process.on('close', (code) => {
+    compilerProcess.on('close', (code) => {
       if (code === 0) {
         resolve();
       } else {
@@ -103,7 +136,7 @@ function runCompilerProcess(compiler, args) {
       }
     });
     
-    process.on('error', (err) => {
+    compilerProcess.on('error', (err) => {
       reject(new Error(`Failed to start LaTeX compiler: ${err.message}`));
     });
   });
