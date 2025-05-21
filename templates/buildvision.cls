@@ -60,9 +60,9 @@
 \definecolor{bvTextSecondary}{HTML}{4F4F55}
 \definecolor{bvTextTertiary}{HTML}{8C8C92}
 
-% Set up fonts
+% Set up fonts using the original approach but with absolute paths
 \setmainfont{Inter}[
-  Path = /Users/benjaminlyddane/Documents/Programming/BVReports/fonts/inter/Inter Desktop/,
+  Path = /Users/mackenzie-buildvision/Documents/Programming/bvreports/fonts/inter/Inter Desktop/,
   Extension = .otf,
   UprightFont = *-Regular,
   BoldFont = *-Bold,
@@ -72,7 +72,7 @@
 ]
 
 \newfontfamily\interlight{Inter}[
-  Path = /Users/benjaminlyddane/Documents/Programming/BVReports/fonts/inter/Inter Desktop/,
+  Path = /Users/mackenzie-buildvision/Documents/Programming/bvreports/fonts/inter/Inter Desktop/,
   Extension = .otf,
   UprightFont = *-Light,
   BoldFont = *-Medium,
@@ -82,7 +82,7 @@
 ]
 
 \newfontfamily\intermedium{Inter}[
-  Path = /Users/benjaminlyddane/Documents/Programming/BVReports/fonts/inter/Inter Desktop/,
+  Path = /Users/mackenzie-buildvision/Documents/Programming/bvreports/fonts/inter/Inter Desktop/,
   Extension = .otf,
   UprightFont = *-Medium,
   BoldFont = *-SemiBold,
@@ -92,7 +92,7 @@
 ]
 
 \newfontfamily\intersemibold{Inter}[
-  Path = /Users/benjaminlyddane/Documents/Programming/BVReports/fonts/inter/Inter Desktop/,
+  Path = /Users/mackenzie-buildvision/Documents/Programming/bvreports/fonts/inter/Inter Desktop/,
   Extension = .otf,
   UprightFont = *-SemiBold,
   BoldFont = *-Bold,
@@ -102,7 +102,7 @@
 ]
 
 \newfontfamily\interbold{Inter}[
-  Path = /Users/benjaminlyddane/Documents/Programming/BVReports/fonts/inter/Inter Desktop/,
+  Path = /Users/mackenzie-buildvision/Documents/Programming/bvreports/fonts/inter/Inter Desktop/,
   Extension = .otf,
   UprightFont = *-Bold,
   BoldFont = *-ExtraBold,
