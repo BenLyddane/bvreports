@@ -52,12 +52,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-performance ERV with advanced controls. Good compatibility with building management systems and excellent energy recovery efficiency."
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency energy recovery units with similar performance characteristics. Compatible with building automation systems via BACnet."
         },
         {
-          "manufacturer": "Swegon",
-          "model": "Gold Series",
+          "manufacturer": "Semco",
+          "model": "FV Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -65,8 +65,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium European ERV with integrated controls and high efficiency. Higher cost but excellent performance and reliability."
+          "costDifference": "+3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium energy recovery solution with potentially higher effectiveness ratings. Verify physical dimensions and connection points."
         }
       ]
     },
@@ -96,7 +96,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-3%",
+          "costDifference": "-10%",
           "compatibilityNotes": "Equivalent performance specifications. Verify physical dimensions, connection locations, and refrigerant piping requirements."
         },
         {
@@ -109,7 +109,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
+          "costDifference": "-5%",
           "compatibilityNotes": "Verify controls compatibility with BMS and refrigerant piping requirements."
         },
         {
@@ -122,8 +122,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Competitive VRF system with good performance. Would require reconfiguration of refrigerant piping and controls integration."
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Well-established VRF manufacturer with water-source heat pump options. Compatible with the project's water-source system requirements."
         },
         {
           "manufacturer": "Samsung",
@@ -135,8 +135,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective VRF solution but would require complete redesign of system layout and controls integration."
+          "costDifference": "-12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Water-source VRF system with BACnet capability. May offer cost savings but verify service network availability in the region."
         }
       ]
     },
@@ -166,7 +166,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
+          "costDifference": "-7%",
           "compatibilityNotes": "Equivalent performance specifications. Verify physical dimensions, connection locations, and refrigerant piping requirements."
         },
         {
@@ -193,11 +193,11 @@
             "contact": ""
           },
           "costDifference": "-8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Efficient water-source VRF system that could provide cost savings but would require redesign of piping and controls."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with geothermal applications and offers similar BACnet integration capabilities. Verify service support availability in the region."
         },
         {
-          "manufacturer": "Samsung",
-          "model": "DVM Water Series",
+          "manufacturer": "Climaveneta",
+          "model": "W3000 Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -205,8 +205,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-12%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented water-source VRF system. Significant cost savings but potentially fewer features and less support infrastructure."
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: European manufacturer with high-quality water-source VRF systems. Premium brand with excellent performance but verify U.S. support infrastructure."
         }
       ]
     },
@@ -236,7 +236,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-4%",
+          "costDifference": "-5%",
           "compatibilityNotes": "Verify compatibility with VRF system and refrigerant piping requirements."
         },
         {
@@ -262,8 +262,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-6%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with LG Multi V systems only. Would require complete system change to use this equipment."
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with LG Multi V Water systems. Must be used as part of complete LG system."
         },
         {
           "manufacturer": "Samsung",
@@ -276,7 +276,7 @@
             "contact": ""
           },
           "costDifference": "-9%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective branch selector units but only compatible with Samsung DVM systems."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Mode control units for Samsung DVM S systems. Cost-effective but requires full Samsung system implementation."
         }
       ]
     },
@@ -306,7 +306,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
+          "costDifference": "-5%",
           "compatibilityNotes": "Equivalent performance. Verify physical dimensions and connection locations."
         },
         {
@@ -319,7 +319,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
+          "costDifference": "+3%",
           "compatibilityNotes": "Verify ECM motor compatibility and BACnet connectivity."
         },
         {
@@ -332,7 +332,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-3%",
+          "costDifference": "-2%",
           "compatibilityNotes": "Equivalent performance. Verify physical dimensions."
         },
         {
@@ -345,8 +345,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency pumps with advanced control features. Premium price but excellent energy performance."
+          "costDifference": "+5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium smart pumps with integrated controls and excellent efficiency. Higher initial cost but potentially lower operating costs."
         }
       ]
     },
@@ -389,7 +389,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
+          "costDifference": "+5%",
           "compatibilityNotes": "Verify VFD compatibility and BACnet connectivity."
         },
         {
@@ -402,12 +402,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-1%",
+          "costDifference": "-2%",
           "compatibilityNotes": "Verify physical dimensions and impeller size."
         },
         {
-          "manufacturer": "Paco",
-          "model": "KP Series",
+          "manufacturer": "Patterson",
+          "model": "HVAC Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -415,21 +415,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with similar performance specifications. May require some modifications to piping connections."
-        },
-        {
-          "manufacturer": "Flowserve",
-          "model": "Durco Mark 3",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+4%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium quality pump with excellent durability and efficiency. Higher initial cost but potential lifecycle cost benefits."
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable centrifugal pumps with good efficiency ratings. May offer competitive pricing."
         }
       ]
     },
@@ -459,7 +446,7 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-15%",
+          "costDifference": "-10%",
           "compatibilityNotes": "Equivalent performance. Verify UL listing for plenum applications."
         },
         {
@@ -472,25 +459,25 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-10%",
+          "costDifference": "-8%",
           "compatibilityNotes": "Verify safety switch compatibility and tank volume."
         },
         {
-          "manufacturer": "Aspen Pumps",
-          "model": "Mini Series",
+          "manufacturer": "DiversiTech",
+          "model": "ClearVue Series",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Ultra-quiet operation makes these suitable for noise-sensitive areas. Higher cost but better acoustic performance."
+          "costDifference": "-5%",
+          "compatibilityNotes": "Verify physical dimensions and safety switch compatibility."
         },
         {
-          "manufacturer": "Sauermann",
-          "model": "Si Series",
+          "manufacturer": "Aspen",
+          "model": "Mini Orange Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -498,8 +485,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: European design with very quiet operation and high reliability. Premium price but excellent quality and performance."
+          "costDifference": "-15%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Low-profile design suitable for tight spaces. Verify safety switch compatibility."
         }
       ]
     }
