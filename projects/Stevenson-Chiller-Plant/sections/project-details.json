@@ -1,0 +1,47 @@
+{
+  "reportTitle": "BuildVision Project Report for Stevenson High School Chiller Replacement",
+  "customerInformation": {
+    "customerName": "Utica Community Schools",
+    "contactPerson": "Sarah Anker",
+    "contactEmail": "sarah.anker@bartonmalow.com",
+    "contactPhone": "",
+    "projectId": "23-10-2025",
+    "additionalFields": {
+      "address": "39701 Dodge Park Road, Sterling Heights, MI 48313",
+      "bidDueDate": "3/26/2025",
+      "jobWalk": "3/19/2025",
+      "RFIsDue": "3/21/2025",
+      "dateInvited": "3/12/2025",
+      "requestType": "Proposal"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Stevenson High School Chiller Replacement",
+    "location": "39701 Dodge Park Road, Sterling Heights, MI 48313",
+    "startDate": "12/1/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Replacement of existing chiller system including new air-cooled rotary-screw water chiller, mechanical and electrical work",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/8de1ec56-d0cc-4552-80f8-3fbd9e3f1055/package-projects/a21a5cf3-f3c7-420b-9837-bbd1c5cf4784/details",
+    "additionalFields": {
+      "projectNumber": "23114-1032",
+      "bidDate": "02-28-2025",
+      "systemVolume": "4600 Gallons"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "02-28-2025"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Air-Cooled Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "AWWQ228",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "YORK International Corporation",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Comparable energy efficiency and performance to basis of design"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce 30XV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency screw compressor design, comparable to basis of design with similar energy performance and control capabilities"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "RTAC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium efficiency model with excellent partial load performance, may require minor piping modifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510-4BD",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Direct dimensional replacement for basis of design"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "May require minor piping modifications"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TP Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium efficiency motor, may offer energy savings but requires different mounting configuration"
+        },
+        {
+          "manufacturer": "Patterson",
+          "model": "HVAC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value option with compatible performance, may require minor piping modifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Air Separators",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "CRSN-8F",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Spirotherm",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Premium coalescing design with high efficiency air removal"
+        },
+        {
+          "manufacturer": "Thrush Aar-O-Vent",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Direct replacement for basis of design"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "4900 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible dimensions and performance specifications"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "VA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Similar performance with slightly different connection configuration"
+        }
+      ]
+    },
+    {
+      "componentType": "Expansion Tanks",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "B200V",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Wessels",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Direct dimensional replacement"
+        },
+        {
+          "manufacturer": "Amtrol",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "May require different mounting configuration"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "0%",
+          "compatibilityNotes": "Direct replacement for basis of design"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Similar performance characteristics"
+        },
+        {
+          "manufacturer": "Flexcon",
+          "model": "Series H",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value option with similar performance specifications but may require different connection configuration"
+        }
+      ]
+    },
+    {
+      "componentType": "Building Automation System",
+      "suppliers": [
+        {
+          "manufacturer": "Johnson Controls, Inc.",
+          "model": "",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Integrates with existing Johnson Controls BAS Operator Interface System"
+        }
+      ]
+    }
+  ]
+}

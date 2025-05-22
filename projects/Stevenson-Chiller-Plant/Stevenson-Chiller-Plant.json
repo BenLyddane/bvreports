@@ -1,0 +1,530 @@
+{
+  "reportTitle": "BuildVision Project Report for Stevenson High School Chiller Replacement",
+  "customerInformation": {
+    "customerName": "Utica Community Schools",
+    "contactPerson": "Sarah Anker",
+    "contactEmail": "sarah.anker@bartonmalow.com",
+    "contactPhone": "",
+    "projectId": "23-10-2025",
+    "additionalFields": {
+      "address": "39701 Dodge Park Road, Sterling Heights, MI 48313",
+      "bidDueDate": "3/26/2025",
+      "jobWalk": "3/19/2025",
+      "RFIsDue": "3/21/2025",
+      "dateInvited": "3/12/2025",
+      "requestType": "Proposal"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Stevenson High School Chiller Replacement",
+    "location": "39701 Dodge Park Road, Sterling Heights, MI 48313",
+    "startDate": "12/1/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Replacement of existing chiller system including new air-cooled rotary-screw water chiller, mechanical and electrical work",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/8de1ec56-d0cc-4552-80f8-3fbd9e3f1055/package-projects/a21a5cf3-f3c7-420b-9837-bbd1c5cf4784/details",
+    "additionalFields": {
+      "projectNumber": "23114-1032",
+      "bidDate": "02-28-2025",
+      "systemVolume": "4600 Gallons"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-05-22"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled Chillers",
+      "notes": "Packaged, air-cooled, factory-assembled and run-tested chiller with base and frame, condenser casing, compressors, compressor motors and motor controllers, evaporator, condenser coils, condenser fans and motors, electrical power, controls, and accessories.",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "Daikin Applied",
+          "model": "AWWQ228",
+          "specifications": {
+            "type": "Screw",
+            "capacity": "351.29 tons",
+            "refrigerant": "R513A",
+            "power": "460V/3-phase",
+            "controlType": "VFD",
+            "dimensions": "448\" x 88\" x 100\"",
+            "weight": "23,357 lbs",
+            "soundLevels": "69-75 dB range",
+            "features": "Semi-hermetic twin-screw compressors, VFD controlled, microchannel condenser coils"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Hydronic Pumps",
+      "notes": "Floor-mounted, end-suction, flexibly-coupled pumps",
+      "items": [
+        {
+          "equipmentTag": "CHWP-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510-4BD",
+          "specifications": {
+            "type": "End suction",
+            "flow": "660 GPM",
+            "head": "85 ft",
+            "efficiency": "85% minimum",
+            "motor": "15 HP",
+            "electricalConnection": "460V/3-phase/60Hz",
+            "features": "Vertical split case back pull-out design, mechanical seals"
+          }
+        },
+        {
+          "equipmentTag": "CHWP-2",
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510-4BD",
+          "specifications": {
+            "type": "End suction",
+            "flow": "660 GPM",
+            "head": "85 ft",
+            "efficiency": "85% minimum",
+            "motor": "15 HP",
+            "electricalConnection": "460V/3-phase/60Hz",
+            "features": "Vertical split case back pull-out design, mechanical seals"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Separator",
+      "notes": "Microbubble air/dirt separator",
+      "items": [
+        {
+          "equipmentTag": "AS-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "CRSN-8F",
+          "specifications": {
+            "system": "Chilled water",
+            "type": "Standard",
+            "size": "8 inch",
+            "flow": "660 GPM",
+            "pressure": "125 psi",
+            "weight": "565 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Expansion Tanks",
+      "notes": "Bladder-type expansion tank",
+      "items": [
+        {
+          "equipmentTag": "ET-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "B200V",
+          "specifications": {
+            "system": "Chilled water",
+            "type": "Bladder",
+            "volume": "4,600 gallons",
+            "fillPressure": "16 PSIG",
+            "maxPressure": "50 PSIG",
+            "acceptance": "244 gallons",
+            "dimensions": "55\" diameter x 26\""
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Variable Frequency Drives",
+      "notes": "Variable speed drives for motors",
+      "items": [
+        {
+          "equipmentTag": "VSD-CHW-1",
+          "manufacturer": "Not specified",
+          "model": "--",
+          "specifications": {
+            "type": "Variable Frequency Drive",
+            "voltage": "460V",
+            "phase": "3-phase",
+            "features": "Motor controller with NEMA 3R enclosure, circuit breaker disconnect"
+          }
+        },
+        {
+          "equipmentTag": "VSD-CHWP-2",
+          "manufacturer": "Not specified",
+          "model": "--",
+          "specifications": {
+            "type": "Variable Frequency Drive",
+            "voltage": "460V",
+            "phase": "3-phase",
+            "features": "Motor controller with NEMA 3R enclosure, circuit breaker disconnect"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Air-Cooled Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "AWWQ228",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "YORK International Corporation",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Comparable energy efficiency and performance to basis of design"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce 30XV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency screw compressor design, comparable to basis of design with similar energy performance and control capabilities"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "RTAC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium efficiency model with excellent partial load performance, may require minor piping modifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510-4BD",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Direct dimensional replacement for basis of design"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "May require minor piping modifications"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TP Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium efficiency motor, may offer energy savings but requires different mounting configuration"
+        },
+        {
+          "manufacturer": "Patterson",
+          "model": "HVAC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value option with compatible performance, may require minor piping modifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Air Separators",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "CRSN-8F",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Spirotherm",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Premium coalescing design with high efficiency air removal"
+        },
+        {
+          "manufacturer": "Thrush Aar-O-Vent",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Direct replacement for basis of design"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "4900 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible dimensions and performance specifications"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "VA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Similar performance with slightly different connection configuration"
+        }
+      ]
+    },
+    {
+      "componentType": "Expansion Tanks",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "B200V",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Wessels",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Direct dimensional replacement"
+        },
+        {
+          "manufacturer": "Amtrol",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "May require different mounting configuration"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "0%",
+          "compatibilityNotes": "Direct replacement for basis of design"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Similar performance characteristics"
+        },
+        {
+          "manufacturer": "Flexcon",
+          "model": "Series H",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value option with similar performance specifications but may require different connection configuration"
+        }
+      ]
+    },
+    {
+      "componentType": "Building Automation System",
+      "suppliers": [
+        {
+          "manufacturer": "Johnson Controls, Inc.",
+          "model": "",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Integrates with existing Johnson Controls BAS Operator Interface System"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement Strategic Procurement of Daikin Air-Cooled Chiller",
+      "rationale": "The specifications call for a Daikin air-cooled rotary-screw water chiller (model AWWQ228) as the basis of design. Given current market conditions and the specialized nature of this equipment, early procurement is critical. The chiller has a long lead time and is a critical path item that will determine the project schedule. Specifications indicate the chiller must handle 351.2 tons cooling capacity with R-513A refrigerant and include features like variable frequency drive, BACnet communication capabilities, and specific sound requirements.",
+      "estimatedImpact": "Early procurement could save 4-6 weeks on the project schedule and potentially $15,000-25,000 in expediting fees. Additionally, locking in pricing now may avoid 5-8% cost escalation that could occur if procurement is delayed until construction begins.",
+      "implementation": "1. Issue early purchase order for the chiller immediately after contract award\n2. Confirm exact model requirements with engineer prior to ordering\n3. Coordinate delivery timing with the construction schedule\n4. Verify all specified features including BACnet controls compatibility\n5. Review factory test requirements and schedule factory witness testing if desired",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Purchase Bell & Gossett Hydronic System Components as a Package",
+      "rationale": "The specifications call for Bell & Gossett pumps (model E-1510-4BD), expansion tanks (model B200V), and air/dirt separators. Purchasing these components as a package from a single supplier can provide better pricing, ensure compatibility, and simplify coordination. Specifications indicate two pumps are required, each with 60 GPM at 85 ft. head, along with accessories like triple duty valves and suction diffusers.",
+      "estimatedImpact": "Bundled purchasing could yield 8-12% cost savings compared to individual procurement. Additionally, single-source responsibility will reduce coordination issues and potential compatibility problems, potentially avoiding 1-2 weeks of delays during installation.",
+      "implementation": "1. Request package pricing from Bell & Gossett representatives\n2. Include all specified components: pumps, expansion tank, air/dirt separator\n3. Verify performance specifications against design requirements\n4. Confirm delivery schedules align with project timeline\n5. Consider requesting startup services as part of the package",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Pre-purchase Johnson Controls BAS Integration Components",
+      "rationale": "The specifications require integration with the existing Johnson Controls BAS system. Pre-purchasing the required controllers, software updates, and integration components will ensure availability and allow for proper coordination with the existing system. The controls must be compatible with the new chiller's BACnet interface and capable of monitoring all specified points.",
+      "estimatedImpact": "Early procurement of controls components could prevent 3-4 weeks of potential delays during system integration. Additionally, early involvement of the controls vendor could identify potential compatibility issues before they impact the construction schedule, potentially saving $10,000-15,000 in remediation costs.",
+      "implementation": "1. Engage Johnson Controls early to assess existing system\n2. Identify all required components for integration\n3. Verify compatibility with new Daikin chiller\n4. Pre-purchase critical components with long lead times\n5. Schedule controls technician time for programming and integration",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Utilize Bulk Purchasing for Piping and Insulation Materials",
+      "rationale": "The project requires significant amounts of copper and steel piping, valves, and insulation for the chilled water system. Bulk purchasing these materials can provide cost advantages and ensure availability. The specifications call for Type L copper for piping through 4\" and Schedule 40 black steel for larger sizes, with specific insulation requirements based on pipe size.",
+      "estimatedImpact": "Bulk purchasing could yield 10-15% cost savings on these materials compared to incremental purchasing. Additionally, securing these materials early will mitigate risk of price volatility in the metals market, which has seen fluctuations of 20-30% in recent years.",
+      "implementation": "1. Quantify total material requirements based on drawings\n2. Request quotes from multiple suppliers for the complete package\n3. Consider warehousing options if site storage is limited\n4. Coordinate delivery schedules to align with installation sequence\n5. Verify all materials meet the specified requirements",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Establish Testing and Water Treatment Package",
+      "rationale": "The specifications require comprehensive testing, adjusting, and balancing services, as well as water treatment for the chilled water system. Bundling these services together from a qualified provider can ensure proper system performance and warranty compliance. The water treatment must include cleaning, passivation, and ongoing treatment chemicals.",
+      "estimatedImpact": "Proper testing and water treatment is critical to system performance and longevity. Improper water treatment could lead to premature equipment failure, potentially costing $50,000-100,000 in early replacement. Bundling these services could save 5-8% compared to separate procurement.",
+      "implementation": "1. Identify qualified providers that can handle both testing and water treatment\n2. Verify they meet the qualifications specified in Sections 23 0593 and 23 2500\n3. Request comprehensive proposals covering both initial and ongoing services\n4. Schedule services to align with system startup requirements\n5. Ensure proper documentation for warranty compliance",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "This chiller replacement project for Stevenson High School involves installing a new 351-ton Daikin air-cooled rotary-screw water chiller along with associated hydronic system components including Bell & Gossett pumps, expansion tank, and air separator. The project requires careful coordination of mechanical and electrical systems with integration into the existing Johnson Controls BAS. Critical procurement considerations include long lead times for the chiller, compatibility with existing systems, and strategic purchasing of components to optimize cost and schedule performance. Implementation must follow strict standards for water treatment, testing and balancing, while meeting efficiency requirements. Early procurement of key components and package purchasing strategies can yield significant cost savings and schedule advantages.",
+    "keyFindings": [
+      "The Daikin AWWQ228 chiller is the basis of design, with YORK listed as an acceptable alternative. Early procurement is critical due to long lead times, which could save 4-6 weeks on the project schedule.",
+      "All hydronic components (pumps, expansion tank, air separator) are specified as Bell & Gossett, presenting an opportunity for package purchasing to achieve 8-12% cost savings and ensure compatibility.",
+      "Integration with the existing Johnson Controls BAS is required, necessitating proper coordination and compatibility verification with the new chiller's BACnet interface.",
+      "The project includes comprehensive water treatment and testing requirements that are essential for system performance and warranty compliance.",
+      "The specified mechanical equipment must comply with ASHRAE 90.1-2013 efficiency standards, and mechanical systems must undergo thorough testing, adjusting and balancing."
+    ],
+    "highestPriorityActions": [
+      "Issue early purchase order for the Daikin AWWQ228 chiller immediately after contract award to secure pricing and avoid schedule delays.",
+      "Engage Johnson Controls early to assess the existing BAS system and identify all required components for proper integration with the new equipment.",
+      "Request package pricing for all Bell & Gossett components (pumps, expansion tank, air separator) to maximize cost savings and ensure system compatibility.",
+      "Establish a comprehensive testing and water treatment package to ensure proper system performance and compliance with the five-year warranty requirements."
+    ]
+  }
+}
