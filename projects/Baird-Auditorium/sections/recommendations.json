@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Consolidate AHU Vendor Selection",
+      "rationale": "The mechanical schedules show that both AHU-2 (new) and existing AHU-1 are INGENIA custom air handling units. Maintaining the same manufacturer for all AHUs will provide consistency in parts, service, and maintenance protocols. This also enables potential volume discounts and simplified vendor management.",
+      "estimatedImpact": "5-10% cost savings on AHU-2 purchase through manufacturer loyalty discounts; reduced long-term maintenance costs by approximately 15% due to parts commonality and service efficiencies.",
+      "implementation": "1. Contact INGENIA to discuss project needs and reference existing installation\n2. Negotiate pricing based on established relationship and additional unit purchase\n3. Request compatibility with existing controls and monitoring systems\n4. Explore extended warranty options based on multiple-unit campus",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Standardize VAV Box Procurement",
+      "rationale": "All five VAV boxes specified are TITUS DESV models with similar configurations but varying sizes. Purchasing these as a package from a single supplier can reduce procurement costs and simplify installation coordination. The consistent manufacturer selection indicates an opportunity for bulk purchasing.",
+      "estimatedImpact": "Potential 7-12% cost reduction on total VAV box procurement; improved delivery coordination reducing schedule risks by 1-2 weeks; possible improved warranty terms when purchased as a package.",
+      "implementation": "1. Bundle all five VAV boxes into a single procurement package\n2. Request tiered pricing from TITUS based on quantity\n3. Coordinate single delivery timeline to reduce freight costs\n4. Ensure controls compatibility across all units",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Evaluate Fan Coil Unit Alternatives",
+      "rationale": "The schedule specifies Daikin FCUs and BCUs (FCU-1, BCU-1). While Daikin is a quality manufacturer, a value engineering analysis of comparable products from manufacturers like Trane or Carrier might yield cost benefits without sacrificing performance. The specified models have standard performance metrics that could be matched by alternative suppliers.",
+      "estimatedImpact": "Potential savings of 8-15% on FCU/BCU costs; increased supplier competition may yield improved lead times by 1-3 weeks; comparable warranty and performance at reduced cost.",
+      "implementation": "1. Identify equivalent models from 2-3 alternative manufacturers\n2. Request comparative quotes specifying the exact performance criteria\n3. Evaluate total cost of ownership including energy efficiency\n4. Require submittal of performance data to verify equivalence",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Bulk Purchase Grilles, Registers, and Diffusers",
+      "rationale": "The schedule shows multiple air distribution devices (grilles, registers, and diffusers) primarily from PRICE. Consolidating this procurement with a single supplier order would likely result in volume discounts and reduced shipping costs. The project requires multiple types and sizes, making this an ideal category for bulk purchasing.",
+      "estimatedImpact": "Approximately 10-15% cost savings on air distribution devices; reduced administrative overhead for processing multiple purchase orders; simplified delivery logistics and coordination.",
+      "implementation": "1. Compile complete list of all air distribution devices\n2. Request manufacturer representative to provide package pricing\n3. Consider alternative manufacturers who can supply the full range\n4. Coordinate single delivery to reduce shipping costs",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Pre-Purchase Long Lead Items",
+      "rationale": "Several specialized items in the schedule may have extended manufacturing lead times, particularly the custom AHU-2 from INGENIA and the duct silencers from VIBRO ACOUSTICS. Early procurement of these items can prevent schedule delays that would impact overall project completion.",
+      "estimatedImpact": "Potential schedule acceleration of 3-8 weeks; avoidance of expediting fees (typically 15-25% of equipment cost); better pricing by allowing standard manufacturing timelines rather than rushed production.",
+      "implementation": "1. Identify all items with lead times exceeding 8 weeks\n2. Initiate procurement process for these items immediately\n3. Secure storage if items arrive before installation is possible\n4. Consider partial payments to secure manufacturing slots",
+      "priority": "High"
+    }
+  ]
+}

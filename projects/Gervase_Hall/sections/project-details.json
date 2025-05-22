@@ -1,0 +1,36 @@
+{
+  "reportTitle": "BuildVision Project Report for Gervase Hall Interior Demolition",
+  "customerInformation": {
+    "customerName": "Georgetown University",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "2-J06-12",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Gervase Hall Interior Demolition",
+    "location": "3779 Library Walk, Washington, DC 20057",
+    "startDate": "4/28/25",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Interior demolition work",
+    "projectUrl": "",
+    "additionalFields": {}
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

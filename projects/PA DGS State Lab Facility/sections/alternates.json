@@ -13,7 +13,7 @@
             "company": "H.C. Nye Company",
             "contact": "717-561-2500"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Custom units designed specifically for laboratory applications with high filtration requirements and energy recovery capabilities."
         },
         {
@@ -43,30 +43,30 @@
           "compatibilityNotes": "Compatible option with similar energy recovery system. Would require different BAS integration approach."
         },
         {
+          "manufacturer": "Daikin Applied",
+          "model": "Vision Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "R.L. Craig Company",
+            "company": "R.L. Craig Company",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Custom engineered air handling units with similar performance capabilities. Lower cost option but may require additional engineering to meet laboratory specifications."
+        },
+        {
           "manufacturer": "Carrier",
           "model": "Custom AHU",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Carrier Enterprise",
-            "company": "Carrier Enterprise",
+            "name": "Carrier Mid-Atlantic",
+            "company": "Carrier Corporation",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Strong reputation for custom laboratory air handling units with similar features but potentially more competitive pricing. May require modifications to connection points."
-        },
-        {
-          "manufacturer": "Daikin Applied",
-          "model": "Vision",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "Thermal Equipment Sales",
-            "company": "Thermal Equipment Sales",
-            "contact": ""
-          },
-          "costDifference": "-4%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Offers modular custom AHU design that could provide cost savings while meeting specifications. Different control system would require integration planning."
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Comparable custom unit capabilities with good reliability record. May require slight modifications to mechanical room layout due to different dimensional requirements."
         }
       ]
     },
@@ -83,7 +83,7 @@
             "company": "Cummins-Wagner",
             "contact": "717-654-0281"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Factory-assembled, induced draft, counterflow design with VFD control"
         },
         {
@@ -118,12 +118,12 @@
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Eastern HVAC Sales",
-            "company": "Eastern HVAC Sales",
+            "name": "Chesapeake Systems",
+            "company": "Chesapeake Systems LLC",
             "contact": ""
           },
-          "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Modular design allows for lower cost and easier maintenance access. Different water distribution system may offer better efficiency but requires different piping configuration."
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Modular cooling tower design with lower profile than conventional towers. Potential energy savings through more efficient fan operation, but different basin configuration requires piping adjustments."
         },
         {
           "manufacturer": "Delta Cooling Towers",
@@ -135,8 +135,8 @@
             "company": "Delta Cooling Towers, Inc.",
             "contact": ""
           },
-          "costDifference": "-3%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Engineered plastic construction offers corrosion resistance and potentially longer service life. May require different structural support design."
+          "costDifference": "-1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Corrosion-resistant engineered plastic construction offers longer lifespan in chemical environments. Similar performance characteristics but different maintenance requirements."
         }
       ]
     },
@@ -153,7 +153,7 @@
             "company": "TabCo Sales Associates, Inc.",
             "contact": "610-356-5193"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "High-efficiency condensing boilers with integrated controls"
         },
         {
@@ -184,16 +184,16 @@
         },
         {
           "manufacturer": "Aerco",
-          "model": "Benchmark",
+          "model": "Benchmark Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Hoffman & Hoffman",
-            "company": "Hoffman & Hoffman",
+            "name": "Eastern Penn Supply",
+            "company": "Eastern Penn Supply Company",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Offers high efficiency and excellent turndown ratio. Smaller footprint could save mechanical room space. Different venting requirements must be considered."
+          "costDifference": "+3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium condensing boilers with excellent turndown capabilities and control flexibility. Similar footprint but may require different venting configuration."
         },
         {
           "manufacturer": "Viessmann",
@@ -201,12 +201,12 @@
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Viessmann Manufacturing",
-            "company": "Viessmann Manufacturing",
+            "name": "EMCO Supply",
+            "company": "EMCO Supply, Inc.",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium European manufacturer with high-quality construction and advanced controls. Higher cost but potentially longer service life and better efficiency at part-load conditions."
+          "costDifference": "+8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-end European design with exceptional efficiency and longevity. Higher initial cost but potentially lower lifecycle cost with longer equipment life expectancy."
         }
       ]
     },
@@ -223,7 +223,7 @@
             "company": "Wallace Eannace Associates",
             "contact": "215-542-8400"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "End suction centrifugal pumps with high efficiency motors and VFD compatibility"
         },
         {
@@ -254,29 +254,29 @@
         },
         {
           "manufacturer": "Grundfos",
-          "model": "TP Series",
+          "model": "LF Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Grundfos Pumps",
-            "company": "Grundfos Pumps",
+            "name": "Fluid Systems Engineering",
+            "company": "Fluid Systems Engineering",
             "contact": ""
           },
-          "costDifference": "-3%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High efficiency European design with integrated sensors and potentially lower operating costs. Different flange configuration may require modification to piping design."
+          "costDifference": "+1%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Higher efficiency motors and integrated VFD options available. Slightly different flange-to-flange dimensions may require piping modifications."
         },
         {
-          "manufacturer": "Wilo",
-          "model": "CronoLine-IL",
+          "manufacturer": "Patterson",
+          "model": "HVAC Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Wilo USA",
-            "company": "Wilo USA",
+            "name": "Blackman Plumbing Supply",
+            "company": "Blackman Plumbing Supply",
             "contact": ""
           },
           "costDifference": "-6%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Lower initial cost with comparable efficiency. Different motor and VFD requirements may need coordination with electrical design."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Economical option with good reliability record. Lower cost but may have slightly higher energy consumption over lifecycle."
         }
       ]
     },
@@ -293,7 +293,7 @@
             "company": "Gunn & Pegelow",
             "contact": "sales@gunnpegelow.com"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Specialized laboratory exhaust fans designed for effective plume dispersion and entrainment"
         },
         {
@@ -324,29 +324,29 @@
         },
         {
           "manufacturer": "Loren Cook",
-          "model": "Vari-Flow",
+          "model": "Centrex Vaneaxial",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "National Environmental Products",
-            "company": "National Environmental Products",
+            "name": "GBS Mechanical",
+            "company": "GBS Mechanical, Inc.",
             "contact": ""
           },
           "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Lower cost option with variable flow capability. Different discharge velocity profile may require verification of plume dispersion modeling."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Lower cost option but would require additional discharge plenum design to achieve comparable plume height. May have higher sound levels requiring additional attenuation."
         },
         {
-          "manufacturer": "MOFFITT",
-          "model": "MoffittVent",
+          "manufacturer": "MK Plastics",
+          "model": "FRP Laboratory Exhaust System",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Moffitt Corporation",
-            "company": "Moffitt Corporation",
+            "name": "Environmental Air Systems",
+            "company": "Environmental Air Systems, LLC",
             "contact": ""
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy-efficient design with advanced plume dispersion features. Different mounting footprint requires coordination with roof structure."
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Corrosion-resistant FRP construction ideal for chemical-laden exhaust. Different mounting requirements but excellent longevity in harsh environments."
         }
       ]
     },
@@ -363,7 +363,7 @@
             "company": "H.C. Nye Company",
             "contact": "717-561-2500"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Complete line of grilles, registers, diffusers and air terminal units for laboratory applications"
         },
         {
@@ -385,12 +385,12 @@
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Price Industries",
+            "name": "Price Mid-Atlantic",
             "company": "Price Industries",
             "contact": ""
           },
-          "costDifference": "+4%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium option with enhanced performance data and noise criteria. Similar mounting dimensions but different finish options."
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium air distribution products with excellent performance data and noise characteristics. Specialized laboratory diffusers with containment-optimized throw patterns."
         },
         {
           "manufacturer": "Nailor Industries",
@@ -399,11 +399,11 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Nailor Representatives",
-            "company": "Nailor Industries",
+            "company": "Nailor Industries, Inc.",
             "contact": ""
           },
           "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented option with good performance metrics. May have longer lead times but offers potential cost savings."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality, economical alternative with comparable performance. May have fewer customization options but meets basic performance requirements."
         }
       ]
     },
@@ -420,7 +420,7 @@
             "company": "Graybar Electric Company",
             "contact": "717-939-8700"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Full range of distribution equipment with integrated monitoring capabilities"
         },
         {
@@ -456,24 +456,68 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "Siemens Industry",
-            "company": "Siemens Industry",
+            "company": "Siemens Industry, Inc.",
             "contact": ""
           },
           "costDifference": "+1%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High reliability with strong integration with building automation systems. Slightly different footprint may require adjustment to electrical room layout."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Comparable quality and features to basis of design. Excellent technical support and parts availability with slightly different monitoring system interface."
         },
         {
-          "manufacturer": "General Electric",
-          "model": "EntelliGuard G",
+          "manufacturer": "GE Industrial Solutions",
+          "model": "Spectra Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "GE Industrial Solutions",
-            "company": "GE Industrial Solutions",
+            "name": "United Electric Supply",
+            "company": "United Electric Supply",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good value option with reliable performance history. Different installation requirements for switchgear sections."
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Economical alternative with good reliability. Fewer advanced monitoring features but solid basic performance for non-critical circuits."
+        }
+      ]
+    },
+    {
+      "componentType": "HEPA Filter Housings",
+      "suppliers": [
+        {
+          "manufacturer": "AAF",
+          "model": "TSI Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Kohl Building Products",
+            "company": "Kohl Building Products",
+            "contact": "717-254-4555"
+          },
+          "costDifference": "$0",
+          "compatibilityNotes": "Bag-in/bag-out HEPA filtration systems for laboratory exhaust applications"
+        },
+        {
+          "manufacturer": "Camfil",
+          "model": "Absolute Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Air Flow Technology",
+            "company": "Air Flow Technology, Inc.",
+            "contact": ""
+          },
+          "costDifference": "+6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium filter housings with excellent sealing characteristics and lower pressure drop. Higher initial cost but potentially better energy efficiency."
+        },
+        {
+          "manufacturer": "Flanders",
+          "model": "Containment Housing",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Environmental Air Products",
+            "company": "Environmental Air Products",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality alternative with similar containment features. Slightly different dimensions may require mounting adaptations."
         }
       ]
     }

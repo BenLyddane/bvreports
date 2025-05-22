@@ -1,0 +1,201 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Electric Propeller Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "QMARK",
+          "model": "MUH102",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Markel",
+          "model": "2900 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compatible with specified requirements for propeller-type electric unit heaters"
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "UH Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Compatible with specified requirements for propeller-type electric unit heaters"
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "LUH Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Industry-standard unit heater with similar specifications and performance to the BoD"
+        },
+        {
+          "manufacturer": "Stelpro",
+          "model": "SHU Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-10%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option that meets performance requirements but may have shorter warranty period"
+        },
+        {
+          "manufacturer": "TPI",
+          "model": "5100 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-12%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Value-oriented alternative that meets basic performance criteria but may have fewer features"
+        }
+      ]
+    },
+    {
+      "componentType": "Lighting Controls",
+      "suppliers": [
+        {
+          "manufacturer": "Hubbell",
+          "model": "NX Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Acuity Brands",
+          "model": "nLight ARP Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Comparable non-networked digital lighting controls system"
+        },
+        {
+          "manufacturer": "Wattstopper",
+          "model": "DLM Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Comparable non-networked digital lighting controls system"
+        },
+        {
+          "manufacturer": "Lutron",
+          "model": "Energi Savr Node Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+15%",
+          "compatibilityNotes": "Comparable non-networked digital lighting controls system"
+        },
+        {
+          "manufacturer": "Eaton Controls",
+          "model": "Greengate Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Comparable non-networked digital lighting controls system"
+        },
+        {
+          "manufacturer": "Leviton",
+          "model": "Lumina RF",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Wireless controls option that provides similar functionality with easier installation"
+        },
+        {
+          "manufacturer": "Douglas Lighting Controls",
+          "model": "Dialog System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with comparable functionality"
+        }
+      ]
+    },
+    {
+      "componentType": "Fire Alarm System",
+      "suppliers": [
+        {
+          "manufacturer": "Siemens",
+          "model": "",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Existing system manufacturer"
+        }
+      ]
+    }
+  ]
+}

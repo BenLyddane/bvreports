@@ -13,7 +13,7 @@
             "company": "Gil Bar Inc",
             "contact": "Matt Neumann, mneumann@gil-bar.com"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Basis of Design"
         },
         {
@@ -30,30 +30,30 @@
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
         },
         {
-          "manufacturer": "Greenheck",
-          "model": "RV Series",
+          "manufacturer": "Trane",
+          "model": "M-Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Greenheck Representative",
+            "company": "Trane Commercial Sales Office",
+            "contact": ""
+          },
+          "costDifference": "+7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-quality unit with similar features, proven reliability and nationwide service support"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "ERV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ADE Systems Inc.",
             "contact": ""
           },
           "costDifference": "-3%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy recovery capability and modular design makes this a good alternative for ventilation requirements"
-        },
-        {
-          "manufacturer": "Valent",
-          "model": "VR Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "Valent Representative",
-            "contact": ""
-          },
-          "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency energy recovery units with similar performance characteristics to AAON"
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good energy recovery performance with competitive pricing, compatible with building footprint"
         }
       ]
     },
@@ -70,7 +70,7 @@
             "company": "SRS Enterprises Inc.",
             "contact": "732-787-5062, www.srs-enterprises.com"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Basis of Design"
         },
         {
@@ -87,30 +87,30 @@
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
         },
         {
-          "manufacturer": "Carrier",
-          "model": "38MGRQ12",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "Carrier Representative",
-            "contact": ""
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency heat pump option with good reliability and similar footprint to specified unit"
-        },
-        {
           "manufacturer": "LG",
-          "model": "LAU120HYV",
+          "model": "LS120HEV",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "LG Representative",
+            "company": "LG HVAC",
             "contact": ""
           },
           "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with competitive efficiency ratings and increasingly popular in commercial applications"
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy efficient alternative with good reliability and lower initial cost"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "38MHRB12",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Carrier Corporation",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium manufacturer with excellent support network and parts availability"
         }
       ]
     },
@@ -127,7 +127,7 @@
             "company": "SRS Enterprises Inc.",
             "contact": "732-787-5062, www.srs-enterprises.com"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Basis of Design"
         },
         {
@@ -145,29 +145,29 @@
         },
         {
           "manufacturer": "WaterFurnace",
-          "model": "NSW060",
+          "model": "NEV060",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "WaterFurnace Representative",
+            "company": "WaterFurnace",
             "contact": ""
           },
-          "costDifference": "-4%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High efficiency water-source heat pump with good track record of reliability"
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High efficiency water-source heat pump with lower cost and good performance history"
         },
         {
           "manufacturer": "Florida Heat Pump",
-          "model": "EC Series",
+          "model": "EC060",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Florida Heat Pump Representative",
+            "company": "FHP Manufacturing",
             "contact": ""
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective alternative with good performance and standard components that simplify maintenance"
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with reliable performance and standard footprint that would work with existing design"
         }
       ]
     },
@@ -184,7 +184,7 @@
             "company": "SRS Enterprises Inc.",
             "contact": "732-787-5062, www.srs-enterprises.com"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Basis of Design"
         },
         {
@@ -201,30 +201,30 @@
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
         },
         {
-          "manufacturer": "First Co",
-          "model": "VFC Series",
+          "manufacturer": "Samsung",
+          "model": "AM015FNNDCH",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "First Co Representative",
+            "company": "Samsung HVAC",
             "contact": ""
           },
-          "costDifference": "-8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective vertical fan coil option with similar capacity and compatible dimensions"
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy efficient option with good airflow distribution and lower cost"
         },
         {
-          "manufacturer": "IEC",
-          "model": "FCV Series",
+          "manufacturer": "Panasonic",
+          "model": "S-15ML1U6",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "IEC Representative",
+            "company": "Panasonic Air Conditioning",
             "contact": ""
           },
-          "costDifference": "-6%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable alternative with competitive efficiency and standard components for easy maintenance"
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable units with good warranty and similar dimensions for easier retrofitting"
         }
       ]
     },
@@ -241,7 +241,7 @@
             "company": "SRS Enterprises Inc.",
             "contact": "732-787-5062, www.srs-enterprises.com"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Basis of Design"
         },
         {
@@ -258,30 +258,30 @@
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
         },
         {
-          "manufacturer": "Samsung",
-          "model": "AM024FNNDCH",
+          "manufacturer": "Daikin",
+          "model": "FXMQ24PVJU",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Samsung Representative",
+            "company": "Daikin North America",
             "contact": ""
           },
-          "costDifference": "-6%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective VRF system with good efficiency and reliability"
+          "costDifference": "+2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-quality VRF system with excellent support and training programs"
         },
         {
-          "manufacturer": "Daikin",
-          "model": "FXMQ24PBVJU",
+          "manufacturer": "Samsung",
+          "model": "AM024FNMDCH",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Daikin Representative",
+            "company": "Samsung HVAC",
             "contact": ""
           },
-          "costDifference": "+1%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-quality alternative with excellent distributor support and parts availability"
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with good efficiency ratings and growing market presence"
         }
       ]
     },
@@ -298,7 +298,7 @@
             "company": "Trane Commercial Sales Office",
             "contact": "973-244-7434, www.trane.com/commercial"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Basis of Design"
         },
         {
@@ -315,30 +315,30 @@
           "compatibilityNotes": "Compatible alternative with similar performance specifications"
         },
         {
+          "manufacturer": "Daikin",
+          "model": "DCC060",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin Applied",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Energy efficient units with good reliability record and similar dimensions"
+        },
+        {
           "manufacturer": "York",
           "model": "ZF060",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "York Representative",
+            "company": "Johnson Controls",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with similar footprint and performance to specified unit"
-        },
-        {
-          "manufacturer": "Lennox",
-          "model": "LCH060H4",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "Lennox Representative",
-            "contact": ""
-          },
-          "costDifference": "-4%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-efficiency option with competitive pricing and good reliability"
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Competitively priced units with good support network and reliability"
         }
       ]
     },
@@ -355,7 +355,7 @@
             "company": "ADE Systems Inc.",
             "contact": "tbrady@adehvac.com"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Basis of Design"
         },
         {
@@ -368,7 +368,7 @@
             "company": "Mechanical Technologies, LLC",
             "contact": "973-616-3800, richf@mthvac.com"
           },
-          "costDifference": "",
+          "costDifference": "$0",
           "compatibilityNotes": "Basis of Design for specific fan applications"
         },
         {
@@ -386,16 +386,16 @@
         },
         {
           "manufacturer": "PennBarry",
-          "model": "Dynamo Series",
+          "model": "Domex",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "PennBarry Representative",
+            "company": "PennBarry",
             "contact": ""
           },
           "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective centrifugal fans with similar performance characteristics"
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Lower cost option with acceptable performance and easy installation"
         },
         {
           "manufacturer": "Fantech",
@@ -404,11 +404,11 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Fantech Representative",
+            "company": "Fantech",
             "contact": ""
           },
           "costDifference": "-7%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Economical inline fans suitable for many exhaust applications with good reliability"
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective fans suitable for various exhaust applications with lower noise levels"
         }
       ]
     }

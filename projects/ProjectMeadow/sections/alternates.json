@@ -14,11 +14,11 @@
             "contact": ""
           },
           "costDifference": "0%",
-          "compatibilityNotes": "Basis of design for most air handling units on the project."
+          "compatibilityNotes": "Basis of design for most central station air handlers in the project."
         },
         {
           "manufacturer": "Temtrol",
-          "model": "CUSTOM",
+          "model": "Custom",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -27,11 +27,11 @@
             "contact": ""
           },
           "costDifference": "0%",
-          "compatibilityNotes": "Basis of design for custom AHUs (AHU-2A-01 and AHU-2A-02)."
+          "compatibilityNotes": "Custom-designed units for specific applications (AHU-2A-01, AHU-2A-02)."
         },
         {
           "manufacturer": "Daikin",
-          "model": "Vision Indoor AHU",
+          "model": "Vision Air Handler",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -40,11 +40,11 @@
             "contact": ""
           },
           "costDifference": "-3%",
-          "compatibilityNotes": "Listed alternative manufacturer in specifications."
+          "compatibilityNotes": "Listed alternate manufacturer in specifications."
         },
         {
           "manufacturer": "Trane",
-          "model": "M-Series Climate Changer",
+          "model": "Performance Climate Changer",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -53,11 +53,11 @@
             "contact": ""
           },
           "costDifference": "-2%",
-          "compatibilityNotes": "Listed alternative manufacturer in specifications."
+          "compatibilityNotes": "Listed alternate manufacturer in specifications."
         },
         {
           "manufacturer": "Carrier",
-          "model": "39M Series",
+          "model": "39L AHU",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -65,21 +65,21 @@
             "company": "Carrier Corporation",
             "contact": ""
           },
-          "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with project requirements, offers potential cost savings. Standard offerings suitable for specified capacities and configurations."
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Carrier offers compatible air handling units with similar performance characteristics and reliability. May require minor modifications to connections."
         },
         {
-          "manufacturer": "AAON",
+          "manufacturer": "Aaon",
           "model": "M2 Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "AAON, Inc.",
+            "company": "Aaon",
             "contact": ""
           },
-          "costDifference": "-4%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Highly customizable units with high efficiency options. May offer quicker lead times compared to other manufacturers."
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Aaon units feature high efficiency and quality construction. Compatible with project requirements but may require some dimensional adjustments."
         }
       ]
     },
@@ -97,7 +97,7 @@
             "contact": ""
           },
           "costDifference": "0%",
-          "compatibilityNotes": "Basis of design for all fan coil units on the project."
+          "compatibilityNotes": "Basis of design for all fan coil units in the project."
         },
         {
           "manufacturer": "First Company",
@@ -109,8 +109,8 @@
             "company": "First Co.",
             "contact": ""
           },
-          "costDifference": "-7%",
-          "compatibilityNotes": "Listed alternative manufacturer in specifications."
+          "costDifference": "-4%",
+          "compatibilityNotes": "Listed alternate manufacturer in specifications."
         },
         {
           "manufacturer": "Titus",
@@ -123,24 +123,24 @@
             "contact": ""
           },
           "costDifference": "-3%",
-          "compatibilityNotes": "Listed alternative manufacturer in specifications."
+          "compatibilityNotes": "Listed alternate manufacturer in specifications."
         },
         {
-          "manufacturer": "Williams",
-          "model": "HFC Series",
+          "manufacturer": "Daikin",
+          "model": "ThinLine FCU",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Williams Comfort Products",
+            "company": "Daikin Applied",
             "contact": ""
           },
-          "costDifference": "-10%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Cost-effective option with reliable performance. Units are compatible with specified capacities and installation requirements."
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Daikin offers reliable fan coil units with similar performance characteristics. May require review of electrical connections."
         },
         {
           "manufacturer": "IEC",
-          "model": "Horizontal High Performance",
+          "model": "Horizontal Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -149,7 +149,7 @@
             "contact": ""
           },
           "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: High-quality construction with low sound levels. Compatible with BMS control systems and offers good warranty coverage."
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: IEC offers well-constructed fan coil units that would be suitable for this application with minimal modifications to connections."
         }
       ]
     },
@@ -158,7 +158,7 @@
       "suppliers": [
         {
           "manufacturer": "Loren Cook",
-          "model": "Various (135CA-SWSI, 225SQN)",
+          "model": "Multiple Series",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -167,7 +167,7 @@
             "contact": ""
           },
           "costDifference": "0%",
-          "compatibilityNotes": "Basis of design for multiple fan types including kitchen exhaust fans and toilet fans."
+          "compatibilityNotes": "Basis of design for various exhaust and transfer fans in the project."
         },
         {
           "manufacturer": "LF Systems",
@@ -176,15 +176,15 @@
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "LF Manufacturing",
+            "company": "LF Systems",
             "contact": ""
           },
           "costDifference": "0%",
-          "compatibilityNotes": "Basis of design for dryer booster fans."
+          "compatibilityNotes": "Basis of design for centrifugal HVAC fans (DBF-2C-01)."
         },
         {
           "manufacturer": "Greenheck",
-          "model": "Various",
+          "model": "Various Series",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -193,11 +193,24 @@
             "contact": ""
           },
           "costDifference": "-2%",
-          "compatibilityNotes": "Listed alternate in fan specifications."
+          "compatibilityNotes": "Listed alternate manufacturer in specifications."
         },
         {
-          "manufacturer": "Penn Ventilation",
-          "model": "Various",
+          "manufacturer": "Twin City Fan",
+          "model": "Various Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Twin City Fan Companies, Ltd.",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Twin City Fan offers reliable fans with similar performance characteristics. Minor modifications to connections may be required."
+        },
+        {
+          "manufacturer": "Pennbarry",
+          "model": "Various Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -205,21 +218,65 @@
             "company": "PennBarry",
             "contact": ""
           },
-          "costDifference": "-8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible with project requirements with potential cost savings. Reliable performance with comparable sound and efficiency characteristics."
-        },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: PennBarry offers cost-effective fan solutions that would be suitable for this application with minimal modifications required."
+        }
+      ]
+    },
+    {
+      "componentType": "Control Valves",
+      "suppliers": [
         {
-          "manufacturer": "Twin City Fan",
-          "model": "Various",
-          "isBasisOfDesign": false,
+          "manufacturer": "Belimo",
+          "model": "Various Series",
+          "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
-            "company": "Twin City Fan Companies",
+            "company": "Belimo Aircontrols (USA), Inc.",
             "contact": ""
           },
-          "costDifference": "-5%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Broad product line that can match required performance. Strong engineering support and potentially better lead times."
+          "costDifference": "0%",
+          "compatibilityNotes": "Basis of design for control valves throughout the project."
+        },
+        {
+          "manufacturer": "Honeywell",
+          "model": "Various Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Honeywell International Inc.",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Listed alternate manufacturer in specifications."
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "VG1000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Johnson Controls, Inc.",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Listed alternate manufacturer in specifications."
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "VVF/VXF Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Siemens Industry, Inc.",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Listed alternate manufacturer in specifications."
         }
       ]
     }

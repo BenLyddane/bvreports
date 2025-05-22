@@ -7,6 +7,7 @@
 const axios = require('axios');
 const fs = require('fs-extra');
 const path = require('path');
+const pdfParse = require('pdf-parse');
 require('dotenv').config({ path: path.resolve(__dirname, '..', '.env.local') });
 
 // Get API key from environment variables
@@ -46,6 +47,14 @@ const CLAUDE_MODEL = 'claude-3-7-sonnet-20250219'; // Updated model
 async function formatFileForContext(filePath) {
   try {
     const fileName = path.basename(filePath);
+    const fileExt = path.extname(filePath).toLowerCase();
+    
+    // Handle PDF files differently
+    if (fileExt === '.pdf') {
+      return await extractPdfContent(filePath);
+    }
+    
+    // Handle regular text files
     const fileContent = await fs.readFile(filePath, 'utf8');
     return {
       name: fileName,
@@ -58,6 +67,37 @@ async function formatFileForContext(filePath) {
 }
 
 /**
+ * Extract text content from a PDF file
+ * @param {string} filePath - Path to the PDF file
+ * @returns {Object} - Formatted file object with name and content
+ */
+async function extractPdfContent(filePath) {
+  try {
+    const fileName = path.basename(filePath);
+    console.log(`Extracting text from PDF: ${fileName}`);
+    
+    // Read the PDF file as a buffer
+    const dataBuffer = await fs.readFile(filePath);
+    
+    // Parse the PDF content
+    const pdfData = await pdfParse(dataBuffer);
+    
+    // Return the formatted content
+    return {
+      name: fileName,
+      content: pdfData.text
+    };
+  } catch (error) {
+    console.error(`Error extracting text from PDF ${filePath}:`, error);
+    // Return a placeholder if PDF parsing fails
+    return {
+      name: path.basename(filePath),
+      content: `[PDF CONTENT EXTRACTION FAILED: ${error.message}]`
+    };
+  }
+}
+
+/**
  * Process all context files from a project directory
  * @param {string} projectDir - Path to the project directory
  * @returns {Array} - Formatted context files
@@ -65,7 +105,7 @@ async function formatFileForContext(filePath) {
 async function processContextFiles(projectDir) {
   try {
     const contextFiles = [];
-    const fileTypes = ['.txt', '.csv', '.json', '.md'];
+    const fileTypes = ['.txt', '.csv', '.json', '.md', '.pdf'];
     
     // Recursively find all text-based files in the project directory
     const files = await fs.readdir(projectDir, { withFileTypes: true });
@@ -78,11 +118,11 @@ async function processContextFiles(projectDir) {
         const subDirFiles = await processContextFiles(filePath);
         contextFiles.push(...subDirFiles);
       } else if (fileTypes.includes(path.extname(file.name).toLowerCase())) {
-        // Process text-based files
+        // Process text-based files and PDFs
         const formattedFile = await formatFileForContext(filePath);
         contextFiles.push(formattedFile);
       }
-      // Note: PDF and image files would need additional processing that's not implemented here
+      // Note: Image files would need additional processing that's not implemented here
     }
     
     return contextFiles;
@@ -296,21 +336,14 @@ async function generateJsonSection(prompt, contextFiles) {
  * @param {string} projectDir - Path to the project directory
  * @param {string} sectionType - Type of section to generate (projectDetails, equipment, etc.)
  * @param {string} prompt - Specialized prompt for the specific section
- * @param {Array} providedContextFiles - Optional pre-processed context files
  * @returns {Object} - Generated JSON object for the specified section
  */
-async function generateSectionJson(projectDir, sectionType, prompt, providedContextFiles = null) {
+async function generateSectionJson(projectDir, sectionType, prompt) {
   try {
     console.log(`Generating ${sectionType} JSON section for project: ${path.basename(projectDir)}`);
     
-    // Use provided context files if available, otherwise process from the project directory
-    let contextFiles;
-    if (providedContextFiles) {
-      contextFiles = providedContextFiles;
-    } else {
-      // Process all context files from the project directory
-      contextFiles = await processContextFiles(projectDir);
-    }
+    // Process all context files from the project directory
+    const contextFiles = await processContextFiles(projectDir);
     
     // Generate JSON using Claude API
     const sectionJson = await generateJsonSection(prompt, contextFiles);
@@ -324,5 +357,6 @@ async function generateSectionJson(projectDir, sectionType, prompt, providedCont
 
 module.exports = {
   generateSectionJson,
-  processContextFiles
+  processContextFiles,
+  generateJsonSection
 };
