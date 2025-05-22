@@ -1,0 +1,127 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled Chillers",
+      "notes": "Packaged, air-cooled, factory-assembled and run-tested chiller with base and frame, condenser casing, compressors, compressor motors and motor controllers, evaporator, condenser coils, condenser fans and motors, electrical power, controls, and accessories.",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "Daikin Applied",
+          "model": "AWWQ228",
+          "specifications": {
+            "type": "Screw",
+            "capacity": "351.29 tons",
+            "refrigerant": "R513A",
+            "power": "460V/3-phase",
+            "controlType": "VFD",
+            "dimensions": "448\" x 88\" x 100\"",
+            "weight": "23,357 lbs",
+            "soundLevels": "69-75 dB range",
+            "features": "Semi-hermetic twin-screw compressors, VFD controlled, microchannel condenser coils"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Hydronic Pumps",
+      "notes": "Floor-mounted, end-suction, flexibly-coupled pumps",
+      "items": [
+        {
+          "equipmentTag": "CHWP-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510-4BD",
+          "specifications": {
+            "type": "End suction",
+            "flow": "660 GPM",
+            "head": "85 ft",
+            "efficiency": "85% minimum",
+            "motor": "15 HP",
+            "electricalConnection": "460V/3-phase/60Hz",
+            "features": "Vertical split case back pull-out design, mechanical seals"
+          }
+        },
+        {
+          "equipmentTag": "CHWP-2",
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510-4BD",
+          "specifications": {
+            "type": "End suction",
+            "flow": "660 GPM",
+            "head": "85 ft",
+            "efficiency": "85% minimum",
+            "motor": "15 HP",
+            "electricalConnection": "460V/3-phase/60Hz",
+            "features": "Vertical split case back pull-out design, mechanical seals"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Separator",
+      "notes": "Microbubble air/dirt separator",
+      "items": [
+        {
+          "equipmentTag": "AS-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "CRSN-8F",
+          "specifications": {
+            "system": "Chilled water",
+            "type": "Standard",
+            "size": "8 inch",
+            "flow": "660 GPM",
+            "pressure": "125 psi",
+            "weight": "565 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Expansion Tanks",
+      "notes": "Bladder-type expansion tank",
+      "items": [
+        {
+          "equipmentTag": "ET-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "B200V",
+          "specifications": {
+            "system": "Chilled water",
+            "type": "Bladder",
+            "volume": "4,600 gallons",
+            "fillPressure": "16 PSIG",
+            "maxPressure": "50 PSIG",
+            "acceptance": "244 gallons",
+            "dimensions": "55\" diameter x 26\""
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Variable Frequency Drives",
+      "notes": "Variable speed drives for motors",
+      "items": [
+        {
+          "equipmentTag": "VSD-CHW-1",
+          "manufacturer": "Not specified",
+          "model": "--",
+          "specifications": {
+            "type": "Variable Frequency Drive",
+            "voltage": "460V",
+            "phase": "3-phase",
+            "features": "Motor controller with NEMA 3R enclosure, circuit breaker disconnect"
+          }
+        },
+        {
+          "equipmentTag": "VSD-CHWP-2",
+          "manufacturer": "Not specified",
+          "model": "--",
+          "specifications": {
+            "type": "Variable Frequency Drive",
+            "voltage": "460V",
+            "phase": "3-phase",
+            "features": "Motor controller with NEMA 3R enclosure, circuit breaker disconnect"
+          }
+        }
+      ]
+    }
+  ]
+}

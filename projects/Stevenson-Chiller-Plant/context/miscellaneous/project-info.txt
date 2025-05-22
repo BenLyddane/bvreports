@@ -1,0 +1,161 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Barton Malow
+package projects
+23 10-2025 Stevenson Chiller Replacement
+
+    packages
+
+MH
+23-10-2025 Stevenson Chiller Replacement
+39701 Dodge Park Road, Sterling Heights, MI 48313
+Organization Logo
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Action
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CH-1	Daikin Applied	Air-Cooled, Rotary-Screw Water Chillers	AWWQ228	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CHWP-1	Bell & Gossett	Hydronic Pumps	E-1510-4BD	
+Annotation
+	
+CHWP-2	Bell & Gossett	Hydronic Pumps	E-1510-4BD	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AS-1	Bell & Gossett	Particulate Air Filtration	CRSN-8F	
+Annotation
+	
+ET-1	Bell & Gossett	Thermal Storage	B200V	
+Annotation
+	
+N/A
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+VSD-CHW-1		Variable Frequency Drives	--	
+Annotation
+	
+VSD-CHWP-2		Variable Frequency Drives	--	
+Annotation
+	
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Barton Malow
+package projects
+23 10-2025 Stevenson Chiller Replacement
+
+    details
+
+MH
+23-10-2025 Stevenson Chiller Replacement
+39701 Dodge Park Road, Sterling Heights, MI 48313
+Organization Logo
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+sarah anker (sarah.anker@bartonmalow.com)
+Address
+39701 Dodge Park Road, Sterling Heights, MI 48313
+Created
+3/12/2025
+Expected Start
+12/1/2025
+Date Due
+3/26/2025
+Job Walk
+3/19/2025
+Contract Type
+--
+RFIs Due
+3/21/2025
+Date Invited
+3/12/2025
+Request Type
+Proposal
+Project Size
+--
+
+Project Link:
+https://app.buildvision.io/admin/organizations/8de1ec56-d0cc-4552-80f8-3fbd9e3f1055/package-projects/a21a5cf3-f3c7-420b-9837-bbd1c5cf4784/details
