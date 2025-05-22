@@ -300,6 +300,15 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
         const bodSupplier = item.suppliers.find(s => s.isBasisOfDesign === true) || item.suppliers[0];
         const basisOfDesign = bodSupplier ? `${bodSupplier.manufacturer} ${bodSupplier.model}` : '';
         
+        // Create a structured bodSupplier object to pass directly to latex-generator
+        const bodSupplierObj = {
+          manufacturer: bodSupplier.manufacturer || '',
+          model: bodSupplier.model || '',
+          representative: bodSupplier.representativeInfo?.company || 'N/A',
+          compatibilityNotes: bodSupplier.compatibilityNotes || 'Basis of Design',
+          isBasisOfDesign: true
+        };
+        
         // Include ONLY non-basis of design suppliers in the alternateOptions
         const alternateOptions = item.suppliers
           .filter(s => !s.isBasisOfDesign) // Filter out the basis of design supplier
@@ -316,6 +325,7 @@ function extractEquipmentTable(equipmentData, alternateManufacturers) {
         return {
           componentType,
           basisOfDesign,
+          bodSupplier: bodSupplierObj, // Include the structured bodSupplier object
           alternateOptions
         };
       } else {
@@ -490,7 +500,7 @@ function extractSections(jsonData) {
     
     jsonData.buildVisionRecommendations.forEach(rec => {
       const subsection = {
-        title: `${rec.id}. ${escapeLatex(rec.recommendation)}`,
+        title: `${rec.id}. ${rec.recommendation}`,
         content: ''
       };
       
