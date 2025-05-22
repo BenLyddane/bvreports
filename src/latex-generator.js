@@ -19,7 +19,8 @@ function generateLatex(parsedData, reportTitle) {
   const { customerInfo, projectInfo, sections, equipmentTable } = structuredData;
   
   // Start with document class and preamble
-  let latex = `\\documentclass{../templates/${CONFIG.latex.documentClass}}\n\n`;
+  // Use the templates directory in the temp directory
+  let latex = `\\documentclass{templates/${CONFIG.latex.documentClass}}\n\n`;
   
   // Begin document
   latex += '\\begin{document}\n\n';
@@ -102,7 +103,7 @@ function generateLatex(parsedData, reportTitle) {
  * @returns {string} - LaTeX code for the title page
  */
 function generateTitlePage(reportTitle, metadata, jsonData) {
-  const logoPath = '/Users/benjaminlyddane/Documents/Programming/BVReports/BuildVisionLogo.png';
+  const logoPath = CONFIG.paths.buildVisionLogo;
   // Don't show the report title on the title page
   const subtitle = CONFIG.defaultMetadata.subtitle;
   const tagline = metadata.tagline || CONFIG.defaultMetadata.tagline;

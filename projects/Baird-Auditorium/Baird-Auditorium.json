@@ -1,0 +1,1062 @@
+{
+  "reportTitle": "BuildVision Project Report for Renovate Baird Auditorium",
+  "customerInformation": {
+    "customerName": "Smithsonian Facilities",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "14572.000",
+    "additionalFields": {
+      "address": "600 Maryland Avenue S.W. Suite 5001, Washington, DC 20024-2520"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Renovate Baird Auditorium",
+    "location": "1000 Madison Drive NW Washington, D.C. 20560",
+    "startDate": "",
+    "completionDate": "2/13/2025",
+    "budget": "",
+    "scope": "Renovation of Baird Auditorium in the National Museum of Natural History",
+    "projectUrl": "",
+    "additionalFields": {
+      "buildingName": "Baird Auditorium",
+      "sfProjectNumber": "228"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-05-22"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "AHU-2 is a new recirculating unit. AHU-1 is an existing unit with revised airflow setpoints.",
+      "items": [
+        {
+          "equipmentTag": "AHU-2",
+          "manufacturer": "INGENIA",
+          "model": "CUSTOM AHU",
+          "specifications": {
+            "type": "RECIRCULATING",
+            "location": "GREEN RM MEZZ",
+            "airflow_min": "1500 CFM",
+            "airflow_max": "5000 CFM",
+            "outside_air_min": "500 CFM",
+            "outside_air_max": "1600 CFM",
+            "quantity": "2",
+            "pre_filter": "MERV 8",
+            "final_filter": "MERV 13",
+            "cooling_coil_capacity": "311 MBH",
+            "heating_coil_capacity": "150 MBH"
+          }
+        },
+        {
+          "equipmentTag": "(E) AHU-1",
+          "manufacturer": "INGENIA",
+          "model": "CUSTOM AHU",
+          "specifications": {
+            "type": "RECIRCULATING",
+            "location": "MECH ROOM",
+            "airflow_min": "5000 CFM",
+            "airflow_max": "10000 CFM",
+            "outside_air_min": "500 CFM",
+            "outside_air_max": "2500 CFM",
+            "sf_qty": "2",
+            "rf_qty": "2"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Horizontal mounted units for dressing room",
+      "items": [
+        {
+          "equipmentTag": "FCU-1",
+          "manufacturer": "DAIKIN",
+          "model": "FCHR",
+          "specifications": {
+            "type": "HORIZONTAL RECESSED",
+            "location": "DRESSING RM",
+            "airflow": "400 CFM",
+            "volume_control": "ECM",
+            "esp": "0.50 in-wg",
+            "motor_hp": "0.25",
+            "voltage": "277 V",
+            "phase": "1",
+            "total_capacity": "9100 Btu/h",
+            "entering_air_db": "76 °F",
+            "entering_air_wb": "65 °F",
+            "leaving_air_db": "55 °F",
+            "leaving_air_wb": "55 °F"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Blower Coil Units",
+      "notes": "Horizontal unit for electrical room",
+      "items": [
+        {
+          "equipmentTag": "BCU-1",
+          "manufacturer": "DAIKIN",
+          "model": "BCHD",
+          "specifications": {
+            "type": "HORIZONTAL EXPOSED",
+            "location": "ELEC RM",
+            "airflow": "1500 CFM",
+            "esp": "0.50 in-wg",
+            "motor_hp": "0.5",
+            "voltage": "277 V",
+            "phase": "1",
+            "total_capacity": "57600 Btu/h",
+            "entering_air_db": "80 °F",
+            "entering_air_wb": "67 °F",
+            "leaving_air_db": "55 °F",
+            "leaving_air_wb": "55 °F",
+            "operating_weight": "600 lb"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Volume Control Boxes",
+      "notes": "VAV boxes with reheat coils",
+      "items": [
+        {
+          "equipmentTag": "VAV-1",
+          "manufacturer": "TITUS",
+          "model": "DESV",
+          "specifications": {
+            "type": "SINGLE DUCT WITH REHEAT",
+            "location_of_equipment": "GREEN RM MEZZANINE",
+            "location_served": "GREEN ROOM",
+            "inlet_size": "6",
+            "outlet_size": "12x8",
+            "min_airflow": "100 CFM",
+            "max_airflow": "400 CFM",
+            "max_air_pd": "0.50 in-wg",
+            "min_inlet_sp": "0.25 in-wg",
+            "heating_airflow": "300 CFM",
+            "entering_air_temp": "50 °F",
+            "leaving_air_temp": "85 °F",
+            "entering_water_temp": "130 °F",
+            "leaving_water_temp": "100 °F",
+            "water_flow": "0.5 GPM",
+            "radiated_sound_nc": "27",
+            "discharge_sound_nc": "30"
+          }
+        },
+        {
+          "equipmentTag": "VAV-2",
+          "manufacturer": "TITUS",
+          "model": "DESV",
+          "specifications": {
+            "type": "SINGLE DUCT WITH REHEAT",
+            "location_of_equipment": "EAST AMBULATORY",
+            "location_served": "STAGE",
+            "inlet_size": "14",
+            "outlet_size": "20x18",
+            "min_airflow": "525 CFM",
+            "max_airflow": "1700 CFM",
+            "max_air_pd": "0.50 in-wg",
+            "min_inlet_sp": "0.25 in-wg",
+            "heating_airflow": "1700 CFM",
+            "entering_air_temp": "50 °F",
+            "leaving_air_temp": "75 °F",
+            "entering_water_temp": "130 °F",
+            "leaving_water_temp": "100 °F",
+            "water_flow": "3.0 GPM",
+            "radiated_sound_nc": "27",
+            "discharge_sound_nc": "25"
+          }
+        },
+        {
+          "equipmentTag": "VAV-3",
+          "manufacturer": "TITUS",
+          "model": "DESV",
+          "specifications": {
+            "type": "SINGLE DUCT WITH REHEAT",
+            "location_of_equipment": "EAST AMBULATORY",
+            "location_served": "AMBULATORIES",
+            "inlet_size": "14",
+            "outlet_size": "15x16",
+            "min_airflow": "525 CFM",
+            "max_airflow": "2600 CFM",
+            "max_air_pd": "0.50 in-wg",
+            "min_inlet_sp": "0.25 in-wg",
+            "heating_airflow": "2600 CFM",
+            "entering_air_temp": "50 °F",
+            "leaving_air_temp": "75 °F",
+            "entering_water_temp": "130 °F",
+            "leaving_water_temp": "100 °F",
+            "water_flow": "4.6 GPM",
+            "radiated_sound_nc": "30",
+            "discharge_sound_nc": "30"
+          }
+        },
+        {
+          "equipmentTag": "VAV-4",
+          "manufacturer": "TITUS",
+          "model": "DESV",
+          "specifications": {
+            "type": "SINGLE DUCT WITH REHEAT",
+            "location_of_equipment": "BACK OF HOUSE CORRIDOR",
+            "location_served": "BACK OF HOUSE CORRIDOR",
+            "inlet_size": "8",
+            "outlet_size": "10x12",
+            "min_airflow": "150 CFM",
+            "max_airflow": "400 CFM",
+            "max_air_pd": "0.50 in-wg",
+            "min_inlet_sp": "0.25 in-wg",
+            "heating_airflow": "400 CFM",
+            "entering_air_temp": "50 °F",
+            "leaving_air_temp": "100 °F",
+            "entering_water_temp": "130 °F",
+            "leaving_water_temp": "100 °F",
+            "water_flow": "1.5 GPM",
+            "radiated_sound_nc": "25",
+            "discharge_sound_nc": "30"
+          }
+        },
+        {
+          "equipmentTag": "VAV-5",
+          "manufacturer": "TITUS",
+          "model": "DESV",
+          "specifications": {
+            "type": "SINGLE DUCT WITH REHEAT",
+            "location_of_equipment": "BACK OF HOUSE CORRIDOR",
+            "location_served": "DRESSING ROOM",
+            "inlet_size": "6",
+            "outlet_size": "10x12",
+            "min_airflow": "80 CFM",
+            "max_airflow": "150 CFM",
+            "max_air_pd": "0.50 in-wg",
+            "min_inlet_sp": "0.25 in-wg",
+            "heating_airflow": "150 CFM",
+            "entering_air_temp": "50 °F",
+            "leaving_air_temp": "75 °F",
+            "entering_water_temp": "130 °F",
+            "leaving_water_temp": "100 °F",
+            "water_flow": "0.5 GPM",
+            "radiated_sound_nc": "25",
+            "discharge_sound_nc": "25"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fans",
+      "notes": "Supply and exhaust fans",
+      "items": [
+        {
+          "equipmentTag": "AHU-2 RF-1",
+          "manufacturer": "GREENHECK",
+          "model": "AX",
+          "specifications": {
+            "system": "AHU-2",
+            "location": "EXTERIOR TO UNIT",
+            "type": "INLINE",
+            "min_air_capacity": "1000 CFM",
+            "design_air_capacity": "5000 CFM",
+            "max_air_capacity": "5000 CFM",
+            "tsp": "2.00 in-wg",
+            "esp": "2.00 in-wg",
+            "fan_rpm": "3500",
+            "volume_control": "VFD",
+            "bhp": "7.63",
+            "hp": "5",
+            "max_rpm": "3600",
+            "voltage": "480 V",
+            "phase": "3"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2 SF-1",
+          "manufacturer": "GREENHECK",
+          "model": "APD",
+          "specifications": {
+            "system": "AHU-2",
+            "location": "IN UNIT",
+            "type": "PLENUM",
+            "min_air_capacity": "1000 CFM",
+            "design_air_capacity": "2500 CFM",
+            "max_air_capacity": "5000 CFM",
+            "tsp": "6.80 in-wg",
+            "esp": "3.00 in-wg",
+            "fan_rpm": "2392",
+            "volume_control": "VFD",
+            "bhp": "4.24",
+            "hp": "10",
+            "max_rpm": "3600",
+            "voltage": "480 V",
+            "phase": "3"
+          }
+        },
+        {
+          "equipmentTag": "AHU-2 SF-2",
+          "manufacturer": "GREENHECK",
+          "model": "APD",
+          "specifications": {
+            "system": "AHU-2",
+            "location": "IN UNIT",
+            "type": "PLENUM",
+            "min_air_capacity": "1000 CFM",
+            "design_air_capacity": "2500 CFM",
+            "max_air_capacity": "5000 CFM",
+            "tsp": "6.80 in-wg",
+            "esp": "3.00 in-wg",
+            "fan_rpm": "2392",
+            "volume_control": "VFD",
+            "bhp": "4.24",
+            "hp": "10",
+            "max_rpm": "3600",
+            "voltage": "480 V",
+            "phase": "3"
+          }
+        },
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "GREENHECK",
+          "model": "APD",
+          "specifications": {
+            "system": "TOILET/DRESSING RM EXHAUST",
+            "location": "TOILET RM CEILING",
+            "type": "INLINE",
+            "design_air_capacity": "250 CFM",
+            "max_air_capacity": "500 CFM",
+            "esp": "1.25 in-wg",
+            "fan_rpm": "1885",
+            "volume_control": "ECM",
+            "bhp": "",
+            "hp": "0.25",
+            "max_rpm": "1200",
+            "voltage": "480 V",
+            "phase": "1"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Includes condensate pumps and coil circulator",
+      "items": [
+        {
+          "equipmentTag": "CP-1",
+          "manufacturer": "LITTLE GIANT",
+          "model": "VCL",
+          "specifications": {
+            "type": "CONDENSATE PUMP",
+            "location": "ELEC RM",
+            "flow": "2 GPM",
+            "discharge_head": "5.00 FT-WG",
+            "hp": "0.025",
+            "voltage": "120 V",
+            "phase": "1"
+          }
+        },
+        {
+          "equipmentTag": "CP-2",
+          "manufacturer": "LITTLE GIANT",
+          "model": "VCL",
+          "specifications": {
+            "type": "CONDENSATE PUMP",
+            "location": "DRESSING RM",
+            "flow": "2 GPM",
+            "discharge_head": "5.00 FT-WG",
+            "hp": "0.025",
+            "voltage": "120 V",
+            "phase": "1"
+          }
+        },
+        {
+          "equipmentTag": "P-HC2-1",
+          "manufacturer": "BELL & GOSSETT",
+          "model": "ECO-CIRC",
+          "specifications": {
+            "type": "COIL CIRCULATOR",
+            "location": "GREEN RM MEZZ",
+            "flow": "10 GPM",
+            "discharge_head": "15.00 FT-WG",
+            "hp": "0.1",
+            "voltage": "120 V",
+            "phase": "1"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Duct Silencers",
+      "notes": "Extended casing silencers for noise control",
+      "items": [
+        {
+          "equipmentTag": "SA-1R",
+          "manufacturer": "VIBRO ACOUSTICS",
+          "model": "EX-RNM-MV-F3",
+          "specifications": {
+            "system": "AHU-1",
+            "type": "EXRNM",
+            "duct_width": "42 IN",
+            "outer_width": "44 IN",
+            "duct_height": "42 IN",
+            "outer_height": "44 IN",
+            "length": "60 IN",
+            "airflow": "10000 CFM",
+            "max_dp": "0.10 IN-WG",
+            "max_dp_w_sys_eff": "0.15 IN-WG"
+          }
+        },
+        {
+          "equipmentTag": "SA-1S",
+          "manufacturer": "VIBRO ACOUSTICS",
+          "model": "EX-RNM-MV-F3",
+          "specifications": {
+            "system": "AHU-1",
+            "type": "EXRNM",
+            "duct_width": "60 IN",
+            "outer_width": "63 IN",
+            "duct_height": "30 IN",
+            "outer_height": "31 IN",
+            "length": "60 IN",
+            "airflow": "10000 CFM",
+            "max_dp": "0.10 IN-WG",
+            "max_dp_w_sys_eff": "0.15 IN-WG"
+          }
+        },
+        {
+          "equipmentTag": "SA-2R",
+          "manufacturer": "VIBRO ACOUSTICS",
+          "model": "EX-RNM-HV-F3",
+          "specifications": {
+            "system": "AHU-2",
+            "type": "EXRNM",
+            "duct_width": "24 IN",
+            "outer_width": "25 IN",
+            "duct_height": "24 IN",
+            "outer_height": "25 IN",
+            "length": "36 IN",
+            "airflow": "5000 CFM",
+            "max_dp": "0.10 IN-WG",
+            "max_dp_w_sys_eff": "0.15 IN-WG"
+          }
+        },
+        {
+          "equipmentTag": "SA-2S",
+          "manufacturer": "VIBRO ACOUSTICS",
+          "model": "EX-RNM-HV-F3",
+          "specifications": {
+            "system": "AHU-2",
+            "type": "EXRNM",
+            "duct_width": "24 IN",
+            "outer_width": "25 IN",
+            "duct_height": "24 IN",
+            "outer_height": "25 IN",
+            "length": "36 IN",
+            "airflow": "5000 CFM",
+            "max_dp": "0.10 IN-WG",
+            "max_dp_w_sys_eff": "0.15 IN-WG"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Finned Tube Radiation",
+      "notes": "Wall mounted radiant panels",
+      "items": [
+        {
+          "equipmentTag": "FT-1",
+          "manufacturer": "RUNTAL",
+          "model": "R2-F",
+          "specifications": {
+            "mounting": "WALL MOUNTED",
+            "type": "DOUBLE FINNED PANEL RADIANT/CONVECTIVE",
+            "height": "6.09 INCHES",
+            "length": "48 INCHES",
+            "capacity_per_ft": "600 BTU/HR",
+            "flow": "1.00 GPM",
+            "average_water_temp": "120 °F"
+          }
+        },
+        {
+          "equipmentTag": "FT-2",
+          "manufacturer": "RUNTAL",
+          "model": "R2-F",
+          "specifications": {
+            "mounting": "WALL MOUNTED",
+            "type": "DOUBLE FINNED PANEL RADIANT/CONVECTIVE",
+            "height": "6.09 INCHES",
+            "length": "48 INCHES",
+            "capacity_per_ft": "600 BTU/HR",
+            "flow": "1.00 GPM",
+            "average_water_temp": "120 °F"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Ingenia",
+          "model": "Custom AHU",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Air Entierprises",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Comparable performance with industry standard components"
+        },
+        {
+          "manufacturer": "Buffalo Air Handling",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Industry leader with strong service network and comparable custom capabilities"
+        },
+        {
+          "manufacturer": "Temtrol",
+          "model": "Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Quality manufacturer with good institutional experience and similar custom capabilities"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Vision Custom AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Growing market share with competitive pricing and good quality"
+        }
+      ]
+    },
+    {
+      "componentType": "VAV Boxes",
+      "suppliers": [
+        {
+          "manufacturer": "Titus",
+          "model": "DESV",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Price",
+          "model": "SDV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Comparable quality and performance metrics"
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "3000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good quality alternative with lower price point"
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "LMHS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable manufacturer with compatible control systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin",
+          "model": "FCHR/BCHD",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "UniTrane",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Similar performance characteristics"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "42C Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Industry standard product with good availability"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "TEC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Reliable performance with competitive pricing"
+        },
+        {
+          "manufacturer": "IEC",
+          "model": "Hi-Performance Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good value option with slightly higher noise levels"
+        }
+      ]
+    },
+    {
+      "componentType": "Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "APD/AX",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "APD/AX Equivalent",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Compatible performance characteristics"
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "SQI/SQN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Similar performance with slight differences in sound characteristics"
+        },
+        {
+          "manufacturer": "New York Blower",
+          "model": "APD/AX Equivalent",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Durable construction with good institutional track record"
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Little Giant",
+          "model": "VCL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "For condensate pumps"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Eco-Circ",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "For coil circulators"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "Conlift/Alpha Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "High efficiency models available"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "00e Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Comparable quality and reliability to Bell & Gossett"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "Astro Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good performance with strong industry reputation"
+        }
+      ]
+    },
+    {
+      "componentType": "Grilles, Registers and Diffusers",
+      "suppliers": [
+        {
+          "manufacturer": "Price",
+          "model": "Various models",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Multiple models used throughout project"
+        },
+        {
+          "manufacturer": "Titus",
+          "model": "Equivalent Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Comparable performance and appearance"
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "Equivalent Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Similar aesthetic options with good performance"
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "Equivalent Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-6%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Competitive pricing with comparable throw patterns"
+        }
+      ]
+    },
+    {
+      "componentType": "Duct Silencers",
+      "suppliers": [
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "EX-RNM-MV-F3/EX-RNM-HV-F3",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Price",
+          "model": "Equivalent Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Similar acoustic performance"
+        },
+        {
+          "manufacturer": "Ruskin",
+          "model": "ACE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good acoustic performance with slightly higher pressure drop"
+        },
+        {
+          "manufacturer": "VAW Systems",
+          "model": "No-Media Silencers",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-4%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Compatible performance with different construction approach"
+        }
+      ]
+    },
+    {
+      "componentType": "Fin Tube Radiation",
+      "suppliers": [
+        {
+          "manufacturer": "Runtal",
+          "model": "R2-F",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Sterling",
+          "model": "Equivalent Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Similar heat output and appearance"
+        },
+        {
+          "manufacturer": "Vulcan",
+          "model": "Fintube Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-7%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Good performance with more standard appearance"
+        },
+        {
+          "manufacturer": "Rittling",
+          "model": "Panel Radiators",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Premium appearance with similar performance parameters"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Consolidate AHU Vendor Selection",
+      "rationale": "The mechanical schedules show that both AHU-2 (new) and existing AHU-1 are INGENIA custom air handling units. Maintaining the same manufacturer for all AHUs will provide consistency in parts, service, and maintenance protocols. This also enables potential volume discounts and simplified vendor management.",
+      "estimatedImpact": "5-10% cost savings on AHU-2 purchase through manufacturer loyalty discounts; reduced long-term maintenance costs by approximately 15% due to parts commonality and service efficiencies.",
+      "implementation": "1. Contact INGENIA to discuss project needs and reference existing installation\n2. Negotiate pricing based on established relationship and additional unit purchase\n3. Request compatibility with existing controls and monitoring systems\n4. Explore extended warranty options based on multiple-unit campus",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Standardize VAV Box Procurement",
+      "rationale": "All five VAV boxes specified are TITUS DESV models with similar configurations but varying sizes. Purchasing these as a package from a single supplier can reduce procurement costs and simplify installation coordination. The consistent manufacturer selection indicates an opportunity for bulk purchasing.",
+      "estimatedImpact": "Potential 7-12% cost reduction on total VAV box procurement; improved delivery coordination reducing schedule risks by 1-2 weeks; possible improved warranty terms when purchased as a package.",
+      "implementation": "1. Bundle all five VAV boxes into a single procurement package\n2. Request tiered pricing from TITUS based on quantity\n3. Coordinate single delivery timeline to reduce freight costs\n4. Ensure controls compatibility across all units",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Evaluate Fan Coil Unit Alternatives",
+      "rationale": "The schedule specifies Daikin FCUs and BCUs (FCU-1, BCU-1). While Daikin is a quality manufacturer, a value engineering analysis of comparable products from manufacturers like Trane or Carrier might yield cost benefits without sacrificing performance. The specified models have standard performance metrics that could be matched by alternative suppliers.",
+      "estimatedImpact": "Potential savings of 8-15% on FCU/BCU costs; increased supplier competition may yield improved lead times by 1-3 weeks; comparable warranty and performance at reduced cost.",
+      "implementation": "1. Identify equivalent models from 2-3 alternative manufacturers\n2. Request comparative quotes specifying the exact performance criteria\n3. Evaluate total cost of ownership including energy efficiency\n4. Require submittal of performance data to verify equivalence",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Bulk Purchase Grilles, Registers, and Diffusers",
+      "rationale": "The schedule shows multiple air distribution devices (grilles, registers, and diffusers) primarily from PRICE. Consolidating this procurement with a single supplier order would likely result in volume discounts and reduced shipping costs. The project requires multiple types and sizes, making this an ideal category for bulk purchasing.",
+      "estimatedImpact": "Approximately 10-15% cost savings on air distribution devices; reduced administrative overhead for processing multiple purchase orders; simplified delivery logistics and coordination.",
+      "implementation": "1. Compile complete list of all air distribution devices\n2. Request manufacturer representative to provide package pricing\n3. Consider alternative manufacturers who can supply the full range\n4. Coordinate single delivery to reduce shipping costs",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Pre-Purchase Long Lead Items",
+      "rationale": "Several specialized items in the schedule may have extended manufacturing lead times, particularly the custom AHU-2 from INGENIA and the duct silencers from VIBRO ACOUSTICS. Early procurement of these items can prevent schedule delays that would impact overall project completion.",
+      "estimatedImpact": "Potential schedule acceleration of 3-8 weeks; avoidance of expediting fees (typically 15-25% of equipment cost); better pricing by allowing standard manufacturing timelines rather than rushed production.",
+      "implementation": "1. Identify all items with lead times exceeding 8 weeks\n2. Initiate procurement process for these items immediately\n3. Secure storage if items arrive before installation is possible\n4. Consider partial payments to secure manufacturing slots",
+      "priority": "High"
+    }
+  ],
+  "conclusion": {
+    "summary": "The Baird Auditorium renovation project requires strategic procurement of HVAC equipment including air handling units, VAV boxes, fan coil units, and various fans and pumps. The equipment procurement process should prioritize consistent manufacturer selection where possible, particularly for the custom INGENIA air handling units. Early ordering of long-lead items such as custom AHUs and duct silencers is critical to maintain the project timeline with completion targeted for February 2025. Several cost-saving opportunities exist through consolidated purchasing and consideration of alternative manufacturers that meet performance specifications.",
+    "keyFindings": [
+      "Multiple equipment types from the same manufacturer present opportunities for bulk purchasing and vendor loyalty discounts, particularly for TITUS VAV boxes and PRICE air distribution devices",
+      "Long lead items including custom INGENIA air handling units and VIBRO ACOUSTICS duct silencers require early procurement to prevent schedule delays",
+      "Alternative manufacturers for most equipment types can provide comparable performance at 3-8% lower cost while maintaining quality standards",
+      "Standardization of equipment manufacturers across the facility (including matching the existing AHU-1 with the new AHU-2) will simplify maintenance and reduce long-term operational costs"
+    ],
+    "highestPriorityActions": [
+      "Immediately initiate procurement of custom INGENIA AHU-2 and other long-lead items to maintain the February 2025 completion timeline",
+      "Bundle VAV boxes, air distribution devices, and other similar components into consolidated purchase packages to leverage quantity discounts",
+      "Evaluate alternative manufacturers, particularly for fan coil units and blower coil units, where 8-15% cost savings may be achieved without compromising performance",
+      "Establish quality control protocols and performance testing requirements for all equipment to ensure compliance with acoustic and efficiency specifications critical for an auditorium environment"
+    ]
+  }
+}

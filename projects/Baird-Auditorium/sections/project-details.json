@@ -1,0 +1,41 @@
+{
+  "reportTitle": "BuildVision Project Report for Renovate Baird Auditorium",
+  "customerInformation": {
+    "customerName": "Smithsonian Facilities",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "14572.000",
+    "additionalFields": {
+      "address": "600 Maryland Avenue S.W. Suite 5001, Washington, DC 20024-2520"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Renovate Baird Auditorium",
+    "location": "1000 Madison Drive NW Washington, D.C. 20560",
+    "startDate": "",
+    "completionDate": "2/13/2025",
+    "budget": "",
+    "scope": "Renovation of Baird Auditorium in the National Museum of Natural History",
+    "projectUrl": "",
+    "additionalFields": {
+      "buildingName": "Baird Auditorium",
+      "sfProjectNumber": "228"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2/14/2025"
+  }
+}

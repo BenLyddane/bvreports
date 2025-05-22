@@ -6,6 +6,9 @@
  */
 
 const path = require('path');
+// Load environment variables from .env.local file
+require('dotenv').config({ path: path.resolve(__dirname, '..', '.env.local') });
+
 const { getBestLatexPath } = require('./latex-setup');
 
 // Configuration object
@@ -18,6 +21,7 @@ const CONFIG = {
     assetsDir: path.join(__dirname, '..', 'assets'),
     processedListFile: path.join(__dirname, '..', 'processed-files.json'),
     buildVisionLogo: path.join(__dirname, '..', 'BuildVisionLogo.png'),
+    fontPath: process.env.FONT_PATH || path.join(__dirname, '..', 'fonts', 'inter', 'Inter Desktop'),
   },
   
   // LaTeX settings
