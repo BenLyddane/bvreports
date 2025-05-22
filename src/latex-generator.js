@@ -415,57 +415,29 @@ function generateEquipmentTable(equipmentTable) {
       latex += '\\hline\n';
       latex += '\\endlastfoot\n\n';
       
-      // First extract the basis of design supplier from the JSON data
-      let bodSupplier = null;
-      if (item.basisOfDesign) {
-        // For backward compatibility with the old format
-        bodSupplier = {
-          manufacturer: item.basisOfDesign.split(' ')[0] || '',
-          model: item.basisOfDesign.split(' ').slice(1).join(' ') || '',
-          representative: 'N/A',
-          compatibilityNotes: 'Basis of Design',
-          isBasisOfDesign: true
-        };
-      }
-      
       // Combine basis of design and alternates into one array for display
       const allSuppliers = [];
       
-      // For the new format (where we have filtered alternateOptions already)
-      if (item.suppliers && item.suppliers.length > 0) {
-        // First, add the basis of design supplier (from the item.suppliers array)
-        const bodSupplier = item.suppliers.find(s => s.isBasisOfDesign === true);
-        if (bodSupplier) {
-          allSuppliers.push({
-            manufacturer: bodSupplier.manufacturer || '',
-            model: bodSupplier.model || '',
-            representative: bodSupplier.representativeInfo?.company || 'N/A',
-            compatibilityNotes: bodSupplier.compatibilityNotes || 'Basis of Design',
-            isBasisOfDesign: true
+      // Check if we have a bodSupplier object from json-parser.js (new format)
+      if (item.bodSupplier) {
+        // Add the basis of design supplier directly
+        allSuppliers.push(item.bodSupplier);
+        
+        // Then add the alternate options
+        if (item.alternateOptions && Array.isArray(item.alternateOptions)) {
+          item.alternateOptions.forEach(alt => {
+            allSuppliers.push({
+              ...alt,
+              isBasisOfDesign: false
+            });
           });
         }
-        
-        // Then add the alternate options (already filtered in json-parser.js)
-        item.alternateOptions.forEach(alt => {
-          allSuppliers.push({
-            ...alt,
-            isBasisOfDesign: false
-          });
-        });
       } 
-      // For the old format
-      else {
-        // Add the basis of design supplier if found in the old format
-        if (bodSupplier) {
-          allSuppliers.push(bodSupplier);
-        }
-        
-        // Add all alternate options from the old format
-        item.alternateOptions.forEach(alt => {
-          allSuppliers.push({
-            ...alt,
-            isBasisOfDesign: false
-          });
+      // For the old format (where alternateOptions already includes the BOD)
+      else if (item.alternateOptions && Array.isArray(item.alternateOptions)) {
+        // Add all options (including BOD) from the old format
+        item.alternateOptions.forEach(supplier => {
+          allSuppliers.push(supplier);
         });
       }
       
