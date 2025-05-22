@@ -11,6 +11,15 @@ const CONFIG = require('./config');
 const { cleanupTempFiles } = require('./utils');
 
 /**
+ * Escape special characters in a string for use in a regular expression
+ * @param {string} string - String to escape
+ * @returns {string} - Escaped string
+ */
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+}
+
+/**
  * Compile LaTeX code into a PDF file
  * @param {string} latexCode - LaTeX code to compile
  * @param {string} outputPath - Path to save the PDF file
@@ -37,6 +46,38 @@ async function compilePdf(latexCode, outputPath) {
       const destPath = path.join(tempFontsDir, fontFile);
       await fs.copy(sourcePath, destPath);
     }
+    
+    // Create a temporary templates directory
+    const tempTemplatesDir = path.join(CONFIG.latex.tempDir, 'templates');
+    await fs.ensureDir(tempTemplatesDir);
+    
+    // Read the buildvision.cls file
+    const buildvisionClsPath = path.join(__dirname, '..', 'templates', 'buildvision.cls');
+    let buildvisionCls = await fs.readFile(buildvisionClsPath, 'utf8');
+    
+    // Replace the font path placeholder with the actual font path
+    // Ensure the path is properly escaped for LaTeX
+    const fontPath = CONFIG.paths.fontPath.replace(/\\/g, '/');
+    // Escape any special LaTeX characters in the path
+    const escapedFontPath = fontPath.replace(/([&%$#_{}~^\\])/g, '\\$1');
+    buildvisionCls = buildvisionCls.replace(/FONTPATH_PLACEHOLDER/g, escapedFontPath);
+    
+    console.log(`Using font path: ${escapedFontPath}`);
+    
+    // Write the modified buildvision.cls to the temporary templates directory
+    const tempBuildvisionClsPath = path.join(tempTemplatesDir, 'buildvision.cls');
+    await fs.writeFile(tempBuildvisionClsPath, buildvisionCls, 'utf8');
+    
+    // Copy the BuildVision logo to the temp directory
+    const logoPath = CONFIG.paths.buildVisionLogo;
+    const tempLogoPath = path.join(CONFIG.latex.tempDir, path.basename(logoPath));
+    await fs.copy(logoPath, tempLogoPath);
+    
+    // Update the LaTeX code to use the local logo path
+    latexCode = latexCode.replace(
+      new RegExp(escapeRegExp(logoPath), 'g'),
+      path.basename(logoPath)
+    );
     
     // Write LaTeX code to the temporary file
     await fs.writeFile(tempFilePath, latexCode, 'utf8');
