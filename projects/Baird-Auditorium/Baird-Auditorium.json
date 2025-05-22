@@ -36,7 +36,7 @@
         "phone": "843-609-3265"
       }
     ],
-    "preparationDate": "2025-05-21"
+    "preparationDate": "2025-05-22"
   },
   "equipmentByType": [
     {
@@ -523,8 +523,8 @@
           "compatibilityNotes": ""
         },
         {
-          "manufacturer": "Trane",
-          "model": "Performance Climate Changer",
+          "manufacturer": "Air Entierprises",
+          "model": "N/A",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -536,8 +536,8 @@
           "compatibilityNotes": "Comparable performance with industry standard components"
         },
         {
-          "manufacturer": "Carrier",
-          "model": "39L Custom AHU",
+          "manufacturer": "Buffalo Air Handling",
+          "model": "N/A",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -546,20 +546,20 @@
             "contact": ""
           },
           "costDifference": "-8%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Industry leader with strong service network and comparable custom capabilities"
+          "compatibilityNotes": "Industry leader with strong service network and comparable custom capabilities"
         },
         {
-          "manufacturer": "York",
-          "model": "Solution Custom AHU",
+          "manufacturer": "Temtrol",
+          "model": "Custom AHU",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
           "costDifference": "-3%",
-          "compatibilityNotes": "SUGGESTED ALTERNATIVE: Quality manufacturer with good institutional experience and similar custom capabilities"
+          "compatibilityNotes": "Quality manufacturer with good institutional experience and similar custom capabilities"
         },
         {
           "manufacturer": "Daikin",
