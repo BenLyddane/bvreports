@@ -7,10 +7,10 @@
     "contactPhone": "",
     "projectId": "d9ccf49d-0eba-4852-8c17-c04b44d3fe4a",
     "additionalFields": {
-      "projectStatus": "",
-      "contractType": "",
-      "bidStatus": "BuildingConnected Lead",
-      "requestType": "Proposal"
+      "Request Type": "Proposal",
+      "Date Invited": "5/27/2025",
+      "Date Due": "6/30/2025",
+      "RFIs Due": "6/19/2025"
     }
   },
   "projectInformation": {
@@ -22,12 +22,8 @@
     "scope": "",
     "projectUrl": "https://app.buildvision.io/admin/organizations/373e34b7-2026-4706-8184-e7cab765dba7/package-projects/d9ccf49d-0eba-4852-8c17-c04b44d3fe4a/details",
     "additionalFields": {
-      "expectedStart": "--",
-      "dateInvited": "5/27/2025",
-      "jobWalk": "--",
-      "projectSize": "--",
-      "rfisDue": "6/19/2025",
-      "dateDue": "6/30/2025"
+      "Solicitation No.": "W9128F25RA015",
+      "Contract No.": "W9128F21D0024"
     }
   },
   "preparerInformation": {
@@ -43,6 +39,6 @@
         "phone": "843-609-3265"
       }
     ],
-    "preparationDate": ""
+    "preparationDate": "03/14/2025"
   }
 }

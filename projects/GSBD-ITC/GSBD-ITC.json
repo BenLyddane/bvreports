@@ -7,10 +7,10 @@
     "contactPhone": "",
     "projectId": "d9ccf49d-0eba-4852-8c17-c04b44d3fe4a",
     "additionalFields": {
-      "projectStatus": "",
-      "contractType": "",
-      "bidStatus": "BuildingConnected Lead",
-      "requestType": "Proposal"
+      "Request Type": "Proposal",
+      "Date Invited": "5/27/2025",
+      "Date Due": "6/30/2025",
+      "RFIs Due": "6/19/2025"
     }
   },
   "projectInformation": {
@@ -22,12 +22,8 @@
     "scope": "",
     "projectUrl": "https://app.buildvision.io/admin/organizations/373e34b7-2026-4706-8184-e7cab765dba7/package-projects/d9ccf49d-0eba-4852-8c17-c04b44d3fe4a/details",
     "additionalFields": {
-      "expectedStart": "--",
-      "dateInvited": "5/27/2025",
-      "jobWalk": "--",
-      "projectSize": "--",
-      "rfisDue": "6/19/2025",
-      "dateDue": "6/30/2025"
+      "Solicitation No.": "W9128F25RA015",
+      "Contract No.": "W9128F21D0024"
     }
   },
   "preparerInformation": {
@@ -48,7 +44,7 @@
   "equipmentByType": [
     {
       "equipmentType": "Air Handling Units",
-      "notes": "AHUs are designed with capacities ranging from 4,830 to 10,300 CFM. Units include supply/return fans, filters, and various coils. Performance based on design altitude of 6,115 ft.",
+      "notes": "Performance based on design altitude of 6,115 ft. Units include filters, ductwork, coils, and vibration isolators.",
       "items": [
         {
           "equipmentTag": "AHU-1",
@@ -57,35 +53,23 @@
           "specifications": {
             "service": "Dedicated Outdoor Air System",
             "airflow": "6,355 CFM",
-            "minOutdoorAir": "6,355 CFM",
+            "minimumOutdoorAir": "6,355 CFM",
             "externalStaticPressure": "0.8 in. w.g.",
-            "supplyFan": {
-              "quantity": 1,
-              "rpm": 1776,
-              "brakePower": "5.0 Hp",
-              "motorPower": "7.5 Hp"
-            },
-            "returnFan": {
-              "airflow": "5,530 CFM",
-              "externalStaticPressure": "0.9 in. w.g.",
-              "quantity": 1,
-              "rpm": 1668,
-              "brakePower": "3.4 Hp",
-              "motorPower": "5.0 Hp"
-            },
-            "preFilter": {
-              "type": "Pleated Media",
-              "merv": 8
-            },
-            "finalFilter": {
-              "type": "Cartridge",
-              "merv": 13
-            },
-            "electrical": {
-              "voltage": 460,
-              "hz": 60,
-              "phase": 3
-            }
+            "fanQuantity": 1,
+            "fanRPM": 1776,
+            "brakePower": "5.0 Hp",
+            "motorPower": "7.5 Hp",
+            "returnAirflow": "5,530 CFM",
+            "returnExternalStaticPressure": "0.9 in. w.g.",
+            "returnFanQuantity": 1,
+            "returnFanRPM": 1668,
+            "returnFanBrakePower": "3.4 Hp",
+            "returnFanMotorPower": "5.0 Hp",
+            "preFilter": "Pleated Media MERV 8",
+            "finalFilter": "Cartridge MERV 13",
+            "voltage": 460,
+            "phase": 3,
+            "Hz": 60
           }
         },
         {
@@ -95,35 +79,23 @@
           "specifications": {
             "service": "Dedicated Outdoor Air System",
             "airflow": "4,830 CFM",
-            "minOutdoorAir": "4,830 CFM",
+            "minimumOutdoorAir": "4,830 CFM",
             "externalStaticPressure": "0.9 in. w.g.",
-            "supplyFan": {
-              "quantity": 1,
-              "rpm": 1851,
-              "brakePower": "4.4 Hp",
-              "motorPower": "5.0 Hp"
-            },
-            "returnFan": {
-              "airflow": "4,320 CFM",
-              "externalStaticPressure": "0.8 in. w.g.",
-              "quantity": 1,
-              "rpm": 1684,
-              "brakePower": "2.5 Hp",
-              "motorPower": "3.0 Hp"
-            },
-            "preFilter": {
-              "type": "Pleated Media",
-              "merv": 8
-            },
-            "finalFilter": {
-              "type": "Cartridge",
-              "merv": 13
-            },
-            "electrical": {
-              "voltage": 460,
-              "hz": 60,
-              "phase": 3
-            }
+            "fanQuantity": 1,
+            "fanRPM": 1851,
+            "brakePower": "4.4 Hp",
+            "motorPower": "5.0 Hp",
+            "returnAirflow": "4,320 CFM",
+            "returnExternalStaticPressure": "0.8 in. w.g.",
+            "returnFanQuantity": 1,
+            "returnFanRPM": 1684,
+            "returnFanBrakePower": "2.5 Hp",
+            "returnFanMotorPower": "3.0 Hp",
+            "preFilter": "Pleated Media MERV 8",
+            "finalFilter": "Cartridge MERV 13",
+            "voltage": 460,
+            "phase": 3,
+            "Hz": 60
           }
         },
         {
@@ -133,42 +105,30 @@
           "specifications": {
             "service": "High Bay Makeup Air",
             "airflow": "10,300 CFM",
-            "minOutdoorAir": "10,000 CFM",
+            "minimumOutdoorAir": "10,000 CFM",
             "externalStaticPressure": "0.7 in. w.g.",
-            "supplyFan": {
-              "quantity": 1,
-              "rpm": 1701,
-              "brakePower": "7.5 Hp",
-              "motorPower": "10.0 Hp"
-            },
-            "returnFan": {
-              "airflow": "10,500 CFM",
-              "externalStaticPressure": "0.8 in. w.g.",
-              "quantity": 1,
-              "rpm": 1715,
-              "brakePower": "7.2 Hp",
-              "motorPower": "7.5 Hp"
-            },
-            "preFilter": {
-              "type": "Pleated Media",
-              "merv": 8
-            },
-            "finalFilter": {
-              "type": "Pleated Media",
-              "merv": 8
-            },
-            "electrical": {
-              "voltage": 460,
-              "hz": 60,
-              "phase": 3
-            }
+            "fanQuantity": 1,
+            "fanRPM": 1701,
+            "brakePower": "7.5 Hp",
+            "motorPower": "10.0 Hp",
+            "returnAirflow": "10,500 CFM",
+            "returnExternalStaticPressure": "0.8 in. w.g.",
+            "returnFanQuantity": 1,
+            "returnFanRPM": 1715,
+            "returnFanBrakePower": "7.2 Hp",
+            "returnFanMotorPower": "7.5 Hp",
+            "preFilter": "Pleated Media MERV 8",
+            "finalFilter": "Pleated Media MERV 8",
+            "voltage": 460,
+            "phase": 3,
+            "Hz": 60
           }
         }
       ]
     },
     {
       "equipmentType": "Energy Recovery Wheels",
-      "notes": "Energy wheels provide heat recovery with minimum sensible efficiency of 71.5% and total efficiency of 68.4-76.6%.",
+      "notes": "Performance based on design altitude of 6,115 ft. Wheels employ supply and exhaust airstreams through energy recovery device.",
       "items": [
         {
           "equipmentTag": "EW-1",
@@ -179,15 +139,27 @@
             "service": "AHU-1",
             "supplyAirflow": "6,355 CFM",
             "supplyMaxAPD": "0.9 in. w.g.",
+            "supplyEATDB": "87.3 °F",
+            "supplyEATWB": "57.6 °F",
+            "supplyLATDB": "80.3 °F",
+            "supplyLATWB": "62.2 °F",
+            "supplyWinterEATDB": "3.1 °F",
+            "supplyWinterEATWB": "2.0 °F",
+            "supplyWinterLATDB": "48.8 °F",
+            "supplyWinterLATWB": "38.1 °F",
             "exhaustAirflow": "5,530 CFM",
             "exhaustMaxAPD": "0.8 in. w.g.",
-            "minSensibleEfficiency": "83.7%",
+            "exhaustSummerEATDB": "78.0 °F",
+            "exhaustSummerEATWB": "64.0 °F",
+            "exhaustSummerLATDB": "68.0 °F",
+            "exhaustSummerLATWB": "50.0 °F",
+            "exhaustWinterEATDB": "83.7 °F",
+            "exhaustWinterEATWB": "76.0 °F",
+            "minSensibleEfficiency": "71.5%",
             "minTotalEfficiency": "76.0%",
-            "electrical": {
-              "voltage": 460,
-              "hz": 60,
-              "phase": 3
-            }
+            "voltage": 460,
+            "phase": 3,
+            "Hz": 60
           }
         },
         {
@@ -199,15 +171,27 @@
             "service": "AHU-2",
             "supplyAirflow": "4,830 CFM",
             "supplyMaxAPD": "0.8 in. w.g.",
+            "supplyEATDB": "87.3 °F",
+            "supplyEATWB": "57.6 °F",
+            "supplyLATDB": "80.0 °F",
+            "supplyLATWB": "62.3 °F",
+            "supplyWinterEATDB": "3.1 °F",
+            "supplyWinterEATWB": "2.0 °F",
+            "supplyWinterLATDB": "50.2 °F",
+            "supplyWinterLATWB": "39.0 °F",
             "exhaustAirflow": "4,320 CFM",
             "exhaustMaxAPD": "0.8 in. w.g.",
-            "minSensibleEfficiency": "84.2%",
+            "exhaustSummerEATDB": "78.0 °F",
+            "exhaustSummerEATWB": "64.0 °F",
+            "exhaustSummerLATDB": "68.0 °F",
+            "exhaustSummerLATWB": "50.0 °F",
+            "exhaustWinterEATDB": "84.2 °F",
+            "exhaustWinterEATWB": "76.6 °F",
+            "minSensibleEfficiency": "72.9%",
             "minTotalEfficiency": "76.6%",
-            "electrical": {
-              "voltage": 460,
-              "hz": 60,
-              "phase": 3
-            }
+            "voltage": 460,
+            "phase": 3,
+            "Hz": 60
           }
         },
         {
@@ -219,22 +203,34 @@
             "service": "AHU-3",
             "supplyAirflow": "10,000 CFM",
             "supplyMaxAPD": "0.9 in. w.g.",
+            "supplyEATDB": "87.3 °F",
+            "supplyEATWB": "57.6 °F",
+            "supplyLATDB": "94.6 °F",
+            "supplyLATWB": "62.0 °F",
+            "supplyWinterEATDB": "3.1 °F",
+            "supplyWinterEATWB": "2.0 °F",
+            "supplyWinterLATDB": "43.1 °F",
+            "supplyWinterLATWB": "27.7 °F",
             "exhaustAirflow": "10,500 CFM",
             "exhaustMaxAPD": "0.9 in. w.g.",
+            "exhaustSummerEATDB": "97.3 °F",
+            "exhaustSummerEATWB": "63.7 °F",
+            "exhaustSummerLATDB": "60.0 °F",
+            "exhaustSummerLATWB": "37.5 °F",
+            "exhaustWinterEATDB": "68.4 °F",
+            "exhaustWinterEATWB": "68.4 °F",
             "minSensibleEfficiency": "68.4%",
             "minTotalEfficiency": "68.4%",
-            "electrical": {
-              "voltage": 460,
-              "hz": 60,
-              "phase": 3
-            }
+            "voltage": 460,
+            "phase": 3,
+            "Hz": 60
           }
         }
       ]
     },
     {
       "equipmentType": "Water Cooling Coils",
-      "notes": "Cooling coils are sized based on entering and leaving air temperatures with capacity provided for reference. Performance based on design altitude of 6,115 ft.",
+      "notes": "Performance based on design altitude of 6,115 ft. Capacity based on 40% propylene glycol.",
       "items": [
         {
           "equipmentTag": "WCC-1",
@@ -244,28 +240,24 @@
             "service": "AHU-1",
             "designAirflow": "6,355 CFM",
             "minimumCoilArea": "20.2 ft²",
-            "maximumFaceVelocity": "315 FPM",
+            "maximumFaceVelocity": "315 fpm",
             "maximumAPD": "0.16 in. w.g.",
             "minimumRows": 6,
-            "enteringAirTemp": {
-              "db": "80.3°F",
-              "wb": "62.2°F"
-            },
-            "leavingAirTemp": {
-              "db": "54.0°F",
-              "wb": "53.7°F"
-            },
-            "coolingCapacity": {
-              "total": "149.4 MBh",
-              "sensible": "146.7 MBh"
-            },
+            "EATDB": "80.3 °F",
+            "EATWB": "62.2 °F",
+            "LATDB": "54.0 °F",
+            "LATWB": "53.7 °F",
+            "minimumTotalCoolingCapacity": "149.4 MBh",
+            "minimumSensibleCoolingCapacity": "146.7 MBh",
             "waterFlowrate": "18.6 GPM",
-            "waterTemp": {
-              "entering": "44.0°F",
-              "leaving": "60.0°F"
-            },
-            "acvSize": "1 inch",
-            "cv": 14
+            "EWT": "44.0 °F",
+            "LWT": "60.0 °F",
+            "ACVSize": "1 inch",
+            "Cv": 14,
+            "coolingCoilACVAssemblySize": "2 inch",
+            "maxPressureDropCoil": "0.8 ft",
+            "maxPressureDropACV": "4.3 ft",
+            "maxPressureDropTotal": "5.1 ft"
           }
         },
         {
@@ -276,35 +268,31 @@
             "service": "AHU-2",
             "designAirflow": "4,830 CFM",
             "minimumCoilArea": "12.9 ft²",
-            "maximumFaceVelocity": "374 FPM",
+            "maximumFaceVelocity": "374 fpm",
             "maximumAPD": "0.27 in. w.g.",
             "minimumRows": 6,
-            "enteringAirTemp": {
-              "db": "80.0°F",
-              "wb": "62.3°F"
-            },
-            "leavingAirTemp": {
-              "db": "54.0°F",
-              "wb": "53.8°F"
-            },
-            "coolingCapacity": {
-              "total": "117.7 MBh",
-              "sensible": "117.0 MBh"
-            },
+            "EATDB": "80.0 °F",
+            "EATWB": "62.3 °F",
+            "LATDB": "54.0 °F",
+            "LATWB": "53.8 °F",
+            "minimumTotalCoolingCapacity": "117.7 MBh",
+            "minimumSensibleCoolingCapacity": "117.0 MBh",
             "waterFlowrate": "14.7 GPM",
-            "waterTemp": {
-              "entering": "44.0°F",
-              "leaving": "60.0°F"
-            },
-            "acvSize": "1 inch",
-            "cv": 14
+            "EWT": "44.0 °F",
+            "LWT": "60.0 °F",
+            "ACVSize": "1 inch",
+            "Cv": 14,
+            "coolingCoilACVAssemblySize": "2 inch",
+            "maxPressureDropCoil": "0.8 ft",
+            "maxPressureDropACV": "2.7 ft",
+            "maxPressureDropTotal": "3.5 ft"
           }
         }
       ]
     },
     {
       "equipmentType": "Heating Water Coils",
-      "notes": "Heating coils sized based on entering and leaving air temperatures with capacity provided for reference. Capacity based on 40% propylene glycol. Performance based on design altitude of 6,115 ft.",
+      "notes": "Performance based on design altitude of 6,115 ft. Capacity based on 40% propylene glycol.",
       "items": [
         {
           "equipmentTag": "HC-01",
@@ -314,18 +302,20 @@
             "service": "AHU-1 Preheat",
             "designAirflow": "6,355 CFM",
             "minimumCoilArea": "21.0 ft²",
-            "maximumFaceVelocity": "303 FPM",
+            "maximumFaceVelocity": "303 fpm",
             "maximumAPD": "0.05 in. w.g.",
-            "enteringAirTemp": "3°F",
-            "leavingAirTemp": "55°F",
+            "EAT": "3 °F",
+            "LAT": "55 °F",
             "heatingCapacity": "283.9 MBh",
             "waterFlowrate": "26.2 GPM",
-            "waterTemp": {
-              "entering": "110°F",
-              "leaving": "86°F"
-            },
-            "acvSize": "1 1/2 inch",
-            "cv": 28
+            "EWT": "110 °F",
+            "LWT": "86 °F",
+            "ACVSize": "1 1/2 inch",
+            "Cv": 28,
+            "ACVAssemblySize": "2 inch",
+            "maxPressureDropCoil": "1.7 ft",
+            "maxPressureDropACV": "2.7 ft",
+            "maxPressureDropTotal": "4.4 ft"
           }
         },
         {
@@ -336,87 +326,20 @@
             "service": "AHU-2 Preheat",
             "designAirflow": "4,830 CFM",
             "minimumCoilArea": "12.9 ft²",
-            "maximumFaceVelocity": "374 FPM",
+            "maximumFaceVelocity": "374 fpm",
             "maximumAPD": "0.15 in. w.g.",
-            "enteringAirTemp": "3°F",
-            "leavingAirTemp": "55°F",
+            "EAT": "3 °F",
+            "LAT": "55 °F",
             "heatingCapacity": "217.3 MBh",
             "waterFlowrate": "20.0 GPM",
-            "waterTemp": {
-              "entering": "110°F",
-              "leaving": "86°F"
-            },
-            "acvSize": "1 1/4 inch",
-            "cv": 20
-          }
-        },
-        {
-          "equipmentTag": "HC-03",
-          "manufacturer": "",
-          "model": "",
-          "specifications": {
-            "service": "AHU-1 Reheat",
-            "designAirflow": "6,355 CFM",
-            "minimumCoilArea": "20.6 ft²",
-            "maximumFaceVelocity": "308 FPM",
-            "maximumAPD": "0.05 in. w.g.",
-            "enteringAirTemp": "54°F",
-            "leavingAirTemp": "73°F",
-            "heatingCapacity": "103.8 MBh",
-            "waterFlowrate": "9.6 GPM",
-            "waterTemp": {
-              "entering": "110°F",
-              "leaving": "86°F"
-            },
-            "acvSize": "3/4 inch",
-            "cv": 7.5
-          }
-        },
-        {
-          "equipmentTag": "HC-04",
-          "manufacturer": "",
-          "model": "",
-          "specifications": {
-            "service": "AHU-2 Reheat",
-            "designAirflow": "4,830 CFM",
-            "minimumCoilArea": "13.6 ft²",
-            "maximumFaceVelocity": "354 FPM",
-            "maximumAPD": "0.08 in. w.g.",
-            "enteringAirTemp": "54°F",
-            "leavingAirTemp": "73°F",
-            "heatingCapacity": "79.4 MBh",
-            "waterFlowrate": "7.3 GPM",
-            "waterTemp": {
-              "entering": "110°F",
-              "leaving": "86°F"
-            },
-            "acvSize": "3/4 inch",
-            "cv": 5.5
-          }
-        }
-      ]
-    },
-    {
-      "equipmentType": "Gas Heating Coils",
-      "notes": "Gas heating coils with minimum burner turndown ratio of 10:1. Performance based on design altitude of 6,115 ft. Gas input based on 1,000 BTU/ft³.",
-      "items": [
-        {
-          "equipmentTag": "HC-G-01",
-          "manufacturer": "",
-          "model": "",
-          "specifications": {
-            "service": "AHU-3",
-            "designAirflow": "7,875 CFM",
-            "maximumAPD": "0.61 in. w.g.",
-            "enteringAirTemp": "3.1°F",
-            "leavingAirTemp": "70.6°F",
-            "gasInput": "731 CFH",
-            "gasCapacityOutput": "584.8 MBH",
-            "electrical": {
-              "voltage": 115,
-              "hz": 60,
-              "phase": 1
-            }
+            "EWT": "110 °F",
+            "LWT": "86 °F",
+            "ACVSize": "1 1/4 inch",
+            "Cv": 20,
+            "ACVAssemblySize": "2 inch",
+            "maxPressureDropCoil": "0.2 ft",
+            "maxPressureDropACV": "2.3 ft",
+            "maxPressureDropTotal": "2.5 ft"
           }
         }
       ]
@@ -428,7 +351,7 @@
       "suppliers": [
         {
           "manufacturer": "Trane",
-          "model": "Various",
+          "model": "As specified",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -437,24 +360,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Specified as basis of design for air-cooled chillers (CH-1 and CH-2) with modular scroll compressors."
+          "compatibilityNotes": "Specified as basis of design for AHUs on mechanical schedules"
         },
         {
-          "manufacturer": "York",
-          "model": "Scroll",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with specified controls and piping connections. Provides similar energy efficiency ratings."
-        },
-        {
-          "manufacturer": "Carrier",
-          "model": "AquaSnap",
+          "manufacturer": "Daikin",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -463,11 +373,24 @@
             "contact": ""
           },
           "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with project requirements and control systems. Offers comparable efficiency ratings."
+          "compatibilityNotes": "Compatible with design requirements, may require minor modifications to ductwork connections"
         },
         {
-          "manufacturer": "Daikin",
-          "model": "Air-Cooled Scroll",
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Compatible with specified requirements, similar footprint and connections"
+        },
+        {
+          "manufacturer": "York",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -475,8 +398,21 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+1%",
-          "compatibilityNotes": "Good alternative with high efficiency ratings. Would require minor adjustments to piping connections."
+          "costDifference": "-1%",
+          "compatibilityNotes": "Suitable alternative with similar features and compatibility"
+        },
+        {
+          "manufacturer": "Aaon",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Higher quality components, may require additional lead time"
         }
       ]
     },
@@ -494,7 +430,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Specified for the project as the basis of design. The energy recovery wheels (EW-1, EW-2, EW-3) must meet the minimum performance requirements including sensible efficiency of 71.5% and total efficiency of 70.8%."
+          "compatibilityNotes": "Specified as basis of design for the project's energy recovery wheels EW-1, EW-2, and EW-3"
         },
         {
           "manufacturer": "Semco",
@@ -506,8 +442,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with the specified requirements for energy recovery wheels. Provides AHRI 1060 certification and meets minimum efficiency requirements."
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with project requirements for total energy recovery wheels with minimum sensible efficiency of 71.5-84.2% and total efficiency of 68.4-76.6%"
         },
         {
           "manufacturer": "Greenheck",
@@ -519,12 +455,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-3%",
-          "compatibilityNotes": "Can be provided as an alternate with AHRI certification. Compatible with the project requirements for energy recovery wheels."
+          "costDifference": "",
+          "compatibilityNotes": "Can provide energy recovery wheels that meet the required performance specifications including specified airflows and efficiencies"
         },
         {
-          "manufacturer": "Munters",
-          "model": "Total Energy Recovery Wheel",
+          "manufacturer": "Daikin",
+          "model": "Energy Recovery Wheel",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -532,8 +468,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Premium option with high durability. Compatible with the specified performance requirements and AHRI certified."
+          "costDifference": "",
+          "compatibilityNotes": "Can provide AHRI 1060 certified energy recovery wheels with similar performance characteristics"
         }
       ]
     },
@@ -542,7 +478,7 @@
       "suppliers": [
         {
           "manufacturer": "Trane",
-          "model": "WCC-1, WCC-2",
+          "model": "Water Cooling Coil",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -551,11 +487,24 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Basis of design for Water Cooling Coils in Air Handling Units. Coil requirements include minimum 6 rows, minimum coil area of 20.2 ft² for WCC-1 and 12.9 ft² for WCC-2, with max face velocity of 315-374 FPM and specific performance requirements for cooling capacity."
+          "compatibilityNotes": "Manufacturer specified for water chillers CH-1 and CH-2, likely also supplies cooling coils"
         },
         {
-          "manufacturer": "Daikin",
-          "model": "Custom Water Cooling Coils",
+          "manufacturer": "Carrier",
+          "model": "Water Cooling Coil",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with project requirements; industry standard connection sizes"
+        },
+        {
+          "manufacturer": "York/Johnson Controls",
+          "model": "Water Cooling Coil",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -564,24 +513,11 @@
             "contact": ""
           },
           "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with specified parameters for water cooling coils. Can meet the specified performance requirements including flow rates, temperature differentials, and pressure drops."
+          "compatibilityNotes": "Compatible with project requirements; may require minor piping adaptations"
         },
         {
-          "manufacturer": "Carrier",
-          "model": "Custom Water Cooling Coils",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with specified performance requirements. Can meet the specified cooling capacity, flow rates, and temperature differentials."
-        },
-        {
-          "manufacturer": "York",
-          "model": "Custom Water Cooling Coils",
+          "manufacturer": "Daikin",
+          "model": "Water Cooling Coil",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -589,12 +525,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-1%",
-          "compatibilityNotes": "Can be configured to meet the specified design parameters. Compatible with AHU-1 and AHU-2 requirements."
+          "costDifference": "+1%",
+          "compatibilityNotes": "Comparable performance specifications; alternative option"
         },
         {
-          "manufacturer": "Heatcraft",
-          "model": "Custom Water Cooling Coils",
+          "manufacturer": "Greenheck",
+          "model": "Water Cooling Coil",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -602,8 +538,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-3%",
-          "compatibilityNotes": "Specializes in custom coil manufacturing and can meet the specified performance requirements. Would require verification of complete compatibility with the AHU design."
+          "costDifference": "-2%",
+          "compatibilityNotes": "May require verification of performance at specified conditions"
         }
       ]
     },
@@ -612,7 +548,7 @@
       "suppliers": [
         {
           "manufacturer": "Trane",
-          "model": "Series HC Heating Coil",
+          "model": "HC-01, HC-02, HC-03, HC-04",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -621,11 +557,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Specified for heating water coils HC-01 through HC-04. Compatible with AHU-1 and AHU-2 equipment."
+          "compatibilityNotes": "Specified for hot water heating coils in air handling units with capacities ranging from 79.4 to 283.9 MBh. Performance based on 40% propylene glycol."
         },
         {
-          "manufacturer": "Carrier",
-          "model": "Hydronic Heat Coils",
+          "manufacturer": "Armstrong",
+          "model": "Hot Water Coils",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -633,12 +569,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Compatible with AHU requirements, can be dimensioned to fit existing parameters."
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with specified systems; offers similar performance characteristics for hot water coils with propylene glycol."
         },
         {
           "manufacturer": "Daikin",
-          "model": "Heating Coil Series",
+          "model": "Hot Water Coils",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -646,8 +582,21 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Offers slightly higher efficiency rating but at premium cost."
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with specified AHU systems; offers coils with similar temperature ranges and flow rates."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Hot Water Coils",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with the specified systems; offers similar performance characteristics for hot water heating coils."
         },
         {
           "manufacturer": "York",
@@ -659,78 +608,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-5%",
-          "compatibilityNotes": "Compatible with specifications, may require custom sizing to match exact dimensions."
-        },
-        {
-          "manufacturer": "Johnson Controls",
-          "model": "HW Series Heating Coils",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+1%",
-          "compatibilityNotes": "High quality alternative with good corrosion resistance and performance similar to basis of design."
-        }
-      ]
-    },
-    {
-      "componentType": "Gas Heating Coils",
-      "suppliers": [
-        {
-          "manufacturer": "Trane",
-          "model": "HC-G-01",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
           "costDifference": "",
-          "compatibilityNotes": "Gas heating coil for AHU-3. Provides 584.8 MBH output with 731 CFH gas input. Requires 10:1 minimum turndown ratio."
-        },
-        {
-          "manufacturer": "Reznor",
-          "model": "UDAS",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "-5%",
-          "compatibilityNotes": "Compatible with specifications, provides similar capacity range with required turndown ratio."
-        },
-        {
-          "manufacturer": "Modine",
-          "model": "Hot Dawg",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "-8%",
-          "compatibilityNotes": "Alternative option for gas heating applications, may require modifications to meet exact specifications."
-        },
-        {
-          "manufacturer": "Sterling",
-          "model": "TF Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Higher-end alternative with enhanced control features, suitable for high-altitude applications."
+          "compatibilityNotes": "Compatible with specified systems; can accommodate 40% propylene glycol solutions."
         }
       ]
     }
@@ -738,99 +617,90 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "High-Efficiency Condensing Boilers",
-      "rationale": "The project specifications call for two 1600 MBH gas-fired condensing boilers (BLR-1 and BLR-2). Condensing boilers are already an efficient choice, but selecting models with the highest possible efficiency ratings (96%+) will maximize long-term operational savings. The specifications indicate a minimum efficiency of 96.1%, which is good, but premium models with up to 98% efficiency are available.",
-      "estimatedImpact": "Upgrading to the highest efficiency models could reduce gas consumption by approximately 2-3% compared to standard condensing boilers, potentially saving $1,500-2,500 annually in utility costs depending on facility usage patterns and local gas rates.",
-      "implementation": "1. Evaluate premium condensing boiler models from manufacturers like Lochinvar, Viessmann, or AERCO that exceed 97% efficiency. 2. Compare initial cost premium against lifecycle cost savings. 3. Ensure selected models maintain high efficiency across their modulation range, not just at peak load. 4. Verify compatibility with specified control systems.",
+      "recommendation": "Standardize on Premium Efficiency Motors for Pumps",
+      "rationale": "The project specifications (23 21 23) call for premium efficiency motors for pumps larger than integral size. Standardizing on premium efficiency motors for all pumps would reduce energy consumption, decrease operational costs, and support sustainability goals. Premium efficiency motors typically cost 10-15% more initially but offer 2-8% better efficiency with a typical payback period of 2-3 years.",
+      "estimatedImpact": "Estimated 2-8% reduction in pump energy costs over standard motors, with payback typically within 2-3 years. For a project of this scale with multiple pump systems, this could represent significant long-term operational savings and reduced maintenance costs.",
+      "implementation": "1. Modify procurement specifications to require premium efficiency motors for all pump sizes, including smaller integral pumps. 2. Request equipment vendors provide energy consumption data as part of their submittals. 3. Verify compliance during submittal review phase.",
       "priority": "Medium"
     },
     {
       "id": 2,
-      "recommendation": "Variable Frequency Drives for All Pumps",
-      "rationale": "The mechanical schedules show multiple pumps throughout the hydronic systems. While some pumps already specify VFDs, ensuring all major circulation pumps have VFDs would provide significant energy savings through reduced pump speed during partial load conditions. The specification already indicates provision for VFDs in Section 23 21 23 (Hydronic Pumps), but this should be emphasized as a priority procurement decision.",
-      "estimatedImpact": "VFDs on all major pumps could reduce pumping energy consumption by 30-50% compared to constant speed operation, with potential electrical savings of $2,000-3,000 annually depending on system usage patterns.",
-      "implementation": "1. Review pump schedule to ensure VFDs are specified for all pumps over 1 HP. 2. Prioritize premium efficiency motors with inverter duty rating for all pump selections. 3. Specify VFDs with BACnet communication capability for integration with building automation system. 4. Ensure proper harmonic mitigation measures are included in VFD specifications.",
+      "recommendation": "Procure Variable Frequency Drives for Major Pumps and Air Handling Units",
+      "rationale": "Multiple schedules show pumps and AHUs that could benefit from variable frequency drives (VFDs). While specifications mention VFDs in some sections, standardizing their use for all major motors would provide significant energy savings. VFDs allow equipment to operate at reduced speeds during partial load conditions, which is the predominant operating state for HVAC systems.",
+      "estimatedImpact": "Potential 20-50% energy savings for pump and fan motors, depending on load profiles. With the project's multiple pumps (CHWP-1, CHWP-2A/B, etc.) and AHUs, this could represent tens of thousands of dollars in energy savings over equipment lifetime.",
+      "implementation": "1. Review mechanical equipment schedules to identify all pumps and air handlers above 5 HP. 2. Modify procurement specifications to require VFDs for these units. 3. Include a requirement for harmonic mitigation where necessary. 4. Verify compatibility with building automation system during submittal review.",
       "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "High-Efficiency Air-Cooled Chillers with Free Cooling",
-      "rationale": "The specifications call for two modular scroll air-cooled chillers (CH-1 and CH-2). The schedule indicates CH-2 includes integral free cooling capability. For a Wyoming installation, where many hours of the year have ambient temperatures below chilled water supply temperatures, expanding free cooling capability to both chillers could provide substantial energy savings.",
-      "estimatedImpact": "Adding free cooling to both chillers could eliminate compressor operation for 20-30% of the cooling season, potentially saving $3,000-5,000 in annual energy costs while extending compressor life through reduced run hours.",
-      "implementation": "1. Confirm both chillers will be equipped with free cooling capability. 2. Specify high-efficiency models with EER ratings exceeding 11.0 at AHRI conditions. 3. Select units with robust low-ambient controls for reliable operation in Wyoming's climate. 4. Ensure proper glycol concentration (40% as specified) to prevent freezing during free cooling operation.",
+      "recommendation": "Consolidated Procurement of Air Cooled Chillers",
+      "rationale": "The mechanical schedules indicate multiple air-cooled chillers (CH-1, CH-2). Purchasing these units from the same manufacturer as a package can yield substantial procurement savings through volume discounts. Additionally, consolidation simplifies maintenance with common parts inventory and service procedures.",
+      "estimatedImpact": "Potential 5-10% procurement cost savings through volume purchasing. For chillers that may cost $100,000+ each, this represents significant initial savings. Additional 5-10% savings in maintenance costs through standardized parts and service procedures.",
+      "implementation": "1. Modify procurement approach to solicit bids for chillers as a consolidated package. 2. Specify identical or similar models with the same refrigerant type. 3. Request volume discount pricing from vendors. 4. Ensure delivery schedules align with construction timeline.",
       "priority": "High"
     },
     {
       "id": 4,
-      "recommendation": "Premium Fan Arrays for Air Handling Units",
-      "rationale": "The specifications call for three air handling units (AHU-1, AHU-2, and AHU-3) with various airflow requirements. Selecting AHUs with multiple smaller fans arranged in arrays rather than single large fans would provide redundancy, improved efficiency at partial loads, and quieter operation.",
-      "estimatedImpact": "Fan arrays can improve energy efficiency by 10-15% compared to single-fan designs, particularly at partial load conditions. This could save $2,000-3,000 annually in fan energy costs while providing N+1 redundancy that prevents total system failure if a single fan fails.",
-      "implementation": "1. Specify AHUs with multiple EC (electronically commutated) motor-driven fans in array configurations. 2. Ensure fan array controllers provide proper staging and modulation. 3. Verify that selected fan arrays meet the sound criteria specified for the project. 4. Confirm BACnet integration with building automation system for monitoring individual fan status.",
+      "recommendation": "Implement Strategic Glycol Procurement Plan",
+      "rationale": "Specifications show that three glycol feed systems (GMU-1, GMU-2, GMU-3) will be required, each with 40% propylene glycol solution. Procuring glycol in bulk rather than as separate packages for each system would reduce material costs and ensure consistent quality across all systems.",
+      "estimatedImpact": "Approximately 10-15% savings on glycol procurement costs through bulk purchasing. Ensures consistent glycol quality across all systems, potentially extending equipment life by reducing variability in freeze protection and corrosion inhibition.",
+      "implementation": "1. Calculate total glycol volume needed for all systems. 2. Procure as a single bulk order with appropriate corrosion inhibitors. 3. Verify concentration and quality upon delivery. 4. Coordinate storage and distribution to each system during commissioning.",
       "priority": "Medium"
     },
     {
       "id": 5,
-      "recommendation": "High-Efficiency Energy Recovery Wheels",
-      "rationale": "The project includes energy recovery wheels (EW-1, EW-2, and EW-3) with minimum total efficiency requirements of 76%, 76.6%, and 68.4% respectively. Selecting premium energy recovery wheels with higher effectiveness (80%+) would maximize energy savings from the recovery process and reduce heating/cooling loads.",
-      "estimatedImpact": "Upgrading to higher efficiency energy recovery wheels could provide an additional 5-10% energy recovery, potentially saving $1,500-2,500 annually in heating and cooling energy costs based on the outdoor air volumes specified.",
-      "implementation": "1. Specify energy recovery wheels with total effectiveness ratings of 80% or higher. 2. Ensure selected wheels maintain high effectiveness across variable airflow rates. 3. Verify proper purge section design to minimize cross-contamination. 4. Select wheel construction materials appropriate for the temperature extremes expected in Wyoming.",
+      "recommendation": "Standardize on a Single Control Valve Manufacturer",
+      "rationale": "The specifications call for numerous control valves of various sizes across multiple systems. Standardizing on a single manufacturer for all control valves would simplify procurement, reduce spare parts inventory requirements, and ensure consistent operation and maintenance procedures.",
+      "estimatedImpact": "Potential 5-8% savings on valve procurement through volume purchasing. Reduced maintenance costs and improved reliability through standardized parts and procedures. Simplified training for operations staff.",
+      "implementation": "1. Review valve schedules to identify all control valve requirements. 2. Select a manufacturer with a complete product line covering all required valve types and sizes. 3. Request volume pricing from selected vendors. 4. Verify valve specifications meet the requirements for each application.",
       "priority": "Medium"
     },
     {
       "id": 6,
-      "recommendation": "Invest in Advanced Digital Scroll Compressors for Chillers",
-      "rationale": "The specifications call for scroll compressors in the chillers. Selecting chillers with digital scroll compressors would provide superior part-load efficiency compared to standard scrolls. Digital scrolls can modulate capacity between 10-100% rather than cycling on/off, resulting in better temperature control and energy efficiency.",
-      "estimatedImpact": "Digital scroll compressors typically improve seasonal energy efficiency by 15-20% compared to standard scroll compressors, potentially saving $2,000-3,000 annually in electricity costs while providing better temperature stability.",
-      "implementation": "1. Specify chillers with digital scroll compressor technology. 2. Verify IPLV (Integrated Part Load Value) ratings to ensure good part-load performance. 3. Ensure proper controls integration to maximize the benefits of the modulation capability. 4. Consider compressor sound packages to minimize noise impact.",
-      "priority": "High"
+      "recommendation": "Implement Standardized Vehicle Exhaust Equipment Package",
+      "rationale": "Section 23 35 16.17 10 describes multiple vehicle exhaust fans (EF-01 through EF-08) with identical requirements. Procuring these as a standardized package from a single manufacturer would reduce costs and ensure consistent installation, operation, and maintenance.",
+      "estimatedImpact": "Estimated 8-12% procurement savings through volume purchasing of identical equipment. Simplified installation and maintenance procedures due to standardization. Reduced spare parts inventory requirements.",
+      "implementation": "1. Bundle vehicle exhaust fans in procurement documents as a single package. 2. Specify identical models for all eight units. 3. Request quantity discount pricing. 4. Coordinate delivery schedule to align with construction sequence.",
+      "priority": "Medium"
     },
     {
       "id": 7,
-      "recommendation": "High-Turndown Condensing Boiler Burners",
-      "rationale": "The specifications mention a minimum 10:1 turndown ratio for the boiler burners. Selecting boilers with even higher turndown ratios (20:1 or more) would provide better load matching during shoulder seasons and reduce cycling, improving efficiency and extending equipment life.",
-      "estimatedImpact": "Higher turndown burners can reduce cycling by 30-50% during low-load conditions, potentially saving $1,000-1,500 annually in gas consumption while extending boiler life by reducing thermal stress.",
-      "implementation": "1. Specify boilers with minimum 20:1 turndown ratio. 2. Ensure boiler efficiency remains high across the entire modulation range. 3. Verify proper venting design to accommodate the full turndown range. 4. Consider cascade controls to sequence multiple boilers for optimal efficiency.",
-      "priority": "Medium"
+      "recommendation": "Pre-Purchase Critical Long-Lead HVAC Equipment",
+      "rationale": "Major HVAC components like chillers, boilers, and custom air handling units typically have long lead times (12-20+ weeks) that can impact project schedules. Pre-purchasing these items can expedite delivery, lock in pricing, and reduce project schedule risks.",
+      "estimatedImpact": "Potential schedule acceleration of 2-3 months for critical path items. Avoidance of price escalation, which could save 3-5% on equipment costs. Reduced risk of project delays due to equipment availability issues.",
+      "implementation": "1. Identify critical long-lead items (chillers, boilers, custom AHUs). 2. Develop detailed specifications for early procurement. 3. Issue early procurement packages before completion of full construction documents. 4. Coordinate storage requirements if equipment arrives before installation is possible.",
+      "priority": "High"
     },
     {
       "id": 8,
-      "recommendation": "Smart Glycol Feed Systems with Monitoring",
-      "rationale": "The specifications call for glycol feed systems (GMU-1, GMU-2, GMU-3) with basic controls. Upgrading to smart glycol feed systems with digital monitoring capabilities would provide alerts for leaks, enable remote monitoring, and ensure proper glycol concentration is maintained.",
-      "estimatedImpact": "Smart glycol feed systems can reduce maintenance costs by $1,000-2,000 annually through early leak detection and prevention of glycol loss. They also help maintain optimal system performance by ensuring proper glycol concentration.",
-      "implementation": "1. Specify glycol feed systems with digital pressure monitoring and BACnet communication. 2. Include capability for remote alerts when makeup levels exceed normal patterns. 3. Consider systems with built-in glycol concentration monitoring. 4. Ensure integration with building automation system for centralized monitoring.",
-      "priority": "Low"
-    },
-    {
-      "id": 9,
-      "recommendation": "Premium Efficiency Motors for All HVAC Equipment",
-      "rationale": "While the specifications already call for premium efficiency motors in some equipment, ensuring all motors across the project (fans, pumps, etc.) are premium efficiency or better would maximize electrical savings. For smaller motors, EC (electronically commutated) motors offer superior efficiency compared to traditional PSC (permanent split capacitor) motors.",
-      "estimatedImpact": "Upgrading to premium efficiency motors for all HVAC equipment could reduce motor energy consumption by 5-10% compared to standard efficiency motors, potentially saving $2,000-3,000 annually in electricity costs.",
-      "implementation": "1. Specify premium efficiency motors meeting NEMA Premium standards for all equipment. 2. For fractional horsepower applications, specify EC motors where available. 3. Verify that all fan coil units use EC motors rather than PSC motors. 4. Ensure proper motor sizing to avoid oversized motors operating at low load factors.",
+      "recommendation": "Coordinate Refrigerant Type Across All HVAC Equipment",
+      "rationale": "Specification section 23 64 10 indicates multiple refrigerant-containing equipment (chillers, heat pumps). Standardizing on a single refrigerant type across all equipment would simplify maintenance, reduce specialized tooling requirements, and decrease the types of refrigerant that must be kept on hand for service.",
+      "estimatedImpact": "Reduced maintenance complexity and costs. Simplified compliance with refrigerant management regulations. Potential for 5-7% savings on long-term refrigerant and service costs through simplified inventory management.",
+      "implementation": "1. Review all refrigerant-containing equipment specifications. 2. Select a single refrigerant type that meets requirements for all applications (e.g., R-410A or R-454B). 3. Modify procurement specifications to require the selected refrigerant. 4. Verify refrigerant selection doesn't negatively impact equipment performance or cost.",
       "priority": "Medium"
     },
     {
-      "id": 10,
-      "recommendation": "Advanced Ultrasonic Flow Meters for Hydronic Balancing",
-      "rationale": "Traditional balancing valves specified in the project require manual adjustment and don't provide continuous flow monitoring. Investing in ultrasonic flow meters for key hydronic circuits would enable more precise balancing, ongoing monitoring, and faster commissioning.",
-      "estimatedImpact": "Advanced flow metering can improve system efficiency by 5-10% through more precise balancing, potentially saving $1,000-2,000 annually in energy costs while reducing commissioning time by 20-30%.",
-      "implementation": "1. Specify ultrasonic flow meters for main hydronic circuits (chilled water, heating water). 2. Ensure meters have BACnet integration capability for monitoring through the BAS. 3. Locate meters in accessible locations with appropriate straight pipe runs. 4. Provide training for facilities staff on using flow data for system optimization.",
-      "priority": "Low"
+      "id": 9,
+      "recommendation": "Bundle Fan Coil Unit Procurement",
+      "rationale": "The mechanical schedules show numerous fan coil units of varying types and capacities. Procurement efficiency can be gained by bundling these units by type, even across different capacities, from a single manufacturer. This approach will leverage volume discounts while ensuring consistent quality and maintenance procedures.",
+      "estimatedImpact": "Approximately 8-12% savings on fan coil unit procurement costs. Streamlined installation and commissioning through standardized procedures. Simplified maintenance and reduced spare parts inventory requirements.",
+      "implementation": "1. Group fan coil units by type in procurement documents. 2. Solicit bids from manufacturers who can supply the full range of required capacities. 3. Request tiered volume pricing based on total quantity. 4. Coordinate delivery schedule to align with construction sequence.",
+      "priority": "Medium"
     }
   ],
   "conclusion": {
-    "summary": "The GBSD Integrated Training Center (ITC) at F.E. Warren AFB requires a comprehensive HVAC system featuring air-cooled chillers, condensing boilers, air handling units with energy recovery, and various hydronic components designed for Wyoming's climate. The procurement strategy should focus on high-efficiency equipment that can withstand high-altitude operation (6,115 ft elevation) while utilizing a 40% propylene glycol solution for freeze protection. Key considerations include proper vendor selection, equipment performance verification, lead time management, and coordination of interdependent systems to ensure on-time project completion.",
+    "summary": "The GBSD Integrated Training Center at F.E. Warren AFB requires careful planning for HVAC equipment procurement to ensure system reliability, efficiency, and compliance with project specifications. The project includes multiple air handling units, energy recovery wheels, chillers, pumps, and specialized components designed for the high-altitude conditions (6,115 ft). Strategic procurement approaches can yield significant cost savings while maintaining the required performance standards for this mission-critical facility.",
     "keyFindings": [
-      "The mechanical systems are designed for high-altitude operation (6,115 ft) requiring equipment rated for these conditions and proper sizing of motors, fans, and heat transfer components",
-      "A 40% propylene glycol solution is specified for chilled water systems, requiring compatible pumps, heat exchangers, and proper sizing of equipment to account for the glycol's thermal properties",
-      "Energy recovery systems are emphasized with total energy wheels required to achieve minimum 68.4-76.6% efficiency, providing significant operational savings",
-      "Digital scroll compressors with free cooling capability are recommended for the chillers to optimize performance in Wyoming's climate and reduce operating costs",
-      "High-turndown condensing boilers (minimum 10:1 ratio) are specified for heating, but premium models with up to 20:1 turndown would provide better load matching and efficiency"
+      "Multiple HVAC systems require 40% propylene glycol solution due to the Wyoming climate and high-altitude installation location at F.E. Warren AFB",
+      "Long-lead items such as chillers, boilers, and custom air handling units present schedule risks that should be mitigated through early procurement",
+      "Standardization opportunities exist across multiple equipment categories including pumps, fan coil units, and control valves that could yield 5-15% cost savings",
+      "Energy efficiency measures such as premium efficiency motors and VFDs for major equipment would provide significant operational cost savings over the facility lifecycle"
     ],
     "highestPriorityActions": [
-      "Verify all equipment selections meet high-altitude performance requirements (6,115 ft) with appropriate derating factors applied to capacity and motor selections",
-      "Procure chillers with free cooling capability and digital scroll compressors to maximize energy efficiency in Wyoming's climate",
-      "Implement variable frequency drives for all pumps over 1 HP to optimize system efficiency and reduce energy consumption",
-      "Schedule long-lead items (chillers, boilers, AHUs) immediately with careful coordination of delivery timelines to ensure project completion by June 2025"
+      "Pre-purchase critical long-lead HVAC equipment including chillers and air handling units to prevent schedule delays",
+      "Consolidate procurement of similar equipment types (chillers, fan coil units, exhaust fans) to leverage volume discounts and streamline maintenance",
+      "Standardize on premium efficiency motors and VFDs for all major equipment to reduce energy consumption and operational costs",
+      "Develop a strategic plan for bulk glycol procurement to ensure consistent quality and freeze protection across all systems"
     ]
   }
 }

@@ -776,7 +776,12 @@ Your response must be a valid JSON object with the following structure - nothing
 
 Instructions:
 - Extract manufacturers and models related to ${componentType}
-- Identify the basis of design manufacturer (isBasisOfDesign: true)
+- CRITICAL - Basis of Design Identification: A manufacturer can ONLY be marked as basis of design (isBasisOfDesign: true) if ONE of these conditions is met:
+  * It is EXPLICITLY stated as "Basis of Design", "BoD", "Design Basis", or similar terminology in the specifications
+  * It appears as the manufacturer name on mechanical schedules/drawings for that equipment type
+  * It is explicitly called out as the "selected manufacturer" or "specified manufacturer" in the project documents
+- If NO manufacturer meets the above criteria for basis of design, then ALL manufacturers should have isBasisOfDesign: false
+- DO NOT randomly assign or guess a basis of design based on general industry knowledge or assumptions
 - Identify listed alternates from specifications (isListedAlternate: true)
 - Include representative information when available
 - Provide cost differences as percentages (e.g., "+5%", "-3%")
@@ -1062,7 +1067,12 @@ Your response must be a valid JSON object with the following structure - nothing
 
 Instructions:
 - Extract manufacturers and models related to ${componentType}
-- Identify the basis of design manufacturer (isBasisOfDesign: true)
+- CRITICAL - Basis of Design Identification: A manufacturer can ONLY be marked as basis of design (isBasisOfDesign: true) if ONE of these conditions is met:
+  * It is EXPLICITLY stated as "Basis of Design", "BoD", "Design Basis", or similar terminology in the specifications
+  * It appears as the manufacturer name on mechanical schedules/drawings for that equipment type
+  * It is explicitly called out as the "selected manufacturer" or "specified manufacturer" in the project documents
+- If NO manufacturer meets the above criteria for basis of design, then ALL manufacturers should have isBasisOfDesign: false
+- DO NOT randomly assign or guess a basis of design based on general industry knowledge or assumptions
 - Identify listed alternates from specifications (isListedAlternate: true)
 - Include representative information when available
 - Provide cost differences as percentages (e.g., "+5%", "-3%")
