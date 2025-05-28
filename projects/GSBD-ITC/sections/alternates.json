@@ -5,7 +5,7 @@
       "suppliers": [
         {
           "manufacturer": "Trane",
-          "model": "Climate Changer",
+          "model": "As specified",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -14,11 +14,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Air Handling Units AHU-1, AHU-2, and AHU-3 with energy recovery wheels EW-1, EW-2, and EW-3. Basis of design with features including variable frequency drives, MERV 8/13 filtration, and components sized for the specified altitude of 6,115 ft."
+          "compatibilityNotes": "Specified as basis of design for AHUs on mechanical schedules"
         },
         {
           "manufacturer": "Daikin",
-          "model": "Vision",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -27,11 +27,11 @@
             "contact": ""
           },
           "costDifference": "+2%",
-          "compatibilityNotes": "Compatible alternative with equivalent energy recovery wheel performance. May require minor modifications to ductwork connections."
+          "compatibilityNotes": "Compatible with design requirements, may require minor modifications to ductwork connections"
         },
         {
           "manufacturer": "Carrier",
-          "model": "AirStream",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -40,11 +40,11 @@
             "contact": ""
           },
           "costDifference": "+1%",
-          "compatibilityNotes": "Good compatibility with specified heating and cooling coil requirements. Offers similar energy recovery performance."
+          "compatibilityNotes": "Compatible with specified requirements, similar footprint and connections"
         },
         {
           "manufacturer": "York",
-          "model": "Solution",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -52,12 +52,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-3%",
-          "compatibilityNotes": "Potential alternative with good high-altitude performance. May offer cost savings but requires verification of energy recovery wheel specifications."
+          "costDifference": "-1%",
+          "compatibilityNotes": "Suitable alternative with similar features and compatibility"
         },
         {
-          "manufacturer": "Greenheck",
-          "model": "Energypack",
+          "manufacturer": "Aaon",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -65,78 +65,65 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Specialized in energy recovery systems with good performance at high altitudes. Would need verification of heating/cooling coil performance to match specifications."
+          "costDifference": "+3%",
+          "compatibilityNotes": "Higher quality components, may require additional lead time"
         }
       ]
     },
     {
-      "componentType": "Energy Wheels",
+      "componentType": "Energy Recovery Wheels",
       "suppliers": [
         {
-          "manufacturer": "Semco",
-          "model": "Total Energy Wheel",
+          "manufacturer": "Trane",
+          "model": "Energy Recovery Wheel",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "John Davis",
-            "company": "Mountain Mechanical",
-            "contact": "jdavis@mmech.com"
+            "name": "",
+            "company": "",
+            "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Basis of design for energy recovery wheels. AHRI 1060 certified with superior OACF and EATR performance."
+          "compatibilityNotes": "Specified as basis of design for the project's energy recovery wheels EW-1, EW-2, and EW-3"
         },
         {
-          "manufacturer": "Thermowheel",
-          "model": "TW Series",
+          "manufacturer": "Semco",
+          "model": "Energy Recovery Wheel",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
-            "name": "Sarah Johnson",
-            "company": "Rocky Mountain HVAC",
-            "contact": "sjohnson@rmhvac.com"
+            "name": "",
+            "company": "",
+            "contact": ""
           },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Listed alternate. Compatible with AHUs, meets specified efficiency requirements."
-        },
-        {
-          "manufacturer": "Innergytech",
-          "model": "XeteX Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "Mike Thompson",
-            "company": "Western Mechanical",
-            "contact": "mthompson@westmech.com"
-          },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Listed alternate. Slightly lower initial cost but meets all performance criteria."
-        },
-        {
-          "manufacturer": "RotorSource",
-          "model": "RS Energy Recovery",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "David Wilson",
-            "company": "High Plains Mechanical",
-            "contact": "dwilson@hpmech.com"
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Not listed but compatible. Meets efficiency and AHRI certification requirements."
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with project requirements for total energy recovery wheels with minimum sensible efficiency of 71.5-84.2% and total efficiency of 68.4-76.6%"
         },
         {
           "manufacturer": "Greenheck",
-          "model": "ERW Series",
+          "model": "Energy Recovery Wheel",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
-            "name": "Lisa Brown",
-            "company": "Front Range Representatives",
-            "contact": "lbrown@frr.com"
+            "name": "",
+            "company": "",
+            "contact": ""
           },
-          "costDifference": "+4%",
-          "compatibilityNotes": "Not listed but compatible with specified AHUs. Higher premium but includes enhanced controls."
+          "costDifference": "",
+          "compatibilityNotes": "Can provide energy recovery wheels that meet the required performance specifications including specified airflows and efficiencies"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Energy Recovery Wheel",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Can provide AHRI 1060 certified energy recovery wheels with similar performance characteristics"
         }
       ]
     },
@@ -154,11 +141,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Basis of design for AHU-1, AHU-2 coils WCC-1 and WCC-2"
+          "compatibilityNotes": "Manufacturer specified for water chillers CH-1 and CH-2, likely also supplies cooling coils"
         },
         {
-          "manufacturer": "Daikin",
-          "model": "Water Cooling Coils",
+          "manufacturer": "Carrier",
+          "model": "Water Cooling Coil",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -167,11 +154,11 @@
             "contact": ""
           },
           "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with specified AHUs. Performance meets specified requirements for cooling capacity and pressure drop."
+          "compatibilityNotes": "Compatible with project requirements; industry standard connection sizes"
         },
         {
-          "manufacturer": "Carrier",
-          "model": "Water Cooling Coils",
+          "manufacturer": "York/Johnson Controls",
+          "model": "Water Cooling Coil",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -180,11 +167,11 @@
             "contact": ""
           },
           "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with AHU systems. Meets cooling capacity and row count requirements."
+          "compatibilityNotes": "Compatible with project requirements; may require minor piping adaptations"
         },
         {
-          "manufacturer": "York/Johnson Controls",
-          "model": "Water Cooling Coils",
+          "manufacturer": "Daikin",
+          "model": "Water Cooling Coil",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -193,11 +180,11 @@
             "contact": ""
           },
           "costDifference": "+1%",
-          "compatibilityNotes": "Suitable for high-altitude installations. Can meet specified performance at 6,115 ft elevation."
+          "compatibilityNotes": "Comparable performance specifications; alternative option"
         },
         {
-          "manufacturer": "USA Coil & Air",
-          "model": "Custom Water Cooling Coils",
+          "manufacturer": "Greenheck",
+          "model": "Water Cooling Coil",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -206,7 +193,7 @@
             "contact": ""
           },
           "costDifference": "-2%",
-          "compatibilityNotes": "Custom coil manufacturer that can meet exact specifications. Good for retrofit applications."
+          "compatibilityNotes": "May require verification of performance at specified conditions"
         }
       ]
     },
@@ -215,7 +202,7 @@
       "suppliers": [
         {
           "manufacturer": "Trane",
-          "model": "HC Series",
+          "model": "HC-01, HC-02, HC-03, HC-04",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -224,11 +211,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Hot water coil designed for AHUs with capacities ranging from 79.4 to 283.9 MBh"
+          "compatibilityNotes": "Specified for hot water heating coils in air handling units with capacities ranging from 79.4 to 283.9 MBh. Performance based on 40% propylene glycol."
         },
         {
-          "manufacturer": "Carrier",
-          "model": "39M Series",
+          "manufacturer": "Armstrong",
+          "model": "Hot Water Coils",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -236,12 +223,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with all specified heating water coil requirements, drop-in replacement option"
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with specified systems; offers similar performance characteristics for hot water coils with propylene glycol."
         },
         {
           "manufacturer": "Daikin",
-          "model": "DWUD Series",
+          "model": "Hot Water Coils",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -249,11 +236,11 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with all specified heating water coil requirements with similar pressure drop"
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with specified AHU systems; offers coils with similar temperature ranges and flow rates."
         },
         {
-          "manufacturer": "York/JCI",
+          "manufacturer": "Carrier",
           "model": "Hot Water Coils",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
@@ -262,241 +249,13 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Comparable performance with slightly lower first cost, suitable for military applications"
-        },
-        {
-          "manufacturer": "Heatcraft",
-          "model": "HW Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "-5%",
-          "compatibilityNotes": "Good performance with glycol solutions, suitable for the specified 40% propylene glycol"
-        }
-      ]
-    },
-    {
-      "componentType": "Fan Coil Units",
-      "suppliers": [
-        {
-          "manufacturer": "Trane",
-          "model": "FCAH Series",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
           "costDifference": "",
-          "compatibilityNotes": "Four-pipe fan coil units for heating and cooling applications in horizontal concealed arrangement with ECM motors"
-        },
-        {
-          "manufacturer": "Daikin",
-          "model": "FH/FHB Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible four-pipe fan coil units, supports specified CFM ranges and heating/cooling capacities"
-        },
-        {
-          "manufacturer": "JCI/York",
-          "model": "Horizontal Fan Coil Units",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "0%",
-          "compatibilityNotes": "Direct replacement for basis of design, matches performance specifications"
-        },
-        {
-          "manufacturer": "Carrier",
-          "model": "Horizontal FCU Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "-3%",
-          "compatibilityNotes": "Compatible with project requirements, may require minor ductwork modifications"
-        },
-        {
-          "manufacturer": "IEC (International Environmental)",
-          "model": "Hi-Rise Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+1%",
-          "compatibilityNotes": "Premium construction quality, good compatibility with project specifications"
-        }
-      ]
-    },
-    {
-      "componentType": "Blower Coil Units",
-      "suppliers": [
-        {
-          "manufacturer": "Trane",
-          "model": "Blower Coil Unit",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Specified as basis of design for Blower Coil Units (BCAH) in the project specifications. Designed for horizontal concealed installation with various airflow ranges from 700-2650 CFM."
-        },
-        {
-          "manufacturer": "Daikin",
-          "model": "Blower Coil Unit",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with project requirements for horizontal concealed blower coil units. Offers equivalent performance specifications with similar airflow ranges and static pressure capabilities."
-        },
-        {
-          "manufacturer": "Carrier",
-          "model": "Blower Coil Unit",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with the project requirements for horizontal blower coil units with ECM fan motors. Can meet the specified airflow and static pressure requirements."
-        },
-        {
-          "manufacturer": "Johnson Controls/York",
-          "model": "Blower Coil Unit",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+1%",
-          "compatibilityNotes": "Compatible alternative with similar specifications and construction. Offers units with comparable airflow ranges from 700-3000 CFM with factory programmed ECM fan motors."
-        },
-        {
-          "manufacturer": "Greenheck",
-          "model": "Blower Coil Unit",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+4%",
-          "compatibilityNotes": "Suitable alternative with high-quality construction. Can meet the performance specifications for the horizontal concealed blower coil units with similar water coil capabilities."
-        }
-      ]
-    },
-    {
-      "componentType": "Air Cooled Chillers",
-      "suppliers": [
-        {
-          "manufacturer": "Trane",
-          "model": "Air-Cooled Scroll Chiller",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Specified in notes for CH-1 and CH-2. R-454B refrigerant. Modular design with multiple circuits."
-        },
-        {
-          "manufacturer": "Daikin Applied",
-          "model": "AGZ-E Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with R-454B refrigerant requirements. Supports free cooling option needed for CH-2."
-        },
-        {
-          "manufacturer": "Carrier",
-          "model": "AquaForce 30XA",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+0%",
-          "compatibilityNotes": "Compatible with performance requirements. Supports operation down to 0°F ambient temperature."
+          "compatibilityNotes": "Compatible with the specified systems; offers similar performance characteristics for hot water heating coils."
         },
         {
           "manufacturer": "York",
-          "model": "YVAA",
+          "model": "Hot Water Coils",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "-3%",
-          "compatibilityNotes": "Variable speed drives standard. Compatible with glycol solutions and low ambient operation."
-        },
-        {
-          "manufacturer": "McQuay/Daikin",
-          "model": "WMC",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+4%",
-          "compatibilityNotes": "Premium efficiency. Supports 40% propylene glycol and altitude adjustments for 6,115 ft installation."
-        }
-      ]
-    },
-    {
-      "componentType": "Four Pipe Heat Pump",
-      "suppliers": [
-        {
-          "manufacturer": "Modular Four Pipe Scroll",
-          "model": "AWHP-1",
-          "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
@@ -504,46 +263,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Basis of design four pipe heat pump. Capacity: 92.3 GPM, EER: 9.828, COP: 2.966. Uses R-454B refrigerant."
-        },
-        {
-          "manufacturer": "Trane",
-          "model": "Four Pipe Heat Pump",
-          "isListedAlternate": true,
-          "isBasisOfDesign": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+0%",
-          "compatibilityNotes": "Specifically mentioned in chiller schedule note. Compatible with existing systems."
-        },
-        {
-          "manufacturer": "Daikin",
-          "model": "AWH Series",
-          "isListedAlternate": false,
-          "isBasisOfDesign": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Industry leader in four-pipe heat pump technology. Compatible with 40% propylene glycol solution."
-        },
-        {
-          "manufacturer": "Carrier",
-          "model": "AquaForce 30XV",
-          "isListedAlternate": false,
-          "isBasisOfDesign": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with specified glycol solution and altitude requirements."
+          "compatibilityNotes": "Compatible with specified systems; can accommodate 40% propylene glycol solutions."
         }
       ]
     }

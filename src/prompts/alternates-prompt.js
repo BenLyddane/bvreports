@@ -56,13 +56,20 @@ Your response must be a valid JSON object with the following structure - nothing
 
 Instructions for populating this section:
 - Group suppliers by component type (e.g., "Chillers", "Air Handling Units")
-- For each component type, identify the basis of design (BoD) manufacturer and mark with "isBasisOfDesign": true and "isListedAlternate": false
+- CRITICAL - Basis of Design Identification: A manufacturer can ONLY be marked as basis of design ("isBasisOfDesign": true) if ONE of these conditions is met FOR THAT SPECIFIC EQUIPMENT TYPE:
+  * It is EXPLICITLY stated as "Basis of Design", "BoD", "Design Basis", or similar terminology in the specifications FOR THAT SPECIFIC EQUIPMENT TYPE
+  * It appears as the manufacturer name on mechanical schedules/drawings FOR THAT SPECIFIC EQUIPMENT TYPE
+  * It is explicitly called out as the "selected manufacturer" or "specified manufacturer" FOR THAT SPECIFIC EQUIPMENT TYPE in the project documents
+- IMPORTANT: Each equipment type must be evaluated independently - finding a manufacturer specified for one equipment type (e.g., chillers) does NOT make them the basis of design for other equipment types (e.g., air handlers, pumps, etc.)
+- If NO manufacturer meets the above criteria for basis of design FOR A SPECIFIC EQUIPMENT TYPE, then ALL manufacturers for that equipment type should have "isBasisOfDesign": false
+- DO NOT randomly assign or guess a basis of design based on general industry knowledge, assumptions, or specifications for other equipment types
+- DO NOT extrapolate or assume that because a manufacturer is specified for one piece of equipment, they are the basis of design for other equipment types
 - IMPORTANT: Look for "Listed Alternates" or "Acceptable Manufacturers" specifically mentioned in specifications and set "isListedAlternate": true for these manufacturers
 - A manufacturer can only be one of these: Basis of Design (isBasisOfDesign: true), Listed Alternate (isListedAlternate: true), or neither
 - Include alternate manufacturers and their models that could be substituted
 - Provide representative information when available (full company names, not just initials)
-- Express cost differences as percentages relative to the basis of design (e.g., "-5%", "+12%")
-  * Assume the Basis of Design typically comes with a premium due to its status
+- Express cost differences as percentages relative to the basis of design (e.g., "-5%", "+12%") - if no basis of design exists, express relative to a reference manufacturer
+  * If a basis of design exists, it typically comes with a premium due to its status
   * Alternates may offer cost savings but might come with other project risks
   * Use reasonable percentage ranges based on typical industry pricing differences
 - Add compatibility notes about installation or performance differences
@@ -79,7 +86,8 @@ IMPORTANT - Suggesting Additional Alternatives:
 - Focus on well-known, reputable manufacturers that produce compatible equipment
 - Include manufacturer name, typical model series, and explain compatibility in the notes
 - In the compatibilityNotes for these suggested alternatives, begin with "SUGGESTED ALTERNATIVE: " and then describe why this manufacturer would be suitable
-- Be realistic about potential cost differences compared to the BoD, based on industry knowledge (up or down)
+- Be realistic about potential cost differences compared to the BoD (if one exists), or relative to other manufacturers, based on industry knowledge (up or down)
+- REMEMBER: Only suggest alternatives - do NOT designate any suggested manufacturer as a basis of design unless it meets the explicit criteria above
 
 When identifying manufacturer representatives:
 - Only include commercial manufacturer's representatives or entities that can sell equipment
