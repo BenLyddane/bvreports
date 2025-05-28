@@ -1,18 +1,18 @@
 {
   "conclusion": {
-    "summary": "The GBSD Integrated Training Center (ITC) at F.E. Warren AFB requires sophisticated HVAC systems designed for Wyoming's high-altitude environment (6,115 ft). The procurement strategy should focus on equipment compatibility, standardization, and energy efficiency while addressing the unique requirements of the facility. Significant equipment includes air handling units with energy recovery, modular scroll chillers, a four-pipe heat pump system, numerous fan coil units, condensing boilers, and vehicle exhaust systems—all requiring careful coordination in procurement to ensure operational efficiency and maintenance simplicity.",
+    "summary": "The GBSD Integrated Training Center (ITC) at F.E. Warren AFB requires a comprehensive HVAC system featuring air-cooled chillers, condensing boilers, air handling units with energy recovery, and various hydronic components designed for Wyoming's climate. The procurement strategy should focus on high-efficiency equipment that can withstand high-altitude operation (6,115 ft elevation) while utilizing a 40% propylene glycol solution for freeze protection. Key considerations include proper vendor selection, equipment performance verification, lead time management, and coordination of interdependent systems to ensure on-time project completion.",
     "keyFindings": [
-      "Trane is specified as the required manufacturer for water chillers, limiting competitive bidding but ensuring system compatibility",
-      "Equipment must be rated for high-altitude operation (6,115 ft) with appropriate performance adjustments",
-      "Glycol systems are extensively used (40% propylene glycol in multiple water systems) requiring compatible components throughout",
-      "Numerous fan coil and blower coil units could be standardized to fewer models for procurement efficiency and maintenance simplification",
-      "Energy recovery is a key design feature with minimum efficiency requirements that should be prioritized in equipment selection"
+      "The mechanical systems are designed for high-altitude operation (6,115 ft) requiring equipment rated for these conditions and proper sizing of motors, fans, and heat transfer components",
+      "A 40% propylene glycol solution is specified for chilled water systems, requiring compatible pumps, heat exchangers, and proper sizing of equipment to account for the glycol's thermal properties",
+      "Energy recovery systems are emphasized with total energy wheels required to achieve minimum 68.4-76.6% efficiency, providing significant operational savings",
+      "Digital scroll compressors with free cooling capability are recommended for the chillers to optimize performance in Wyoming's climate and reduce operating costs",
+      "High-turndown condensing boilers (minimum 10:1 ratio) are specified for heating, but premium models with up to 20:1 turndown would provide better load matching and efficiency"
     ],
     "highestPriorityActions": [
-      "Purchase high-efficiency air handling units with energy recovery that exceed minimum efficiency requirements to maximize energy savings in Wyoming's climate",
-      "Standardize fan coil units to reduce procurement costs and simplify maintenance by consolidating to 4-5 models instead of 15 different types",
-      "Source high-efficiency condensing boilers with enhanced turndown ratios and advanced oxygen trim controls to optimize performance at high altitude",
-      "Pursue integrated procurement for the air-cooled heat pump and chiller systems to reduce costs and improve system integration"
+      "Verify all equipment selections meet high-altitude performance requirements (6,115 ft) with appropriate derating factors applied to capacity and motor selections",
+      "Procure chillers with free cooling capability and digital scroll compressors to maximize energy efficiency in Wyoming's climate",
+      "Implement variable frequency drives for all pumps over 1 HP to optimize system efficiency and reduce energy consumption",
+      "Schedule long-lead items (chillers, boilers, AHUs) immediately with careful coordination of delivery timelines to ensure project completion by June 2025"
     ]
   }
 }

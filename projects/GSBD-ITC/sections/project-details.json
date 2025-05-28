@@ -6,7 +6,12 @@
     "contactEmail": "aarnold@henselphelps.com",
     "contactPhone": "",
     "projectId": "d9ccf49d-0eba-4852-8c17-c04b44d3fe4a",
-    "additionalFields": {}
+    "additionalFields": {
+      "projectStatus": "",
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead",
+      "requestType": "Proposal"
+    }
   },
   "projectInformation": {
     "projectName": "GBSD Integrated Training Center (ITC)",
@@ -14,18 +19,15 @@
     "startDate": "5/27/2025",
     "completionDate": "6/30/2025",
     "budget": "",
-    "scope": "Construction of an integrated training center for the Ground Based Strategic Deterrent (GBSD) program including mechanical systems, air handling units, and related infrastructure",
+    "scope": "",
     "projectUrl": "https://app.buildvision.io/admin/organizations/373e34b7-2026-4706-8184-e7cab765dba7/package-projects/d9ccf49d-0eba-4852-8c17-c04b44d3fe4a/details",
     "additionalFields": {
-      "contractType": "",
-      "bidStatus": "BuildingConnected Lead",
-      "projectSize": "",
-      "requestType": "Proposal",
-      "RFIsDue": "6/19/2025",
-      "jobWalk": "",
+      "expectedStart": "--",
       "dateInvited": "5/27/2025",
-      "contractNumber": "W9128F21D0024",
-      "solicitationNumber": "W9128F25RA015"
+      "jobWalk": "--",
+      "projectSize": "--",
+      "rfisDue": "6/19/2025",
+      "dateDue": "6/30/2025"
     }
   },
   "preparerInformation": {
