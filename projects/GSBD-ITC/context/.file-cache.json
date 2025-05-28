@@ -1,0 +1,40 @@
+{
+  "uploadedFiles": {
+    "bv-dashboard.txt": {
+      "file_id": "file_011CPa82yPMoaEvWr24oRm1Y",
+      "uploaded_at": "2025-05-28T14:55:54.316Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "Mech-Schedules.pdf": {
+      "file_id": "file_011CPa83173axAoETNhw9QWr",
+      "uploaded_at": "2025-05-28T14:55:54.754Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "Mech-Schedules.txt": {
+      "file_id": "file_011CPa832vwT7MUNGPCjW39W",
+      "uploaded_at": "2025-05-28T14:55:55.129Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "Mech-Specs.txt": {
+      "file_id": "file_011CPa835Eb7aP8uatg8kFTf",
+      "uploaded_at": "2025-05-28T14:55:55.680Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "ITC-Mech-Specs.txt": {
+      "file_id": "file_011CPa8m2Keai5336cWTgJsP",
+      "uploaded_at": "2025-05-28T15:05:24.814Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    }
+  },
+  "tempFiles": {}
+}

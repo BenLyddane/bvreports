@@ -6,7 +6,12 @@
 
 const path = require('path');
 const fs = require('fs-extra');
-const { generateSectionJson } = require('./claude-api');
+const { 
+  generateSectionJson, 
+  generateSplitAlternates,
+  generateSectionJsonWithFiles,
+  generateSplitAlternatesWithFiles
+} = require('./claude-api');
 const { mergeJsonSections, saveSectionJson } = require('./json-merger');
 const { generatePDF } = require('./pdf-generator');
 const { projectExists, getContextDir, getSectionPaths } = require('./project-processor');
@@ -94,10 +99,14 @@ async function generateSection(projectName, sectionType, preserveExistingData = 
       // Generate the section using Claude API with the combined context
       const { generateJsonSection } = require('./claude-api');
       sectionData = await generateJsonSection(prompt, combinedContext);
+    } else if (sectionType === 'alternates') {
+      // Use split alternates generation approach with Files API
+      console.log(`Generating ${sectionType} section for project: ${projectName} using Files API with split component approach`);
+      sectionData = await generateSplitAlternatesWithFiles(projectName, contextDir);
     } else {
-      // Generate regular section using Claude API
-      console.log(`Generating ${sectionType} section for project: ${projectName}`);
-      sectionData = await generateSectionJson(contextDir, sectionType, prompt);
+      // Generate regular section using Files API
+      console.log(`Generating ${sectionType} section for project: ${projectName} using Files API`);
+      sectionData = await generateSectionJsonWithFiles(contextDir, sectionType, prompt);
     }
     
     // For projectDetails section, preserve existing customer and project information if requested
