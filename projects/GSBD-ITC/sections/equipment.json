@@ -1,0 +1,565 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Performance based on design altitude of 6,115 ft. Units require 6 inch equipment pad extending 6 inches beyond edges of equipment. Units include variable frequency drives.",
+      "items": [
+        {
+          "equipmentTag": "AHU-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "Dedicated Outdoor Air System",
+            "airflow": 6355,
+            "minimum outdoor air": 6355,
+            "external static pressure": 0.8,
+            "supply fan qty": 1,
+            "supply fan rpm": 1776,
+            "supply fan brake power": 5,
+            "supply fan motor power": 7.5,
+            "return/exhaust airflow": 5530,
+            "return/exhaust external static pressure": 0.9,
+            "return/exhaust fan qty": 1,
+            "return/exhaust fan rpm": 1668,
+            "return/exhaust fan brake power": 3.4,
+            "return/exhaust fan motor power": 5,
+            "pre-filter": "Pleated Media, MERV 8",
+            "final filter": "Cartridge, MERV 13",
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "AHU-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "Dedicated Outdoor Air System",
+            "airflow": 4830,
+            "minimum outdoor air": 4830,
+            "external static pressure": 0.9,
+            "supply fan qty": 1,
+            "supply fan rpm": 1851,
+            "supply fan brake power": 4.4,
+            "supply fan motor power": 5,
+            "return/exhaust airflow": 4320,
+            "return/exhaust external static pressure": 0.8,
+            "return/exhaust fan qty": 1,
+            "return/exhaust fan rpm": 1684,
+            "return/exhaust fan brake power": 2.5,
+            "return/exhaust fan motor power": 3,
+            "pre-filter": "Pleated Media, MERV 8",
+            "final filter": "Cartridge, MERV 13",
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "AHU-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "High Bay Makeup Air",
+            "airflow": 10300,
+            "minimum outdoor air": 10000,
+            "external static pressure": 0.7,
+            "supply fan qty": 1,
+            "supply fan rpm": 1701,
+            "supply fan brake power": 7.5,
+            "supply fan motor power": 10,
+            "return/exhaust airflow": 10500,
+            "return/exhaust external static pressure": 0.8,
+            "return/exhaust fan qty": 1,
+            "return/exhaust fan rpm": 1715,
+            "return/exhaust fan brake power": 7.2,
+            "return/exhaust fan motor power": 7.5,
+            "pre-filter": "Pleated Media, MERV 8",
+            "final filter": "Pleated Media, MERV 8",
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Energy Wheels",
+      "notes": "Energy recovery units shall be certified per AHRI 1060. Motors powered through single point connection. Performance based on design altitude of 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "EW-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Total Energy Wheel",
+            "service": "AHU-1",
+            "supply airflow": 6355,
+            "supply max APD": 0.9,
+            "exhaust airflow": 5530,
+            "exhaust max APD": 0.8,
+            "minimum sensible efficiency": 83.7,
+            "minimum total efficiency": 76,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "EW-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Total Energy Wheel",
+            "service": "AHU-2",
+            "supply airflow": 4830,
+            "supply max APD": 0.8,
+            "exhaust airflow": 4320,
+            "exhaust max APD": 0.8,
+            "minimum sensible efficiency": 84.2,
+            "minimum total efficiency": 76.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "EW-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Total Energy Wheel",
+            "service": "AHU-3",
+            "supply airflow": 10000,
+            "supply max APD": 0.9,
+            "exhaust airflow": 10500,
+            "exhaust max APD": 0.9,
+            "minimum sensible efficiency": 68.4,
+            "minimum total efficiency": 68.4,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water Cooling Coils",
+      "notes": "Coil shall be selected based on entering and leaving air temperatures. Performance based on design altitude of 6,115 ft. Route 3/4\" condensate drain to nearest floor drain.",
+      "items": [
+        {
+          "equipmentTag": "WCC-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "AHU-1",
+            "design airflow": 6355,
+            "minimum coil area": 20.2,
+            "maximum face velocity": 315,
+            "maximum APD": 0.16,
+            "minimum rows": 6,
+            "EAT DB": 80.3,
+            "EAT WB": 62.2,
+            "LAT DB": 54,
+            "LAT WB": 53.7,
+            "minimum total cooling capacity": 149.4,
+            "minimum sensible cooling capacity": 146.7,
+            "water flowrate": 18.6,
+            "EWT": 44,
+            "LWT": 60,
+            "ACV size": "1\"",
+            "Cv": 14,
+            "ACV assembly size": "2\""
+          }
+        },
+        {
+          "equipmentTag": "WCC-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "AHU-2",
+            "design airflow": 4830,
+            "minimum coil area": 12.9,
+            "maximum face velocity": 374,
+            "maximum APD": 0.27,
+            "minimum rows": 6,
+            "EAT DB": 80,
+            "EAT WB": 62.3,
+            "LAT DB": 54,
+            "LAT WB": 53.8,
+            "minimum total cooling capacity": 117.7,
+            "minimum sensible cooling capacity": 117,
+            "water flowrate": 14.7,
+            "EWT": 44,
+            "LWT": 60,
+            "ACV size": "1\"",
+            "Cv": 14,
+            "ACV assembly size": "2\""
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heating Water Coils",
+      "notes": "Coil shall be selected based on entering and leaving air temperatures. Heating capacity provided for reference only. Capacity based on 40% propylene glycol. Performance based on design altitude of 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "HC-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "AHU-1 Preheat",
+            "design airflow": 6355,
+            "minimum coil area": 21,
+            "maximum face velocity": 303,
+            "maximum APD": 0.05,
+            "EAT": 3,
+            "LAT": 55,
+            "heating capacity": 283.9,
+            "water flowrate": 26.2,
+            "EWT": 110,
+            "LWT": 86,
+            "ACV size": "1 1/2\"",
+            "Cv": 28,
+            "ACV assembly size": "2\""
+          }
+        },
+        {
+          "equipmentTag": "HC-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "AHU-2 Preheat",
+            "design airflow": 4830,
+            "minimum coil area": 12.9,
+            "maximum face velocity": 374,
+            "maximum APD": 0.15,
+            "EAT": 3,
+            "LAT": 55,
+            "heating capacity": 217.3,
+            "water flowrate": 20,
+            "EWT": 110,
+            "LWT": 86,
+            "ACV size": "1 1/4\"",
+            "Cv": 20,
+            "ACV assembly size": "2\""
+          }
+        },
+        {
+          "equipmentTag": "HC-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "AHU-1 Reheat",
+            "design airflow": 6355,
+            "minimum coil area": 20.6,
+            "maximum face velocity": 308,
+            "maximum APD": 0.05,
+            "EAT": 54,
+            "LAT": 73,
+            "heating capacity": 103.8,
+            "water flowrate": 9.6,
+            "EWT": 110,
+            "LWT": 86,
+            "ACV size": "3/4\"",
+            "Cv": 7.5,
+            "ACV assembly size": "1 1/4\""
+          }
+        },
+        {
+          "equipmentTag": "HC-04",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "AHU-2 Reheat",
+            "design airflow": 4830,
+            "minimum coil area": 13.6,
+            "maximum face velocity": 354,
+            "maximum APD": 0.08,
+            "EAT": 54,
+            "LAT": 73,
+            "heating capacity": 79.4,
+            "water flowrate": 7.3,
+            "EWT": 110,
+            "LWT": 86,
+            "ACV size": "3/4\"",
+            "Cv": 5.5,
+            "ACV assembly size": "1 1/4\""
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Gas Heating Coil",
+      "notes": "Provide minimum burner turndown ratio of 10:1. Performance based on design altitude of 6,115 ft. Gas input based on 1,000 BTU/ft³.",
+      "items": [
+        {
+          "equipmentTag": "HC-G-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "AHU-3",
+            "design airflow": 7875,
+            "maximum APD": 0.61,
+            "EAT": 3.1,
+            "LAT": 70.6,
+            "gas input": 731,
+            "gas capacity output": 584.8,
+            "voltage": 115,
+            "phase": 1,
+            "frequency": 60
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Provide lockable, fusible disconnect. External static pressure includes filter and ductwork not in casing. Cooling coil performance based on 100% water. Heating coil performance based on 40% propylene glycol mixture.",
+      "items": [
+        {
+          "equipmentTag": "Type 1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "associated units": "FCU-110, FCU-116, FCU-157, FCU-161, FCU-162, FCU-167, FCU-168, FCU-169, FCU-172, FCU-173, FCU-174, FCU-207, FCU-208, FCU-209, FCU-212, FCU-216, FCU-222, FCU-223, FCU-224, FCU-234, FCU-236, FCU-242, FCU-246, FCU-253, FCU-257, FCU-260, FCU-261, FCU-263, FCU-279",
+            "unit arrangement": "Horizontal Concealed",
+            "airflow": 200,
+            "external static pressure": 0.4,
+            "brake power": 0.1,
+            "motor power": 0.1,
+            "filter type": "Pleated Media",
+            "filter MERV": 8,
+            "voltage": 115,
+            "phase": 1,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "Type 2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "associated units": "FCU-126, FCU-127, FCU-128, FCU-132, FCU-152, FCU-153, FCU-164, FCU-165, FCU-204, FCU-220, FCU-240, FCU-241, FCU-247, FCU-250, FCU-255, FCU-264, FCU-265, FCU-266, FCU-267, FCU-268, FCU-269, FCU-285",
+            "unit arrangement": "Horizontal Concealed",
+            "airflow": 300,
+            "external static pressure": 0.4,
+            "brake power": 0.1,
+            "motor power": 0.2,
+            "filter type": "Pleated Media",
+            "filter MERV": 8,
+            "voltage": 115,
+            "phase": 1,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "Type 3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "associated units": "FCU-117, FCU-118, FCU-120, FCU-214, FCU-273, FCU-274",
+            "unit arrangement": "Horizontal Concealed",
+            "airflow": 1050,
+            "external static pressure": 0.4,
+            "brake power": 0.3,
+            "motor power": 0.5,
+            "filter type": "Pleated Media",
+            "filter MERV": 8,
+            "voltage": 115,
+            "phase": 1,
+            "frequency": 60
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Blower Coil Units",
+      "notes": "External static pressure includes filter and ductwork not in casing. Cooling coil performance based on 100% water. Heating coil performance based on 40% propylene glycol mixture. Provide lockable disconnect.",
+      "items": [
+        {
+          "equipmentTag": "Type 1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "associated units": "BCAH-124, BCAH-125, BCAH-138, BCAH-150B",
+            "unit arrangement": "Horizontal Concealed",
+            "airflow": 800,
+            "external static pressure": 0.5,
+            "brake power": 0.6,
+            "motor power": 1,
+            "filter type": "Pleated Media",
+            "filter MERV": 8,
+            "voltage": 115,
+            "phase": 1,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "Type 2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "associated units": "BCAH-230A, BCAH-230B",
+            "unit arrangement": "Horizontal Concealed",
+            "airflow": 2300,
+            "external static pressure": 0.5,
+            "brake power": 1.4,
+            "motor power": 1.5,
+            "filter type": "Pleated Media",
+            "filter MERV": 8,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "Type 3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "associated units": "BCAH-104, BCAH-179, BCAH-180, BCAH-181, BCAH-182",
+            "unit arrangement": "Horizontal Concealed",
+            "airflow": 950,
+            "external static pressure": 0.5,
+            "brake power": 0.9,
+            "motor power": 0.9,
+            "filter type": "Pleated Media",
+            "filter MERV": 8,
+            "voltage": 115,
+            "phase": 1,
+            "frequency": 60
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Cooled Chillers",
+      "notes": "Provide Trane water chiller product with single point connection and lockable unit mounted disconnect. Capacity based on 40% propylene glycol/water solution in evaporator. Unit suitable for low ambient operation to 0°F. Performance based on design altitude of 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "Trane",
+          "model": "",
+          "specifications": {
+            "type": "Modular Scroll",
+            "flowrate": 300.4,
+            "supply temperature": 42,
+            "return temperature": 57,
+            "max pressure drop": 8.3,
+            "module qty": 4,
+            "ambient temperature": 95,
+            "circuit qty per module": 2,
+            "refrigerant": "R-454B",
+            "max refrigerant qty per module": 67,
+            "EER": 10.2,
+            "MCA": 365,
+            "MOCP": 400,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CH-2",
+          "manufacturer": "Trane",
+          "model": "",
+          "specifications": {
+            "type": "Modular Scroll",
+            "flowrate": 409.4,
+            "supply temperature": 48,
+            "return temperature": 60,
+            "max pressure drop": 25,
+            "module qty": 4,
+            "ambient temperature": 95,
+            "circuit qty per module": 2,
+            "refrigerant": "R-454B",
+            "max refrigerant qty per module": 67,
+            "EER": 10.09,
+            "MCA": 392,
+            "MOCP": 450,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "notes": "Provide integral free cooling"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Four Pipe Heat Pump",
+      "notes": "Provide single point connection and lockable unit mounted disconnect. Capacity based on 40% propylene glycol/water solution in evaporator and condenser. Performance based on design altitude of 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "AWHP-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Modular Four Pipe Scroll",
+            "evaporator flowrate": 92.3,
+            "evaporator supply temperature": 42,
+            "evaporator return temperature": 57,
+            "evaporator WPD": 6,
+            "evaporator ambient temperature": 95,
+            "condenser flowrate": 60.1,
+            "condenser return temperature": 90,
+            "condenser supply temperature": 110,
+            "condenser WPD": 4.3,
+            "condenser ambient temperature": 30,
+            "module qty": 2,
+            "compressor qty per module": 2,
+            "refrigerant": "R-454B",
+            "max refrigerant qty per module": 100,
+            "EER": 9.828,
+            "COP": 2.966,
+            "MCA": 147,
+            "MOCP": 200,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Expansion Tanks",
+      "notes": "Constructed in accordance with ASME Section VIII Division 1. Route drains to nearest floor drain. Provide 6\" concrete equipment pad extending 6 inches beyond edges of equipment. Tank size based on 40% propylene glycol.",
+      "items": [
+        {
+          "equipmentTag": "ET-CHW-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "Chilled Water Comfort Primary",
+            "type": "ASME Diaphragm Type",
+            "min tank volume": 35,
+            "min acceptance volume": 28,
+            "tank rated pressure": 150,
+            "min system temperature": 44,
+            "max system temperature": 92,
+            "min system pressure": 22.3,
+            "max system pressure": 112.5,
+            "set pressure": 22.3
+          }
+        },
+        {
+          "equipmentTag": "ET-CHW-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "Chilled Water IT Primary",
+            "type": "ASME Diaphragm Type",
+            "min tank volume": 35,
+            "min acceptance volume": 28,
+            "tank rated pressure": 150,
+            "min system temperature": 44,
+            "max system temperature": 92,
+            "min system pressure": 22.3,
+            "max system pressure": 112.5,
+            "set pressure": 22.3
+          }
+        }
+      ]
+    }
+  ]
+}

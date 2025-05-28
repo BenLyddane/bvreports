@@ -1,0 +1,59 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Hensel Phelps
+package projects
+GBSD Integrated Training Center (ITC)
+
+    details
+
+MH
+GBSD Integrated Training Center (ITC)
+--
+Organization Logo
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+Alex Arnold (aarnold@henselphelps.com)
+Address
+--
+Created
+5/27/2025
+Expected Start
+--
+Date Due
+6/30/2025
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+6/19/2025
+Date Invited
+5/27/2025
+Request Type
+Proposal
+Project Size
+--
+
+Project Link:
+https://app.buildvision.io/admin/organizations/373e34b7-2026-4706-8184-e7cab765dba7/package-projects/d9ccf49d-0eba-4852-8c17-c04b44d3fe4a/details
+
+

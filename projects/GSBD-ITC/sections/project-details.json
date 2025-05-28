@@ -1,0 +1,46 @@
+{
+  "reportTitle": "BuildVision Project Report for GBSD Integrated Training Center (ITC)",
+  "customerInformation": {
+    "customerName": "Hensel Phelps",
+    "contactPerson": "Alex Arnold",
+    "contactEmail": "aarnold@henselphelps.com",
+    "contactPhone": "",
+    "projectId": "d9ccf49d-0eba-4852-8c17-c04b44d3fe4a",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "GBSD Integrated Training Center (ITC)",
+    "location": "F.E. Warren AFB, Wyoming",
+    "startDate": "5/27/2025",
+    "completionDate": "6/30/2025",
+    "budget": "",
+    "scope": "Construction of an integrated training center for the Ground Based Strategic Deterrent (GBSD) program including mechanical systems, air handling units, and related infrastructure",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/373e34b7-2026-4706-8184-e7cab765dba7/package-projects/d9ccf49d-0eba-4852-8c17-c04b44d3fe4a/details",
+    "additionalFields": {
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead",
+      "projectSize": "",
+      "requestType": "Proposal",
+      "RFIsDue": "6/19/2025",
+      "jobWalk": "",
+      "dateInvited": "5/27/2025",
+      "contractNumber": "W9128F21D0024",
+      "solicitationNumber": "W9128F25RA015"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}
