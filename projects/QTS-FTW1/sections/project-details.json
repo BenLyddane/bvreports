@@ -1,0 +1,47 @@
+{
+  "reportTitle": "BuildVision Project Report for QTS FTW1 - DC1 18MW Expansion",
+  "customerInformation": {
+    "customerName": "QTS Data Centers",
+    "contactPerson": "Michael T. Geiter Sr.",
+    "contactEmail": "michael.geiter@structuretone.com",
+    "contactPhone": "",
+    "projectId": "704b7b37-1320-419d-a552-f437e659cf49",
+    "additionalFields": {
+      "leadSource": "BuildingConnected Lead"
+    }
+  },
+  "projectInformation": {
+    "projectName": "QTS FTW1 - DC1 18MW Expansion",
+    "location": "14100 Park Vista Boulevard, Fort Worth, TX 76177",
+    "startDate": "6/2/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Data center expansion with electrical systems installation including medium-voltage equipment, generators, UPS systems, switchboards, and distribution equipment",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/cc7e5f0e-72e4-473c-8a38-493477f6b728/package-projects/704b7b37-1320-419d-a552-f437e659cf49/packages",
+    "additionalFields": {
+      "createdDate": "4/28/2025",
+      "dateDue": "5/13/2025",
+      "jobWalk": "--",
+      "contractType": "--",
+      "rfisDue": "5/1/2025",
+      "dateInvited": "4/21/2025",
+      "requestType": "Proposal",
+      "projectSize": "--"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "03/14/2025"
+  }
+}

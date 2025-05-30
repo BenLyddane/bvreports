@@ -1,0 +1,595 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Static Uninterruptible Power Supply (UPS)",
+      "notes": "Three-phase, on-line, double-conversion, static-type, multi-module UPS system with transient voltage surge suppression, input harmonics reduction, rectifier-charger, battery, battery disconnect device, inverter, static bypass transfer switch and external maintenance bypass/isolation switch.",
+      "items": [
+        {
+          "equipmentTag": "XX-UPS-C22-1",
+          "manufacturer": "Pre-purchased",
+          "model": "",
+          "specifications": {
+            "capacity": "1500 kVA/1500 kW",
+            "systemVoltage": "480V",
+            "inputSettings": {
+              "normalPower": {
+                "system": "100%",
+                "batteryCharging": "15%"
+              },
+              "generatorPower": {
+                "system": "100%",
+                "batteryCharging": "15%"
+              }
+            }
+          }
+        },
+        {
+          "equipmentTag": "XX-UPS-R11",
+          "manufacturer": "Pre-purchased",
+          "model": "",
+          "specifications": {
+            "capacity": "1500 kVA/1500 kW",
+            "systemVoltage": "480V"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Engine Generators",
+      "notes": "Diesel engine generator sets with unit-mounted cooling system, control and monitoring",
+      "items": [
+        {
+          "equipmentTag": "XX-GEN-C22",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2250 kW",
+            "voltage": "480/277V",
+            "fuelType": "Diesel",
+            "speed": "1800 rpm",
+            "batterySystem": "12V electric with negative ground",
+            "tankCapacity": "48 hours at 100% rated output"
+          }
+        },
+        {
+          "equipmentTag": "XX-GEN-R11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2250 kW",
+            "voltage": "480/277V",
+            "fuelType": "Diesel",
+            "speed": "1800 rpm"
+          }
+        },
+        {
+          "equipmentTag": "XX-GEN-R21",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2250 kW",
+            "voltage": "480/277V",
+            "fuelType": "Diesel",
+            "speed": "1800 rpm"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Transfer Switches",
+      "notes": "Automatic transfer switches for emergency power systems",
+      "items": [
+        {
+          "equipmentTag": "XX-STS-C22R21-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        },
+        {
+          "equipmentTag": "XX-STS-C22R21-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        },
+        {
+          "equipmentTag": "XX-STS-C22R21-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        },
+        {
+          "equipmentTag": "XX-STS-C22R21-04",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        },
+        {
+          "equipmentTag": "XX-STS-R21C22",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "250A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Power Distribution Units (PDUs)",
+      "notes": "Integrated and coordinated assembly of power-line-conditioning and distribution components packaged in a single cabinet, including isolation transformer, TVSS system, output panelboards, and monitoring systems",
+      "items": [
+        {
+          "equipmentTag": "XX-PDU-C22-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "inputVoltage": "480V",
+            "outputVoltage": "208Y/120V",
+            "capacity": "500 kVA",
+            "primaryInterruptRating": "65 kAIC",
+            "secondaryInterruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-PDU-C22-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "inputVoltage": "480V",
+            "outputVoltage": "208Y/120V",
+            "capacity": "500 kVA",
+            "primaryInterruptRating": "65 kAIC",
+            "secondaryInterruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-PDU-C22-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "inputVoltage": "480V",
+            "outputVoltage": "208Y/120V",
+            "capacity": "500 kVA",
+            "primaryInterruptRating": "65 kAIC",
+            "secondaryInterruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-PDU-C22-04",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "inputVoltage": "480V",
+            "outputVoltage": "208Y/120V",
+            "capacity": "500 kVA",
+            "primaryInterruptRating": "65 kAIC",
+            "secondaryInterruptRating": "65 kAIC"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Switchboards",
+      "notes": "Service and distribution switchboards for power distribution",
+      "items": [
+        {
+          "equipmentTag": "XX-SWR-C22-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "3000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MBB-C22-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "2000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC",
+            "type": "Maintenance Bypass Switchboard"
+          }
+        },
+        {
+          "equipmentTag": "XX-SWR-R11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "3000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-SWR-R21",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "3000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MBB-R11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "2000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC",
+            "type": "Maintenance Bypass Switchboard"
+          }
+        },
+        {
+          "equipmentTag": "XX-MBB-R21",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "2000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC",
+            "type": "Maintenance Bypass Switchboard"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Transformers",
+      "notes": "Medium-voltage and low-voltage transformers for power distribution",
+      "items": [
+        {
+          "equipmentTag": "XX-XFMR-C22",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2500 kVA",
+            "primaryVoltage": "24.9 kV",
+            "secondaryVoltage": "480V",
+            "impedance": "5.75%Z"
+          }
+        },
+        {
+          "equipmentTag": "XX-XFMR-R11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2500 kVA",
+            "primaryVoltage": "24.9 kV",
+            "secondaryVoltage": "480V",
+            "impedance": "5.75%Z"
+          }
+        },
+        {
+          "equipmentTag": "XX-XFMR-R21",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2500 kVA",
+            "primaryVoltage": "24.9 kV",
+            "secondaryVoltage": "480V",
+            "impedance": "5.75%Z"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "CRAH Units",
+      "notes": "Computer Room Air Handler units for data center cooling",
+      "items": [
+        {
+          "equipmentTag": "CRAH-DH2200-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-05",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-07",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-08",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-10",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-13",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-15",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-16",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH1100-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH1100-06",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH1100-11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH1100-14",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Enclosed Bus Assemblies",
+      "notes": "Bus assemblies for power distribution",
+      "items": [
+        {
+          "equipmentTag": "XX-STS",
+          "manufacturer": "No BOD Listed",
+          "model": "",
+          "specifications": {
+            "type": "Enclosed Bus Assemblies"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Modules",
+      "notes": "Data center modules",
+      "items": [
+        {
+          "equipmentTag": "XX-MOD-C22-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-C22-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-R11-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-R11-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-R21-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-R21-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Battery Wrap Static Transfer Switches",
+      "notes": "Battery wrap static transfer switches for power distribution",
+      "items": [
+        {
+          "equipmentTag": "XX-BWSTS-C22R21-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "XX-BWSTS-C22R21-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "XX-BWSTS-C22R21-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "XX-BWSTS-C22R21-04",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Critical Output Distribution",
+      "notes": "Critical output distribution switchboard",
+      "items": [
+        {
+          "equipmentTag": "XX-COD-A22-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "2000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Pumps for cooling systems",
+      "items": [
+        {
+          "equipmentTag": "XXPMP-CHILL-XX",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "100A",
+            "voltage": "480V"
+          }
+        }
+      ]
+    }
+  ]
+}

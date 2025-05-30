@@ -237,7 +237,7 @@ ${responseContent}`;
             ]
           }
         ],
-        max_tokens: 4000
+        max_tokens: 8000
       },
       {
         headers: {
@@ -400,7 +400,7 @@ async function generateJsonSectionWithFiles(prompt, fileReferences) {
             content: content
           }
         ],
-        max_tokens: 4000
+        max_tokens: 8000
       },
       headers: {
         'Content-Type': 'application/json',
@@ -521,7 +521,7 @@ async function generateJsonSection(prompt, contextFiles) {
             ]
           }
         ],
-        max_tokens: 4000
+        max_tokens: 8000
       },
       headers: {
         'Content-Type': 'application/json',
@@ -814,7 +814,7 @@ Do not include \`\`\`json markers.`;
               ]
             }
           ],
-          max_tokens: 4000
+          max_tokens: 8000
         },
         headers: {
           'Content-Type': 'application/json',
@@ -1128,7 +1128,7 @@ Do not include \`\`\`json markers.`;
               content: content
             }
           ],
-          max_tokens: 4000
+          max_tokens: 8000
         },
         headers: {
           'Content-Type': 'application/json',

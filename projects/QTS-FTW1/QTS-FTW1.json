@@ -1,0 +1,1746 @@
+{
+  "reportTitle": "BuildVision Project Report for QTS FTW1 - DC1 18MW Expansion",
+  "customerInformation": {
+    "customerName": "QTS Data Centers",
+    "contactPerson": "Michael T. Geiter Sr.",
+    "contactEmail": "michael.geiter@structuretone.com",
+    "contactPhone": "",
+    "projectId": "704b7b37-1320-419d-a552-f437e659cf49",
+    "additionalFields": {
+      "leadSource": "BuildingConnected Lead"
+    }
+  },
+  "projectInformation": {
+    "projectName": "QTS FTW1 - DC1 18MW Expansion",
+    "location": "14100 Park Vista Boulevard, Fort Worth, TX 76177",
+    "startDate": "6/2/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Data center expansion with electrical systems installation including medium-voltage equipment, generators, UPS systems, switchboards, and distribution equipment",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/cc7e5f0e-72e4-473c-8a38-493477f6b728/package-projects/704b7b37-1320-419d-a552-f437e659cf49/packages",
+    "additionalFields": {
+      "createdDate": "4/28/2025",
+      "dateDue": "5/13/2025",
+      "jobWalk": "--",
+      "contractType": "--",
+      "rfisDue": "5/1/2025",
+      "dateInvited": "4/21/2025",
+      "requestType": "Proposal",
+      "projectSize": "--"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-05-30"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Static Uninterruptible Power Supply (UPS)",
+      "notes": "Three-phase, on-line, double-conversion, static-type, multi-module UPS system with transient voltage surge suppression, input harmonics reduction, rectifier-charger, battery, battery disconnect device, inverter, static bypass transfer switch and external maintenance bypass/isolation switch.",
+      "items": [
+        {
+          "equipmentTag": "XX-UPS-C22-1",
+          "manufacturer": "Pre-purchased",
+          "model": "",
+          "specifications": {
+            "capacity": "1500 kVA/1500 kW",
+            "systemVoltage": "480V",
+            "inputSettings": {
+              "normalPower": {
+                "system": "100%",
+                "batteryCharging": "15%"
+              },
+              "generatorPower": {
+                "system": "100%",
+                "batteryCharging": "15%"
+              }
+            }
+          }
+        },
+        {
+          "equipmentTag": "XX-UPS-R11",
+          "manufacturer": "Pre-purchased",
+          "model": "",
+          "specifications": {
+            "capacity": "1500 kVA/1500 kW",
+            "systemVoltage": "480V"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Engine Generators",
+      "notes": "Diesel engine generator sets with unit-mounted cooling system, control and monitoring",
+      "items": [
+        {
+          "equipmentTag": "XX-GEN-C22",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2250 kW",
+            "voltage": "480/277V",
+            "fuelType": "Diesel",
+            "speed": "1800 rpm",
+            "batterySystem": "12V electric with negative ground",
+            "tankCapacity": "48 hours at 100% rated output"
+          }
+        },
+        {
+          "equipmentTag": "XX-GEN-R11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2250 kW",
+            "voltage": "480/277V",
+            "fuelType": "Diesel",
+            "speed": "1800 rpm"
+          }
+        },
+        {
+          "equipmentTag": "XX-GEN-R21",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2250 kW",
+            "voltage": "480/277V",
+            "fuelType": "Diesel",
+            "speed": "1800 rpm"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Transfer Switches",
+      "notes": "Automatic transfer switches for emergency power systems",
+      "items": [
+        {
+          "equipmentTag": "XX-STS-C22R21-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        },
+        {
+          "equipmentTag": "XX-STS-C22R21-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        },
+        {
+          "equipmentTag": "XX-STS-C22R21-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        },
+        {
+          "equipmentTag": "XX-STS-C22R21-04",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        },
+        {
+          "equipmentTag": "XX-STS-R21C22",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "250A",
+            "voltage": "480V",
+            "phases": "3",
+            "poles": "3"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Power Distribution Units (PDUs)",
+      "notes": "Integrated and coordinated assembly of power-line-conditioning and distribution components packaged in a single cabinet, including isolation transformer, TVSS system, output panelboards, and monitoring systems",
+      "items": [
+        {
+          "equipmentTag": "XX-PDU-C22-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "inputVoltage": "480V",
+            "outputVoltage": "208Y/120V",
+            "capacity": "500 kVA",
+            "primaryInterruptRating": "65 kAIC",
+            "secondaryInterruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-PDU-C22-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "inputVoltage": "480V",
+            "outputVoltage": "208Y/120V",
+            "capacity": "500 kVA",
+            "primaryInterruptRating": "65 kAIC",
+            "secondaryInterruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-PDU-C22-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "inputVoltage": "480V",
+            "outputVoltage": "208Y/120V",
+            "capacity": "500 kVA",
+            "primaryInterruptRating": "65 kAIC",
+            "secondaryInterruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-PDU-C22-04",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "inputVoltage": "480V",
+            "outputVoltage": "208Y/120V",
+            "capacity": "500 kVA",
+            "primaryInterruptRating": "65 kAIC",
+            "secondaryInterruptRating": "65 kAIC"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Switchboards",
+      "notes": "Service and distribution switchboards for power distribution",
+      "items": [
+        {
+          "equipmentTag": "XX-SWR-C22-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "3000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MBB-C22-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "2000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC",
+            "type": "Maintenance Bypass Switchboard"
+          }
+        },
+        {
+          "equipmentTag": "XX-SWR-R11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "3000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-SWR-R21",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "3000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MBB-R11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "2000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC",
+            "type": "Maintenance Bypass Switchboard"
+          }
+        },
+        {
+          "equipmentTag": "XX-MBB-R21",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "2000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC",
+            "type": "Maintenance Bypass Switchboard"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Transformers",
+      "notes": "Medium-voltage and low-voltage transformers for power distribution",
+      "items": [
+        {
+          "equipmentTag": "XX-XFMR-C22",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2500 kVA",
+            "primaryVoltage": "24.9 kV",
+            "secondaryVoltage": "480V",
+            "impedance": "5.75%Z"
+          }
+        },
+        {
+          "equipmentTag": "XX-XFMR-R11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2500 kVA",
+            "primaryVoltage": "24.9 kV",
+            "secondaryVoltage": "480V",
+            "impedance": "5.75%Z"
+          }
+        },
+        {
+          "equipmentTag": "XX-XFMR-R21",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2500 kVA",
+            "primaryVoltage": "24.9 kV",
+            "secondaryVoltage": "480V",
+            "impedance": "5.75%Z"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "CRAH Units",
+      "notes": "Computer Room Air Handler units for data center cooling",
+      "items": [
+        {
+          "equipmentTag": "CRAH-DH2200-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-05",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-07",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-08",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-10",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-13",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-15",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH2200-16",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH1100-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH1100-06",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH1100-11",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-DH1100-14",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "80A",
+            "voltage": "480V"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Enclosed Bus Assemblies",
+      "notes": "Bus assemblies for power distribution",
+      "items": [
+        {
+          "equipmentTag": "XX-STS",
+          "manufacturer": "No BOD Listed",
+          "model": "",
+          "specifications": {
+            "type": "Enclosed Bus Assemblies"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Modules",
+      "notes": "Data center modules",
+      "items": [
+        {
+          "equipmentTag": "XX-MOD-C22-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-C22-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-R11-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-R11-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-R21-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        },
+        {
+          "equipmentTag": "XX-MOD-R21-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Battery Wrap Static Transfer Switches",
+      "notes": "Battery wrap static transfer switches for power distribution",
+      "items": [
+        {
+          "equipmentTag": "XX-BWSTS-C22R21-01",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "XX-BWSTS-C22R21-02",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "XX-BWSTS-C22R21-03",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V"
+          }
+        },
+        {
+          "equipmentTag": "XX-BWSTS-C22R21-04",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "600A",
+            "voltage": "480V"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Critical Output Distribution",
+      "notes": "Critical output distribution switchboard",
+      "items": [
+        {
+          "equipmentTag": "XX-COD-A22-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "2000A",
+            "voltage": "480V",
+            "phases": "3",
+            "wires": "3",
+            "interruptRating": "65 kAIC"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Pumps for cooling systems",
+      "items": [
+        {
+          "equipmentTag": "XXPMP-CHILL-XX",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "ampRating": "100A",
+            "voltage": "480V"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Static Uninterruptible Power Supply (UPS)",
+      "suppliers": [
+        {
+          "manufacturer": "Eaton",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for UPS systems in project specifications"
+        },
+        {
+          "manufacturer": "Liebert/Emerson",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed first in specifications as basis of design manufacturer for UPS systems"
+        },
+        {
+          "manufacturer": "Power Distribution, Inc.",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for UPS systems in project specifications"
+        },
+        {
+          "manufacturer": "Schneider Electric/Square D",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for UPS systems in project specifications"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard UPS manufacturer suitable for data center applications"
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard UPS manufacturer suitable for data center applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Engine Generators",
+      "suppliers": [
+        {
+          "manufacturer": "Caterpillar",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as basis of design for diesel engine generators in Section 26 32 13"
+        },
+        {
+          "manufacturer": "Cummins Power Generation",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer in Section 26 32 13"
+        },
+        {
+          "manufacturer": "Kohler",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer in Section 26 32 13"
+        },
+        {
+          "manufacturer": "Generac Power Systems",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer in Section 26 32 13"
+        },
+        {
+          "manufacturer": "MTU Onsite Energy",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for engine generators"
+        },
+        {
+          "manufacturer": "Detroit Diesel",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for engine generators"
+        }
+      ]
+    },
+    {
+      "componentType": "Transfer Switches",
+      "suppliers": [
+        {
+          "manufacturer": "ASCO",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Russelectric",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Cummins Power Generation",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "GE Zenith Controls",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Kohler Power Systems",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Socomec",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for transfer switches"
+        }
+      ]
+    },
+    {
+      "componentType": "Power Distribution Units (PDUs)",
+      "suppliers": [
+        {
+          "manufacturer": "Eaton",
+          "model": "Power Distribution Unit",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with QTS data center specifications"
+        },
+        {
+          "manufacturer": "Liebert/Vertiv",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Liebert Corporation (division of Emerson/Vertiv)",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for PDUs in specifications"
+        },
+        {
+          "manufacturer": "Power Distribution Inc.",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Power Distribution, Inc.",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Square D/Schneider Electric",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Square D; Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "United Power Corporation",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "United Power Corporation",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed in specifications as acceptable manufacturer"
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Power Distribution Unit",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ABB",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Global manufacturer with suitable PDU products for data center applications"
+        },
+        {
+          "manufacturer": "Cyberpower",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Cyberpower",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Provides compatible PDU solutions for data center applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Switchboards",
+      "suppliers": [
+        {
+          "manufacturer": "Eaton",
+          "model": "Switchboard",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for switchboards."
+        },
+        {
+          "manufacturer": "General Electric",
+          "model": "Switchboard",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "General Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for switchboards."
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Switchboard",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Siemens Industry, Inc.",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for switchboards."
+        },
+        {
+          "manufacturer": "Square D",
+          "model": "Switchboard",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for switchboards."
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Switchboard",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ABB",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Industry standard manufacturer not explicitly listed but compatible with project requirements."
+        },
+        {
+          "manufacturer": "ASCO",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "ASCO",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches which relate to switchboard connections."
+        }
+      ]
+    },
+    {
+      "componentType": "Transformers",
+      "suppliers": [
+        {
+          "manufacturer": "Square D",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for enclosed bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton Corporation",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for enclosed bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Siemens Industry, Inc.",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for enclosed bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "General Electric",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "GE",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for enclosed bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ABB",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested alternative, meets requirements for transformers equipment"
+        },
+        {
+          "manufacturer": "Powell",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Powell Industries",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested alternative, meets requirements for transformers equipment"
+        }
+      ]
+    },
+    {
+      "componentType": "CRAH Units",
+      "suppliers": [
+        {
+          "manufacturer": "Data Aire",
+          "model": "CRAH Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with specified electrical requirements; provides units designed for data center applications"
+        },
+        {
+          "manufacturer": "Vertiv (Liebert)",
+          "model": "CRV/CRD Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Referenced in drawings as CRAH-DH units; designed for precision cooling in data centers"
+        },
+        {
+          "manufacturer": "Stulz",
+          "model": "CyberAir Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with data center cooling requirements; offers similar functionality"
+        },
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "InRow Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Can be integrated with electrical systems shown in drawings; suitable for data center row-based cooling"
+        }
+      ]
+    },
+    {
+      "componentType": "Enclosed Bus Assemblies",
+      "suppliers": [
+        {
+          "manufacturer": "Siemens Industry, Inc.",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Siemens Industry, Inc., Energy Management Division",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with existing electrical distribution system. Specified for 3PH, 3W, low-impedance bus with single-bolt joints."
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with existing electrical distribution system. Supports required fault current ratings and required expansion fittings."
+        },
+        {
+          "manufacturer": "Square D",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Square D; by Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with existing electrical distribution system. Supports required fault current ratings and expansion capabilities."
+        },
+        {
+          "manufacturer": "General Electric Company",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "General Electric Company",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with existing electrical distribution system. Supports required fault ratings per project specs."
+        }
+      ]
+    },
+    {
+      "componentType": "Modules",
+      "suppliers": [
+        {
+          "manufacturer": "Square D",
+          "model": "Static Transfer Switch",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as manufacturer for STS in the electrical one-line diagrams"
+        },
+        {
+          "manufacturer": "ASCO",
+          "model": "Static Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 36 00"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as manufacturer for bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "General Electric Company",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 25 00"
+        },
+        {
+          "manufacturer": "Siemens Industry",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 25 00"
+        },
+        {
+          "manufacturer": "Liebert Corporation",
+          "model": "Power Distribution Units",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Emerson",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as manufacturer for PDUs in Section 26 26 00"
+        },
+        {
+          "manufacturer": "Controlled Power Company",
+          "model": "Power Distribution Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 26 00"
+        },
+        {
+          "manufacturer": "Power Distribution, Inc.",
+          "model": "Power Distribution Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 26 00"
+        },
+        {
+          "manufacturer": "Vertiv",
+          "model": "Module Equipment",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with most data center infrastructure. Strong integration capabilities with monitoring systems."
+        },
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "Module Equipment",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Strong compatibility with existing Square D equipment. Comprehensive module offerings."
+        }
+      ]
+    },
+    {
+      "componentType": "Battery Wrap Static Transfer Switches",
+      "suppliers": [
+        {
+          "manufacturer": "Cyberpower",
+          "model": "Battery Wrap Static Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Cyberpower",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Provides battery wrap static transfer switching capability compatible with project requirements"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "BWSTS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Identified in drawings as XX-BWSTS model designations. Compatible with project power distribution requirements."
+        },
+        {
+          "manufacturer": "Vertiv (formerly Emerson)",
+          "model": "Battery Wrap STS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Vertiv",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard equipment compatible with UPS systems and power distribution requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Critical Output Distribution",
+      "suppliers": [
+        {
+          "manufacturer": "ASCO",
+          "model": "Static Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Russelectric",
+          "model": "Static Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed manufacturer for enclosed bus assemblies"
+        },
+        {
+          "manufacturer": "General Electric",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed manufacturer for enclosed bus assemblies"
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed manufacturer for enclosed bus assemblies"
+        },
+        {
+          "manufacturer": "Square D",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed manufacturer for enclosed bus assemblies"
+        },
+        {
+          "manufacturer": "Liebert/Vertiv",
+          "model": "Static UPS",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Shown on electrical one-line diagram as equipment manufacturer"
+        },
+        {
+          "manufacturer": "APC/Schneider Electric",
+          "model": "Static UPS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with specified requirements for UPS systems"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "Static UPS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible with specified requirements for UPS systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Series e-1510",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Primary choice for HVAC pump systems"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "Design Envelope",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with existing infrastructure, energy efficient"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TP/TPE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Good efficiency ratings, may require minor piping modifications"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "FI Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Suitable alternative, widely available"
+        },
+        {
+          "manufacturer": "Wilo",
+          "model": "IL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Energy efficient, growing market presence"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Negotiate Bulk Purchase of Static Transfer Switches",
+      "rationale": "The electrical diagrams and specifications indicate multiple static transfer switches (STS) are required for the QTS FTW1 DC1 18MW Expansion project. A coordinated bulk purchase of these critical components would leverage economies of scale and potentially secure better pricing, delivery schedules, and warranty terms.",
+      "estimatedImpact": "Potential cost savings of 10-15% on STS equipment, improved delivery coordination, and streamlined installation scheduling. This could represent significant savings on these high-value items while ensuring consistent quality across all units.",
+      "implementation": "1. Compile total STS requirements from all electrical diagrams and specifications. 2. Engage with preferred manufacturers (ASCO, Eaton, etc.) to negotiate volume-based pricing. 3. Coordinate delivery schedule with construction timeline to minimize storage requirements. 4. Consider extended warranty options as part of the negotiation.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Standardize on a Single UPS Manufacturer",
+      "rationale": "The specifications allow for multiple UPS manufacturers. Standardizing on a single manufacturer for all UPS systems would provide consistency in maintenance procedures, spare parts inventory, and technical support. The project documents indicate significant UPS infrastructure with parallel redundant configurations.",
+      "estimatedImpact": "Estimated 8-12% reduction in lifetime maintenance costs, simplified training requirements, reduced spare parts inventory, and improved vendor leverage for future service contracts. Operational efficiency would be improved through standardized interfaces and monitoring systems.",
+      "implementation": "1. Evaluate preferred manufacturers based on technical specifications, local support capabilities, and total cost of ownership. 2. Negotiate enterprise-level agreement with selected manufacturer. 3. Ensure all UPS specifications reference the standardized manufacturer. 4. Coordinate installation training for all units with the manufacturer.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Optimize Generator Procurement with Integrated Testing Plan",
+      "rationale": "The specifications indicate multiple diesel generators with extensive testing requirements. Coordinating the generator procurement with the testing plan could reduce duplicate testing costs and streamline the commissioning process. The project requires significant load bank testing for generator acceptance.",
+      "estimatedImpact": "Potential savings of $15,000-$25,000 in testing costs by combining factory and site acceptance testing. Reduced risk of commissioning delays by ensuring factory tests align with site acceptance criteria. Improved reliability validation through comprehensive testing.",
+      "implementation": "1. Review generator specifications and testing requirements in Section 26 32 13 and 26 32 15. 2. Coordinate with generator manufacturer to align factory testing with site acceptance criteria. 3. Consider negotiating integrated factory witness testing with commissioning team present. 4. Arrange for load bank rental coordination between factory and site testing phases.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Bundle Medium-Voltage Cable Purchase with Installation Services",
+      "rationale": "The project requires significant medium-voltage cabling as shown in the electrical diagrams. Bundling the cable purchase with specialized installation services could ensure proper handling of these critical components while potentially reducing overall costs through a single-source responsibility approach.",
+      "estimatedImpact": "Estimated 5-7% reduction in combined material and labor costs. Reduced risk of installation damage and warranty disputes. Simplified project management through single-source responsibility for this critical system component.",
+      "implementation": "1. Identify all medium-voltage cable requirements from drawings. 2. Develop RFP for combined cable supply and installation services. 3. Evaluate bids based on total cost of ownership and quality assurance. 4. Ensure installation contractor has proper qualifications for medium-voltage work.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Implement Strategic Switchgear Procurement Plan",
+      "rationale": "The electrical one-line diagrams show extensive switchgear requirements. A strategic procurement plan for switchgear would account for long lead times, coordinate factory witness testing, and potentially reduce costs through standardization of manufacturers and specifications.",
+      "estimatedImpact": "Potential cost savings of 5-8% through standardization and volume purchasing. Reduced risk of schedule delays by proactively managing long lead time items. Improved quality control through coordinated factory witness testing.",
+      "implementation": "1. Create comprehensive inventory of all required switchgear from electrical diagrams. 2. Develop standardized specifications where possible. 3. Engage with manufacturers early to secure production slots. 4. Consider advance procurement of long-lead components. 5. Coordinate factory witness testing to verify critical performance parameters before shipment.",
+      "priority": "High"
+    },
+    {
+      "id": 6,
+      "recommendation": "Consolidate PDU Purchases with Vendor-Managed Inventory",
+      "rationale": "The project requires multiple Power Distribution Units (PDUs) as shown in the electrical drawings. Implementing a vendor-managed inventory approach for PDUs could reduce on-site storage requirements, ensure just-in-time delivery, and potentially secure better pricing through a committed volume agreement.",
+      "estimatedImpact": "Reduced on-site storage costs and potential damage. Improved cash flow by delaying payment until equipment is needed on site. Potential 3-5% cost reduction through committed volume agreement with manufacturer.",
+      "implementation": "1. Identify total PDU requirements and delivery schedule based on construction timeline. 2. Negotiate with manufacturers for a vendor-managed inventory program. 3. Establish clear delivery protocols and acceptance criteria. 4. Implement tracking system for vendor-managed inventory to maintain project schedule compliance.",
+      "priority": "Medium"
+    },
+    {
+      "id": 7,
+      "recommendation": "Standardize Circuit Breaker Selection Across Equipment",
+      "rationale": "The specifications allow for multiple circuit breaker manufacturers. Standardizing on a single manufacturer for all major circuit breakers would reduce spare parts inventory, simplify maintenance, and potentially provide volume purchase benefits. This is particularly important for critical components like main breakers in switchgear and distribution equipment.",
+      "estimatedImpact": "Estimated 10-15% reduction in spare parts inventory requirements. Simplified maintenance procedures and training. Potential 4-6% cost savings through volume purchasing of standardized components.",
+      "implementation": "1. Review circuit breaker specifications across all electrical equipment. 2. Identify opportunities for standardization without compromising performance requirements. 3. Negotiate with preferred manufacturers for volume pricing. 4. Update specifications to reflect standardized circuit breaker requirements.",
+      "priority": "Medium"
+    },
+    {
+      "id": 8,
+      "recommendation": "Pre-purchase Surge Protection Devices (SPDs) as Package",
+      "rationale": "The specifications call for surge protection devices throughout the electrical distribution system. Purchasing all required SPDs as a package from a single manufacturer would ensure consistent protection strategies, potentially reduce costs, and simplify warranty management.",
+      "estimatedImpact": "Potential cost savings of 7-10% through volume purchasing. Consistent protection levels throughout the facility. Simplified warranty management through single-source responsibility. Reduced spare parts inventory requirements.",
+      "implementation": "1. Compile comprehensive list of all required SPDs from specifications and drawings. 2. Develop standardized SPD specifications that meet or exceed project requirements. 3. Negotiate with manufacturers for package pricing. 4. Coordinate delivery schedule with installation timeline.",
+      "priority": "Low"
+    }
+  ],
+  "conclusion": {
+    "summary": "The QTS FTW1 DC1 18MW Expansion project involves the installation of robust electrical distribution systems for a mission-critical data center. The project requires the procurement and installation of high-capacity equipment including UPS systems, diesel generators, switchgear, PDUs, and various distribution components. The electrical infrastructure follows a redundant design with multiple power paths to ensure reliability. Key procurement considerations include standardizing manufacturers where possible, coordinating bulk purchases for cost savings, managing long lead items proactively, and ensuring proper testing and commissioning. Careful attention must be paid to equipment compatibility, installation quality, and thorough testing to meet the demanding requirements of this data center expansion.",
+    "keyFindings": [
+      "The project features multiple power distribution paths requiring careful coordination between pre-purchased equipment and installer-provided components to ensure system compatibility and seamless integration.",
+      "Critical equipment such as UPS systems, generators, and switchgear have specific testing requirements that must be carefully planned and executed to validate system performance and reliability.",
+      "Standardization opportunities exist across multiple equipment types (UPS, PDUs, circuit breakers, etc.) that could yield significant cost savings and operational benefits through simplified maintenance and reduced spare parts inventory.",
+      "Long lead items like switchgear, transformers, and generators require strategic procurement planning to prevent schedule delays and optimize project cash flow.",
+      "Careful coordination of testing and commissioning activities is essential, particularly for the Level 4 (acceptance testing) and Level 5 (integrated systems testing) phases specified in the project requirements."
+    ],
+    "highestPriorityActions": [
+      "Implement a strategic switchgear procurement plan to account for long lead times, coordinate factory witness testing, and standardize specifications to potentially reduce costs by 5-8% while minimizing schedule risks.",
+      "Standardize on a single UPS manufacturer to ensure consistency in maintenance, spare parts, and technical support, potentially reducing lifetime maintenance costs by 8-12% while improving operational efficiency.",
+      "Negotiate bulk purchase of static transfer switches to leverage economies of scale for potential cost savings of 10-15% while ensuring consistent quality and delivery coordination.",
+      "Develop a comprehensive testing and commissioning schedule that integrates factory acceptance testing with site acceptance requirements to optimize testing resources and minimize redundant testing activities."
+    ]
+  }
+}

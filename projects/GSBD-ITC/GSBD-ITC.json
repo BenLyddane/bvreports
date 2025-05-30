@@ -7,10 +7,11 @@
     "contactPhone": "",
     "projectId": "d9ccf49d-0eba-4852-8c17-c04b44d3fe4a",
     "additionalFields": {
-      "Request Type": "Proposal",
-      "Date Invited": "5/27/2025",
-      "Date Due": "6/30/2025",
-      "RFIs Due": "6/19/2025"
+      "dateInvited": "5/27/2025",
+      "dateDue": "6/30/2025",
+      "RFIsDue": "6/19/2025",
+      "requestType": "Proposal",
+      "location": "F.E. Warren AFB, Wyoming"
     }
   },
   "projectInformation": {
@@ -19,11 +20,11 @@
     "startDate": "5/27/2025",
     "completionDate": "6/30/2025",
     "budget": "",
-    "scope": "",
+    "scope": "HVAC and mechanical equipment installation including air handling units, boilers, chillers, fan coil units, exhaust systems and related components",
     "projectUrl": "https://app.buildvision.io/admin/organizations/373e34b7-2026-4706-8184-e7cab765dba7/package-projects/d9ccf49d-0eba-4852-8c17-c04b44d3fe4a/details",
     "additionalFields": {
-      "Solicitation No.": "W9128F25RA015",
-      "Contract No.": "W9128F21D0024"
+      "contractNumber": "W9128F21D0024",
+      "solicitationNumber": "W9128F25RA015"
     }
   },
   "preparerInformation": {
@@ -44,302 +45,846 @@
   "equipmentByType": [
     {
       "equipmentType": "Air Handling Units",
-      "notes": "Performance based on design altitude of 6,115 ft. Units include filters, ductwork, coils, and vibration isolators.",
+      "notes": "External static pressure includes filters, ductwork, and coils not in AHU casing. Provide unit capable of use with variable speed drive. Performance based on design altitude of 6,115 ft. Provide 6 inch equipment pad.",
       "items": [
         {
           "equipmentTag": "AHU-1",
-          "manufacturer": "Trane",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Dedicated Outdoor Air System",
           "specifications": {
-            "service": "Dedicated Outdoor Air System",
             "airflow": "6,355 CFM",
-            "minimumOutdoorAir": "6,355 CFM",
-            "externalStaticPressure": "0.8 in. w.g.",
-            "fanQuantity": 1,
-            "fanRPM": 1776,
-            "brakePower": "5.0 Hp",
-            "motorPower": "7.5 Hp",
-            "returnAirflow": "5,530 CFM",
-            "returnExternalStaticPressure": "0.9 in. w.g.",
-            "returnFanQuantity": 1,
-            "returnFanRPM": 1668,
-            "returnFanBrakePower": "3.4 Hp",
-            "returnFanMotorPower": "5.0 Hp",
-            "preFilter": "Pleated Media MERV 8",
-            "finalFilter": "Cartridge MERV 13",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "minOutdoorAir": "6,355 CFM",
+            "externalStaticPressure": "0.8 in W.G.",
+            "supplyFan": {
+              "quantity": 1,
+              "rpm": 1776,
+              "brakePower": "5.0 Hp",
+              "motorPower": "7.5 Hp"
+            },
+            "returnFan": {
+              "airflow": "5,530 CFM",
+              "externalStaticPressure": "0.9 in W.G.",
+              "quantity": 1,
+              "rpm": 1668,
+              "brakePower": "3.4 Hp",
+              "motorPower": "5.0 Hp"
+            },
+            "preFilter": {
+              "type": "Pleated Media",
+              "merv": 8
+            },
+            "finalFilter": {
+              "type": "Cartridge",
+              "merv": 13
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         },
         {
           "equipmentTag": "AHU-2",
-          "manufacturer": "Trane",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Dedicated Outdoor Air System",
           "specifications": {
-            "service": "Dedicated Outdoor Air System",
             "airflow": "4,830 CFM",
-            "minimumOutdoorAir": "4,830 CFM",
-            "externalStaticPressure": "0.9 in. w.g.",
-            "fanQuantity": 1,
-            "fanRPM": 1851,
-            "brakePower": "4.4 Hp",
-            "motorPower": "5.0 Hp",
-            "returnAirflow": "4,320 CFM",
-            "returnExternalStaticPressure": "0.8 in. w.g.",
-            "returnFanQuantity": 1,
-            "returnFanRPM": 1684,
-            "returnFanBrakePower": "2.5 Hp",
-            "returnFanMotorPower": "3.0 Hp",
-            "preFilter": "Pleated Media MERV 8",
-            "finalFilter": "Cartridge MERV 13",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "minOutdoorAir": "4,830 CFM",
+            "externalStaticPressure": "0.9 in W.G.",
+            "supplyFan": {
+              "quantity": 1,
+              "rpm": 1851,
+              "brakePower": "4.4 Hp",
+              "motorPower": "5.0 Hp"
+            },
+            "returnFan": {
+              "airflow": "4,320 CFM",
+              "externalStaticPressure": "0.8 in W.G.",
+              "quantity": 1,
+              "rpm": 1684,
+              "brakePower": "2.5 Hp",
+              "motorPower": "3.0 Hp"
+            },
+            "preFilter": {
+              "type": "Pleated Media",
+              "merv": 8
+            },
+            "finalFilter": {
+              "type": "Cartridge",
+              "merv": 13
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         },
         {
           "equipmentTag": "AHU-3",
-          "manufacturer": "Trane",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "High Bay Makeup Air",
           "specifications": {
-            "service": "High Bay Makeup Air",
             "airflow": "10,300 CFM",
-            "minimumOutdoorAir": "10,000 CFM",
-            "externalStaticPressure": "0.7 in. w.g.",
-            "fanQuantity": 1,
-            "fanRPM": 1701,
-            "brakePower": "7.5 Hp",
-            "motorPower": "10.0 Hp",
-            "returnAirflow": "10,500 CFM",
-            "returnExternalStaticPressure": "0.8 in. w.g.",
-            "returnFanQuantity": 1,
-            "returnFanRPM": 1715,
-            "returnFanBrakePower": "7.2 Hp",
-            "returnFanMotorPower": "7.5 Hp",
-            "preFilter": "Pleated Media MERV 8",
-            "finalFilter": "Pleated Media MERV 8",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "minOutdoorAir": "10,000 CFM",
+            "externalStaticPressure": "0.7 in W.G.",
+            "supplyFan": {
+              "quantity": 1,
+              "rpm": 1701,
+              "brakePower": "7.5 Hp",
+              "motorPower": "10.0 Hp"
+            },
+            "returnFan": {
+              "airflow": "10,500 CFM",
+              "externalStaticPressure": "0.8 in W.G.",
+              "quantity": 1,
+              "rpm": 1715,
+              "brakePower": "7.2 Hp",
+              "motorPower": "7.5 Hp"
+            },
+            "preFilter": {
+              "type": "Pleated Media",
+              "merv": 8
+            },
+            "finalFilter": {
+              "type": "Pleated Media",
+              "merv": 8
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Modular Air-Cooled Chillers",
+      "notes": "Capacity based on 40% Propylene Glycol solution. Performance based on design altitude at 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "Trane",
+          "model": "Modular Scroll Chiller",
+          "specifications": {
+            "ambientTemperature": "95 deg. F",
+            "refrigerant": "R-454b",
+            "EER": "10.2",
+            "moduleQuantity": 4,
+            "evaporator": {
+              "waterFlowrate": "300.4 GPM",
+              "supplyTemperature": "42 deg. F",
+              "returnTemperature": "57 deg. F",
+              "maxPressureDrop": "8.3 ft W.G."
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3,
+              "MOCP": 400
+            }
+          }
+        },
+        {
+          "equipmentTag": "CH-2",
+          "manufacturer": "Trane",
+          "model": "Modular Scroll Chiller",
+          "specifications": {
+            "ambientTemperature": "95 deg. F",
+            "refrigerant": "R-454b",
+            "EER": "10.2",
+            "moduleQuantity": 4,
+            "evaporator": {
+              "waterFlowrate": "409.4 GPM",
+              "supplyTemperature": "48 deg. F",
+              "returnTemperature": "60 deg. F",
+              "maxPressureDrop": "25.0 ft W.G."
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3,
+              "MOCP": 450
+            }
+          }
+        },
+        {
+          "equipmentTag": "AWHP-1",
+          "manufacturer": "Trane",
+          "model": "Modular Heat Pump Scroll Chiller",
+          "specifications": {
+            "ambientTemperature": "95 deg. F",
+            "refrigerant": "R-454b",
+            "EER": "10.2",
+            "moduleQuantity": 4,
+            "evaporator": {
+              "waterFlowrate": "92.3 GPM",
+              "supplyTemperature": "42 deg. F",
+              "returnTemperature": "57 deg. F",
+              "maxPressureDrop": "6.0 ft W.G."
+            },
+            "condenser": {
+              "waterFlowrate": "60.1 GPM",
+              "supplyTemperature": "110 deg. F",
+              "returnTemperature": "90 deg. F",
+              "maxPressureDrop": "4.3 ft W.G."
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3,
+              "MOCP": 200
+            }
           }
         }
       ]
     },
     {
       "equipmentType": "Energy Recovery Wheels",
-      "notes": "Performance based on design altitude of 6,115 ft. Wheels employ supply and exhaust airstreams through energy recovery device.",
+      "notes": "Performance based on design altitude of 6,115 ft. Motors shall be powered through single power point connection for unit.",
       "items": [
         {
           "equipmentTag": "EW-1",
-          "manufacturer": "",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Total Energy Wheel",
           "specifications": {
-            "type": "Total Energy Wheel",
             "service": "AHU-1",
             "supplyAirflow": "6,355 CFM",
-            "supplyMaxAPD": "0.9 in. w.g.",
-            "supplyEATDB": "87.3 °F",
-            "supplyEATWB": "57.6 °F",
-            "supplyLATDB": "80.3 °F",
-            "supplyLATWB": "62.2 °F",
-            "supplyWinterEATDB": "3.1 °F",
-            "supplyWinterEATWB": "2.0 °F",
-            "supplyWinterLATDB": "48.8 °F",
-            "supplyWinterLATWB": "38.1 °F",
-            "exhaustAirflow": "5,530 CFM",
-            "exhaustMaxAPD": "0.8 in. w.g.",
-            "exhaustSummerEATDB": "78.0 °F",
-            "exhaustSummerEATWB": "64.0 °F",
-            "exhaustSummerLATDB": "68.0 °F",
-            "exhaustSummerLATWB": "50.0 °F",
-            "exhaustWinterEATDB": "83.7 °F",
-            "exhaustWinterEATWB": "76.0 °F",
-            "minSensibleEfficiency": "71.5%",
-            "minTotalEfficiency": "76.0%",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "maxAPD": "0.9 in W.G.",
+            "minSensibleEfficency": "83.7%",
+            "minTotalEfficency": "76.0%",
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         },
         {
           "equipmentTag": "EW-2",
-          "manufacturer": "",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Total Energy Wheel",
           "specifications": {
-            "type": "Total Energy Wheel",
             "service": "AHU-2",
             "supplyAirflow": "4,830 CFM",
-            "supplyMaxAPD": "0.8 in. w.g.",
-            "supplyEATDB": "87.3 °F",
-            "supplyEATWB": "57.6 °F",
-            "supplyLATDB": "80.0 °F",
-            "supplyLATWB": "62.3 °F",
-            "supplyWinterEATDB": "3.1 °F",
-            "supplyWinterEATWB": "2.0 °F",
-            "supplyWinterLATDB": "50.2 °F",
-            "supplyWinterLATWB": "39.0 °F",
-            "exhaustAirflow": "4,320 CFM",
-            "exhaustMaxAPD": "0.8 in. w.g.",
-            "exhaustSummerEATDB": "78.0 °F",
-            "exhaustSummerEATWB": "64.0 °F",
-            "exhaustSummerLATDB": "68.0 °F",
-            "exhaustSummerLATWB": "50.0 °F",
-            "exhaustWinterEATDB": "84.2 °F",
-            "exhaustWinterEATWB": "76.6 °F",
-            "minSensibleEfficiency": "72.9%",
-            "minTotalEfficiency": "76.6%",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "maxAPD": "0.8 in W.G.",
+            "minSensibleEfficency": "84.2%",
+            "minTotalEfficency": "76.6%",
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         },
         {
           "equipmentTag": "EW-3",
-          "manufacturer": "",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Total Energy Wheel",
           "specifications": {
-            "type": "Total Energy Wheel",
             "service": "AHU-3",
             "supplyAirflow": "10,000 CFM",
-            "supplyMaxAPD": "0.9 in. w.g.",
-            "supplyEATDB": "87.3 °F",
-            "supplyEATWB": "57.6 °F",
-            "supplyLATDB": "94.6 °F",
-            "supplyLATWB": "62.0 °F",
-            "supplyWinterEATDB": "3.1 °F",
-            "supplyWinterEATWB": "2.0 °F",
-            "supplyWinterLATDB": "43.1 °F",
-            "supplyWinterLATWB": "27.7 °F",
-            "exhaustAirflow": "10,500 CFM",
-            "exhaustMaxAPD": "0.9 in. w.g.",
-            "exhaustSummerEATDB": "97.3 °F",
-            "exhaustSummerEATWB": "63.7 °F",
-            "exhaustSummerLATDB": "60.0 °F",
-            "exhaustSummerLATWB": "37.5 °F",
-            "exhaustWinterEATDB": "68.4 °F",
-            "exhaustWinterEATWB": "68.4 °F",
-            "minSensibleEfficiency": "68.4%",
-            "minTotalEfficiency": "68.4%",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "maxAPD": "0.9 in W.G.",
+            "minSensibleEfficency": "68.4%",
+            "minTotalEfficency": "68.4%",
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         }
       ]
     },
     {
       "equipmentType": "Water Cooling Coils",
-      "notes": "Performance based on design altitude of 6,115 ft. Capacity based on 40% propylene glycol.",
+      "notes": "ACV assembly includes automatic control valve, line size balancing valve, strainer, 2 isolation valves, and 6 ACV size elbow. Performance based on design altitude of 6,115 ft.",
       "items": [
         {
           "equipmentTag": "WCC-1",
-          "manufacturer": "",
+          "manufacturer": "No BOD Listed",
           "model": "",
           "specifications": {
             "service": "AHU-1",
             "designAirflow": "6,355 CFM",
-            "minimumCoilArea": "20.2 ft²",
-            "maximumFaceVelocity": "315 fpm",
-            "maximumAPD": "0.16 in. w.g.",
-            "minimumRows": 6,
-            "EATDB": "80.3 °F",
-            "EATWB": "62.2 °F",
-            "LATDB": "54.0 °F",
-            "LATWB": "53.7 °F",
-            "minimumTotalCoolingCapacity": "149.4 MBh",
-            "minimumSensibleCoolingCapacity": "146.7 MBh",
+            "minCoilArea": "20.2 ft²",
+            "maxFaceVelocity": "315 fpm",
+            "maxAPD": "0.16 in W.G.",
+            "minRows": 6,
             "waterFlowrate": "18.6 GPM",
-            "EWT": "44.0 °F",
-            "LWT": "60.0 °F",
-            "ACVSize": "1 inch",
-            "Cv": 14,
-            "coolingCoilACVAssemblySize": "2 inch",
-            "maxPressureDropCoil": "0.8 ft",
-            "maxPressureDropACV": "4.3 ft",
-            "maxPressureDropTotal": "5.1 ft"
+            "enteringWaterTemp": "44.0°F",
+            "leavingWaterTemp": "60.0°F",
+            "acvSize": "1 inch",
+            "cv": 14,
+            "acvAssemblySize": "2 inch"
           }
         },
         {
           "equipmentTag": "WCC-2",
-          "manufacturer": "",
+          "manufacturer": "No BOD Listed",
           "model": "",
           "specifications": {
             "service": "AHU-2",
             "designAirflow": "4,830 CFM",
-            "minimumCoilArea": "12.9 ft²",
-            "maximumFaceVelocity": "374 fpm",
-            "maximumAPD": "0.27 in. w.g.",
-            "minimumRows": 6,
-            "EATDB": "80.0 °F",
-            "EATWB": "62.3 °F",
-            "LATDB": "54.0 °F",
-            "LATWB": "53.8 °F",
-            "minimumTotalCoolingCapacity": "117.7 MBh",
-            "minimumSensibleCoolingCapacity": "117.0 MBh",
+            "minCoilArea": "12.9 ft²",
+            "maxFaceVelocity": "374 fpm",
+            "maxAPD": "0.27 in W.G.",
+            "minRows": 6,
             "waterFlowrate": "14.7 GPM",
-            "EWT": "44.0 °F",
-            "LWT": "60.0 °F",
-            "ACVSize": "1 inch",
-            "Cv": 14,
-            "coolingCoilACVAssemblySize": "2 inch",
-            "maxPressureDropCoil": "0.8 ft",
-            "maxPressureDropACV": "2.7 ft",
-            "maxPressureDropTotal": "3.5 ft"
+            "enteringWaterTemp": "44.0°F",
+            "leavingWaterTemp": "60.0°F",
+            "acvSize": "1 inch",
+            "cv": 14,
+            "acvAssemblySize": "2 inch"
           }
         }
       ]
     },
     {
       "equipmentType": "Heating Water Coils",
-      "notes": "Performance based on design altitude of 6,115 ft. Capacity based on 40% propylene glycol.",
+      "notes": "ACV assembly includes automatic control valve, line size balancing valve, strainer, 2 isolation valves, and 6 ACV size elbow. Capacity based on 40% propylene glycol. Performance based on design altitude of 6,115 ft.",
       "items": [
         {
           "equipmentTag": "HC-01",
-          "manufacturer": "",
+          "manufacturer": "No BOD Listed",
           "model": "",
           "specifications": {
             "service": "AHU-1 Preheat",
             "designAirflow": "6,355 CFM",
-            "minimumCoilArea": "21.0 ft²",
-            "maximumFaceVelocity": "303 fpm",
-            "maximumAPD": "0.05 in. w.g.",
-            "EAT": "3 °F",
-            "LAT": "55 °F",
+            "minCoilArea": "21.0 ft²",
+            "maxFaceVelocity": "303 fpm",
+            "maxAPD": "0.05 in W.G.",
+            "enteringAirTemp": "3°F",
+            "leavingAirTemp": "55°F",
             "heatingCapacity": "283.9 MBh",
             "waterFlowrate": "26.2 GPM",
-            "EWT": "110 °F",
-            "LWT": "86 °F",
-            "ACVSize": "1 1/2 inch",
-            "Cv": 28,
-            "ACVAssemblySize": "2 inch",
-            "maxPressureDropCoil": "1.7 ft",
-            "maxPressureDropACV": "2.7 ft",
-            "maxPressureDropTotal": "4.4 ft"
+            "enteringWaterTemp": "110°F",
+            "leavingWaterTemp": "86°F",
+            "acvSize": "1 1/2 inch",
+            "cv": 28,
+            "acvAssemblySize": "2 inch"
           }
         },
         {
           "equipmentTag": "HC-02",
-          "manufacturer": "",
+          "manufacturer": "No BOD Listed",
           "model": "",
           "specifications": {
             "service": "AHU-2 Preheat",
             "designAirflow": "4,830 CFM",
-            "minimumCoilArea": "12.9 ft²",
-            "maximumFaceVelocity": "374 fpm",
-            "maximumAPD": "0.15 in. w.g.",
-            "EAT": "3 °F",
-            "LAT": "55 °F",
+            "minCoilArea": "12.9 ft²",
+            "maxFaceVelocity": "374 fpm",
+            "maxAPD": "0.15 in W.G.",
+            "enteringAirTemp": "3°F",
+            "leavingAirTemp": "55°F",
             "heatingCapacity": "217.3 MBh",
             "waterFlowrate": "20.0 GPM",
-            "EWT": "110 °F",
-            "LWT": "86 °F",
-            "ACVSize": "1 1/4 inch",
-            "Cv": 20,
-            "ACVAssemblySize": "2 inch",
-            "maxPressureDropCoil": "0.2 ft",
-            "maxPressureDropACV": "2.3 ft",
-            "maxPressureDropTotal": "2.5 ft"
+            "enteringWaterTemp": "110°F",
+            "leavingWaterTemp": "86°F",
+            "acvSize": "1 1/4 inch",
+            "cv": 20,
+            "acvAssemblySize": "2 inch"
+          }
+        },
+        {
+          "equipmentTag": "HC-03",
+          "manufacturer": "No BOD Listed",
+          "model": "",
+          "specifications": {
+            "service": "AHU-1 Reheat",
+            "designAirflow": "6,355 CFM",
+            "minCoilArea": "20.6 ft²",
+            "maxFaceVelocity": "308 fpm",
+            "maxAPD": "0.05 in W.G.",
+            "enteringAirTemp": "54°F",
+            "leavingAirTemp": "73°F",
+            "heatingCapacity": "103.8 MBh",
+            "waterFlowrate": "9.6 GPM",
+            "enteringWaterTemp": "110°F",
+            "leavingWaterTemp": "86°F",
+            "acvSize": "3/4 inch",
+            "cv": 7.5,
+            "acvAssemblySize": "1 1/4 inch"
+          }
+        },
+        {
+          "equipmentTag": "HC-04",
+          "manufacturer": "No BOD Listed",
+          "model": "",
+          "specifications": {
+            "service": "AHU-2 Reheat",
+            "designAirflow": "4,830 CFM",
+            "minCoilArea": "13.6 ft²",
+            "maxFaceVelocity": "354 fpm",
+            "maxAPD": "0.08 in W.G.",
+            "enteringAirTemp": "54°F",
+            "leavingAirTemp": "73°F",
+            "heatingCapacity": "79.4 MBh",
+            "waterFlowrate": "7.3 GPM",
+            "enteringWaterTemp": "110°F",
+            "leavingWaterTemp": "86°F",
+            "acvSize": "3/4 inch",
+            "cv": 5.5,
+            "acvAssemblySize": "1 1/4 inch"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Gas Heating Coil",
+      "notes": "Provide minimum burner turndown ratio of 10:1. Performance based on design altitude of 6,115 ft. Gas input based on 1,000 BTU/FT³.",
+      "items": [
+        {
+          "equipmentTag": "HC-G-01",
+          "manufacturer": "No BOD Listed",
+          "model": "",
+          "specifications": {
+            "service": "AHU-3",
+            "designAirflow": "7,875 CFM",
+            "maxAPD": "0.61 in W.G.",
+            "enteringAirTemp": "3.1°F",
+            "leavingAirTemp": "70.6°F",
+            "gasInput": "731 CFH",
+            "gasCapacityOutput": "584.8 MBH",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Provide lockable, fusible disconnect. External static pressure includes filter and ductwork not in casing. ACV assembly includes automatic control valve, line size balancing valve, strainer, 2 isolation valves, and 6 ACV size elbows. Provide factory programmed ECM fan motor. Performance based on design altitude of 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "FCU-104, FCU-113, FCU-202",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 15,
+            "airflow": "600 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.3 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-112, FCU-146, FCU-154, FCU-163, FCU-169, FCU-178, FCU-211, FCU-228, FCU-229, FCU-231, FCU-232, FCU-254, FCU-256, FCU-277",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 4,
+            "airflow": "550 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-117",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 3,
+            "airflow": "1050 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.3 Hp",
+            "motorPower": "0.5 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-126, FCU-127, FCU-158, FCU-132, FCU-155, FCU-163, FCU-164, FCU-165, FCU-204, FCU-220, FCU-241, FCU-251, FCU-252, FCU-255, FCU-264, FCU-265, FCU-266, FCU-267, FCU-268, FCU-269, FCU-270",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 2,
+            "airflow": "300 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-137, FCU-138, FCU-153",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 9,
+            "airflow": "350 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-152A, FCU-152B, FCU-227, FCU-233",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 12,
+            "airflow": "550 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-156, FCU-158",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 8,
+            "airflow": "600 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.3 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-170, FCU-174, FCU-207, FCU-208, FCU-209, FCU-167, FCU-216, FCU-222, FCU-223, FCU-224, FCU-234, FCU-237, FCU-240, FCU-242, FCU-243, FCU-244, FCU-261, FCU-279",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 1,
+            "airflow": "200 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.1 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-171, FCU-187, FCU-276",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 7,
+            "airflow": "350 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-218",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 6,
+            "airflow": "500 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-226",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 11,
+            "airflow": "350 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-235",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 10,
+            "airflow": "750 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.3 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Blower Coil Units",
+      "notes": "External static pressure includes filter and ductwork not in casing. ACV assembly includes automatic control valve, line size balancing valve, strainer, 2 isolation valves, and 6 ACV size elbows. Provide factory programmed ECM fan motor. Performance based on design altitude of 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "BCAH-100A",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 11,
+            "airflow": "800 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.5 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-104",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 3,
+            "airflow": "950 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.9 Hp",
+            "motorPower": "0.9 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-104A",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 3,
+            "airflow": "950 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.9 Hp",
+            "motorPower": "0.9 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-105",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 11,
+            "airflow": "800 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.5 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-111B",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 13,
+            "airflow": "1200 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.6 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-114B",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 13,
+            "airflow": "1200 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.6 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-124",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 1,
+            "airflow": "800 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.6 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-125",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 1,
+            "airflow": "800 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.6 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
           }
         }
       ]
@@ -351,7 +896,20 @@
       "suppliers": [
         {
           "manufacturer": "Trane",
-          "model": "As specified",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with specified requirements for AHUs with similar energy efficiency"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -360,33 +918,33 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Specified as basis of design for AHUs on mechanical schedules"
+          "compatibilityNotes": "Compatible with specified requirements for AHUs with similar energy efficiency"
         },
         {
           "manufacturer": "Daikin",
           "model": "",
           "isBasisOfDesign": false,
-          "isListedAlternate": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with design requirements, may require minor modifications to ductwork connections"
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with specified requirements for AHUs with similar energy efficiency"
         },
         {
           "manufacturer": "Carrier",
           "model": "",
           "isBasisOfDesign": false,
-          "isListedAlternate": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
-          "costDifference": "+1%",
-          "compatibilityNotes": "Compatible with specified requirements, similar footprint and connections"
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible with specified requirements for AHUs with similar control capabilities"
         },
         {
           "manufacturer": "York",
@@ -398,11 +956,42 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-1%",
-          "compatibilityNotes": "Suitable alternative with similar features and compatibility"
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with specified AHUs with similar performance characteristics"
+        }
+      ]
+    },
+    {
+      "componentType": "Air-Cooled Scroll Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "AMC, AMX",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD for Air-Cooled, Modular Water Chillers"
         },
         {
-          "manufacturer": "Aaon",
+          "manufacturer": "Trane",
+          "model": "AMC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD for Air-Cooled, Modular Water Chillers CH-1 and CH-2"
+        },
+        {
+          "manufacturer": "Daikin",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
@@ -412,7 +1001,33 @@
             "contact": ""
           },
           "costDifference": "+3%",
-          "compatibilityNotes": "Higher quality components, may require additional lead time"
+          "compatibilityNotes": "Compatible with specified requirements for CHs with similar energy efficiency"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible with specified requirements for CHs with similar control capabilities"
+        },
+        {
+          "manufacturer": "York",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with specified CHs with similar performance characteristics"
         }
       ]
     },
@@ -430,10 +1045,23 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Specified as basis of design for the project's energy recovery wheels EW-1, EW-2, and EW-3"
+          "compatibilityNotes": "Specified for use in AHU-1, AHU-2, and AHU-3"
         },
         {
           "manufacturer": "Semco",
+          "model": "Total Energy Wheel",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with specified performance, certified to AHRI 1060"
+        },
+        {
+          "manufacturer": "Greenheck",
           "model": "Energy Recovery Wheel",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
@@ -443,10 +1071,10 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Compatible with project requirements for total energy recovery wheels with minimum sensible efficiency of 71.5-84.2% and total efficiency of 68.4-76.6%"
+          "compatibilityNotes": "Compatible with specified performance, certified to AHRI 1060"
         },
         {
-          "manufacturer": "Greenheck",
+          "manufacturer": "Carrier",
           "model": "Energy Recovery Wheel",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
@@ -456,7 +1084,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Can provide energy recovery wheels that meet the required performance specifications including specified airflows and efficiencies"
+          "compatibilityNotes": "Compatible with specified performance, EATR not to exceed 10% for Class 2 air"
         },
         {
           "manufacturer": "Daikin",
@@ -469,7 +1097,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Can provide AHRI 1060 certified energy recovery wheels with similar performance characteristics"
+          "compatibilityNotes": "Compatible with high altitude (6,115 ft) application"
         }
       ]
     },
@@ -478,7 +1106,7 @@
       "suppliers": [
         {
           "manufacturer": "Trane",
-          "model": "Water Cooling Coil",
+          "model": "",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -487,37 +1115,37 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Manufacturer specified for water chillers CH-1 and CH-2, likely also supplies cooling coils"
+          "compatibilityNotes": ""
         },
         {
           "manufacturer": "Carrier",
-          "model": "Water Cooling Coil",
+          "model": "",
           "isBasisOfDesign": false,
-          "isListedAlternate": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with project requirements; industry standard connection sizes"
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with project requirements for water cooling coils"
         },
         {
-          "manufacturer": "York/Johnson Controls",
-          "model": "Water Cooling Coil",
+          "manufacturer": "York",
+          "model": "",
           "isBasisOfDesign": false,
-          "isListedAlternate": true,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with project requirements; may require minor piping adaptations"
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with project requirements for water cooling coils"
         },
         {
           "manufacturer": "Daikin",
-          "model": "Water Cooling Coil",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -525,21 +1153,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+1%",
-          "compatibilityNotes": "Comparable performance specifications; alternative option"
-        },
-        {
-          "manufacturer": "Greenheck",
-          "model": "Water Cooling Coil",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "-2%",
-          "compatibilityNotes": "May require verification of performance at specified conditions"
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with project requirements for water cooling coils"
         }
       ]
     },
@@ -548,7 +1163,7 @@
       "suppliers": [
         {
           "manufacturer": "Trane",
-          "model": "HC-01, HC-02, HC-03, HC-04",
+          "model": "",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -557,37 +1172,24 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Specified for hot water heating coils in air handling units with capacities ranging from 79.4 to 283.9 MBh. Performance based on 40% propylene glycol."
-        },
-        {
-          "manufacturer": "Armstrong",
-          "model": "Hot Water Coils",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Compatible with specified systems; offers similar performance characteristics for hot water coils with propylene glycol."
-        },
-        {
-          "manufacturer": "Daikin",
-          "model": "Hot Water Coils",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Compatible with specified AHU systems; offers coils with similar temperature ranges and flow rates."
+          "compatibilityNotes": "Specified for AWHP-1 on mechanical schedules"
         },
         {
           "manufacturer": "Carrier",
-          "model": "Hot Water Coils",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with existing piping configurations. Will require minor control modifications."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -595,12 +1197,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "",
-          "compatibilityNotes": "Compatible with the specified systems; offers similar performance characteristics for hot water heating coils."
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with specified systems. May require adapter fittings for piping connections."
         },
         {
           "manufacturer": "York",
-          "model": "Hot Water Coils",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -608,8 +1210,166 @@
             "company": "",
             "contact": ""
           },
+          "costDifference": "0%",
+          "compatibilityNotes": "Direct compatibility with specified piping and control systems."
+        }
+      ]
+    },
+    {
+      "componentType": "Gas Heating Coil",
+      "suppliers": [
+        {
+          "manufacturer": "Reznor",
+          "model": "Gas-fired unit heater",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
           "costDifference": "",
-          "compatibilityNotes": "Compatible with specified systems; can accommodate 40% propylene glycol solutions."
+          "compatibilityNotes": "Installed in High Bay area. Must be power-vented type suitable for sidewall vent discharge and automatic ignition. Heat exchangers must be stainless steel."
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "High-efficiency gas unit heater",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+0%",
+          "compatibilityNotes": "Direct replacement option with similar performance specs. Compatible with specified venting requirements."
+        },
+        {
+          "manufacturer": "Sterling",
+          "model": "TF Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Power-vented design with stainless steel heat exchanger. Meets all specified requirements."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "GSUD Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+7%",
+          "compatibilityNotes": "Higher efficiency rating but compatible with all specified requirements."
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "LF24 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Meets all specified requirements. Offers extended warranty options."
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements for performance ratings."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with design requirements for air-cooled systems with scroll compressors."
+        }
+      ]
+    },
+    {
+      "componentType": "Blower Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "First Co",
+          "model": "Blower Coil Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "0%",
+          "compatibilityNotes": "Horizontal blower coil units meeting requirements for CFM, static pressure, and cooling/heating capacity."
+        },
+        {
+          "manufacturer": "Williams Comfort Products",
+          "model": "BCAH Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with specified requirements, horizontal concealed blower coil units."
+        },
+        {
+          "manufacturer": "International Environmental",
+          "model": "FHH Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Horizontal concealed blower coil units with ECM motors, may require minor dimensional adjustments."
         }
       ]
     }
@@ -617,90 +1377,52 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Standardize on Premium Efficiency Motors for Pumps",
-      "rationale": "The project specifications (23 21 23) call for premium efficiency motors for pumps larger than integral size. Standardizing on premium efficiency motors for all pumps would reduce energy consumption, decrease operational costs, and support sustainability goals. Premium efficiency motors typically cost 10-15% more initially but offer 2-8% better efficiency with a typical payback period of 2-3 years.",
-      "estimatedImpact": "Estimated 2-8% reduction in pump energy costs over standard motors, with payback typically within 2-3 years. For a project of this scale with multiple pump systems, this could represent significant long-term operational savings and reduced maintenance costs.",
-      "implementation": "1. Modify procurement specifications to require premium efficiency motors for all pump sizes, including smaller integral pumps. 2. Request equipment vendors provide energy consumption data as part of their submittals. 3. Verify compliance during submittal review phase.",
-      "priority": "Medium"
+      "recommendation": "Standardize Air Handling Unit Manufacturers",
+      "rationale": "The mechanical schedules show multiple air handling units (AHU-1, AHU-2, AHU-3) and energy recovery units (ERU-1, ERU-2) without specified manufacturers. Standardizing on a single manufacturer for these units would increase purchasing leverage, simplify maintenance, and reduce spare parts inventory requirements.",
+      "estimatedImpact": "Potential 5-10% cost savings on equipment purchase through volume discounting, plus ongoing operational savings through simplified maintenance and reduced spare parts inventory.",
+      "implementation": "1. Select preferred manufacturer based on performance specifications and lifecycle cost analysis. 2. Negotiate project-wide pricing agreement with selected manufacturer. 3. Update mechanical specifications to reflect standardized manufacturer selection.",
+      "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Procure Variable Frequency Drives for Major Pumps and Air Handling Units",
-      "rationale": "Multiple schedules show pumps and AHUs that could benefit from variable frequency drives (VFDs). While specifications mention VFDs in some sections, standardizing their use for all major motors would provide significant energy savings. VFDs allow equipment to operate at reduced speeds during partial load conditions, which is the predominant operating state for HVAC systems.",
-      "estimatedImpact": "Potential 20-50% energy savings for pump and fan motors, depending on load profiles. With the project's multiple pumps (CHWP-1, CHWP-2A/B, etc.) and AHUs, this could represent tens of thousands of dollars in energy savings over equipment lifetime.",
-      "implementation": "1. Review mechanical equipment schedules to identify all pumps and air handlers above 5 HP. 2. Modify procurement specifications to require VFDs for these units. 3. Include a requirement for harmonic mitigation where necessary. 4. Verify compatibility with building automation system during submittal review.",
+      "recommendation": "Consolidate Chiller Procurement with Trane",
+      "rationale": "Specifications indicate Trane as the specified manufacturer for CH-1 and CH-2 chillers. A coordinated approach to procure both chillers simultaneously from Trane can yield better pricing and ensure compatibility with building systems and controls.",
+      "estimatedImpact": "Estimated 8-12% savings on combined equipment purchase versus individual procurement. Additional savings through coordinated installation, startup, and commissioning.",
+      "implementation": "1. Package CH-1 and CH-2 as a single procurement item. 2. Negotiate with Trane for project-specific discounts based on combined purchase. 3. Coordinate delivery schedules to optimize installation sequencing.",
       "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Consolidated Procurement of Air Cooled Chillers",
-      "rationale": "The mechanical schedules indicate multiple air-cooled chillers (CH-1, CH-2). Purchasing these units from the same manufacturer as a package can yield substantial procurement savings through volume discounts. Additionally, consolidation simplifies maintenance with common parts inventory and service procedures.",
-      "estimatedImpact": "Potential 5-10% procurement cost savings through volume purchasing. For chillers that may cost $100,000+ each, this represents significant initial savings. Additional 5-10% savings in maintenance costs through standardized parts and service procedures.",
-      "implementation": "1. Modify procurement approach to solicit bids for chillers as a consolidated package. 2. Specify identical or similar models with the same refrigerant type. 3. Request volume discount pricing from vendors. 4. Ensure delivery schedules align with construction timeline.",
-      "priority": "High"
+      "recommendation": "Standardize Fan Coil and Blower Coil Units",
+      "rationale": "The project includes numerous fan coil units (FCUs) and blower coil units (BCAHs) with multiple types and configurations. The dashboard shows no specified BOD (Basis of Design) manufacturer for these units, indicating an opportunity to select a single preferred manufacturer.",
+      "estimatedImpact": "Potential 7-15% cost reduction through bulk purchasing, simplified installation, and standardized controls and connections. Long-term maintenance and replacement costs would also be reduced.",
+      "implementation": "1. Review FCU and BCAH specifications to identify a manufacturer capable of meeting all required configurations. 2. Negotiate volume discount pricing. 3. Standardize connection types and control interfaces for simplified installation.",
+      "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Implement Strategic Glycol Procurement Plan",
-      "rationale": "Specifications show that three glycol feed systems (GMU-1, GMU-2, GMU-3) will be required, each with 40% propylene glycol solution. Procuring glycol in bulk rather than as separate packages for each system would reduce material costs and ensure consistent quality across all systems.",
-      "estimatedImpact": "Approximately 10-15% savings on glycol procurement costs through bulk purchasing. Ensures consistent glycol quality across all systems, potentially extending equipment life by reducing variability in freeze protection and corrosion inhibition.",
-      "implementation": "1. Calculate total glycol volume needed for all systems. 2. Procure as a single bulk order with appropriate corrosion inhibitors. 3. Verify concentration and quality upon delivery. 4. Coordinate storage and distribution to each system during commissioning.",
-      "priority": "Medium"
-    },
-    {
-      "id": 5,
-      "recommendation": "Standardize on a Single Control Valve Manufacturer",
-      "rationale": "The specifications call for numerous control valves of various sizes across multiple systems. Standardizing on a single manufacturer for all control valves would simplify procurement, reduce spare parts inventory requirements, and ensure consistent operation and maintenance procedures.",
-      "estimatedImpact": "Potential 5-8% savings on valve procurement through volume purchasing. Reduced maintenance costs and improved reliability through standardized parts and procedures. Simplified training for operations staff.",
-      "implementation": "1. Review valve schedules to identify all control valve requirements. 2. Select a manufacturer with a complete product line covering all required valve types and sizes. 3. Request volume pricing from selected vendors. 4. Verify valve specifications meet the requirements for each application.",
-      "priority": "Medium"
-    },
-    {
-      "id": 6,
-      "recommendation": "Implement Standardized Vehicle Exhaust Equipment Package",
-      "rationale": "Section 23 35 16.17 10 describes multiple vehicle exhaust fans (EF-01 through EF-08) with identical requirements. Procuring these as a standardized package from a single manufacturer would reduce costs and ensure consistent installation, operation, and maintenance.",
-      "estimatedImpact": "Estimated 8-12% procurement savings through volume purchasing of identical equipment. Simplified installation and maintenance procedures due to standardization. Reduced spare parts inventory requirements.",
-      "implementation": "1. Bundle vehicle exhaust fans in procurement documents as a single package. 2. Specify identical models for all eight units. 3. Request quantity discount pricing. 4. Coordinate delivery schedule to align with construction sequence.",
-      "priority": "Medium"
-    },
-    {
-      "id": 7,
-      "recommendation": "Pre-Purchase Critical Long-Lead HVAC Equipment",
-      "rationale": "Major HVAC components like chillers, boilers, and custom air handling units typically have long lead times (12-20+ weeks) that can impact project schedules. Pre-purchasing these items can expedite delivery, lock in pricing, and reduce project schedule risks.",
-      "estimatedImpact": "Potential schedule acceleration of 2-3 months for critical path items. Avoidance of price escalation, which could save 3-5% on equipment costs. Reduced risk of project delays due to equipment availability issues.",
-      "implementation": "1. Identify critical long-lead items (chillers, boilers, custom AHUs). 2. Develop detailed specifications for early procurement. 3. Issue early procurement packages before completion of full construction documents. 4. Coordinate storage requirements if equipment arrives before installation is possible.",
+      "recommendation": "Implement Early Equipment Procurement Strategy for Long Lead Items",
+      "rationale": "Major mechanical equipment such as air handling units, chillers, and boilers typically have extended lead times (12-20 weeks or more). Early procurement of these items can prevent project delays and potentially secure better pricing before manufacturer price increases.",
+      "estimatedImpact": "Schedule impact: Potential reduction in overall project timeline by 4-8 weeks. Cost impact: Protection against price escalation, estimated at 3-5% annual inflation for HVAC equipment.",
+      "implementation": "1. Identify critical long-lead items (chillers, AHUs, boilers). 2. Create early procurement packages for these items. 3. Secure storage arrangements if necessary. 4. Coordinate delivery schedules with installation timeline.",
       "priority": "High"
-    },
-    {
-      "id": 8,
-      "recommendation": "Coordinate Refrigerant Type Across All HVAC Equipment",
-      "rationale": "Specification section 23 64 10 indicates multiple refrigerant-containing equipment (chillers, heat pumps). Standardizing on a single refrigerant type across all equipment would simplify maintenance, reduce specialized tooling requirements, and decrease the types of refrigerant that must be kept on hand for service.",
-      "estimatedImpact": "Reduced maintenance complexity and costs. Simplified compliance with refrigerant management regulations. Potential for 5-7% savings on long-term refrigerant and service costs through simplified inventory management.",
-      "implementation": "1. Review all refrigerant-containing equipment specifications. 2. Select a single refrigerant type that meets requirements for all applications (e.g., R-410A or R-454B). 3. Modify procurement specifications to require the selected refrigerant. 4. Verify refrigerant selection doesn't negatively impact equipment performance or cost.",
-      "priority": "Medium"
-    },
-    {
-      "id": 9,
-      "recommendation": "Bundle Fan Coil Unit Procurement",
-      "rationale": "The mechanical schedules show numerous fan coil units of varying types and capacities. Procurement efficiency can be gained by bundling these units by type, even across different capacities, from a single manufacturer. This approach will leverage volume discounts while ensuring consistent quality and maintenance procedures.",
-      "estimatedImpact": "Approximately 8-12% savings on fan coil unit procurement costs. Streamlined installation and commissioning through standardized procedures. Simplified maintenance and reduced spare parts inventory requirements.",
-      "implementation": "1. Group fan coil units by type in procurement documents. 2. Solicit bids from manufacturers who can supply the full range of required capacities. 3. Request tiered volume pricing based on total quantity. 4. Coordinate delivery schedule to align with construction sequence.",
-      "priority": "Medium"
     }
   ],
   "conclusion": {
-    "summary": "The GBSD Integrated Training Center at F.E. Warren AFB requires careful planning for HVAC equipment procurement to ensure system reliability, efficiency, and compliance with project specifications. The project includes multiple air handling units, energy recovery wheels, chillers, pumps, and specialized components designed for the high-altitude conditions (6,115 ft). Strategic procurement approaches can yield significant cost savings while maintaining the required performance standards for this mission-critical facility.",
+    "summary": "The GBSD Integrated Training Center (ITC) at F.E. Warren AFB requires a comprehensive procurement strategy for its HVAC and mechanical systems. The project involves significant equipment including air handling units, chillers, boilers, fan coil units, blower coil units, pumps, and exhaust systems. Key procurement considerations include standardizing equipment manufacturers to increase purchasing leverage and reduce maintenance complexity, implementing early procurement strategies for long-lead items, consolidating purchases of similar equipment types, and ensuring compatibility with the high-altitude installation environment (6,115 ft). Special attention should be given to the Trane-specified chillers and the proper selection of appropriate alternatives where basis of design manufacturers aren't specified.",
     "keyFindings": [
-      "Multiple HVAC systems require 40% propylene glycol solution due to the Wyoming climate and high-altitude installation location at F.E. Warren AFB",
-      "Long-lead items such as chillers, boilers, and custom air handling units present schedule risks that should be mitigated through early procurement",
-      "Standardization opportunities exist across multiple equipment categories including pumps, fan coil units, and control valves that could yield 5-15% cost savings",
-      "Energy efficiency measures such as premium efficiency motors and VFDs for major equipment would provide significant operational cost savings over the facility lifecycle"
+      "Most equipment lacks specified manufacturers (listed as 'No BOD Listed'), creating an opportunity to standardize on preferred suppliers",
+      "Trane is specified as the manufacturer for chillers (CH-1, CH-2, AWHP-1), indicating a procurement opportunity for volume discounting",
+      "The high-altitude installation environment (6,115 ft) requires equipment rated for these conditions, which may impact availability and lead times",
+      "The project includes numerous fan coil and blower coil units with varying configurations that could benefit from procurement consolidation",
+      "Critical equipment like chillers, AHUs, and boilers typically have extended lead times (12-20 weeks) that should be factored into the procurement schedule"
     ],
     "highestPriorityActions": [
-      "Pre-purchase critical long-lead HVAC equipment including chillers and air handling units to prevent schedule delays",
-      "Consolidate procurement of similar equipment types (chillers, fan coil units, exhaust fans) to leverage volume discounts and streamline maintenance",
-      "Standardize on premium efficiency motors and VFDs for all major equipment to reduce energy consumption and operational costs",
-      "Develop a strategic plan for bulk glycol procurement to ensure consistent quality and freeze protection across all systems"
+      "Standardize air handling unit and energy recovery wheel manufacturers to increase purchasing leverage and simplify maintenance",
+      "Consolidate chiller procurement with Trane to obtain volume discounts and ensure system compatibility",
+      "Implement early equipment procurement strategy for long-lead items to prevent project delays and secure better pricing",
+      "Standardize fan coil and blower coil unit manufacturers to reduce costs through bulk purchasing and simplified maintenance",
+      "Develop a coordinated procurement approach for similar equipment types (pumps, exhaust fans) to improve pricing and ensure consistent quality"
     ]
   }
 }

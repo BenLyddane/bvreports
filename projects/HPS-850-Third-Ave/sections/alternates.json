@@ -1,0 +1,175 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Air-Cooled Scroll Water Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YME0035",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as basis of design in dashboard for equipment tag CH-21-1"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "30RB",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with specified performance requirements, industry-standard connections"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "CGAM",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Premium option with enhanced efficiency features"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "AGZ",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Suggested alternative, compatible with building systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Central HVAC Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Nortek Air Solutions",
+          "model": "A-1-40I-WX-SC-X-X-P",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design for HV-5-1, HV-5-2, and MAU-21-1 per BuildVision dashboard"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Vision Air Handler",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with existing systems; similar footprint to Nortek units"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Performance Climate Changer",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "May require minor modifications to ductwork connections"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AirStream",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Alternative supplier option; verify control system compatibility"
+        }
+      ]
+    },
+    {
+      "componentType": "Decentralized Unitary HVAC Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Mammoth",
+          "model": "VVW-513-FXM",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as basis of design for AC Package in the BuildVision dashboard"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "VAV series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with building automation systems; energy-efficient alternative"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Higher efficiency rating; requires minimal modifications to existing connections"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Precedent",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Cost-effective alternative; may require additional controls integration"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "uploadedFiles": {
+    "bv-dashboard.txt": {
+      "file_id": "file_011CPeETiFCZ8yjzBGffjoXG",
+      "uploaded_at": "2025-05-30T19:02:33.582Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "Paul-Weiss-Mech-Sched.pdf": {
+      "file_id": "file_011CPeETm4cC5SW8SAqNHrxT",
+      "uploaded_at": "2025-05-30T19:02:34.185Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "Paul-Weiss-Mech-Specs.txt": {
+      "file_id": "file_011CPeEToJZK2MCmorpvv9Ro",
+      "uploaded_at": "2025-05-30T19:02:34.802Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    }
+  },
+  "tempFiles": {}
+}

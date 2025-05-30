@@ -1,0 +1,61 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Custom Packaged Rooftop AC Unit",
+      "suppliers": [
+        {
+          "manufacturer": "Valent",
+          "model": "VXE-112-41D-5A-1-D2",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Krish Patel",
+            "company": "HTS",
+            "contact": "Krish.Patel@hts.com"
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Custom packaged rooftop unit with air-source heat pump, electric secondary heating, and energy recovery wheel."
+        },
+        {
+          "manufacturer": "CaptiveAire",
+          "model": "Ascent",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Mentioned in BuildVision dashboard. Electric heating output differs from Valent BoD."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Rebel",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements, offers similar energy recovery features."
+        },
+        {
+          "manufacturer": "Aaon",
+          "model": "RN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Comparable packaged RTU with energy recovery options and heat pump capabilities."
+        }
+      ]
+    }
+  ]
+}

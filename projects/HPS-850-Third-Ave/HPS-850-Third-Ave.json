@@ -1,0 +1,341 @@
+{
+  "reportTitle": "BuildVision Project Report for 850 3rd Ave HPS Investment Partners Project",
+  "customerInformation": {
+    "customerName": "HPS Investment Partners",
+    "contactPerson": "Joshua Weiss",
+    "contactEmail": "joshua.weiss@structuretone.com",
+    "contactPhone": "",
+    "projectId": "cadcd049-0ae6-46d3-a2ea-e4248db65e8c",
+    "additionalFields": {
+      "address": "40 West 57th Street, New York, NY 10019"
+    }
+  },
+  "projectInformation": {
+    "projectName": "850 3rd Ave HPS Investment Partners Project",
+    "location": "850 3rd Ave, New York, NY 10022",
+    "startDate": "2/12/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Redevelopment project including storefront replacement, mechanical systems installation and other building improvements",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/cadcd049-0ae6-46d3-a2ea-e4248db65e8c/details",
+    "additionalFields": {
+      "bidStatus": "BuildingConnected Lead",
+      "contractType": "",
+      "requestType": "Proposal",
+      "projectSize": "",
+      "dateInvited": "2/12/2025",
+      "generalContractor": "Structure Tone (NY)"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-05-30"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled Scroll Water Chillers",
+      "notes": "",
+      "items": [
+        {
+          "equipmentTag": "CH-21-1",
+          "manufacturer": "York",
+          "model": "YME0035",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Central HVAC Equipment",
+      "notes": "",
+      "items": [
+        {
+          "equipmentTag": "HV-5-1",
+          "manufacturer": "Nortek Air Solutions",
+          "model": "A-1-40I-WX-SC-X-X-P",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HV-5-2",
+          "manufacturer": "Nortek Air Solutions",
+          "model": "A-1-40I-WX-SC-X-X-P",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "MAU-21-1",
+          "manufacturer": "Nortek Air Solutions",
+          "model": "A-1-40I-WX-SC-X-X-P",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Decentralized Unitary HVAC Equipment",
+      "notes": "",
+      "items": [
+        {
+          "equipmentTag": "AC Package",
+          "manufacturer": "Mammoth",
+          "model": "VVW-513-FXM",
+          "specifications": {}
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Air-Cooled Scroll Water Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YME0035",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as basis of design in dashboard for equipment tag CH-21-1"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "30RB",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with specified performance requirements, industry-standard connections"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "CGAM",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Premium option with enhanced efficiency features"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "AGZ",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Suggested alternative, compatible with building systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Central HVAC Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Nortek Air Solutions",
+          "model": "A-1-40I-WX-SC-X-X-P",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design for HV-5-1, HV-5-2, and MAU-21-1 per BuildVision dashboard"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Vision Air Handler",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with existing systems; similar footprint to Nortek units"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Performance Climate Changer",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "May require minor modifications to ductwork connections"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AirStream",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Alternative supplier option; verify control system compatibility"
+        }
+      ]
+    },
+    {
+      "componentType": "Decentralized Unitary HVAC Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Mammoth",
+          "model": "VVW-513-FXM",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as basis of design for AC Package in the BuildVision dashboard"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "VAV series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with building automation systems; energy-efficient alternative"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Higher efficiency rating; requires minimal modifications to existing connections"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Precedent",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Cost-effective alternative; may require additional controls integration"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Consolidate HVAC Equipment Procurement for Volume Discounts",
+      "rationale": "The project requires multiple pieces of HVAC equipment from Nortek Air Solutions (HV-5-1, HV-5-2, MAU-21-1) with identical model numbers. Purchasing these units as a single package would likely result in volume discounts from the manufacturer compared to individual purchases.",
+      "estimatedImpact": "Potential cost savings of 5-10% on the three Nortek Air Solutions units, which could represent significant savings considering the high cost of commercial HVAC equipment.",
+      "implementation": "1. Identify all Nortek Air Solutions units required for the project (minimum 3 units identified). 2. Create a consolidated purchase order for all identical model units. 3. Negotiate with Nortek for volume pricing. 4. Coordinate delivery schedule to align with installation timeline.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Pre-Purchase Long Lead HVAC Equipment Early",
+      "rationale": "The mechanical schedules indicate several specialized HVAC units (York chiller CH-21-1 and Mammoth AC Package) that typically have extended manufacturing and delivery timeframes. Early procurement of these items will prevent schedule delays that could impact the overall project timeline.",
+      "estimatedImpact": "Prevention of potential 8-12 week schedule delays, avoiding associated contractor standby costs and liquidated damages. Early procurement may also secure more competitive pricing before potential manufacturer price increases.",
+      "implementation": "1. Identify all long-lead HVAC equipment in the schedule. 2. Prioritize the York chiller and Mammoth AC Package for immediate procurement. 3. Secure storage if needed for early deliveries. 4. Coordinate with mechanical contractor for receipt and staging of equipment.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Evaluate Alternative Suppliers for the Storefront System",
+      "rationale": "The specifications list YKK, Kawneer, and EFCO as acceptable storefront suppliers. The storefront replacement represents a significant portion of the project scope, and competitive bidding among these three suppliers could yield cost savings while maintaining quality and performance requirements.",
+      "estimatedImpact": "Potential savings of 3-7% on the storefront package, which could be substantial given the extent of glass and aluminum systems required for the building facade.",
+      "implementation": "1. Request proposals from all three approved manufacturers. 2. Compare pricing, lead times, and warranty terms. 3. Evaluate each supplier's ability to meet the OITC-28 acoustical performance requirements. 4. Select the supplier offering the best value proposition considering both cost and technical capabilities.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Coordinate Revolving Door and Storefront Procurement",
+      "rationale": "The project includes both storefront systems and revolving doors that must integrate seamlessly. Procuring these components from suppliers that have established compatibility between their products will reduce field modifications and ensure proper functioning of the entrance assembly.",
+      "estimatedImpact": "Elimination of potential field rework costs that could range from $5,000-$15,000. Reduced risk of water infiltration and air leakage at critical interfaces between systems.",
+      "implementation": "1. Identify manufacturers that can supply both revolving doors and storefront systems, or have established compatibility protocols. 2. Request integrated shop drawings showing interface details. 3. Require suppliers to certify system compatibility in writing. 4. Consider sole-sourcing if significant coordination benefits exist.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Procure Bird-Friendly Glass in Bulk for Multiple Applications",
+      "rationale": "Local Law 15 of 2020 requires bird-friendly glass in multiple locations (within 75-feet of grade, within 12-feet of green roofs, etc.). The specifications list multiple acceptable bird-friendly glass treatments. By standardizing on one treatment type and procuring in bulk for all required locations, cost efficiencies can be realized.",
+      "estimatedImpact": "Cost savings of approximately 4-8% on bird-friendly glass through volume purchasing. Simplified quality control and installation processes with a standardized approach.",
+      "implementation": "1. Identify all areas requiring bird-friendly glass treatment. 2. Evaluate which of the acceptable products can be most cost-effectively applied across all required locations. 3. Negotiate bulk pricing with the selected glass fabricator. 4. Ensure the selected solution meets the required Threat Factor of not more than 25 (or 27 where allowed).",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Establish a Supplier Qualification Program for Sealants",
+      "rationale": "The specifications require extensive testing of sealant compatibility, adhesion, and staining properties with project substrates. Structuring this as a pre-procurement qualification program will identify suitable products early, preventing delays during construction and ensuring only compatible products are purchased.",
+      "estimatedImpact": "Prevention of costly rework if incompatible sealants are installed and subsequently fail. Potential schedule savings of 2-3 weeks by resolving compatibility issues during procurement rather than during construction.",
+      "implementation": "1. Identify all required sealant types and locations from specifications. 2. Obtain substrate samples for testing. 3. Request sealant manufacturers (Dow Corning, Momentive, Tremco, Sika) to perform required compatibility and adhesion tests. 4. Pre-qualify products before finalizing procurement decisions.",
+      "priority": "High"
+    },
+    {
+      "id": 7,
+      "recommendation": "Source Insulating Glass Units from a Single Manufacturer",
+      "rationale": "The specifications require all glass to be the manufactured product of one company and all fabricated glass products to be from one company. Given the multiple glass types required (vision, spandrel, bird-friendly), selecting a single source capable of providing all variations will simplify procurement, ensure consistency in appearance, and streamline warranty coverage.",
+      "estimatedImpact": "Reduced coordination costs across multiple suppliers. Consistent quality and appearance throughout the building. Simplified warranty management with a single point of responsibility for all glass products.",
+      "implementation": "1. Identify manufacturers capable of producing all required glass types. 2. Request samples of each glass type to verify visual consistency. 3. Negotiate package pricing for the complete glass scope. 4. Establish clear delivery schedules aligned with the facade installation sequence.",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "The 850 3rd Ave HPS Investment Partners Project involves significant mechanical equipment procurement and extensive storefront/glazing systems installation. This procurement analysis identifies opportunities to optimize purchasing strategies, coordinate vendor selection, and ensure timely delivery of critical components while maintaining quality standards and meeting specialized requirements like bird-friendly glass and acoustical performance.",
+    "keyFindings": [
+      "Consolidating HVAC equipment purchases (particularly the three identical Nortek Air Solutions units) can yield 5-10% cost savings through volume discounts",
+      "Early procurement of long-lead items like the York chiller (CH-21-1) and Mammoth AC Package is critical to prevent 8-12 week schedule delays",
+      "The project requires specialized glass systems that must meet multiple performance criteria including bird-friendly requirements per Local Law 15 of 2020 and OITC-28 acoustical standards",
+      "Sealant compatibility testing and qualification is essential before procurement to prevent costly rework and ensure the 20-year warranty requirements can be met"
+    ],
+    "highestPriorityActions": [
+      "Immediately initiate procurement of all long-lead HVAC equipment, particularly the York chiller and Nortek Air Solutions units, to prevent schedule impacts",
+      "Establish a pre-procurement sealant qualification program to verify compatibility with project substrates before finalizing purchases",
+      "Consolidate storefront, revolving door, and glass procurement with suppliers who can demonstrate integrated system compatibility and meet all performance requirements",
+      "Create a comprehensive equipment delivery schedule aligned with the installation sequence to minimize storage requirements and optimize site logistics"
+    ]
+  }
+}

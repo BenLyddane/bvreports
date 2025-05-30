@@ -1,0 +1,47 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Custom Packaged Rooftop AC Unit",
+      "notes": "Unit includes air-source heat pump with electric heating backup, energy recovery wheel, and BACnet MSTP connectivity",
+      "items": [
+        {
+          "equipmentTag": "RTU-1",
+          "manufacturer": "Valent",
+          "model": "VXE-112-41D-5A-1-D2",
+          "specifications": {
+            "supply_cfm": 1500,
+            "outdoor_air_cfm": 1500,
+            "exhaust_air_cfm": 1275,
+            "cooling_type": "Air-Source Heat Pump",
+            "primary_heating_type": "Air-Source Heat Pump",
+            "secondary_heating_type": "Electric",
+            "total_cooling_capacity": 66.6,
+            "sensible_cooling_capacity": 45.7,
+            "primary_heating_capacity": 34.6,
+            "secondary_heating_capacity": 15,
+            "electric_heating_fla": 18.8,
+            "energy_recovery_device": "Polymer Wheel w/ Silica Gel Desiccant",
+            "supply_motor_hp": 1.23,
+            "exhaust_motor_hp": 0.81,
+            "supply_motor_size": "1 1/2",
+            "exhaust_motor_size": "1",
+            "weight": "3,501 (+/- 5%)",
+            "power_supply": "460/60/3",
+            "mca": 42.3,
+            "mop": 45,
+            "fla": 35.2,
+            "fan_power": "1.011 W/CFM",
+            "unit_installation": "Outdoor",
+            "unit_etl_listing": "UL\\cUL 1995/60335-2-40",
+            "refrigerant": "R-454B",
+            "warranty": {
+              "unit": "18 months from ship date",
+              "energy_wheel": "5 years less motor",
+              "compressor": "5.5 years (4 years extended)"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

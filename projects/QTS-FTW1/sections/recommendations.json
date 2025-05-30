@@ -1,0 +1,68 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Negotiate Bulk Purchase of Static Transfer Switches",
+      "rationale": "The electrical diagrams and specifications indicate multiple static transfer switches (STS) are required for the QTS FTW1 DC1 18MW Expansion project. A coordinated bulk purchase of these critical components would leverage economies of scale and potentially secure better pricing, delivery schedules, and warranty terms.",
+      "estimatedImpact": "Potential cost savings of 10-15% on STS equipment, improved delivery coordination, and streamlined installation scheduling. This could represent significant savings on these high-value items while ensuring consistent quality across all units.",
+      "implementation": "1. Compile total STS requirements from all electrical diagrams and specifications. 2. Engage with preferred manufacturers (ASCO, Eaton, etc.) to negotiate volume-based pricing. 3. Coordinate delivery schedule with construction timeline to minimize storage requirements. 4. Consider extended warranty options as part of the negotiation.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Standardize on a Single UPS Manufacturer",
+      "rationale": "The specifications allow for multiple UPS manufacturers. Standardizing on a single manufacturer for all UPS systems would provide consistency in maintenance procedures, spare parts inventory, and technical support. The project documents indicate significant UPS infrastructure with parallel redundant configurations.",
+      "estimatedImpact": "Estimated 8-12% reduction in lifetime maintenance costs, simplified training requirements, reduced spare parts inventory, and improved vendor leverage for future service contracts. Operational efficiency would be improved through standardized interfaces and monitoring systems.",
+      "implementation": "1. Evaluate preferred manufacturers based on technical specifications, local support capabilities, and total cost of ownership. 2. Negotiate enterprise-level agreement with selected manufacturer. 3. Ensure all UPS specifications reference the standardized manufacturer. 4. Coordinate installation training for all units with the manufacturer.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Optimize Generator Procurement with Integrated Testing Plan",
+      "rationale": "The specifications indicate multiple diesel generators with extensive testing requirements. Coordinating the generator procurement with the testing plan could reduce duplicate testing costs and streamline the commissioning process. The project requires significant load bank testing for generator acceptance.",
+      "estimatedImpact": "Potential savings of $15,000-$25,000 in testing costs by combining factory and site acceptance testing. Reduced risk of commissioning delays by ensuring factory tests align with site acceptance criteria. Improved reliability validation through comprehensive testing.",
+      "implementation": "1. Review generator specifications and testing requirements in Section 26 32 13 and 26 32 15. 2. Coordinate with generator manufacturer to align factory testing with site acceptance criteria. 3. Consider negotiating integrated factory witness testing with commissioning team present. 4. Arrange for load bank rental coordination between factory and site testing phases.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Bundle Medium-Voltage Cable Purchase with Installation Services",
+      "rationale": "The project requires significant medium-voltage cabling as shown in the electrical diagrams. Bundling the cable purchase with specialized installation services could ensure proper handling of these critical components while potentially reducing overall costs through a single-source responsibility approach.",
+      "estimatedImpact": "Estimated 5-7% reduction in combined material and labor costs. Reduced risk of installation damage and warranty disputes. Simplified project management through single-source responsibility for this critical system component.",
+      "implementation": "1. Identify all medium-voltage cable requirements from drawings. 2. Develop RFP for combined cable supply and installation services. 3. Evaluate bids based on total cost of ownership and quality assurance. 4. Ensure installation contractor has proper qualifications for medium-voltage work.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Implement Strategic Switchgear Procurement Plan",
+      "rationale": "The electrical one-line diagrams show extensive switchgear requirements. A strategic procurement plan for switchgear would account for long lead times, coordinate factory witness testing, and potentially reduce costs through standardization of manufacturers and specifications.",
+      "estimatedImpact": "Potential cost savings of 5-8% through standardization and volume purchasing. Reduced risk of schedule delays by proactively managing long lead time items. Improved quality control through coordinated factory witness testing.",
+      "implementation": "1. Create comprehensive inventory of all required switchgear from electrical diagrams. 2. Develop standardized specifications where possible. 3. Engage with manufacturers early to secure production slots. 4. Consider advance procurement of long-lead components. 5. Coordinate factory witness testing to verify critical performance parameters before shipment.",
+      "priority": "High"
+    },
+    {
+      "id": 6,
+      "recommendation": "Consolidate PDU Purchases with Vendor-Managed Inventory",
+      "rationale": "The project requires multiple Power Distribution Units (PDUs) as shown in the electrical drawings. Implementing a vendor-managed inventory approach for PDUs could reduce on-site storage requirements, ensure just-in-time delivery, and potentially secure better pricing through a committed volume agreement.",
+      "estimatedImpact": "Reduced on-site storage costs and potential damage. Improved cash flow by delaying payment until equipment is needed on site. Potential 3-5% cost reduction through committed volume agreement with manufacturer.",
+      "implementation": "1. Identify total PDU requirements and delivery schedule based on construction timeline. 2. Negotiate with manufacturers for a vendor-managed inventory program. 3. Establish clear delivery protocols and acceptance criteria. 4. Implement tracking system for vendor-managed inventory to maintain project schedule compliance.",
+      "priority": "Medium"
+    },
+    {
+      "id": 7,
+      "recommendation": "Standardize Circuit Breaker Selection Across Equipment",
+      "rationale": "The specifications allow for multiple circuit breaker manufacturers. Standardizing on a single manufacturer for all major circuit breakers would reduce spare parts inventory, simplify maintenance, and potentially provide volume purchase benefits. This is particularly important for critical components like main breakers in switchgear and distribution equipment.",
+      "estimatedImpact": "Estimated 10-15% reduction in spare parts inventory requirements. Simplified maintenance procedures and training. Potential 4-6% cost savings through volume purchasing of standardized components.",
+      "implementation": "1. Review circuit breaker specifications across all electrical equipment. 2. Identify opportunities for standardization without compromising performance requirements. 3. Negotiate with preferred manufacturers for volume pricing. 4. Update specifications to reflect standardized circuit breaker requirements.",
+      "priority": "Medium"
+    },
+    {
+      "id": 8,
+      "recommendation": "Pre-purchase Surge Protection Devices (SPDs) as Package",
+      "rationale": "The specifications call for surge protection devices throughout the electrical distribution system. Purchasing all required SPDs as a package from a single manufacturer would ensure consistent protection strategies, potentially reduce costs, and simplify warranty management.",
+      "estimatedImpact": "Potential cost savings of 7-10% through volume purchasing. Consistent protection levels throughout the facility. Simplified warranty management through single-source responsibility. Reduced spare parts inventory requirements.",
+      "implementation": "1. Compile comprehensive list of all required SPDs from specifications and drawings. 2. Develop standardized SPD specifications that meet or exceed project requirements. 3. Negotiate with manufacturers for package pricing. 4. Coordinate delivery schedule with installation timeline.",
+      "priority": "Low"
+    }
+  ]
+}

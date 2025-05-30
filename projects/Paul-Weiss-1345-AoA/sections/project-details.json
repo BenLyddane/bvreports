@@ -1,0 +1,41 @@
+{
+  "reportTitle": "BuildVision Project Report for Paul Weiss 1345 AoA Project",
+  "customerInformation": {
+    "customerName": "Paul Weiss",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "39830c7b-9448-4c9a-9bbe-0c030db054bb",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Paul Weiss - 1345 AoA Project",
+    "location": "1345 Avenue of Americas, New York, NY 10105",
+    "startDate": "4/1/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Floors 13-16 and 29-44",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/39830c7b-9448-4c9a-9bbe-0c030db054bb/details",
+    "additionalFields": {
+      "contractType": "",
+      "projectSize": "",
+      "bidStatus": "BuildingConnected Lead",
+      "requestType": "Proposal"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "5/2/2025"
+  }
+}

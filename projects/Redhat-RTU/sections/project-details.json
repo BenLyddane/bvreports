@@ -1,0 +1,39 @@
+{
+  "reportTitle": "BuildVision Project Report for RedHat RTU",
+  "customerInformation": {
+    "customerName": "Structure Tone (NY)",
+    "contactPerson": "Rafal",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "0b638303-cf0c-42ed-83ba-fd75d5f1392f",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "RedHat RTU",
+    "location": "Boston, MA 02109",
+    "startDate": "3/18/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Rooftop Unit (RTU) installation project",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/0b638303-cf0c-42ed-83ba-fd75d5f1392f/details",
+    "additionalFields": {
+      "equipment": "VXE-112-41D-5A-1-D2 Custom Packaged Rooftop AC Unit",
+      "manufacturer": "Valent"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "03/12/2025"
+  }
+}

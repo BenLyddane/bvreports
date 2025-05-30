@@ -1,0 +1,52 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled Scroll Water Chillers",
+      "notes": "",
+      "items": [
+        {
+          "equipmentTag": "CH-21-1",
+          "manufacturer": "York",
+          "model": "YME0035",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Central HVAC Equipment",
+      "notes": "",
+      "items": [
+        {
+          "equipmentTag": "HV-5-1",
+          "manufacturer": "Nortek Air Solutions",
+          "model": "A-1-40I-WX-SC-X-X-P",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HV-5-2",
+          "manufacturer": "Nortek Air Solutions",
+          "model": "A-1-40I-WX-SC-X-X-P",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "MAU-21-1",
+          "manufacturer": "Nortek Air Solutions",
+          "model": "A-1-40I-WX-SC-X-X-P",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Decentralized Unitary HVAC Equipment",
+      "notes": "",
+      "items": [
+        {
+          "equipmentTag": "AC Package",
+          "manufacturer": "Mammoth",
+          "model": "VVW-513-FXM",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

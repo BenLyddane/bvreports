@@ -1,0 +1,544 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+Paul Weiss 1345 AoA Project
+
+    packages
+
+MH
+Organization Logo
+Paul Weiss - 1345 AoA Project
+Structure Tone (NY)
+Stakeholders
+1345 Avenue of Americas, New York, NY 10105
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Action
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CWP-14-1, -2, -3	Grundfos	Base-Mounted, Centrifugal Hydronic Pumps	LF-DOL15705	
+AnnotationAnnotation
+	
+CWP-35-1, 2	Grundfos	In-Line Centrifugal Hydronic Pumps	CR3-DOL19-4P	
+Annotation
+	
+CWP-37-1, 2, 3	Grundfos	Hydronic Pumps	LCS-DOL15705	
+Annotation
+	
+PCWP-15-1		Hydronic Pumps	--	
+AnnotationAnnotation
+	
+PCWP-15-2		Hydronic Pumps	--	
+AnnotationAnnotation
+	
+SCWP-15-1		Hydronic Pumps	--	
+AnnotationAnnotation
+	
+SCWP-15-2		Hydronic Pumps	--	
+AnnotationAnnotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HX-15-1	Hexonic	Plate-Type, Liquid-to-Liquid Heat Exchangers	LB60-DOL110H-1	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AC-15-1	Mammoth	Small-Capacity Self-Contained Air-Conditioners	VVW-303-GXST	
+Annotation
+	
+AC-16-1	Mammoth	Small-Capacity Self-Contained Air-Conditioners	VVW-393-CXST-L	
+Annotation
+	
+MUA-14-1	Mammoth	Packaged, Outdoor, Heating-Only Makeup-Air Units	VVX-1684-GEL	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+ESP-14-1	Halton	Electronic Air Cleaners	PST-18-ESP-ESP-EF-OCUV-OCC-B	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+VAV-10	Titus	Single-Duct VAV Terminal Units	DESV-10	
+Annotation
+	
+VAV-12	Titus	Single-Duct VAV Terminal Units	DESV-12	
+Annotation
+	
+VAV-14	Titus	Single-Duct VAV Terminal Units	DESV-14	
+Annotation
+	
+VAV-16	Titus	Single-Duct VAV Terminal Units	DESV-16	
+Annotation
+	
+VAV-6	Titus	Single-Duct VAV Terminal Units	DESV-6	
+Annotation
+	
+VAV-8	Titus	Single-Duct VAV Terminal Units	DESV-8	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+DXF-14-1	Greenheck	HVAC Fans	QEI-9	
+AnnotationAnnotation
+	
+DXF-14-2	Greenheck	HVAC Fans	QEI-9	
+AnnotationAnnotation
+	
+EF-13-1	Greenheck	HVAC Fans	CSP-A510-VG	
+Annotation
+	
+EF-14-1	Greenheck	HVAC Fans	CSP-A510-VG	
+Annotation
+	
+EF-15-1	Greenheck	HVAC Fans	CSP-A700	
+Annotation
+	
+EF-15-2, -5	Greenheck	HVAC Fans	CSP-A390-VG	
+Annotation
+	
+EF-15-3	Greenheck	HVAC Fans	CSP-A510-VG	
+Annotation
+	
+EF-15-4	Greenheck	HVAC Fans	CSP-A780	
+Annotation
+	
+EF-16-1	Greenheck	HVAC Fans	CSP-A700	
+Annotation
+	
+EF-16-2, -5	Greenheck	HVAC Fans	CSP-A390-VG	
+Annotation
+	
+EF-16-3	Greenheck	HVAC Fans	CSP-A510-VG	
+Annotation
+	
+EF-16-4	Greenheck	HVAC Fans	CSP-A780	
+Annotation
+	
+GXF-14-1	Greenheck	HVAC Fans	CSP-A390	
+AnnotationAnnotation
+	
+TF-13-1	Greenheck	HVAC Fans	CSP-A1300	
+Annotation
+	
+TF-14-1	Greenheck	HVAC Fans	CSP-A1300	
+Annotation
+	
+TF-15-1	Greenheck	HVAC Fans	CSP-A1300	
+Annotation
+	
+TF-16-1	Greenheck	HVAC Fans	CSP-A1300	
+Annotation
+	
+TX-13-1, -2	Greenheck	HVAC Fans	CSP-A780	
+AnnotationAnnotation
+	
+TX-14-1, -2	Greenheck	HVAC Fans	CSP-A780	
+AnnotationAnnotation
+	
+TX-15-1, -2	Greenheck	HVAC Fans	CSP-A780	
+AnnotationAnnotation
+	
+TX-16-1, -2	Greenheck	HVAC Fans	CSP-A780	
+AnnotationAnnotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+FCU-14-1	IEC	Fan Coil Units	HPY12	
+Annotation
+	
+FCU-15-1	IEC	Fan Coil Units	HPY08	
+Annotation
+	
+FCU-15-2	IEC	Fan Coil Units	HPY08	
+Annotation
+	
+FCU-16-1	IEC	Fan Coil Units	HPY12	
+Annotation
+	
+FCU-16-2	IEC	Fan Coil Units	HPY08	
+Annotation
+	
+FCU-16-3	IEC	Fan Coil Units	HPY08	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AC-13-1	Bosch	Water-Source Unitary Heat Pumps	CL030	
+Annotation
+	
+AC-13-2	Bosch	Water-Source Heat Pumps	CL036-HZ	
+Annotation
+	
+AC-14-1, -2, -5, -9	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-14-3, -4	Bosch	Water-Source Unitary Heat Pumps	CL018	
+Annotation
+	
+AC-14-6	Bosch	Water-Source Unitary Heat Pumps	CL036	
+Annotation
+	
+AC-14-7, -8	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-15-2	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-16-2	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-29-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-29-2	Bosch	Water-Source Unitary Heat Pumps	CL030	
+Annotation
+	
+AC-30-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-31-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-31-2	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-31-3	Bosch	Water-Source Unitary Heat Pumps	CL036	
+Annotation
+	
+AC-32-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-32-2	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-32-3	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-33-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-33-2	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-33-3	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-33-4	Bosch	Water-Source Unitary Heat Pumps	CL030	
+Annotation
+	
+AC-34-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-35-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-35-3	Bosch	Water-Source Unitary Heat Pumps	CL030	
+Annotation
+	
+AC-36-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-37-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-37-2	Bosch	Water-Source Unitary Heat Pumps	CL036	
+Annotation
+	
+AC-37-3	Bosch	Water-Source Unitary Heat Pumps	CL018	
+Annotation
+	
+AC-39-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-39-2	Bosch	Water-Source Unitary Heat Pumps	CL030	
+Annotation
+	
+AC-40-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-40-2	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-40-3	Bosch	Water-Source Unitary Heat Pumps	CL030	
+Annotation
+	
+AC-40-5	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-41-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-41-2	Bosch	Water-Source Unitary Heat Pumps	CL030	
+Annotation
+	
+AC-41-3	Bosch	Water-Source Unitary Heat Pumps	CL048	
+Annotation
+	
+AC-42-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-43-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-43-2	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+AC-43-3	Bosch	Water-Source Unitary Heat Pumps	CL030	
+Annotation
+	
+AC-44-1	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+AC-C-1	Bosch	Water-Source Heat Pumps	CL048-HZ	
+Annotation
+	
+(ADD-ALT) AC-35-2	Bosch	Water-Source Unitary Heat Pumps	CL012	
+Annotation
+	
+(ADD-ALT) AC-40-4	Bosch	Water-Source Unitary Heat Pumps	CL024	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CRAC-13-1	AboveAir	Computer-Room Air-Conditioners	MCW-007S1-7-00000-EC-00-EF2-XS	
+Annotation
+	
+CRAC-14-1	AboveAir	Computer-Room Air-Conditioners	MCW-007S1-7-00000-EC-00-EF2-XS	
+Annotation
+	
+CRAC-14-2	Bosch	Water-Source Heat Pumps	CL036-HZ	
+Annotation
+	
+CRAC-15-1	AboveAir	Computer-Room Air-Conditioners	MCW-007S1-7-00000-EC-00-EF2-XS	
+Annotation
+	
+CRAC-15-2	Bosch	Water-Source Heat Pumps	CL036-HZ	
+Annotation
+	
+CRAC-16-1	AboveAir	Computer-Room Air-Conditioners	MCW-007S1-7-00000-EC-00-EF2-XS	
+Annotation
+	
+CRAC-16-2	Bosch	Water-Source Heat Pumps	CL036-HZ	
+Annotation
+	
+CRAC-29-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-30-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-31-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-32-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-33-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-34-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-35-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-35-2	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-018S1-4-00ERH-EC-FE-UF0-1A	
+AnnotationAnnotation
+	
+CRAC-35-3	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-018S1-4-00ERH-EC-FE-UF0-1A	
+AnnotationAnnotation
+	
+CRAC-35-4	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-018S1-4-00ERH-EC-FE-UF0-1A	
+AnnotationAnnotation
+	
+CRAC-36-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-37-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-38-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-39-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-40-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-41-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-42-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-43-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+CRAC-44-1	AboveAir	Large-Capacity, Computer-Room Air-Conditioners, Floor-Mounted Units	MCW-007S1-7-00000-EC-00-UF2-XS	
+AnnotationAnnotation
+	
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+Paul Weiss 1345 AoA Project
+
+    details
+
+MH
+Organization Logo
+Paul Weiss - 1345 AoA Project
+Structure Tone (NY)
+Stakeholders
+1345 Avenue of Americas, New York, NY 10105
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+--
+Address
+1345 Avenue of Americas, New York, NY 10105
+Created
+4/1/2025
+Expected Start
+--
+Date Due
+--
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+--
+Request Type
+Proposal
+Project Size
+--
+
+https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/39830c7b-9448-4c9a-9bbe-0c030db054bb/details

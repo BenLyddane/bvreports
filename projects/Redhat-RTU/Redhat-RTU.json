@@ -1,0 +1,201 @@
+{
+  "reportTitle": "BuildVision Project Report for RedHat RTU",
+  "customerInformation": {
+    "customerName": "Structure Tone (NY)",
+    "contactPerson": "Rafal",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "0b638303-cf0c-42ed-83ba-fd75d5f1392f",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "RedHat RTU",
+    "location": "Boston, MA 02109",
+    "startDate": "3/18/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Rooftop Unit (RTU) installation project",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/0b638303-cf0c-42ed-83ba-fd75d5f1392f/details",
+    "additionalFields": {
+      "equipment": "VXE-112-41D-5A-1-D2 Custom Packaged Rooftop AC Unit",
+      "manufacturer": "Valent"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-05-30"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Custom Packaged Rooftop AC Unit",
+      "notes": "Unit includes air-source heat pump with electric heating backup, energy recovery wheel, and BACnet MSTP connectivity",
+      "items": [
+        {
+          "equipmentTag": "RTU-1",
+          "manufacturer": "Valent",
+          "model": "VXE-112-41D-5A-1-D2",
+          "specifications": {
+            "supply_cfm": 1500,
+            "outdoor_air_cfm": 1500,
+            "exhaust_air_cfm": 1275,
+            "cooling_type": "Air-Source Heat Pump",
+            "primary_heating_type": "Air-Source Heat Pump",
+            "secondary_heating_type": "Electric",
+            "total_cooling_capacity": 66.6,
+            "sensible_cooling_capacity": 45.7,
+            "primary_heating_capacity": 34.6,
+            "secondary_heating_capacity": 15,
+            "electric_heating_fla": 18.8,
+            "energy_recovery_device": "Polymer Wheel w/ Silica Gel Desiccant",
+            "supply_motor_hp": 1.23,
+            "exhaust_motor_hp": 0.81,
+            "supply_motor_size": "1 1/2",
+            "exhaust_motor_size": "1",
+            "weight": "3,501 (+/- 5%)",
+            "power_supply": "460/60/3",
+            "mca": 42.3,
+            "mop": 45,
+            "fla": 35.2,
+            "fan_power": "1.011 W/CFM",
+            "unit_installation": "Outdoor",
+            "unit_etl_listing": "UL\\cUL 1995/60335-2-40",
+            "refrigerant": "R-454B",
+            "warranty": {
+              "unit": "18 months from ship date",
+              "energy_wheel": "5 years less motor",
+              "compressor": "5.5 years (4 years extended)"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Custom Packaged Rooftop AC Unit",
+      "suppliers": [
+        {
+          "manufacturer": "Valent",
+          "model": "VXE-112-41D-5A-1-D2",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Krish Patel",
+            "company": "HTS",
+            "contact": "Krish.Patel@hts.com"
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Custom packaged rooftop unit with air-source heat pump, electric secondary heating, and energy recovery wheel."
+        },
+        {
+          "manufacturer": "CaptiveAire",
+          "model": "Ascent",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Mentioned in BuildVision dashboard. Electric heating output differs from Valent BoD."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Rebel",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements, offers similar energy recovery features."
+        },
+        {
+          "manufacturer": "Aaon",
+          "model": "RN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Comparable packaged RTU with energy recovery options and heat pump capabilities."
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Consider CaptiveAire as an Alternative Supplier for the RTU",
+      "rationale": "The current Basis of Design (BOD) specifies a Valent VXE-112-41D-5A-1-D2 model, but there appears to be a discrepancy with the electric heating capacity. As noted in the dashboard conversation, Ascent (CaptiveAire) was being considered as an alternative. The BOD has an 80 degree LAT in winter with the wheel off and electric heating fully on, which is typically sufficient for ventilation applications. Evaluating CaptiveAire's offering could potentially provide better value or resolve the heating capacity concerns.",
+      "estimatedImpact": "Potential cost savings of 5-10% on equipment purchase price while possibly obtaining a solution that better matches the project requirements. Could also reduce operational costs if the alternative unit offers better energy efficiency ratings.",
+      "implementation": "1. Request a formal quote from CaptiveAire for an equivalent unit\n2. Compare specifications, particularly the electric heating capacity and LAT performance\n3. Evaluate warranty terms, service network, and parts availability\n4. Calculate total cost of ownership including energy consumption projections\n5. Make final selection based on comprehensive evaluation",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Evaluate A2L Refrigerant Compliance Requirements",
+      "rationale": "The specified Valent unit uses R-454B refrigerant, which is an A2L (mildly flammable) refrigerant. Page 6 of the specifications indicates specific installation requirements per UL 60335-2-40, including minimum circulation airflow of 577 CFM and minimum conditioned room area of 319 ft². The unit also includes leak detection sensors. Ensuring compliance with local codes for A2L refrigerants is critical for safety and regulatory approval.",
+      "estimatedImpact": "Prevention of potential project delays, permit rejections, or costly retrofits if installation doesn't meet code requirements for A2L refrigerants. Could also impact insurance requirements and premiums.",
+      "implementation": "1. Verify local building code requirements specific to A2L refrigerants\n2. Confirm installation location meets the minimum room area of 319 ft²\n3. Ensure ventilation design maintains minimum 577 CFM circulation airflow\n4. Review refrigerant monitoring and emergency ventilation plans\n5. Consult with local authorities having jurisdiction (AHJ) if clarification is needed",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Consider Extended Compressor Warranty Options",
+      "rationale": "The unit comes with a 5.5-year compressor warranty (4 years extended beyond the standard 18-month unit warranty). Given that the compressor is typically the most expensive component to replace and that the unit uses newer A2L refrigerant technology, evaluating additional extended warranty options could provide long-term value and protection against potential early failures.",
+      "estimatedImpact": "Protection against unexpected repair costs that could range from $3,000-$8,000 for compressor replacement. Reduced financial risk and more predictable maintenance budgeting over the equipment lifecycle.",
+      "implementation": "1. Contact Valent to inquire about extended warranty options beyond the included 5.5 years\n2. Calculate the cost-benefit ratio of extended warranty versus potential replacement costs\n3. Review warranty terms regarding coverage limitations and labor inclusion\n4. Consider third-party warranty providers if manufacturer options are limited\n5. Factor warranty costs into the total cost of ownership analysis",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Optimize BACnet Integration Configuration",
+      "rationale": "The specifications indicate the unit comes with BACnet MSTP protocol for building management system integration. The extensive points list (pages 17-19) shows numerous monitoring and control capabilities. Properly configuring this integration during procurement and installation will ensure optimal unit operation and monitoring capabilities.",
+      "estimatedImpact": "Improved system monitoring and control, potentially reducing energy consumption by 5-10% through optimized operation. Faster response to operational issues and better preventative maintenance through real-time data analysis.",
+      "implementation": "1. Confirm compatibility between the building's BMS and the unit's BACnet MSTP implementation\n2. Identify critical monitoring and control points from the available list that are most relevant for this application\n3. Include specific BACnet addressing and configuration requirements in the purchase specification\n4. Request factory pre-configuration of BACnet parameters where possible\n5. Allocate resources for proper commissioning of the BMS integration",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Secure Spare Filter Stock with Initial Purchase",
+      "rationale": "The unit requires both MERV 8 filters (for return air and outdoor air) and MERV 13 filters (for supply air). The specifications on page 2 indicate specific filter sizes (2\" MERV 13, 2-20x20x2, 2-20x24x2 for supply; 2\" MERV 8, 3-16x25x2 for both return and outdoor air). Purchasing a stock of replacement filters with the initial equipment order can reduce future procurement efforts and ensure proper maintenance.",
+      "estimatedImpact": "Cost savings of approximately 10-15% on filters through bulk purchasing. Elimination of potential downtime due to filter unavailability. Ensures maintenance staff has immediate access to correct filter sizes and ratings.",
+      "implementation": "1. Include a 1-year supply of replacement filters in the initial purchase order\n2. Verify exact filter sizes and quantities needed for each filter bank\n3. Establish a storage location and inventory tracking system for the filters\n4. Create a filter replacement schedule aligned with manufacturer recommendations\n5. Develop a reordering process to maintain adequate stock levels",
+      "priority": "Low"
+    }
+  ],
+  "conclusion": {
+    "summary": "The RedHat RTU project involves the procurement of a Valent VXE-112-41D-5A-1-D2 custom packaged rooftop unit with air-source heat pump, electric heating backup, and energy recovery wheel capabilities. The procurement strategy should consider potential alternatives such as CaptiveAire's Ascent model, which could offer cost savings while addressing the electric heating discrepancy noted in project communications. Special attention must be given to A2L refrigerant compliance requirements, warranty considerations, and proper BACnet integration to ensure optimal performance and regulatory compliance.",
+    "keyFindings": [
+      "The specified Valent unit uses R-454B refrigerant (A2L class) which requires specific installation conditions including minimum circulation airflow of 577 CFM and a minimum conditioned room area of 319 ft²",
+      "There is a noted discrepancy between the basis of design Valent unit and the CaptiveAire alternative regarding electric heating capacity and leaving air temperature performance",
+      "The unit includes comprehensive BACnet MSTP integration capabilities with extensive monitoring and control points that require proper configuration during procurement and installation",
+      "The equipment comes with tiered warranty terms: 18 months for the unit, 5 years for the energy recovery wheel (excluding motor), and 5.5 years for the compressor",
+      "The procurement timeline should account for potential manufacturing lead times, particularly given the custom nature of the packaged unit and current supply chain conditions"
+    ],
+    "highestPriorityActions": [
+      "Evaluate CaptiveAire's Ascent model as a potential alternative to the Valent BOD unit, focusing on resolving the electric heating capacity discrepancy while potentially reducing equipment costs",
+      "Verify local building code compliance requirements for A2L refrigerant installation, ensuring the installation location meets minimum room area and airflow specifications",
+      "Secure comprehensive warranty coverage for critical components, particularly considering extended options for the compressor given the newer refrigerant technology",
+      "Develop detailed BACnet integration specifications as part of the procurement package to ensure seamless building management system compatibility and optimal operational control"
+    ]
+  }
+}

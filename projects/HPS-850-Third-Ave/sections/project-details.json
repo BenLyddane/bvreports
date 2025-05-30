@@ -1,0 +1,45 @@
+{
+  "reportTitle": "BuildVision Project Report for 850 3rd Ave HPS Investment Partners Project",
+  "customerInformation": {
+    "customerName": "HPS Investment Partners",
+    "contactPerson": "Joshua Weiss",
+    "contactEmail": "joshua.weiss@structuretone.com",
+    "contactPhone": "",
+    "projectId": "cadcd049-0ae6-46d3-a2ea-e4248db65e8c",
+    "additionalFields": {
+      "address": "40 West 57th Street, New York, NY 10019"
+    }
+  },
+  "projectInformation": {
+    "projectName": "850 3rd Ave HPS Investment Partners Project",
+    "location": "850 3rd Ave, New York, NY 10022",
+    "startDate": "2/12/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Redevelopment project including storefront replacement, mechanical systems installation and other building improvements",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/cadcd049-0ae6-46d3-a2ea-e4248db65e8c/details",
+    "additionalFields": {
+      "bidStatus": "BuildingConnected Lead",
+      "contractType": "",
+      "requestType": "Proposal",
+      "projectSize": "",
+      "dateInvited": "2/12/2025",
+      "generalContractor": "Structure Tone (NY)"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "01/31/2025"
+  }
+}

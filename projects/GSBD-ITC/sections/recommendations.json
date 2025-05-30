@@ -2,75 +2,35 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Standardize on Premium Efficiency Motors for Pumps",
-      "rationale": "The project specifications (23 21 23) call for premium efficiency motors for pumps larger than integral size. Standardizing on premium efficiency motors for all pumps would reduce energy consumption, decrease operational costs, and support sustainability goals. Premium efficiency motors typically cost 10-15% more initially but offer 2-8% better efficiency with a typical payback period of 2-3 years.",
-      "estimatedImpact": "Estimated 2-8% reduction in pump energy costs over standard motors, with payback typically within 2-3 years. For a project of this scale with multiple pump systems, this could represent significant long-term operational savings and reduced maintenance costs.",
-      "implementation": "1. Modify procurement specifications to require premium efficiency motors for all pump sizes, including smaller integral pumps. 2. Request equipment vendors provide energy consumption data as part of their submittals. 3. Verify compliance during submittal review phase.",
-      "priority": "Medium"
+      "recommendation": "Standardize Air Handling Unit Manufacturers",
+      "rationale": "The mechanical schedules show multiple air handling units (AHU-1, AHU-2, AHU-3) and energy recovery units (ERU-1, ERU-2) without specified manufacturers. Standardizing on a single manufacturer for these units would increase purchasing leverage, simplify maintenance, and reduce spare parts inventory requirements.",
+      "estimatedImpact": "Potential 5-10% cost savings on equipment purchase through volume discounting, plus ongoing operational savings through simplified maintenance and reduced spare parts inventory.",
+      "implementation": "1. Select preferred manufacturer based on performance specifications and lifecycle cost analysis. 2. Negotiate project-wide pricing agreement with selected manufacturer. 3. Update mechanical specifications to reflect standardized manufacturer selection.",
+      "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Procure Variable Frequency Drives for Major Pumps and Air Handling Units",
-      "rationale": "Multiple schedules show pumps and AHUs that could benefit from variable frequency drives (VFDs). While specifications mention VFDs in some sections, standardizing their use for all major motors would provide significant energy savings. VFDs allow equipment to operate at reduced speeds during partial load conditions, which is the predominant operating state for HVAC systems.",
-      "estimatedImpact": "Potential 20-50% energy savings for pump and fan motors, depending on load profiles. With the project's multiple pumps (CHWP-1, CHWP-2A/B, etc.) and AHUs, this could represent tens of thousands of dollars in energy savings over equipment lifetime.",
-      "implementation": "1. Review mechanical equipment schedules to identify all pumps and air handlers above 5 HP. 2. Modify procurement specifications to require VFDs for these units. 3. Include a requirement for harmonic mitigation where necessary. 4. Verify compatibility with building automation system during submittal review.",
+      "recommendation": "Consolidate Chiller Procurement with Trane",
+      "rationale": "Specifications indicate Trane as the specified manufacturer for CH-1 and CH-2 chillers. A coordinated approach to procure both chillers simultaneously from Trane can yield better pricing and ensure compatibility with building systems and controls.",
+      "estimatedImpact": "Estimated 8-12% savings on combined equipment purchase versus individual procurement. Additional savings through coordinated installation, startup, and commissioning.",
+      "implementation": "1. Package CH-1 and CH-2 as a single procurement item. 2. Negotiate with Trane for project-specific discounts based on combined purchase. 3. Coordinate delivery schedules to optimize installation sequencing.",
       "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Consolidated Procurement of Air Cooled Chillers",
-      "rationale": "The mechanical schedules indicate multiple air-cooled chillers (CH-1, CH-2). Purchasing these units from the same manufacturer as a package can yield substantial procurement savings through volume discounts. Additionally, consolidation simplifies maintenance with common parts inventory and service procedures.",
-      "estimatedImpact": "Potential 5-10% procurement cost savings through volume purchasing. For chillers that may cost $100,000+ each, this represents significant initial savings. Additional 5-10% savings in maintenance costs through standardized parts and service procedures.",
-      "implementation": "1. Modify procurement approach to solicit bids for chillers as a consolidated package. 2. Specify identical or similar models with the same refrigerant type. 3. Request volume discount pricing from vendors. 4. Ensure delivery schedules align with construction timeline.",
-      "priority": "High"
+      "recommendation": "Standardize Fan Coil and Blower Coil Units",
+      "rationale": "The project includes numerous fan coil units (FCUs) and blower coil units (BCAHs) with multiple types and configurations. The dashboard shows no specified BOD (Basis of Design) manufacturer for these units, indicating an opportunity to select a single preferred manufacturer.",
+      "estimatedImpact": "Potential 7-15% cost reduction through bulk purchasing, simplified installation, and standardized controls and connections. Long-term maintenance and replacement costs would also be reduced.",
+      "implementation": "1. Review FCU and BCAH specifications to identify a manufacturer capable of meeting all required configurations. 2. Negotiate volume discount pricing. 3. Standardize connection types and control interfaces for simplified installation.",
+      "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Implement Strategic Glycol Procurement Plan",
-      "rationale": "Specifications show that three glycol feed systems (GMU-1, GMU-2, GMU-3) will be required, each with 40% propylene glycol solution. Procuring glycol in bulk rather than as separate packages for each system would reduce material costs and ensure consistent quality across all systems.",
-      "estimatedImpact": "Approximately 10-15% savings on glycol procurement costs through bulk purchasing. Ensures consistent glycol quality across all systems, potentially extending equipment life by reducing variability in freeze protection and corrosion inhibition.",
-      "implementation": "1. Calculate total glycol volume needed for all systems. 2. Procure as a single bulk order with appropriate corrosion inhibitors. 3. Verify concentration and quality upon delivery. 4. Coordinate storage and distribution to each system during commissioning.",
-      "priority": "Medium"
-    },
-    {
-      "id": 5,
-      "recommendation": "Standardize on a Single Control Valve Manufacturer",
-      "rationale": "The specifications call for numerous control valves of various sizes across multiple systems. Standardizing on a single manufacturer for all control valves would simplify procurement, reduce spare parts inventory requirements, and ensure consistent operation and maintenance procedures.",
-      "estimatedImpact": "Potential 5-8% savings on valve procurement through volume purchasing. Reduced maintenance costs and improved reliability through standardized parts and procedures. Simplified training for operations staff.",
-      "implementation": "1. Review valve schedules to identify all control valve requirements. 2. Select a manufacturer with a complete product line covering all required valve types and sizes. 3. Request volume pricing from selected vendors. 4. Verify valve specifications meet the requirements for each application.",
-      "priority": "Medium"
-    },
-    {
-      "id": 6,
-      "recommendation": "Implement Standardized Vehicle Exhaust Equipment Package",
-      "rationale": "Section 23 35 16.17 10 describes multiple vehicle exhaust fans (EF-01 through EF-08) with identical requirements. Procuring these as a standardized package from a single manufacturer would reduce costs and ensure consistent installation, operation, and maintenance.",
-      "estimatedImpact": "Estimated 8-12% procurement savings through volume purchasing of identical equipment. Simplified installation and maintenance procedures due to standardization. Reduced spare parts inventory requirements.",
-      "implementation": "1. Bundle vehicle exhaust fans in procurement documents as a single package. 2. Specify identical models for all eight units. 3. Request quantity discount pricing. 4. Coordinate delivery schedule to align with construction sequence.",
-      "priority": "Medium"
-    },
-    {
-      "id": 7,
-      "recommendation": "Pre-Purchase Critical Long-Lead HVAC Equipment",
-      "rationale": "Major HVAC components like chillers, boilers, and custom air handling units typically have long lead times (12-20+ weeks) that can impact project schedules. Pre-purchasing these items can expedite delivery, lock in pricing, and reduce project schedule risks.",
-      "estimatedImpact": "Potential schedule acceleration of 2-3 months for critical path items. Avoidance of price escalation, which could save 3-5% on equipment costs. Reduced risk of project delays due to equipment availability issues.",
-      "implementation": "1. Identify critical long-lead items (chillers, boilers, custom AHUs). 2. Develop detailed specifications for early procurement. 3. Issue early procurement packages before completion of full construction documents. 4. Coordinate storage requirements if equipment arrives before installation is possible.",
+      "recommendation": "Implement Early Equipment Procurement Strategy for Long Lead Items",
+      "rationale": "Major mechanical equipment such as air handling units, chillers, and boilers typically have extended lead times (12-20 weeks or more). Early procurement of these items can prevent project delays and potentially secure better pricing before manufacturer price increases.",
+      "estimatedImpact": "Schedule impact: Potential reduction in overall project timeline by 4-8 weeks. Cost impact: Protection against price escalation, estimated at 3-5% annual inflation for HVAC equipment.",
+      "implementation": "1. Identify critical long-lead items (chillers, AHUs, boilers). 2. Create early procurement packages for these items. 3. Secure storage arrangements if necessary. 4. Coordinate delivery schedules with installation timeline.",
       "priority": "High"
-    },
-    {
-      "id": 8,
-      "recommendation": "Coordinate Refrigerant Type Across All HVAC Equipment",
-      "rationale": "Specification section 23 64 10 indicates multiple refrigerant-containing equipment (chillers, heat pumps). Standardizing on a single refrigerant type across all equipment would simplify maintenance, reduce specialized tooling requirements, and decrease the types of refrigerant that must be kept on hand for service.",
-      "estimatedImpact": "Reduced maintenance complexity and costs. Simplified compliance with refrigerant management regulations. Potential for 5-7% savings on long-term refrigerant and service costs through simplified inventory management.",
-      "implementation": "1. Review all refrigerant-containing equipment specifications. 2. Select a single refrigerant type that meets requirements for all applications (e.g., R-410A or R-454B). 3. Modify procurement specifications to require the selected refrigerant. 4. Verify refrigerant selection doesn't negatively impact equipment performance or cost.",
-      "priority": "Medium"
-    },
-    {
-      "id": 9,
-      "recommendation": "Bundle Fan Coil Unit Procurement",
-      "rationale": "The mechanical schedules show numerous fan coil units of varying types and capacities. Procurement efficiency can be gained by bundling these units by type, even across different capacities, from a single manufacturer. This approach will leverage volume discounts while ensuring consistent quality and maintenance procedures.",
-      "estimatedImpact": "Approximately 8-12% savings on fan coil unit procurement costs. Streamlined installation and commissioning through standardized procedures. Simplified maintenance and reduced spare parts inventory requirements.",
-      "implementation": "1. Group fan coil units by type in procurement documents. 2. Solicit bids from manufacturers who can supply the full range of required capacities. 3. Request tiered volume pricing based on total quantity. 4. Coordinate delivery schedule to align with construction sequence.",
-      "priority": "Medium"
     }
   ]
 }

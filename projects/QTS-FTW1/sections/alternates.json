@@ -1,0 +1,1026 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Static Uninterruptible Power Supply (UPS)",
+      "suppliers": [
+        {
+          "manufacturer": "Eaton",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for UPS systems in project specifications"
+        },
+        {
+          "manufacturer": "Liebert/Emerson",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed first in specifications as basis of design manufacturer for UPS systems"
+        },
+        {
+          "manufacturer": "Power Distribution, Inc.",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for UPS systems in project specifications"
+        },
+        {
+          "manufacturer": "Schneider Electric/Square D",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for UPS systems in project specifications"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard UPS manufacturer suitable for data center applications"
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Static Uninterruptible Power Supply",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard UPS manufacturer suitable for data center applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Engine Generators",
+      "suppliers": [
+        {
+          "manufacturer": "Caterpillar",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as basis of design for diesel engine generators in Section 26 32 13"
+        },
+        {
+          "manufacturer": "Cummins Power Generation",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer in Section 26 32 13"
+        },
+        {
+          "manufacturer": "Kohler",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer in Section 26 32 13"
+        },
+        {
+          "manufacturer": "Generac Power Systems",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer in Section 26 32 13"
+        },
+        {
+          "manufacturer": "MTU Onsite Energy",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for engine generators"
+        },
+        {
+          "manufacturer": "Detroit Diesel",
+          "model": "Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for engine generators"
+        }
+      ]
+    },
+    {
+      "componentType": "Transfer Switches",
+      "suppliers": [
+        {
+          "manufacturer": "ASCO",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Russelectric",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Cummins Power Generation",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "GE Zenith Controls",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Kohler Power Systems",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Socomec",
+          "model": "Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for transfer switches"
+        }
+      ]
+    },
+    {
+      "componentType": "Power Distribution Units (PDUs)",
+      "suppliers": [
+        {
+          "manufacturer": "Eaton",
+          "model": "Power Distribution Unit",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with QTS data center specifications"
+        },
+        {
+          "manufacturer": "Liebert/Vertiv",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Liebert Corporation (division of Emerson/Vertiv)",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for PDUs in specifications"
+        },
+        {
+          "manufacturer": "Power Distribution Inc.",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Power Distribution, Inc.",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Square D/Schneider Electric",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Square D; Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "United Power Corporation",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "United Power Corporation",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed in specifications as acceptable manufacturer"
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Power Distribution Unit",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ABB",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Global manufacturer with suitable PDU products for data center applications"
+        },
+        {
+          "manufacturer": "Cyberpower",
+          "model": "PDU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Cyberpower",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Provides compatible PDU solutions for data center applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Switchboards",
+      "suppliers": [
+        {
+          "manufacturer": "Eaton",
+          "model": "Switchboard",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for switchboards."
+        },
+        {
+          "manufacturer": "General Electric",
+          "model": "Switchboard",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "General Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for switchboards."
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Switchboard",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Siemens Industry, Inc.",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for switchboards."
+        },
+        {
+          "manufacturer": "Square D",
+          "model": "Switchboard",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for switchboards."
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Switchboard",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ABB",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Industry standard manufacturer not explicitly listed but compatible with project requirements."
+        },
+        {
+          "manufacturer": "ASCO",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "ASCO",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches which relate to switchboard connections."
+        }
+      ]
+    },
+    {
+      "componentType": "Transformers",
+      "suppliers": [
+        {
+          "manufacturer": "Square D",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for enclosed bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton Corporation",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for enclosed bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Siemens Industry, Inc.",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for enclosed bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "General Electric",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "GE",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for enclosed bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "ABB",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ABB",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested alternative, meets requirements for transformers equipment"
+        },
+        {
+          "manufacturer": "Powell",
+          "model": "Enclosed Bus Assembly",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Powell Industries",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested alternative, meets requirements for transformers equipment"
+        }
+      ]
+    },
+    {
+      "componentType": "CRAH Units",
+      "suppliers": [
+        {
+          "manufacturer": "Data Aire",
+          "model": "CRAH Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with specified electrical requirements; provides units designed for data center applications"
+        },
+        {
+          "manufacturer": "Vertiv (Liebert)",
+          "model": "CRV/CRD Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Referenced in drawings as CRAH-DH units; designed for precision cooling in data centers"
+        },
+        {
+          "manufacturer": "Stulz",
+          "model": "CyberAir Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with data center cooling requirements; offers similar functionality"
+        },
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "InRow Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Can be integrated with electrical systems shown in drawings; suitable for data center row-based cooling"
+        }
+      ]
+    },
+    {
+      "componentType": "Enclosed Bus Assemblies",
+      "suppliers": [
+        {
+          "manufacturer": "Siemens Industry, Inc.",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Siemens Industry, Inc., Energy Management Division",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with existing electrical distribution system. Specified for 3PH, 3W, low-impedance bus with single-bolt joints."
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with existing electrical distribution system. Supports required fault current ratings and required expansion fittings."
+        },
+        {
+          "manufacturer": "Square D",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Square D; by Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with existing electrical distribution system. Supports required fault current ratings and expansion capabilities."
+        },
+        {
+          "manufacturer": "General Electric Company",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "General Electric Company",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with existing electrical distribution system. Supports required fault ratings per project specs."
+        }
+      ]
+    },
+    {
+      "componentType": "Modules",
+      "suppliers": [
+        {
+          "manufacturer": "Square D",
+          "model": "Static Transfer Switch",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Schneider Electric",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as manufacturer for STS in the electrical one-line diagrams"
+        },
+        {
+          "manufacturer": "ASCO",
+          "model": "Static Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 36 00"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as manufacturer for bus assemblies in Section 26 25 00"
+        },
+        {
+          "manufacturer": "General Electric Company",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 25 00"
+        },
+        {
+          "manufacturer": "Siemens Industry",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 25 00"
+        },
+        {
+          "manufacturer": "Liebert Corporation",
+          "model": "Power Distribution Units",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Emerson",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as manufacturer for PDUs in Section 26 26 00"
+        },
+        {
+          "manufacturer": "Controlled Power Company",
+          "model": "Power Distribution Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 26 00"
+        },
+        {
+          "manufacturer": "Power Distribution, Inc.",
+          "model": "Power Distribution Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternative manufacturer in Section 26 26 00"
+        },
+        {
+          "manufacturer": "Vertiv",
+          "model": "Module Equipment",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with most data center infrastructure. Strong integration capabilities with monitoring systems."
+        },
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "Module Equipment",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Strong compatibility with existing Square D equipment. Comprehensive module offerings."
+        }
+      ]
+    },
+    {
+      "componentType": "Battery Wrap Static Transfer Switches",
+      "suppliers": [
+        {
+          "manufacturer": "Cyberpower",
+          "model": "Battery Wrap Static Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Cyberpower",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Provides battery wrap static transfer switching capability compatible with project requirements"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "BWSTS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Eaton",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Identified in drawings as XX-BWSTS model designations. Compatible with project power distribution requirements."
+        },
+        {
+          "manufacturer": "Vertiv (formerly Emerson)",
+          "model": "Battery Wrap STS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Vertiv",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard equipment compatible with UPS systems and power distribution requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Critical Output Distribution",
+      "suppliers": [
+        {
+          "manufacturer": "ASCO",
+          "model": "Static Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Russelectric",
+          "model": "Static Transfer Switch",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for transfer switches"
+        },
+        {
+          "manufacturer": "Eaton",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed manufacturer for enclosed bus assemblies"
+        },
+        {
+          "manufacturer": "General Electric",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed manufacturer for enclosed bus assemblies"
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed manufacturer for enclosed bus assemblies"
+        },
+        {
+          "manufacturer": "Square D",
+          "model": "Enclosed Bus Assemblies",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed manufacturer for enclosed bus assemblies"
+        },
+        {
+          "manufacturer": "Liebert/Vertiv",
+          "model": "Static UPS",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Shown on electrical one-line diagram as equipment manufacturer"
+        },
+        {
+          "manufacturer": "APC/Schneider Electric",
+          "model": "Static UPS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with specified requirements for UPS systems"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "Static UPS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible with specified requirements for UPS systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Series e-1510",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Primary choice for HVAC pump systems"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "Design Envelope",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with existing infrastructure, energy efficient"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TP/TPE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Good efficiency ratings, may require minor piping modifications"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "FI Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Suitable alternative, widely available"
+        },
+        {
+          "manufacturer": "Wilo",
+          "model": "IL Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Energy efficient, growing market presence"
+        }
+      ]
+    }
+  ]
+}

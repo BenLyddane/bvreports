@@ -57,3 +57,288 @@ Project Link:
 https://app.buildvision.io/admin/organizations/373e34b7-2026-4706-8184-e7cab765dba7/package-projects/d9ccf49d-0eba-4852-8c17-c04b44d3fe4a/details
 
 
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Hensel Phelps
+package projects
+GBSD Integrated Training Center (ITC)
+
+    packages
+
+MH
+GBSD Integrated Training Center (ITC)
+--
+Organization Logo
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Action
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AHU-1	No BOD Listed	Indoor Central-Station Air-Handling Units	Indoor Central-Station Air-Handling Unit	
+AnnotationAnnotationAnnotationAnnotation
+	
+AHU-2	No BOD Listed	Indoor Central-Station Air-Handling Units	Indoor Central-Station Air-Handling Unit	
+AnnotationAnnotationAnnotationAnnotation
+	
+AHU-3	No BOD Listed	Indoor Central-Station Air-Handling Units	Indoor Central-Station Air-Handling Unit	
+AnnotationAnnotationAnnotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+BCAH-100A	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-104	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-104A	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-105	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-111B	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-114B	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-124	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-125	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-138	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-147	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-170	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-177	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-192B	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+BCAH-210	No BOD Listed	Horizontal Fan Coil Units	Horizontal Blower Coil	
+Annotation
+	
+FCU-104, FCU-113, FCU-202	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-112, FCU-146, FCU-154, FCU-163, FCU-169, FCU-178, FCU-211, FCU-228, FCU-229, FCU-231, FCU-232, FCU-254, FCU-256, FCU-277	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-117	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-126, FCU-127, FCU-158, FCU-132, FCU-155, FCU-163, FCU-164, FCU-165, FCU-204, FCU-220, FCU-241, FCU-251, FCU-252, FCU-255, FCU-264, FCU-265, FCU-266, FCU-267, FCU-268, FCU-269, FCU-270	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-137, FCU-138, FCU-153	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-152A, FCU-152B, FCU-227, FCU-233	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-156, FCU-158	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-170, FCU-174, FCU-207, FCU-208, FCU-209, FCU-167, FCU-216, FCU-222, FCU-223, FCU-224, FCU-234, FCU-237, FCU-240, FCU-242, FCU-243, FCU-244, FCU-261, FCU-279	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-171, FCU-187, FCU-276	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-218	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-226	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+FCU-235	No BOD Listed	Fan Coil Units	Horizontal Concealed Fan Coil Unit	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AWHP-1	Trane	Air-Cooled, Modular Water Chillers	AMX	
+Annotation
+	
+CH-1	Trane	Air-Cooled, Modular Water Chillers	AMC	
+Annotation
+	
+CH-2	Trane	Air-Cooled, Modular Water Chillers	AMC	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CHWP-1	No BOD Listed	In-Line Centrifugal Hydronic Pumps	In-Line Centrifugal Hydronic Pump	
+Annotation
+	
+CHWP-2A	No BOD Listed	In-Line Centrifugal Hydronic Pumps	In-Line Centrifugal Hydronic Pump	
+Annotation
+	
+CHWP-2B	No BOD Listed	In-Line Centrifugal Hydronic Pumps	In-Line Centrifugal Hydronic Pump	
+Annotation
+	
+CHWP-3	No BOD Listed	In-Line Centrifugal Hydronic Pumps	In-Line Centrifugal Hydronic Pump	
+Annotation
+	
+CHWP-4A	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+CHWP-4B	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+CHWP-5A	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+CHWP-5B	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+HWP-02	No BOD Listed	In-Line Centrifugal Hydronic Pumps	In-Line Centrifugal Hydronic Pump	
+Annotation
+	
+HWP-03	No BOD Listed	In-Line Centrifugal Hydronic Pumps	In-Line Centrifugal Hydronic Pump	
+Annotation
+	
+HWP-04	No BOD Listed	In-Line Centrifugal Hydronic Pumps	In-Line Centrifugal Hydronic Pump	
+Annotation
+	
+HWP-1A	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+HWP-1B	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+ERU-1	No BOD Listed	Energy Recovery Units	Fixed Plate ERU	
+Annotation
+	
+ERU-2	No BOD Listed	Energy Recovery Units	Fixed Plate ERU	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+BLR-1	No BOD Listed	Condensing Boilers	Natural Gas Condensing Boiler	
+Annotation
+	
+BLR-2	No BOD Listed	Condensing Boilers	Natural Gas Condensing Boiler	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HX-1	No BOD Listed	Plate-Type, Liquid-to-Liquid Heat Exchangers	Plate Frame HX	
+Annotation
+	
+HX-2	No BOD Listed	Plate-Type, Liquid-to-Liquid Heat Exchangers	Plate Frame HX	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HUM-01	No BOD Listed	Self-Contained Steam Humidifiers	Electrode Steam Humidifier	
+Annotation
+	
+HUM-02	No BOD Listed	Self-Contained Steam Humidifiers	Electrode Steam Humidifier	
+Annotation
+	
+

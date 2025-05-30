@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Consider CaptiveAire as an Alternative Supplier for the RTU",
+      "rationale": "The current Basis of Design (BOD) specifies a Valent VXE-112-41D-5A-1-D2 model, but there appears to be a discrepancy with the electric heating capacity. As noted in the dashboard conversation, Ascent (CaptiveAire) was being considered as an alternative. The BOD has an 80 degree LAT in winter with the wheel off and electric heating fully on, which is typically sufficient for ventilation applications. Evaluating CaptiveAire's offering could potentially provide better value or resolve the heating capacity concerns.",
+      "estimatedImpact": "Potential cost savings of 5-10% on equipment purchase price while possibly obtaining a solution that better matches the project requirements. Could also reduce operational costs if the alternative unit offers better energy efficiency ratings.",
+      "implementation": "1. Request a formal quote from CaptiveAire for an equivalent unit\n2. Compare specifications, particularly the electric heating capacity and LAT performance\n3. Evaluate warranty terms, service network, and parts availability\n4. Calculate total cost of ownership including energy consumption projections\n5. Make final selection based on comprehensive evaluation",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Evaluate A2L Refrigerant Compliance Requirements",
+      "rationale": "The specified Valent unit uses R-454B refrigerant, which is an A2L (mildly flammable) refrigerant. Page 6 of the specifications indicates specific installation requirements per UL 60335-2-40, including minimum circulation airflow of 577 CFM and minimum conditioned room area of 319 ft². The unit also includes leak detection sensors. Ensuring compliance with local codes for A2L refrigerants is critical for safety and regulatory approval.",
+      "estimatedImpact": "Prevention of potential project delays, permit rejections, or costly retrofits if installation doesn't meet code requirements for A2L refrigerants. Could also impact insurance requirements and premiums.",
+      "implementation": "1. Verify local building code requirements specific to A2L refrigerants\n2. Confirm installation location meets the minimum room area of 319 ft²\n3. Ensure ventilation design maintains minimum 577 CFM circulation airflow\n4. Review refrigerant monitoring and emergency ventilation plans\n5. Consult with local authorities having jurisdiction (AHJ) if clarification is needed",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Consider Extended Compressor Warranty Options",
+      "rationale": "The unit comes with a 5.5-year compressor warranty (4 years extended beyond the standard 18-month unit warranty). Given that the compressor is typically the most expensive component to replace and that the unit uses newer A2L refrigerant technology, evaluating additional extended warranty options could provide long-term value and protection against potential early failures.",
+      "estimatedImpact": "Protection against unexpected repair costs that could range from $3,000-$8,000 for compressor replacement. Reduced financial risk and more predictable maintenance budgeting over the equipment lifecycle.",
+      "implementation": "1. Contact Valent to inquire about extended warranty options beyond the included 5.5 years\n2. Calculate the cost-benefit ratio of extended warranty versus potential replacement costs\n3. Review warranty terms regarding coverage limitations and labor inclusion\n4. Consider third-party warranty providers if manufacturer options are limited\n5. Factor warranty costs into the total cost of ownership analysis",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Optimize BACnet Integration Configuration",
+      "rationale": "The specifications indicate the unit comes with BACnet MSTP protocol for building management system integration. The extensive points list (pages 17-19) shows numerous monitoring and control capabilities. Properly configuring this integration during procurement and installation will ensure optimal unit operation and monitoring capabilities.",
+      "estimatedImpact": "Improved system monitoring and control, potentially reducing energy consumption by 5-10% through optimized operation. Faster response to operational issues and better preventative maintenance through real-time data analysis.",
+      "implementation": "1. Confirm compatibility between the building's BMS and the unit's BACnet MSTP implementation\n2. Identify critical monitoring and control points from the available list that are most relevant for this application\n3. Include specific BACnet addressing and configuration requirements in the purchase specification\n4. Request factory pre-configuration of BACnet parameters where possible\n5. Allocate resources for proper commissioning of the BMS integration",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Secure Spare Filter Stock with Initial Purchase",
+      "rationale": "The unit requires both MERV 8 filters (for return air and outdoor air) and MERV 13 filters (for supply air). The specifications on page 2 indicate specific filter sizes (2\" MERV 13, 2-20x20x2, 2-20x24x2 for supply; 2\" MERV 8, 3-16x25x2 for both return and outdoor air). Purchasing a stock of replacement filters with the initial equipment order can reduce future procurement efforts and ensure proper maintenance.",
+      "estimatedImpact": "Cost savings of approximately 10-15% on filters through bulk purchasing. Elimination of potential downtime due to filter unavailability. Ensures maintenance staff has immediate access to correct filter sizes and ratings.",
+      "implementation": "1. Include a 1-year supply of replacement filters in the initial purchase order\n2. Verify exact filter sizes and quantities needed for each filter bank\n3. Establish a storage location and inventory tracking system for the filters\n4. Create a filter replacement schedule aligned with manufacturer recommendations\n5. Develop a reordering process to maintain adequate stock levels",
+      "priority": "Low"
+    }
+  ]
+}

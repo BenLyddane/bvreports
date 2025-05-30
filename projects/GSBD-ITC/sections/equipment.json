@@ -2,302 +2,846 @@
   "equipmentByType": [
     {
       "equipmentType": "Air Handling Units",
-      "notes": "Performance based on design altitude of 6,115 ft. Units include filters, ductwork, coils, and vibration isolators.",
+      "notes": "External static pressure includes filters, ductwork, and coils not in AHU casing. Provide unit capable of use with variable speed drive. Performance based on design altitude of 6,115 ft. Provide 6 inch equipment pad.",
       "items": [
         {
           "equipmentTag": "AHU-1",
-          "manufacturer": "Trane",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Dedicated Outdoor Air System",
           "specifications": {
-            "service": "Dedicated Outdoor Air System",
             "airflow": "6,355 CFM",
-            "minimumOutdoorAir": "6,355 CFM",
-            "externalStaticPressure": "0.8 in. w.g.",
-            "fanQuantity": 1,
-            "fanRPM": 1776,
-            "brakePower": "5.0 Hp",
-            "motorPower": "7.5 Hp",
-            "returnAirflow": "5,530 CFM",
-            "returnExternalStaticPressure": "0.9 in. w.g.",
-            "returnFanQuantity": 1,
-            "returnFanRPM": 1668,
-            "returnFanBrakePower": "3.4 Hp",
-            "returnFanMotorPower": "5.0 Hp",
-            "preFilter": "Pleated Media MERV 8",
-            "finalFilter": "Cartridge MERV 13",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "minOutdoorAir": "6,355 CFM",
+            "externalStaticPressure": "0.8 in W.G.",
+            "supplyFan": {
+              "quantity": 1,
+              "rpm": 1776,
+              "brakePower": "5.0 Hp",
+              "motorPower": "7.5 Hp"
+            },
+            "returnFan": {
+              "airflow": "5,530 CFM",
+              "externalStaticPressure": "0.9 in W.G.",
+              "quantity": 1,
+              "rpm": 1668,
+              "brakePower": "3.4 Hp",
+              "motorPower": "5.0 Hp"
+            },
+            "preFilter": {
+              "type": "Pleated Media",
+              "merv": 8
+            },
+            "finalFilter": {
+              "type": "Cartridge",
+              "merv": 13
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         },
         {
           "equipmentTag": "AHU-2",
-          "manufacturer": "Trane",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Dedicated Outdoor Air System",
           "specifications": {
-            "service": "Dedicated Outdoor Air System",
             "airflow": "4,830 CFM",
-            "minimumOutdoorAir": "4,830 CFM",
-            "externalStaticPressure": "0.9 in. w.g.",
-            "fanQuantity": 1,
-            "fanRPM": 1851,
-            "brakePower": "4.4 Hp",
-            "motorPower": "5.0 Hp",
-            "returnAirflow": "4,320 CFM",
-            "returnExternalStaticPressure": "0.8 in. w.g.",
-            "returnFanQuantity": 1,
-            "returnFanRPM": 1684,
-            "returnFanBrakePower": "2.5 Hp",
-            "returnFanMotorPower": "3.0 Hp",
-            "preFilter": "Pleated Media MERV 8",
-            "finalFilter": "Cartridge MERV 13",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "minOutdoorAir": "4,830 CFM",
+            "externalStaticPressure": "0.9 in W.G.",
+            "supplyFan": {
+              "quantity": 1,
+              "rpm": 1851,
+              "brakePower": "4.4 Hp",
+              "motorPower": "5.0 Hp"
+            },
+            "returnFan": {
+              "airflow": "4,320 CFM",
+              "externalStaticPressure": "0.8 in W.G.",
+              "quantity": 1,
+              "rpm": 1684,
+              "brakePower": "2.5 Hp",
+              "motorPower": "3.0 Hp"
+            },
+            "preFilter": {
+              "type": "Pleated Media",
+              "merv": 8
+            },
+            "finalFilter": {
+              "type": "Cartridge",
+              "merv": 13
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         },
         {
           "equipmentTag": "AHU-3",
-          "manufacturer": "Trane",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "High Bay Makeup Air",
           "specifications": {
-            "service": "High Bay Makeup Air",
             "airflow": "10,300 CFM",
-            "minimumOutdoorAir": "10,000 CFM",
-            "externalStaticPressure": "0.7 in. w.g.",
-            "fanQuantity": 1,
-            "fanRPM": 1701,
-            "brakePower": "7.5 Hp",
-            "motorPower": "10.0 Hp",
-            "returnAirflow": "10,500 CFM",
-            "returnExternalStaticPressure": "0.8 in. w.g.",
-            "returnFanQuantity": 1,
-            "returnFanRPM": 1715,
-            "returnFanBrakePower": "7.2 Hp",
-            "returnFanMotorPower": "7.5 Hp",
-            "preFilter": "Pleated Media MERV 8",
-            "finalFilter": "Pleated Media MERV 8",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "minOutdoorAir": "10,000 CFM",
+            "externalStaticPressure": "0.7 in W.G.",
+            "supplyFan": {
+              "quantity": 1,
+              "rpm": 1701,
+              "brakePower": "7.5 Hp",
+              "motorPower": "10.0 Hp"
+            },
+            "returnFan": {
+              "airflow": "10,500 CFM",
+              "externalStaticPressure": "0.8 in W.G.",
+              "quantity": 1,
+              "rpm": 1715,
+              "brakePower": "7.2 Hp",
+              "motorPower": "7.5 Hp"
+            },
+            "preFilter": {
+              "type": "Pleated Media",
+              "merv": 8
+            },
+            "finalFilter": {
+              "type": "Pleated Media",
+              "merv": 8
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Modular Air-Cooled Chillers",
+      "notes": "Capacity based on 40% Propylene Glycol solution. Performance based on design altitude at 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "Trane",
+          "model": "Modular Scroll Chiller",
+          "specifications": {
+            "ambientTemperature": "95 deg. F",
+            "refrigerant": "R-454b",
+            "EER": "10.2",
+            "moduleQuantity": 4,
+            "evaporator": {
+              "waterFlowrate": "300.4 GPM",
+              "supplyTemperature": "42 deg. F",
+              "returnTemperature": "57 deg. F",
+              "maxPressureDrop": "8.3 ft W.G."
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3,
+              "MOCP": 400
+            }
+          }
+        },
+        {
+          "equipmentTag": "CH-2",
+          "manufacturer": "Trane",
+          "model": "Modular Scroll Chiller",
+          "specifications": {
+            "ambientTemperature": "95 deg. F",
+            "refrigerant": "R-454b",
+            "EER": "10.2",
+            "moduleQuantity": 4,
+            "evaporator": {
+              "waterFlowrate": "409.4 GPM",
+              "supplyTemperature": "48 deg. F",
+              "returnTemperature": "60 deg. F",
+              "maxPressureDrop": "25.0 ft W.G."
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3,
+              "MOCP": 450
+            }
+          }
+        },
+        {
+          "equipmentTag": "AWHP-1",
+          "manufacturer": "Trane",
+          "model": "Modular Heat Pump Scroll Chiller",
+          "specifications": {
+            "ambientTemperature": "95 deg. F",
+            "refrigerant": "R-454b",
+            "EER": "10.2",
+            "moduleQuantity": 4,
+            "evaporator": {
+              "waterFlowrate": "92.3 GPM",
+              "supplyTemperature": "42 deg. F",
+              "returnTemperature": "57 deg. F",
+              "maxPressureDrop": "6.0 ft W.G."
+            },
+            "condenser": {
+              "waterFlowrate": "60.1 GPM",
+              "supplyTemperature": "110 deg. F",
+              "returnTemperature": "90 deg. F",
+              "maxPressureDrop": "4.3 ft W.G."
+            },
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3,
+              "MOCP": 200
+            }
           }
         }
       ]
     },
     {
       "equipmentType": "Energy Recovery Wheels",
-      "notes": "Performance based on design altitude of 6,115 ft. Wheels employ supply and exhaust airstreams through energy recovery device.",
+      "notes": "Performance based on design altitude of 6,115 ft. Motors shall be powered through single power point connection for unit.",
       "items": [
         {
           "equipmentTag": "EW-1",
-          "manufacturer": "",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Total Energy Wheel",
           "specifications": {
-            "type": "Total Energy Wheel",
             "service": "AHU-1",
             "supplyAirflow": "6,355 CFM",
-            "supplyMaxAPD": "0.9 in. w.g.",
-            "supplyEATDB": "87.3 °F",
-            "supplyEATWB": "57.6 °F",
-            "supplyLATDB": "80.3 °F",
-            "supplyLATWB": "62.2 °F",
-            "supplyWinterEATDB": "3.1 °F",
-            "supplyWinterEATWB": "2.0 °F",
-            "supplyWinterLATDB": "48.8 °F",
-            "supplyWinterLATWB": "38.1 °F",
-            "exhaustAirflow": "5,530 CFM",
-            "exhaustMaxAPD": "0.8 in. w.g.",
-            "exhaustSummerEATDB": "78.0 °F",
-            "exhaustSummerEATWB": "64.0 °F",
-            "exhaustSummerLATDB": "68.0 °F",
-            "exhaustSummerLATWB": "50.0 °F",
-            "exhaustWinterEATDB": "83.7 °F",
-            "exhaustWinterEATWB": "76.0 °F",
-            "minSensibleEfficiency": "71.5%",
-            "minTotalEfficiency": "76.0%",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "maxAPD": "0.9 in W.G.",
+            "minSensibleEfficency": "83.7%",
+            "minTotalEfficency": "76.0%",
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         },
         {
           "equipmentTag": "EW-2",
-          "manufacturer": "",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Total Energy Wheel",
           "specifications": {
-            "type": "Total Energy Wheel",
             "service": "AHU-2",
             "supplyAirflow": "4,830 CFM",
-            "supplyMaxAPD": "0.8 in. w.g.",
-            "supplyEATDB": "87.3 °F",
-            "supplyEATWB": "57.6 °F",
-            "supplyLATDB": "80.0 °F",
-            "supplyLATWB": "62.3 °F",
-            "supplyWinterEATDB": "3.1 °F",
-            "supplyWinterEATWB": "2.0 °F",
-            "supplyWinterLATDB": "50.2 °F",
-            "supplyWinterLATWB": "39.0 °F",
-            "exhaustAirflow": "4,320 CFM",
-            "exhaustMaxAPD": "0.8 in. w.g.",
-            "exhaustSummerEATDB": "78.0 °F",
-            "exhaustSummerEATWB": "64.0 °F",
-            "exhaustSummerLATDB": "68.0 °F",
-            "exhaustSummerLATWB": "50.0 °F",
-            "exhaustWinterEATDB": "84.2 °F",
-            "exhaustWinterEATWB": "76.6 °F",
-            "minSensibleEfficiency": "72.9%",
-            "minTotalEfficiency": "76.6%",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "maxAPD": "0.8 in W.G.",
+            "minSensibleEfficency": "84.2%",
+            "minTotalEfficency": "76.6%",
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         },
         {
           "equipmentTag": "EW-3",
-          "manufacturer": "",
-          "model": "",
+          "manufacturer": "No BOD Listed",
+          "model": "Total Energy Wheel",
           "specifications": {
-            "type": "Total Energy Wheel",
             "service": "AHU-3",
             "supplyAirflow": "10,000 CFM",
-            "supplyMaxAPD": "0.9 in. w.g.",
-            "supplyEATDB": "87.3 °F",
-            "supplyEATWB": "57.6 °F",
-            "supplyLATDB": "94.6 °F",
-            "supplyLATWB": "62.0 °F",
-            "supplyWinterEATDB": "3.1 °F",
-            "supplyWinterEATWB": "2.0 °F",
-            "supplyWinterLATDB": "43.1 °F",
-            "supplyWinterLATWB": "27.7 °F",
-            "exhaustAirflow": "10,500 CFM",
-            "exhaustMaxAPD": "0.9 in. w.g.",
-            "exhaustSummerEATDB": "97.3 °F",
-            "exhaustSummerEATWB": "63.7 °F",
-            "exhaustSummerLATDB": "60.0 °F",
-            "exhaustSummerLATWB": "37.5 °F",
-            "exhaustWinterEATDB": "68.4 °F",
-            "exhaustWinterEATWB": "68.4 °F",
-            "minSensibleEfficiency": "68.4%",
-            "minTotalEfficiency": "68.4%",
-            "voltage": 460,
-            "phase": 3,
-            "Hz": 60
+            "maxAPD": "0.9 in W.G.",
+            "minSensibleEfficency": "68.4%",
+            "minTotalEfficency": "68.4%",
+            "electrical": {
+              "voltage": 460,
+              "hz": 60,
+              "phase": 3
+            }
           }
         }
       ]
     },
     {
       "equipmentType": "Water Cooling Coils",
-      "notes": "Performance based on design altitude of 6,115 ft. Capacity based on 40% propylene glycol.",
+      "notes": "ACV assembly includes automatic control valve, line size balancing valve, strainer, 2 isolation valves, and 6 ACV size elbow. Performance based on design altitude of 6,115 ft.",
       "items": [
         {
           "equipmentTag": "WCC-1",
-          "manufacturer": "",
+          "manufacturer": "No BOD Listed",
           "model": "",
           "specifications": {
             "service": "AHU-1",
             "designAirflow": "6,355 CFM",
-            "minimumCoilArea": "20.2 ft²",
-            "maximumFaceVelocity": "315 fpm",
-            "maximumAPD": "0.16 in. w.g.",
-            "minimumRows": 6,
-            "EATDB": "80.3 °F",
-            "EATWB": "62.2 °F",
-            "LATDB": "54.0 °F",
-            "LATWB": "53.7 °F",
-            "minimumTotalCoolingCapacity": "149.4 MBh",
-            "minimumSensibleCoolingCapacity": "146.7 MBh",
+            "minCoilArea": "20.2 ft²",
+            "maxFaceVelocity": "315 fpm",
+            "maxAPD": "0.16 in W.G.",
+            "minRows": 6,
             "waterFlowrate": "18.6 GPM",
-            "EWT": "44.0 °F",
-            "LWT": "60.0 °F",
-            "ACVSize": "1 inch",
-            "Cv": 14,
-            "coolingCoilACVAssemblySize": "2 inch",
-            "maxPressureDropCoil": "0.8 ft",
-            "maxPressureDropACV": "4.3 ft",
-            "maxPressureDropTotal": "5.1 ft"
+            "enteringWaterTemp": "44.0°F",
+            "leavingWaterTemp": "60.0°F",
+            "acvSize": "1 inch",
+            "cv": 14,
+            "acvAssemblySize": "2 inch"
           }
         },
         {
           "equipmentTag": "WCC-2",
-          "manufacturer": "",
+          "manufacturer": "No BOD Listed",
           "model": "",
           "specifications": {
             "service": "AHU-2",
             "designAirflow": "4,830 CFM",
-            "minimumCoilArea": "12.9 ft²",
-            "maximumFaceVelocity": "374 fpm",
-            "maximumAPD": "0.27 in. w.g.",
-            "minimumRows": 6,
-            "EATDB": "80.0 °F",
-            "EATWB": "62.3 °F",
-            "LATDB": "54.0 °F",
-            "LATWB": "53.8 °F",
-            "minimumTotalCoolingCapacity": "117.7 MBh",
-            "minimumSensibleCoolingCapacity": "117.0 MBh",
+            "minCoilArea": "12.9 ft²",
+            "maxFaceVelocity": "374 fpm",
+            "maxAPD": "0.27 in W.G.",
+            "minRows": 6,
             "waterFlowrate": "14.7 GPM",
-            "EWT": "44.0 °F",
-            "LWT": "60.0 °F",
-            "ACVSize": "1 inch",
-            "Cv": 14,
-            "coolingCoilACVAssemblySize": "2 inch",
-            "maxPressureDropCoil": "0.8 ft",
-            "maxPressureDropACV": "2.7 ft",
-            "maxPressureDropTotal": "3.5 ft"
+            "enteringWaterTemp": "44.0°F",
+            "leavingWaterTemp": "60.0°F",
+            "acvSize": "1 inch",
+            "cv": 14,
+            "acvAssemblySize": "2 inch"
           }
         }
       ]
     },
     {
       "equipmentType": "Heating Water Coils",
-      "notes": "Performance based on design altitude of 6,115 ft. Capacity based on 40% propylene glycol.",
+      "notes": "ACV assembly includes automatic control valve, line size balancing valve, strainer, 2 isolation valves, and 6 ACV size elbow. Capacity based on 40% propylene glycol. Performance based on design altitude of 6,115 ft.",
       "items": [
         {
           "equipmentTag": "HC-01",
-          "manufacturer": "",
+          "manufacturer": "No BOD Listed",
           "model": "",
           "specifications": {
             "service": "AHU-1 Preheat",
             "designAirflow": "6,355 CFM",
-            "minimumCoilArea": "21.0 ft²",
-            "maximumFaceVelocity": "303 fpm",
-            "maximumAPD": "0.05 in. w.g.",
-            "EAT": "3 °F",
-            "LAT": "55 °F",
+            "minCoilArea": "21.0 ft²",
+            "maxFaceVelocity": "303 fpm",
+            "maxAPD": "0.05 in W.G.",
+            "enteringAirTemp": "3°F",
+            "leavingAirTemp": "55°F",
             "heatingCapacity": "283.9 MBh",
             "waterFlowrate": "26.2 GPM",
-            "EWT": "110 °F",
-            "LWT": "86 °F",
-            "ACVSize": "1 1/2 inch",
-            "Cv": 28,
-            "ACVAssemblySize": "2 inch",
-            "maxPressureDropCoil": "1.7 ft",
-            "maxPressureDropACV": "2.7 ft",
-            "maxPressureDropTotal": "4.4 ft"
+            "enteringWaterTemp": "110°F",
+            "leavingWaterTemp": "86°F",
+            "acvSize": "1 1/2 inch",
+            "cv": 28,
+            "acvAssemblySize": "2 inch"
           }
         },
         {
           "equipmentTag": "HC-02",
-          "manufacturer": "",
+          "manufacturer": "No BOD Listed",
           "model": "",
           "specifications": {
             "service": "AHU-2 Preheat",
             "designAirflow": "4,830 CFM",
-            "minimumCoilArea": "12.9 ft²",
-            "maximumFaceVelocity": "374 fpm",
-            "maximumAPD": "0.15 in. w.g.",
-            "EAT": "3 °F",
-            "LAT": "55 °F",
+            "minCoilArea": "12.9 ft²",
+            "maxFaceVelocity": "374 fpm",
+            "maxAPD": "0.15 in W.G.",
+            "enteringAirTemp": "3°F",
+            "leavingAirTemp": "55°F",
             "heatingCapacity": "217.3 MBh",
             "waterFlowrate": "20.0 GPM",
-            "EWT": "110 °F",
-            "LWT": "86 °F",
-            "ACVSize": "1 1/4 inch",
-            "Cv": 20,
-            "ACVAssemblySize": "2 inch",
-            "maxPressureDropCoil": "0.2 ft",
-            "maxPressureDropACV": "2.3 ft",
-            "maxPressureDropTotal": "2.5 ft"
+            "enteringWaterTemp": "110°F",
+            "leavingWaterTemp": "86°F",
+            "acvSize": "1 1/4 inch",
+            "cv": 20,
+            "acvAssemblySize": "2 inch"
+          }
+        },
+        {
+          "equipmentTag": "HC-03",
+          "manufacturer": "No BOD Listed",
+          "model": "",
+          "specifications": {
+            "service": "AHU-1 Reheat",
+            "designAirflow": "6,355 CFM",
+            "minCoilArea": "20.6 ft²",
+            "maxFaceVelocity": "308 fpm",
+            "maxAPD": "0.05 in W.G.",
+            "enteringAirTemp": "54°F",
+            "leavingAirTemp": "73°F",
+            "heatingCapacity": "103.8 MBh",
+            "waterFlowrate": "9.6 GPM",
+            "enteringWaterTemp": "110°F",
+            "leavingWaterTemp": "86°F",
+            "acvSize": "3/4 inch",
+            "cv": 7.5,
+            "acvAssemblySize": "1 1/4 inch"
+          }
+        },
+        {
+          "equipmentTag": "HC-04",
+          "manufacturer": "No BOD Listed",
+          "model": "",
+          "specifications": {
+            "service": "AHU-2 Reheat",
+            "designAirflow": "4,830 CFM",
+            "minCoilArea": "13.6 ft²",
+            "maxFaceVelocity": "354 fpm",
+            "maxAPD": "0.08 in W.G.",
+            "enteringAirTemp": "54°F",
+            "leavingAirTemp": "73°F",
+            "heatingCapacity": "79.4 MBh",
+            "waterFlowrate": "7.3 GPM",
+            "enteringWaterTemp": "110°F",
+            "leavingWaterTemp": "86°F",
+            "acvSize": "3/4 inch",
+            "cv": 5.5,
+            "acvAssemblySize": "1 1/4 inch"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Gas Heating Coil",
+      "notes": "Provide minimum burner turndown ratio of 10:1. Performance based on design altitude of 6,115 ft. Gas input based on 1,000 BTU/FT³.",
+      "items": [
+        {
+          "equipmentTag": "HC-G-01",
+          "manufacturer": "No BOD Listed",
+          "model": "",
+          "specifications": {
+            "service": "AHU-3",
+            "designAirflow": "7,875 CFM",
+            "maxAPD": "0.61 in W.G.",
+            "enteringAirTemp": "3.1°F",
+            "leavingAirTemp": "70.6°F",
+            "gasInput": "731 CFH",
+            "gasCapacityOutput": "584.8 MBH",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Provide lockable, fusible disconnect. External static pressure includes filter and ductwork not in casing. ACV assembly includes automatic control valve, line size balancing valve, strainer, 2 isolation valves, and 6 ACV size elbows. Provide factory programmed ECM fan motor. Performance based on design altitude of 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "FCU-104, FCU-113, FCU-202",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 15,
+            "airflow": "600 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.3 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-112, FCU-146, FCU-154, FCU-163, FCU-169, FCU-178, FCU-211, FCU-228, FCU-229, FCU-231, FCU-232, FCU-254, FCU-256, FCU-277",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 4,
+            "airflow": "550 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-117",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 3,
+            "airflow": "1050 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.3 Hp",
+            "motorPower": "0.5 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-126, FCU-127, FCU-158, FCU-132, FCU-155, FCU-163, FCU-164, FCU-165, FCU-204, FCU-220, FCU-241, FCU-251, FCU-252, FCU-255, FCU-264, FCU-265, FCU-266, FCU-267, FCU-268, FCU-269, FCU-270",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 2,
+            "airflow": "300 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-137, FCU-138, FCU-153",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 9,
+            "airflow": "350 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-152A, FCU-152B, FCU-227, FCU-233",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 12,
+            "airflow": "550 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-156, FCU-158",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 8,
+            "airflow": "600 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.3 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-170, FCU-174, FCU-207, FCU-208, FCU-209, FCU-167, FCU-216, FCU-222, FCU-223, FCU-224, FCU-234, FCU-237, FCU-240, FCU-242, FCU-243, FCU-244, FCU-261, FCU-279",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 1,
+            "airflow": "200 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.1 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-171, FCU-187, FCU-276",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 7,
+            "airflow": "350 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-218",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 6,
+            "airflow": "500 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-226",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 11,
+            "airflow": "350 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.1 Hp",
+            "motorPower": "0.2 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "FCU-235",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Concealed Fan Coil Unit",
+          "specifications": {
+            "type": 10,
+            "airflow": "750 CFM",
+            "externalStaticPressure": "0.4 in W.G.",
+            "brakePower": "0.2 Hp",
+            "motorPower": "0.3 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Blower Coil Units",
+      "notes": "External static pressure includes filter and ductwork not in casing. ACV assembly includes automatic control valve, line size balancing valve, strainer, 2 isolation valves, and 6 ACV size elbows. Provide factory programmed ECM fan motor. Performance based on design altitude of 6,115 ft.",
+      "items": [
+        {
+          "equipmentTag": "BCAH-100A",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 11,
+            "airflow": "800 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.5 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-104",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 3,
+            "airflow": "950 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.9 Hp",
+            "motorPower": "0.9 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-104A",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 3,
+            "airflow": "950 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.9 Hp",
+            "motorPower": "0.9 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-105",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 11,
+            "airflow": "800 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.5 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-111B",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 13,
+            "airflow": "1200 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.6 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-114B",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 13,
+            "airflow": "1200 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.6 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-124",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 1,
+            "airflow": "800 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.6 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
+          }
+        },
+        {
+          "equipmentTag": "BCAH-125",
+          "manufacturer": "No BOD Listed",
+          "model": "Horizontal Blower Coil",
+          "specifications": {
+            "type": 1,
+            "airflow": "800 CFM",
+            "externalStaticPressure": "0.5 in W.G.",
+            "brakePower": "0.6 Hp",
+            "motorPower": "1.0 Hp",
+            "electrical": {
+              "voltage": 115,
+              "hz": 60,
+              "phase": 1
+            },
+            "filter": {
+              "type": "Pleated Media",
+              "merv": 8
+            }
           }
         }
       ]
