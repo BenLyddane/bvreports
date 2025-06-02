@@ -1,11 +1,11 @@
 {
   "suppliers": [
     {
-      "componentType": "Pumps",
+      "componentType": "Hydronic Pumps",
       "suppliers": [
         {
           "manufacturer": "Grundfos",
-          "model": "LF-DOL15705",
+          "model": "NBS25-DOL70-2P",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -14,7 +14,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Base-Mounted, Centrifugal Hydronic Pumps (CWP-14-1, -2, -3)"
+          "compatibilityNotes": "Used for end suction pumps CWP-14-1, -2, -3"
         },
         {
           "manufacturer": "Grundfos",
@@ -27,7 +27,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "In-Line Centrifugal Hydronic Pumps (CWP-35-1, 2)"
+          "compatibilityNotes": "Used for in-line centrifugal pumps CWP-35-1, 2"
         },
         {
           "manufacturer": "Grundfos",
@@ -40,7 +40,33 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Hydronic Pumps (CWP-37-1, 2, 3)"
+          "compatibilityNotes": "Used for hydronic pumps CWP-37-1, 2, 3"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "CR5-DOL5-2P",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for PCWP-15-1, -2 pumps"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "CR5-DOL3-2P",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for SCWP-15-1, -2 pumps"
         },
         {
           "manufacturer": "Grundfos",
@@ -53,7 +79,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Inline Pump (listed in specs for Practice Floors)"
+          "compatibilityNotes": "Used for CWP-37-1, 2, 3 (practice floors)"
         },
         {
           "manufacturer": "Grundfos",
@@ -66,23 +92,62 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Inline Pump (listed in specs for Practice Floors)"
+          "compatibilityNotes": "Used for CWP-35-1, 2 (practice floors)"
         },
         {
-          "manufacturer": "Weinman Pump",
+          "manufacturer": "Armstrong",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "SRS Enterprises",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for hydronic pumps"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Wallace Eannace",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for hydronic pumps"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Wales Darby",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for hydronic pumps"
+        },
+        {
+          "manufacturer": "Wilo",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as approved equivalent for both in-line and end suction pumps in specifications"
+          "compatibilityNotes": "Additional suggested manufacturer for hydronic pumps"
         },
         {
-          "manufacturer": "Bell & Gossett",
+          "manufacturer": "Xylem",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
@@ -91,21 +156,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Industry standard centrifugal pumps that would be compatible with specifications"
-        },
-        {
-          "manufacturer": "Armstrong",
-          "model": "",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+1%",
-          "compatibilityNotes": "Compatible with specifications for both in-line and base-mounted centrifugal pumps"
+          "costDifference": "",
+          "compatibilityNotes": "Additional suggested manufacturer for hydronic pumps"
         }
       ]
     },
@@ -123,7 +175,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Plate and frame heat exchanger for the tenant condenser water system"
+          "compatibilityNotes": "Used for plate-type, liquid-to-liquid heat exchanger"
         },
         {
           "manufacturer": "Alfa Laval",
@@ -136,7 +188,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Approved alternate manufacturer for plate and frame heat exchangers"
+          "compatibilityNotes": "Listed in specs as acceptable manufacturer for plate and frame heat exchangers"
         },
         {
           "manufacturer": "Mueller Accu-Therm",
@@ -149,7 +201,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Approved alternate manufacturer for plate and frame heat exchangers"
+          "compatibilityNotes": "Listed in specs as acceptable manufacturer for plate and frame heat exchangers"
         },
         {
           "manufacturer": "Patterson-Kelly",
@@ -162,38 +214,38 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Approved alternate manufacturer for plate and frame heat exchangers"
+          "compatibilityNotes": "Listed in specs as acceptable manufacturer for plate and frame heat exchangers"
         },
         {
-          "manufacturer": "SPX",
+          "manufacturer": "Bell & Gossett",
           "model": "",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
-            "company": "",
+            "company": "Wallace Eannace",
             "contact": ""
           },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Additional alternative with strong market presence in plate heat exchangers"
+          "costDifference": "",
+          "compatibilityNotes": "Mentioned in MH report as alternate manufacturer for heat exchangers"
         },
         {
-          "manufacturer": "Kelvion",
+          "manufacturer": "Taco",
           "model": "",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
-            "company": "",
+            "company": "Wales Darby",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Premium alternative with strong presence in industrial heat exchangers"
+          "costDifference": "",
+          "compatibilityNotes": "Mentioned in MH report as alternate manufacturer for heat exchangers"
         }
       ]
     },
     {
-      "componentType": "Floor Mounted Water Cooled AC Units",
+      "componentType": "Air Conditioning Units",
       "suppliers": [
         {
           "manufacturer": "Mammoth",
@@ -206,7 +258,7 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Basis of design for floor mounted water-cooled AC units with waterside economizer"
+          "compatibilityNotes": "Water-cooled, self-contained air conditioner with waterside economizer capability"
         },
         {
           "manufacturer": "Mammoth",
@@ -219,107 +271,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Basis of design for floor mounted water-cooled AC units with waterside economizer"
+          "compatibilityNotes": "Water-cooled, self-contained air conditioner with waterside economizer capability"
         },
-        {
-          "manufacturer": "AboveAir",
-          "model": "MCW-018S1-4-00ERH-EC-FE-UF0-1A",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Basis of design for floor mounted water-cooled CRAC units"
-        },
-        {
-          "manufacturer": "AboveAir",
-          "model": "MCW-007S1-7-00000-EC-00-UF2-XS",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Basis of design for floor mounted water-cooled CRAC units"
-        },
-        {
-          "manufacturer": "Liebert",
-          "model": "",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Listed alternate for floor mounted water-cooled CRAC units"
-        },
-        {
-          "manufacturer": "Data Aire",
-          "model": "",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Listed alternate for floor mounted water-cooled CRAC units"
-        },
-        {
-          "manufacturer": "Stulz",
-          "model": "",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+4%",
-          "compatibilityNotes": "Listed alternate for floor mounted water-cooled CRAC units"
-        },
-        {
-          "manufacturer": "Vertiv",
-          "model": "",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Additional suitable manufacturer for floor mounted water-cooled AC and CRAC units"
-        },
-        {
-          "manufacturer": "Canatal",
-          "model": "",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Additional suitable manufacturer for floor mounted water-cooled AC and CRAC units"
-        }
-      ]
-    },
-    {
-      "componentType": "Water Source Heat Pumps",
-      "suppliers": [
         {
           "manufacturer": "Bosch",
-          "model": "CL Series (CL012, CL018, CL024, CL030, CL036, CL048)",
+          "model": "CL Series",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -328,106 +284,62 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Multiple model sizes from 12,000 to 48,000 BTU. Used extensively throughout the project for floor equipment. Compatible with building's water loop system."
+          "compatibilityNotes": "Water-source heat pumps using R-454B refrigerant"
         },
         {
-          "manufacturer": "Florida Heat Pump",
-          "model": "CL Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+0%",
-          "compatibilityNotes": "Equivalent to Bosch CL series. Listed as acceptable manufacturer in specifications. Compatible with existing system."
-        },
-        {
-          "manufacturer": "ClimateMaster",
-          "model": "Tranquility Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Listed as acceptable equivalent in specifications. Compatible with existing water loop system."
-        },
-        {
-          "manufacturer": "WaterFurnace",
-          "model": "Versatec Series",
-          "isBasisOfDesign": false,
+          "manufacturer": "AboveAir",
+          "model": "MCW Series",
+          "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Compatible with building water loop system. Offers similar energy efficiency and reliability."
+          "costDifference": "",
+          "compatibilityNotes": "Computer room air conditioners with water-cooled condensers"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin NY",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Listed alternate for self-contained AC units; requires verification of waterside economizer compatibility"
         },
         {
           "manufacturer": "Trane",
-          "model": "Water-Source Heat Pump",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Higher cost but provides strong service support and long-term reliability. Compatible with existing systems."
-        }
-      ]
-    },
-    {
-      "componentType": "Computer Room Air Conditioners",
-      "suppliers": [
-        {
-          "manufacturer": "AboveAir",
-          "model": "MCW-007S1-7-00000-EC-00-EF2-XS",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Floor mounted CRAC units for IDF/MDF rooms, waterside economizer compatible"
-        },
-        {
-          "manufacturer": "AboveAir",
-          "model": "MCW-018S1-4-00ERH-EC-FE-UF0-1A",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Floor mounted CRAC units for larger MDF rooms with greater cooling capacity"
-        },
-        {
-          "manufacturer": "Bosch",
-          "model": "CL036-HZ",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
-            "company": "",
+            "company": "Trane NY",
             "contact": ""
           },
-          "costDifference": "",
-          "compatibilityNotes": "Water-source heat pumps used as CRAC units for some IDF locations"
+          "costDifference": "+5%",
+          "compatibilityNotes": "Listed alternate for self-contained AC units and water-source heat pumps"
         },
         {
-          "manufacturer": "Liebert",
+          "manufacturer": "United Cool Air",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Gil-Bar",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Listed alternate for self-contained AC units"
+        },
+        {
+          "manufacturer": "Florida Heat Pump",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
@@ -436,8 +348,47 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "",
-          "compatibilityNotes": "Mentioned as acceptable manufacturer for CRAC units"
+          "costDifference": "0%",
+          "compatibilityNotes": "Listed as an acceptable manufacturer under the Bosch product line"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Carrier NY",
+            "contact": ""
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Listed alternate for water-source heat pumps and computer room AC units"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "JCI NY",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Listed alternate for water-source heat pumps"
+        },
+        {
+          "manufacturer": "WaterFurnace",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "MWSK Equipment",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Listed alternate for water-source heat pumps"
         },
         {
           "manufacturer": "Data Aire",
@@ -449,8 +400,21 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "",
-          "compatibilityNotes": "Mentioned as acceptable manufacturer for CRAC units"
+          "costDifference": "+6%",
+          "compatibilityNotes": "Listed alternate for computer room AC units"
+        },
+        {
+          "manufacturer": "Airedale",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+7%",
+          "compatibilityNotes": "Listed alternate for computer room AC units; international manufacturer with limited US presence"
         },
         {
           "manufacturer": "Stulz",
@@ -459,86 +423,42 @@
           "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Mentioned as acceptable manufacturer for small capacity CRAC units"
-        },
-        {
-          "manufacturer": "Air Technology Systems",
-          "model": "",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Mentioned as acceptable manufacturer for CRAC units"
-        }
-      ]
-    },
-    {
-      "componentType": "Make-Up Air Units",
-      "suppliers": [
-        {
-          "manufacturer": "Mammoth",
-          "model": "VVX-1684-GEL",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "",
-          "compatibilityNotes": "Water-cooled makeup air unit with waterside economizer, designed for kitchen applications"
-        },
-        {
-          "manufacturer": "Greenheck",
-          "model": "M-Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": true,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with project requirements, offers similar waterside economizer feature"
-        },
-        {
-          "manufacturer": "CaptiveAire",
-          "model": "MAU Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Common in kitchen applications, may require modifications to match specified capacity"
-        },
-        {
-          "manufacturer": "Aaon",
-          "model": "M2 Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
+            "company": "MWSK Equipment",
             "contact": ""
           },
           "costDifference": "+5%",
-          "compatibilityNotes": "Premium option with excellent controls integration capabilities"
+          "compatibilityNotes": "Listed alternate for computer room AC units"
+        },
+        {
+          "manufacturer": "Vertiv (formerly Liebert)",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Additional suggested manufacturer for computer room AC units; industry leader with broad product offerings"
+        },
+        {
+          "manufacturer": "ClimateMaster",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Additional suggested manufacturer for water-source heat pumps; listed as acceptable alternative to Florida Heat Pump"
         }
       ]
     },
     {
-      "componentType": "Electrostatic Precipitators",
+      "componentType": "Electronic Air Cleaners",
       "suppliers": [
         {
           "manufacturer": "Halton",
@@ -551,24 +471,63 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Electronic Air Cleaners for kitchen exhaust filtration with dual-stage electrostatic precipitator, odor control section, and integrated fire protection system."
+          "compatibilityNotes": "ESP unit is mounted on the 14th floor serving the kitchen exhaust system."
         },
         {
-          "manufacturer": "Air Clean Co., Inc.",
-          "model": "Custom Electrostatic Precipitator System",
+          "manufacturer": "Accurex",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Local Office",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternate for pollution control unit."
+        },
+        {
+          "manufacturer": "CaptiveAire",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Local Office",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternate for pollution control unit."
+        },
+        {
+          "manufacturer": "Trion",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "ADE Systems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternate for pollution control unit."
+        },
+        {
+          "manufacturer": "Air Quality Engineering",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Alternative supplier for electrostatic precipitators with similar construction including fire suppression system and multi-stage filtration."
+          "compatibilityNotes": "Additional suitable manufacturer for electronic air cleaners."
         },
         {
           "manufacturer": "United Air Specialists",
-          "model": "SmogHog Series",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -576,30 +535,17 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Industry-leading commercial kitchen electrostatic precipitator system with high efficiency particulate removal and odor control capabilities."
-        },
-        {
-          "manufacturer": "Trion",
-          "model": "Air Boss Series",
-          "isBasisOfDesign": false,
-          "isListedAlternate": false,
-          "representativeInfo": {
-            "name": "",
-            "company": "",
-            "contact": ""
-          },
-          "costDifference": "+2%",
-          "compatibilityNotes": "Commercial-grade electrostatic precipitator with similar specifications and configurations for kitchen exhaust applications."
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for electronic air cleaners."
         }
       ]
     },
     {
-      "componentType": "Fan Coil Units",
+      "componentType": "VAV Terminal Units",
       "suppliers": [
         {
-          "manufacturer": "IEC",
-          "model": "HPY Series",
+          "manufacturer": "Titus",
+          "model": "DESV",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -608,50 +554,89 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Specified for fan coil units on 14th-16th floors (models HPY08 and HPY12)"
+          "compatibilityNotes": "Basis of design for VAV terminal units; listed in BV dashboard with models DESV-6, DESV-8, DESV-10, DESV-12, DESV-14, DESV-16"
         },
         {
-          "manufacturer": "International Environmental",
+          "manufacturer": "Enviro-Tec",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
-            "company": "",
+            "company": "MWSK Equipment Sales",
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+          "compatibilityNotes": "Listed alternate manufacturer for single duct VAV terminals"
         },
         {
-          "manufacturer": "Environmental Technologies",
+          "manufacturer": "Greenheck",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
-            "company": "",
+            "company": "ADE Systems",
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+          "compatibilityNotes": "Listed alternate manufacturer for single duct VAV terminals"
         },
         {
-          "manufacturer": "Daikin",
-          "model": "FCP Series",
+          "manufacturer": "MetalAire",
+          "model": "",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
-            "company": "",
+            "company": "SRS Enterprises",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Fully compatible with existing systems, offers similar ECM motor technology and control options"
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate manufacturer for single duct VAV terminals"
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Bush Sales Co",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate manufacturer for single duct VAV terminals"
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Air Distribution Systems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate manufacturer for single duct VAV terminals"
         },
         {
           "manufacturer": "Trane",
-          "model": "UniTrane Series",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane NY Sales Office",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate manufacturer for single duct VAV terminals"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -659,8 +644,21 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+8%",
-          "compatibilityNotes": "Compatible with BMS requirements, higher energy efficiency rating"
+          "costDifference": "",
+          "compatibilityNotes": "Additional suggested manufacturer with VAV terminal product offerings"
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suggested manufacturer with VAV terminal product offerings"
         }
       ]
     },
@@ -678,11 +676,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as basis of design for dishwasher exhaust fans DXF-14-1, DXF-14-2 on building dashboard"
+          "compatibilityNotes": "Used for dishwasher exhaust fans (DXF-14-1, DXF-14-2)"
         },
         {
           "manufacturer": "Greenheck",
-          "model": "CSP-A Series",
+          "model": "CSP Series",
           "isBasisOfDesign": true,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -691,23 +689,49 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Used for multiple exhaust fans including EF-13-1, EF-14-1, EF-15 series, EF-16 series, GXF-14-1"
+          "compatibilityNotes": "Various models used for exhaust and transfer fans"
         },
         {
-          "manufacturer": "Greenheck",
-          "model": "BSQ-160HP",
-          "isBasisOfDesign": true,
-          "isListedAlternate": false,
+          "manufacturer": "Loren Cook",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
-            "company": "",
+            "company": "SRS Enterprises",
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Used for 14th floor dishwasher exhaust"
+          "compatibilityNotes": "Listed alternate for HVAC fans"
         },
         {
-          "manufacturer": "Twin City Fan",
+          "manufacturer": "Penn Barry",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Brooklyn Fan & Blower",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for HVAC fans"
+        },
+        {
+          "manufacturer": "Twin City",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Gil-Bar",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for HVAC fans"
+        },
+        {
+          "manufacturer": "Panasonic",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
@@ -717,10 +741,10 @@
             "contact": ""
           },
           "costDifference": "+2%",
-          "compatibilityNotes": "Compatible alternative for in-line centrifugal fans with similar performance characteristics"
+          "compatibilityNotes": "Energy efficient ECM motors, suitable for ceiling applications"
         },
         {
-          "manufacturer": "Loren Cook",
+          "manufacturer": "Continental Fan",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
@@ -729,11 +753,120 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-3%",
-          "compatibilityNotes": "Suitable alternative for HVAC fans with comparable performance specifications"
+          "costDifference": "-2%",
+          "compatibilityNotes": "Compatible with specified fan requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "IEC",
+          "model": "HPY Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design for FCUs. Model HPY08 and HPY12 used for the project."
         },
         {
-          "manufacturer": "PennBarry",
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Carrier NY",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate for FCUs."
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Daikin NY",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate for FCUs."
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "JCI NY",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate for FCUs."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane NY",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate for FCUs."
+        },
+        {
+          "manufacturer": "Titus",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Air Distribution Enterprises",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate for FCUs."
+        },
+        {
+          "manufacturer": "Whalen",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "NY Thermal Systems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate for FCUs."
+        },
+        {
+          "manufacturer": "Williams Comfort",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "SRS Enterprises",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate for FCUs."
+        },
+        {
+          "manufacturer": "First Co.",
           "model": "",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
@@ -742,8 +875,21 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+1%",
-          "compatibilityNotes": "Compatible with specified kitchen exhaust and general exhaust fan requirements"
+          "costDifference": "",
+          "compatibilityNotes": "Suggested additional manufacturer with similar fan coil product line."
+        },
+        {
+          "manufacturer": "Enviro-Tec",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested additional manufacturer with comparable FCU product offerings."
         }
       ]
     }

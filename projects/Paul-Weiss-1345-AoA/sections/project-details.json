@@ -5,22 +5,19 @@
     "contactPerson": "",
     "contactEmail": "",
     "contactPhone": "",
-    "projectId": "39830c7b-9448-4c9a-9bbe-0c030db054bb",
+    "projectId": "877207",
     "additionalFields": {}
   },
   "projectInformation": {
-    "projectName": "Paul Weiss - 1345 AoA Project",
+    "projectName": "Paul Weiss - 1345 AoA Relocation",
     "location": "1345 Avenue of Americas, New York, NY 10105",
     "startDate": "4/1/2025",
     "completionDate": "",
     "budget": "",
-    "scope": "Floors 13-16 and 29-44",
+    "scope": "HVAC Equipment Replacement and Renovation",
     "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/39830c7b-9448-4c9a-9bbe-0c030db054bb/details",
     "additionalFields": {
-      "contractType": "",
-      "projectSize": "",
-      "bidStatus": "BuildingConnected Lead",
-      "requestType": "Proposal"
+      "contractor": "Structure Tone (NY)"
     }
   },
   "preparerInformation": {
@@ -36,6 +33,6 @@
         "phone": "843-609-3265"
       }
     ],
-    "preparationDate": "5/2/2025"
+    "preparationDate": ""
   }
 }

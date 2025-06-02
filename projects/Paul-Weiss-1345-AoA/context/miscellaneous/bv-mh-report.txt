@@ -1,0 +1,90 @@
+VAV Units: BOD Titus
+
+    These are all single duct terminals without reheat. Low budget.
+    VAVs on plan have no type selected.
+    Alternate Manufacturers
+        Enviro-Tec - MWSK Equipment Sales
+        Greenheck - ADE Systems
+        MetalAire - SRS Enterprises
+        Nailor - Bush Sales Co
+        Price Industries - Air Distribution Systems
+        Trane - Trane NY Sales Office
+
+HVAC Fans: BOD Greenheck
+
+    DXF-14-1 serves dishwasher. Aluminum wheel needed for dishwasher exhaust fans (DXF-14-1, DXF-14-2. Also, BOD fan may not be compatible with EC motor.
+    Engineer requests add-alt breakout price for transfer fans serving IDF rooms.
+    Suggest confirming controls is being handled by separate controls contractor. If not, appurtenances (e.g., thermostats for IDF rooms, time clocks, BMS integration) may be needed from the manufacturer.
+    Alternate Manufacturers
+        Loren Cook - SRS Enterprises
+        Penn Barry - Brooklyn Fan & Blower
+        Twin City - Gil-Bar
+
+FCUs: BOD IEC
+
+    Fairly straightforward. Some manufacturers have piping packages included from factory - make sure to level if they’re included by default.
+    No external static pressure requirements are listed in the schedules; fan performance may vary.
+    Alternate Manufacturers
+        Carrier - Carrier NY
+        Daikin Applied - Daikin NY
+        Johnson Controls - JCI NY
+        Trane - Trane NY
+        Titus - Air Distribution Enterprises
+        Whalen - NY Thermal Systems
+        Williams Comfort - SRS Enterprises
+
+WSHPs: BOD Bosch (Florida Heat Pump)
+
+    BOD uses A2L refrigerant.
+    Some units are add-alternates (AC-35-2, AC-40-2).
+    Extended range package is required - this is sometimes called ground-source or geothermal. Would be good to confirm actual requirements (may be listed in specifications).
+    No heating performance requirements are listed.
+    Alternate Manufacturers:
+        Carrier - Carrier NY
+        Daikin Applied - Daikin NY
+        Johnson Controls - JCI NY
+        Trane - Trane NY
+        WaterFurnace - MWSK Equipment
+
+CRACs: BOD AboveAir, Bosch WSHP
+
+    CRACs have mixed refrigerants, which could cause maintenance frustrations.
+    “Extended range unit” is unclear and atypical for CRAC units. What condenser water temperature ranges is the engineer expecting to see? The partial condenser water riser diagrams indicate a standard cooling tower; unsure why extended-range units are required.
+    Alternate Manufacturers (Bosch): Refer to WSHPs above.
+    Alternate Manufacturers (AboveAir)
+        Airedale - Rep unknown
+        Stulz - MWSK Equipment
+
+Hydronic Pumps: BOD Grundfos
+
+    Riser diagram calls for CWP-37-1/2/3 as 150 GPM, but schedule calls for 175 GPM.
+    CWP-37-1/2/3 are “lead/lag”. Is the third pump for redundancy, or do all 3 need to stage and run at the same time? Based on 5” CW connection, assuming pump 3 is for redundancy.
+    Alternate Manufacturers:
+        Armstrong - SRS Enterprises
+        Bell & Gossett - Wallace Eannace
+        Taco - Wales Darby
+
+Plate HX: BOD Hexonic
+
+    Alternate Manufacturers
+        Alfa Laval - Rep Unknown
+        Bell & Gossett - Wallace Eannace
+        Taco - Wales Darby
+
+Self-Contained Units: BOD Mammoth
+
+    AC-15-1 and AC-16-1 serve VAVs, so will need VAV control. 2” ESP is probably fine for the short duct run, but there is a lot of ductwork jogging to get there. Fan size might go up in 100% CDs.
+    MUA-14-1 is a SCU but handles 100% outside air and has a 227kW electric reheat coil. This building is going to be ConEd’s preferred customer.
+    Basis of Design (Mammoth) is a premium product and has few true competitors. Daikin is likely the closest, with Trane and UCA potentially able to meet the requirements.
+    Alternate Manufacturers
+        Daikin Applied - Local Office
+        Trane - Local Office
+        United Cool Air - Gil-Bar
+
+Electrostatic Precipitators (Pollution Control Unit): BOD Halton
+
+    Airmaid and PurifiedAir both make electrostatic precipitators, but the BOD is for a packaged exhaust unit with the ESP built in. This would be better categorized as a “pollution control unit”.
+    Alternate Manufacturers:
+        Accurex - Local Office
+        CaptiveAire - Local Office
+        Trion - ADE Systems

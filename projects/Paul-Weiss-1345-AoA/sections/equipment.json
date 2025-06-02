@@ -1,25 +1,23 @@
 {
   "equipmentByType": [
     {
-      "equipmentType": "Pumps",
-      "notes": "CWP-14-1, -2, -3 are base-mounted, centrifugal hydronic pumps serving 13-16th floors. CWP-35-1, 2 are in-line centrifugal pumps serving MDF CRAC units. CWP-37-1, 2, 3 are hydronic pumps serving 29-44th floors. PCWP and SCWP are for primary and secondary condenser water systems.",
+      "equipmentType": "Hydronic Pumps",
+      "notes": "Riser diagram calls for CWP-37-1/2/3 as 150 GPM, but schedule calls for 175 GPM. CWP-37-1/2/3 are lead/lag with third pump for redundancy.",
       "items": [
         {
           "equipmentTag": "CWP-14-1, -2, -3",
           "manufacturer": "Grundfos",
-          "model": "NBS25-DOL70-2P",
+          "model": "LF-DOL15705",
           "specifications": {
-            "type": "End Suction",
-            "location": "14th Floor MER",
-            "service": "13-16 Floors",
-            "motorType": "TEFC",
-            "HP": 15,
-            "GPM": 250,
-            "operatingHead": "120'",
-            "shutOffHead": "124'",
-            "voltage": "460/3/60",
-            "weight": 203,
-            "dimensions": "46x15x18"
+            "type": "Base-Mounted, Centrifugal",
+            "gpm": "250",
+            "head": "120 ft",
+            "motor": {
+              "hp": "15",
+              "volts": "460",
+              "phase": "3",
+              "hz": "60"
+            }
           }
         },
         {
@@ -27,35 +25,31 @@
           "manufacturer": "Grundfos",
           "model": "CR3-DOL19-4P",
           "specifications": {
-            "type": "In Line",
-            "location": "35th Floor",
-            "service": "MDF CRAC Units",
-            "motorType": "TEFC",
-            "HP": 2,
-            "GPM": 30,
-            "operatingHead": "100'",
-            "shutOffHead": "",
-            "voltage": "460/3/60",
-            "weight": 88.9,
-            "dimensions": "10X9X27.7"
+            "type": "In-Line Centrifugal",
+            "gpm": "30",
+            "head": "100 ft",
+            "motor": {
+              "hp": "2",
+              "volts": "460",
+              "phase": "3",
+              "hz": "60"
+            }
           }
         },
         {
           "equipmentTag": "CWP-37-1, 2, 3",
           "manufacturer": "Grundfos",
-          "model": "CRE32-DOL2-1",
+          "model": "LCS-DOL15705",
           "specifications": {
-            "type": "Inline",
-            "location": "37th Floor",
-            "service": "29th-44th Floors",
-            "motorType": "TEFC",
-            "HP": 7.5,
-            "GPM": 160,
-            "operatingHead": "120'",
-            "shutOffHead": "",
-            "voltage": "460/3/60",
-            "weight": 198,
-            "dimensions": "12x12x28"
+            "type": "Base-Mounted, Centrifugal",
+            "gpm": "175",
+            "head": "120 ft",
+            "motor": {
+              "hp": "15",
+              "volts": "460",
+              "phase": "3",
+              "hz": "60"
+            }
           }
         },
         {
@@ -63,13 +57,15 @@
           "manufacturer": "",
           "model": "",
           "specifications": {
-            "type": "In Line",
-            "location": "Ceiling",
-            "service": "15th Floor WCCU",
-            "GPM": 34.18,
-            "voltage": "460/3/60",
-            "weight": 100,
-            "dimensions": "10x9x28"
+            "type": "In-Line",
+            "gpm": "34.18",
+            "head": "40 ft",
+            "motor": {
+              "hp": "1",
+              "volts": "460",
+              "phase": "3",
+              "hz": "60"
+            }
           }
         },
         {
@@ -77,77 +73,60 @@
           "manufacturer": "",
           "model": "",
           "specifications": {
-            "type": "In Line",
-            "location": "Ceiling",
-            "service": "15th Floor WCCU",
-            "GPM": 34.18,
-            "voltage": "460/3/60",
-            "weight": 76,
-            "dimensions": "10x9x24"
+            "type": "In-Line",
+            "gpm": "34.18",
+            "head": "40 ft",
+            "motor": {
+              "hp": "1",
+              "volts": "460",
+              "phase": "3",
+              "hz": "60"
+            }
           }
         }
       ]
     },
     {
       "equipmentType": "Heat Exchangers",
-      "notes": "Plate-type, liquid-to-liquid heat exchanger for waterside economizer application",
+      "notes": "",
       "items": [
         {
           "equipmentTag": "HX-15-1",
           "manufacturer": "Hexonic",
           "model": "LB60-DOL110H-1",
           "specifications": {
-            "type": "Plate & Frame",
-            "location": "15th FLR MER",
-            "service": "WCCU",
-            "heatTransferArea": "95.7 sq.ft.",
-            "connectionSizes": "2-1/2\"",
-            "workingPressure": "43.5 PSIG",
-            "pressureDrop": "2 PSI (cold), 4 PSI (hot)",
-            "flowRate": "34.18 GPM",
-            "temperatures": "EWT/LWT: 87/99°F (cold), 89/101°F (hot)",
-            "weight": "84.9 lb",
-            "dimensions": "10x10.25x18.5"
+            "type": "Plate-Type, Liquid-to-Liquid",
+            "heat_transfer_area": "95.7 sq.ft.",
+            "cold_side_gpm": "34.18",
+            "cold_side_connection": "2-1/2 inch",
+            "hot_side_gpm": "34.18",
+            "hot_side_connection": "2-1/2 inch",
+            "working_pressure": "43.5 psig"
           }
         }
       ]
     },
     {
-      "equipmentType": "Floor Mounted Water Cooled AC Units",
-      "notes": "Large capacity water-cooled units with waterside economizer capability for amenity floors",
+      "equipmentType": "Air Conditioning Units",
+      "notes": "AC-15-1 and AC-16-1 serve VAVs and need VAV control. MUA-14-1 is a SCU but handles 100% outside air with a 227kW electric reheat coil.",
       "items": [
         {
           "equipmentTag": "AC-15-1",
           "manufacturer": "Mammoth",
           "model": "VVW-303-GXST",
           "specifications": {
-            "location": "MER - See Plans",
-            "service": "See Plans",
-            "cooling": {
-              "capacity": "421.5 MBH total, 295.2 MBH sensible",
-              "airflow": "10,500 CFM",
-              "ESP": "2 in. W.G.",
-              "EER": 16.53
-            },
-            "fanMotor": "15 HP",
-            "compressor": {
-              "type": "Scroll",
-              "quantity": 3
-            },
-            "condenser": {
-              "workingPressure": "300 PSI",
-              "waterFlow": "86 GPM",
-              "waterTemp": "87/99°F"
-            },
-            "filter": "MERV-8 (pre), MERV-15",
-            "electrical": {
-              "voltage": "460/3/60",
-              "FLA": 72,
-              "MCA": 78,
-              "MOP": 100
-            },
+            "type": "Small-Capacity Self-Contained Air-Conditioner",
+            "cooling_capacity": "421.5 MBH",
+            "sensible_capacity": "295.2 MBH",
+            "fan_cfm": "10,500",
+            "fan_esp": "2 in. w.g.",
+            "fan_motor_hp": "15",
             "weight": "6,800 lbs",
-            "dimensions": "76.5x82x92 in."
+            "dimensions": "76.5 x 82 x 92 inches",
+            "electrical": "460/3/60",
+            "compressor_type": "Scroll",
+            "refrigerant": "R-454B",
+            "eer": "16.53"
           }
         },
         {
@@ -155,539 +134,375 @@
           "manufacturer": "Mammoth",
           "model": "VVW-393-CXST-L",
           "specifications": {
-            "location": "MER - See Plans",
-            "service": "See Plans",
-            "cooling": {
-              "capacity": "505.8 MBH total, 375.9 MBH sensible",
-              "airflow": "14,000 CFM",
-              "ESP": "2 in. W.G.",
-              "EER": 17.03
-            },
-            "fanMotor": "20 HP",
-            "compressor": {
-              "type": "Scroll",
-              "quantity": 3
-            },
-            "condenser": {
-              "workingPressure": "300 PSI",
-              "waterFlow": "103 GPM",
-              "waterTemp": "87/99°F"
-            },
-            "filter": "MERV-8 (pre), MERV-15",
-            "electrical": {
-              "voltage": "460/3/60",
-              "FLA": 79,
-              "MCA": 86,
-              "MOP": 110
-            },
+            "type": "Small-Capacity Self-Contained Air-Conditioner",
+            "cooling_capacity": "505.8 MBH",
+            "sensible_capacity": "375.9 MBH",
+            "fan_cfm": "14,000",
+            "fan_esp": "2 in. w.g.",
+            "fan_motor_hp": "20",
             "weight": "6,800 lbs",
-            "dimensions": "76.5x82x92 in."
-          }
-        }
-      ]
-    },
-    {
-      "equipmentType": "Water Source Heat Pumps",
-      "notes": "Units of various capacities serving office areas throughout the building",
-      "items": [
-        {
-          "equipmentTag": "AC-13-1",
-          "manufacturer": "Bosch",
-          "model": "CL030",
-          "specifications": {
-            "type": "Water-Source Unitary Heat Pump",
-            "cooling": {
-              "capacity": "28.6 MBH total, 21.6 MBH sensible",
-              "airflow": "925 CFM",
-              "EAT": "80°F DB, 67°F WB",
-              "waterTemp": "87/99°F",
-              "waterFlow": "6.25 GPM"
-            },
-            "weight": "187.4 lbs",
-            "dimensions": "44x21.5x18 in.",
-            "electrical": {
-              "voltage": "460/3/60",
-              "FLA": 6.6,
-              "MCA": 7.7,
-              "MOP": 15
-            }
+            "dimensions": "76.5 x 82 x 92 inches",
+            "electrical": "460/3/60",
+            "compressor_type": "Scroll",
+            "refrigerant": "R-454B",
+            "eer": "17.03"
           }
         },
-        {
-          "equipmentTag": "AC-13-2",
-          "manufacturer": "Bosch",
-          "model": "CL036-HZ",
-          "specifications": {
-            "type": "Water-Source Heat Pump",
-            "cooling": {
-              "capacity": "36.7 MBH total, 26.7 MBH sensible",
-              "airflow": "1150 CFM",
-              "EAT": "80°F DB, 67°F WB",
-              "waterTemp": "87/99°F",
-              "waterFlow": "7.7 GPM"
-            },
-            "weight": "205.2 lbs",
-            "dimensions": "47x21.5x19 in.",
-            "electrical": {
-              "voltage": "460/3/60",
-              "FLA": 9,
-              "MCA": 10.4,
-              "MOP": 15
-            }
-          }
-        },
-        {
-          "equipmentTag": "AC-14-1, -2, -5, -9",
-          "manufacturer": "Bosch",
-          "model": "CL024",
-          "specifications": {
-            "type": "Water-Source Unitary Heat Pump",
-            "cooling": {
-              "capacity": "22.5 MBH total, 17.9 MBH sensible",
-              "airflow": "800 CFM",
-              "EAT": "80°F DB, 67°F WB",
-              "waterTemp": "87/99°F",
-              "waterFlow": "5 GPM"
-            },
-            "weight": "183.2 lbs",
-            "dimensions": "44x21.5x18 in.",
-            "electrical": {
-              "voltage": "460/3/60",
-              "FLA": 5.9,
-              "MCA": 6.9,
-              "MOP": 15
-            }
-          }
-        },
-        {
-          "equipmentTag": "AC-14-3, -4",
-          "manufacturer": "Bosch",
-          "model": "CL018",
-          "specifications": {
-            "type": "Water-Source Unitary Heat Pump",
-            "cooling": {
-              "capacity": "18.1 MBH total, 13.8 MBH sensible",
-              "airflow": "600 CFM",
-              "EAT": "80°F DB, 67°F WB",
-              "waterTemp": "87/99°F",
-              "waterFlow": "3.8 GPM"
-            },
-            "weight": "154.8 lbs",
-            "dimensions": "44x21.5x17 in.",
-            "electrical": {
-              "voltage": "265/1/60",
-              "FLA": 10.2,
-              "MCA": 12.1,
-              "MOP": 15
-            }
-          }
-        }
-      ]
-    },
-    {
-      "equipmentType": "Computer Room Air Conditioners",
-      "notes": "Floor-mounted and ceiling-mounted CRAC units for IDF and MDF rooms",
-      "items": [
-        {
-          "equipmentTag": "CRAC-13-1, CRAC-14-1, CRAC-15-1, CRAC-16-1",
-          "manufacturer": "AboveAir",
-          "model": "MCW-007S1-7-00000-EC-00-EF2-XS",
-          "specifications": {
-            "type": "Computer-Room Air-Conditioner",
-            "cooling": {
-              "capacity": "25.4 MBH total, 20.7 MBH sensible",
-              "airflow": "1000 CFM",
-              "ESP": "0.5 in. W.G."
-            },
-            "compressor": {
-              "type": "Scroll",
-              "quantity": 1,
-              "refrigerant": "R-410A"
-            },
-            "condenser": {
-              "waterFlow": "5.2 GPM",
-              "waterTemp": "87/99°F"
-            },
-            "filter": "MERV-8",
-            "electrical": {
-              "voltage": "277/1/60",
-              "FLA": 13.3,
-              "MCA": 15.7,
-              "MFS": 25
-            },
-            "weight": "480 lbs",
-            "dimensions": "24x24x76 in."
-          }
-        },
-        {
-          "equipmentTag": "CRAC-14-2, CRAC-15-2, CRAC-16-2",
-          "manufacturer": "Bosch",
-          "model": "CL036-HZ",
-          "specifications": {
-            "type": "Water-Source Heat Pump",
-            "cooling": {
-              "capacity": "33.7 MBH total, 23.2 MBH sensible",
-              "airflow": "1200 CFM",
-              "ESP": "0.5 in. W.G."
-            },
-            "compressor": {
-              "type": "Scroll",
-              "quantity": 1,
-              "refrigerant": "R-454B"
-            },
-            "condenser": {
-              "waterFlow": "7.3 GPM",
-              "waterTemp": "87/99°F"
-            },
-            "filter": "MERV-8",
-            "electrical": {
-              "voltage": "208/3/60",
-              "FLA": 18.2,
-              "MCA": 21.2,
-              "MOP": 30
-            },
-            "weight": "205.2 lbs",
-            "dimensions": "47x21.5x19 in."
-          }
-        },
-        {
-          "equipmentTag": "CRAC-29-1 through CRAC-44-1 (except CRAC-35-2, -3, -4, -38-1)",
-          "manufacturer": "AboveAir",
-          "model": "MCW-007S1-7-00000-EC-00-UF2-XS",
-          "specifications": {
-            "type": "Large-Capacity, Computer-Room Air-Conditioner, Floor-Mounted Unit",
-            "cooling": {
-              "capacity": "25.4 MBH total, 20.7 MBH sensible",
-              "airflow": "1000 CFM",
-              "ESP": "0.5 in. W.G."
-            },
-            "compressor": {
-              "type": "Scroll",
-              "quantity": 1,
-              "refrigerant": "R-410A"
-            },
-            "condenser": {
-              "waterFlow": "5.2 GPM",
-              "waterTemp": "87/99°F"
-            },
-            "filter": "MERV-8",
-            "electrical": {
-              "voltage": "277/1/60",
-              "FLA": 13.3,
-              "MCA": 15.7,
-              "MFS": 25
-            },
-            "weight": "480 lbs",
-            "dimensions": "24x24x77 in."
-          }
-        },
-        {
-          "equipmentTag": "CRAC-35-2, CRAC-35-3, CRAC-35-4",
-          "manufacturer": "AboveAir",
-          "model": "MCW-018S1-4-00ERH-EC-FE-UF0-1A",
-          "specifications": {
-            "type": "Large-Capacity, Computer-Room Air-Conditioner, Floor-Mounted Unit",
-            "cooling": {
-              "capacity": "68.9 MBH total, 65.1 MBH sensible",
-              "airflow": "2800 CFM",
-              "ESP": "0.5 in. W.G."
-            },
-            "compressor": {
-              "type": "Scroll",
-              "quantity": 1,
-              "refrigerant": "R-410A"
-            },
-            "reheat": {
-              "type": "Electric",
-              "capacity": "10 kW"
-            },
-            "humidifier": {
-              "type": "Steam Canister",
-              "capacity": "10 lbs/hr"
-            },
-            "condenser": {
-              "waterFlow": "13.7 GPM",
-              "waterTemp": "87/99°F"
-            },
-            "filter": "MERV-8",
-            "electrical": {
-              "voltage": "460/3/60",
-              "FLA": 26.4,
-              "MCA": 31.5,
-              "MOP": 35
-            },
-            "weight": "625 lbs",
-            "dimensions": "40X34X77 in."
-          }
-        }
-      ]
-    },
-    {
-      "equipmentType": "Make-Up Air Units",
-      "notes": "Packaged, outdoor, heating-only make-up air unit for kitchen ventilation",
-      "items": [
         {
           "equipmentTag": "MUA-14-1",
           "manufacturer": "Mammoth",
           "model": "VVX-1684-GEL",
           "specifications": {
-            "location": "14TH FLOOR MER",
-            "service": "14TH FLOOR KITCHEN",
-            "airflow": "11,000 CFM",
-            "ESP": "2 in. W.G.",
-            "fanMotor": {
-              "quantity": 2,
-              "HP": 5.5
-            },
-            "coolingCoil": {
-              "capacity": "822.4 MBH total, 508.4 MBH sensible"
-            },
-            "hotGasReheatCoil": {
-              "capacity": "246 MBH"
-            },
-            "electricHeater": {
-              "tag": "EDH-14-1",
-              "capacity": "656.4 MBH (192.4 kW)",
-              "voltage": "460/3/60",
-              "FLA": 242,
-              "MCA": 303,
-              "MOP": 350
-            },
-            "compressor": {
-              "type": "Scroll",
-              "quantity": 6
-            },
-            "condenser": {
-              "waterFlow": "160 GPM",
-              "waterTemp": "87/99°F"
-            },
-            "filter": {
-              "type": "MERV-8 (pre), MERV-15",
-              "quantity": 15
-            },
-            "electrical": {
-              "voltage": "460/3/60",
-              "FLA": 107,
-              "MCA": 111,
-              "MOP": 150
-            },
+            "type": "Packaged, Outdoor, Heating-Only Makeup-Air Unit",
+            "cfm": "11,000",
+            "esp": "2 in. w.g.",
+            "fan_motor_hp": "5.5 x 2",
+            "cooling_capacity": "822.4 MBH",
+            "sensible_capacity": "508.4 MBH",
+            "heating_capacity": "656.4 MBH",
+            "electric_heat": "192.4 kW",
             "weight": "8,600 lbs",
-            "dimensions": "98x103x93 in."
+            "dimensions": "98 x 103 x 93 inches",
+            "electrical": "460/3/60"
           }
         }
       ]
     },
     {
-      "equipmentType": "Electrostatic Precipitators",
-      "notes": "ESP for kitchen exhaust air filtration with odor control section",
+      "equipmentType": "Electronic Air Cleaners",
+      "notes": "",
       "items": [
         {
           "equipmentTag": "ESP-14-1",
           "manufacturer": "Halton",
           "model": "PST-18-ESP-ESP-EF-OCUV-OCC-B",
           "specifications": {
-            "location": "MER",
-            "service": "KITCHEN",
-            "fanSection": {
-              "model": "ATZAF 22-22-FF-T2 DWDI",
-              "CFM": 16000,
-              "staticPressure": "5.99 in. W.G.",
-              "ESP": "2.42 in. W.G.",
-              "HP": 25,
-              "RPM": 1800
-            },
-            "electrostaticPrecipitator": {
-              "passes": 2,
-              "cellsPerPass": 12,
-              "cellDimensions": "24x24x12, 24x12x12 in.",
-              "pressureDrop": "0.2 in. W.G."
-            },
-            "carbonFilters": {
-              "numberOfFilters": 72,
-              "pressureDrop": "0.25 in. W.G."
-            },
-            "bafflePrefilters": {
-              "numberOfFilters": 9,
-              "pressureDrop": "0.25 in. W.G."
-            },
-            "electrical": {
-              "fanVoltage": "460/3/60",
-              "fanFLA": 34,
-              "fanMCA": 42.5,
-              "fanMOCP": 76.5,
-              "controlVoltage": "120/1/60",
-              "controlFLA": 30
-            },
-            "weight": "10211 lbs",
-            "dimensions": "252x75x96 in."
+            "type": "Electrostatic Precipitator",
+            "cfm": "16,000",
+            "fan_model": "CSP-A1300",
+            "fan_esp": "5.99 in. w.g.",
+            "fan_hp": "25",
+            "fan_rpm": "1800",
+            "weight": "10,211 lbs",
+            "electrical": "460/3/60"
           }
         }
       ]
     },
     {
-      "equipmentType": "Fan Coil Units",
-      "notes": "Horizontal fan coil units for supplemental cooling/heating",
+      "equipmentType": "VAV Terminal Units",
+      "notes": "These are all single duct terminals without reheat. Low budget.",
       "items": [
         {
-          "equipmentTag": "FCU-14-1, FCU-16-1",
-          "manufacturer": "IEC",
-          "model": "HPY12",
+          "equipmentTag": "VAV-6",
+          "manufacturer": "Titus",
+          "model": "DESV-6",
           "specifications": {
-            "type": "2-PIPE, 6-ROW - HEATING & COOLING",
-            "cooling": {
-              "capacity": "39.3 MBH total, 26.8 MBH sensible",
-              "airflow": "921 CFM",
-              "EAT": "80°F DB, 67°F WB",
-              "waterTemp": "45/55°F",
-              "waterFlow": "7.7 GPM",
-              "pressureDrop": "11.1 ft of H2O"
-            },
-            "heating": {
-              "capacity": "68.6 MBH",
-              "waterTemp": "150/132.2°F",
-              "waterFlow": "7.8 GPM",
-              "pressureDrop": "8.7 ft of H2O"
-            },
-            "motor": {
-              "speeds": 3,
-              "watts": 217.6,
-              "voltage": "115/1/60",
-              "FLA": 6.6,
-              "MCA": 7.425,
-              "MFS": 15
-            },
-            "filter": "14x35 in.",
-            "weight": "169 lbs",
-            "dimensions": "32x37x16 in."
+            "type": "Single-Duct VAV Terminal Unit",
+            "size": "6",
+            "max_cap": "500",
+            "max_set": "350",
+            "min_set": "80",
+            "pressure_drop": "0.03 in. w.g."
           }
         },
         {
-          "equipmentTag": "FCU-15-1, -2, FCU-16-2, -3",
-          "manufacturer": "IEC",
-          "model": "HPY08",
+          "equipmentTag": "VAV-8",
+          "manufacturer": "Titus",
+          "model": "DESV-8",
           "specifications": {
-            "type": "2-PIPE, 6-ROW - HEATING & COOLING",
-            "cooling": {
-              "capacity": "22.7 MBH total, 15.7 MBH sensible",
-              "airflow": "550 CFM",
-              "EAT": "80°F DB, 67°F WB",
-              "waterTemp": "45/55°F",
-              "waterFlow": "4.6 GPM",
-              "pressureDrop": "3.7 ft of H2O"
-            },
-            "heating": {
-              "capacity": "41 MBH",
-              "waterTemp": "150/131.6°F",
-              "waterFlow": "4.5 GPM",
-              "pressureDrop": "2.9 ft of H2O"
-            },
-            "motor": {
-              "speeds": 3,
-              "watts": 141.2,
-              "voltage": "115/1/60",
-              "FLA": 4.3,
-              "MCA": 5.375,
-              "MFS": 15
-            },
-            "filter": "14x26 in.",
-            "weight": "107 lbs",
-            "dimensions": "28x32x16 in."
+            "type": "Single-Duct VAV Terminal Unit",
+            "size": "8",
+            "max_cap": "900",
+            "max_set": "750",
+            "min_set": "145",
+            "pressure_drop": "0.01 in. w.g."
+          }
+        },
+        {
+          "equipmentTag": "VAV-10",
+          "manufacturer": "Titus",
+          "model": "DESV-10",
+          "specifications": {
+            "type": "Single-Duct VAV Terminal Unit",
+            "size": "10",
+            "max_cap": "1400",
+            "max_set": "1100",
+            "min_set": "230",
+            "pressure_drop": "0.01 in. w.g."
+          }
+        },
+        {
+          "equipmentTag": "VAV-12",
+          "manufacturer": "Titus",
+          "model": "DESV-12",
+          "specifications": {
+            "type": "Single-Duct VAV Terminal Unit",
+            "size": "12",
+            "max_cap": "2000",
+            "max_set": "1600",
+            "min_set": "325",
+            "pressure_drop": "0.01 in. w.g."
+          }
+        },
+        {
+          "equipmentTag": "VAV-14",
+          "manufacturer": "Titus",
+          "model": "DESV-14",
+          "specifications": {
+            "type": "Single-Duct VAV Terminal Unit",
+            "size": "14",
+            "max_cap": "3000",
+            "max_set": "2100",
+            "min_set": "450",
+            "pressure_drop": "0.01 in. w.g."
+          }
+        },
+        {
+          "equipmentTag": "VAV-16",
+          "manufacturer": "Titus",
+          "model": "DESV-16",
+          "specifications": {
+            "type": "Single-Duct VAV Terminal Unit",
+            "size": "16",
+            "max_cap": "4100",
+            "max_set": "3100",
+            "min_set": "580",
+            "pressure_drop": "0.01 in. w.g."
           }
         }
       ]
     },
     {
       "equipmentType": "HVAC Fans",
-      "notes": "Various fans for exhaust, transfer, and ventilation applications",
+      "notes": "DXF-14-1 serves dishwasher. Aluminum wheel needed for dishwasher exhaust fans. BOD fan may not be compatible with EC motor. Engineer requests add-alt breakout price for transfer fans serving IDF rooms.",
       "items": [
         {
-          "equipmentTag": "DXF-14-1, DXF-14-2",
+          "equipmentTag": "DXF-14-1",
           "manufacturer": "Greenheck",
           "model": "QEI-9",
           "specifications": {
-            "type": "INLINE",
-            "location": "14TH FLOOR MER",
-            "service": "14TH FLOOR DISHWASHERS / 15TH & 16TH FLOOR DISHWASHERS",
-            "airflow": "1200 CFM",
-            "staticPressure": "3 in. W.G.",
-            "motorType": "BELT-DRIVE",
-            "HP": 1.5,
-            "voltage": "460/3/60",
-            "RPM": 3600,
+            "type": "Inline",
+            "cfm": "1200",
+            "static_pressure": "3 in. w.g.",
+            "motor": {
+              "hp": "1.5",
+              "volts": "460",
+              "phase": "3",
+              "hz": "60"
+            },
+            "rpm": "3600",
             "weight": "188 lbs",
-            "dimensions": "28.5x20x22.75 in."
+            "dimensions": "28.5 x 20 x 22.75 in"
           }
         },
         {
-          "equipmentTag": "EF-13-1, EF-14-1, EF-15-3, EF-16-3",
+          "equipmentTag": "DXF-14-2",
+          "manufacturer": "Greenheck",
+          "model": "QEI-9",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "1200",
+            "static_pressure": "3 in. w.g.",
+            "motor": {
+              "hp": "1.5",
+              "volts": "460",
+              "phase": "3",
+              "hz": "60"
+            },
+            "rpm": "3600",
+            "weight": "188 lbs",
+            "dimensions": "28.5 x 20 x 22.75 in"
+          }
+        },
+        {
+          "equipmentTag": "EF-13-1",
           "manufacturer": "Greenheck",
           "model": "CSP-A510-VG",
           "specifications": {
-            "type": "INLINE",
-            "location": "CEILING",
-            "service": "SEE PLANS",
-            "airflow": "500 CFM",
-            "staticPressure": "0.25 in. W.G.",
-            "motorType": "BC",
-            "power": "0.156 kW",
-            "voltage": "120/1/60",
-            "RPM": 1275,
+            "type": "Inline",
+            "cfm": "500",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.156",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1275",
             "weight": "36 lbs",
-            "dimensions": "15x18x15 in."
+            "dimensions": "15 x 18 x 15 in"
           }
         },
         {
-          "equipmentTag": "EF-15-1, EF-16-1",
+          "equipmentTag": "EF-14-1",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A510-VG",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "500",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.156",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1275",
+            "weight": "36 lbs",
+            "dimensions": "15 x 18 x 15 in"
+          }
+        },
+        {
+          "equipmentTag": "EF-15-1",
           "manufacturer": "Greenheck",
           "model": "CSP-A700",
           "specifications": {
-            "type": "INLINE",
-            "location": "CEILING",
-            "service": "PANTRY",
-            "airflow": "600 CFM",
-            "staticPressure": "0.5 in. W.G.",
-            "motorType": "BC",
-            "power": "0.312 kW",
-            "voltage": "120/1/60",
-            "RPM": 1035,
+            "type": "Inline",
+            "cfm": "600",
+            "static_pressure": "0.5 in. w.g.",
+            "motor": {
+              "kw": "0.312",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1035",
             "weight": "34 lbs",
-            "dimensions": "12x24x12 in."
+            "dimensions": "12 x 24 x 12 in"
           }
         },
         {
-          "equipmentTag": "EF-15-2, -5, EF-16-2, -5",
+          "equipmentTag": "EF-15-2, -5",
           "manufacturer": "Greenheck",
           "model": "CSP-A390-VG",
           "specifications": {
-            "type": "INLINE",
-            "location": "CEILING",
-            "service": "SEE PLANS",
-            "airflow": "250 CFM",
-            "staticPressure": "0.25 in. W.G.",
-            "motorType": "EC",
-            "power": "0.829 kW",
-            "voltage": "120/1/60",
-            "RPM": 1260,
+            "type": "Inline",
+            "cfm": "250",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.829",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1260",
             "weight": "23 lbs",
-            "dimensions": "12x14x12 in."
+            "dimensions": "12 x 14 x 12 in"
           }
         },
         {
-          "equipmentTag": "EF-15-4, EF-16-4",
+          "equipmentTag": "EF-15-3",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A510-VG",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "500",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.156",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1275",
+            "weight": "36 lbs",
+            "dimensions": "15 x 18 x 15 in"
+          }
+        },
+        {
+          "equipmentTag": "EF-15-4",
           "manufacturer": "Greenheck",
           "model": "CSP-A780",
           "specifications": {
-            "type": "INLINE",
-            "location": "CEILING MOUNTED",
-            "service": "ELEC ROOM",
-            "airflow": "700 CFM",
-            "staticPressure": "0.25 in. W.G.",
-            "motorType": "BC",
-            "power": "0.5 kW",
-            "voltage": "115V",
-            "RPM": 1600,
+            "type": "Inline",
+            "cfm": "700",
+            "static_pressure": "0.375 in. w.g.",
+            "motor": {
+              "kw": "0.49",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1600",
             "weight": "36 lbs",
-            "dimensions": "18X15X15 in."
+            "dimensions": "18 x 15 x 15 in"
+          }
+        },
+        {
+          "equipmentTag": "EF-16-1",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A700",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "600",
+            "static_pressure": "0.5 in. w.g.",
+            "motor": {
+              "kw": "0.312",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1035",
+            "weight": "34 lbs",
+            "dimensions": "12 x 24 x 12 in"
+          }
+        },
+        {
+          "equipmentTag": "EF-16-2, -5",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A390-VG",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "250",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.829",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1260",
+            "weight": "23 lbs",
+            "dimensions": "12 x 14 x 12 in"
+          }
+        },
+        {
+          "equipmentTag": "EF-16-3",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A510-VG",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "500",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.156",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1275",
+            "weight": "36 lbs",
+            "dimensions": "15 x 18 x 15 in"
+          }
+        },
+        {
+          "equipmentTag": "EF-16-4",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A780",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "700",
+            "static_pressure": "0.375 in. w.g.",
+            "motor": {
+              "kw": "0.49",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1600",
+            "weight": "36 lbs",
+            "dimensions": "18 x 15 x 15 in"
           }
         },
         {
@@ -695,53 +510,304 @@
           "manufacturer": "Greenheck",
           "model": "CSP-A390",
           "specifications": {
-            "type": "INLINE",
-            "location": "14TH FLOOR MER",
-            "service": "GREASE TRAP ROOM",
-            "airflow": "250 CFM",
-            "staticPressure": "0.25 in. W.G.",
-            "motorType": "BC",
-            "power": "0.829 kW",
-            "voltage": "120/1/60",
-            "RPM": 1260,
+            "type": "Inline",
+            "cfm": "250",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.829",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1260",
             "weight": "23 lbs",
-            "dimensions": "12x14x12 in."
+            "dimensions": "12 x 14 x 12 in"
           }
         },
         {
-          "equipmentTag": "TF-13-1, TF-14-1, TF-15-1, TF-16-1",
+          "equipmentTag": "TF-13-1",
           "manufacturer": "Greenheck",
           "model": "CSP-A1300",
           "specifications": {
-            "type": "INLINE",
-            "location": "CEILING",
-            "service": "SEE PLANS",
-            "airflow": "1200 CFM",
-            "staticPressure": "0.25 in. W.G.",
-            "motorType": "BC",
-            "power": "0.7 kW",
-            "voltage": "120/1/60",
-            "RPM": 1300,
+            "type": "Inline",
+            "cfm": "1200",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.7",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1300",
             "weight": "59 lbs",
-            "dimensions": "23X14X14 in."
+            "dimensions": "23 x 14 x 14 in"
           }
         },
         {
-          "equipmentTag": "TX-13-1, -2, TX-14-1, -2, TX-15-1, -2, TX-16-1, -2",
+          "equipmentTag": "TF-14-1",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A1300",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "1200",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.7",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1300",
+            "weight": "59 lbs",
+            "dimensions": "23 x 14 x 14 in"
+          }
+        },
+        {
+          "equipmentTag": "TF-15-1",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A1300",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "1200",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.7",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1300",
+            "weight": "59 lbs",
+            "dimensions": "23 x 14 x 14 in"
+          }
+        },
+        {
+          "equipmentTag": "TF-16-1",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A1300",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "1200",
+            "static_pressure": "0.25 in. w.g.",
+            "motor": {
+              "kw": "0.7",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1300",
+            "weight": "59 lbs",
+            "dimensions": "23 x 14 x 14 in"
+          }
+        },
+        {
+          "equipmentTag": "TX-13-1, -2",
           "manufacturer": "Greenheck",
           "model": "CSP-A780",
           "specifications": {
-            "type": "INLINE",
-            "location": "CEILING",
-            "service": "SEE PLANS",
-            "airflow": "700 CFM",
-            "staticPressure": "0.375 in. W.G.",
-            "motorType": "BC",
-            "power": "0.49 kW",
-            "voltage": "120/1/60",
-            "RPM": 1600,
+            "type": "Inline",
+            "cfm": "700",
+            "static_pressure": "0.375 in. w.g.",
+            "motor": {
+              "kw": "0.49",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1600",
             "weight": "36 lbs",
-            "dimensions": "18x15x15 in."
+            "dimensions": "18 x 15 x 15 in"
+          }
+        },
+        {
+          "equipmentTag": "TX-14-1, -2",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A780",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "700",
+            "static_pressure": "0.375 in. w.g.",
+            "motor": {
+              "kw": "0.49",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1600",
+            "weight": "36 lbs",
+            "dimensions": "18 x 15 x 15 in"
+          }
+        },
+        {
+          "equipmentTag": "TX-15-1, -2",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A780",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "700",
+            "static_pressure": "0.375 in. w.g.",
+            "motor": {
+              "kw": "0.49",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1600",
+            "weight": "36 lbs",
+            "dimensions": "18 x 15 x 15 in"
+          }
+        },
+        {
+          "equipmentTag": "TX-16-1, -2",
+          "manufacturer": "Greenheck",
+          "model": "CSP-A780",
+          "specifications": {
+            "type": "Inline",
+            "cfm": "700",
+            "static_pressure": "0.375 in. w.g.",
+            "motor": {
+              "kw": "0.49",
+              "volts": "120",
+              "phase": "1",
+              "hz": "60"
+            },
+            "rpm": "1600",
+            "weight": "36 lbs",
+            "dimensions": "18 x 15 x 15 in"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Fairly straightforward. Some manufacturers have piping packages included from factory. No external static pressure requirements listed.",
+      "items": [
+        {
+          "equipmentTag": "FCU-14-1",
+          "manufacturer": "IEC",
+          "model": "HPY12",
+          "specifications": {
+            "type": "2-Pipe, 6-Row - Heating & Cooling",
+            "cfm": "921",
+            "cooling_capacity": {
+              "total": "39.3 MBH",
+              "sensible": "26.8 MBH"
+            },
+            "heating_capacity": "68.6 MBH",
+            "chilled_water": {
+              "gpm": "7.7",
+              "ewt_lwt": "45/55 °F",
+              "pressure_drop": "11.1 ft of H2O"
+            },
+            "hot_water": {
+              "gpm": "7.8",
+              "ewt_lwt": "150/132.2 °F",
+              "pressure_drop": "8.7 ft of H2O"
+            },
+            "electrical": {
+              "volts": "115",
+              "phase": "1",
+              "hz": "60",
+              "fla": "6.6"
+            },
+            "weight": "169 lbs",
+            "dimensions": "32 x 37 x 16 in"
+          }
+        },
+        {
+          "equipmentTag": "FCU-16-1",
+          "manufacturer": "IEC",
+          "model": "HPY12",
+          "specifications": {
+            "type": "2-Pipe, 6-Row - Heating & Cooling",
+            "cfm": "921",
+            "cooling_capacity": {
+              "total": "39.3 MBH",
+              "sensible": "26.8 MBH"
+            },
+            "heating_capacity": "68.6 MBH",
+            "chilled_water": {
+              "gpm": "7.7",
+              "ewt_lwt": "45/55 °F",
+              "pressure_drop": "11.1 ft of H2O"
+            },
+            "hot_water": {
+              "gpm": "7.8",
+              "ewt_lwt": "150/132.2 °F",
+              "pressure_drop": "8.7 ft of H2O"
+            },
+            "electrical": {
+              "volts": "115",
+              "phase": "1",
+              "hz": "60",
+              "fla": "6.6"
+            },
+            "weight": "169 lbs",
+            "dimensions": "32 x 37 x 16 in"
+          }
+        },
+        {
+          "equipmentTag": "FCU-15-1, -2",
+          "manufacturer": "IEC",
+          "model": "HPY08",
+          "specifications": {
+            "type": "2-Pipe, 6-Row - Heating & Cooling",
+            "cfm": "550",
+            "cooling_capacity": {
+              "total": "22.7 MBH",
+              "sensible": "15.7 MBH"
+            },
+            "heating_capacity": "41 MBH",
+            "chilled_water": {
+              "gpm": "4.6",
+              "ewt_lwt": "45/55 °F",
+              "pressure_drop": "3.7 ft of H2O"
+            },
+            "hot_water": {
+              "gpm": "4.5",
+              "ewt_lwt": "150/131.6 °F",
+              "pressure_drop": "2.9 ft of H2O"
+            },
+            "electrical": {
+              "volts": "115",
+              "phase": "1",
+              "hz": "60",
+              "fla": "4.3"
+            },
+            "weight": "107 lbs",
+            "dimensions": "28 x 32 x 16 in"
+          }
+        },
+        {
+          "equipmentTag": "FCU-16-2, -3",
+          "manufacturer": "IEC",
+          "model": "HPY08",
+          "specifications": {
+            "type": "2-Pipe, 6-Row - Heating & Cooling",
+            "cfm": "550",
+            "cooling_capacity": {
+              "total": "22.7 MBH",
+              "sensible": "15.7 MBH"
+            },
+            "heating_capacity": "41 MBH",
+            "chilled_water": {
+              "gpm": "4.6",
+              "ewt_lwt": "45/55 °F",
+              "pressure_drop": "3.7 ft of H2O"
+            },
+            "hot_water": {
+              "gpm": "4.5",
+              "ewt_lwt": "150/131.6 °F",
+              "pressure_drop": "2.9 ft of H2O"
+            },
+            "electrical": {
+              "volts": "115",
+              "phase": "1",
+              "hz": "60",
+              "fla": "4.3"
+            },
+            "weight": "107 lbs",
+            "dimensions": "28 x 32 x 16 in"
           }
         }
       ]
