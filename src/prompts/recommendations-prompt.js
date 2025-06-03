@@ -51,6 +51,8 @@ Ensure all fields are populated based on available information in the context fi
 
 Extract information only from the provided context. Do not hallucinate or invent data. If you lack sufficient information to make meaningful recommendations, provide fewer, more general recommendations rather than inventing details.
 
+Do not provide numeric values for cost estimates (e.g., 5-10% savings). Instead, use generic language (e.g., significant, modest, meaningful).
+
 The output must be valid, parseable JSON without any explanatory text, markdown formatting or additional notes. Do not include \`\`\`json markers.
 `;
 }
