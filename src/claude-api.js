@@ -50,7 +50,7 @@ function validateEnvironment() {
 
 // Claude API configuration
 const CLAUDE_API_URL = 'https://api.anthropic.com/v1/messages';
-const CLAUDE_MODEL = 'claude-3-7-sonnet-20250219'; // Updated model
+const CLAUDE_MODEL = 'claude-sonnet-4-20250514'; // Updated model
 
 /**
  * Format a file to be used as context for Claude
