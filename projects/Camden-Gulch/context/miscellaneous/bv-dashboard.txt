@@ -1,0 +1,364 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Layton
+package projects
+Camden Gulch FINAL BIDDING
+
+    packages
+
+MH
+Organization Logo
+Camden Gulch - FINAL BIDDING
+Layton
+Stakeholders
+909 Division Street, Nashville, TN 37203
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Action
++1
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+EF-A	Broan-NuTone	Centrifugal HVAC Fans	LP90100CC	
+Annotation
+	
+EF-B	Greenheck	HVAC Fans	SP-A110	
+Annotation
+	
+EF-C	Greenheck	HVAC Fans	SP-A190	
+Annotation
+	
+EF-D	Broan-NuTone	Centrifugal HVAC Fans	P90100CC	
+Annotation
+	
+EF-FP	Greenheck	HVAC Fans	SQ-15-VG	
+Annotation
+	
+EF-GEN	Greenheck	HVAC Power Ventilators	SQ-180-VG	
+Annotation
+	
+EF-POOL	Greenheck	HVAC Fans	SQ-95-VG	
+Annotation
+	
+EF-PW	Greenheck	HVAC Fans	SP-A250	
+Annotation
+	
+EF-TFRM	Greenheck	Centrifugal HVAC Fans	USF-49	
+Annotation
+	
+EF-TR-1	Greenheck	HVAC Fans	USF-22-B6	
+Annotation
+	
+SPF-1	Greenheck	Axial HVAC Fans	AX-90-275-0025	
+Annotation
+	
+SPF-2	Greenheck	Axial HVAC Fans	AX-90-275-0020	
+Annotation
+	
+SPF-2-1	Greenheck	HVAC Fans	AX-72-190-0630	
+Annotation
+	
+SPF-3	Greenheck	Axial HVAC Fans	AX-80-275-0630	
+Annotation
+	
+TRF-A	Zoo Fans	Centrifugal HVAC Fans	JetVent JVEC-LP	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+DFC/DCU ELE	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ducted	PKA30PUY30	
+Annotation
+	
+DFC/DCU ELE2	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ducted	PLA42PUY42	
+Annotation
+	
+DFC/DCU ELE4	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ducted	PKA18PUY18	
+Annotation
+	
+DFC/DCU ELEC	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ducted	PLA36PUY36	
+Annotation
+	
+DFC/DCU ELER	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ducted	PKA12PUY12	
+Annotation
+	
+DFC/DCU EM	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ducted	PLA36PUY36	
+Annotation
+	
+DFC/DCU IDF	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ducted	PKA30PUY30	
+Annotation
+	
+DFC/DCU IDF	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ducted	PKA18PUY18	
+Annotation
+	
+DFH/DHP A	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ductless	MSZ12MXZ-2C24	
+Annotation
+	
+DFH/DHP EMR	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ductless	PKAPU230	
+Annotation
+	
+DFH/DHP FCC	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ductless	PKA12PUZ12	
+Annotation
+	
+DFH/DHP LB	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ductless	MSZ12MXZ-3C30	
+Annotation
+	
+DFH/DHP PW	Mitsubishi Electric (Including Trane Products)	VRF Indoor Units - Ductless	PKAPU2Z4	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+RTU-R-1	Carrier	Packaged Rooftop Air-Conditioning Units	48LCRA17	
+Annotation
+	
++1
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AH-A	Carrier	Split System Air Conditioners	FMC4018	
+Annotation
+	
+AH-A-1	Goodman Manufacturing Company	Split System Air Conditioners	AWST18	
+Annotation
+	
+AH-B	Goodman Manufacturing Company	Split System Air Conditioners	AWST24	
+Annotation
+	
+AH-B1	Daikin Comfort Technologies (VRV and Mini Split)	Split System Air Conditioners	FTQ24	
+Annotation
+	
+AH-C	Goodman Manufacturing Company	Split System Air Conditioners	AWST30	
+Annotation
+	
+AH-C1	Goodman Manufacturing Company	Split System Air Conditioners	AWST30	
+Annotation
+	
+AH-C2	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ30RZQ30	
+Annotation
+	
+AH-CORR-HP-CORR	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ36RZQ36	
+Annotation
+	
+AH-D	Goodman Manufacturing Company	Split System Air Conditioners	AWST36	
+Annotation
+	
+AH-D1	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ36RZQ36	
+Annotation
+	
+AH-E	Goodman Manufacturing Company	Split System Air Conditioners	AMST48CU14	
+Annotation
+	
+AH-E1	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ48RZQ48	
+Annotation
+	
+AH-L16-1-HP-L16-1	Goodman Manufacturing Company	Air-Source Unitary Heat Pumps	AMST24/GSZ250024	
+Annotation
+	
+AH-L1-HP-L-1	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ18RZQ18	
+Annotation
+	
+AH-L1-HP-L-1	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ24RZQ24	
+Annotation
+	
+AH-L2-HP-L-2	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ48RZQ48	
+Annotation
+	
+AH-L3-HP-L-3	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ48RZQ48	
+Annotation
+	
+AH-L4-1-HP-L4-1	Goodman Manufacturing Company	Air-Source Unitary Heat Pumps	AMST36/GSZ250048	
+Annotation
+	
+AH-L4-2-HP-L4-2	Goodman Manufacturing Company	Air-Source Unitary Heat Pumps	AMST48/GSZ250048	
+Annotation
+	
+AH-L4-3-HP-L4-3	Goodman Manufacturing Company	Air-Source Unitary Heat Pumps	AMST24/GSZ250024	
+Annotation
+	
+AH-L4-4-HP-L4-4	Goodman Manufacturing Company	Air-Source Unitary Heat Pumps	AMST48/GSZ250048	
+Annotation
+	
+AH-L4-5-HP-L4-5	Goodman Manufacturing Company	Air-Source Unitary Heat Pumps	AMST48/GSZ250048	
+Annotation
+	
+AH-L4-6-HP-L4-6	Goodman Manufacturing Company	Air-Source Unitary Heat Pumps	AMST48/GSZ250048	
+Annotation
+	
+AH-L4-HP-L-4	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ24RZQ24	
+Annotation
+	
+AH-L5-HP-L-5	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ24RZQ24	
+Annotation
+	
+AH-MAINT-HP-MAINT	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ30RZQ30	
+Annotation
+	
+HP-A	Goodman Manufacturing Company	Split System Air Conditioners	GH55AN418	
+Annotation
+	
+HP-A1	Goodman Manufacturing Company	Split System Air Conditioners	GSZH501810	
+Annotation
+	
+HP-B	Goodman Manufacturing Company	Split System Air Conditioners	GSZH502410	
+Annotation
+	
+HP-B1	Daikin Comfort Technologies (VRV and Mini Split)	Split System Air Conditioners	RZQ24	
+Annotation
+	
+HP-C	Goodman Manufacturing Company	Split System Air Conditioners	GSZH503010	
+Annotation
+	
+HP-C1	Goodman Manufacturing Company	Split System Air Conditioners	GSZH503010	
+Annotation
+	
+HP-C2	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ30RZQ30	
+Annotation
+	
+HP-D	Goodman Manufacturing Company	Indoor Central AHUs Modular	GSZH503610A	
+Annotation
+	
+HP-D1	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ36RZQ36	
+Annotation
+	
+HP-E	Goodman Manufacturing Company	Split System Air Conditioners	GSZH5048	
+Annotation
+	
+HP-E1	Daikin Comfort Technologies (VRV and Mini Split)	Air-Source Unitary Heat Pumps	FTQ48RZQ48	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+OAU R-1	Daikin Applied	Packaged, Outdoor, Heating-Only Makeup-Air Units	RPS140D	
+Annotation
+	
+OAU R-2	Daikin Applied	Packaged, Outdoor, Heating-Only Makeup-Air Units	RPS 130D	
+Annotation
+	
+OAU R-3	Daikin Applied	Packaged, Outdoor, Heating-Only Makeup-Air Units	RPS052	
+Annotation
+	
+https://app.buildvision.io/admin/organizations/f94e986c-cfce-4e0f-a24c-200a374ab999/package-projects/75083fad-45f5-477a-915f-93f1f8e7bc13/packages
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Layton
+package projects
+Camden Gulch FINAL BIDDING
+
+    details
+
+MH
+Organization Logo
+Camden Gulch - FINAL BIDDING
+Layton
+Stakeholders
+909 Division Street, Nashville, TN 37203
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+Brian Malich (brian.malich@laytonconstruction.com)
+Address
+909 Division Street, Nashville, TN 37203
+Created
+5/28/2025
+Expected Start
+10/6/2025
+Date Due
+6/19/2025
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+6/6/2025
+Date Invited
+5/28/2025
+Request Type
+Proposal
+Project Size
+812548 sq. ft.
+

@@ -1,0 +1,43 @@
+{
+  "reportTitle": "BuildVision Project Report for HMH - JSUMC Central Utility Plant Expansion",
+  "customerInformation": {
+    "customerName": "Hackensack Meridian Health - Jersey Shore University Medical Center",
+    "contactPerson": "Ken Rienstra",
+    "contactEmail": "krienstra@lfdriscoll.com",
+    "contactPhone": "",
+    "projectId": "fe314a11-6144-4d37-9c7c-2ec8945a34e5",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "HMH - JSUMC Central Utility Plant Expansion",
+    "location": "1945 New Jersey 33, Neptune City, NJ 07753",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Central Utility Plant Expansion including chillers, cooling towers, pumps, air handling units, and associated HVAC equipment",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/9474ffd3-66c9-4316-b45c-c71e80a1d3b4/package-projects/fe314a11-6144-4d37-9c7c-2ec8945a34e5/packages",
+    "additionalFields": {
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead",
+      "dateDue": "3/10/2025",
+      "dateInvited": "5/16/2025",
+      "requestType": "Proposal",
+      "projectNumber": "150-24-003_400"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

@@ -1,0 +1,845 @@
+{
+  "reportTitle": "BuildVision Project Report for HMH JSUMC Periop Expansion",
+  "customerInformation": {
+    "customerName": "LF Driscoll",
+    "contactPerson": "Ken Rienstra",
+    "contactEmail": "krienstra@lfdriscoll.com",
+    "contactPhone": "",
+    "projectId": "",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "HMH JSUMC Periop Expansion",
+    "location": "1945 New Jersey 33, Neptune City, NJ 07753",
+    "startDate": "",
+    "completionDate": "6/20/2025",
+    "budget": "",
+    "scope": "4-story building including MER Penthouse; 128,000 gsf total. Jersey Shore University Medical Center perioperative expansion including operating rooms, sterile processing department, and supporting medical facilities.",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/9474ffd3-66c9-4316-b45c-c71e80a1d3b4/package-projects/67923220-bad4-483d-93d8-bcee866ed374/packages",
+    "additionalFields": {
+      "contractType": "BuildingConnected Lead",
+      "projectSize": "138602 sq. ft.",
+      "requestType": "Budget",
+      "dateInvited": "6/6/2025",
+      "created": "6/6/2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-13"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Custom hospital grade units with less than 1% leakage, double wall 4 inch insulated with thermal break, all internal components 100% aluminum or stainless steel",
+      "items": [
+        {
+          "equipmentTag": "AHU-R-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 4 OR",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 10500,
+            "capacity_tons": 42000,
+            "type": "OR AHU with desiccant dehumidification"
+          }
+        },
+        {
+          "equipmentTag": "AHU-R-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 4 OR",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 10500,
+            "capacity_tons": 42000,
+            "type": "OR AHU with desiccant dehumidification"
+          }
+        },
+        {
+          "equipmentTag": "AHU-R-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 4 OR",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 10500,
+            "capacity_tons": 42000,
+            "type": "OR AHU with desiccant dehumidification"
+          }
+        },
+        {
+          "equipmentTag": "AHU-R-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 2 SPD",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 42000,
+            "capacity_tons": 42000,
+            "type": "SPD AHU"
+          }
+        },
+        {
+          "equipmentTag": "AHU-R-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 1 LOADING DOCK",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 3600,
+            "capacity_tons": 12000,
+            "type": "Standard AHU"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heat Exchangers",
+      "notes": "Steam-to-water and plate frame heat exchangers for heating water generation and heat recovery",
+      "items": [
+        {
+          "equipmentTag": "HX-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger",
+            "service": "Temperature Reset Loop",
+            "capacity_lbs_per_hr": 1600,
+            "configuration": "Shell and tube with standby"
+          }
+        },
+        {
+          "equipmentTag": "HX-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger",
+            "service": "Constant Temperature Loop",
+            "capacity_lbs_per_hr": 5200,
+            "configuration": "Shell and tube with standby"
+          }
+        },
+        {
+          "equipmentTag": "HX-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger",
+            "service": "Temperature Reset Loop",
+            "capacity_lbs_per_hr": 1600,
+            "configuration": "Shell and tube with standby"
+          }
+        },
+        {
+          "equipmentTag": "HX-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger",
+            "service": "Constant Temperature Loop",
+            "capacity_lbs_per_hr": 5200,
+            "configuration": "Shell and tube with standby"
+          }
+        },
+        {
+          "equipmentTag": "HX-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Plate Frame Heat Exchanger",
+            "service": "Heat Recovery Chiller",
+            "capacity_mbh": 800,
+            "configuration": "Plate and Frame"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Base-mounted centrifugal and vertical inline hydronic pumps with variable speed drives",
+      "items": [
+        {
+          "equipmentTag": "HWP-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        },
+        {
+          "equipmentTag": "HWP-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        },
+        {
+          "equipmentTag": "HWP-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        },
+        {
+          "equipmentTag": "HWP-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        },
+        {
+          "equipmentTag": "HWP-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Inline Pump",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Computer Room Air Conditioners",
+      "notes": "Small-capacity floor-mounted units for IT rooms with 100% redundancy",
+      "items": [
+        {
+          "equipmentTag": "CRAH-IDF",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Floor-Mounted CRAC",
+            "service": "IDF Room",
+            "configuration": "Vertical upflow with chilled water coil, reheat coil, humidification, and filtration"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-UPS",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Floor-Mounted CRAC",
+            "service": "UPS Room",
+            "configuration": "Vertical upflow with chilled water coil, reheat coil, humidification, and filtration"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Vertical fan coil units for various applications including stairwells and mechanical rooms",
+      "items": [
+        {
+          "equipmentTag": "FCU-EMS",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit",
+            "service": "EMS Room",
+            "configuration": "Four-pipe with heating and cooling coils"
+          }
+        },
+        {
+          "equipmentTag": "FCU-MER",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit",
+            "service": "Mechanical Room",
+            "configuration": "Four-pipe with heating and cooling coils"
+          }
+        },
+        {
+          "equipmentTag": "FCU-Stair",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit",
+            "service": "Stairwell",
+            "configuration": "Four-pipe with heating and cooling coils"
+          }
+        },
+        {
+          "equipmentTag": "FCU-VPR",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit",
+            "service": "Vacuum Pump Room",
+            "configuration": "Two-pipe cooling only"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Exhaust Fans",
+      "notes": "Centrifugal HVAC fans for various exhaust applications throughout the facility",
+      "items": [
+        {
+          "equipmentTag": "EF-Air Compressor",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Air Compressor Room Exhaust",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        },
+        {
+          "equipmentTag": "EF-Battery",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Battery Room Exhaust",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        },
+        {
+          "equipmentTag": "EF-Cart",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Cart Washer Exhaust",
+            "configuration": "Direct drive with standby fan"
+          }
+        },
+        {
+          "equipmentTag": "EF-General",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "General Exhaust",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        },
+        {
+          "equipmentTag": "EF-Med Gas",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Medical Gas Room Exhaust",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        },
+        {
+          "equipmentTag": "SF-Air Compressor",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Air Compressor Room Supply",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Energy Recovery Units",
+      "notes": "Run-around energy recovery systems for heat recovery from exhaust air",
+      "items": [
+        {
+          "equipmentTag": "ERU-CSPD",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Run-Around Energy Recovery Unit",
+            "service": "Central Sterile Processing Department",
+            "configuration": "Exhaust fan with standby, run-around coil, and pre-filter with multiple fan arrays"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Haakon",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for hospital-grade custom air handling units with double wall construction and 100% aluminum or stainless steel internal components"
+        },
+        {
+          "manufacturer": "Temtrol",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with hospital-grade air handling systems requiring less than 1% leakage and multiple fan arrays"
+        },
+        {
+          "manufacturer": "AdaptivAir",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for medical facility AHUs requiring low-leakage performance and multi-fan array capability."
+        },
+        {
+          "manufacturer": "Ingenia Technologies",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Engineered for healthcare-grade air handlers with sub-1% casing leakage and redundant fan array configurations."
+        },
+        {
+          "manufacturer": "ClimateCraft",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for custom hospital-grade units with energy recovery wheels and UVGI systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Heat Exchangers",
+      "suppliers": [
+        {
+          "manufacturer": "",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Includes liquid-to-liquid and steam-to-water heat exchangers for hot water generation"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard manufacturer for heat exchangers and hydronic systems"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Well-known manufacturer for heat exchangers and HVAC equipment"
+        },
+        {
+          "manufacturer": "Alfa Laval",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Leading manufacturer for plate heat exchangers, suitable for hospital applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Armstrong Fluid Technologies",
+          "model": "",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Well-known manufacturer for hydronic pumping applications"
+        },
+        {
+          "manufacturer": "Stancor",
+          "model": "Elevator sump pump or approved equal",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "For elevator pit drainage applications"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Suitable for HVAC and process water applications, widely used in healthcare facilities"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Series 1510 and e-1510",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "High efficiency pumps suitable for hydronic systems, compatible with BMS controls"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "CR and CRN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Stainless steel multistage pumps, suitable for domestic water and process applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Computer Room Air Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "AboveAir",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Established industry provider of computer room air conditioning equipment"
+        },
+        {
+          "manufacturer": "Liebert",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for computer room air conditioning applications with chilled water coils, reheat coils, humidification, and filtration"
+        },
+        {
+          "manufacturer": "Stulz",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Precision air conditioning for data centers and IDF rooms with 100% redundancy requirements"
+        },
+        {
+          "manufacturer": "ClimateWorx",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Computer room air conditioning systems for critical facilities with leak detection and drip pan requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "Standard Fan Coil Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for elevator machine rooms and mechanical rooms. Vertical arrangement recommended."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "4-Pipe Fan Coil Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with chilled water and hot water systems. Suitable for stairwells and mechanical rooms."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Vertical Fan Coil Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appropriate for elevator machine rooms and UPS rooms. Can accommodate supply fan, chilled water coil and filter sections."
+        }
+      ]
+    },
+    {
+      "componentType": "Exhaust Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "Centrifugal HVAC Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for general exhaust applications, medical gas exhaust, and battery room exhaust"
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "Centrifugal Exhaust Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with hospital grade applications and code compliant exhaust requirements"
+        },
+        {
+          "manufacturer": "PennBarry",
+          "model": "Inline Centrifugal Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for general ventilation and exhaust applications in healthcare facilities"
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "General Product Line",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Established manufacturer with hospital-grade fan solutions"
+        }
+      ]
+    },
+    {
+      "componentType": "Energy Recovery Units",
+      "suppliers": [
+        {
+          "manufacturer": "No specific manufacturer identified",
+          "model": "ERU-CSPD - Run-Around Energy Recovery Unit",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Energy recovery unit for Central Sterile Processing Department with run-around heat recovery coil and exhaust fan with standby fan"
+        },
+        {
+          "manufacturer": "Colmac Coil",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry leading manufacturer for healthcare applications with proven reliability"
+        },
+        {
+          "manufacturer": "Trox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Well-established manufacturer with extensive healthcare facility experience"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Standardize on Hospital-Grade Manufacturers with Proven Healthcare Experience",
+      "rationale": "The project lists multiple equipment categories including AHUs, heat exchangers, pumps, and CRAC units with 'No BOD Listed' status. Given the critical nature of perioperative environments requiring 24/7 reliability, establishing preferred manufacturers with proven hospital-grade equipment portfolios will ensure compatibility, reduce maintenance complexity, and provide better long-term support. Hospital-grade equipment meets stricter leakage requirements (less than 1% at 12 w.c.) and uses 100% aluminum or stainless steel internal components as specified in the narrative.",
+      "estimatedImpact": "Significant reduction in equipment downtime, streamlined maintenance procedures, and improved long-term reliability for critical perioperative functions. Enhanced procurement efficiency through consolidated vendor relationships.",
+      "implementation": "Develop a preferred vendor list for each equipment category based on hospital-grade certifications and healthcare experience. Require all air handling units to meet hospital-grade specifications with less than 1% leakage rating. Establish framework agreements with selected manufacturers for standardized components and service support across all 27 operating rooms and supporting systems.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Implement Redundant Equipment Strategy for Critical Systems",
+      "rationale": "The project specifies multiple critical systems including medical air compressors (74 hp triplex), medical vacuum systems (quadraplex), and heating/cooling equipment serving 27 operating rooms. The narrative emphasizes reliability through multiple-like sized equipment with 100% redundancy capability. Given the critical nature of perioperative services, implementing N+1 redundancy for all critical systems will ensure uninterrupted operations during equipment maintenance or failures.",
+      "estimatedImpact": "Elimination of service interruptions during equipment maintenance, enhanced patient safety through continuous system availability, and reduced risk of costly emergency repairs or service calls.",
+      "implementation": "Specify duplex configurations for all critical pumps and compressors. Require standby units for steam generators, heat exchangers, and exhaust fans. Design air handling systems with multiple fan arrays allowing for minimum one fan failure while maintaining 100% airflow. Establish preventive maintenance schedules that leverage redundant equipment capacity.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Establish Comprehensive Equipment Testing and Commissioning Program",
+      "rationale": "The project involves complex integration of HVAC, medical gas, fire protection, and electrical systems across a 128,000 square foot facility. The narrative specifies hospital-grade air handling units with custom configurations, specialized filtration (MERV 11, 14, and 17 HEPA), and critical pressure relationships for operating rooms and sterile processing. A structured commissioning program will ensure all equipment meets performance specifications before occupancy.",
+      "estimatedImpact": "Reduced startup delays, guaranteed performance compliance with healthcare codes and standards, minimized warranty issues, and enhanced system reliability from day one of operations.",
+      "implementation": "Develop equipment-specific testing protocols for all mechanical systems including air flow verification, pressure relationship testing, and filtration efficiency validation. Require factory testing reports for all major equipment. Establish commissioning agent requirements for independent verification of system performance. Create detailed acceptance criteria aligned with ASHRAE 170, NFPA 99, and FGI guidelines.",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Optimize Procurement Timing Through Phased Equipment Delivery Strategy",
+      "rationale": "The project includes long-lead-time equipment such as custom hospital-grade air handling units, medical gas systems, emergency power equipment, and specialized sterilization support systems. The narrative indicates equipment will be located on the Level 5 penthouse with service elevator access. Coordinating delivery schedules with construction milestones will prevent storage issues and reduce handling costs.",
+      "estimatedImpact": "Reduced equipment storage costs, minimized damage risk from multiple handling, improved construction schedule adherence, and optimized cash flow through strategic payment timing.",
+      "implementation": "Develop equipment delivery schedule aligned with construction milestones and penthouse access availability. Coordinate air handling unit deliveries with structural completion of Level 5 MER. Schedule medical gas equipment installation to align with piping rough-in completion. Establish secure staging areas for high-value equipment pending installation.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Establish Energy Efficiency Standards for All Mechanical Equipment",
+      "rationale": "The project narrative emphasizes energy conservation through ASHRAE 90.1-2019 compliance, variable frequency drives, and premium efficiency components. With significant cooling loads (920 tons) and heating requirements, selecting high-efficiency equipment will provide substantial operational savings over the facility lifecycle. The narrative specifically mentions right-sizing equipment and energy management through the building management system.",
+      "estimatedImpact": "Meaningful reduction in long-term operational costs through improved energy efficiency, enhanced system performance through proper sizing, and improved environmental sustainability metrics.",
+      "implementation": "Establish minimum efficiency requirements exceeding ASHRAE 90.1-2019 standards for all HVAC equipment. Require variable frequency drives on all pumps and fans. Specify premium efficiency motors and transformers meeting current DOE standards. Include energy performance requirements in equipment specifications and require efficiency testing documentation.",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "The HMH JSUMC Perioperative Expansion represents a complex healthcare procurement initiative encompassing specialized hospital-grade HVAC systems, medical gas equipment, and supporting infrastructure for a 128,000 square foot facility. The project requires coordination of multiple equipment categories including custom air handling units, heat exchangers, pumps, computer room air conditioners, fan coil units, exhaust fans, and energy recovery systems to support 27 operating rooms and critical sterile processing operations. Procurement strategy must prioritize hospital-grade specifications, redundant system design, and compliance with stringent healthcare codes while managing long lead times and complex installation logistics.",
+    "keyFindings": [
+      "All major equipment categories currently show 'No BOD Listed' status, creating procurement risk for a critical healthcare facility requiring specialized hospital-grade equipment with less than 1% leakage ratings and 100% aluminum or stainless steel internal components",
+      "Project demands extensive equipment redundancy including triplex medical air compressors, quadraplex vacuum systems, and standby configurations for heat exchangers and pumps to ensure uninterrupted perioperative operations",
+      "Complex integration requirements exist between HVAC, medical gas, fire protection, and electrical systems with specialized filtration (MERV 11, 14, and HEPA), pressure relationship control, and emergency power coordination",
+      "Long lead time equipment including custom hospital-grade air handling units and medical gas systems must be coordinated with penthouse installation access and construction milestones to prevent storage and handling issues",
+      "Energy efficiency requirements per ASHRAE 90.1-2019 with variable frequency drives and premium efficiency components present opportunities for operational cost savings over facility lifecycle"
+    ],
+    "highestPriorityActions": [
+      "Immediately establish basis of design selections for all equipment categories with hospital-grade manufacturers having proven healthcare facility experience to eliminate procurement uncertainty and ensure code compliance",
+      "Develop comprehensive redundancy strategy specifying N+1 configurations for all critical systems serving the 27 operating rooms and sterile processing department to prevent service interruptions",
+      "Create detailed equipment delivery and installation schedule coordinated with Level 5 penthouse access availability and construction milestones to optimize logistics and minimize handling costs",
+      "Establish rigorous testing and commissioning protocols for all mechanical systems including airflow verification, pressure relationship testing, and filtration efficiency validation to ensure compliance with ASHRAE 170, NFPA 99, and FGI requirements"
+    ]
+  }
+}

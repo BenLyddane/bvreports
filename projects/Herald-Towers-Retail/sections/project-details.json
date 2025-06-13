@@ -1,0 +1,45 @@
+{
+  "reportTitle": "BuildVision Project Report for Herald Towers Retail",
+  "customerInformation": {
+    "customerName": "JEMB",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "J005-03-006 / J005-03-007",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Herald Towers Retail",
+    "location": "50 West 34th Street, New York, NY, 10001",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Retail Pre-Lease Support & Master Planning - HVAC systems including cooling towers, heat exchangers, and hydronic pumps",
+    "projectUrl": "",
+    "additionalFields": {
+      "contractorCompany": "AMA Group",
+      "contractorAddress": "825 8th Avenue, FL 18, New York, NY, 10019",
+      "primaryContact": "Peter Harman",
+      "primaryContactTitle": "Senior Associate",
+      "primaryContactEmail": "PHarman@amagroupusa.com",
+      "primaryContactPhone": "212.404.5805",
+      "issueDate": "5/16/2025",
+      "documentStatus": "ISSUED FOR SCHEMATIC DESIGN"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

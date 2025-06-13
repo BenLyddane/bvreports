@@ -1,0 +1,473 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Water-Cooled Centrifugal Water Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Water-cooled magnetic bearing centrifugal chillers, 1250 tons capacity, variable speed drive"
+        },
+        {
+          "manufacturer": "York",
+          "model": "CYKP8QD-ERES",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Heat recovery centrifugal chiller, 366 tons cooling capacity, water-cooled with variable speed drive"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "CVHE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Centrifugal water-cooled chiller with magnetic bearings, suitable alternative for large capacity applications"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "19XR Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Water-cooled centrifugal chiller series, compatible with similar capacity and performance requirements"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "YORK YMC2 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Magnetic bearing centrifugal chiller suitable for large tonnage applications with variable speed operation"
+        }
+      ]
+    },
+    {
+      "componentType": "Heat Recovery Centrifugal Chiller",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "CYKP8QD-ERES AZ-HP",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Custom unit rated per AHRI Standard 550/590 and 551/591, includes chiller controls, variable speed drive"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "CVHF Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with similar heat recovery performance, may require controls integration"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "23XRV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Heat recovery capable, verify refrigerant compatibility with R-1234ze"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "YVAA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Variable speed drive compatible, similar capacity range available"
+        }
+      ]
+    },
+    {
+      "componentType": "Open-Circuit Cooling Towers",
+      "suppliers": [
+        {
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3048-FM",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Structural induced draft counter flow cooling tower with equalizer connection, louver access door, motor davit with base, water silencers, fan motor space heaters, 5-probe electronic water level control package, external service platform with ladder, stainless steel heaters, inverter capable premium efficient fan motor, fan motor shaft grounding rings, stainless steel fan shaft, safety cage, sump sweeper piping, super low sound fan, Factory Mutual approved"
+        },
+        {
+          "manufacturer": "BAC (Baltimore Aircoil Company)",
+          "model": "FXV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Comparable induced draft counterflow cooling tower with similar capacity and performance characteristics"
+        },
+        {
+          "manufacturer": "SPX Cooling",
+          "model": "Marley NC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Factory assembled counterflow cooling tower suitable for similar tonnage requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Base-Mounted Centrifugal Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for CHWP 1-5 with 2500 GPM flow rate, 250 ft TDH, ABB ULHD VFD"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-404TTS-STL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for CHWP 6-7 with 650 GPM flow rate, 250 ft TDH, ABB ULHD VFD"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for CWP 1-5 with 3752 GPM flow rate, 200 ft TDH, ABB ULHD VFD"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-365TTS-STL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for HWP 1-2 with 650 GPM flow rate, 200 ft TDH, ABB ULHD VFD"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TPE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for base-mounted centrifugal hydronic pumps with VFD capability"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "Design Envelope",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Energy-efficient alternative with integrated VFD technology"
+        }
+      ]
+    },
+    {
+      "componentType": "Custom Indoor Central-Station Air-Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Temtrol",
+          "model": "Custom Indoor Central-Station Air-Handling Units",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "ClimateChanger Central Station Air Handler",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with existing control systems and ductwork configurations"
+        },
+        {
+          "manufacturer": "York",
+          "model": "Johnson Controls Custom Air Handler",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Standard construction meets project requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Air Eliminator/Dirt Separator",
+      "suppliers": [
+        {
+          "manufacturer": "SPIROTHERM",
+          "model": "VDN3600FA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "36\" steel construction, 3,550 gal volume, 15,000 GPM flow rate, ASME certified"
+        },
+        {
+          "manufacturer": "SPIROTHERM",
+          "model": "VDN3000FA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "30\" steel construction, 2,050 gal volume, 10,000 GPM flow rate, ASME certified"
+        },
+        {
+          "manufacturer": "SPIROTHERM",
+          "model": "VDT600FAM",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "6\" steel construction, 40 gal volume, 650 GPM flow rate, includes neodymium magnets"
+        },
+        {
+          "manufacturer": "Wessels Company",
+          "model": "SDA-ASME Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "ASME certified air/dirt separator with similar specifications and performance"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "4900 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Steel construction air separators with removable air vent head for maintenance"
+        },
+        {
+          "manufacturer": "Caleffi",
+          "model": "NA546 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "ASME coded air and dirt separators with coalescing media and magnetic dirt separation"
+        }
+      ]
+    },
+    {
+      "componentType": "Expansion Tanks",
+      "suppliers": [
+        {
+          "manufacturer": "AMTROL",
+          "model": "3000-L",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "792 gallon capacity, 48 inch diameter, 118 inch height, includes seismic restraints"
+        },
+        {
+          "manufacturer": "WESSELS",
+          "model": "WTA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with HVAC closed loop systems, steel construction with ASME certification"
+        },
+        {
+          "manufacturer": "TACO",
+          "model": "WX Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Steel construction, suitable for chilled water and heating water systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Condenser Water Filtration",
+      "suppliers": [
+        {
+          "manufacturer": "Ameriwater",
+          "model": "330 LP",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "0.5 Micron / 0.25 Micron filtration rating, 45/35 GPM backwash flow rate, 304L Stainless Steel construction"
+        },
+        {
+          "manufacturer": "Lakos",
+          "model": "ILB Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Centrifugal separator technology for condenser water applications"
+        },
+        {
+          "manufacturer": "Orival",
+          "model": "OAS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Automatic self-cleaning filtration system for cooling tower water treatment"
+        }
+      ]
+    }
+  ]
+}

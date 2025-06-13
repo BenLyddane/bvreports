@@ -16,15 +16,12 @@
     "startDate": "2/12/2025",
     "completionDate": "",
     "budget": "",
-    "scope": "Redevelopment project including storefront replacement, mechanical systems installation and other building improvements",
+    "scope": "Redevelopment project including HVAC equipment replacement, storefront replacement, and revolving door entrances",
     "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/cadcd049-0ae6-46d3-a2ea-e4248db65e8c/details",
     "additionalFields": {
       "bidStatus": "BuildingConnected Lead",
-      "contractType": "",
       "requestType": "Proposal",
-      "projectSize": "",
-      "dateInvited": "2/12/2025",
-      "generalContractor": "Structure Tone (NY)"
+      "contractor": "Structure Tone (NY)"
     }
   },
   "preparerInformation": {
@@ -40,6 +37,6 @@
         "phone": "843-609-3265"
       }
     ],
-    "preparationDate": "01/31/2025"
+    "preparationDate": "1/31/2025"
   }
 }

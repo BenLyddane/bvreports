@@ -1,0 +1,246 @@
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Action
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CH-1	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-10	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-11	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-12	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-2	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-3	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-4	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-5	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-6	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-7	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-8	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+CH-9	York	Air-Cooled Scroll Water Chillers	YVAA	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HRCH-1	York	Water-Cooled, Rotary-Screw Water Chillers	YVWA	
+Annotation
+	
+HRCH-2	York	Water-Cooled, Rotary-Screw Water Chillers	YVWA	
+Annotation
+	
+HRCH-3	York	Water-Cooled, Rotary-Screw Water Chillers	YVWA	
+Annotation
+	
+HRCH-4	York	Water-Cooled, Rotary-Screw Water Chillers	YVWA	
+Annotation
+	
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component - Indoor Central-Station Air-Handling Units
+	
+Linked File
+	
+Actions
+AHU-01	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+	
+AHU-02	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+	
+AHU-03	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+	
+AHU-04	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+	
+AHU-05	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+	
+AHU-06	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+	
+AHU-CR1	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR10	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR11	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR12	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR13	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR14	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR15	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR16	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR17	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR18	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR19	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR2	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR20	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR21	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR3	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR4	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR5	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR6	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR7	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR8	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-CR9	Temtrol	Indoor Central AHUs Modular	TF	
+Annotation
+	
+AHU-WY11	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+	
+AHU-WY12	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+	
+AHU-WY13	Temtrol	Dedicated Outdoor-Air Units	ITF	
+Annotation
+
+
+
+https://app.buildvision.io/admin/organizations/cc7e5f0e-72e4-473c-8a38-493477f6b728/package-projects/e8a4a5fd-a1dc-4fd9-872a-bbf3fc1a5177/packages
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone Southwest
+package projects
+Project KCar Eagle 1
+
+    details
+
+MH
+Organization Logo
+Project KCar - Eagle 1
+Structure Tone - Southwest
+Stakeholders
+15200 Heritage Parkway, Fort Worth, TX 76177
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+--
+Address
+15200 Heritage Parkway, Fort Worth, TX 76177
+Created
+5/29/2025
+Expected Start
+--
+Date Due
+--
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+--
+Request Type
+--
+Project Size
+--
+

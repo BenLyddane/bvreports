@@ -1,0 +1,52 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Standardize Equipment Brands Within Component Categories",
+      "rationale": "The project currently specifies multiple manufacturers for similar equipment types (York vs Oilon for heat pumps, ABB vs Bell & Gossett for pumps). Standardizing on fewer manufacturers within each category reduces complexity for maintenance, training, and spare parts inventory while potentially enabling volume pricing benefits.",
+      "estimatedImpact": "Reduced long-term maintenance costs, simplified training requirements, and potential cost savings through consolidated purchasing",
+      "implementation": "Work with the design team to select preferred manufacturers for each equipment type and negotiate volume pricing agreements. Ensure selected manufacturers can meet all performance specifications across equipment types.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Implement Factory Witness Testing for Critical Equipment",
+      "rationale": "The specifications already require factory witness testing for heat pumps, but this should be expanded to other critical equipment. This ensures quality control and provides opportunity to identify and resolve issues before field installation, reducing costly rework and delays.",
+      "estimatedImpact": "Reduced field commissioning time, improved equipment reliability, and minimized potential for costly field modifications",
+      "implementation": "Require factory witness testing for water source heat pumps, air source heat pumps, and major pump assemblies. Include travel costs for design team representatives in procurement planning. Schedule testing to align with project delivery timelines.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Procure Long-Lead Equipment Early with Staged Payments",
+      "rationale": "Heat pumps and specialized equipment typically have extended lead times that could impact project schedule. Early procurement with staged payment schedules can secure delivery dates while managing cash flow requirements.",
+      "estimatedImpact": "Improved schedule certainty, potential cost savings through early ordering, and reduced risk of equipment availability issues",
+      "implementation": "Identify equipment with lead times exceeding 16 weeks and establish early procurement schedule. Negotiate staged payment terms tied to manufacturing milestones. Coordinate with storage requirements for early deliveries.",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Establish Performance Bonds for Equipment Suppliers",
+      "rationale": "Given the complexity and critical nature of the heat pump systems, performance bonds ensure suppliers deliver equipment meeting specifications and provide recourse if performance guarantees are not met.",
+      "estimatedImpact": "Enhanced protection against equipment performance shortfalls and financial security for warranty obligations",
+      "implementation": "Require performance bonds equal to equipment contract value for heat pumps and other critical systems. Include specific performance criteria in bond language tied to commissioning test results.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Coordinate BMS Integration Requirements During Procurement",
+      "rationale": "The specifications detail extensive BMS integration requirements including BACnet communication interfaces. Early coordination with BMS and equipment suppliers ensures compatibility and reduces integration issues during commissioning.",
+      "estimatedImpact": "Smoother system integration, reduced commissioning time, and improved system functionality",
+      "implementation": "Require BMS integration confirmation from equipment suppliers during submittal review. Conduct pre-installation compatibility testing between BMS contractor and equipment suppliers. Document all interface requirements in purchase agreements.",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Negotiate Comprehensive Service Agreements with Equipment Procurement",
+      "rationale": "The specifications require various service agreements and warranty periods. Negotiating these as part of equipment procurement can provide better terms and ensure consistent service quality across all systems.",
+      "estimatedImpact": "Reduced long-term operational costs, ensured service availability, and simplified vendor management",
+      "implementation": "Include multi-year service agreements in equipment RFPs. Evaluate total cost of ownership including service costs in vendor selection. Ensure service technicians are factory-trained and locally available.",
+      "priority": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+LF Driscoll
+package projects
+HMH JSUMC Periop Expansion
+
+    packages
+
+MH
+Organization Logo
+HMH JSUMC - Periop Expansion
+LF Driscoll
+Stakeholders
+1945 New Jersey 33, Neptune City, NJ 07753
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Due Date
+	
+Action
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AHU-R-1	No BOD Listed	Indoor Central-Station Air-Handling Units	Indoor Central-Station Air-Handling Unit	
+AnnotationAnnotation
+	
+AHU-R-2	No BOD Listed	Indoor Central-Station Air-Handling Units	Indoor Central-Station Air-Handling Unit	
+AnnotationAnnotation
+	
+AHU-R-3	No BOD Listed	Indoor Central-Station Air-Handling Units	Indoor Central-Station Air-Handling Unit	
+AnnotationAnnotation
+	
+AHU-R-4	No BOD Listed	Indoor Central-Station Air-Handling Units	Indoor Central-Station Air-Handling Unit	
+AnnotationAnnotation
+	
+AHU-R-5	No BOD Listed	Indoor Central-Station Air-Handling Units	Indoor Central-Station Air-Handling Unit	
+AnnotationAnnotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HX-1	No BOD Listed	Steam-To-Water Heat Exchangers	Steam-to-Water Heat Exchanger	
+Annotation
+	
+HX-2	No BOD Listed	Steam-To-Water Heat Exchangers	Steam-to-Water Heat Exchanger	
+Annotation
+	
+HX-3	No BOD Listed	Steam-To-Water Heat Exchangers	Steam-to-Water Heat Exchanger	
+Annotation
+	
+HX-4	No BOD Listed	Steam-To-Water Heat Exchangers	Steam-to-Water Heat Exchanger	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HX-5	No BOD Listed	Plate-Type, Liquid-to-Liquid Heat Exchangers	Plate Frame HX	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HWP-1	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+HWP-2	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+HWP-3	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+HWP-4	No BOD Listed	Base-Mounted, Centrifugal Hydronic Pumps	Base Mounted End Suction	
+Annotation
+	
+HWP-5	No BOD Listed	Vertical-Turbine Hydronic Pumps	Vertical Inline Pump	
+Annotation
+	
+N/A
+	
+-
+	
+Package has no equipment.
+N/A
+	
+-
+	
+Package has no equipment.
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CRAH-IDF	No BOD Listed	Small-Capacity, Computer-Room Air-Conditioners, Floor Mounted Units	Floor-Mounted CRACs	
+Annotation
+	
+CRAH-UPS	No BOD Listed	Small-Capacity, Computer-Room Air-Conditioners, Floor Mounted Units	Floor-Mounted CRACs	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+FCU-EMS	No BOD Listed	Vertical Fan Coil Units	Vertical Fan Coil Unit	
+Annotation
+	
+FCU-MER	No BOD Listed	Vertical Fan Coil Units	Vertical Fan Coil Unit	
+Annotation
+	
+FCU-Stair	No BOD Listed	Vertical Fan Coil Units	Vertical Fan Coil Unit	
+Annotation
+	
+FCU-VPR	No BOD Listed	Vertical Fan Coil Units	Vertical Fan Coil Unit	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+EF-Air Compressor	No BOD Listed	Centrifugal HVAC Fans	Centrifugal HVAC Fan	
+Annotation
+	
+EF-Battery	No BOD Listed	Centrifugal HVAC Fans	Centrifugal HVAC Fan	
+Annotation
+	
+EF-Cart	No BOD Listed	Centrifugal HVAC Fans	Centrifugal HVAC Fan	
+--
+	
+EF-General	No BOD Listed	Centrifugal HVAC Fans	Centrifugal HVAC Fan	
+Annotation
+	
+EF-Med Gas	No BOD Listed	Centrifugal HVAC Fans	Centrifugal HVAC Fan	
+Annotation
+	
+SF-Air Compressor	No BOD Listed	Centrifugal HVAC Fans	Centrifugal HVAC Fan	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+ERU-CSPD	No BOD Listed	Run-Around Energy Recovery Systems	Run-Around Energy Recovery Unit	
+Annotation
+	
+https://app.buildvision.io/admin/organizations/9474ffd3-66c9-4316-b45c-c71e80a1d3b4/package-projects/67923220-bad4-483d-93d8-bcee866ed374/packages
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+LF Driscoll
+package projects
+HMH JSUMC Periop Expansion
+
+    details
+
+MH
+Organization Logo
+HMH JSUMC - Periop Expansion
+LF Driscoll
+Stakeholders
+1945 New Jersey 33, Neptune City, NJ 07753
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+Ken Rienstra (krienstra@lfdriscoll.com)
+Address
+1945 New Jersey 33, Neptune City, NJ 07753
+Created
+6/6/2025
+Expected Start
+--
+Date Due
+6/20/2025
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+6/6/2025
+Request Type
+Budget
+Project Size
+138602 sq. ft.

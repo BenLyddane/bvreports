@@ -1,0 +1,685 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "Natural gas heat units with staged cooling and inverter compressors. All units equipped with economizers, demand control ventilation, and BAS compatible controllers.",
+      "items": [
+        {
+          "equipmentTag": "RTU-1",
+          "manufacturer": "Carrier",
+          "model": "48LCRA20",
+          "specifications": {
+            "capacity_tons": 17.5,
+            "supply_cfm": 5975,
+            "outside_air_cfm": 1685,
+            "total_cooling_mbh": 194.7,
+            "sensible_cooling_mbh": 156.1,
+            "heating_capacity_mbh": "310.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 59.7,
+            "area_served": "Patient Rooms",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-2",
+          "manufacturer": "Carrier",
+          "model": "48JCSW06",
+          "specifications": {
+            "capacity_tons": 5,
+            "supply_cfm": 1555,
+            "outside_air_cfm": 390,
+            "total_cooling_mbh": 55.4,
+            "sensible_cooling_mbh": 42.4,
+            "heating_capacity_mbh": "67.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 18,
+            "area_served": "Fitness",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-3",
+          "manufacturer": "Carrier",
+          "model": "48LCRA24",
+          "specifications": {
+            "capacity_tons": 20,
+            "supply_cfm": 7655,
+            "outside_air_cfm": 1930,
+            "total_cooling_mbh": 245,
+            "sensible_cooling_mbh": 199,
+            "heating_capacity_mbh": "310.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 72.2,
+            "area_served": "Patient Rooms",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-4",
+          "manufacturer": "Carrier",
+          "model": "48LCSA12",
+          "specifications": {
+            "capacity_tons": 10,
+            "supply_cfm": 3445,
+            "outside_air_cfm": 850,
+            "total_cooling_mbh": 114.1,
+            "sensible_cooling_mbh": 89.8,
+            "heating_capacity_mbh": "180.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 33,
+            "area_served": "Lobby/Offices",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-5",
+          "manufacturer": "Carrier",
+          "model": "48LCSA09",
+          "specifications": {
+            "capacity_tons": 8.5,
+            "supply_cfm": 3085,
+            "outside_air_cfm": 665,
+            "total_cooling_mbh": 99.3,
+            "sensible_cooling_mbh": 78.6,
+            "heating_capacity_mbh": "150.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 32,
+            "area_served": "Offices",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-6",
+          "manufacturer": "Carrier",
+          "model": "48LCSA12",
+          "specifications": {
+            "capacity_tons": 10,
+            "supply_cfm": 3540,
+            "outside_air_cfm": 920,
+            "total_cooling_mbh": 115,
+            "sensible_cooling_mbh": 92,
+            "heating_capacity_mbh": "180.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 33,
+            "area_served": "Dining",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-7",
+          "manufacturer": "Carrier",
+          "model": "48LCSA14",
+          "specifications": {
+            "capacity_tons": 12.5,
+            "supply_cfm": 3750,
+            "outside_air_cfm": 865,
+            "total_cooling_mbh": 136.9,
+            "sensible_cooling_mbh": 101.6,
+            "heating_capacity_mbh": "176.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 50.2,
+            "area_served": "Patient Rooms",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-8",
+          "manufacturer": "Carrier",
+          "model": "48LCSA14",
+          "specifications": {
+            "capacity_tons": 12.5,
+            "supply_cfm": 4415,
+            "outside_air_cfm": 970,
+            "total_cooling_mbh": 141.1,
+            "sensible_cooling_mbh": 111.4,
+            "heating_capacity_mbh": "176.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 50.2,
+            "area_served": "Patient Rooms",
+            "system_type": "CV"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Centrifugal HVAC Fans",
+      "notes": "Exhaust fans for various zones with direct drive motors and BAS controls. All fans equipped with gravity backdraft dampers and vibration isolation.",
+      "items": [
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "Loren Cook",
+          "model": "165R08D",
+          "specifications": {
+            "cfm": 1610,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.25,
+            "rpm": 975,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "Loren Cook",
+          "model": "165R08D",
+          "specifications": {
+            "cfm": 1820,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.33,
+            "rpm": 880,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "Loren Cook",
+          "model": "90R17D",
+          "specifications": {
+            "cfm": 500,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.05,
+            "rpm": 1140,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-4",
+          "manufacturer": "Loren Cook",
+          "model": "101R17D",
+          "specifications": {
+            "cfm": 530,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.05,
+            "rpm": 1225,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-5",
+          "manufacturer": "Loren Cook",
+          "model": "135R17D",
+          "specifications": {
+            "cfm": 1055,
+            "static_pressure_in_wc": 0.5,
+            "motor_hp": 0.125,
+            "rpm": 840,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-6",
+          "manufacturer": "Loren Cook",
+          "model": "120R17D",
+          "specifications": {
+            "cfm": 850,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.125,
+            "rpm": 1130,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-7",
+          "manufacturer": "Loren Cook",
+          "model": "135R17D",
+          "specifications": {
+            "cfm": 425,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.05,
+            "rpm": 1120,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Single Space Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-8",
+          "manufacturer": "Loren Cook",
+          "model": "100SQN",
+          "specifications": {
+            "cfm": 1000,
+            "static_pressure_in_wc": 0.25,
+            "motor_hp": 0.33,
+            "rpm": 2125,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "ILC"
+          }
+        },
+        {
+          "equipmentTag": "EF-ISO1",
+          "manufacturer": "Loren Cook",
+          "model": "80 CPS",
+          "specifications": {
+            "cfm": 520,
+            "static_pressure_in_wc": 0.5,
+            "motor_hp": 0.1,
+            "rpm": 1505,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Isolation Suite Exhaust",
+            "type": "UCF"
+          }
+        },
+        {
+          "equipmentTag": "EF-ISO2",
+          "manufacturer": "Loren Cook",
+          "model": "80 CPS",
+          "specifications": {
+            "cfm": 520,
+            "static_pressure_in_wc": 0.5,
+            "motor_hp": 0.1,
+            "rpm": 1505,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Isolation Suite Exhaust",
+            "type": "UCF"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Power Ventilators",
+      "notes": "Kitchen exhaust fan with grease removal listing and direct drive motor.",
+      "items": [
+        {
+          "equipmentTag": "KEF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-180",
+          "specifications": {
+            "cfm": 2960,
+            "duty": "Kitchen Exhaust",
+            "voltage": 480,
+            "phase": 3,
+            "ul_762_listed": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Small-Capacity Split-System Air-Conditioners",
+      "notes": "Ductless split systems for electrical rooms, MDF, and mainframe areas with wall-mounted indoor units and outdoor condensing units.",
+      "items": [
+        {
+          "equipmentTag": "AH-ELEC",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTX36",
+          "specifications": {
+            "cfm": 915,
+            "total_cooling_mbh": 34.4,
+            "sensible_cooling_mbh": 22.2,
+            "voltage": 208,
+            "phase": 3,
+            "type": "Wall Hung",
+            "area_served": "Electrical Room"
+          }
+        },
+        {
+          "equipmentTag": "AH-ELEC2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTX09",
+          "specifications": {
+            "cfm": 320,
+            "total_cooling_mbh": 8.9,
+            "sensible_cooling_mbh": 6.9,
+            "voltage": 208,
+            "phase": 3,
+            "type": "Wall Hung",
+            "area_served": "Electrical Room"
+          }
+        },
+        {
+          "equipmentTag": "AH-MDF",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTX36",
+          "specifications": {
+            "cfm": 915,
+            "total_cooling_mbh": 34.4,
+            "sensible_cooling_mbh": 22.2,
+            "voltage": 208,
+            "phase": 3,
+            "type": "Wall Hung",
+            "area_served": "MDF Room"
+          }
+        },
+        {
+          "equipmentTag": "AH-MFRM",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTX30",
+          "specifications": {
+            "cfm": 890,
+            "total_cooling_mbh": 31.4,
+            "sensible_cooling_mbh": 21,
+            "voltage": 208,
+            "phase": 3,
+            "type": "Wall Hung",
+            "area_served": "Mainframe Room"
+          }
+        },
+        {
+          "equipmentTag": "CU-ELEC",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RK36",
+          "specifications": {
+            "voltage": 208,
+            "phase": 3,
+            "fla_amps": 17,
+            "type": "Outdoor Unit",
+            "serves": "AH-ELEC"
+          }
+        },
+        {
+          "equipmentTag": "CU-ELEC2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RK09",
+          "specifications": {
+            "voltage": 208,
+            "phase": 3,
+            "fla_amps": 7.8,
+            "type": "Outdoor Unit",
+            "serves": "AH-ELEC2"
+          }
+        },
+        {
+          "equipmentTag": "CU-MDF",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RK36",
+          "specifications": {
+            "voltage": 208,
+            "phase": 3,
+            "fla_amps": 17,
+            "type": "Outdoor Unit",
+            "serves": "AH-MDF"
+          }
+        },
+        {
+          "equipmentTag": "CU-MFRM",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RK30NMVJUA",
+          "specifications": {
+            "voltage": 208,
+            "phase": 3,
+            "fla_amps": 17,
+            "type": "Outdoor Unit",
+            "serves": "AH-MFRM"
+          }
+        },
+        {
+          "equipmentTag": "AH-VEST1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FFQ15",
+          "specifications": {
+            "cfm": 385,
+            "total_cooling_mbh": 16.2,
+            "sensible_cooling_mbh": 12.6,
+            "voltage": 208,
+            "phase": 1,
+            "type": "Ceiling Cassette",
+            "area_served": "Front Vestibule"
+          }
+        },
+        {
+          "equipmentTag": "AH-VEST2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FFQ15",
+          "specifications": {
+            "cfm": 385,
+            "total_cooling_mbh": 16.2,
+            "sensible_cooling_mbh": 12.6,
+            "voltage": 208,
+            "phase": 1,
+            "type": "Ceiling Cassette",
+            "area_served": "Rear Vestibule"
+          }
+        },
+        {
+          "equipmentTag": "HP-VEST1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RX15",
+          "specifications": {
+            "voltage": 208,
+            "phase": 1,
+            "fla_amps": 9.7,
+            "type": "Heat Pump Outdoor Unit",
+            "serves": "AH-VEST1"
+          }
+        },
+        {
+          "equipmentTag": "HP-VEST2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RX15",
+          "specifications": {
+            "voltage": 208,
+            "phase": 1,
+            "fla_amps": 9.7,
+            "type": "Heat Pump Outdoor Unit",
+            "serves": "AH-VEST2"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Unit Heaters",
+      "notes": "Electric unit heaters with horizontal/vertical mounting capability and integral thermostats.",
+      "items": [
+        {
+          "equipmentTag": "EUH-1",
+          "manufacturer": "Raywall",
+          "model": "5100",
+          "specifications": {
+            "type": "Unit Heater",
+            "mounting": "Horizontal/Vertical",
+            "output_capacity_kw": 5,
+            "mounting_height": "8'-0\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 6.1,
+            "weight_lbs": 44
+          }
+        },
+        {
+          "equipmentTag": "EUH-2",
+          "manufacturer": "Raywall",
+          "model": "5100",
+          "specifications": {
+            "type": "Unit Heater",
+            "mounting": "Horizontal/Vertical",
+            "output_capacity_kw": 5,
+            "mounting_height": "8'-0\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 6.1,
+            "weight_lbs": 44
+          }
+        },
+        {
+          "equipmentTag": "EUH-3",
+          "manufacturer": "Raywall",
+          "model": "5100",
+          "specifications": {
+            "type": "Unit Heater",
+            "mounting": "Horizontal/Vertical",
+            "output_capacity_kw": 5,
+            "mounting_height": "8'-0\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 6.1,
+            "weight_lbs": 44
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Wall and Ceiling Unit Heaters",
+      "notes": "Electric wall heaters with surface mounting and integral tamperproof thermostats.",
+      "items": [
+        {
+          "equipmentTag": "EWH 1",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 2",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 3",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH4",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 5",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 6",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 7",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Kitchen Hoods",
+      "notes": "Stainless steel kitchen exhaust hood for commercial kitchen application.",
+      "items": [
+        {
+          "equipmentTag": "KH1",
+          "manufacturer": "accurex",
+          "model": "XXEW-160-S",
+          "specifications": {
+            "type": "Kitchen Hood",
+            "material": "Stainless Steel",
+            "width": "160 inches"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Packaged, Direct-Fired, Outdoor, Heating-Only Makeup-Air Units",
+      "notes": "Direct-fired makeup air unit for kitchen ventilation system to replace exhausted air.",
+      "items": [
+        {
+          "equipmentTag": "MUA1",
+          "manufacturer": "accurex",
+          "model": "XDGX-P112-H12-MF-5",
+          "specifications": {
+            "type": "Makeup Air Unit",
+            "fuel_type": "Direct-Fired",
+            "location": "Outdoor",
+            "heating_only": "Yes"
+          }
+        }
+      ]
+    }
+  ]
+}

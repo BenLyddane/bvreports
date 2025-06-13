@@ -1,0 +1,1644 @@
+{
+  "reportTitle": "BuildVision Project Report for Everest Rehab",
+  "customerInformation": {
+    "customerName": "Raymond Construction",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "6a73eaf7-aa36-4e2d-9d17-2db71c8c5fa0",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Everest Rehab",
+    "location": "Westover Hills, San Antonio, Texas 78251",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Everest Physical Rehabilitation Hospital 2-Story Prototype",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/40945fec-8e8e-4fb7-972f-b640fc1ecab3/package-projects/6a73eaf7-aa36-4e2d-9d17-2db71c8c5fa0/details",
+    "additionalFields": {
+      "created": "6/5/2025",
+      "fullAddress": "5010 Wiseman Boulevard San Antonio, TX 78251",
+      "projectNumber": "23030669",
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-05"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "Natural gas heat units with staged cooling and inverter compressors. All units equipped with economizers, demand control ventilation, and BAS compatible controllers.",
+      "items": [
+        {
+          "equipmentTag": "RTU-1",
+          "manufacturer": "Carrier",
+          "model": "48LCRA20",
+          "specifications": {
+            "capacity_tons": 17.5,
+            "supply_cfm": 5975,
+            "outside_air_cfm": 1685,
+            "total_cooling_mbh": 194.7,
+            "sensible_cooling_mbh": 156.1,
+            "heating_capacity_mbh": "310.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 59.7,
+            "area_served": "Patient Rooms",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-2",
+          "manufacturer": "Carrier",
+          "model": "48JCSW06",
+          "specifications": {
+            "capacity_tons": 5,
+            "supply_cfm": 1555,
+            "outside_air_cfm": 390,
+            "total_cooling_mbh": 55.4,
+            "sensible_cooling_mbh": 42.4,
+            "heating_capacity_mbh": "67.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 18,
+            "area_served": "Fitness",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-3",
+          "manufacturer": "Carrier",
+          "model": "48LCRA24",
+          "specifications": {
+            "capacity_tons": 20,
+            "supply_cfm": 7655,
+            "outside_air_cfm": 1930,
+            "total_cooling_mbh": 245,
+            "sensible_cooling_mbh": 199,
+            "heating_capacity_mbh": "310.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 72.2,
+            "area_served": "Patient Rooms",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-4",
+          "manufacturer": "Carrier",
+          "model": "48LCSA12",
+          "specifications": {
+            "capacity_tons": 10,
+            "supply_cfm": 3445,
+            "outside_air_cfm": 850,
+            "total_cooling_mbh": 114.1,
+            "sensible_cooling_mbh": 89.8,
+            "heating_capacity_mbh": "180.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 33,
+            "area_served": "Lobby/Offices",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-5",
+          "manufacturer": "Carrier",
+          "model": "48LCSA09",
+          "specifications": {
+            "capacity_tons": 8.5,
+            "supply_cfm": 3085,
+            "outside_air_cfm": 665,
+            "total_cooling_mbh": 99.3,
+            "sensible_cooling_mbh": 78.6,
+            "heating_capacity_mbh": "150.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 32,
+            "area_served": "Offices",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-6",
+          "manufacturer": "Carrier",
+          "model": "48LCSA12",
+          "specifications": {
+            "capacity_tons": 10,
+            "supply_cfm": 3540,
+            "outside_air_cfm": 920,
+            "total_cooling_mbh": 115,
+            "sensible_cooling_mbh": 92,
+            "heating_capacity_mbh": "180.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 33,
+            "area_served": "Dining",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-7",
+          "manufacturer": "Carrier",
+          "model": "48LCSA14",
+          "specifications": {
+            "capacity_tons": 12.5,
+            "supply_cfm": 3750,
+            "outside_air_cfm": 865,
+            "total_cooling_mbh": 136.9,
+            "sensible_cooling_mbh": 101.6,
+            "heating_capacity_mbh": "176.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 50.2,
+            "area_served": "Patient Rooms",
+            "system_type": "CV"
+          }
+        },
+        {
+          "equipmentTag": "RTU-8",
+          "manufacturer": "Carrier",
+          "model": "48LCSA14",
+          "specifications": {
+            "capacity_tons": 12.5,
+            "supply_cfm": 4415,
+            "outside_air_cfm": 970,
+            "total_cooling_mbh": 141.1,
+            "sensible_cooling_mbh": 111.4,
+            "heating_capacity_mbh": "176.0",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 50.2,
+            "area_served": "Patient Rooms",
+            "system_type": "CV"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Centrifugal HVAC Fans",
+      "notes": "Exhaust fans for various zones with direct drive motors and BAS controls. All fans equipped with gravity backdraft dampers and vibration isolation.",
+      "items": [
+        {
+          "equipmentTag": "EF-1",
+          "manufacturer": "Loren Cook",
+          "model": "165R08D",
+          "specifications": {
+            "cfm": 1610,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.25,
+            "rpm": 975,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-2",
+          "manufacturer": "Loren Cook",
+          "model": "165R08D",
+          "specifications": {
+            "cfm": 1820,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.33,
+            "rpm": 880,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-3",
+          "manufacturer": "Loren Cook",
+          "model": "90R17D",
+          "specifications": {
+            "cfm": 500,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.05,
+            "rpm": 1140,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-4",
+          "manufacturer": "Loren Cook",
+          "model": "101R17D",
+          "specifications": {
+            "cfm": 530,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.05,
+            "rpm": 1225,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-5",
+          "manufacturer": "Loren Cook",
+          "model": "135R17D",
+          "specifications": {
+            "cfm": 1055,
+            "static_pressure_in_wc": 0.5,
+            "motor_hp": 0.125,
+            "rpm": 840,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-6",
+          "manufacturer": "Loren Cook",
+          "model": "120R17D",
+          "specifications": {
+            "cfm": 850,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.125,
+            "rpm": 1130,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-7",
+          "manufacturer": "Loren Cook",
+          "model": "135R17D",
+          "specifications": {
+            "cfm": 425,
+            "static_pressure_in_wc": 0.375,
+            "motor_hp": 0.05,
+            "rpm": 1120,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Single Space Exhaust",
+            "type": "RCU"
+          }
+        },
+        {
+          "equipmentTag": "EF-8",
+          "manufacturer": "Loren Cook",
+          "model": "100SQN",
+          "specifications": {
+            "cfm": 1000,
+            "static_pressure_in_wc": 0.25,
+            "motor_hp": 0.33,
+            "rpm": 2125,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Multiple Zone Exhaust",
+            "type": "ILC"
+          }
+        },
+        {
+          "equipmentTag": "EF-ISO1",
+          "manufacturer": "Loren Cook",
+          "model": "80 CPS",
+          "specifications": {
+            "cfm": 520,
+            "static_pressure_in_wc": 0.5,
+            "motor_hp": 0.1,
+            "rpm": 1505,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Isolation Suite Exhaust",
+            "type": "UCF"
+          }
+        },
+        {
+          "equipmentTag": "EF-ISO2",
+          "manufacturer": "Loren Cook",
+          "model": "80 CPS",
+          "specifications": {
+            "cfm": 520,
+            "static_pressure_in_wc": 0.5,
+            "motor_hp": 0.1,
+            "rpm": 1505,
+            "voltage": 480,
+            "phase": 3,
+            "duty": "Isolation Suite Exhaust",
+            "type": "UCF"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Power Ventilators",
+      "notes": "Kitchen exhaust fan with grease removal listing and direct drive motor.",
+      "items": [
+        {
+          "equipmentTag": "KEF-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-180",
+          "specifications": {
+            "cfm": 2960,
+            "duty": "Kitchen Exhaust",
+            "voltage": 480,
+            "phase": 3,
+            "ul_762_listed": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Small-Capacity Split-System Air-Conditioners",
+      "notes": "Ductless split systems for electrical rooms, MDF, and mainframe areas with wall-mounted indoor units and outdoor condensing units.",
+      "items": [
+        {
+          "equipmentTag": "AH-ELEC",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTX36",
+          "specifications": {
+            "cfm": 915,
+            "total_cooling_mbh": 34.4,
+            "sensible_cooling_mbh": 22.2,
+            "voltage": 208,
+            "phase": 3,
+            "type": "Wall Hung",
+            "area_served": "Electrical Room"
+          }
+        },
+        {
+          "equipmentTag": "AH-ELEC2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTX09",
+          "specifications": {
+            "cfm": 320,
+            "total_cooling_mbh": 8.9,
+            "sensible_cooling_mbh": 6.9,
+            "voltage": 208,
+            "phase": 3,
+            "type": "Wall Hung",
+            "area_served": "Electrical Room"
+          }
+        },
+        {
+          "equipmentTag": "AH-MDF",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTX36",
+          "specifications": {
+            "cfm": 915,
+            "total_cooling_mbh": 34.4,
+            "sensible_cooling_mbh": 22.2,
+            "voltage": 208,
+            "phase": 3,
+            "type": "Wall Hung",
+            "area_served": "MDF Room"
+          }
+        },
+        {
+          "equipmentTag": "AH-MFRM",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTX30",
+          "specifications": {
+            "cfm": 890,
+            "total_cooling_mbh": 31.4,
+            "sensible_cooling_mbh": 21,
+            "voltage": 208,
+            "phase": 3,
+            "type": "Wall Hung",
+            "area_served": "Mainframe Room"
+          }
+        },
+        {
+          "equipmentTag": "CU-ELEC",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RK36",
+          "specifications": {
+            "voltage": 208,
+            "phase": 3,
+            "fla_amps": 17,
+            "type": "Outdoor Unit",
+            "serves": "AH-ELEC"
+          }
+        },
+        {
+          "equipmentTag": "CU-ELEC2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RK09",
+          "specifications": {
+            "voltage": 208,
+            "phase": 3,
+            "fla_amps": 7.8,
+            "type": "Outdoor Unit",
+            "serves": "AH-ELEC2"
+          }
+        },
+        {
+          "equipmentTag": "CU-MDF",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RK36",
+          "specifications": {
+            "voltage": 208,
+            "phase": 3,
+            "fla_amps": 17,
+            "type": "Outdoor Unit",
+            "serves": "AH-MDF"
+          }
+        },
+        {
+          "equipmentTag": "CU-MFRM",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RK30NMVJUA",
+          "specifications": {
+            "voltage": 208,
+            "phase": 3,
+            "fla_amps": 17,
+            "type": "Outdoor Unit",
+            "serves": "AH-MFRM"
+          }
+        },
+        {
+          "equipmentTag": "AH-VEST1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FFQ15",
+          "specifications": {
+            "cfm": 385,
+            "total_cooling_mbh": 16.2,
+            "sensible_cooling_mbh": 12.6,
+            "voltage": 208,
+            "phase": 1,
+            "type": "Ceiling Cassette",
+            "area_served": "Front Vestibule"
+          }
+        },
+        {
+          "equipmentTag": "AH-VEST2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FFQ15",
+          "specifications": {
+            "cfm": 385,
+            "total_cooling_mbh": 16.2,
+            "sensible_cooling_mbh": 12.6,
+            "voltage": 208,
+            "phase": 1,
+            "type": "Ceiling Cassette",
+            "area_served": "Rear Vestibule"
+          }
+        },
+        {
+          "equipmentTag": "HP-VEST1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RX15",
+          "specifications": {
+            "voltage": 208,
+            "phase": 1,
+            "fla_amps": 9.7,
+            "type": "Heat Pump Outdoor Unit",
+            "serves": "AH-VEST1"
+          }
+        },
+        {
+          "equipmentTag": "HP-VEST2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RX15",
+          "specifications": {
+            "voltage": 208,
+            "phase": 1,
+            "fla_amps": 9.7,
+            "type": "Heat Pump Outdoor Unit",
+            "serves": "AH-VEST2"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Unit Heaters",
+      "notes": "Electric unit heaters with horizontal/vertical mounting capability and integral thermostats.",
+      "items": [
+        {
+          "equipmentTag": "EUH-1",
+          "manufacturer": "Raywall",
+          "model": "5100",
+          "specifications": {
+            "type": "Unit Heater",
+            "mounting": "Horizontal/Vertical",
+            "output_capacity_kw": 5,
+            "mounting_height": "8'-0\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 6.1,
+            "weight_lbs": 44
+          }
+        },
+        {
+          "equipmentTag": "EUH-2",
+          "manufacturer": "Raywall",
+          "model": "5100",
+          "specifications": {
+            "type": "Unit Heater",
+            "mounting": "Horizontal/Vertical",
+            "output_capacity_kw": 5,
+            "mounting_height": "8'-0\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 6.1,
+            "weight_lbs": 44
+          }
+        },
+        {
+          "equipmentTag": "EUH-3",
+          "manufacturer": "Raywall",
+          "model": "5100",
+          "specifications": {
+            "type": "Unit Heater",
+            "mounting": "Horizontal/Vertical",
+            "output_capacity_kw": 5,
+            "mounting_height": "8'-0\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 6.1,
+            "weight_lbs": 44
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Wall and Ceiling Unit Heaters",
+      "notes": "Electric wall heaters with surface mounting and integral tamperproof thermostats.",
+      "items": [
+        {
+          "equipmentTag": "EWH 1",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 2",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 3",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH4",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 5",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 6",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        },
+        {
+          "equipmentTag": "EWH 7",
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "specifications": {
+            "type": "Wall Heater",
+            "mounting": "Surface",
+            "output_capacity_kw": 3,
+            "mounting_height": "12\"",
+            "voltage": 480,
+            "phase": 3,
+            "fla_amps": 3.6,
+            "weight_lbs": 30
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Kitchen Hoods",
+      "notes": "Stainless steel kitchen exhaust hood for commercial kitchen application.",
+      "items": [
+        {
+          "equipmentTag": "KH1",
+          "manufacturer": "accurex",
+          "model": "XXEW-160-S",
+          "specifications": {
+            "type": "Kitchen Hood",
+            "material": "Stainless Steel",
+            "width": "160 inches"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Packaged, Direct-Fired, Outdoor, Heating-Only Makeup-Air Units",
+      "notes": "Direct-fired makeup air unit for kitchen ventilation system to replace exhausted air.",
+      "items": [
+        {
+          "equipmentTag": "MUA1",
+          "manufacturer": "accurex",
+          "model": "XDGX-P112-H12-MF-5",
+          "specifications": {
+            "type": "Makeup Air Unit",
+            "fuel_type": "Direct-Fired",
+            "location": "Outdoor",
+            "heating_only": "Yes"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Packaged Rooftop Air-Conditioning Units",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "48LCRA20/48JCSW06/48LCRA24/48LCSA12/48LCSA09/48LCSA14",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Currently specified for RTU-1 through RTU-8 in mechanical schedules"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Rheem",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "York",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Alternative manufacturer for packaged rooftop units, compatible with specified requirements"
+        },
+        {
+          "manufacturer": "Goodman",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Budget alternative option, verify compliance with efficiency requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Centrifugal HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Loren Cook",
+          "model": "165R08D, 90R17D, 101R17D, 135R17D, 120R17D, 100SQN, 80CPS",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for various centrifugal fan applications including multiple zone and isolation suite exhaust"
+        },
+        {
+          "manufacturer": "Pennbarry",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Carnes",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Twin City",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Aerovent",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Delta Breez",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "S & P USA",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Broan-NuTone",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for centrifugal HVAC fans applications"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for centrifugal HVAC fans applications"
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Power Ventilators",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "CUE-180",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD manufacturer for equipment tag KEF-1 in project dashboard"
+        },
+        {
+          "manufacturer": "Broan-NuTone",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Alternative manufacturer for HVAC power ventilators, suitable for similar applications"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Alternative manufacturer for power ventilators, known for reliable centrifugal upblast units"
+        },
+        {
+          "manufacturer": "Penn Ventilation",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Alternative manufacturer for commercial power ventilators, competitive pricing"
+        }
+      ]
+    },
+    {
+      "componentType": "Small-Capacity Split-System Air-Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "Various (FTX36, FTX09, FTX30, RK36, RK09, RK30NMVJUA, FFQ15, RX15)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedules as BoD manufacturer for all split-system units"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "LG",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Johnson Controls (JCI)",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Toshiba",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Sanyo",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Bosch",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Rheem",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        }
+      ]
+    },
+    {
+      "componentType": "Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Raywall",
+          "model": "5100",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Horizontal/vertical mounting, 5.0 kW output, 8'-0\" mounting height"
+        },
+        {
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Wall heater surface mount, 3.0 kW output, 12\" mounting height"
+        },
+        {
+          "manufacturer": "Markel",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Qmark",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Indeeco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Marley",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Reddi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Stelpro",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Suitable alternative for commercial electric unit heaters"
+        },
+        {
+          "manufacturer": "Broan-NuTone",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for wall and ceiling unit heaters"
+        }
+      ]
+    },
+    {
+      "componentType": "Wall and Ceiling Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Wall heater surface mount type, 3.0 kW output capacity"
+        },
+        {
+          "manufacturer": "Markel",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Qmark",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Indeeco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Marley",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Reddi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Stelpro",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "King Electric",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Commercial grade wall and ceiling mount electric heaters, suitable alternative"
+        },
+        {
+          "manufacturer": "Cadet",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Wall and ceiling mounted electric heaters with similar capacity range"
+        }
+      ]
+    },
+    {
+      "componentType": "Kitchen Hoods",
+      "suppliers": [
+        {
+          "manufacturer": "accurex",
+          "model": "XXEW-160-S",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedule as KH1 for kitchen hood application"
+        },
+        {
+          "manufacturer": "CaptiveAire",
+          "model": "Various Models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Leading commercial kitchen hood manufacturer with similar performance specifications"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "Various Models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Well-established ventilation manufacturer with commercial kitchen hood product line"
+        }
+      ]
+    },
+    {
+      "componentType": "Packaged, Direct-Fired, Outdoor, Heating-Only Makeup-Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "accurex",
+          "model": "XDGX-P112-H12-MF-5",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Direct replacement for existing makeup air requirements"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "GDXF Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "May require control modifications for existing building automation system"
+        },
+        {
+          "manufacturer": "Reznor",
+          "model": "DMX Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Verify compatibility with existing gas line sizing and electrical requirements"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement multi-vendor bidding strategy for HVAC equipment packages",
+      "rationale": "The project specifies multiple acceptable manufacturers for each equipment category (Carrier, Daikin, Trane, Johnson Controls for RTUs; Daikin, Mitsubishi, LG, Samsung for split systems; Cook, Greenheck, Twin City for fans). This presents an opportunity to leverage competition among suppliers to achieve better pricing and terms while maintaining quality standards.",
+      "estimatedImpact": "Significant cost savings potential through competitive bidding, improved delivery schedules through multiple supplier options, and reduced project risk through supplier diversification",
+      "implementation": "Issue separate RFQs to all specified manufacturers for each equipment category, conduct thorough technical and commercial evaluation, negotiate with top 2-3 suppliers for final pricing, and select based on best value considering price, delivery, warranty, and service support",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Consolidate procurement of similar equipment types to achieve volume discounts",
+      "rationale": "The project includes multiple units of similar equipment types: 8 RTUs from Carrier, 10 exhaust fans from Loren Cook, 9 wall heaters from Raywall, and multiple Daikin split system units. Bundling these similar units together in procurement packages can leverage volume purchasing power.",
+      "estimatedImpact": "Meaningful cost reduction through volume pricing, simplified project management with fewer supplier relationships, and potentially improved delivery coordination",
+      "implementation": "Group equipment by manufacturer and type into consolidated purchase orders, negotiate volume discounts for quantity purchases, establish single delivery schedules for grouped equipment, and coordinate installation sequences to optimize contractor efficiency",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Establish early supplier engagement for critical path equipment",
+      "rationale": "The project includes specialized equipment such as the kitchen hood system (Accurex), makeup air unit, and medical-grade HEPA filtration systems for patient rooms (RTU-1 and RTU-3). These items typically have longer lead times and require careful coordination with other building systems.",
+      "estimatedImpact": "Reduced schedule risk through early equipment ordering, improved coordination with installation contractors, and potential for design optimization through early supplier input",
+      "implementation": "Identify long-lead equipment early in design phase, engage suppliers for preliminary pricing and lead time confirmation, place orders as soon as specifications are finalized, and establish delivery schedules coordinated with construction milestones",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Negotiate comprehensive service and warranty packages for critical HVAC systems",
+      "rationale": "As a rehabilitation hospital, equipment reliability is crucial for patient care and operational continuity. The RTU systems, split system units, and kitchen ventilation equipment require consistent operation. Enhanced warranty and service agreements can provide operational assurance and cost predictability.",
+      "estimatedImpact": "Improved operational reliability, reduced long-term maintenance costs, and enhanced equipment performance through proactive service programs",
+      "implementation": "Request extended warranty options beyond standard terms, negotiate preventive maintenance packages with suppliers, establish priority service response agreements for critical equipment, and consider performance guarantees for energy efficiency metrics",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Coordinate electrical compatibility verification during procurement process",
+      "rationale": "The mechanical schedules show specific electrical requirements (480V 3-phase for most equipment, varying MCA and FLA ratings). The project notes emphasize mechanical-electrical coordination responsibility. Early verification prevents costly field modifications and delays.",
+      "estimatedImpact": "Prevention of costly field changes, elimination of project delays due to electrical mismatches, and improved contractor coordination",
+      "implementation": "Require suppliers to confirm electrical specifications match project requirements during quotation process, coordinate equipment submittals with electrical contractor review, verify power requirements against electrical design before equipment ordering, and establish clear responsibility matrix for electrical coordination",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "This HVAC equipment procurement project for the Everest Physical Rehabilitation Hospital involves a comprehensive mix of 8 packaged rooftop units, 10 centrifugal exhaust fans, 12 split-system units, electric heating equipment, and specialized kitchen ventilation systems. The project specifications provide multiple approved manufacturers for each equipment category, creating opportunities for competitive procurement while maintaining quality standards. Critical coordination is required between mechanical and electrical systems, with emphasis on reliability for healthcare operations.",
+    "keyFindings": [
+      "Multiple approved manufacturers are specified for each equipment category, enabling competitive bidding strategies with Carrier, Daikin, Trane, Johnson Controls, and others providing alternatives for rooftop units and split systems",
+      "Equipment consolidation opportunities exist with similar units from the same manufacturers, including 8 Carrier RTUs, 10 Loren Cook fans, and multiple Daikin split systems that can leverage volume purchasing power",
+      "Specialized healthcare requirements include HEPA filtration systems for patient rooms and medical-grade reliability standards that require enhanced warranty and service considerations",
+      "Critical electrical coordination requirements are emphasized throughout the specifications, with specific voltage, phase, and amperage requirements that must be verified during procurement to prevent field modifications",
+      "Kitchen ventilation system components including the Accurex hood and makeup air unit represent specialized equipment with longer lead times requiring early procurement attention"
+    ],
+    "highestPriorityActions": [
+      "Implement competitive bidding strategy across all approved manufacturers to maximize cost savings while maintaining specified quality standards and delivery requirements",
+      "Consolidate similar equipment types into volume purchase packages to leverage quantity discounts and simplify supplier management throughout the project",
+      "Establish early supplier engagement for long-lead specialty items including kitchen equipment, HEPA filtration systems, and medical-grade components to prevent schedule delays",
+      "Verify electrical compatibility requirements with suppliers during quotation process and coordinate with electrical contractor to prevent costly field modifications"
+    ]
+  }
+}

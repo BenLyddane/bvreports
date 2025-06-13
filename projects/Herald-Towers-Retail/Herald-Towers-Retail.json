@@ -1,0 +1,483 @@
+{
+  "reportTitle": "BuildVision Project Report for Herald Towers Retail",
+  "customerInformation": {
+    "customerName": "JEMB",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "J005-03-006 / J005-03-007",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Herald Towers Retail",
+    "location": "50 West 34th Street, New York, NY, 10001",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Retail Pre-Lease Support & Master Planning - HVAC systems including cooling towers, heat exchangers, and hydronic pumps",
+    "projectUrl": "",
+    "additionalFields": {
+      "contractorCompany": "AMA Group",
+      "contractorAddress": "825 8th Avenue, FL 18, New York, NY, 10019",
+      "primaryContact": "Peter Harman",
+      "primaryContactTitle": "Senior Associate",
+      "primaryContactEmail": "PHarman@amagroupusa.com",
+      "primaryContactPhone": "212.404.5805",
+      "issueDate": "5/16/2025",
+      "documentStatus": "ISSUED FOR SCHEMATIC DESIGN"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-12"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Pumps",
+      "notes": "Hydronic pumps including close-coupled in-line centrifugal and separately coupled base-mounted end-suction centrifugal pumps with variable speed controls",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "E-1510 4GC",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "E-1510 3EB",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "E-1510 3GB",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "ECOCIRC 55-45",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heat Exchangers",
+      "notes": "Shell and tube heat exchangers for steam to water heating applications with steam in shell and water in tubes",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "SUS 42.6 0-4",
+          "specifications": {
+            "designPressure": "150 PSIG",
+            "inletTemperature": "160.0 F",
+            "outletTemperature": "55.0 F",
+            "numberOfPasses": "2",
+            "fluidType": "STEAM",
+            "flowRate": "1,402 LB/HR",
+            "pressureDrop": "1.56 PSIG",
+            "length": "64 inches",
+            "diameter": "6 inches"
+          }
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "SUS 43.6 0-4",
+          "specifications": {
+            "designPressure": "150 PSIG",
+            "inletTemperature": "160.0 F",
+            "outletTemperature": "55.0 F",
+            "numberOfPasses": "2",
+            "fluidType": "STEAM",
+            "flowRate": "539 LB/HR",
+            "pressureDrop": "0.22 PSIG",
+            "length": "46 inches",
+            "diameter": "6 inches"
+          }
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "SUS 45-2",
+          "specifications": {
+            "designPressure": "150 PSIG",
+            "inletTemperature": "160.0 F",
+            "outletTemperature": "55.0 F",
+            "numberOfPasses": "2",
+            "fluidType": "STEAM",
+            "flowRate": "809 LB/HR",
+            "pressureDrop": "0.48 PSIG",
+            "length": "46 inches",
+            "diameter": "6 inches"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Cooling Towers",
+      "notes": "Open circuit, forced draft, counterflow cooling towers for outdoor or indoor use with vertical discharge design",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Baltimore Aircoil Company",
+          "model": "Series V",
+          "specifications": {}
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510 4GC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules as specified equipment"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510 3EB",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules as specified equipment"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510 3GB",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules as specified equipment"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "ECOCIRC 55-45",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules as specified equipment"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for hydronic pumps with similar efficiency and ECM capabilities"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for hydronic pumps with variable speed capabilities"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for hydronic pumps with integrated pump motor variable-speed controllers"
+        }
+      ]
+    },
+    {
+      "componentType": "Heat Exchangers",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510 4GC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Shell-and-tube heat exchanger as shown on mechanical schedules"
+        },
+        {
+          "manufacturer": "API Heat Transfer",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for shell-and-tube heat exchangers"
+        },
+        {
+          "manufacturer": "Diversified Heat Transfer",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for shell-and-tube heat exchangers"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for shell-and-tube heat exchangers"
+        },
+        {
+          "manufacturer": "Alpha-Laval Thermal",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for gasketed plate heat exchangers"
+        },
+        {
+          "manufacturer": "Polaris Plate Heat Exchangers",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for gasketed plate heat exchangers"
+        },
+        {
+          "manufacturer": "Mueller, Paul Company",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for gasketed plate heat exchangers"
+        },
+        {
+          "manufacturer": "Tranter",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Industry standard manufacturer for plate heat exchangers, compatible with project requirements"
+        },
+        {
+          "manufacturer": "Danfoss",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Suitable for both plate and shell-and-tube heat exchanger applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Cooling Towers",
+      "suppliers": [
+        {
+          "manufacturer": "Baltimore Aircoil Company",
+          "model": "Series V (VT0, VT1, and VTL)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of Design manufacturer for open circuit, forced draft, counterflow cooling towers"
+        },
+        {
+          "manufacturer": "EVAPCO, Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for cooling towers"
+        },
+        {
+          "manufacturer": "Marley Cooling Technologies",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for cooling towers, part of SPX Cooling Technologies"
+        },
+        {
+          "manufacturer": "SPX Cooling Technologies",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for cooling towers"
+        },
+        {
+          "manufacturer": "Tower Tech",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for forced draft cooling towers"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement Bell & Gossett Single-Source Strategy for Pumps and Heat Exchangers",
+      "rationale": "The project specifications show Bell & Gossett as the primary manufacturer for both heat exchangers and ECM pumps. Consolidating procurement under a single manufacturer provides better warranty coordination, simplified maintenance training, and potential volume discounts. Bell & Gossett offers comprehensive HVAC solutions with proven compatibility between their heat exchangers and pump systems.",
+      "estimatedImpact": "Significant cost savings through volume purchasing, reduced maintenance complexity, and streamlined warranty management. Single-source responsibility eliminates finger-pointing between equipment manufacturers during troubleshooting.",
+      "implementation": "Contact Bell & Gossett directly to negotiate package pricing for all heat exchangers and ECM pumps. Request factory coordination for equipment compatibility verification. Establish single point of contact for technical support and warranty issues. Schedule coordinated delivery to minimize storage requirements.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Negotiate Pre-Purchase Agreements with Performance Guarantees",
+      "rationale": "The equipment schedules show specific performance requirements for heat exchangers, pumps, and cooling towers. Pre-purchase agreements lock in pricing and delivery schedules while ensuring equipment meets design specifications. Performance guarantees protect against underperforming equipment that could impact system efficiency.",
+      "estimatedImpact": "Price protection against market fluctuations and material cost increases. Guaranteed delivery schedules support project timeline requirements. Performance guarantees ensure equipment meets design intent and energy efficiency targets.",
+      "implementation": "Develop pre-purchase agreements including detailed performance specifications, delivery schedules, and acceptance criteria. Include penalty clauses for late delivery or performance shortfalls. Establish equipment storage and logistics requirements. Coordinate payment terms with project cash flow requirements.",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "recommendation": "Establish Preferred Supplier Network for Alternative Equipment Options",
+      "rationale": "The specifications list multiple approved manufacturers for each equipment type including API Heat Transfer, Taco, EVAPCO, and Marley for alternatives to primary selections. Establishing relationships with alternative suppliers provides procurement flexibility and competitive pricing leverage while maintaining specification compliance.",
+      "estimatedImpact": "Enhanced negotiating position through competitive bidding. Supply chain risk mitigation if primary suppliers face delivery issues. Potential cost optimization through alternative product offerings that meet or exceed specifications.",
+      "implementation": "Request budgetary pricing from all approved manufacturers listed in specifications. Evaluate alternative products for equivalent performance and features. Establish backup supplier agreements with defined lead times and pricing validity periods. Create supplier qualification matrix for future procurement decisions.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Coordinate Staged Delivery Schedule to Minimize Storage Requirements",
+      "rationale": "The project involves multiple large mechanical equipment items including cooling towers, heat exchangers, and pumps with significant storage footprint requirements. Manhattan construction sites have limited storage space, making coordinated delivery scheduling critical for cost control and site logistics management.",
+      "estimatedImpact": "Reduced on-site storage costs and security requirements. Minimized equipment handling and potential damage from extended storage. Improved construction site efficiency through just-in-time delivery coordination.",
+      "implementation": "Develop detailed installation sequence with mechanical contractor input. Coordinate equipment delivery schedules with construction milestones. Establish temporary storage alternatives if needed. Include delivery coordination requirements in purchase agreements with suppliers.",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "This comprehensive procurement analysis for the Herald Towers Retail HVAC systems at 50 West 34th Street identifies a strategic opportunity to streamline equipment sourcing through Bell & Gossett's extensive product line covering heat exchangers, ECM pumps, and integrated controls. The project's pre-purchase specifications emphasize energy efficiency, variable speed control integration, and BMS compatibility, requiring careful vendor selection and performance verification. Critical procurement considerations include coordinating delivery schedules for Manhattan site logistics, establishing performance guarantees for energy efficiency compliance, and leveraging single-source supplier relationships to minimize compatibility risks and warranty complications.",
+    "keyFindings": [
+      "Bell & Gossett dominates the equipment specifications across multiple categories (heat exchangers, pumps, controls), creating significant single-source procurement leverage and compatibility advantages",
+      "ECM pump technology with integrated variable-speed controllers eliminates separate VFD procurement while providing superior energy efficiency and BMS integration capabilities",
+      "Baltimore Aircoil Series V cooling towers require specialized thermosetting hybrid polymer coatings with specific performance testing requirements that limit acceptable alternatives",
+      "Multiple approved alternate manufacturers provide competitive leverage but require careful evaluation of performance specifications and warranty terms",
+      "Manhattan site logistics demand coordinated delivery scheduling to minimize storage costs and equipment handling risks"
+    ],
+    "highestPriorityActions": [
+      "Immediately contact Bell & Gossett to negotiate comprehensive package pricing for heat exchangers and ECM pumps, leveraging single-source volume discounts and compatibility guarantees",
+      "Verify Baltimore Aircoil Series V cooling tower coating system compliance with specification requirements and coordinate factory assembly delivery logistics",
+      "Establish pre-purchase agreements with performance guarantees for all major equipment to lock pricing and ensure specification compliance",
+      "Develop staged delivery schedule coordinated with construction milestones to minimize Manhattan site storage requirements and equipment handling costs"
+    ]
+  }
+}

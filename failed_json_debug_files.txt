@@ -1,814 +1,803 @@
 {
   "equipmentByType": [
     {
-      "equipmentType": "Hydronic Pumps",
-      "notes": "Riser diagram calls for CWP-37-1/2/3 as 150 GPM, but schedule calls for 175 GPM. CWP-37-1/2/3 are lead/lag with third pump for redundancy.",
+      "equipmentType": "Air-Cooled Chillers",
+      "notes": "Variable speed drive screw chillers with R-134A refrigerant. Direct drive semi-hermetically sealed rotary twin screw compressors. Include low ambient controls, BACnet interface, and vibration isolation.",
       "items": [
         {
-          "equipmentTag": "CWP-14-1, -2, -3",
-          "manufacturer": "Grundfos",
-          "model": "LF-DOL15705",
+          "equipmentTag": "CH-1",
+          "manufacturer": "York",
+          "model": "YVAA",
           "specifications": {
-            "type": "Base-Mounted, Centrifugal",
-            "gpm": "250",
-            "head": "120 ft",
-            "motor": {
-              "hp": "15",
-              "volts": "460",
-              "phase": "3",
-              "hz": "60"
-            }
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
           }
         },
         {
-          "equipmentTag": "CWP-35-1, 2",
-          "manufacturer": "Grundfos",
-          "model": "CR3-DOL19-4P",
+          "equipmentTag": "CH-2",
+          "manufacturer": "York",
+          "model": "YVAA",
           "specifications": {
-            "type": "In-Line Centrifugal",
-            "gpm": "30",
-            "head": "100 ft",
-            "motor": {
-              "hp": "2",
-              "volts": "460",
-              "phase": "3",
-              "hz": "60"
-            }
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
           }
         },
         {
-          "equipmentTag": "CWP-37-1, 2, 3",
-          "manufacturer": "Grundfos",
-          "model": "LCS-DOL15705",
+          "equipmentTag": "CH-3",
+          "manufacturer": "York",
+          "model": "YVAA",
           "specifications": {
-            "type": "Base-Mounted, Centrifugal",
-            "gpm": "175",
-            "head": "120 ft",
-            "motor": {
-              "hp": "15",
-              "volts": "460",
-              "phase": "3",
-              "hz": "60"
-            }
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
           }
         },
         {
-          "equipmentTag": "PCWP-15-1, -2",
-          "manufacturer": "",
-          "model": "",
+          "equipmentTag": "CH-4",
+          "manufacturer": "York",
+          "model": "YVAA",
           "specifications": {
-            "type": "In-Line",
-            "gpm": "34.18",
-            "head": "40 ft",
-            "motor": {
-              "hp": "1",
-              "volts": "460",
-              "phase": "3",
-              "hz": "60"
-            }
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
           }
         },
         {
-          "equipmentTag": "SCWP-15-1, -2",
-          "manufacturer": "",
-          "model": "",
+          "equipmentTag": "CH-5",
+          "manufacturer": "York",
+          "model": "YVAA",
           "specifications": {
-            "type": "In-Line",
-            "gpm": "34.18",
-            "head": "40 ft",
-            "motor": {
-              "hp": "1",
-              "volts": "460",
-              "phase": "3",
-              "hz": "60"
-            }
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-6",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-7",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-8",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-9",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-10",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-11",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-12",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.10,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
           }
         }
       ]
     },
     {
-      "equipmentType": "Heat Exchangers",
-      "notes": "",
+      "equipmentType": "Water-Cooled Heat Recovery Chillers",
+      "notes": "Water to water variable speed drive screw chillers with R-134A refrigerant. Direct drive semi-hermetically sealed screw type compressors. Housed in weatherproof enclosures.",
       "items": [
         {
-          "equipmentTag": "HX-15-1",
-          "manufacturer": "Hexonic",
-          "model": "LB60-DOL110H-1",
+          "equipmentTag": "HRCH-1",
+          "manufacturer": "York",
+          "model": "YVWA",
           "specifications": {
-            "type": "Plate-Type, Liquid-to-Liquid",
-            "heat_transfer_area": "95.7 sq.ft.",
-            "cold_side_gpm": "34.18",
-            "cold_side_connection": "2-1/2 inch",
-            "hot_side_gpm": "34.18",
-            "hot_side_connection": "2-1/2 inch",
-            "working_pressure": "43.5 psig"
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.750,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-2",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.750,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-3",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.750,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-4",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.750,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
           }
         }
       ]
     },
     {
-      "equipmentType": "Air Conditioning Units",
-      "notes": "AC-15-1 and AC-16-1 serve VAVs and need VAV control. MUA-14-1 is a SCU but handles 100% outside air with a 227kW electric reheat coil.",
+      "equipmentType": "Pumps",
+      "notes": "Vertical inline pumps with NEMA premium efficiency TEFC motors. Include VFDs with bypass, vibration isolation via spring pump supports, and 1 year warranty.",
       "items": [
         {
-          "equipmentTag": "AC-15-1",
-          "manufacturer": "Mammoth",
-          "model": "VVW-303-GXST",
+          "equipmentTag": "CHP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
           "specifications": {
-            "type": "Small-Capacity Self-Contained Air-Conditioner",
-            "cooling_capacity": "421.5 MBH",
-            "sensible_capacity": "295.2 MBH",
-            "fan_cfm": "10,500",
-            "fan_esp": "2 in. w.g.",
-            "fan_motor_hp": "15",
-            "weight": "6,800 lbs",
-            "dimensions": "76.5 x 82 x 92 inches",
-            "electrical": "460/3/60",
-            "compressor_type": "Scroll",
-            "refrigerant": "R-454B",
-            "eer": "16.53"
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
           }
         },
         {
-          "equipmentTag": "AC-16-1",
-          "manufacturer": "Mammoth",
-          "model": "VVW-393-CXST-L",
+          "equipmentTag": "CHP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
           "specifications": {
-            "type": "Small-Capacity Self-Contained Air-Conditioner",
-            "cooling_capacity": "505.8 MBH",
-            "sensible_capacity": "375.9 MBH",
-            "fan_cfm": "14,000",
-            "fan_esp": "2 in. w.g.",
-            "fan_motor_hp": "20",
-            "weight": "6,800 lbs",
-            "dimensions": "76.5 x 82 x 92 inches",
-            "electrical": "460/3/60",
-            "compressor_type": "Scroll",
-            "refrigerant": "R-454B",
-            "eer": "17.03"
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
           }
         },
         {
-          "equipmentTag": "MUA-14-1",
-          "manufacturer": "Mammoth",
-          "model": "VVX-1684-GEL",
+          "equipmentTag": "CHP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
           "specifications": {
-            "type": "Packaged, Outdoor, Heating-Only Makeup-Air Unit",
-            "cfm": "11,000",
-            "esp": "2 in. w.g.",
-            "fan_motor_hp": "5.5 x 2",
-            "cooling_capacity": "822.4 MBH",
-            "sensible_capacity": "508.4 MBH",
-            "heating_capacity": "656.4 MBH",
-            "electric_heat": "192.4 kW",
-            "weight": "8,600 lbs",
-            "dimensions": "98 x 103 x 93 inches",
-            "electrical": "460/3/60"
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-4",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-5",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-6",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-7",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
           }
         }
       ]
     },
     {
-      "equipmentType": "Electronic Air Cleaners",
-      "notes": "",
+      "equipmentType": "Dedicated Outdoor Air Units",
+      "notes": "Temtrol ITF units with energy recovery, humidification capability, EC motors, and double wall construction. Include MERV 8 and MERV 14 filters.",
       "items": [
         {
-          "equipmentTag": "ESP-14-1",
-          "manufacturer": "Halton",
-          "model": "PST-18-ESP-ESP-EF-OCUV-OCC-B",
-          "specifications": {
-            "type": "Electrostatic Precipitator",
-            "cfm": "16,000",
-            "fan_model": "CSP-A1300",
-            "fan_esp": "5.99 in. w.g.",
-            "fan_hp": "25",
-            "fan_rpm": "1800",
-            "weight": "10,211 lbs",
-            "electrical": "460/3/60"
-          }
+          "equipmentTag": "AHU-01",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-02",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-03",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-04",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-05",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-06",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY11",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY12",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY13",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
         }
       ]
     },
     {
-      "equipmentType": "VAV Terminal Units",
-      "notes": "These are all single duct terminals without reheat. Low budget.",
+      "equipmentType": "Indoor Central Air Handling Units",
+      "notes": "Temtrol TF modular air handling units with EC motors, double wall construction, and spring isolated base rails. Include vibration isolation and DDC controls.",
       "items": [
         {
-          "equipmentTag": "VAV-6",
-          "manufacturer": "Titus",
-          "model": "DESV-6",
-          "specifications": {
-            "type": "Single-Duct VAV Terminal Unit",
-            "size": "6",
-            "max_cap": "500",
-            "max_set": "350",
-            "min_set": "80",
-            "pressure_drop": "0.03 in. w.g."
-          }
+          "equipmentTag": "AHU-CR1",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
         },
         {
-          "equipmentTag": "VAV-8",
-          "manufacturer": "Titus",
-          "model": "DESV-8",
-          "specifications": {
-            "type": "Single-Duct VAV Terminal Unit",
-            "size": "8",
-            "max_cap": "900",
-            "max_set": "750",
-            "min_set": "145",
-            "pressure_drop": "0.01 in. w.g."
-          }
+          "equipmentTag": "AHU-CR2",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
         },
         {
-          "equipmentTag": "VAV-10",
-          "manufacturer": "Titus",
-          "model": "DESV-10",
-          "specifications": {
-            "type": "Single-Duct VAV Terminal Unit",
-            "size": "10",
-            "max_cap": "1400",
-            "max_set": "1100",
-            "min_set": "230",
-            "pressure_drop": "0.01 in. w.g."
-          }
+          "equipmentTag": "AHU-CR3",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
         },
         {
-          "equipmentTag": "VAV-12",
-          "manufacturer": "Titus",
-          "model": "DESV-12",
-          "specifications": {
-            "type": "Single-Duct VAV Terminal Unit",
-            "size": "12",
-            "max_cap": "2000",
-            "max_set": "1600",
-            "min_set": "325",
-            "pressure_drop": "0.01 in. w.g."
-          }
+          "equipmentTag": "AHU-CR4",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
         },
         {
-          "equipmentTag": "VAV-14",
-          "manufacturer": "Titus",
-          "model": "DESV-14",
-          "specifications": {
-            "type": "Single-Duct VAV Terminal Unit",
-            "size": "14",
-            "max_cap": "3000",
-            "max_set": "2100",
-            "min_set": "450",
-            "pressure_drop": "0.01 in. w.g."
-          }
+          "equipmentTag": "AHU-CR5",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
         },
         {
-          "equipmentTag": "VAV-16",
-          "manufacturer": "Titus",
-          "model": "DESV-16",
-          "specifications": {
-            "type": "Single-Duct VAV Terminal Unit",
-            "size": "16",
-            "max_cap": "4100",
-            "max_set": "3100",
-            "min_set": "580",
-            "pressure_drop": "0.01 in. w.g."
-          }
+          "equipmentTag": "AHU-CR6",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR7",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR8",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR9",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR10",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
         }
-      ]
-    },
-    {
-      "equipmentType": "HVAC Fans",
-      "notes": "DXF-14-1 serves dishwasher. Aluminum wheel needed for dishwasher exhaust fans. BOD fan may not be compatible with EC motor. Engineer requests add-alt breakout price for transfer fans serving IDF rooms.",
-      "items": [
-        {
-          "equipmentTag": "DXF-14-1",
-          "manufacturer": "Greenheck",
-          "model": "QEI-9",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "1200",
-            "static_pressure": "3 in. w.g.",
-            "motor": {
-              "hp": "1.5",
-              "volts": "460",
-              "phase": "3",
-              "hz": "60"
-            },
-            "rpm": "3600",
-            "weight": "188 lbs",
-            "dimensions": "28.5 x 20 x 22.75 in"
-          }
-        },
-        {
-          "equipmentTag": "DXF-14-2",
-          "manufacturer": "Greenheck",
-          "model": "QEI-9",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "1200",
-            "static_pressure": "3 in. w.g.",
-            "motor": {
-              "hp": "1.5",
-              "volts": "460",
-              "phase": "3",
-              "hz": "60"
-            },
-            "rpm": "3600",
-            "weight": "188 lbs",
-            "dimensions": "28.5 x 20 x 22.75 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-13-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A510-VG",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "500",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.156",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1275",
-            "weight": "36 lbs",
-            "dimensions": "15 x 18 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-14-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A510-VG",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "500",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.156",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1275",
-            "weight": "36 lbs",
-            "dimensions": "15 x 18 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-15-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A700",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "600",
-            "static_pressure": "0.5 in. w.g.",
-            "motor": {
-              "kw": "0.312",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1035",
-            "weight": "34 lbs",
-            "dimensions": "12 x 24 x 12 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-15-2, -5",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A390-VG",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "250",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.829",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1260",
-            "weight": "23 lbs",
-            "dimensions": "12 x 14 x 12 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-15-3",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A510-VG",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "500",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.156",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1275",
-            "weight": "36 lbs",
-            "dimensions": "15 x 18 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-15-4",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A780",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "700",
-            "static_pressure": "0.375 in. w.g.",
-            "motor": {
-              "kw": "0.49",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1600",
-            "weight": "36 lbs",
-            "dimensions": "18 x 15 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-16-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A700",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "600",
-            "static_pressure": "0.5 in. w.g.",
-            "motor": {
-              "kw": "0.312",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1035",
-            "weight": "34 lbs",
-            "dimensions": "12 x 24 x 12 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-16-2, -5",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A390-VG",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "250",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.829",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1260",
-            "weight": "23 lbs",
-            "dimensions": "12 x 14 x 12 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-16-3",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A510-VG",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "500",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.156",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1275",
-            "weight": "36 lbs",
-            "dimensions": "15 x 18 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "EF-16-4",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A780",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "700",
-            "static_pressure": "0.375 in. w.g.",
-            "motor": {
-              "kw": "0.49",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1600",
-            "weight": "36 lbs",
-            "dimensions": "18 x 15 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "GXF-14-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A390",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "250",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.829",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1260",
-            "weight": "23 lbs",
-            "dimensions": "12 x 14 x 12 in"
-          }
-        },
-        {
-          "equipmentTag": "TF-13-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A1300",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "1200",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.7",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1300",
-            "weight": "59 lbs",
-            "dimensions": "23 x 14 x 14 in"
-          }
-        },
-        {
-          "equipmentTag": "TF-14-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A1300",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "1200",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.7",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1300",
-            "weight": "59 lbs",
-            "dimensions": "23 x 14 x 14 in"
-          }
-        },
-        {
-          "equipmentTag": "TF-15-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A1300",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "1200",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.7",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1300",
-            "weight": "59 lbs",
-            "dimensions": "23 x 14 x 14 in"
-          }
-        },
-        {
-          "equipmentTag": "TF-16-1",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A1300",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "1200",
-            "static_pressure": "0.25 in. w.g.",
-            "motor": {
-              "kw": "0.7",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1300",
-            "weight": "59 lbs",
-            "dimensions": "23 x 14 x 14 in"
-          }
-        },
-        {
-          "equipmentTag": "TX-13-1, -2",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A780",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "700",
-            "static_pressure": "0.375 in. w.g.",
-            "motor": {
-              "kw": "0.49",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1600",
-            "weight": "36 lbs",
-            "dimensions": "18 x 15 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "TX-14-1, -2",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A780",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "700",
-            "static_pressure": "0.375 in. w.g.",
-            "motor": {
-              "kw": "0.49",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1600",
-            "weight": "36 lbs",
-            "dimensions": "18 x 15 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "TX-15-1, -2",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A780",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "700",
-            "static_pressure": "0.375 in. w.g.",
-            "motor": {
-              "kw": "0.49",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1600",
-            "weight": "36 lbs",
-            "dimensions": "18 x 15 x 15 in"
-          }
-        },
-        {
-          "equipmentTag": "TX-16-1, -2",
-          "manufacturer": "Greenheck",
-          "model": "CSP-A780",
-          "specifications": {
-            "type": "Inline",
-            "cfm": "700",
-            "static_pressure": "0.375 in. w.g.",
-            "motor": {
-              "kw": "0.49",
-              "volts": "120",
-              "phase": "1",
-              "hz": "60"
-            },
-            "rpm": "1600",
-            "weight": "36 lbs",
-            "dimensions": "18 x 15 x 15 in"
-          }
-        }
-      ]
-    },
-    {
-      "equipmentType": "Fan Coil Units",
-      "notes": "Fairly straightforward. Some manufacturers have piping packages included from factory. No external static pressure requirements listed.",
-      "items": [
-        {
-          "equipmentTag": "FCU-14-1",
-          "manufacturer": "IEC",
-          "model": "HPY12",
-          "specifications": {
-            "type": "2-Pipe, 6-Row - Heating & Cooling",
-            "cfm": "921",
-            "cooling_capacity": {
-              "total": "39.3 MBH",
-              "sensible": "26.8 MBH"
-            },
-            "heating_capacity": "68.6 MBH",
-            "chilled_water": {
-              "gpm": "7.7",
-              "ewt_lwt": "45/55 °F",
-              "pressure_drop": "11.1 ft of H2O"
-            },
-            "hot_water": {
-              "gpm": "7.8",
-              "ewt_lwt": "150/132.2 °F",
-              "pressure_drop": "8.7 ft of H2O"
-            },
-            "electrical": {
-              "volts": "115",
-              "phase": "1",
-              "hz": "60",
-              "fla": "6.6"
-            },
-            "weight": "169 lbs",
-            "dimensions": "32 x 37 x 16 in"
-          }
-        },
-        {
-          "equipmentTag": "FCU-16-1",
-          "manufacturer": "IEC",
-          "model": "HPY12",
-          "specifications": {
-            "type": "2-Pipe, 6-Row - Heating & Cooling",
-            "cfm": "921",
-            "cooling_capacity": {
-              "total": "39.3 MBH",
-              "sensible": "26.8 MBH"
-            },
-            "heating_capacity": "68.6 MBH",
-            "chilled_water": {
-              "gpm": "7.7",
-              "ewt_lwt": "45/55 °F",
-              "pressure_drop": "11.1 ft of H2O"
-            },
-            "hot_water": {
-              "gpm": "7.8",
-              "ewt_lwt": "150/132.2 °F",
-              "pressure_drop": "8.7 ft of H2O"
-            },
-            "electrical": {
-              "volts": "115",
-              "phase": "1",
-              "hz": "60",
-              "fla": "6.6"
-            },
-            "weight": "169 lbs",
-            "dimensions": "32 x 37 x 16 in"
-          }
-        },
-        {
-          "equipmentTag": "FCU-15-1, -2",
-          "manufacturer": "IEC",
-          "model": "HPY08",
-          "specifications": {
-            "type": "2-Pipe, 6-Row - Heating & Cooling",
-            "cfm": "550",
-            "cooling_capacity": {
-              "total": "22.7 MBH",
-              "sensible": "15.7 MBH"
-            },
-            "heating_capacity": "41 MBH",
-            "chilled_water": {
-              "gpm": "4.6",
-              "ewt_lwt": "45/55 °F",
-              "pressure_drop": "3.7 ft of H2O"
-            },
-            "hot_water": {
-              "gpm": "4.5",
-              "ewt_lwt": "150/131.6 °F",
-              "pressure_drop": "2.9 ft of H2O"
-            },
-            "electrical": {
-              "volts": "115",
-              "phase": "1",
-              "hz": "60",
-              "fla": "4.3"
-            },
-            "weight": "107 lbs",
-            "dimensions": "28 x 32 x 16 in"
-          }
-        },
-        {
-          "equipmentTag": "FCU-16-2, -3",
-          "manufacturer": "IEC",
-          "model": "HPY08",
-          "specifications": {
-            "type": "2-Pipe, 6-Row - Heating & Cooling",
-            "cfm": "550",
-            "cooling_capacity": {
-              "total": "22.7 MBH",
-              "sensible": "15.7 MBH"
-            },
-            "heating_capacity": "41 MBH",
-            "chilled_water": {
-              "gpm": "4.6",
-              "ewt_lwt": "45/55 °F",
-              "pressure_drop": "3.7 ft of H2O"
-            },
-            "hot_water": {
-              "gpm": "4.5",
-              "ewt_lwt": "150/131.6 °F",
-              "pressure_drop": "2.9 ft of H2O"
-            },
-            "electrical": {
-              "volts": "115",
-              "phase": "1",
-              "hz": "60",
-              "fla": "4.3"
-            },
-            "weight": "107 lbs",
-            "dimensions": "28 x 32 x 16 in"
-          }
-        }
-      ]
-    }

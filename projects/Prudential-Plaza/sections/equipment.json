@@ -1,0 +1,650 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Modular Water Chillers",
+      "notes": "Air-cooled modular units with four-way valves for cooling/heating operation. Units serve building heating and cooling loads through heat exchangers.",
+      "items": [
+        {
+          "equipmentTag": "HP-3B-1",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-3B-2",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-3B-3",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-3B-4",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-3B-5",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-1",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "328 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-2",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "328 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-3",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "328 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-4",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "328 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-5",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "348 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-6",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "165 tons / 1250 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "5",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "410 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "167 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "370",
+            "MOP": "600",
+            "dimensions": "28'-3\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "18,825 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-7",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "165 tons / 1250 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "5",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "410 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "167 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "270",
+            "MOP": "600",
+            "dimensions": "28'-3\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "18,825 lbs",
+            "workingPressure": "150 psig"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "In-Line Centrifugal Hydronic Pumps",
+      "notes": "Variable frequency drive controlled pumps for hydronic systems including chilled water, hot water, and dual temperature water circulation.",
+      "items": [
+        {
+          "equipmentTag": "CHMP-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2G-5.25-HT1.5-2B",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CHMP-2",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2G-5.25-HT1.5-2B",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CHMP-3",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2G-5.25-HT1.5-2B",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E80-3X3X15-S526VM-1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-2",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E80-3X3X15-S526VM-1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-12",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-HSPC 35X15X15 2.5T LHS SPACER",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-13",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-14",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-15",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-1HP-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-16",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-HSPC 35X15X15 2.5T LHS SPACER",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-47",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-HSPC 75X15X15 2.5T LHS SPACER",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-48",
+          "manufacturer": "Bell & Gossett",
+          "model": "E1510-PSF60-55-1HP-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-49",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-1HP-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-50",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-1HP-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-51",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-HSPC 75X15X15 2.5T LHS SPACER",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL1",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-1.5B-30-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL2",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-1.5B-30-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL3",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-1.5B-30-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL4",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-5GB-55-4571-5A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL5",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-5GB-55-4571-5A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL6",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-5GB-55-4571-5A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HTP-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "E1510-5GB-5536AT-1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HTP-2",
+          "manufacturer": "Bell & Gossett",
+          "model": "E1510-5GB-5536AT-1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HTP-3",
+          "manufacturer": "Bell & Gossett",
+          "model": "E1510-5GB-5536AT-1",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Variable Frequency Drives",
+      "notes": "VFDs for motor control with harmonic filtering and bypass capabilities. Includes 6-pulse and 12-pulse configurations based on application requirements.",
+      "items": [
+        {
+          "equipmentTag": "(N)CHWP-2B-1",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-124A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)CHWP-2B-2",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-124A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)CHWP-2B-3",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-124A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)DTGP-2B-1",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-077A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)DTGP-2B-2",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-077A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)DTGP-2B-3",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-077A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-47",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-014A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-48",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-07.6-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-49",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-012A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-50",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-012A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-51",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-014A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-1",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-027A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-2",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-027A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-12",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-13",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-14",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-014A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-15",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-07.6-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-16",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-1",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-2",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-3",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-4",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-156A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-5",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-156A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-6",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-156A-4+F267",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

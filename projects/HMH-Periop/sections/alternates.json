@@ -1,0 +1,416 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Tri-Tech",
+          "model": "EZ Backfeed EZ Find",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified as basis of design for Medical Gas Zone valve boxes"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Custom Hospital Grade AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for hospital grade custom air handling units with less than 1% leakage, double wall 4-inch insulated construction"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Custom Hospital Grade AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative for hospital grade custom air handling units with aluminum or stainless steel internal components"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Custom Hospital Grade AHU",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for hospital grade air handling units with energy recovery capabilities"
+        }
+      ]
+    },
+    {
+      "componentType": "Heat Exchangers",
+      "suppliers": [
+        {
+          "manufacturer": "Plate and Frame",
+          "model": "Heat Recovery Chiller Heat Exchanger - 800 MBH",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for heat recovery chiller application with 800 MBH capacity"
+        },
+        {
+          "manufacturer": "Shell and Tube",
+          "model": "Steam to Water Heat Exchanger - Constant Temperature",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for constant temperature application with 5200 lbs/hr capacity, LPS heat source"
+        },
+        {
+          "manufacturer": "Shell and Tube",
+          "model": "Steam to Water Heat Exchanger - Temperature Reset",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for temperature reset application with 1600 lbs/hr capacity, LPS heat source"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard manufacturer for heat exchangers and hydronic systems"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Well-known manufacturer for heat exchangers and HVAC equipment"
+        },
+        {
+          "manufacturer": "Alfa Laval",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Leading manufacturer for plate heat exchangers, suitable for hospital applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Tri-Tech",
+          "model": "EZ Backfeed EZ Find",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design for Medical Gas Zone valve boxes"
+        },
+        {
+          "manufacturer": "Stancor",
+          "model": "Elevator sump pump or approved equal",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "For elevator pit drainage applications"
+        },
+        {
+          "manufacturer": "Goulds",
+          "model": "3196 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Suitable for HVAC and process water applications, widely used in healthcare facilities"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Series 1510 and e-1510",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "High efficiency pumps suitable for hydronic systems, compatible with BMS controls"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "CR and CRN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Stainless steel multistage pumps, suitable for domestic water and process applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Computer Room Air Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Aircuity",
+          "model": "Smart Standby Mode for Operating Rooms",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Registered Aircuity Representative",
+            "company": "Aircuity",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "For OR ventilation control system with air data routers, sensor suite, high flow vacuum pump, information management server, structured cable, and room/duct/outside air probes"
+        },
+        {
+          "manufacturer": "Liebert",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for computer room air conditioning applications with chilled water coils, reheat coils, humidification, and filtration"
+        },
+        {
+          "manufacturer": "Stulz",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Precision air conditioning for data centers and IDF rooms with 100% redundancy requirements"
+        },
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Computer room air conditioning systems for critical facilities with leak detection and drip pan requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "Standard Fan Coil Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for elevator machine rooms and mechanical rooms. Vertical arrangement recommended."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "4-Pipe Fan Coil Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with chilled water and hot water systems. Suitable for stairwells and mechanical rooms."
+        },
+        {
+          "manufacturer": "York",
+          "model": "Vertical Fan Coil Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appropriate for elevator machine rooms and UPS rooms. Can accommodate supply fan, chilled water coil and filter sections."
+        }
+      ]
+    },
+    {
+      "componentType": "Exhaust Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "Centrifugal HVAC Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for general exhaust applications, medical gas exhaust, and battery room exhaust"
+        },
+        {
+          "manufacturer": "Systemaire",
+          "model": "Centrifugal Exhaust Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with hospital grade applications and code compliant exhaust requirements"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "Inline Centrifugal Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for general ventilation and exhaust applications in healthcare facilities"
+        }
+      ]
+    },
+    {
+      "componentType": "Energy Recovery Units",
+      "suppliers": [
+        {
+          "manufacturer": "No specific manufacturer identified",
+          "model": "ERU-CSPD - Run-Around Energy Recovery Unit",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Energy recovery unit for Central Sterile Processing Department with run-around heat recovery coil and exhaust fan with standby fan"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Energy Recovery Ventilator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry leading manufacturer for healthcare applications with proven reliability"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Energy Recovery Unit",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Well-established manufacturer with extensive healthcare facility experience"
+        },
+        {
+          "manufacturer": "York",
+          "model": "Energy Recovery System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Reliable energy recovery solutions for critical healthcare environments"
+        }
+      ]
+    }
+  ]
+}

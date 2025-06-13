@@ -1,0 +1,499 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for hospital-grade custom air handling units with double wall construction and 100% aluminum or stainless steel internal components"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with hospital-grade air handling systems requiring less than 1% leakage and multiple fan arrays"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for custom hospital-grade units with energy recovery wheels and UVGI systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Roof Top Units",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "Various RTU models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Leading manufacturer of commercial HVAC equipment with extensive RTU product lines suitable for hospital applications"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Various RTU models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Major HVAC manufacturer offering hospital-grade rooftop units with advanced controls and energy efficiency"
+        },
+        {
+          "manufacturer": "York",
+          "model": "Various RTU models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Johnson Controls brand offering reliable rooftop units with hospital-grade specifications and service support"
+        }
+      ]
+    },
+    {
+      "componentType": "Heat Exchangers",
+      "suppliers": [
+        {
+          "manufacturer": "Tri-Tech",
+          "model": "EZ Backfeed EZ Find",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design for medical gas zone valve boxes"
+        },
+        {
+          "manufacturer": "Alfa Laval",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Suitable alternative for plate and frame heat exchangers with similar thermal performance"
+        },
+        {
+          "manufacturer": "Kelvion",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible plate heat exchanger manufacturer with extensive healthcare experience"
+        },
+        {
+          "manufacturer": "Danfoss",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Established manufacturer for both plate frame and shell-and-tube heat exchangers"
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "No specific manufacturer listed",
+          "model": "Base-Mounted, Centrifugal Hydronic Pumps",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Base Mounted End Suction pumps for CHWP-1, CHWP-2, HWP-1, HWP-2, HWP-3, HWP-4 applications"
+        },
+        {
+          "manufacturer": "No specific manufacturer listed",
+          "model": "Vertical-Turbine Hydronic Pumps",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Vertical Inline Pump for HWP-5 application"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "End Suction Centrifugal Pumps",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested additional manufacturer for separately coupled, base-mounted, end-suction centrifugal pumps with bronze impeller and mechanical seal"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Vertical In-line Centrifugal Pumps",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested additional manufacturer for vertical, in-line centrifugal pumps with stainless steel shaft and mechanical seal"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "Hydronic Circulating Pumps",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested additional manufacturer for hydronic pumping systems with variable speed drives"
+        }
+      ]
+    },
+    {
+      "componentType": "Variable Air Volume Terminal Units",
+      "suppliers": [
+        {
+          "manufacturer": "Not Specified",
+          "model": "VAV-Infectious Exhaust",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Exhaust Air Valve for infectious isolation rooms with 100% outdoor air exhaust and pressure valve mechanism for constant volume control"
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "VAV Terminal Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Hospital grade VAV boxes with fiber-free insulation and Mylar film, includes hot water coil where required and packless sound attenuator"
+        },
+        {
+          "manufacturer": "Titus",
+          "model": "VAV Terminal Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pressure independent VAV boxes suitable for isolation and protective environment rooms with master/slave control capability"
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "VAV Terminal Units",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Hospital grade VAV terminal units with sound attenuators and suitable for critical care applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Computer Room Air Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "No specific manufacturer identified",
+          "model": "Floor-Mounted CRACs",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Equipment tags CRAH-DATA and CRAH-UPS listed as Small-Capacity, Computer-Room Air-Conditioners, Floor Mounted Units. Each data room and UPS room shall be provided with 100% redundant units."
+        },
+        {
+          "manufacturer": "Liebert",
+          "model": "Various CRAC Models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard manufacturer for computer room air conditioning systems. Compatible with chilled water coil, reheat coil, humidification, and filtration requirements."
+        },
+        {
+          "manufacturer": "Stulz",
+          "model": "CyberAir Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Precision cooling manufacturer suitable for data centers and UPS rooms. Supports vertical upflow configuration with required redundancy."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Tracer Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Computer room air handling systems with advanced controls. Compatible with leak detection and drip pan requirements specified for critical spaces."
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for vertical fan coil units in mechanical rooms, elevator machine rooms, and stairwells with four-pipe configuration and chilled water coils"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Compatible with vertical arrangement fan coil units for elevator machine rooms and mechanical spaces with supply fan and chilled water coil sections"
+        },
+        {
+          "manufacturer": "York",
+          "model": "Not specified",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable for hospital-grade applications with welded steel, insulated, baked-enamel finish cabinets and pressure independent control valves"
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "No manufacturer specified",
+          "model": "EF-AIR COMPRESSOR",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Centrifugal HVAC Fan - General exhaust application"
+        },
+        {
+          "manufacturer": "No manufacturer specified",
+          "model": "EF-BATTERY",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Centrifugal HVAC Fan - Battery room exhaust"
+        },
+        {
+          "manufacturer": "No manufacturer specified",
+          "model": "EF-GENERAL",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Centrifugal HVAC Fan - General exhaust"
+        },
+        {
+          "manufacturer": "No manufacturer specified",
+          "model": "EF-Infectious",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Centrifugal HVAC Fan - Infectious isolation exhaust with HEPA filtration"
+        },
+        {
+          "manufacturer": "No manufacturer specified",
+          "model": "EF-MED GAS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Centrifugal HVAC Fan - Medical gas room exhaust"
+        },
+        {
+          "manufacturer": "No manufacturer specified",
+          "model": "SF-AIR COMPRESSOR",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Centrifugal HVAC Fan - Air compressor room supply"
+        },
+        {
+          "manufacturer": "No manufacturer specified",
+          "model": "SF-STAIRWELL",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Centrifugal HVAC Fan - Stairwell pressurization"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "General Product Line",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard centrifugal fan manufacturer suitable for hospital applications"
+        },
+        {
+          "manufacturer": "Twin City Fan",
+          "model": "General Product Line",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Established manufacturer with hospital-grade fan solutions"
+        }
+      ]
+    }
+  ]
+}

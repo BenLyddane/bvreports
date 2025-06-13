@@ -1,0 +1,26 @@
+Indoor VRF Fan Coils:
+    These are scheduled as typical equipment, on a per-dwelling-unit basis.
+
+Energy Recovery Ventilators:
+    These are scheduled as typical equipment, on a per-dwelling-unit basis.
+
+Domestic Hot Water System:
+    This is a high lift, CO2-based heat pump system with approximately 1,000 gallons of storage.
+    Alternate manufacturer: Watts
+    Alternate product: Aegis
+
+Split System Cooling Units:
+    These are 1-to-1 split cooling units (not VRF) that serve ancillary spaces throughout the building.
+    Basis of Design: Mitsubishi
+    Other manufacturers to recommend as alternates:
+        - Daikin
+        - Samsung
+        - LG
+
+
+Standby Generators: These are separate from a VRF system.
+    Recommended manufacturers:
+        - Kohler
+        - Generac
+        - Cummins
+

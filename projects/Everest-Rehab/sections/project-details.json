@@ -1,0 +1,42 @@
+{
+  "reportTitle": "BuildVision Project Report for Everest Rehab",
+  "customerInformation": {
+    "customerName": "Raymond Construction",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "6a73eaf7-aa36-4e2d-9d17-2db71c8c5fa0",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Everest Rehab",
+    "location": "Westover Hills, San Antonio, Texas 78251",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Everest Physical Rehabilitation Hospital 2-Story Prototype",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/40945fec-8e8e-4fb7-972f-b640fc1ecab3/package-projects/6a73eaf7-aa36-4e2d-9d17-2db71c8c5fa0/details",
+    "additionalFields": {
+      "created": "6/5/2025",
+      "fullAddress": "5010 Wiseman Boulevard San Antonio, TX 78251",
+      "projectNumber": "23030669",
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

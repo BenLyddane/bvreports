@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement Single-Source Procurement Strategy for Major Equipment",
+      "rationale": "The project involves three York modular air-source heat pumps, three Bell & Gossett heat exchangers, and six Bell & Gossett pumps. Consolidating procurement with fewer suppliers reduces complexity, improves coordination, and enhances warranty management. Bell & Gossett's dominance in the heat exchanger and pump categories makes them ideal for a single-source approach for hydronic equipment, while York provides the heat pumps.",
+      "estimatedImpact": "Significant reduction in procurement complexity, improved vendor coordination, streamlined warranty management, and potential volume pricing benefits",
+      "implementation": "Negotiate consolidated contracts with York for all heat pumps and Bell & Gossett for all hydronic equipment. Establish single points of contact for each vendor. Coordinate delivery schedules to minimize storage requirements on the 27th floor mechanical room location.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Establish Pre-Purchase Equipment Performance Testing Requirements",
+      "rationale": "The heat pump specifications require factory performance testing on third-party certified test stands, and the project involves critical HVAC equipment for a residential building. Given the June 2025 due dates and the complexity of modular systems, ensuring equipment meets performance specifications before delivery prevents costly delays and field issues.",
+      "estimatedImpact": "Reduced risk of equipment performance issues, minimized installation delays, and improved system reliability for the residential application",
+      "implementation": "Require York to provide factory test reports for all three ASHP units before shipment. Include performance testing requirements in Bell & Gossett contracts for heat exchangers and pumps. Establish acceptance criteria based on AHRI certification and project-specific performance requirements.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Coordinate Factory Training and Startup Services During Procurement",
+      "rationale": "The specifications require factory-authorized service representatives for startup, commissioning assistance, and training for all major equipment types. The 28th floor rooftop location and modular nature of the systems demand specialized expertise for proper installation and operation.",
+      "estimatedImpact": "Ensured proper system startup, reduced commissioning time, improved long-term equipment performance, and enhanced operator competency",
+      "implementation": "Include factory startup services and minimum eight-hour training requirements in all equipment purchase orders. Coordinate training schedules between York and Bell & Gossett representatives. Specify video recording requirements for training sessions as outlined in specifications.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Negotiate Extended Warranty Terms and Service Agreements",
+      "rationale": "The project involves significant HVAC equipment investment with specified warranty periods including 5-year compressor coverage. The rooftop installation and residential building application require reliable long-term performance. Extended warranties and service agreements provide cost predictability and performance assurance.",
+      "estimatedImpact": "Reduced long-term maintenance costs, improved equipment reliability, and predictable service expenses for the building owner",
+      "implementation": "Negotiate comprehensive warranty packages including the specified 1-year parts and labor for complete units and 5-year compressor coverage. Include annual maintenance agreements with factory-authorized service providers. Establish response time requirements for emergency service calls.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Establish Delivery Coordination and Staging Plan",
+      "rationale": "All equipment has the same June 20, 2025 due date and must be installed on the 27th and 28th floors. The modular heat pumps weigh 23,000 lbs each and require crane access for rooftop installation. Coordinated delivery prevents storage issues and installation delays.",
+      "estimatedImpact": "Minimized on-site storage requirements, reduced handling costs, improved installation efficiency, and avoided potential equipment damage from multiple moves",
+      "implementation": "Develop detailed delivery schedule coordinating all equipment arrivals with installation readiness. Arrange for crane availability for heat pump placement. Establish temporary storage locations if needed for staged deliveries. Include delivery coordination requirements in purchase agreements.",
+      "priority": "Medium"
+    }
+  ]
+}

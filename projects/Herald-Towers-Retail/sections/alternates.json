@@ -1,0 +1,318 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510 4GC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules as specified equipment"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510 3EB",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules as specified equipment"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510 3GB",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules as specified equipment"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "ECOCIRC 55-45",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules as specified equipment"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for hydronic pumps with similar efficiency and ECM capabilities"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for hydronic pumps with variable speed capabilities"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for hydronic pumps with integrated pump motor variable-speed controllers"
+        }
+      ]
+    },
+    {
+      "componentType": "Heat Exchangers",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510 4GC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Shell-and-tube heat exchanger as shown on mechanical schedules"
+        },
+        {
+          "manufacturer": "API Heat Transfer",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for shell-and-tube heat exchangers"
+        },
+        {
+          "manufacturer": "Diversified Heat Transfer",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for shell-and-tube heat exchangers"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for shell-and-tube heat exchangers"
+        },
+        {
+          "manufacturer": "Alpha-Laval Thermal",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for gasketed plate heat exchangers"
+        },
+        {
+          "manufacturer": "Polaris Plate Heat Exchangers",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for gasketed plate heat exchangers"
+        },
+        {
+          "manufacturer": "Mueller, Paul Company",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for gasketed plate heat exchangers"
+        },
+        {
+          "manufacturer": "Tranter",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Industry standard manufacturer for plate heat exchangers, compatible with project requirements"
+        },
+        {
+          "manufacturer": "Alfa Laval",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Premium manufacturer for plate and shell-and-tube heat exchangers"
+        },
+        {
+          "manufacturer": "Danfoss",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Suitable for both plate and shell-and-tube heat exchanger applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Cooling Towers",
+      "suppliers": [
+        {
+          "manufacturer": "Baltimore Aircoil Company",
+          "model": "Series V (VT0, VT1, and VTL)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of Design manufacturer for open circuit, forced draft, counterflow cooling towers"
+        },
+        {
+          "manufacturer": "EVAPCO, Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for cooling towers"
+        },
+        {
+          "manufacturer": "Marley Cooling Technologies",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for cooling towers, part of SPX Cooling Technologies"
+        },
+        {
+          "manufacturer": "SPX Cooling Technologies",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for cooling towers"
+        },
+        {
+          "manufacturer": "Tower Tech",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for forced draft cooling towers"
+        },
+        {
+          "manufacturer": "STEC",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for commercial cooling tower applications"
+        }
+      ]
+    }
+  ]
+}

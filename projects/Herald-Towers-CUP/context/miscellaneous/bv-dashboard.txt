@@ -1,0 +1,195 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+Herald Towers Central plant work
+
+    packages
+
+MH
+Organization Logo
+Herald Towers Central plant work
+Structure Tone (NY)
+Stakeholders
+50 West 34th Street, New York 10001
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Due Date
+	
+Action
+6/20/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+ASHP-1	York	Modular Water Chillers	YMAG035SP-PH6W65SA	
+Annotation
+	
+ASHP-2	York	Modular Water Chillers	YMAG035SP-PH6W65SA	
+Annotation
+	
+ASHP-3	York	Modular Water Chillers	YMAG035SP-PH6W65SA	
+Annotation
+	
+6/20/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HX-ZF1	Bell & Gossett	Plate-Type, Liquid-to-Liquid Heat Exchangers	BPX5LP	
+Annotation
+	
+HX-ZF2	Bell & Gossett	Plate-Type, Liquid-to-Liquid Heat Exchangers	BPX5LP	
+Annotation
+	
+HX-ZF3	Bell & Gossett	Plate-Type, Liquid-to-Liquid Heat Exchangers	BPX5LP	
+Annotation
+	
+6/20/25
+Upcoming
+	
+6/20/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CWP-27-1	Bell & Gossett	Hydronic Pumps	E-1510-5EB	
+Annotation
+	
+CWP-27-2	Bell & Gossett	Hydronic Pumps	E-1510-5EB	
+Annotation
+	
+CWP-27-3	Bell & Gossett	Hydronic Pumps	E-1510-5EB	
+Annotation
+	
+SCWP-27-1	Bell & Gossett	Hydronic Pumps	E-1510-4GC	
+Annotation
+	
+SCWP-27-2	Bell & Gossett	Hydronic Pumps	E-1510-4GC	
+Annotation
+	
+SCWP-27-3	Bell & Gossett	Hydronic Pumps	E-1510-4GC	
+Annotation
+	
+6/20/25
+Upcoming
+	
+6/20/25
+Upcoming
+	
+N/A
+	
+6/20/25
+Upcoming
+	
+6/20/25
+Upcoming
+	
+https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/cb494984-3490-4fa9-bd60-78362f03badf/packages
+
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+Herald Towers Central plant work
+
+    details
+
+MH
+Organization Logo
+Herald Towers Central plant work
+Structure Tone (NY)
+Stakeholders
+50 West 34th Street, New York 10001
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+--
+Address
+50 West 34th Street, New York 10001
+Created
+6/10/2025
+Expected Start
+--
+Date Due
+--
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+--
+Request Type
+--
+Project Size
+--

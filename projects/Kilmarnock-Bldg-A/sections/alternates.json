@@ -1,0 +1,668 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Variable Refrigerant Flow (VRF) Systems",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "PURY-EP Heat Recovery",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High efficiency VRF system with heat recovery capability; specified as basis of design for the project; three 18-ton outdoor units required for the building."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "VRV IV Heat Recovery",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with project requirements; offers similar energy efficiency and heat recovery capabilities as the Mitsubishi system."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "Multi V 5 Heat Recovery",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Compatible with project requirements; offers competitive energy efficiency ratings and similar configuration options."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "DVM S Heat Recovery",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compatible with project requirements; may require modifications to distribution piping layout due to different branch selector box configurations."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Vari-Trane VRF",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements; strong local service network; would require modification to mechanical room layouts."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce VRF",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Compatible with project requirements; good integration with BMS systems; may require additional coordination for refrigerant management."
+        }
+      ]
+    },
+    {
+      "componentType": "Energy Recovery Ventilators (ERV)",
+      "suppliers": [
+        {
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for individual dwelling unit ERVs with 78% sensible recovery effectiveness. Units include direct drive EC motor supply and exhaust fans, MERV 13 filtration, energy recovery core, and wall mounted controller."
+        },
+        {
+          "manufacturer": "Reversomatic",
+          "model": "Intake/Exhaust Wall Vents",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Factory-built intake/exhaust combination termination fittings used to separate air streams for ERV venting."
+        },
+        {
+          "manufacturer": "Renewaire",
+          "model": "EV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Alternative high-efficiency ERVs with static plate core, can achieve 75-80% sensible recovery efficiency depending on model."
+        },
+        {
+          "manufacturer": "Zehnder",
+          "model": "ComfoAir Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+10%",
+          "compatibilityNotes": "Premium ERV option with counter-flow heat exchanger, higher efficiency (80-90% recovery), commonly used in Passive House projects."
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "Intelli-Balance ERV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compact wall-mounted ERV option, may require system redesign but could offer installation cost savings."
+        }
+      ]
+    },
+    {
+      "componentType": "Domestic Hot Water System",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "QAHV",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High lift, CO2-based heat pump system with three QAHV modules and N+1 redundancy. Total capacity of 178.9 MBH with 940 gallons of storage across six 175-gallon tanks. System designed for 6°F DB/5°F WB winter conditions."
+        },
+        {
+          "manufacturer": "Watts",
+          "model": "Aegis Heat Pump",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternate system with HPL-500A Aegis Heat Pump, Mark II HX Skid, storage tanks (LC250S 250-gallon, LC250-R144 250-gallon with 144kW, 90L 150A-VE 150-gallon with 18kW swing tank), V71N-N Digital Mixing Valve, DTL-200 Expansion Tank, and GFP-30 Glycol Feed System."
+        },
+        {
+          "manufacturer": "Colmac",
+          "model": "CxA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Commercial CO2 heat pump water heater compatible with similar storage tank setup. Capable of high lift operation and suitable for cold climate applications."
+        },
+        {
+          "manufacturer": "Rheem",
+          "model": "Commercial Heat Pump Water Heater",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Commercial scale heat pump water heating system. May require different storage tank configuration and supplemental electric elements for equivalent capacity in extreme cold."
+        },
+        {
+          "manufacturer": "Sanden",
+          "model": "SANCO₂",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "CO2 refrigerant heat pump water heater. Would require multiple units to achieve equivalent capacity. Known for reliability in cold climates."
+        }
+      ]
+    },
+    {
+      "componentType": "Domestic Hot Water System (Alternate)",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "QAHV",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High lift, CO2-based heat pump system with (3) QAHV modules with N+1 redundancy. Each module provides 89,684 MBH capacity. System includes (6) 175-gallon storage tanks for a total of 940 gallons of storage."
+        },
+        {
+          "manufacturer": "Watts",
+          "model": "Aegis Heat Pump",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative central hot water plant system with HPL-500A Aegis Heat Pump, Mark II HX Skid, LC250S 250-gallon storage tank, LC250-R144 250-gallon storage with 144kW heater, 90 L 150A-VE 150-gallon storage with 18kW heater for swing tank, V71N-N Digital Mixing Valve, DTL-200 expansion tank, and GFP-30 glycol feed system."
+        },
+        {
+          "manufacturer": "Colmac",
+          "model": "CxA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+7%",
+          "compatibilityNotes": "High-efficiency CO2 heat pump water heater with comparable capacity. Compatible with the specified storage tank configuration."
+        },
+        {
+          "manufacturer": "Sanden",
+          "model": "SANCO₂",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "CO2 refrigerant heat pump water heater. Multiple units would be required to match the capacity of the specified system. May require different storage tank configuration."
+        },
+        {
+          "manufacturer": "A.O. Smith",
+          "model": "Commercial Heat Pump",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Commercial-grade heat pump water heater. Would require multiple units to achieve comparable capacity. Compatible with standard storage tanks."
+        }
+      ]
+    },
+    {
+      "componentType": "Split System Cooling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "2-ton split system cooling unit",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for telephone & data rooms, main electrical rooms, and elevator machine rooms."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements, similar capacity and performance characteristics."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Compatible with project requirements, similar performance to basis of design."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Compatible with project requirements, similar capacity and performance characteristics."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Performance Series 2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Good alternative for specialized spaces requiring dedicated cooling."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "XR14 2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Higher efficiency option with compatibility for specialty applications."
+        }
+      ]
+    },
+    {
+      "componentType": "Generator",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "PURY-EP Heat Recovery",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High efficiency VRF system with excellent part load efficiency and high SEER & COP ratings."
+        },
+        {
+          "manufacturer": "Highland",
+          "model": "UL 2085 Double Wall Fuel Tank",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "300-gallon diesel fuel storage tank for generator, UL 2085 listed double wall, 5-psig rated."
+        },
+        {
+          "manufacturer": "Preferred Utilities",
+          "model": "Fuel Pump Set",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternate to Viking pump set for generator fuel system."
+        },
+        {
+          "manufacturer": "Viking",
+          "model": "Fuel Pump Set",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pump set for generator fuel oil distribution system."
+        },
+        {
+          "manufacturer": "Generac",
+          "model": "200kW/250kVA Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible alternative with similar sound attenuation features and factory enclosure options."
+        },
+        {
+          "manufacturer": "Kohler",
+          "model": "200kW/250kVA Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Premium alternative with comprehensive monitoring capabilities and robust factory enclosure."
+        },
+        {
+          "manufacturer": "Cummins",
+          "model": "200kW/250kVA Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Cost-effective alternative with good reliability and sound attenuation options suitable for urban installation."
+        }
+      ]
+    },
+    {
+      "componentType": "Water Booster Pump System",
+      "suppliers": [
+        {
+          "manufacturer": "QuantumFlo",
+          "model": "Prodigy Model QES_321.5-6.54",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Gustavo Preston Company",
+            "contact": "978-250-3333"
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Factory packaged and tested, triplex variable-speed domestic water pressure boosting system, NSF 61 and NSF 372 Certified system with UL508A Industrial Control Panel and UL QCZJ 3rd Party Package Label. Capable of providing constant system pressure of 119 Psig with flow rates from 0 to 209 GPM when suction pressure is 72 Psig minimum using a 208 Volt, 3 PHASE, 60 hertz power. Each pump delivers 104 GPM at 109 ft. TDH using a 5 HP, 3450 RPM motor."
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "BoosterpaQ",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Comparable triplex variable-speed water pressure boosting system with similar performance characteristics. Provides energy-efficient operation with advanced control capabilities."
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "TechnoForce e-HV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Provides similar variable speed pumping technology for domestic water pressure boosting. Compatible with building management systems and offers reliability with redundant operation."
+        },
+        {
+          "manufacturer": "Canariis",
+          "model": "VFD-VPS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Fully packaged variable frequency drive pressure boosting system with comparable features. UL listed control panel and NSF 61 certification available."
+        }
+      ]
+    },
+    {
+      "componentType": "Dryer Exhaust System",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "PURY-EP Heat Recovery",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High efficiency VRF heat pumps serving the dryer exhaust system with branch circuit controllers and interconnecting refrigerant piping"
+        },
+        {
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Energy recovery ventilator with sensible recovery effectiveness of at least 78%, used for the dryer exhaust system"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "Dryer Exhaust Fan",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "880-cfm dryer exhaust fan, 1-hp, with VFD and duct static pressure control system on the roof for the manifolded dryer exhaust system"
+        },
+        {
+          "manufacturer": "Cook",
+          "model": "Dryer Exhaust Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible alternative to Greenheck for the dryer exhaust fan system"
+        },
+        {
+          "manufacturer": "Twin City",
+          "model": "Dryer Exhaust Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible alternative to Greenheck for the dryer exhaust fan system"
+        },
+        {
+          "manufacturer": "Reversomatic",
+          "model": "Combination Intake/Exhaust Wall Vents",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Factory-built intake/exhaust combination termination fitting to separate air streams"
+        },
+        {
+          "manufacturer": "XVent",
+          "model": "Wind-Drive Rain Louvers",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for intake and exhaust wall caps for ERV ducting to exterior walls"
+        },
+        {
+          "manufacturer": "Seiho",
+          "model": "SFX",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Alternative model for intake and exhaust wall caps for ERV ducting to exterior walls"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "Inline Lint Collector",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Inline lint collector to be located on the roof near the dryer exhaust fan"
+        },
+        {
+          "manufacturer": "Tjernlund",
+          "model": "Dryer Exhaust System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Alternative manufacturer for complete dryer exhaust system including fans and duct components"
+        }
+      ]
+    }
+  ]
+}

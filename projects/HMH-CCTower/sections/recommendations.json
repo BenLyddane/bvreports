@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement consolidated group purchasing for major HVAC equipment categories",
+      "rationale": "The project includes multiple similar equipment types: 7 air handling units (AHU-5-1 through AHU-5-4 and RTU-R-1/2), 5 heat exchangers (HX-1 through HX-5), and 7 pumps. Consolidating procurement of these equipment categories can leverage economies of scale, standardize maintenance requirements, and reduce spare parts inventory costs.",
+      "estimatedImpact": "Significant cost savings through volume pricing, reduced maintenance complexity, and standardized equipment specifications across the facility",
+      "implementation": "Group similar equipment types together in procurement packages, establish preferred manufacturer agreements for standardized components, negotiate volume discounts for bulk orders, and coordinate delivery schedules to optimize construction sequencing",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Establish preferred manufacturer partnerships for critical hospital-grade equipment",
+      "rationale": "The project specifies hospital-grade air handling units with less than 1% leakage, specialized CRAC units for data/UPS rooms, and medical gas equipment. Given the critical nature of these systems in a healthcare facility, establishing partnerships with proven manufacturers can ensure quality, reliability, and ongoing support.",
+      "estimatedImpact": "Improved equipment reliability, faster warranty response times, and potential cost savings through partnership agreements",
+      "implementation": "Identify manufacturers with strong hospital equipment track records, negotiate preferred pricing agreements, establish service level agreements for maintenance support, and standardize specifications around preferred manufacturers",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Pre-qualify suppliers for specialized medical and data center equipment",
+      "rationale": "The project includes specialized equipment such as CRAC units for data centers, UPS rooms, medical air compressors, and medical vacuum systems. These require suppliers with specific healthcare and mission-critical facility experience to ensure proper installation and compliance with medical facility requirements.",
+      "estimatedImpact": "Reduced risk of equipment failures, improved compliance with healthcare regulations, and faster project delivery through qualified supplier network",
+      "implementation": "Develop pre-qualification criteria focusing on healthcare facility experience, establish approved vendor lists, verify certifications and compliance records, and create fast-track procurement processes for pre-qualified suppliers",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Coordinate equipment procurement with central utility plant development",
+      "rationale": "The project relies on connections to a separate central utility plant for chilled water, heating water, and emergency power. Coordination of equipment specifications and delivery schedules with the central plant project is essential to ensure compatibility and avoid delays.",
+      "estimatedImpact": "Reduced project delays, improved system integration, and potential cost savings through coordinated procurement",
+      "implementation": "Establish regular coordination meetings with central plant team, align equipment specifications and delivery schedules, identify shared procurement opportunities, and develop contingency plans for potential delays",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Develop value engineering program for equipment alternatives",
+      "rationale": "With no manufacturers currently selected for most equipment categories, there is an opportunity to evaluate alternatives that meet specifications while potentially offering cost savings or improved performance. The large scale of the project provides leverage for value engineering discussions.",
+      "estimatedImpact": "Potential cost savings while maintaining performance requirements, improved equipment features, and optimized lifecycle costs",
+      "implementation": "Conduct value engineering workshops with design team and contractors, evaluate alternative equipment options that meet specifications, analyze lifecycle costs including maintenance and energy consumption, and document approved alternatives",
+      "priority": "Medium"
+    }
+  ]
+}

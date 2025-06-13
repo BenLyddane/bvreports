@@ -1,0 +1,214 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Modular Water Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears as BoD manufacturer on mechanical schedules for Modular Water Chillers HP-3B-1 through HP-3B-5"
+        },
+        {
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears as BoD manufacturer on mechanical schedules for Modular Water Chillers HP-9R-1 through HP-9R-7"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternate manufacturer in Section 236213 for packaged air-cooled refrigerant compressor and condenser units"
+        },
+        {
+          "manufacturer": "Aermic",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternate manufacturer in Section 236213 for packaged air-cooled refrigerant compressor and condenser units"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for modular water chiller applications with similar performance characteristics"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Established manufacturer with compatible modular chiller solutions for similar applications"
+        }
+      ]
+    },
+    {
+      "componentType": "In-Line Centrifugal Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Multiple models (BG-E1510 series, E1510 series, BG-E80 series, etc.)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears as BoD manufacturer on mechanical schedules for all In-Line Centrifugal Hydronic Pumps equipment tags"
+        },
+        {
+          "manufacturer": "Armstrong Pumps Inc.",
+          "model": "Various models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Flowserve Corporation (Div. of Ingersoll-Dresser Pumps)",
+          "model": "Various models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "Various in-line centrifugal models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "High efficiency alternative with comparable performance specifications"
+        },
+        {
+          "manufacturer": "Taco Inc.",
+          "model": "Various in-line centrifugal models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Suitable alternative with similar mounting and connection requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Variable Frequency Drives",
+      "suppliers": [
+        {
+          "manufacturer": "ABB",
+          "model": "ACH580 Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Multiple model variants specified throughout project including ACH580-VCR series and ACH580-BCBR series for different applications"
+        },
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "Altivar Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for HVAC applications with similar specifications"
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Sinamics G120 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "High performance VFD suitable for pump and fan applications with similar harmonic performance requirements"
+        },
+        {
+          "manufacturer": "Danfoss",
+          "model": "VLT HVAC Drive FC 102",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "HVAC-specific drive with built-in features for pump and fan control applications"
+        }
+      ]
+    }
+  ]
+}

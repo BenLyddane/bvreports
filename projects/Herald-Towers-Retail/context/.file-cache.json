@@ -1,0 +1,40 @@
+{
+  "uploadedFiles": {
+    "bv-dashboard.txt": {
+      "file_id": "file_011CQ4VxGSK2aqSpvk6kjMSx",
+      "uploaded_at": "2025-06-12T14:39:58.816Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "pre-purchase-schedules.pdf": {
+      "file_id": "file_011CQ4VxKQf4BUoDy1VaWSwV",
+      "uploaded_at": "2025-06-12T14:39:59.424Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "hx-specs.txt": {
+      "file_id": "file_011CQ4VxMShf1UobjkBW4zNv",
+      "uploaded_at": "2025-06-12T14:39:59.863Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "pump-specs.txt": {
+      "file_id": "file_011CQ4VxNqXrTfCMd7ar4oej",
+      "uploaded_at": "2025-06-12T14:40:00.213Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "towers-specs.txt": {
+      "file_id": "file_011CQ4VxQKaw6VPsMgGtvpfu",
+      "uploaded_at": "2025-06-12T14:40:00.509Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    }
+  },
+  "tempFiles": {}
+}

@@ -1,0 +1,211 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+Herald Towers Retail
+
+    details
+
+MH
+Organization Logo
+Herald Towers Retail
+Structure Tone (NY)
+Stakeholders
+50 West 34th Street, New York 10001
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+--
+Address
+50 West 34th Street, New York 10001
+Created
+6/10/2025
+Expected Start
+--
+Date Due
+--
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+--
+Request Type
+--
+Project Size
+--
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+Herald Towers Retail
+
+    packages
+
+MH
+Organization Logo
+Herald Towers Retail
+Structure Tone (NY)
+Stakeholders
+50 West 34th Street, New York 10001
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Due Date
+	
+Action
+6/20/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CT-SC2-1	Baltimore Aircoil Company	Cooling Towers	VTL-137-M	
+Annotation
+	
+CT-SC2-2	Baltimore Aircoil Company	Cooling Towers	VTL-137-M	
+Annotation
+	
+CT-SC2-3	Baltimore Aircoil Company	Cooling Towers	VTL-137-M	
+Annotation
+	
+CT-SC2-4	Baltimore Aircoil Company	Cooling Towers	VTO-102-L	
+Annotation
+	
+CT-SC2-5	Baltimore Aircoil Company	Cooling Towers	VTO-102-L	
+Annotation
+	
+6/20/25
+Upcoming
+	
+N/A
+	
+6/20/25
+Upcoming
+	
+6/20/25
+Upcoming
+	
+6/20/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CWP-SC2-1	Bell & Gossett	Hydronic Pumps	E-1510 4GC	
+Annotation
+	
+CWP-SC2-2	Bell & Gossett	Hydronic Pumps	E-1510 4GC	
+Annotation
+	
+CWP-SC2-3	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	E-1510 3EB	
+Annotation
+	
+CWP-SC2-4	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	E-1510 3EB	
+Annotation
+	
+CWP-SC2-5	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	E-1510 3GB	
+Annotation
+	
+CWP-SC2-6	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	E-1510 3GB	
+Annotation
+	
+HWP-SC2-1	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	ECOCIRC 55-45	
+Annotation
+	
+HWP-SC2-2	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	ECOCIRC 55-45	
+Annotation
+	
+HWP-SC2-3	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	ECOCIRC 55-45	
+Annotation
+	
+HWP-SC2-4	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	ECOCIRC 55-45	
+Annotation
+	
+HWP-SC2-5	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	ECOCIRC 55-45	
+Annotation
+	
+HWP-SC2-6	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	ECOCIRC 55-45	
+Annotation
+	
+6/20/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+STHX-SC2-1	Bell & Gossett	Shell-Type, Liquid-to-Liquid Heat Exchangers	SUS 45-2	
+Annotation
+	
+STHX-SC2-2	Bell & Gossett	Shell-Type, Liquid-to-Liquid Heat Exchangers	SUS 43.8-0-4	
+Annotation
+	
+STHX-SC2-3	Bell & Gossett	Shell-Type, Liquid-to-Liquid Heat Exchangers	SUS 42.6-0-4	
+Annotation
+	

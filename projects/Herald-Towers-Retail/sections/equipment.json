@@ -1,0 +1,100 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Pumps",
+      "notes": "Hydronic pumps including close-coupled in-line centrifugal and separately coupled base-mounted end-suction centrifugal pumps with variable speed controls",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "E-1510 4GC",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "E-1510 3EB",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "E-1510 3GB",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "ECOCIRC 55-45",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heat Exchangers",
+      "notes": "Shell and tube heat exchangers for steam to water heating applications with steam in shell and water in tubes",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "SUS 42.6 0-4",
+          "specifications": {
+            "designPressure": "150 PSIG",
+            "inletTemperature": "160.0 F",
+            "outletTemperature": "55.0 F",
+            "numberOfPasses": "2",
+            "fluidType": "STEAM",
+            "flowRate": "1,402 LB/HR",
+            "pressureDrop": "1.56 PSIG",
+            "length": "64 inches",
+            "diameter": "6 inches"
+          }
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "SUS 43.6 0-4",
+          "specifications": {
+            "designPressure": "150 PSIG",
+            "inletTemperature": "160.0 F",
+            "outletTemperature": "55.0 F",
+            "numberOfPasses": "2",
+            "fluidType": "STEAM",
+            "flowRate": "539 LB/HR",
+            "pressureDrop": "0.22 PSIG",
+            "length": "46 inches",
+            "diameter": "6 inches"
+          }
+        },
+        {
+          "equipmentTag": "",
+          "manufacturer": "Bell & Gosset",
+          "model": "SUS 45-2",
+          "specifications": {
+            "designPressure": "150 PSIG",
+            "inletTemperature": "160.0 F",
+            "outletTemperature": "55.0 F",
+            "numberOfPasses": "2",
+            "fluidType": "STEAM",
+            "flowRate": "809 LB/HR",
+            "pressureDrop": "0.48 PSIG",
+            "length": "46 inches",
+            "diameter": "6 inches"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Cooling Towers",
+      "notes": "Open circuit, forced draft, counterflow cooling towers for outdoor or indoor use with vertical discharge design",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Baltimore Aircoil Company",
+          "model": "Series V",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

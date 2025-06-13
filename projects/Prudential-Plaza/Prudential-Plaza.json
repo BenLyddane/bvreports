@@ -1,0 +1,961 @@
+{
+  "reportTitle": "BuildVision Project Report for Prudential Plaza - Heat Pump Project Copy",
+  "customerInformation": {
+    "customerName": "Structure Tone (NY)",
+    "contactPerson": "John Mathew",
+    "contactEmail": "john.mathew@structuretone.com",
+    "contactPhone": "",
+    "projectId": "",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Prudential Plaza - Heat Pump Project Copy",
+    "location": "739-759 Broad Street, Newark, NJ 07102",
+    "startDate": "",
+    "completionDate": "6/26/2025",
+    "budget": "",
+    "scope": "Heat pump installation project for HVAC decarbonization including air source heat pumps, water source heat pumps, hydronic systems, controls, and related infrastructure at 751 Broad Street, Newark, NJ 07102",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/d34f658c-028d-422c-afdd-0dac0fb2d47b/packages",
+    "additionalFields": {
+      "created": "6/3/2025",
+      "expectedStart": "--",
+      "dateDue": "6/26/2025",
+      "jobWalk": "6/16/2025",
+      "contractType": "--",
+      "rfIsDue": "6/20/2025",
+      "dateInvited": "6/3/2025",
+      "requestType": "Proposal",
+      "projectSize": "--",
+      "buildingConnectedLead": "John Mathew",
+      "projectNumber": "231756"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-13"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Modular Water Chillers",
+      "notes": "Air-cooled modular units with four-way valves for cooling/heating operation. Units serve building heating and cooling loads through heat exchangers.",
+      "items": [
+        {
+          "equipmentTag": "HP-3B-1",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-3B-2",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-3B-3",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-3B-4",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-3B-5",
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "specifications": {
+            "totalCapacity": "2,869,974 BTU/h",
+            "refrigerant": "R450A",
+            "evaporatorFlow": "264 GPM",
+            "evaporatorEWT": "100°F",
+            "evaporatorLWT": "85°F",
+            "evaporatorPressureDrop": "3.68 ft",
+            "condenserFlow": "581 GPM",
+            "condenserEWT": "170°F",
+            "condenserLWT": "180°F",
+            "condenserPressureDrop": "23.92 ft",
+            "compressorType": "Reciprocating",
+            "compressorQuantity": "2",
+            "voltage": "480V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "totalInputPower": "306.0 kW",
+            "dimensions": "12'-8\" x 3'-0\" x 6'-10 5/16\"",
+            "operatingWeight": "8,157.10 lbs",
+            "workingPressure": "232 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-1",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "328 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-2",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "328 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-3",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "328 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-4",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "328 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-5",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "132 tons / 1000 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "4",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "348 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "148 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "296",
+            "MOP": "600",
+            "dimensions": "22'-6\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "15,060 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-6",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "165 tons / 1250 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "5",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "410 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "167 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "370",
+            "MOP": "600",
+            "dimensions": "28'-3\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "18,825 lbs",
+            "workingPressure": "150 psig"
+          }
+        },
+        {
+          "equipmentTag": "HP-9R-7",
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "specifications": {
+            "totalCapacity": "165 tons / 1250 MBH",
+            "capacityPerModule": "33 tons",
+            "numberOfModules": "5",
+            "serviceType": "Heating/Cooling",
+            "refrigerant": "454B",
+            "coolingFlow": "410 GPM",
+            "coolingEWT": "50°F",
+            "coolingLWT": "40°F",
+            "coolingPressureDrop": "17.20 in-wg",
+            "heatingFlow": "167 GPM",
+            "heatingEWT": "87°F",
+            "heatingLWT": "102°F",
+            "heatingPressureDrop": "3.20 in-wg",
+            "compressorType": "Scroll",
+            "compressorQuantity": "2",
+            "voltage": "460V",
+            "phase": "3",
+            "frequency": "60 Hz",
+            "MCA": "270",
+            "MOP": "600",
+            "dimensions": "28'-3\" x 9'-4\" x 8'-9\"",
+            "shippingWeight": "18,825 lbs",
+            "workingPressure": "150 psig"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "In-Line Centrifugal Hydronic Pumps",
+      "notes": "Variable frequency drive controlled pumps for hydronic systems including chilled water, hot water, and dual temperature water circulation.",
+      "items": [
+        {
+          "equipmentTag": "CHMP-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2G-5.25-HT1.5-2B",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CHMP-2",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2G-5.25-HT1.5-2B",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CHMP-3",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2G-5.25-HT1.5-2B",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E80-3X3X15-S526VM-1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-2",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E80-3X3X15-S526VM-1A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-12",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-HSPC 35X15X15 2.5T LHS SPACER",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-13",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-14",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-15",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-1HP-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-16",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-HSPC 35X15X15 2.5T LHS SPACER",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-47",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-HSPC 75X15X15 2.5T LHS SPACER",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-48",
+          "manufacturer": "Bell & Gossett",
+          "model": "E1510-PSF60-55-1HP-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-49",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-1HP-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-50",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-2GB-55-1HP-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EP-51",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-HSPC 75X15X15 2.5T LHS SPACER",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL1",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-1.5B-30-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL2",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-1.5B-30-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL3",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-1.5B-30-5AT-0",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL4",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-5GB-55-4571-5A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL5",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-5GB-55-4571-5A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HMP-BL6",
+          "manufacturer": "Bell & Gossett",
+          "model": "BG-E1510-5GB-55-4571-5A",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HTP-1",
+          "manufacturer": "Bell & Gossett",
+          "model": "E1510-5GB-5536AT-1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HTP-2",
+          "manufacturer": "Bell & Gossett",
+          "model": "E1510-5GB-5536AT-1",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "HTP-3",
+          "manufacturer": "Bell & Gossett",
+          "model": "E1510-5GB-5536AT-1",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Variable Frequency Drives",
+      "notes": "VFDs for motor control with harmonic filtering and bypass capabilities. Includes 6-pulse and 12-pulse configurations based on application requirements.",
+      "items": [
+        {
+          "equipmentTag": "(N)CHWP-2B-1",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-124A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)CHWP-2B-2",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-124A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)CHWP-2B-3",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-124A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)DTGP-2B-1",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-077A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)DTGP-2B-2",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-077A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N)DTGP-2B-3",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-077A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-47",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-014A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-48",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-07.6-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-49",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-012A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-50",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-012A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-25-P-51",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-014A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-1",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-027A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-2",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-027A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-12",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-13",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-14",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-014A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-15",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-07.6-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-8-P-16",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-1",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-2",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-3",
+          "manufacturer": "ABB",
+          "model": "ACH580-VCR-023A-4+F267+J429",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-4",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-156A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-5",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-156A-4+F267",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "(N) VFD-HWP-B3-6",
+          "manufacturer": "ABB",
+          "model": "ACH580-BCBR-156A-4+F267",
+          "specifications": {}
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Modular Water Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "Oilon US",
+          "model": "P450",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears as BoD manufacturer on mechanical schedules for Modular Water Chillers HP-3B-1 through HP-3B-5"
+        },
+        {
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears as BoD manufacturer on mechanical schedules for Modular Water Chillers HP-9R-1 through HP-9R-7"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternate manufacturer in Section 236213 for packaged air-cooled refrigerant compressor and condenser units"
+        },
+        {
+          "manufacturer": "Aermec",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternate manufacturer in Section 236213 for packaged air-cooled refrigerant compressor and condenser units"
+        },
+        {
+          "manufacturer": "Budzar",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for high-temp heat recovery chiller applications"
+        }
+      ]
+    },
+    {
+      "componentType": "In-Line Centrifugal Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Multiple models (BG-E1510 series, E1510 series, BG-E80 series, etc.)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears as BoD manufacturer on mechanical schedules for all In-Line Centrifugal Hydronic Pumps equipment tags"
+        },
+        {
+          "manufacturer": "Armstrong Pumps Inc.",
+          "model": "Various models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Flowserve Corporation (Div. of Ingersoll-Dresser Pumps)",
+          "model": "Various models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "Various in-line centrifugal models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "High efficiency alternative with comparable performance specifications"
+        },
+        {
+          "manufacturer": "Taco Inc.",
+          "model": "Various in-line centrifugal models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Suitable alternative with similar mounting and connection requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Variable Frequency Drives",
+      "suppliers": [
+        {
+          "manufacturer": "ABB",
+          "model": "ACH580 Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Multiple model variants specified throughout project including ACH580-VCR series and ACH580-BCBR series for different applications"
+        },
+        {
+          "manufacturer": "Schneider Electric",
+          "model": "Altivar Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for HVAC applications with similar specifications"
+        },
+        {
+          "manufacturer": "Siemens",
+          "model": "Sinamics G120 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "High performance VFD suitable for pump and fan applications with similar harmonic performance requirements"
+        },
+        {
+          "manufacturer": "Danfoss",
+          "model": "VLT HVAC Drive FC 102",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "HVAC-specific drive with built-in features for pump and fan control applications"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Standardize Equipment Brands Within Component Categories",
+      "rationale": "The project currently specifies multiple manufacturers for similar equipment types (York vs Oilon for heat pumps, ABB vs Bell & Gossett for pumps). Standardizing on fewer manufacturers within each category reduces complexity for maintenance, training, and spare parts inventory while potentially enabling volume pricing benefits.",
+      "estimatedImpact": "Reduced long-term maintenance costs, simplified training requirements, and potential cost savings through consolidated purchasing",
+      "implementation": "Work with the design team to select preferred manufacturers for each equipment type and negotiate volume pricing agreements. Ensure selected manufacturers can meet all performance specifications across equipment types.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Implement Factory Witness Testing for Critical Equipment",
+      "rationale": "The specifications already require factory witness testing for heat pumps, but this should be expanded to other critical equipment. This ensures quality control and provides opportunity to identify and resolve issues before field installation, reducing costly rework and delays.",
+      "estimatedImpact": "Reduced field commissioning time, improved equipment reliability, and minimized potential for costly field modifications",
+      "implementation": "Require factory witness testing for water source heat pumps, air source heat pumps, and major pump assemblies. Include travel costs for design team representatives in procurement planning. Schedule testing to align with project delivery timelines.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Procure Long-Lead Equipment Early with Staged Payments",
+      "rationale": "Heat pumps and specialized equipment typically have extended lead times that could impact project schedule. Early procurement with staged payment schedules can secure delivery dates while managing cash flow requirements.",
+      "estimatedImpact": "Improved schedule certainty, potential cost savings through early ordering, and reduced risk of equipment availability issues",
+      "implementation": "Identify equipment with lead times exceeding 16 weeks and establish early procurement schedule. Negotiate staged payment terms tied to manufacturing milestones. Coordinate with storage requirements for early deliveries.",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Establish Performance Bonds for Equipment Suppliers",
+      "rationale": "Given the complexity and critical nature of the heat pump systems, performance bonds ensure suppliers deliver equipment meeting specifications and provide recourse if performance guarantees are not met.",
+      "estimatedImpact": "Enhanced protection against equipment performance shortfalls and financial security for warranty obligations",
+      "implementation": "Require performance bonds equal to equipment contract value for heat pumps and other critical systems. Include specific performance criteria in bond language tied to commissioning test results.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Coordinate BMS Integration Requirements During Procurement",
+      "rationale": "The specifications detail extensive BMS integration requirements including BACnet communication interfaces. Early coordination with BMS and equipment suppliers ensures compatibility and reduces integration issues during commissioning.",
+      "estimatedImpact": "Smoother system integration, reduced commissioning time, and improved system functionality",
+      "implementation": "Require BMS integration confirmation from equipment suppliers during submittal review. Conduct pre-installation compatibility testing between BMS contractor and equipment suppliers. Document all interface requirements in purchase agreements.",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Negotiate Comprehensive Service Agreements with Equipment Procurement",
+      "rationale": "The specifications require various service agreements and warranty periods. Negotiating these as part of equipment procurement can provide better terms and ensure consistent service quality across all systems.",
+      "estimatedImpact": "Reduced long-term operational costs, ensured service availability, and simplified vendor management",
+      "implementation": "Include multi-year service agreements in equipment RFPs. Evaluate total cost of ownership including service costs in vendor selection. Ensure service technicians are factory-trained and locally available.",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "This HVAC decarbonization project at Prudential Plaza represents a comprehensive mechanical system upgrade featuring air-source and water-source heat pumps, hydronic systems, and advanced controls. The procurement strategy should focus on coordinating complex heat pump systems with multiple manufacturers (Oilon, York), extensive pump infrastructure (Bell & Gossett), and integrated VFD controls (ABB). Critical procurement considerations include factory testing requirements, long lead times for specialized heat pump equipment, and comprehensive BMS integration across all systems.",
+    "keyFindings": [
+      "Multiple heat pump technologies specified requiring coordination between Oilon water-source units and York air-source units with different performance characteristics and control requirements",
+      "Extensive pump inventory (24+ units) creates opportunity for standardization and volume pricing while requiring careful coordination of VFD integration",
+      "Factory witness testing requirements for heat pumps indicate critical performance validation needs that must be planned into procurement schedules",
+      "Complex BMS integration requirements with BACnet communication interfaces across all equipment types requiring early supplier coordination",
+      "Project timeline shows compressed schedule (6-month duration) requiring early procurement of long-lead equipment to avoid delays"
+    ],
+    "highestPriorityActions": [
+      "Immediately initiate procurement for heat pump equipment due to extended lead times and factory testing requirements - coordinate delivery schedules with installation timeline",
+      "Establish factory witness testing schedule for critical equipment and coordinate design team attendance to validate performance before shipment",
+      "Negotiate standardization opportunities within equipment categories to reduce complexity and achieve volume pricing benefits while maintaining performance requirements",
+      "Coordinate BMS integration requirements with all equipment suppliers during submittal review to ensure compatibility and smooth commissioning"
+    ]
+  }
+}

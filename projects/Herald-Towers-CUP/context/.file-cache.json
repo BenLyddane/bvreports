@@ -1,0 +1,40 @@
+{
+  "uploadedFiles": {
+    "bv-dashboard.txt": {
+      "file_id": "file_011CQ4WQkJM4xVZBDN5ivwZA",
+      "uploaded_at": "2025-06-12T14:45:58.038Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "pre-purchase-schedules.pdf": {
+      "file_id": "file_011CQ4WQoqfju7jgDZPt71iW",
+      "uploaded_at": "2025-06-12T14:45:58.852Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "hp-specs.txt": {
+      "file_id": "file_011CQ4WQr3Nk21TuFsfMa8mg",
+      "uploaded_at": "2025-06-12T14:45:59.260Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "hx-specs.txt": {
+      "file_id": "file_011CQ4WQsh6N3z33yNLmysQj",
+      "uploaded_at": "2025-06-12T14:45:59.669Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "pump-specs.txt": {
+      "file_id": "file_011CQ4WQug9UkJpiLznEHCUd",
+      "uploaded_at": "2025-06-12T14:46:00.178Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    }
+  },
+  "tempFiles": {}
+}

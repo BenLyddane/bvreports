@@ -1,0 +1,46 @@
+{
+  "reportTitle": "BuildVision Project Report for Camden Gulch FINAL BIDDING",
+  "customerInformation": {
+    "customerName": "Layton",
+    "contactPerson": "Brian Malich",
+    "contactEmail": "brian.malich@laytonconstruction.com",
+    "contactPhone": "",
+    "projectId": "",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Camden Gulch FINAL BIDDING",
+    "location": "909 Division Street, Nashville, TN 37203",
+    "startDate": "10/6/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/f94e986c-cfce-4e0f-a24c-200a374ab999/package-projects/75083fad-45f5-477a-915f-93f1f8e7bc13/packages",
+    "additionalFields": {
+      "expectedStart": "10/6/2025",
+      "dateDue": "6/19/2025",
+      "RFIsDue": "6/6/2025",
+      "dateInvited": "5/28/2025",
+      "requestType": "Proposal",
+      "projectSize": "812548 sq. ft.",
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead",
+      "created": "5/28/2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

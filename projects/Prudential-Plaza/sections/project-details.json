@@ -1,0 +1,48 @@
+{
+  "reportTitle": "BuildVision Project Report for Prudential Plaza - Heat Pump Project Copy",
+  "customerInformation": {
+    "customerName": "Structure Tone (NY)",
+    "contactPerson": "John Mathew",
+    "contactEmail": "john.mathew@structuretone.com",
+    "contactPhone": "",
+    "projectId": "",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Prudential Plaza - Heat Pump Project Copy",
+    "location": "739-759 Broad Street, Newark, NJ 07102",
+    "startDate": "",
+    "completionDate": "6/26/2025",
+    "budget": "",
+    "scope": "Heat pump installation project for HVAC decarbonization including air source heat pumps, water source heat pumps, hydronic systems, controls, and related infrastructure at 751 Broad Street, Newark, NJ 07102",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/d34f658c-028d-422c-afdd-0dac0fb2d47b/packages",
+    "additionalFields": {
+      "created": "6/3/2025",
+      "expectedStart": "--",
+      "dateDue": "6/26/2025",
+      "jobWalk": "6/16/2025",
+      "contractType": "--",
+      "rfIsDue": "6/20/2025",
+      "dateInvited": "6/3/2025",
+      "requestType": "Proposal",
+      "projectSize": "--",
+      "buildingConnectedLead": "John Mathew",
+      "projectNumber": "231756"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

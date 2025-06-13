@@ -1,0 +1,44 @@
+{
+  "reportTitle": "BuildVision Project Report for 65 Kilmarnock Building A",
+  "customerInformation": {
+    "customerName": "Boston Children's Hospital",
+    "contactPerson": "James Cole",
+    "contactEmail": "james.cole@structuretone.com",
+    "contactPhone": "",
+    "projectId": "7d596bb7-6034-4041-ab12-925fc4ac2e46",
+    "additionalFields": {
+      "organization": "Structure Tone (NY)"
+    }
+  },
+  "projectInformation": {
+    "projectName": "65 Kilmarnock Building A",
+    "location": "65 Kilmarnock Street, Boston, MA 02215",
+    "startDate": "2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "New 6-story residential building with 45 total apartment units and limited amenities spaces for patient family housing for Boston Children's Hospital. The total square footage is 40,500 sq/ft.",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/7d596bb7-6034-4041-ab12-925fc4ac2e46/details",
+    "additionalFields": {
+      "requestType": "Proposal",
+      "projectStatus": "BuildingConnected Lead",
+      "dateCreated": "5/30/2025",
+      "dateInvited": "5/30/2025",
+      "sustainabilityGoals": "LEED Gold certifiable, Passive House compliance"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Indoor Central-Station Air-Handling Units located on Level 5 MER and roof. Custom hospital grade units with less than 1% leakage, double wall construction with 4 inch insulation and thermal break.",
+      "items": [
+        {
+          "equipmentTag": "AHU-5-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 2, LEVEL 4, LEVEL 6, LEVEL 7",
+            "location": "5TH FL MER",
+            "minimumAirflow": "32,400 CFM",
+            "systemAirflow": "108,000 CFM"
+          }
+        },
+        {
+          "equipmentTag": "AHU-5-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 2, LEVEL 4, LEVEL 6, LEVEL 7",
+            "location": "5TH FL MER",
+            "minimumAirflow": "24,600 CFM",
+            "systemAirflow": "82,000 CFM"
+          }
+        },
+        {
+          "equipmentTag": "AHU-5-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 1",
+            "location": "5TH FL MER",
+            "minimumAirflow": "7,500 CFM",
+            "systemAirflow": "25,000 CFM"
+          }
+        },
+        {
+          "equipmentTag": "AHU-5-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 1",
+            "location": "5TH FL MER",
+            "minimumAirflow": "6,000 CFM",
+            "systemAirflow": "20,000 CFM"
+          }
+        },
+        {
+          "equipmentTag": "AHU-ELEC",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Catalog AHUs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Roof Top Units",
+      "notes": "Roof mounted air handling units serving upper floors with full width heated piping vestibule.",
+      "items": [
+        {
+          "equipmentTag": "RTU-R-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 8 TO LEVEL 11",
+            "location": "ROOF",
+            "minimumAirflow": "32,400 CFM",
+            "systemAirflow": "108,000 CFM"
+          }
+        },
+        {
+          "equipmentTag": "RTU-R-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 8 TO LEVEL 11",
+            "location": "ROOF",
+            "minimumAirflow": "24,600 CFM",
+            "systemAirflow": "82,000 CFM"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heat Exchangers",
+      "notes": "Steam-to-water and plate frame heat exchangers for heating systems and domestic hot water.",
+      "items": [
+        {
+          "equipmentTag": "HX-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger"
+          }
+        },
+        {
+          "equipmentTag": "HX-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger"
+          }
+        },
+        {
+          "equipmentTag": "HX-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger"
+          }
+        },
+        {
+          "equipmentTag": "HX-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger"
+          }
+        },
+        {
+          "equipmentTag": "HX-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Plate Frame HX"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Base-mounted centrifugal and vertical inline pumps for chilled water, hot water, and other systems.",
+      "items": [
+        {
+          "equipmentTag": "CHWP-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction"
+          }
+        },
+        {
+          "equipmentTag": "CHWP-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction"
+          }
+        },
+        {
+          "equipmentTag": "HWP-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction"
+          }
+        },
+        {
+          "equipmentTag": "HWP-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction"
+          }
+        },
+        {
+          "equipmentTag": "HWP-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction"
+          }
+        },
+        {
+          "equipmentTag": "HWP-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction"
+          }
+        },
+        {
+          "equipmentTag": "HWP-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Inline Pump"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Variable Air Volume Terminal Units",
+      "notes": "VAV boxes including exhaust air valves for infectious exhaust systems.",
+      "items": [
+        {
+          "equipmentTag": "VAV-Infectious Exhaust",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Exhaust Air Valve"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Computer Room Air Conditioners",
+      "notes": "Floor-mounted computer room air handlers for data and UPS rooms with 100% redundant units.",
+      "items": [
+        {
+          "equipmentTag": "CRAH-DATA",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Floor-Mounted CRACs"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-UPS",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Floor-Mounted CRACs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Vertical fan coil units for elevator machine rooms, mechanical spaces, and other applications.",
+      "items": [
+        {
+          "equipmentTag": "FCU-ELEV",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit"
+          }
+        },
+        {
+          "equipmentTag": "FCU-MER",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit"
+          }
+        },
+        {
+          "equipmentTag": "FCU-STAIR",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit"
+          }
+        },
+        {
+          "equipmentTag": "FCU-VPR",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Centrifugal HVAC fans for exhaust and supply applications including infectious exhaust, stairwell pressurization, and equipment ventilation.",
+      "items": [
+        {
+          "equipmentTag": "EF-AIR COMPRESSOR",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan"
+          }
+        },
+        {
+          "equipmentTag": "EF-BATTERY",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan"
+          }
+        },
+        {
+          "equipmentTag": "EF-GENERAL",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan"
+          }
+        },
+        {
+          "equipmentTag": "EF-Infectious",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan"
+          }
+        },
+        {
+          "equipmentTag": "EF-MED GAS",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan"
+          }
+        },
+        {
+          "equipmentTag": "SF-AIR COMPRESSOR",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan"
+          }
+        },
+        {
+          "equipmentTag": "SF-STAIRWELL",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan"
+          }
+        }
+      ]
+    }
+  ]
+}

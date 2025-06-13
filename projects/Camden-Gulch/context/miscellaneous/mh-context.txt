@@ -1,0 +1,5 @@
+Air Handling Units:
+    - VRF equipment should not be listed as an acceptable alternate for this category.
+
+VRF Systems: This system should not exist. There are no VRF systems in this project.
+

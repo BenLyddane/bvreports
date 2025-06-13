@@ -1,0 +1,1371 @@
+{
+  "reportTitle": "BuildVision Project Report for Project KCar - Eagle 1",
+  "customerInformation": {
+    "customerName": "Structure Tone Southwest",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "e8a4a5fd-a1dc-4fd9-872a-bbf3fc1a5177",
+    "additionalFields": {
+      "organizationId": "cc7e5f0e-72e4-473c-8a38-493477f6b728"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Project KCar - Eagle 1",
+    "location": "15200 Heritage Parkway, Fort Worth, TX 76177",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "HVAC mechanical systems including chillers, air handling units, pumps, and associated equipment",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/cc7e5f0e-72e4-473c-8a38-493477f6b728/package-projects/e8a4a5fd-a1dc-4fd9-872a-bbf3fc1a5177/packages",
+    "additionalFields": {
+      "projectNumber": "096.4153.002",
+      "created": "5/29/2025",
+      "projectStatus": "",
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-09"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled Chillers",
+      "notes": "Variable speed drive screw chillers with R-134A refrigerant. Direct drive semi-hermetically sealed rotary twin screw compressors. Include low ambient controls, BACnet interface, and vibration isolation.",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-2",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-3",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-4",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-5",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-6",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-7",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-8",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-9",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-10",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-11",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-12",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water-Cooled Heat Recovery Chillers",
+      "notes": "Water to water variable speed drive screw chillers with R-134A refrigerant. Direct drive semi-hermetically sealed screw type compressors. Housed in weatherproof enclosures.",
+      "items": [
+        {
+          "equipmentTag": "HRCH-1",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.75,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-2",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.75,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-3",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.75,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-4",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.75,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Vertical inline pumps with NEMA premium efficiency TEFC motors. Include VFDs with bypass, vibration isolation via spring pump supports, and 1 year warranty.",
+      "items": [
+        {
+          "equipmentTag": "CHP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-4",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-5",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-6",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-7",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dedicated Outdoor Air Units",
+      "notes": "Temtrol ITF units with energy recovery, humidification capability, EC motors, and double wall construction. Include MERV 8 and MERV 14 filters.",
+      "items": [
+        {
+          "equipmentTag": "AHU-01",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-02",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-03",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-04",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-05",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-06",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY11",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY12",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY13",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Indoor Central Air Handling Units",
+      "notes": "Temtrol TF modular air handling units with EC motors, double wall construction, and spring isolated base rails. Include vibration isolation and DDC controls.",
+      "items": [
+        {
+          "equipmentTag": "AHU-CR1",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR2",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR3",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR4",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR5",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR6",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR7",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR8",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR9",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR10",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Air-Cooled Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YVAA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of Design manufacturer appearing on mechanical schedules with 12 air-cooled screw chillers specified"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Pathfinder AWV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "HTS Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 1 for Air-Cooled Screw Chillers"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Ascend",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Forth Worth",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 2 for Air-Cooled Screw Chillers"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce 30XV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "McMillan James",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 3 for Air-Cooled Screw Chillers"
+        },
+        {
+          "manufacturer": "Petra",
+          "model": "APSA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "HTS Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 4 for Air-Cooled Screw Chillers"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "YVAA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Additional suitable manufacturer for air-cooled chillers with similar capacity range"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "EcoLogic Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Additional suitable manufacturer for air-cooled chillers with comparable efficiency ratings"
+        }
+      ]
+    },
+    {
+      "componentType": "Water-Cooled Heat Recovery Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YVWA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Water-to-water variable speed drive screw chiller with heat recovery capability"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Navigator WWV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "HTS Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative water-cooled heat recovery chiller option"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Series R RTWD",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Fort Worth",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative water-cooled heat recovery chiller option"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce 30HX",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "McMillan James",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative water-cooled heat recovery chiller option"
+        },
+        {
+          "manufacturer": "Petra",
+          "model": "WPSA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "HTS Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative water-cooled heat recovery chiller option"
+        },
+        {
+          "manufacturer": "McQuay",
+          "model": "WMC",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable water-cooled heat recovery chiller alternative with comparable efficiency"
+        },
+        {
+          "manufacturer": "Smardt",
+          "model": "WS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Magnetic bearing water-cooled heat recovery chiller option with higher efficiency"
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Vertical inline pumps for primary chilled water loop, heat recovery loop, and primary heating water loop"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "CR/CRN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for vertical inline pump applications with similar performance characteristics"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Series e-1510/1531",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible vertical inline pump option with equivalent head and flow capabilities"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "4000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-1%",
+          "compatibilityNotes": "Cost-effective alternative for vertical inline pump applications with similar specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Dedicated Outdoor Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedules for all DOAS units (AHU-01 through AHU-06, AHU-WY11 through AHU-WY13, DOAS-CR1 through DOAS-CR4)"
+        },
+        {
+          "manufacturer": "Vertiv Energy Labs",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Vertiv Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 1 for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "Buffalo Air Handling",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 2 for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "AdaptivAir",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 3 for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "ClimateCraft",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Fort Worth",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 4 for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Commercial Air Handlers",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Leading manufacturer offering dedicated outdoor air units with energy recovery options"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "OptiClean",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Established manufacturer with DOAS solutions including indoor air quality features"
+        }
+      ]
+    },
+    {
+      "componentType": "Indoor Central Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of Design for Dedicated Outdoor-Air Units and Indoor Central AHUs Modular"
+        },
+        {
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of Design for Indoor Central AHUs Modular"
+        },
+        {
+          "manufacturer": "Vertiv Energy Labs",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Vertiv Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "Buffalo Air Handling",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "N/A",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "AdaptivAir",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "N/A",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "ClimateCraft",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Fort Worth",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard manufacturer for commercial air handling units with modular design capabilities"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Comprehensive air handling solutions with advanced controls integration"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement Competitive Bidding for Approved Alternates",
+      "rationale": "The project includes four approved alternates for each major equipment category (air-cooled chillers, water-cooled heat recovery chillers, and air handling units). With representatives from multiple vendors including HTS Texas (representing both Daikin Applied and Petra), Trane Fort Worth, McMillan James (Carrier), and Vertiv Texas already identified, this creates an opportunity for competitive procurement.",
+      "estimatedImpact": "Competitive bidding among approved alternates could result in meaningful cost savings while maintaining design specifications and performance requirements",
+      "implementation": "Solicit formal bids from all four approved alternates for each equipment category, evaluate total cost of ownership including energy efficiency ratings, warranty terms, and local service support capabilities",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Leverage Single Representative for Multiple Equipment Types",
+      "rationale": "HTS Texas represents both Daikin Applied and Petra for chillers, while Trane Fort Worth represents Trane equipment across multiple categories. This relationship can be leveraged for package deals and coordinated procurement to achieve better pricing and streamlined project management.",
+      "estimatedImpact": "Package procurement from single representatives could yield significant cost reductions and improved coordination during installation and commissioning phases",
+      "implementation": "Request package pricing from HTS Texas for Daikin Applied chillers with Petra alternates, and from Trane Fort Worth for integrated HVAC solutions, then compare against individual equipment pricing",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Standardize on York YVAA Model for Air-Cooled Chillers",
+      "rationale": "All twelve air-cooled chillers (CH-1 through CH-12) are specified as identical York YVAA units with 500 ton nameplate capacity. The uniformity in specifications presents an opportunity for volume pricing negotiations and simplified maintenance inventory.",
+      "estimatedImpact": "Volume purchasing of twelve identical units should result in meaningful per-unit cost reductions and reduced spare parts inventory costs",
+      "implementation": "Negotiate volume pricing with Texas Airsystems for the twelve York YVAA units, request extended warranty terms for bulk purchase, and establish standardized maintenance protocols",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Coordinate Owner-Provided Equipment Procurement Timeline",
+      "rationale": "Multiple equipment schedules indicate owner-provided, contractor-installed arrangements. This requires careful coordination to ensure equipment delivery aligns with construction schedules and avoids costly delays or storage requirements.",
+      "estimatedImpact": "Proper procurement timing coordination can prevent project delays and reduce temporary storage costs while ensuring equipment availability when needed",
+      "implementation": "Develop detailed procurement and delivery schedule coordinated with construction milestones, establish secure on-site storage protocols, and implement equipment tracking systems",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Evaluate Armstrong 4300 Series Pump Standardization",
+      "rationale": "All pumps specified are Armstrong 4300 series vertical inline pumps with varying horsepower ratings. This standardization across different pump applications suggests opportunities for coordinated procurement and maintenance efficiencies.",
+      "estimatedImpact": "Standardized pump procurement can reduce initial costs through volume pricing and decrease long-term maintenance costs through simplified spare parts inventory",
+      "implementation": "Consolidate all Armstrong pump orders for volume pricing, negotiate extended warranty terms for standardized equipment, and establish preventive maintenance contracts",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Assess Local Service Capability for Equipment Selection",
+      "rationale": "With multiple equipment representatives located in the Fort Worth area, local service capability should be a key factor in equipment selection to minimize response times and service costs over the equipment lifecycle.",
+      "estimatedImpact": "Selecting equipment with strong local service support can reduce maintenance costs and minimize downtime during the operational phase",
+      "implementation": "Evaluate service response times, local technician availability, and parts inventory for each equipment option, weight these factors in procurement decisions alongside initial cost",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "Project KCar Eagle 1 represents a large-scale commercial HVAC procurement requiring strategic coordination of owner-provided equipment across multiple categories including 12 air-cooled chillers, 4 water-cooled heat recovery chillers, extensive air handling units, and supporting infrastructure. The procurement strategy should leverage approved alternates, standardized equipment specifications, and established local vendor relationships to optimize cost, delivery coordination, and long-term service support.",
+    "keyFindings": [
+      "Significant volume procurement opportunity exists with twelve identical York YVAA air-cooled chillers enabling negotiation leverage for cost reduction and extended warranty terms",
+      "Multiple approved alternates across all major equipment categories create competitive bidding opportunities with established local representatives including HTS Texas, Trane Fort Worth, and McMillan James",
+      "Owner-provided, contractor-installed arrangement requires precise delivery coordination to align with construction schedules and minimize storage costs or project delays",
+      "Equipment standardization across categories (Armstrong 4300 pumps, Temtrol air handlers) presents opportunities for package pricing and simplified maintenance protocols",
+      "Strong local service network in Fort Worth area provides competitive advantage for equipment selection based on long-term operational support capabilities"
+    ],
+    "highestPriorityActions": [
+      "Execute competitive bidding process among all four approved alternates for each major equipment category to maximize cost savings while maintaining design compliance",
+      "Negotiate volume pricing agreements for standardized equipment including the twelve York YVAA chillers and Armstrong 4300 pump series to achieve significant per-unit cost reductions",
+      "Develop comprehensive procurement and delivery schedule coordinated with construction milestones to ensure timely equipment availability and minimize storage requirements",
+      "Evaluate and select equipment based on total cost of ownership including initial price, energy efficiency, warranty terms, and local service support capabilities"
+    ]
+  }
+}

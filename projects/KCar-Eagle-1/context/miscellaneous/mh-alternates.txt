@@ -1,0 +1,67 @@
+Equipment Alternate Manufacturers
+
+Air-Cooled, Screw Chillers
+Basis of Design: 
+    Manufacturer - York
+    Model - YVAA
+    Representative - Texas Airsystems
+Alternate 1: 
+    Manufacturer - Daikin Applied
+    Model - Pathfinder AWV
+    Representative - HTS Texas
+Alternate 2:
+    Manufacturer - Trane
+    Model - Ascend
+    Representative - Trane Forth Worth
+Alternate 3:
+    Manufacturer - Carrier
+    Model - AquaForce 30XV
+    Representative - McMillan James
+Alternate 4:
+    Manufacturer - Petra
+    Model - APSA
+    Representative - HTS Texas
+
+Water-Cooled Heat-Recovery Screw Chillers
+Basis of Design:
+    Manufacturer - York
+    Model - YVWA
+    Representative - Texas Airsystems
+Alternate 1: 
+    Manufacturer - Daikin Applied
+    Model - Navigator WWV
+    Representative - HTS Texas
+Alternate 2:
+    Manufacturer - Trane
+    Model - Series R RTWD
+    Representative - Trane Fort Worth
+Alternate 3:
+    Manufacturer - Carrier
+    Model - AquaForce 30HX
+    Representative - McMillan James
+Alternate 4:
+    Manufacturer - Petra
+    Model - WPSA
+    Representative - HTS Texas
+
+Hydronic Air Handling Units
+Basis of Design:
+    Manufacturer - Temtrol
+    Model - ITF
+    Representative - Texas Airsystems
+Alternate 1: 
+    Manufacturer - Vertiv Energy Labs
+    Model - N/A
+    Representative - Vertiv Texas
+Alternate 2: 
+    Manufacturer - Buffalo Air Handling
+    Model - N/A
+    Representative - N/A
+Alternate 3: 
+    Manufacturer - AdaptivAir
+    Model - N/A
+    Representative - N/A
+Alternate 4: 
+    Manufacturer - ClimateCraft
+    Model - N/A
+    Representative - Trane Fort Worth

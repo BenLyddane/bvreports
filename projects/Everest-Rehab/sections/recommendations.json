@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement multi-vendor bidding strategy for HVAC equipment packages",
+      "rationale": "The project specifies multiple acceptable manufacturers for each equipment category (Carrier, Daikin, Trane, Johnson Controls for RTUs; Daikin, Mitsubishi, LG, Samsung for split systems; Cook, Greenheck, Twin City for fans). This presents an opportunity to leverage competition among suppliers to achieve better pricing and terms while maintaining quality standards.",
+      "estimatedImpact": "Significant cost savings potential through competitive bidding, improved delivery schedules through multiple supplier options, and reduced project risk through supplier diversification",
+      "implementation": "Issue separate RFQs to all specified manufacturers for each equipment category, conduct thorough technical and commercial evaluation, negotiate with top 2-3 suppliers for final pricing, and select based on best value considering price, delivery, warranty, and service support",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Consolidate procurement of similar equipment types to achieve volume discounts",
+      "rationale": "The project includes multiple units of similar equipment types: 8 RTUs from Carrier, 10 exhaust fans from Loren Cook, 9 wall heaters from Raywall, and multiple Daikin split system units. Bundling these similar units together in procurement packages can leverage volume purchasing power.",
+      "estimatedImpact": "Meaningful cost reduction through volume pricing, simplified project management with fewer supplier relationships, and potentially improved delivery coordination",
+      "implementation": "Group equipment by manufacturer and type into consolidated purchase orders, negotiate volume discounts for quantity purchases, establish single delivery schedules for grouped equipment, and coordinate installation sequences to optimize contractor efficiency",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Establish early supplier engagement for critical path equipment",
+      "rationale": "The project includes specialized equipment such as the kitchen hood system (Accurex), makeup air unit, and medical-grade HEPA filtration systems for patient rooms (RTU-1 and RTU-3). These items typically have longer lead times and require careful coordination with other building systems.",
+      "estimatedImpact": "Reduced schedule risk through early equipment ordering, improved coordination with installation contractors, and potential for design optimization through early supplier input",
+      "implementation": "Identify long-lead equipment early in design phase, engage suppliers for preliminary pricing and lead time confirmation, place orders as soon as specifications are finalized, and establish delivery schedules coordinated with construction milestones",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Negotiate comprehensive service and warranty packages for critical HVAC systems",
+      "rationale": "As a rehabilitation hospital, equipment reliability is crucial for patient care and operational continuity. The RTU systems, split system units, and kitchen ventilation equipment require consistent operation. Enhanced warranty and service agreements can provide operational assurance and cost predictability.",
+      "estimatedImpact": "Improved operational reliability, reduced long-term maintenance costs, and enhanced equipment performance through proactive service programs",
+      "implementation": "Request extended warranty options beyond standard terms, negotiate preventive maintenance packages with suppliers, establish priority service response agreements for critical equipment, and consider performance guarantees for energy efficiency metrics",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Coordinate electrical compatibility verification during procurement process",
+      "rationale": "The mechanical schedules show specific electrical requirements (480V 3-phase for most equipment, varying MCA and FLA ratings). The project notes emphasize mechanical-electrical coordination responsibility. Early verification prevents costly field modifications and delays.",
+      "estimatedImpact": "Prevention of costly field changes, elimination of project delays due to electrical mismatches, and improved contractor coordination",
+      "implementation": "Require suppliers to confirm electrical specifications match project requirements during quotation process, coordinate equipment submittals with electrical contractor review, verify power requirements against electrical design before equipment ordering, and establish clear responsibility matrix for electrical coordination",
+      "priority": "Medium"
+    }
+  ]
+}

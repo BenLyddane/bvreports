@@ -1,0 +1,26 @@
+{
+  "uploadedFiles": {
+    "mech-schedules.pdf": {
+      "file_id": "file_011CPxsPyJaCjGRd2bXnPeuw",
+      "uploaded_at": "2025-06-09T15:17:36.800Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "bv-dashboard.txt": {
+      "file_id": "file_011CPxwwooBuGrHXchBdmA3R",
+      "uploaded_at": "2025-06-09T16:17:16.056Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "mh-alternates.txt": {
+      "file_id": "file_011CPxwwr9aHsMuc56bJ1Eoz",
+      "uploaded_at": "2025-06-09T16:17:16.566Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    }
+  },
+  "tempFiles": {}
+}

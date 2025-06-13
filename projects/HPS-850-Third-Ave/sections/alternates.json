@@ -14,11 +14,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as basis of design in dashboard for equipment tag CH-21-1"
+          "compatibilityNotes": "Listed as equipment tag CH-21-1 on the mechanical schedule"
         },
         {
-          "manufacturer": "Carrier",
-          "model": "30RB",
+          "manufacturer": "Trane",
+          "model": "Series R",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -27,11 +27,11 @@
             "contact": ""
           },
           "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with specified performance requirements, industry-standard connections"
+          "compatibilityNotes": "Compatible with building's existing controls system"
         },
         {
-          "manufacturer": "Trane",
-          "model": "CGAM",
+          "manufacturer": "Carrier",
+          "model": "AquaSnap",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -39,12 +39,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Premium option with enhanced efficiency features"
+          "costDifference": "-2%",
+          "compatibilityNotes": "May require additional piping modifications"
         },
         {
           "manufacturer": "Daikin",
-          "model": "AGZ",
+          "model": "AGZ-E Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -52,8 +52,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Suggested alternative, compatible with building systems"
+          "costDifference": "+1%",
+          "compatibilityNotes": "Energy efficient alternative with good compatibility"
         }
       ]
     },
@@ -71,11 +71,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Basis of design for HV-5-1, HV-5-2, and MAU-21-1 per BuildVision dashboard"
+          "compatibilityNotes": "Used for HV-5-1, HV-5-2, and MAU-21-1 units as shown on dashboard"
         },
         {
           "manufacturer": "Daikin",
-          "model": "Vision Air Handler",
+          "model": "Vision Custom",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -84,7 +84,7 @@
             "contact": ""
           },
           "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with existing systems; similar footprint to Nortek units"
+          "compatibilityNotes": "Compatible with specified controls and ductwork configuration"
         },
         {
           "manufacturer": "Trane",
@@ -96,12 +96,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
+          "costDifference": "+5%",
           "compatibilityNotes": "May require minor modifications to ductwork connections"
         },
         {
           "manufacturer": "Carrier",
-          "model": "AirStream",
+          "model": "Custom AHU",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -109,8 +109,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Alternative supplier option; verify control system compatibility"
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements, consider for additional supply chain options"
         }
       ]
     },
@@ -128,37 +128,37 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as basis of design for AC Package in the BuildVision dashboard"
+          "compatibilityNotes": "Listed as Basis of Design for AC Package in the BuildVision dashboard"
         },
         {
           "manufacturer": "Daikin",
-          "model": "VAV series",
+          "model": "Applied Rooftop",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
           "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with building automation systems; energy-efficient alternative"
+          "compatibilityNotes": "Compatible with project requirements, energy-efficient alternative"
         },
         {
           "manufacturer": "Carrier",
-          "model": "AquaForce",
+          "model": "Weather Series",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Higher efficiency rating; requires minimal modifications to existing connections"
+          "costDifference": "+2%",
+          "compatibilityNotes": "Industry standard compatibility with building systems"
         },
         {
           "manufacturer": "Trane",
-          "model": "Precedent",
+          "model": "IntelliPak",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -166,8 +166,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Cost-effective alternative; may require additional controls integration"
+          "costDifference": "+4%",
+          "compatibilityNotes": "Higher efficiency but requires additional controls integration"
         }
       ]
     }

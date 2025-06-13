@@ -1,0 +1,19 @@
+{
+  "uploadedFiles": {
+    "bv-dashboard.txt": {
+      "file_id": "file_011CPyGVadfkZZmVGZBhdjM5",
+      "uploaded_at": "2025-06-09T20:20:29.672Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "mech-schedules.pdf": {
+      "file_id": "file_011CPyGVdQ6djiFXv2HEvXph",
+      "uploaded_at": "2025-06-09T20:20:30.402Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    }
+  },
+  "tempFiles": {}
+}

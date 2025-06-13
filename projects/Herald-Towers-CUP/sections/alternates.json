@@ -1,0 +1,240 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Modular Air-Source Heat Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YMAE0035PJP46VBXSA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Unit specified on mechanical schedule with 6 modules per bank, R-454B refrigerant, 35.79 tons per module capacity"
+        },
+        {
+          "manufacturer": "Aermec",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Multistack",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Similar modular air-source heat pump technology with comparable capacity ranges"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Offers modular heat pump solutions with R-454B refrigerant compatibility"
+        }
+      ]
+    },
+    {
+      "componentType": "Plate-Type Heat Exchangers",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "BPX5LP (BY5433)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD manufacturer in dashboard for HX-ZF1, HX-ZF2, HX-ZF3. Model BY5433 specified in schedules with Sonderlock technology."
+        },
+        {
+          "manufacturer": "Alpha-Laval Thermal, Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in heat exchanger specifications."
+        },
+        {
+          "manufacturer": "Polaris Plate Heat Exchangers",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in heat exchanger specifications."
+        },
+        {
+          "manufacturer": "Mueller, Paul Company",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in heat exchanger specifications."
+        },
+        {
+          "manufacturer": "API Heat Transfer Inc.",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in heat exchanger specifications."
+        },
+        {
+          "manufacturer": "Danfoss",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Premium alternative offering advanced plate technology and compact design for similar applications."
+        },
+        {
+          "manufacturer": "Tranter",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Established manufacturer with wide range of gasketed plate heat exchangers suitable for HVAC applications."
+        }
+      ]
+    },
+    {
+      "componentType": "Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510-5EB",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "End suction centrifugal pump, 750 GPM flow rate, designed for primary water loop applications"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "E-1510-4GC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "End suction centrifugal pump, 750 GPM flow rate, designed for secondary water loop applications"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "High efficiency pumps with integrated VFD capabilities, suitable for hydronic applications"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Cast iron construction end suction pumps, compatible with similar mounting and connection requirements"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Design Envelope pumps with variable speed capability, energy efficient alternative for hydronic systems"
+        }
+      ]
+    }
+  ]
+}

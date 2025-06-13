@@ -1,0 +1,305 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Raymond Construction
+package projects
+Everest Rehab
+
+    details
+
+MH
+Organization Logo
+Everest Rehab
+Raymond Construction
+Stakeholders
+Westover Hills, San Antonio, Texas 78251
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+--
+Address
+Westover Hills, San Antonio, Texas 78251
+Created
+6/5/2025
+Expected Start
+--
+Date Due
+--
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+--
+Request Type
+--
+Project Size
+--
+
+https://app.buildvision.io/admin/organizations/40945fec-8e8e-4fb7-972f-b640fc1ecab3/package-projects/6a73eaf7-aa36-4e2d-9d17-2db71c8c5fa0/details
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Raymond Construction
+package projects
+Everest Rehab
+
+    packages
+
+MH
+Organization Logo
+Everest Rehab
+Raymond Construction
+Stakeholders
+Westover Hills, San Antonio, Texas 78251
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Action
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+EF-1	Loren Cook	Centrifugal HVAC Fans	165R08D	
+Annotation
+	
+EF-2	Loren Cook	Centrifugal HVAC Fans	165R08D	
+Annotation
+	
+EF-3	Loren Cook	Centrifugal HVAC Fans	90R17D	
+Annotation
+	
+EF-4	Loren Cook	Centrifugal HVAC Fans	101R17D	
+Annotation
+	
+EF-5	Loren Cook	Centrifugal HVAC Fans	135R17D	
+Annotation
+	
+EF-6	Loren Cook	Centrifugal HVAC Fans	120R17D	
+Annotation
+	
+EF-7	Loren Cook	Centrifugal HVAC Fans	135R17D	
+Annotation
+	
+EF-8	Loren Cook	Centrifugal HVAC Fans	100SQN	
+Annotation
+	
+EF-IS02	Loren Cook	Centrifugal HVAC Fans	80 CPS	
+Annotation
+	
+EF-ISO1	Loren Cook	Centrifugal HVAC Fans	80 CPS	
+Annotation
+	
+KEF-1	Greenheck	HVAC Power Ventilators	CUE-180	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+EUH-1	Raywall	Unit Heaters	5100	
+Annotation
+	
+EUH-2	Raywall	Unit Heaters	5100	
+Annotation
+	
+EUH-3	Raywall	Unit Heaters	5100	
+Annotation
+	
+EWH 1	Raywall	Wall and Ceiling Unit Heaters	AFA	
+Annotation
+	
+EWH 2	Raywall	Wall and Ceiling Unit Heaters	AFA	
+Annotation
+	
+EWH 3	Raywall	Wall and Ceiling Unit Heaters	AFA	
+Annotation
+	
+EWH4	Raywall	Wall and Ceiling Unit Heaters	AFA	
+Annotation
+	
+EWH 5	Raywall	Wall and Ceiling Unit Heaters	AFA	
+Annotation
+	
+EWH 6	Raywall	Wall and Ceiling Unit Heaters	AFA	
+Annotation
+	
+EWH 7	Raywall	Wall and Ceiling Unit Heaters	AFA	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AH-ELEC	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FTX36	
+Annotation
+	
+AH-ELEC2	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FTX09	
+Annotation
+	
+AH-MDF	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FTX36	
+Annotation
+	
+AH-MFRM	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FTX30	
+Annotation
+	
+CU-ELEC	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	RK36	
+Annotation
+	
+CU-ELEC2	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	RK09	
+Annotation
+	
+CU-MDF	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	RK36	
+Annotation
+	
+CU-MFRM	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	RK30NMVJUA	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AH-VEST1	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FFQ15	
+Annotation
+	
+AH-VEST2	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FFQ15	
+Annotation
+	
+HP-VEST1	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	RX15	
+Annotation
+	
+HP-VEST2	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	RX15	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+RTU-1	Carrier	Packaged Rooftop Air-Conditioning Units	48LCRA20	
+Annotation
+	
+RTU-2	Carrier	Packaged Rooftop Air-Conditioning Units	48JCSW06	
+Annotation
+	
+RTU-3	Carrier	Packaged Rooftop Air-Conditioning Units	48LCRA24	
+Annotation
+	
+RTU-4	Carrier	Packaged Rooftop Air-Conditioning Units	48LCSA12	
+Annotation
+	
+RTU-5	Carrier	Packaged Rooftop Air-Conditioning Units	48LCSA09	
+Annotation
+	
+RTU-6	Carrier	Packaged Rooftop Air-Conditioning Units	48LCSA12	
+Annotation
+	
+RTU-7	Carrier	Packaged Rooftop Air-Conditioning Units	48LCSA14	
+Annotation
+	
+RTU-8	Carrier	Packaged Rooftop Air-Conditioning Units	48LCSA14	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+KH1	accurex	Kitchen Hoods	XXEW-160-S	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+MUA1	accurex	Packaged, Direct-Fired, Outdoor, Heating-Only Makeup-Air Units	XDGX-P112-H12-MF-5	
+Annotation
+	
+

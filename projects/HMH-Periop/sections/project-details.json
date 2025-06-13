@@ -1,0 +1,42 @@
+{
+  "reportTitle": "BuildVision Project Report for HMH JSUMC Periop Expansion",
+  "customerInformation": {
+    "customerName": "LF Driscoll",
+    "contactPerson": "Ken Rienstra",
+    "contactEmail": "krienstra@lfdriscoll.com",
+    "contactPhone": "",
+    "projectId": "",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "HMH JSUMC Periop Expansion",
+    "location": "1945 New Jersey 33, Neptune City, NJ 07753",
+    "startDate": "",
+    "completionDate": "6/20/2025",
+    "budget": "",
+    "scope": "4-story building including MER Penthouse; 128,000 gsf total. Jersey Shore University Medical Center perioperative expansion including operating rooms, sterile processing department, and supporting medical facilities.",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/9474ffd3-66c9-4316-b45c-c71e80a1d3b4/package-projects/67923220-bad4-483d-93d8-bcee866ed374/packages",
+    "additionalFields": {
+      "contractType": "BuildingConnected Lead",
+      "projectSize": "138602 sq. ft.",
+      "requestType": "Budget",
+      "dateInvited": "6/6/2025",
+      "created": "6/6/2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

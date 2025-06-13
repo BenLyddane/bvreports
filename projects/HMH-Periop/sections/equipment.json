@@ -1,0 +1,346 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air Handling Units",
+      "notes": "Custom hospital grade units with less than 1% leakage, double wall 4 inch insulated with thermal break, all internal components 100% aluminum or stainless steel",
+      "items": [
+        {
+          "equipmentTag": "AHU-R-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 4 OR",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 10500,
+            "capacity_tons": 42000,
+            "type": "OR AHU with desiccant dehumidification"
+          }
+        },
+        {
+          "equipmentTag": "AHU-R-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 4 OR",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 10500,
+            "capacity_tons": 42000,
+            "type": "OR AHU with desiccant dehumidification"
+          }
+        },
+        {
+          "equipmentTag": "AHU-R-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 4 OR",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 10500,
+            "capacity_tons": 42000,
+            "type": "OR AHU with desiccant dehumidification"
+          }
+        },
+        {
+          "equipmentTag": "AHU-R-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 2 SPD",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 42000,
+            "capacity_tons": 42000,
+            "type": "SPD AHU"
+          }
+        },
+        {
+          "equipmentTag": "AHU-R-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "service": "LEVEL 1 LOADING DOCK",
+            "location": "ROOF PENTHOUSE",
+            "airflow_cfm": 3600,
+            "capacity_tons": 12000,
+            "type": "Standard AHU"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heat Exchangers",
+      "notes": "Steam-to-water and plate frame heat exchangers for heating water generation and heat recovery",
+      "items": [
+        {
+          "equipmentTag": "HX-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger",
+            "service": "Temperature Reset Loop",
+            "capacity_lbs_per_hr": 1600,
+            "configuration": "Shell and tube with standby"
+          }
+        },
+        {
+          "equipmentTag": "HX-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger",
+            "service": "Constant Temperature Loop",
+            "capacity_lbs_per_hr": 5200,
+            "configuration": "Shell and tube with standby"
+          }
+        },
+        {
+          "equipmentTag": "HX-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger",
+            "service": "Temperature Reset Loop",
+            "capacity_lbs_per_hr": 1600,
+            "configuration": "Shell and tube with standby"
+          }
+        },
+        {
+          "equipmentTag": "HX-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Steam-to-Water Heat Exchanger",
+            "service": "Constant Temperature Loop",
+            "capacity_lbs_per_hr": 5200,
+            "configuration": "Shell and tube with standby"
+          }
+        },
+        {
+          "equipmentTag": "HX-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Plate Frame Heat Exchanger",
+            "service": "Heat Recovery Chiller",
+            "capacity_mbh": 800,
+            "configuration": "Plate and Frame"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Base-mounted centrifugal and vertical inline hydronic pumps with variable speed drives",
+      "items": [
+        {
+          "equipmentTag": "HWP-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        },
+        {
+          "equipmentTag": "HWP-2",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        },
+        {
+          "equipmentTag": "HWP-3",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        },
+        {
+          "equipmentTag": "HWP-4",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Base Mounted End Suction",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        },
+        {
+          "equipmentTag": "HWP-5",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Inline Pump",
+            "service": "Hot Water",
+            "configuration": "Centrifugal",
+            "drive": "480V Variable Speed"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Computer Room Air Conditioners",
+      "notes": "Small-capacity floor-mounted units for IT rooms with 100% redundancy",
+      "items": [
+        {
+          "equipmentTag": "CRAH-IDF",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Floor-Mounted CRAC",
+            "service": "IDF Room",
+            "configuration": "Vertical upflow with chilled water coil, reheat coil, humidification, and filtration"
+          }
+        },
+        {
+          "equipmentTag": "CRAH-UPS",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Floor-Mounted CRAC",
+            "service": "UPS Room",
+            "configuration": "Vertical upflow with chilled water coil, reheat coil, humidification, and filtration"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Vertical fan coil units for various applications including stairwells and mechanical rooms",
+      "items": [
+        {
+          "equipmentTag": "FCU-EMS",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit",
+            "service": "EMS Room",
+            "configuration": "Four-pipe with heating and cooling coils"
+          }
+        },
+        {
+          "equipmentTag": "FCU-MER",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit",
+            "service": "Mechanical Room",
+            "configuration": "Four-pipe with heating and cooling coils"
+          }
+        },
+        {
+          "equipmentTag": "FCU-Stair",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit",
+            "service": "Stairwell",
+            "configuration": "Four-pipe with heating and cooling coils"
+          }
+        },
+        {
+          "equipmentTag": "FCU-VPR",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Vertical Fan Coil Unit",
+            "service": "Vacuum Pump Room",
+            "configuration": "Two-pipe cooling only"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Exhaust Fans",
+      "notes": "Centrifugal HVAC fans for various exhaust applications throughout the facility",
+      "items": [
+        {
+          "equipmentTag": "EF-Air Compressor",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Air Compressor Room Exhaust",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        },
+        {
+          "equipmentTag": "EF-Battery",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Battery Room Exhaust",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        },
+        {
+          "equipmentTag": "EF-Cart",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Cart Washer Exhaust",
+            "configuration": "Direct drive with standby fan"
+          }
+        },
+        {
+          "equipmentTag": "EF-General",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "General Exhaust",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        },
+        {
+          "equipmentTag": "EF-Med Gas",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Medical Gas Room Exhaust",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        },
+        {
+          "equipmentTag": "SF-Air Compressor",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Centrifugal HVAC Fan",
+            "service": "Air Compressor Room Supply",
+            "configuration": "Direct drive with variable frequency drive"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Energy Recovery Units",
+      "notes": "Run-around energy recovery systems for heat recovery from exhaust air",
+      "items": [
+        {
+          "equipmentTag": "ERU-CSPD",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "type": "Run-Around Energy Recovery Unit",
+            "service": "Central Sterile Processing Department",
+            "configuration": "Exhaust fan with standby, run-around coil, and pre-filter with multiple fan arrays"
+          }
+        }
+      ]
+    }
+  ]
+}

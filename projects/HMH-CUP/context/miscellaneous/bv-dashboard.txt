@@ -1,0 +1,198 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+LF Driscoll
+package projects
+HMH - JSUMC Central Utility Plant Expans...
+
+    packages
+
+MH
+Organization Logo
+HMH - JSUMC Central Utility Plant Expansion
+LF Driscoll
+Stakeholders
+1945 New Jersey 33, Neptune City, NJ 07753
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Action
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CH-1, CH-2, CH-3, CH-4, CH-5	York	Water-Cooled Centrifugal Water Chillers	YZ	
+Annotation
+	
+HRCH-1	York	Water-Cooled Centrifugal Water Chillers	CYK	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CT-1, CT-2, CT-3, CT-4, CT-5	EVAPCO	Open-Circuit, Induced-Draft Counterflow Cooling Towers	AT 214-3G4H-FM	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CHWP 1	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-6X8X17P5A-447TTS-STL	
+Annotation
+	
+CHWP 2	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-6X8X17P5A-447TTS-STL	
+Annotation
+	
+CHWP 3	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-6X8X17P5A-447TTS-STL	
+Annotation
+	
+CHWP 4	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-6X8X17P5A-447TTS-STL	
+Annotation
+	
+CHWP 5	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-6X8X17P5A-447TTS-STL	
+Annotation
+	
+CHWP 6	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-4X6X17P5A-404TTS-STL	
+Annotation
+	
+CHWP 7	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-4X6X17P5A-404TTS-STL	
+Annotation
+	
+CWP 1	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-8X10X17P5B-447TTS-STL	
+Annotation
+	
+CWP 2	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-8X10X17P5B-447TTS-STL	
+Annotation
+	
+CWP 3	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-8X10X17P5B-447TTS-STL	
+Annotation
+	
+CWP 4	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-8X10X17P5B-447TTS-STL	
+Annotation
+	
+CWP 5	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-8X10X17P5B-447TTS-STL	
+Annotation
+	
+HWP 1	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-4X6X17P5A-365TTS-STL	
+Annotation
+	
+HWP 2	Bell & Gossett	Base-Mounted, Centrifugal Hydronic Pumps	VSCS-4X6X17P5A-365TTS-STL	
+Annotation
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AHU-1A	Temtrol	Custom Indoor Central-Station Air-Handling Units	Custom Indoor Central-Station Air-Handling Units	
+AnnotationAnnotation
+	
+AHU-1B	Temtrol	Custom Indoor Central-Station Air-Handling Units	Custom Indoor Central-Station Air-Handling Units	
+AnnotationAnnotation
+	
+https://app.buildvision.io/admin/organizations/9474ffd3-66c9-4316-b45c-c71e80a1d3b4/package-projects/fe314a11-6144-4d37-9c7c-2ec8945a34e5/packages
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+LF Driscoll
+package projects
+HMH - JSUMC Central Utility Plant Expans...
+
+    details
+
+MH
+Organization Logo
+HMH - JSUMC Central Utility Plant Expansion
+LF Driscoll
+Stakeholders
+1945 New Jersey 33, Neptune City, NJ 07753
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+Ken Rienstra (krienstra@lfdriscoll.com)
+Address
+1945 New Jersey 33, Neptune City, NJ 07753
+Created
+5/16/2025
+Expected Start
+--
+Date Due
+3/10/2025
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+5/16/2025
+Request Type
+Proposal
+Project Size
+--

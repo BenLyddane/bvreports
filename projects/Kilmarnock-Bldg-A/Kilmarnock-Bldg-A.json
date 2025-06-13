@@ -1,0 +1,1127 @@
+{
+  "reportTitle": "BuildVision Project Report for 65 Kilmarnock Building A",
+  "customerInformation": {
+    "customerName": "Boston Children's Hospital",
+    "contactPerson": "James Cole",
+    "contactEmail": "james.cole@structuretone.com",
+    "contactPhone": "",
+    "projectId": "7d596bb7-6034-4041-ab12-925fc4ac2e46",
+    "additionalFields": {
+      "organization": "Structure Tone (NY)"
+    }
+  },
+  "projectInformation": {
+    "projectName": "65 Kilmarnock Building A",
+    "location": "65 Kilmarnock Street, Boston, MA 02215",
+    "startDate": "2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "New 6-story residential building with 45 total apartment units and limited amenities spaces for patient family housing for Boston Children's Hospital. The total square footage is 40,500 sq/ft.",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/7d596bb7-6034-4041-ab12-925fc4ac2e46/details",
+    "additionalFields": {
+      "requestType": "Proposal",
+      "projectStatus": "BuildingConnected Lead",
+      "dateCreated": "5/30/2025",
+      "dateInvited": "5/30/2025",
+      "sustainabilityGoals": "LEED Gold certifiable, Passive House compliance"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-04"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Variable Refrigerant Flow (VRF) Systems",
+      "notes": "High efficiency units with excellent part load efficiency and high SEER & COP ratings. Indoor units located in apartments and common areas.",
+      "items": [
+        {
+          "equipmentTag": "VRF-OU",
+          "manufacturer": "Mitsubishi",
+          "model": "PURY-EP Heat Recovery",
+          "specifications": {
+            "capacity": "18-ton",
+            "quantity": "3",
+            "location": "Roof level on 24\" tall stands",
+            "features": "Heat Recovery heat pumps with branch circuit controllers"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-STUDIO",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.5-ton",
+            "quantity": "1 per studio unit",
+            "location": "Wall-mounted in studio units"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-1BR-BEDROOM",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.5-ton",
+            "quantity": "1 per 1BR unit bedroom",
+            "location": "Wall-mounted in 1BR unit bedrooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-1BR-LIVING",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.66-ton",
+            "quantity": "1 per 1BR unit living room",
+            "location": "Wall-mounted in 1BR unit living rooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-2BR-BEDROOM",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.5-ton",
+            "quantity": "1 per 2BR unit bedroom",
+            "location": "Wall-mounted in 2BR unit bedrooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-2BR-CORNER",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.66-ton",
+            "quantity": "1 per 2BR unit corner bedroom",
+            "location": "Wall-mounted in 2BR unit corner bedrooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-2BR-LIVING",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.66-ton",
+            "quantity": "1 per 2BR unit living room",
+            "location": "Wall-mounted in 2BR unit living rooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-CORRIDOR",
+          "manufacturer": "Mitsubishi",
+          "model": "PEFY",
+          "specifications": {
+            "type": "Ceiling concealed ducted units",
+            "features": "High static option",
+            "location": "Corridors and Amenity spaces"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Energy Recovery Ventilators (ERV)",
+      "notes": "Utilize 100% outside air units to pre-treat building fresh air by capturing waste heat and cooling from building exhaust systems.",
+      "items": [
+        {
+          "equipmentTag": "ERV-APARTMENT",
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "specifications": {
+            "sensible recovery effectiveness": "78% minimum",
+            "location": "Bathroom in each apartment unit",
+            "features": "Direct drive EC motor supply and exhaust fans, MERV 13 filtration, energy recovery core",
+            "control": "Wall mounted 20/40/60 timed boost controller",
+            "access": "30\" x 36\" access panel"
+          }
+        },
+        {
+          "equipmentTag": "ERV-CORRIDOR",
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "specifications": {
+            "sensible recovery effectiveness": "78% minimum",
+            "location": "Above ceiling on each floor corridor",
+            "features": "Direct drive EC motor supply and exhaust fans, MERV 13 filtration, energy recovery core",
+            "access": "30\" x 36\" access panel"
+          }
+        },
+        {
+          "equipmentTag": "ERV-AMENITY",
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "specifications": {
+            "sensible recovery effectiveness": "78% minimum",
+            "location": "Above ceiling in amenity spaces",
+            "features": "Direct drive EC motor supply and exhaust fans, MERV 13 filtration, energy recovery core",
+            "access": "30\" x 36\" access panel"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Domestic Hot Water System",
+      "notes": "High lift, CO2-based heat pump system with storage located in penthouse mechanical room.",
+      "items": [
+        {
+          "equipmentTag": "DHW-HP",
+          "manufacturer": "Mitsubishi",
+          "model": "QAHV",
+          "specifications": {
+            "capacity": "89,684 MBH per module",
+            "quantity": "3 modules (N+1)",
+            "total capacity": "178.9 MBH",
+            "location": "Roof",
+            "type": "Air to water (glycol) heat pumps",
+            "design conditions": "6°F DB/ 5°F WB winter"
+          }
+        },
+        {
+          "equipmentTag": "DHW-STORAGE",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "175 gallon per tank",
+            "quantity": "6 tanks",
+            "total storage": "940 gallons",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-SWING",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "150 gallon",
+            "heating element": "18kW",
+            "temperature maintenance": "4.9 kW",
+            "location": "Mechanical penthouse"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Domestic Hot Water System (Alternate)",
+      "notes": "Alternate hot water central plant system by Watts.",
+      "items": [
+        {
+          "equipmentTag": "DHW-HP-ALT",
+          "manufacturer": "Watts",
+          "model": "HPL-500A Aegis Heat Pump",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-HX-ALT",
+          "manufacturer": "Watts",
+          "model": "Mark II - HX Skid",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-STORAGE1-ALT",
+          "manufacturer": "Watts",
+          "model": "LC250S",
+          "specifications": {
+            "capacity": "250 Gallon",
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-STORAGE2-ALT",
+          "manufacturer": "Watts",
+          "model": "LC250-R144",
+          "specifications": {
+            "capacity": "250 Gallon",
+            "heating element": "144kW",
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-SWING-ALT",
+          "manufacturer": "Watts",
+          "model": "90 L 150A-VE",
+          "specifications": {
+            "capacity": "150 Gallon",
+            "heating element": "18kW",
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-MIXING-ALT",
+          "manufacturer": "Watts",
+          "model": "V71N-N Digital Mixing Valve",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-EXP-ALT",
+          "manufacturer": "Watts",
+          "model": "DTL-200 Expansion Tank",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-GLYCOL-ALT",
+          "manufacturer": "Watts",
+          "model": "GFP-30 Glycol Feed System",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Cooling Units",
+      "notes": "1-to-1 split cooling units that serve ancillary spaces throughout the building.",
+      "items": [
+        {
+          "equipmentTag": "SS-DATA",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2-ton",
+            "quantity": "1 per room",
+            "location": "Main telephone & data rooms",
+            "outdoor unit location": "Roof level"
+          }
+        },
+        {
+          "equipmentTag": "SS-ELEC",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2-ton",
+            "quantity": "1 per room",
+            "location": "Main electrical rooms",
+            "outdoor unit location": "Roof level"
+          }
+        },
+        {
+          "equipmentTag": "SS-ELEVATOR",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2-ton",
+            "type": "Heat pump",
+            "quantity": "1 per room",
+            "location": "Elevator machine rooms",
+            "outdoor unit location": "Roof level on 24\" tall stands"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Generator",
+      "notes": "Diesel fueled generator serving emergency life-safety, legally required, and optional standby loads.",
+      "items": [
+        {
+          "equipmentTag": "GEN-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "200kW/250kVA",
+            "voltage": "208/120V, 3-ph, 4-wire",
+            "fuel": "Diesel",
+            "location": "Roof level on 3 feet tall dunnage",
+            "enclosure": "Walk-in weatherproof, sound attenuated",
+            "features": "Radiator mounted load bank (30% of generator capacity)",
+            "circuit breaker": "800AF/700AT 100% rated with LSIGA electronic trip unit"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water Booster Pump System",
+      "notes": "Factory packaged and tested triplex variable-speed domestic water pressure boosting system.",
+      "items": [
+        {
+          "equipmentTag": "WBP-1",
+          "manufacturer": "QuantumFlo",
+          "model": "Prodigy Model QES_321.5-6.54",
+          "specifications": {
+            "system pressure": "119 Psig constant",
+            "flow rate range": "0 to 209 GPM",
+            "suction pressure": "72 Psig minimum",
+            "power": "208 Volt, 3 Phase, 60 hertz",
+            "pump delivery": "104 GPM at 109 ft. TDH",
+            "motor": "5 HP, 3450 RPM",
+            "features": "NSF 61 and NSF 372 Certified system with UL508A Industrial Control Panel"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dryer Exhaust System",
+      "notes": "Manifolded dryer exhaust system with common stack to roof in 2-hour rated shaft enclosure.",
+      "items": [
+        {
+          "equipmentTag": "DE-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "880-cfm",
+            "motor": "1-hp with VFD",
+            "control": "Duct static pressure control system",
+            "location": "Roof",
+            "features": "Inline lint collector"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Variable Refrigerant Flow (VRF) Systems",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "PURY-EP Heat Recovery",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High efficiency VRF system with heat recovery capability; specified as basis of design for the project; three 18-ton outdoor units required for the building."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "VRV IV Heat Recovery",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with project requirements; offers similar energy efficiency and heat recovery capabilities as the Mitsubishi system."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "Multi V 5 Heat Recovery",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Compatible with project requirements; offers competitive energy efficiency ratings and similar configuration options."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "DVM S Heat Recovery",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compatible with project requirements; may require modifications to distribution piping layout due to different branch selector box configurations."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Vari-Trane VRF",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements; strong local service network; would require modification to mechanical room layouts."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce VRF",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+4%",
+          "compatibilityNotes": "Compatible with project requirements; good integration with BMS systems; may require additional coordination for refrigerant management."
+        }
+      ]
+    },
+    {
+      "componentType": "Energy Recovery Ventilators (ERV)",
+      "suppliers": [
+        {
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for individual dwelling unit ERVs with 78% sensible recovery effectiveness. Units include direct drive EC motor supply and exhaust fans, MERV 13 filtration, energy recovery core, and wall mounted controller."
+        },
+        {
+          "manufacturer": "Reversomatic",
+          "model": "Intake/Exhaust Wall Vents",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Factory-built intake/exhaust combination termination fittings used to separate air streams for ERV venting."
+        },
+        {
+          "manufacturer": "Renewaire",
+          "model": "EV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Alternative high-efficiency ERVs with static plate core, can achieve 75-80% sensible recovery efficiency depending on model."
+        },
+        {
+          "manufacturer": "Zehnder",
+          "model": "ComfoAir Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+10%",
+          "compatibilityNotes": "Premium ERV option with counter-flow heat exchanger, higher efficiency (80-90% recovery), commonly used in Passive House projects."
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "Intelli-Balance ERV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Compact wall-mounted ERV option, may require system redesign but could offer installation cost savings."
+        }
+      ]
+    },
+    {
+      "componentType": "Domestic Hot Water System",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "QAHV",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High lift, CO2-based heat pump system with three QAHV modules and N+1 redundancy. Total capacity of 178.9 MBH with 940 gallons of storage across six 175-gallon tanks. System designed for 6°F DB/5°F WB winter conditions."
+        },
+        {
+          "manufacturer": "Watts",
+          "model": "Aegis Heat Pump",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternate system with HPL-500A Aegis Heat Pump, Mark II HX Skid, storage tanks (LC250S 250-gallon, LC250-R144 250-gallon with 144kW, 90L 150A-VE 150-gallon with 18kW swing tank), V71N-N Digital Mixing Valve, DTL-200 Expansion Tank, and GFP-30 Glycol Feed System."
+        },
+        {
+          "manufacturer": "Colmac",
+          "model": "CxA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Commercial CO2 heat pump water heater compatible with similar storage tank setup. Capable of high lift operation and suitable for cold climate applications."
+        },
+        {
+          "manufacturer": "Rheem",
+          "model": "Commercial Heat Pump Water Heater",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Commercial scale heat pump water heating system. May require different storage tank configuration and supplemental electric elements for equivalent capacity in extreme cold."
+        },
+        {
+          "manufacturer": "Sanden",
+          "model": "SANCO₂",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "CO2 refrigerant heat pump water heater. Would require multiple units to achieve equivalent capacity. Known for reliability in cold climates."
+        }
+      ]
+    },
+    {
+      "componentType": "Domestic Hot Water System (Alternate)",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "QAHV",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High lift, CO2-based heat pump system with (3) QAHV modules with N+1 redundancy. Each module provides 89,684 MBH capacity. System includes (6) 175-gallon storage tanks for a total of 940 gallons of storage."
+        },
+        {
+          "manufacturer": "Watts",
+          "model": "Aegis Heat Pump",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative central hot water plant system with HPL-500A Aegis Heat Pump, Mark II HX Skid, LC250S 250-gallon storage tank, LC250-R144 250-gallon storage with 144kW heater, 90 L 150A-VE 150-gallon storage with 18kW heater for swing tank, V71N-N Digital Mixing Valve, DTL-200 expansion tank, and GFP-30 glycol feed system."
+        },
+        {
+          "manufacturer": "Colmac",
+          "model": "CxA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+7%",
+          "compatibilityNotes": "High-efficiency CO2 heat pump water heater with comparable capacity. Compatible with the specified storage tank configuration."
+        },
+        {
+          "manufacturer": "Sanden",
+          "model": "SANCO₂",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "CO2 refrigerant heat pump water heater. Multiple units would be required to match the capacity of the specified system. May require different storage tank configuration."
+        },
+        {
+          "manufacturer": "A.O. Smith",
+          "model": "Commercial Heat Pump",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Commercial-grade heat pump water heater. Would require multiple units to achieve comparable capacity. Compatible with standard storage tanks."
+        }
+      ]
+    },
+    {
+      "componentType": "Split System Cooling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "2-ton split system cooling unit",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for telephone & data rooms, main electrical rooms, and elevator machine rooms."
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements, similar capacity and performance characteristics."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Compatible with project requirements, similar performance to basis of design."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Compatible with project requirements, similar capacity and performance characteristics."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Performance Series 2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Good alternative for specialized spaces requiring dedicated cooling."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "XR14 2-ton split system",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Higher efficiency option with compatibility for specialty applications."
+        }
+      ]
+    },
+    {
+      "componentType": "Generator",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "PURY-EP Heat Recovery",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High efficiency VRF system with excellent part load efficiency and high SEER & COP ratings."
+        },
+        {
+          "manufacturer": "Highland",
+          "model": "UL 2085 Double Wall Fuel Tank",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "300-gallon diesel fuel storage tank for generator, UL 2085 listed double wall, 5-psig rated."
+        },
+        {
+          "manufacturer": "Preferred Utilities",
+          "model": "Fuel Pump Set",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternate to Viking pump set for generator fuel system."
+        },
+        {
+          "manufacturer": "Viking",
+          "model": "Fuel Pump Set",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pump set for generator fuel oil distribution system."
+        },
+        {
+          "manufacturer": "Generac",
+          "model": "200kW/250kVA Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible alternative with similar sound attenuation features and factory enclosure options."
+        },
+        {
+          "manufacturer": "Kohler",
+          "model": "200kW/250kVA Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Premium alternative with comprehensive monitoring capabilities and robust factory enclosure."
+        },
+        {
+          "manufacturer": "Cummins",
+          "model": "200kW/250kVA Diesel Generator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Cost-effective alternative with good reliability and sound attenuation options suitable for urban installation."
+        }
+      ]
+    },
+    {
+      "componentType": "Water Booster Pump System",
+      "suppliers": [
+        {
+          "manufacturer": "QuantumFlo",
+          "model": "Prodigy Model QES_321.5-6.54",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Gustavo Preston Company",
+            "contact": "978-250-3333"
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Factory packaged and tested, triplex variable-speed domestic water pressure boosting system, NSF 61 and NSF 372 Certified system with UL508A Industrial Control Panel and UL QCZJ 3rd Party Package Label. Capable of providing constant system pressure of 119 Psig with flow rates from 0 to 209 GPM when suction pressure is 72 Psig minimum using a 208 Volt, 3 PHASE, 60 hertz power. Each pump delivers 104 GPM at 109 ft. TDH using a 5 HP, 3450 RPM motor."
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "BoosterpaQ",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Comparable triplex variable-speed water pressure boosting system with similar performance characteristics. Provides energy-efficient operation with advanced control capabilities."
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "TechnoForce e-HV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Provides similar variable speed pumping technology for domestic water pressure boosting. Compatible with building management systems and offers reliability with redundant operation."
+        },
+        {
+          "manufacturer": "Canariis",
+          "model": "VFD-VPS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Fully packaged variable frequency drive pressure boosting system with comparable features. UL listed control panel and NSF 61 certification available."
+        }
+      ]
+    },
+    {
+      "componentType": "Dryer Exhaust System",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "PURY-EP Heat Recovery",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "High efficiency VRF heat pumps serving the dryer exhaust system with branch circuit controllers and interconnecting refrigerant piping"
+        },
+        {
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Energy recovery ventilator with sensible recovery effectiveness of at least 78%, used for the dryer exhaust system"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "Dryer Exhaust Fan",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "880-cfm dryer exhaust fan, 1-hp, with VFD and duct static pressure control system on the roof for the manifolded dryer exhaust system"
+        },
+        {
+          "manufacturer": "Cook",
+          "model": "Dryer Exhaust Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible alternative to Greenheck for the dryer exhaust fan system"
+        },
+        {
+          "manufacturer": "Twin City",
+          "model": "Dryer Exhaust Fan",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible alternative to Greenheck for the dryer exhaust fan system"
+        },
+        {
+          "manufacturer": "Reversomatic",
+          "model": "Combination Intake/Exhaust Wall Vents",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Factory-built intake/exhaust combination termination fitting to separate air streams"
+        },
+        {
+          "manufacturer": "XVent",
+          "model": "Wind-Drive Rain Louvers",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for intake and exhaust wall caps for ERV ducting to exterior walls"
+        },
+        {
+          "manufacturer": "Seiho",
+          "model": "SFX",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Alternative model for intake and exhaust wall caps for ERV ducting to exterior walls"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "Inline Lint Collector",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Inline lint collector to be located on the roof near the dryer exhaust fan"
+        },
+        {
+          "manufacturer": "Tjernlund",
+          "model": "Dryer Exhaust System",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Alternative manufacturer for complete dryer exhaust system including fans and duct components"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Leverage multi-manufacturer bidding for VRF system procurement",
+      "rationale": "The design specifies Mitsubishi high efficiency VRF heat pumps as the basis of design. By soliciting bids from multiple qualified VRF manufacturers (Samsung, LG, Daikin), the project can potentially reduce equipment costs while maintaining required performance specifications. Each manufacturer offers heat recovery VRF systems with similar capabilities, and introducing competition can yield better pricing.",
+      "estimatedImpact": "Potential for significant cost savings on one of the largest MEP system packages while maintaining system performance requirements. Multiple bids can also provide options for improved lead times.",
+      "implementation": "1. Review performance specifications for the VRF system (SEER, COP, heating/cooling capacity)\n2. Develop bid package allowing equivalent systems from Samsung, LG, and Daikin\n3. Evaluate bids based on initial cost, maintenance requirements, warranty, and service availability\n4. Confirm compatibility with specified controls integration requirements\n5. Verify contractor experience with selected system",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Evaluate domestic hot water system alternatives",
+      "rationale": "The specified high-lift CO2-based heat pump system with 1,000 gallons of storage represents a significant equipment investment. The narrative identifies Watts Aegis as an acceptable alternative manufacturer. Soliciting bids for both options will provide cost comparison data and potentially identify opportunities for value engineering while maintaining the all-electric design requirement.",
+      "estimatedImpact": "Potential for moderate cost savings on a major building system while maintaining performance requirements and sustainability goals. May also identify systems with better availability or service support.",
+      "implementation": "1. Request detailed quotes for both the primary specified system and the Watts Aegis alternative\n2. Compare initial costs, operational efficiency, maintenance requirements, and space needs\n3. Evaluate warranty terms and service availability\n4. Confirm both options meet the PHIUS certification requirements\n5. Select the option providing the best balance of cost, performance, and reliability",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Consolidate ERV procurement for improved pricing",
+      "rationale": "The design specifies Lifebreath MAX-XTR energy recovery ventilators (ERVs) for each apartment unit and common areas. By consolidating the procurement of all ERVs into a single bulk purchase rather than as individual units, the project can likely secure volume discounts while ensuring consistency in equipment quality and installation.",
+      "estimatedImpact": "Potential for meaningful cost savings through volume purchasing. Additional benefits include streamlined maintenance through equipment standardization and potential for improved warranty terms.",
+      "implementation": "1. Calculate total quantity of ERVs needed for the entire project\n2. Solicit bids from Lifebreath and comparable manufacturers for the bulk purchase\n3. Negotiate improved warranty terms based on volume\n4. Coordinate delivery schedule with construction timeline to minimize storage requirements\n5. Consider manufacturer training for installation teams to ensure quality",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Explore split system cooling unit alternatives",
+      "rationale": "The design calls for split system cooling units for telecom/data rooms, electrical rooms, and elevator machine rooms. The context document identifies Daikin, Samsung, and LG as acceptable alternatives. These areas require reliable cooling but are not occupied spaces, creating an opportunity to evaluate cost-effective alternatives that still meet the technical requirements.",
+      "estimatedImpact": "Potential for modest cost savings on supplementary cooling systems. These systems serve critical infrastructure, so reliability remains essential, but there may be opportunities for cost optimization without compromising function.",
+      "implementation": "1. Develop performance specifications for each split system application\n2. Request bids from all acceptable manufacturers\n3. Evaluate options based on cost, efficiency, reliability, and parts availability\n4. Consider standardizing on a single manufacturer for all split systems to simplify maintenance\n5. Verify compatibility with building management system for monitoring",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Implement equipment procurement tracking system",
+      "rationale": "The project includes multiple MEP systems with potentially long lead times (VRF systems, ERVs, domestic hot water equipment, generators). Implementing a robust procurement tracking system will help ensure timely ordering, manufacturing, and delivery of critical equipment to prevent schedule delays.",
+      "estimatedImpact": "Potential to avoid costly schedule delays due to equipment availability issues. Better visibility into the procurement process allows for proactive management of potential bottlenecks.",
+      "implementation": "1. Create a comprehensive equipment list with required lead times\n2. Develop a tracking system that includes key milestones (submittal, approval, fabrication, delivery)\n3. Assign responsibility for regular updates and monitoring\n4. Establish early warning thresholds for potential delays\n5. Identify alternative suppliers or temporary solutions for critical items with potential delays",
+      "priority": "High"
+    },
+    {
+      "id": 6,
+      "recommendation": "Negotiate extended equipment warranties",
+      "rationale": "The MEP narrative specifies a manufacturer's full 10-year warranty for the VRF system. For other major equipment (ERVs, domestic hot water system, generator), similar extended warranties should be negotiated as part of the procurement process to protect the owner's investment and reduce long-term operational risk.",
+      "estimatedImpact": "Potential for significant long-term cost avoidance through reduced repair and replacement expenses. Extended warranties also provide predictability for maintenance budgeting.",
+      "implementation": "1. Identify all major equipment that would benefit from extended warranty coverage\n2. Include extended warranty requirements in procurement specifications\n3. Negotiate warranty terms during the bidding process\n4. Document all warranty terms and maintenance requirements\n5. Develop a warranty management system to track coverage periods and claims",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "This all-electric residential building project for Boston Children's Hospital requires careful procurement planning for key MEP systems to meet both performance and sustainability goals. The VRF system, energy recovery ventilators, and domestic hot water system represent the most significant equipment purchases, with several viable manufacturer options available for each. Given the project's Passive House and LEED Gold certifiable requirements, equipment selection must balance efficiency, cost, and reliability while ensuring compatibility with building management systems. Early procurement and tracking of long-lead items will be critical to maintaining the construction schedule.",
+    "keyFindings": [
+      "The VRF system has multiple viable alternatives from Daikin, Samsung, and LG that could provide cost savings of 2-5% while maintaining required performance specifications",
+      "The domestic hot water system offers two distinct approaches: a Mitsubishi CO2-based heat pump system or an alternative Watts Aegis configuration, both compatible with Passive House requirements",
+      "Energy recovery ventilators (ERVs) are required for every dwelling unit and common space, making bulk procurement a significant opportunity for cost savings",
+      "The project requires specialized equipment with potentially long lead times, including the generator, VRF systems, and domestic hot water components",
+      "Equipment selection must prioritize high efficiency and performance monitoring to support sustainability goals while meeting Boston Children's Hospital standards"
+    ],
+    "highestPriorityActions": [
+      "Implement competitive bidding for the VRF system, soliciting proposals from all compatible manufacturers (Mitsubishi, Daikin, LG, Samsung) to optimize cost while maintaining performance requirements",
+      "Evaluate both specified domestic hot water system options with detailed lifecycle cost analysis to determine the best value while ensuring compatibility with project sustainability goals",
+      "Develop a comprehensive equipment procurement tracking system with early ordering of critical long-lead items to prevent schedule delays",
+      "Create bulk purchase agreements for repetitive equipment like ERVs to maximize volume discounts while ensuring consistent quality and simplified maintenance"
+    ]
+  }
+}

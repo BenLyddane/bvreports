@@ -1,0 +1,863 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Packaged Rooftop Air-Conditioning Units",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "48LCRA20/48JCSW06/48LCRA24/48LCSA12/48LCSA09/48LCSA14",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Currently specified for RTU-1 through RTU-8 in mechanical schedules"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Rheem",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "York",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Alternative manufacturer for packaged rooftop units, compatible with specified requirements"
+        },
+        {
+          "manufacturer": "Goodman",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-8%",
+          "compatibilityNotes": "Budget alternative option, verify compliance with efficiency requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Centrifugal HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Loren Cook",
+          "model": "165R08D, 90R17D, 101R17D, 135R17D, 120R17D, 100SQN, 80CPS",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for various centrifugal fan applications including multiple zone and isolation suite exhaust"
+        },
+        {
+          "manufacturer": "Pennbarry",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Carnes",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Twin City",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Aerovent",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Delta Breez",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "S & P USA",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for centrifugal fans"
+        },
+        {
+          "manufacturer": "Broan-NuTone",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for centrifugal HVAC fans applications"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for centrifugal HVAC fans applications"
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Power Ventilators",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "CUE-180",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD manufacturer for equipment tag KEF-1 in project dashboard"
+        },
+        {
+          "manufacturer": "Broan-NuTone",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Alternative manufacturer for HVAC power ventilators, suitable for similar applications"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Alternative manufacturer for power ventilators, known for reliable centrifugal upblast units"
+        },
+        {
+          "manufacturer": "Penn Ventilation",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Alternative manufacturer for commercial power ventilators, competitive pricing"
+        }
+      ]
+    },
+    {
+      "componentType": "Small-Capacity Split-System Air-Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "Various (FTX36, FTX09, FTX30, RK36, RK09, RK30NMVJUA, FFQ15, RX15)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedules as BoD manufacturer for all split-system units"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "LG",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Johnson Controls (JCI)",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Toshiba",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Sanyo",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Bosch",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        },
+        {
+          "manufacturer": "Rheem",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for Small-Capacity Split-System Air-Conditioners"
+        }
+      ]
+    },
+    {
+      "componentType": "Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Raywall",
+          "model": "5100",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Horizontal/vertical mounting, 5.0 kW output, 8'-0\" mounting height"
+        },
+        {
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Wall heater surface mount, 3.0 kW output, 12\" mounting height"
+        },
+        {
+          "manufacturer": "Markel",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Qmark",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Indeeco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Marley",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Reddi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Stelpro",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Suitable alternative for commercial electric unit heaters"
+        },
+        {
+          "manufacturer": "Broan-NuTone",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for wall and ceiling unit heaters"
+        }
+      ]
+    },
+    {
+      "componentType": "Wall and Ceiling Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Raywall",
+          "model": "AFA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Wall heater surface mount type, 3.0 kW output capacity"
+        },
+        {
+          "manufacturer": "Markel",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Qmark",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Indeeco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Marley",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Reddi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "Stelpro",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product for electric heaters"
+        },
+        {
+          "manufacturer": "King Electric",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Commercial grade wall and ceiling mount electric heaters, suitable alternative"
+        },
+        {
+          "manufacturer": "Cadet",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Wall and ceiling mounted electric heaters with similar capacity range"
+        }
+      ]
+    },
+    {
+      "componentType": "Kitchen Hoods",
+      "suppliers": [
+        {
+          "manufacturer": "accurex",
+          "model": "XXEW-160-S",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedule as KH1 for kitchen hood application"
+        },
+        {
+          "manufacturer": "CaptiveAire",
+          "model": "Various Models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Leading commercial kitchen hood manufacturer with similar performance specifications"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "Various Models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Well-established ventilation manufacturer with commercial kitchen hood product line"
+        }
+      ]
+    },
+    {
+      "componentType": "Packaged, Direct-Fired, Outdoor, Heating-Only Makeup-Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "accurex",
+          "model": "XDGX-P112-H12-MF-5",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Direct replacement for existing makeup air requirements"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "GDXF Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "May require control modifications for existing building automation system"
+        },
+        {
+          "manufacturer": "Reznor",
+          "model": "DMX Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Verify compatibility with existing gas line sizing and electrical requirements"
+        }
+      ]
+    }
+  ]
+}

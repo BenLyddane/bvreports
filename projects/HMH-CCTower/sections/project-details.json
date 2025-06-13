@@ -1,0 +1,41 @@
+{
+  "reportTitle": "BuildVision Project Report for HMH JSUMC Critical Care Tower",
+  "customerInformation": {
+    "customerName": "LF Driscoll",
+    "contactPerson": "Ken Rienstra",
+    "contactEmail": "krienstra@lfdriscoll.com",
+    "contactPhone": "",
+    "projectId": "1cbe12cd-0669-4515-bd24-05062b6c6d29",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "HMH JSUMC Critical Care Tower",
+    "location": "1945 New Jersey 33, Neptune City, NJ 07753",
+    "startDate": "",
+    "completionDate": "6/20/2025",
+    "budget": "",
+    "scope": "10 story building; approximately 372,000 gsf total - Critical Care Tower with patient rooms, NICU, ICU, imaging rooms, mechanical systems, and associated medical equipment",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/9474ffd3-66c9-4316-b45c-c71e80a1d3b4/package-projects/1cbe12cd-0669-4515-bd24-05062b6c6d29/packages",
+    "additionalFields": {
+      "createdDate": "6/6/2025",
+      "dateInvited": "6/6/2025",
+      "requestType": "Budget",
+      "contractType": "BuildingConnected Lead"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

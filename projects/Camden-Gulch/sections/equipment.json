@@ -1,0 +1,386 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Includes various fan types for exhaust, supply, and ventilation applications. Selections based on Greenheck products with equal alternatives specified.",
+      "items": [
+        {
+          "equipmentTag": "EF-A",
+          "manufacturer": "Broan-NuTone",
+          "model": "LP90100CC",
+          "specifications": {
+            "type": "Centrifugal HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-B",
+          "manufacturer": "Greenheck",
+          "model": "SP-A110",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-C",
+          "manufacturer": "Greenheck",
+          "model": "SP-A190",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-D",
+          "manufacturer": "Broan-NuTone",
+          "model": "P90100CC",
+          "specifications": {
+            "type": "Centrifugal HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-FP",
+          "manufacturer": "Greenheck",
+          "model": "SQ-15-VG",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-GEN",
+          "manufacturer": "Greenheck",
+          "model": "SQ-180-VG",
+          "specifications": {
+            "type": "HVAC Power Ventilators"
+          }
+        },
+        {
+          "equipmentTag": "EF-POOL",
+          "manufacturer": "Greenheck",
+          "model": "SQ-95-VG",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-PW",
+          "manufacturer": "Greenheck",
+          "model": "SP-A250",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-TFRM",
+          "manufacturer": "Greenheck",
+          "model": "USF-49",
+          "specifications": {
+            "type": "Centrifugal HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-TR-1",
+          "manufacturer": "Greenheck",
+          "model": "USF-22-B6",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "SPF-1",
+          "manufacturer": "Greenheck",
+          "model": "AX-90-275-0025",
+          "specifications": {
+            "type": "Axial HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "SPF-2",
+          "manufacturer": "Greenheck",
+          "model": "AX-90-275-0020",
+          "specifications": {
+            "type": "Axial HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "SPF-2-1",
+          "manufacturer": "Greenheck",
+          "model": "AX-72-190-0630",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "SPF-3",
+          "manufacturer": "Greenheck",
+          "model": "AX-80-275-0630",
+          "specifications": {
+            "type": "Axial HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "TRF-A",
+          "manufacturer": "Zoo Fans",
+          "model": "JetVent JVEC-LP",
+          "specifications": {
+            "type": "Centrifugal HVAC Fans"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "VRF Indoor Units",
+      "notes": "Variable Refrigerant Flow indoor units including ducted and ductless types. All units manufactured by Mitsubishi Electric including Trane products.",
+      "items": [
+        {
+          "equipmentTag": "DFC/DCU ELE",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA30PUY30",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU ELE2",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PLA42PUY42",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU ELE4",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA18PUY18",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU ELEC",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PLA36PUY36",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU ELER",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA12PUY12",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU EM",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PLA36PUY36",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU IDF",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA30PUY30",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU IDF",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA18PUY18",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP A",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "MSZ12MXZ-2C24",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP EMR",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKAPU230",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP FCC",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA12PUZ12",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP LB",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "MSZ12MXZ-3C30",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP PW",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKAPU2Z4",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "Single package rooftop units manufactured by Carrier for building HVAC systems.",
+      "items": [
+        {
+          "equipmentTag": "RTU-R-1",
+          "manufacturer": "Carrier",
+          "model": "48LCRA17",
+          "specifications": {
+            "type": "Packaged Rooftop Air-Conditioning Units"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Air Conditioners and Heat Pumps",
+      "notes": "Split system units from various manufacturers including Carrier, Goodman, and Daikin for different zones and applications.",
+      "items": [
+        {
+          "equipmentTag": "AH-A",
+          "manufacturer": "Carrier",
+          "model": "FMC4018",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-A-1",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST18",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-B",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST24",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-B1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ24",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-C",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST30",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-C1",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST30",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-C2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ30RZQ30",
+          "specifications": {
+            "type": "Air-Source Unitary Heat Pumps"
+          }
+        },
+        {
+          "equipmentTag": "AH-CORR-HP-CORR",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ36RZQ36",
+          "specifications": {
+            "type": "Air-Source Unitary Heat Pumps"
+          }
+        },
+        {
+          "equipmentTag": "AH-D",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST36",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-D1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ36RZQ36",
+          "specifications": {
+            "type": "Air-Source Unitary Heat Pumps"
+          }
+        },
+        {
+          "equipmentTag": "AH-E",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AMST48CU14",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-E1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ48RZQ48",
+          "specifications": {
+            "type": "Air-Source Unitary Heat Pumps"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "100% Outside Air Units",
+      "notes": "Packaged outdoor heating-only makeup air units manufactured by Daikin Applied with natural gas heat and specified accessories.",
+      "items": [
+        {
+          "equipmentTag": "OAU R-1",
+          "manufacturer": "Daikin Applied",
+          "model": "RPS140D",
+          "specifications": {
+            "type": "Packaged, Outdoor, Heating-Only Makeup-Air Units"
+          }
+        },
+        {
+          "equipmentTag": "OAU R-2",
+          "manufacturer": "Daikin Applied",
+          "model": "RPS 130D",
+          "specifications": {
+            "type": "Packaged, Outdoor, Heating-Only Makeup-Air Units"
+          }
+        },
+        {
+          "equipmentTag": "OAU R-3",
+          "manufacturer": "Daikin Applied",
+          "model": "RPS052",
+          "specifications": {
+            "type": "Packaged, Outdoor, Heating-Only Makeup-Air Units"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Air-Cooled Chillers",
+      "notes": "Variable speed drive screw chillers with R-134A refrigerant. Direct drive semi-hermetically sealed rotary twin screw compressors. Include low ambient controls, BACnet interface, and vibration isolation.",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-2",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-3",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-4",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-5",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-6",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-7",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-8",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-9",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-10",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-11",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        },
+        {
+          "equipmentTag": "CH-12",
+          "manufacturer": "York",
+          "model": "YVAA",
+          "specifications": {
+            "nameplatetonnage": 500,
+            "nominaltonnage": 420,
+            "eer": 8.605,
+            "iplv": 18.1,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "Water, 30% Propylene Glycol",
+            "enteringwatertemp": 56,
+            "leavingwatertemp": 42,
+            "evaporatorgpm": 763.3,
+            "evaporatorpressuredrop": 17.6,
+            "summerdesigndb": 105,
+            "lowambienttemp": 0,
+            "highambienttemp": 125,
+            "condenserfantotalairflow": 301650,
+            "totalnumberoffans": 26,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "913 A",
+            "mocp": "1200 A",
+            "weight": 29117,
+            "soundpowerlevel": 108
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water-Cooled Heat Recovery Chillers",
+      "notes": "Water to water variable speed drive screw chillers with R-134A refrigerant. Direct drive semi-hermetically sealed screw type compressors. Housed in weatherproof enclosures.",
+      "items": [
+        {
+          "equipmentTag": "HRCH-1",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.75,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-2",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.75,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-3",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.75,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        },
+        {
+          "equipmentTag": "HRCH-4",
+          "manufacturer": "York",
+          "model": "YVWA",
+          "specifications": {
+            "nameplatetonnage": 300,
+            "netcoolingcapacity": 272.6,
+            "netheatingcapacity": 4143,
+            "heatingcop": 4.75,
+            "combinedcop": 8.5,
+            "refrigeranttype": "R-134A",
+            "evaporatorfluidtype": "30% Propylene Glycol",
+            "evaporatorwaterenteringtemp": 56,
+            "evaporatorwaterleavingtemp": 46.9,
+            "evaporatorgpm": 763.2,
+            "evaporatorpressuredrop": 43.6,
+            "condenserfluidtype": "Water",
+            "condenserwaterenteringtemp": 95,
+            "condenserwaterleavingtemp": 115,
+            "condensergpm": 417,
+            "condenserpressuredrop": 10.6,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60,
+            "mca": "419 A",
+            "mocp": "500 A",
+            "soundpowerlevel": 89
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Pumps",
+      "notes": "Vertical inline pumps with NEMA premium efficiency TEFC motors. Include VFDs with bypass, vibration isolation via spring pump supports, and 1 year warranty.",
+      "items": [
+        {
+          "equipmentTag": "CHP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-4",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-5",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-6",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "CHP-7",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Chilled Water Loop",
+            "gpm": 1400,
+            "totalhead": 125,
+            "motorhp": 60,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HRCHP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Heat Recovery Loop",
+            "gpm": 1000,
+            "totalhead": 60,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-1",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-2",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        },
+        {
+          "equipmentTag": "HWP-3",
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "specifications": {
+            "type": "Vertical Inline",
+            "serves": "Primary Heating Water Loop",
+            "gpm": 500,
+            "totalhead": 125,
+            "motorhp": 25,
+            "voltage": 460,
+            "phase": 3,
+            "frequency": 60
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dedicated Outdoor Air Units",
+      "notes": "Temtrol ITF units with energy recovery, humidification capability, EC motors, and double wall construction. Include MERV 8 and MERV 14 filters.",
+      "items": [
+        {
+          "equipmentTag": "AHU-01",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-02",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-03",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-04",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-05",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-06",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY11",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY12",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-WY13",
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Indoor Central Air Handling Units",
+      "notes": "Temtrol TF modular air handling units with EC motors, double wall construction, and spring isolated base rails. Include vibration isolation and DDC controls.",
+      "items": [
+        {
+          "equipmentTag": "AHU-CR1",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR2",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR3",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR4",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR5",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR6",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR7",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR8",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR9",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-CR10",
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

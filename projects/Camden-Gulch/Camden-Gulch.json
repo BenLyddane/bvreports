@@ -1,0 +1,1069 @@
+{
+  "reportTitle": "BuildVision Project Report for Camden Gulch FINAL BIDDING",
+  "customerInformation": {
+    "customerName": "Layton",
+    "contactPerson": "Brian Malich",
+    "contactEmail": "brian.malich@laytonconstruction.com",
+    "contactPhone": "",
+    "projectId": "",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Camden Gulch FINAL BIDDING",
+    "location": "909 Division Street, Nashville, TN 37203",
+    "startDate": "10/6/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/f94e986c-cfce-4e0f-a24c-200a374ab999/package-projects/75083fad-45f5-477a-915f-93f1f8e7bc13/packages",
+    "additionalFields": {
+      "expectedStart": "10/6/2025",
+      "dateDue": "6/19/2025",
+      "RFIsDue": "6/6/2025",
+      "dateInvited": "5/28/2025",
+      "requestType": "Proposal",
+      "projectSize": "812548 sq. ft.",
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead",
+      "created": "5/28/2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-05"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "Includes various fan types for exhaust, supply, and ventilation applications. Selections based on Greenheck products with equal alternatives specified.",
+      "items": [
+        {
+          "equipmentTag": "EF-A",
+          "manufacturer": "Broan-NuTone",
+          "model": "LP90100CC",
+          "specifications": {
+            "type": "Centrifugal HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-B",
+          "manufacturer": "Greenheck",
+          "model": "SP-A110",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-C",
+          "manufacturer": "Greenheck",
+          "model": "SP-A190",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-D",
+          "manufacturer": "Broan-NuTone",
+          "model": "P90100CC",
+          "specifications": {
+            "type": "Centrifugal HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-FP",
+          "manufacturer": "Greenheck",
+          "model": "SQ-15-VG",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-GEN",
+          "manufacturer": "Greenheck",
+          "model": "SQ-180-VG",
+          "specifications": {
+            "type": "HVAC Power Ventilators"
+          }
+        },
+        {
+          "equipmentTag": "EF-POOL",
+          "manufacturer": "Greenheck",
+          "model": "SQ-95-VG",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-PW",
+          "manufacturer": "Greenheck",
+          "model": "SP-A250",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-TFRM",
+          "manufacturer": "Greenheck",
+          "model": "USF-49",
+          "specifications": {
+            "type": "Centrifugal HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "EF-TR-1",
+          "manufacturer": "Greenheck",
+          "model": "USF-22-B6",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "SPF-1",
+          "manufacturer": "Greenheck",
+          "model": "AX-90-275-0025",
+          "specifications": {
+            "type": "Axial HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "SPF-2",
+          "manufacturer": "Greenheck",
+          "model": "AX-90-275-0020",
+          "specifications": {
+            "type": "Axial HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "SPF-2-1",
+          "manufacturer": "Greenheck",
+          "model": "AX-72-190-0630",
+          "specifications": {
+            "type": "HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "SPF-3",
+          "manufacturer": "Greenheck",
+          "model": "AX-80-275-0630",
+          "specifications": {
+            "type": "Axial HVAC Fans"
+          }
+        },
+        {
+          "equipmentTag": "TRF-A",
+          "manufacturer": "Zoo Fans",
+          "model": "JetVent JVEC-LP",
+          "specifications": {
+            "type": "Centrifugal HVAC Fans"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "VRF Indoor Units",
+      "notes": "Variable Refrigerant Flow indoor units including ducted and ductless types. All units manufactured by Mitsubishi Electric including Trane products.",
+      "items": [
+        {
+          "equipmentTag": "DFC/DCU ELE",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA30PUY30",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU ELE2",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PLA42PUY42",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU ELE4",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA18PUY18",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU ELEC",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PLA36PUY36",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU ELER",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA12PUY12",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU EM",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PLA36PUY36",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU IDF",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA30PUY30",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFC/DCU IDF",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA18PUY18",
+          "specifications": {
+            "type": "VRF Indoor Units - Ducted"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP A",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "MSZ12MXZ-2C24",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP EMR",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKAPU230",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP FCC",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA12PUZ12",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP LB",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "MSZ12MXZ-3C30",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        },
+        {
+          "equipmentTag": "DFH/DHP PW",
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKAPU2Z4",
+          "specifications": {
+            "type": "VRF Indoor Units - Ductless"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "Single package rooftop units manufactured by Carrier for building HVAC systems.",
+      "items": [
+        {
+          "equipmentTag": "RTU-R-1",
+          "manufacturer": "Carrier",
+          "model": "48LCRA17",
+          "specifications": {
+            "type": "Packaged Rooftop Air-Conditioning Units"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Air Conditioners and Heat Pumps",
+      "notes": "Split system units from various manufacturers including Carrier, Goodman, and Daikin for different zones and applications.",
+      "items": [
+        {
+          "equipmentTag": "AH-A",
+          "manufacturer": "Carrier",
+          "model": "FMC4018",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-A-1",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST18",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-B",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST24",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-B1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ24",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-C",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST30",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-C1",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST30",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-C2",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ30RZQ30",
+          "specifications": {
+            "type": "Air-Source Unitary Heat Pumps"
+          }
+        },
+        {
+          "equipmentTag": "AH-CORR-HP-CORR",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ36RZQ36",
+          "specifications": {
+            "type": "Air-Source Unitary Heat Pumps"
+          }
+        },
+        {
+          "equipmentTag": "AH-D",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST36",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-D1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ36RZQ36",
+          "specifications": {
+            "type": "Air-Source Unitary Heat Pumps"
+          }
+        },
+        {
+          "equipmentTag": "AH-E",
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AMST48CU14",
+          "specifications": {
+            "type": "Split System Air Conditioners"
+          }
+        },
+        {
+          "equipmentTag": "AH-E1",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ48RZQ48",
+          "specifications": {
+            "type": "Air-Source Unitary Heat Pumps"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "100% Outside Air Units",
+      "notes": "Packaged outdoor heating-only makeup air units manufactured by Daikin Applied with natural gas heat and specified accessories.",
+      "items": [
+        {
+          "equipmentTag": "OAU R-1",
+          "manufacturer": "Daikin Applied",
+          "model": "RPS140D",
+          "specifications": {
+            "type": "Packaged, Outdoor, Heating-Only Makeup-Air Units"
+          }
+        },
+        {
+          "equipmentTag": "OAU R-2",
+          "manufacturer": "Daikin Applied",
+          "model": "RPS 130D",
+          "specifications": {
+            "type": "Packaged, Outdoor, Heating-Only Makeup-Air Units"
+          }
+        },
+        {
+          "equipmentTag": "OAU R-3",
+          "manufacturer": "Daikin Applied",
+          "model": "RPS052",
+          "specifications": {
+            "type": "Packaged, Outdoor, Heating-Only Makeup-Air Units"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "AX-90-275-0025",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design per project schedules for multiple fan models"
+        },
+        {
+          "manufacturer": "Broan-NuTone",
+          "model": "LP90100CC",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design per project schedules for centrifugal HVAC fans"
+        },
+        {
+          "manufacturer": "Zoo Fans",
+          "model": "JetVent JVEC-LP",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design per project schedules for parking garage fans"
+        },
+        {
+          "manufacturer": "Cook",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications"
+        },
+        {
+          "manufacturer": "Penn-Barry",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications"
+        },
+        {
+          "manufacturer": "Carnes",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications"
+        },
+        {
+          "manufacturer": "Twin City",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications"
+        },
+        {
+          "manufacturer": "Aerovent",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications"
+        },
+        {
+          "manufacturer": "S&P",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard alternative for centrifugal fans"
+        },
+        {
+          "manufacturer": "Fantech",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative for inline and exhaust fans"
+        }
+      ]
+    },
+    {
+      "componentType": "VRF Indoor Units",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric (Including Trane Products)",
+          "model": "PKA/PUY series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD Manufacturer in mechanical schedules for all VRF Indoor Units"
+        },
+        {
+          "manufacturer": "Daikin Comfort Technologies",
+          "model": "FTQ/RZQ series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications section 23 8129"
+        },
+        {
+          "manufacturer": "LG",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications section 23 8129"
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications section 23 8129"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications section 23 8129"
+        },
+        {
+          "manufacturer": "Toshiba/Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications section 23 8129"
+        }
+      ]
+    },
+    {
+      "componentType": "Packaged Rooftop Air-Conditioning Units",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "48LCRA17",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD Manufacturer on mechanical schedule for RTU-R-1"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "Rheem",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as equal product in specifications"
+        },
+        {
+          "manufacturer": "York",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative manufacturer with comparable efficiency ratings and features"
+        },
+        {
+          "manufacturer": "Goodman",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Cost-effective alternative with similar performance characteristics"
+        }
+      ]
+    },
+    {
+      "componentType": "Split System Air Conditioners and Heat Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Carrier",
+          "model": "FMC4018",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Goodman Manufacturing Company",
+          "model": "AWST18",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTQ24",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "100% Outside Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "RPS140D/RPS 130D/RPS052",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears in mechanical schedules as basis of design for 100% Outside Air Units OAU R-1, OAU R-2, and OAU R-3"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Rheem",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Engineered Air",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Valent",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Annexair",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        },
+        {
+          "manufacturer": "Addison",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate in specifications for packaged outdoor heating-only makeup-air units"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Standardize HVAC Equipment Manufacturers to Reduce Inventory Complexity",
+      "rationale": "The project shows multiple HVAC equipment manufacturers across different systems (Mitsubishi, Goodman, Daikin, Carrier, Greenheck, Broan-NuTone). While specifications allow for alternates, consolidating to fewer manufacturers where possible can reduce spare parts inventory requirements, simplify training needs, and potentially provide volume purchasing advantages.",
+      "estimatedImpact": "Meaningful reduction in long-term maintenance costs and inventory management complexity while potentially securing better pricing through volume commitments",
+      "implementation": "During equipment procurement, evaluate opportunities to standardize on primary manufacturers for similar equipment types while maintaining performance requirements. Negotiate volume pricing agreements with selected manufacturers.",
+      "priority": "Medium"
+    },
+    {
+      "id": 2,
+      "recommendation": "Implement Bulk Purchasing Strategy for High-Volume Equipment",
+      "rationale": "The project includes numerous similar units such as multiple VRF indoor units (13 DFC/DCU units, 5 DFH/DHP units), multiple split system heat pumps (12 AH units), and multiple fans (14 exhaust fans). These represent opportunities for bulk purchasing to achieve economies of scale.",
+      "estimatedImpact": "Significant cost savings through volume discounts and reduced procurement administrative costs",
+      "implementation": "Group similar equipment into bulk purchase orders. Coordinate delivery schedules to accommodate storage limitations. Negotiate extended warranties and service agreements as part of bulk purchases.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Establish Equipment Standardization for Filters and Maintenance Items",
+      "rationale": "Multiple HVAC systems requiring different filter types and maintenance items creates ongoing operational complexity. The specifications reference MERV 6, MERV 8, and MERV 13 filters across different systems, creating multiple SKUs for similar functions.",
+      "estimatedImpact": "Moderate reduction in ongoing maintenance costs and simplified inventory management for building operations",
+      "implementation": "Where performance requirements allow, standardize on common filter sizes and MERV ratings. Establish preferred supplier agreements for consumable maintenance items. Create standardized maintenance kit specifications.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Optimize Supplier Selection for Long-term Support",
+      "rationale": "The specifications require manufacturers to have been in business for minimum periods and have local service support. Given the mix of equipment types and the importance of long-term serviceability, supplier evaluation should emphasize local service capabilities and parts availability.",
+      "estimatedImpact": "Improved equipment reliability and reduced service response times leading to better building performance and lower lifecycle costs",
+      "implementation": "Evaluate suppliers based on local service presence, parts inventory, response times, and service history. Prioritize suppliers with demonstrated long-term commitment to the market and comprehensive service capabilities.",
+      "priority": "High"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consider Factory-Installed Options to Reduce Field Labor",
+      "rationale": "Many equipment specifications include numerous field-installed accessories and options. Factory-installed options typically provide better quality control, reduced field labor costs, and improved warranty coverage.",
+      "estimatedImpact": "Modest reduction in installation costs and improved quality control with enhanced warranty coverage",
+      "implementation": "During equipment selection, maximize factory-installed options where economically viable. Coordinate with manufacturers to bundle accessories and options at the factory level rather than field installation.",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Negotiate Extended Warranty Coverage for Critical Equipment",
+      "rationale": "The project includes critical equipment such as VRF systems, rooftop units, and specialized fans. Extended warranties beyond standard coverage can provide cost protection and ensure continued performance.",
+      "estimatedImpact": "Meaningful risk mitigation and potential cost avoidance for major equipment repairs during extended warranty periods",
+      "implementation": "Negotiate extended warranty terms during equipment procurement. Focus on equipment with high replacement costs or critical operational importance. Consider manufacturer service agreements as part of extended warranty packages.",
+      "priority": "Medium"
+    }
+  ],
+  "conclusion": {
+    "summary": "This 812,548 sq. ft. multi-residential project presents a complex HVAC procurement environment with approximately 85 major equipment items spanning six equipment categories. The procurement strategy must balance multiple manufacturer relationships while ensuring long-term serviceability and cost-effectiveness. Key procurement considerations include VRF system complexity, manufacturer standardization opportunities, and coordination of specialized equipment like parking garage fans and 100% outside air units with stringent performance requirements.",
+    "keyFindings": [
+      "Multiple manufacturer ecosystem requires careful supplier relationship management with Mitsubishi Electric, Daikin, Carrier, Goodman, and Greenheck as primary suppliers across different system types",
+      "Significant bulk purchasing opportunities exist for similar equipment types, particularly 18 VRF indoor units and 15 HVAC fans that could yield substantial volume discounts",
+      "Specification requirements for 10+ year manufacturer experience and local service support within 50-100 miles necessitate thorough supplier qualification and service capability evaluation",
+      "Complex installation requirements including factory-trained technicians for VRF systems and specialized commissioning procedures require coordination between equipment suppliers and installation contractors",
+      "Extended warranty opportunities exist for critical equipment, particularly 5-year compressor warranties and manufacturer-specific extended coverage options that should be negotiated during procurement"
+    ],
+    "highestPriorityActions": [
+      "Implement bulk purchasing strategy for high-volume equipment categories to maximize volume discounts and streamline procurement administration",
+      "Evaluate and select suppliers based on demonstrated local service capabilities, parts inventory, and response times to ensure long-term operational support",
+      "Coordinate VRF system procurement with certified installation contractors to ensure proper training and warranty compliance requirements are met",
+      "Negotiate extended warranty coverage and service agreements for critical equipment during the procurement process to maximize cost protection and performance assurance"
+    ]
+  }
+}

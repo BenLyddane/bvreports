@@ -1,0 +1,26 @@
+{
+  "uploadedFiles": {
+    "MEP-SD-Narrative.txt": {
+      "file_id": "file_011CPjqLhJYfYa2MbRRBGRDG",
+      "uploaded_at": "2025-06-02T18:02:55.288Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "bv-dashboard.txt": {
+      "file_id": "file_011CPjqLipL53yUAJhzgXUzW",
+      "uploaded_at": "2025-06-02T18:02:55.584Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "mh-context.txt": {
+      "file_id": "file_011CPoK2Jw9jzxUkhFZhajv6",
+      "uploaded_at": "2025-06-04T14:07:44.147Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    }
+  },
+  "tempFiles": {}
+}

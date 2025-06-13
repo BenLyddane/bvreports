@@ -1,0 +1,58 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+65 Kilmarnock Street
+
+    details
+
+MH
+Organization Logo
+65 Kilmarnock Street
+Structure Tone (NY)
+Stakeholders
+65 Kilmarnock Street, Boston, MA 02215
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+James Cole (james.cole@structuretone.com)
+Address
+65 Kilmarnock Street, Boston, MA 02215
+Created
+5/30/2025
+Expected Start
+--
+Date Due
+--
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+5/30/2025
+Request Type
+Proposal
+Project Size
+--
+
+https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/7d596bb7-6034-4041-ab12-925fc4ac2e46/details

@@ -1,0 +1,458 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Air-Cooled Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YVAA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of Design manufacturer appearing on mechanical schedules with 12 air-cooled screw chillers specified"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Pathfinder AWV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "HTS Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 1 for Air-Cooled Screw Chillers"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Ascend",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Forth Worth",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 2 for Air-Cooled Screw Chillers"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce 30XV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "McMillan James",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 3 for Air-Cooled Screw Chillers"
+        },
+        {
+          "manufacturer": "Petra",
+          "model": "APSA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "HTS Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 4 for Air-Cooled Screw Chillers"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "YVAA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Additional suitable manufacturer for air-cooled chillers with similar capacity range"
+        },
+        {
+          "manufacturer": "Lennox",
+          "model": "EcoLogic Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Additional suitable manufacturer for air-cooled chillers with comparable efficiency ratings"
+        }
+      ]
+    },
+    {
+      "componentType": "Water-Cooled Heat Recovery Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YVWA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Water-to-water variable speed drive screw chiller with heat recovery capability"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Navigator WWV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "HTS Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative water-cooled heat recovery chiller option"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Series R RTWD",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Fort Worth",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative water-cooled heat recovery chiller option"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "AquaForce 30HX",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "McMillan James",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative water-cooled heat recovery chiller option"
+        },
+        {
+          "manufacturer": "Petra",
+          "model": "WPSA",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "HTS Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative water-cooled heat recovery chiller option"
+        },
+        {
+          "manufacturer": "McQuay",
+          "model": "WMC",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable water-cooled heat recovery chiller alternative with comparable efficiency"
+        },
+        {
+          "manufacturer": "Smardt",
+          "model": "WS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Magnetic bearing water-cooled heat recovery chiller option with higher efficiency"
+        }
+      ]
+    },
+    {
+      "componentType": "Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Armstrong",
+          "model": "4300",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Vertical inline pumps for primary chilled water loop, heat recovery loop, and primary heating water loop"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "CR/CRN Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for vertical inline pump applications with similar performance characteristics"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "Series e-1510/1531",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible vertical inline pump option with equivalent head and flow capabilities"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "4000 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-1%",
+          "compatibilityNotes": "Cost-effective alternative for vertical inline pump applications with similar specifications"
+        }
+      ]
+    },
+    {
+      "componentType": "Dedicated Outdoor Air Units",
+      "suppliers": [
+        {
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedules for all DOAS units (AHU-01 through AHU-06, AHU-WY11 through AHU-WY13, DOAS-CR1 through DOAS-CR4)"
+        },
+        {
+          "manufacturer": "Vertiv Energy Labs",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Vertiv Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 1 for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "Buffalo Air Handling",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 2 for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "AdaptivAir",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 3 for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "ClimateCraft",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Fort Worth",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as Alternate 4 for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Commercial Air Handlers",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Leading manufacturer offering dedicated outdoor air units with energy recovery options"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "OptiClean",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Established manufacturer with DOAS solutions including indoor air quality features"
+        }
+      ]
+    },
+    {
+      "componentType": "Indoor Central Air Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Temtrol",
+          "model": "ITF",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of Design for Dedicated Outdoor-Air Units and Indoor Central AHUs Modular"
+        },
+        {
+          "manufacturer": "Temtrol",
+          "model": "TF",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "Texas Airsystems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of Design for Indoor Central AHUs Modular"
+        },
+        {
+          "manufacturer": "Vertiv Energy Labs",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Vertiv Texas",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "Buffalo Air Handling",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "N/A",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "AdaptivAir",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "N/A",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "ClimateCraft",
+          "model": "N/A",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Trane Fort Worth",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed alternate for Hydronic Air Handling Units"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard manufacturer for commercial air handling units with modular design capabilities"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "Various",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Comprehensive air handling solutions with advanced controls integration"
+        }
+      ]
+    }
+  ]
+}

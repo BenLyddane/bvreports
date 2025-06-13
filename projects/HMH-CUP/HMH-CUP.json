@@ -1,0 +1,1198 @@
+{
+  "reportTitle": "BuildVision Project Report for HMH - JSUMC Central Utility Plant Expansion",
+  "customerInformation": {
+    "customerName": "Hackensack Meridian Health - Jersey Shore University Medical Center",
+    "contactPerson": "Ken Rienstra",
+    "contactEmail": "krienstra@lfdriscoll.com",
+    "contactPhone": "",
+    "projectId": "fe314a11-6144-4d37-9c7c-2ec8945a34e5",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "HMH - JSUMC Central Utility Plant Expansion",
+    "location": "1945 New Jersey 33, Neptune City, NJ 07753",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Central Utility Plant Expansion including chillers, cooling towers, pumps, air handling units, and associated HVAC equipment",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/9474ffd3-66c9-4316-b45c-c71e80a1d3b4/package-projects/fe314a11-6144-4d37-9c7c-2ec8945a34e5/packages",
+    "additionalFields": {
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead",
+      "dateDue": "3/10/2025",
+      "dateInvited": "5/16/2025",
+      "requestType": "Proposal",
+      "projectNumber": "150-24-003_400"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-09"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Water-Cooled Centrifugal Water Chillers",
+      "notes": "Water cooled magnetic bearing centrifugal chillers with variable speed drive, AHRI certified",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CH-2",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CH-3",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CH-4",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CH-5",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heat Recovery Centrifugal Chiller",
+      "notes": "Water-cooled heat recovery chiller with variable speed drive, custom unit not AHRI certified",
+      "items": [
+        {
+          "equipmentTag": "HRCH-1",
+          "manufacturer": "York",
+          "model": "CYKP8QD-ERES",
+          "specifications": {
+            "cooling_capacity": "366 tons",
+            "heating_capacity": "6000 MBH",
+            "efficiency": "3.001 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "583.8 USGPM",
+            "condenser_entering_temp": "140°F",
+            "condenser_leaving_temp": "160°F",
+            "condenser_flow_rate": "611.1 USGPM",
+            "cooling_power": "258.9 kW",
+            "heating_power": "325.6 kW",
+            "cooling_FLA": "338 A",
+            "heating_FLA": "423.0 A",
+            "refrigerant": "R-1234ze",
+            "shipping_weight": "36465 lbs",
+            "operating_weight": "38254 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Open-Circuit Cooling Towers",
+      "notes": "Induced-draft counterflow cooling towers with structural dunnage, Factory Mutual approved",
+      "items": [
+        {
+          "equipmentTag": "CT-1",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CT-2",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CT-3",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CT-4",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CT-5",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Base-Mounted Centrifugal Hydronic Pumps",
+      "notes": "Variable speed pumps with stainless steel construction and ABB ULHD VFD drives",
+      "items": [
+        {
+          "equipmentTag": "CHWP 1",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 2",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 3",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 4",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 5",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 6",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-404TTS-STL",
+          "specifications": {
+            "pump_size": "4x6x17.5A",
+            "flow_rate": "650 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "64%",
+            "BHP": "64",
+            "motor_power": "100 HP",
+            "speed": "1755 RPM",
+            "impeller_diameter": "15.375 in",
+            "NPSHR": "6.42",
+            "motor_frame": "NEMA404",
+            "minimum_flow": "266 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 7",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-404TTS-STL",
+          "specifications": {
+            "pump_size": "4x6x17.5A",
+            "flow_rate": "650 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "64%",
+            "BHP": "64",
+            "motor_power": "100 HP",
+            "speed": "1755 RPM",
+            "impeller_diameter": "15.375 in",
+            "NPSHR": "6.42",
+            "motor_frame": "NEMA404",
+            "minimum_flow": "266 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 1",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 2",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 3",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 4",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 5",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "HWP 1",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-365TTS-STL",
+          "specifications": {
+            "pump_size": "4x6x17.5A",
+            "flow_rate": "650 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "66.8%",
+            "BHP": "48",
+            "motor_power": "75 HP",
+            "speed": "1708 RPM",
+            "impeller_diameter": "14.25 in",
+            "NPSHR": "6.17",
+            "motor_frame": "NEMA365",
+            "minimum_flow": "233 GPM"
+          }
+        },
+        {
+          "equipmentTag": "HWP 2",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-365TTS-STL",
+          "specifications": {
+            "pump_size": "4x6x17.5A",
+            "flow_rate": "650 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "66.8%",
+            "BHP": "48",
+            "motor_power": "75 HP",
+            "speed": "1708 RPM",
+            "impeller_diameter": "14.25 in",
+            "NPSHR": "6.17",
+            "motor_frame": "NEMA365",
+            "minimum_flow": "233 GPM"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Custom Indoor Central-Station Air-Handling Units",
+      "notes": "Custom air handling units for central station applications",
+      "items": [
+        {
+          "equipmentTag": "AHU-1A",
+          "manufacturer": "Temtrol",
+          "model": "Custom Indoor Central-Station Air-Handling Units",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-1B",
+          "manufacturer": "Temtrol",
+          "model": "Custom Indoor Central-Station Air-Handling Units",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Eliminator/Dirt Separator",
+      "notes": "ASME certified steel construction with removable lower portion for cleaning",
+      "items": [
+        {
+          "equipmentTag": "AS-1",
+          "manufacturer": "SPIROTHERM",
+          "model": "VDN3600FA",
+          "specifications": {
+            "construction": "Steel",
+            "pipe_size": "36\"",
+            "tank_volume": "3,550 GAL",
+            "flow_rate": "15,000 GPM",
+            "dry_weight": "19,200 lbs",
+            "max_working_pressure": "150 PSIG",
+            "max_operating_temperature": "270°F"
+          }
+        },
+        {
+          "equipmentTag": "AS-2",
+          "manufacturer": "SPIROTHERM",
+          "model": "VDN3000FA",
+          "specifications": {
+            "construction": "Steel",
+            "pipe_size": "30\"",
+            "tank_volume": "2,050 GAL",
+            "flow_rate": "10,000 GPM",
+            "dry_weight": "12,220 lbs",
+            "max_working_pressure": "150 PSIG",
+            "max_operating_temperature": "270°F"
+          }
+        },
+        {
+          "equipmentTag": "AS-3",
+          "manufacturer": "SPIROTHERM",
+          "model": "VDT600FAM",
+          "specifications": {
+            "construction": "Steel",
+            "pipe_size": "6\"",
+            "tank_volume": "40 GAL",
+            "flow_rate": "650 GPM",
+            "dry_weight": "456 lbs",
+            "max_working_pressure": "150 PSIG",
+            "max_operating_temperature": "270°F"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Expansion Tanks",
+      "notes": "Stainless steel tanks with seismic restraints included",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "AMTROL",
+          "model": "3000-L",
+          "specifications": {
+            "tank_volume": "792 GAL",
+            "tank_diameter": "48 in",
+            "tank_height": "118 in",
+            "stand_diameter": "42 in",
+            "system_connection": "2 in NPTF",
+            "drain_connection": "1-1/2 in",
+            "shipping_weight": "2950 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Condenser Water Filtration",
+      "notes": "Self-backwashing filtration system with optional tower water backwash pump",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Ameriwater",
+          "model": "330 LP",
+          "specifications": {
+            "filtration_rating_1": "0.5 Micron",
+            "filtration_rating_2": "0.25 Micron",
+            "backwash_flow_rate_1": "45 GPM",
+            "backwash_flow_rate_2": "35 GPM",
+            "pump_power": "7.5 HP",
+            "pump_voltage": "460V",
+            "pump_amps": "94 A",
+            "vessel_construction": "304L Stainless Steel",
+            "vessel_diameter": "30\"",
+            "shipping_weight": "10,000 lbs",
+            "space_requirements": "12' D x 6' W x 8' H"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Water-Cooled Centrifugal Water Chillers",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Water-cooled magnetic bearing centrifugal chillers, 1250 tons capacity, variable speed drive"
+        },
+        {
+          "manufacturer": "York",
+          "model": "CYKP8QD-ERES",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Heat recovery centrifugal chiller, 366 tons cooling capacity, water-cooled with variable speed drive"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "CVHE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Centrifugal water-cooled chiller with magnetic bearings, suitable alternative for large capacity applications"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "19XR Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Water-cooled centrifugal chiller series, compatible with similar capacity and performance requirements"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "YORK YMC2 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Magnetic bearing centrifugal chiller suitable for large tonnage applications with variable speed operation"
+        }
+      ]
+    },
+    {
+      "componentType": "Heat Recovery Centrifugal Chiller",
+      "suppliers": [
+        {
+          "manufacturer": "York",
+          "model": "CYKP8QD-ERES AZ-HP",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Custom unit rated per AHRI Standard 550/590 and 551/591, includes chiller controls, variable speed drive"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "CVHF Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with similar heat recovery performance, may require controls integration"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "23XRV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Heat recovery capable, verify refrigerant compatibility with R-1234ze"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "YVAA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "Variable speed drive compatible, similar capacity range available"
+        }
+      ]
+    },
+    {
+      "componentType": "Open-Circuit Cooling Towers",
+      "suppliers": [
+        {
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3048-FM",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Structural induced draft counter flow cooling tower with equalizer connection, louver access door, motor davit with base, water silencers, fan motor space heaters, 5-probe electronic water level control package, external service platform with ladder, stainless steel heaters, inverter capable premium efficient fan motor, fan motor shaft grounding rings, stainless steel fan shaft, safety cage, sump sweeper piping, super low sound fan, Factory Mutual approved"
+        },
+        {
+          "manufacturer": "BAC (Baltimore Aircoil Company)",
+          "model": "FXV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Comparable induced draft counterflow cooling tower with similar capacity and performance characteristics"
+        },
+        {
+          "manufacturer": "SPX Cooling",
+          "model": "Marley NC Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Factory assembled counterflow cooling tower suitable for similar tonnage requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Base-Mounted Centrifugal Hydronic Pumps",
+      "suppliers": [
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for CHWP 1-5 with 2500 GPM flow rate, 250 ft TDH, ABB ULHD VFD"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-404TTS-STL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for CHWP 6-7 with 650 GPM flow rate, 250 ft TDH, ABB ULHD VFD"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for CWP 1-5 with 3752 GPM flow rate, 200 ft TDH, ABB ULHD VFD"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-365TTS-STL",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Specified for HWP 1-2 with 650 GPM flow rate, 200 ft TDH, ABB ULHD VFD"
+        },
+        {
+          "manufacturer": "Grundfos",
+          "model": "TPE Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for base-mounted centrifugal hydronic pumps with VFD capability"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "Design Envelope",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Energy-efficient alternative with integrated VFD technology"
+        }
+      ]
+    },
+    {
+      "componentType": "Custom Indoor Central-Station Air-Handling Units",
+      "suppliers": [
+        {
+          "manufacturer": "Temtrol",
+          "model": "Custom Indoor Central-Station Air-Handling Units",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "ClimateChanger Central Station Air Handler",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with existing control systems and ductwork configurations"
+        },
+        {
+          "manufacturer": "York",
+          "model": "Johnson Controls Custom Air Handler",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Standard construction meets project requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Air Eliminator/Dirt Separator",
+      "suppliers": [
+        {
+          "manufacturer": "SPIROTHERM",
+          "model": "VDN3600FA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "36\" steel construction, 3,550 gal volume, 15,000 GPM flow rate, ASME certified"
+        },
+        {
+          "manufacturer": "SPIROTHERM",
+          "model": "VDN3000FA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "30\" steel construction, 2,050 gal volume, 10,000 GPM flow rate, ASME certified"
+        },
+        {
+          "manufacturer": "SPIROTHERM",
+          "model": "VDT600FAM",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "6\" steel construction, 40 gal volume, 650 GPM flow rate, includes neodymium magnets"
+        },
+        {
+          "manufacturer": "Wessels Company",
+          "model": "SDA-ASME Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "ASME certified air/dirt separator with similar specifications and performance"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "4900 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Steel construction air separators with removable air vent head for maintenance"
+        },
+        {
+          "manufacturer": "Caleffi",
+          "model": "NA546 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+1%",
+          "compatibilityNotes": "ASME coded air and dirt separators with coalescing media and magnetic dirt separation"
+        }
+      ]
+    },
+    {
+      "componentType": "Expansion Tanks",
+      "suppliers": [
+        {
+          "manufacturer": "AMTROL",
+          "model": "3000-L",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "792 gallon capacity, 48 inch diameter, 118 inch height, includes seismic restraints"
+        },
+        {
+          "manufacturer": "WESSELS",
+          "model": "WTA Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with HVAC closed loop systems, steel construction with ASME certification"
+        },
+        {
+          "manufacturer": "TACO",
+          "model": "WX Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Steel construction, suitable for chilled water and heating water systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Condenser Water Filtration",
+      "suppliers": [
+        {
+          "manufacturer": "Ameriwater",
+          "model": "330 LP",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "0.5 Micron / 0.25 Micron filtration rating, 45/35 GPM backwash flow rate, 304L Stainless Steel construction"
+        },
+        {
+          "manufacturer": "Lakos",
+          "model": "ILB Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-5%",
+          "compatibilityNotes": "Centrifugal separator technology for condenser water applications"
+        },
+        {
+          "manufacturer": "Orival",
+          "model": "OAS Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Automatic self-cleaning filtration system for cooling tower water treatment"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement competitive bidding for major chiller equipment alternatives to York chillers",
+      "rationale": "The project specifies York chillers for all five water-cooled centrifugal units (CH-1 through CH-5) plus one heat recovery unit (HRCH-1). Having a single manufacturer limits competitive pricing opportunities and creates potential supply chain risks. Alternative manufacturers like Carrier, Trane, or Johnson Controls could provide equivalent magnetic bearing centrifugal chillers with similar efficiency ratings.",
+      "estimatedImpact": "Potential cost savings of meaningful amounts through competitive pricing while maintaining backup supply options and reducing delivery risk",
+      "implementation": "Request equivalent specifications from alternative chiller manufacturers for 1250-ton magnetic bearing units with similar efficiency ratings. Evaluate lifecycle costs, warranty terms, and local service support capabilities before final selection.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Standardize pump procurement to single manufacturer with volume pricing negotiation",
+      "rationale": "The project requires 14 Bell & Gossett pumps across three different model configurations (CHWP, CWP, and HWP systems). All pumps are from the same VSCS series, presenting an opportunity for volume discount negotiations and standardized spare parts inventory.",
+      "estimatedImpact": "Significant cost savings through volume purchasing, reduced spare parts inventory costs, and simplified maintenance procedures",
+      "implementation": "Negotiate volume pricing with Bell & Gossett for the complete pump package. Establish service agreement terms and secure commitment for standardized spare parts availability. Consider requesting extended warranty coverage for the volume purchase.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Evaluate cooling tower manufacturer alternatives to EVAPCO for competitive pricing",
+      "rationale": "The project specifies five EVAPCO cooling towers (CT-1 through CT-5) with identical 1863-ton capacity and specific features. Single-source specification limits competitive pricing opportunities for this major equipment category.",
+      "estimatedImpact": "Potential cost savings through competitive bidding while maintaining equivalent performance specifications and Factory Mutual approval requirements",
+      "implementation": "Request equivalent proposals from alternative manufacturers like Baltimore Aircoil Company, SPX, or Marley for induced draft counterflow cooling towers meeting the same capacity and feature requirements. Verify Factory Mutual approval status for alternatives.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Negotiate comprehensive service agreements during equipment procurement phase",
+      "rationale": "The project involves sophisticated equipment including magnetic bearing chillers, VFD-controlled pumps, and multi-feature cooling towers. Establishing service agreements during procurement can provide better terms and guaranteed response times for critical hospital infrastructure.",
+      "estimatedImpact": "Reduced long-term maintenance costs, guaranteed service response times, and potential warranty extensions for critical utility plant equipment",
+      "implementation": "Include service agreement negotiations as part of equipment procurement packages. Define required response times, preventive maintenance schedules, and spare parts availability commitments. Negotiate multi-year service contracts at favorable rates.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consolidate auxiliary equipment suppliers for administrative efficiency",
+      "rationale": "The project includes multiple auxiliary components from different manufacturers including Spirotherm air eliminators, Amtrol expansion tanks, and Ameriwater filtration systems. Consolidating orders where possible can reduce administrative overhead and improve coordination.",
+      "estimatedImpact": "Modest cost savings through consolidated purchasing and reduced administrative complexity in procurement management",
+      "implementation": "Identify opportunities to source multiple auxiliary components from single suppliers where equivalent products are available. Negotiate package pricing for related components and establish single points of contact for delivery coordination.",
+      "priority": "Low"
+    }
+  ],
+  "conclusion": {
+    "summary": "The HMH - JSUMC Central Utility Plant Expansion is a sophisticated medical facility infrastructure project requiring procurement of critical HVAC equipment including five 1250-ton York centrifugal chillers, one heat recovery chiller, five EVAPCO cooling towers, fourteen Bell & Gossett hydronic pumps, and supporting systems. The project presents significant opportunities for strategic procurement optimization through competitive bidding, volume purchasing negotiations, and comprehensive service agreement development to ensure reliable operation of this essential hospital utility infrastructure.",
+    "keyFindings": [
+      "Single-source specifications for major equipment categories (York chillers, EVAPCO cooling towers) limit competitive pricing opportunities and create supply chain concentration risk",
+      "High degree of equipment standardization within categories presents strong volume purchasing leverage, particularly for the fourteen Bell & Gossett pumps from the same VSCS series",
+      "Sophisticated equipment including magnetic bearing chillers and VFD-controlled pumps requires careful service agreement planning during procurement to ensure long-term reliability for critical hospital operations",
+      "Tight project timeline with March 2025 due date necessitates early engagement with manufacturers to secure delivery commitments and avoid extended lead times for specialized equipment",
+      "Custom and non-AHRI certified components like the heat recovery chiller require additional technical evaluation and performance verification during procurement"
+    ],
+    "highestPriorityActions": [
+      "Immediately engage alternative chiller manufacturers (Carrier, Trane, Johnson Controls) for competitive pricing on equivalent magnetic bearing centrifugal units to reduce single-source dependency and achieve cost optimization",
+      "Negotiate comprehensive volume pricing agreement with Bell & Gossett for all fourteen pumps including extended warranty terms, spare parts commitments, and service support arrangements",
+      "Establish firm delivery schedules with all major equipment suppliers given the March 2025 project deadline, securing penalty clauses for delayed delivery of critical utility plant components",
+      "Develop detailed service agreement requirements for inclusion in all major equipment procurement packages, emphasizing guaranteed response times and preventive maintenance programs essential for hospital operations"
+    ]
+  }
+}

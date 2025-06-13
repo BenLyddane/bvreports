@@ -16,15 +16,12 @@
     "startDate": "2/12/2025",
     "completionDate": "",
     "budget": "",
-    "scope": "Redevelopment project including storefront replacement, mechanical systems installation and other building improvements",
+    "scope": "Redevelopment project including HVAC equipment replacement, storefront replacement, and revolving door entrances",
     "projectUrl": "https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/cadcd049-0ae6-46d3-a2ea-e4248db65e8c/details",
     "additionalFields": {
       "bidStatus": "BuildingConnected Lead",
-      "contractType": "",
       "requestType": "Proposal",
-      "projectSize": "",
-      "dateInvited": "2/12/2025",
-      "generalContractor": "Structure Tone (NY)"
+      "contractor": "Structure Tone (NY)"
     }
   },
   "preparerInformation": {
@@ -40,7 +37,7 @@
         "phone": "843-609-3265"
       }
     ],
-    "preparationDate": "2025-05-30"
+    "preparationDate": "2025-06-03"
   },
   "equipmentByType": [
     {
@@ -107,11 +104,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as basis of design in dashboard for equipment tag CH-21-1"
+          "compatibilityNotes": "Listed as equipment tag CH-21-1 on the mechanical schedule"
         },
         {
-          "manufacturer": "Carrier",
-          "model": "30RB",
+          "manufacturer": "Trane",
+          "model": "Series R",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -120,11 +117,11 @@
             "contact": ""
           },
           "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with specified performance requirements, industry-standard connections"
+          "compatibilityNotes": "Compatible with building's existing controls system"
         },
         {
-          "manufacturer": "Trane",
-          "model": "CGAM",
+          "manufacturer": "Carrier",
+          "model": "AquaSnap",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -132,12 +129,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Premium option with enhanced efficiency features"
+          "costDifference": "-2%",
+          "compatibilityNotes": "May require additional piping modifications"
         },
         {
           "manufacturer": "Daikin",
-          "model": "AGZ",
+          "model": "AGZ-E Series",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -145,8 +142,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Suggested alternative, compatible with building systems"
+          "costDifference": "+1%",
+          "compatibilityNotes": "Energy efficient alternative with good compatibility"
         }
       ]
     },
@@ -164,11 +161,11 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Basis of design for HV-5-1, HV-5-2, and MAU-21-1 per BuildVision dashboard"
+          "compatibilityNotes": "Used for HV-5-1, HV-5-2, and MAU-21-1 units as shown on dashboard"
         },
         {
           "manufacturer": "Daikin",
-          "model": "Vision Air Handler",
+          "model": "Vision Custom",
           "isBasisOfDesign": false,
           "isListedAlternate": true,
           "representativeInfo": {
@@ -177,7 +174,7 @@
             "contact": ""
           },
           "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with existing systems; similar footprint to Nortek units"
+          "compatibilityNotes": "Compatible with specified controls and ductwork configuration"
         },
         {
           "manufacturer": "Trane",
@@ -189,12 +186,12 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+2%",
+          "costDifference": "+5%",
           "compatibilityNotes": "May require minor modifications to ductwork connections"
         },
         {
           "manufacturer": "Carrier",
-          "model": "AirStream",
+          "model": "Custom AHU",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -202,8 +199,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Alternative supplier option; verify control system compatibility"
+          "costDifference": "+2%",
+          "compatibilityNotes": "Compatible with project requirements, consider for additional supply chain options"
         }
       ]
     },
@@ -221,37 +218,37 @@
             "contact": ""
           },
           "costDifference": "",
-          "compatibilityNotes": "Listed as basis of design for AC Package in the BuildVision dashboard"
+          "compatibilityNotes": "Listed as Basis of Design for AC Package in the BuildVision dashboard"
         },
         {
           "manufacturer": "Daikin",
-          "model": "VAV series",
+          "model": "Applied Rooftop",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
           "costDifference": "+3%",
-          "compatibilityNotes": "Compatible with building automation systems; energy-efficient alternative"
+          "compatibilityNotes": "Compatible with project requirements, energy-efficient alternative"
         },
         {
           "manufacturer": "Carrier",
-          "model": "AquaForce",
+          "model": "Weather Series",
           "isBasisOfDesign": false,
-          "isListedAlternate": false,
+          "isListedAlternate": true,
           "representativeInfo": {
             "name": "",
             "company": "",
             "contact": ""
           },
-          "costDifference": "+5%",
-          "compatibilityNotes": "Higher efficiency rating; requires minimal modifications to existing connections"
+          "costDifference": "+2%",
+          "compatibilityNotes": "Industry standard compatibility with building systems"
         },
         {
           "manufacturer": "Trane",
-          "model": "Precedent",
+          "model": "IntelliPak",
           "isBasisOfDesign": false,
           "isListedAlternate": false,
           "representativeInfo": {
@@ -259,8 +256,8 @@
             "company": "",
             "contact": ""
           },
-          "costDifference": "-2%",
-          "compatibilityNotes": "Cost-effective alternative; may require additional controls integration"
+          "costDifference": "+4%",
+          "compatibilityNotes": "Higher efficiency but requires additional controls integration"
         }
       ]
     }
@@ -268,74 +265,66 @@
   "buildVisionRecommendations": [
     {
       "id": 1,
-      "recommendation": "Consolidate HVAC Equipment Procurement for Volume Discounts",
-      "rationale": "The project requires multiple pieces of HVAC equipment from Nortek Air Solutions (HV-5-1, HV-5-2, MAU-21-1) with identical model numbers. Purchasing these units as a single package would likely result in volume discounts from the manufacturer compared to individual purchases.",
-      "estimatedImpact": "Potential cost savings of 5-10% on the three Nortek Air Solutions units, which could represent significant savings considering the high cost of commercial HVAC equipment.",
-      "implementation": "1. Identify all Nortek Air Solutions units required for the project (minimum 3 units identified). 2. Create a consolidated purchase order for all identical model units. 3. Negotiate with Nortek for volume pricing. 4. Coordinate delivery schedule to align with installation timeline.",
+      "recommendation": "Consolidate HVAC Equipment Procurement",
+      "rationale": "The project documentation shows multiple HVAC equipment items from different manufacturers (York chillers, Nortek air handlers, and Mammoth unitary equipment). Consolidating purchases with a single manufacturer can lead to volume discounts, simplified maintenance, and potentially reduced spare parts inventory.",
+      "estimatedImpact": "Significant cost savings through volume purchasing, reduced long-term maintenance costs, and potential for improved system integration and warranty coverage.",
+      "implementation": "1. Review equipment specifications for York, Nortek, and Mammoth units\n2. Identify manufacturers that can supply all required equipment types\n3. Request consolidated package pricing from these manufacturers\n4. Evaluate bids based on total cost of ownership, not just initial purchase price\n5. Negotiate extended warranty terms as part of volume purchase",
       "priority": "High"
     },
     {
       "id": 2,
-      "recommendation": "Pre-Purchase Long Lead HVAC Equipment Early",
-      "rationale": "The mechanical schedules indicate several specialized HVAC units (York chiller CH-21-1 and Mammoth AC Package) that typically have extended manufacturing and delivery timeframes. Early procurement of these items will prevent schedule delays that could impact the overall project timeline.",
-      "estimatedImpact": "Prevention of potential 8-12 week schedule delays, avoiding associated contractor standby costs and liquidated damages. Early procurement may also secure more competitive pricing before potential manufacturer price increases.",
-      "implementation": "1. Identify all long-lead HVAC equipment in the schedule. 2. Prioritize the York chiller and Mammoth AC Package for immediate procurement. 3. Secure storage if needed for early deliveries. 4. Coordinate with mechanical contractor for receipt and staging of equipment.",
+      "recommendation": "Early Equipment Procurement Strategy",
+      "rationale": "The project documents indicate the mechanical equipment is marked for pre-purchase (dated January 2025). Given current supply chain challenges in the HVAC industry, early procurement is critical. The equipment tag list includes chillers, central HVAC equipment, and decentralized unitary equipment that typically have long lead times.",
+      "estimatedImpact": "Meaningful schedule protection by avoiding potential project delays, possible cost savings by locking in prices before potential increases, and reduced risk of having to select alternate equipment under time pressure.",
+      "implementation": "1. Develop a procurement timeline working backward from required installation dates\n2. Identify and prioritize long-lead items (chillers typically have longest lead times)\n3. Issue early purchase orders for critical equipment\n4. Secure storage if equipment arrives before installation is possible\n5. Coordinate delivery schedules with construction timeline",
       "priority": "High"
     },
     {
       "id": 3,
-      "recommendation": "Evaluate Alternative Suppliers for the Storefront System",
-      "rationale": "The specifications list YKK, Kawneer, and EFCO as acceptable storefront suppliers. The storefront replacement represents a significant portion of the project scope, and competitive bidding among these three suppliers could yield cost savings while maintaining quality and performance requirements.",
-      "estimatedImpact": "Potential savings of 3-7% on the storefront package, which could be substantial given the extent of glass and aluminum systems required for the building facade.",
-      "implementation": "1. Request proposals from all three approved manufacturers. 2. Compare pricing, lead times, and warranty terms. 3. Evaluate each supplier's ability to meet the OITC-28 acoustical performance requirements. 4. Select the supplier offering the best value proposition considering both cost and technical capabilities.",
+      "recommendation": "Energy Performance Verification for HVAC Equipment",
+      "rationale": "The specifications reference ASHRAE 90.1 energy standards and NYC Energy Conservation Code requirements. Ensuring purchased equipment meets or exceeds minimum efficiency requirements will provide long-term operational savings and code compliance. The thermal performance criteria in Section 084113 indicates high energy performance expectations for the overall project.",
+      "estimatedImpact": "Significant long-term operational cost savings through reduced energy consumption, potential utility rebates or incentives, and avoidance of non-compliance issues that could require expensive equipment replacement.",
+      "implementation": "1. Review energy code requirements applicable to each equipment type\n2. Require suppliers to provide certified performance data demonstrating compliance\n3. Consider exceeding minimum requirements where lifecycle cost analysis shows favorable payback\n4. Document compliance for building department submissions\n5. Research available utility incentives for high-efficiency equipment",
       "priority": "Medium"
     },
     {
       "id": 4,
-      "recommendation": "Coordinate Revolving Door and Storefront Procurement",
-      "rationale": "The project includes both storefront systems and revolving doors that must integrate seamlessly. Procuring these components from suppliers that have established compatibility between their products will reduce field modifications and ensure proper functioning of the entrance assembly.",
-      "estimatedImpact": "Elimination of potential field rework costs that could range from $5,000-$15,000. Reduced risk of water infiltration and air leakage at critical interfaces between systems.",
-      "implementation": "1. Identify manufacturers that can supply both revolving doors and storefront systems, or have established compatibility protocols. 2. Request integrated shop drawings showing interface details. 3. Require suppliers to certify system compatibility in writing. 4. Consider sole-sourcing if significant coordination benefits exist.",
+      "recommendation": "Implement Equipment Value Engineering Process",
+      "rationale": "The mechanical schedules show specific equipment models (York YME0035, Nortek A-1-40I-WX-SC-X-X-P, Mammoth VVW-513-FXM). A formal value engineering process could identify opportunities for cost savings while maintaining performance requirements, particularly for the multiple identical units (HV-5-1, HV-5-2, MAU-21-1) that appear to use the same Nortek model.",
+      "estimatedImpact": "Potential cost reductions while maintaining system performance requirements, improved equipment selection based on project-specific needs, and opportunities to incorporate newer, more efficient technology.",
+      "implementation": "1. Establish performance criteria that must be maintained (non-negotiable requirements)\n2. Identify alternative equipment options from multiple vendors\n3. Evaluate alternatives against baseline specifications\n4. Consider standardization of equipment types where possible\n5. Present options with clear cost-benefit analysis",
       "priority": "Medium"
     },
     {
       "id": 5,
-      "recommendation": "Procure Bird-Friendly Glass in Bulk for Multiple Applications",
-      "rationale": "Local Law 15 of 2020 requires bird-friendly glass in multiple locations (within 75-feet of grade, within 12-feet of green roofs, etc.). The specifications list multiple acceptable bird-friendly glass treatments. By standardizing on one treatment type and procuring in bulk for all required locations, cost efficiencies can be realized.",
-      "estimatedImpact": "Cost savings of approximately 4-8% on bird-friendly glass through volume purchasing. Simplified quality control and installation processes with a standardized approach.",
-      "implementation": "1. Identify all areas requiring bird-friendly glass treatment. 2. Evaluate which of the acceptable products can be most cost-effectively applied across all required locations. 3. Negotiate bulk pricing with the selected glass fabricator. 4. Ensure the selected solution meets the required Threat Factor of not more than 25 (or 27 where allowed).",
+      "recommendation": "Coordinate Equipment Dimensions with Architectural Elements",
+      "rationale": "The project involves both mechanical equipment pre-purchase and storefront replacement. Proper coordination between equipment dimensions and the building envelope modifications is critical to ensure adequate clearances, access, and integration with the facade.",
+      "estimatedImpact": "Avoidance of costly field modifications, construction delays, and potential performance issues that could arise from improper equipment placement or insufficient clearances.",
+      "implementation": "1. Request detailed equipment dimensional data and clearance requirements from manufacturers\n2. Cross-check equipment dimensions with available spaces on architectural drawings\n3. Verify access requirements for maintenance and component replacement\n4. Confirm that louver sizes and locations are appropriate for equipment\n5. Document coordination in writing to minimize liability",
       "priority": "Medium"
     },
     {
       "id": 6,
-      "recommendation": "Establish a Supplier Qualification Program for Sealants",
-      "rationale": "The specifications require extensive testing of sealant compatibility, adhesion, and staining properties with project substrates. Structuring this as a pre-procurement qualification program will identify suitable products early, preventing delays during construction and ensuring only compatible products are purchased.",
-      "estimatedImpact": "Prevention of costly rework if incompatible sealants are installed and subsequently fail. Potential schedule savings of 2-3 weeks by resolving compatibility issues during procurement rather than during construction.",
-      "implementation": "1. Identify all required sealant types and locations from specifications. 2. Obtain substrate samples for testing. 3. Request sealant manufacturers (Dow Corning, Momentive, Tremco, Sika) to perform required compatibility and adhesion tests. 4. Pre-qualify products before finalizing procurement decisions.",
-      "priority": "High"
-    },
-    {
-      "id": 7,
-      "recommendation": "Source Insulating Glass Units from a Single Manufacturer",
-      "rationale": "The specifications require all glass to be the manufactured product of one company and all fabricated glass products to be from one company. Given the multiple glass types required (vision, spandrel, bird-friendly), selecting a single source capable of providing all variations will simplify procurement, ensure consistency in appearance, and streamline warranty coverage.",
-      "estimatedImpact": "Reduced coordination costs across multiple suppliers. Consistent quality and appearance throughout the building. Simplified warranty management with a single point of responsibility for all glass products.",
-      "implementation": "1. Identify manufacturers capable of producing all required glass types. 2. Request samples of each glass type to verify visual consistency. 3. Negotiate package pricing for the complete glass scope. 4. Establish clear delivery schedules aligned with the facade installation sequence.",
-      "priority": "Medium"
+      "recommendation": "Comprehensive Warranty Package Negotiation",
+      "rationale": "The contract documents specify various warranty requirements (5-year general warranty for storefronts, 10-year for insulated glass, 20-year for sealants). Similar comprehensive warranties should be negotiated for HVAC equipment, particularly since different manufacturers are specified for different components of the system.",
+      "estimatedImpact": "Reduced long-term maintenance costs, improved risk management through extended coverage periods, and potential reduction in lifecycle costs through higher quality equipment selection.",
+      "implementation": "1. Review standard warranty terms from each specified manufacturer\n2. Negotiate extended warranty coverage as part of procurement process\n3. Seek to standardize warranty periods across different equipment types\n4. Request specific coverage for high-failure-risk components\n5. Ensure warranty terms include labor coverage, not just parts",
+      "priority": "Low"
     }
   ],
   "conclusion": {
-    "summary": "The 850 3rd Ave HPS Investment Partners Project involves significant mechanical equipment procurement and extensive storefront/glazing systems installation. This procurement analysis identifies opportunities to optimize purchasing strategies, coordinate vendor selection, and ensure timely delivery of critical components while maintaining quality standards and meeting specialized requirements like bird-friendly glass and acoustical performance.",
+    "summary": "The 850 3rd Ave HPS Investment Partners Project involves significant HVAC equipment procurement for a NYC building redevelopment, including air-cooled chillers, central HVAC units, and decentralized equipment from multiple manufacturers. The procurement strategy should focus on balancing equipment quality, compatibility, lead times, and overall value while adhering to NYC building and energy codes.",
     "keyFindings": [
-      "Consolidating HVAC equipment purchases (particularly the three identical Nortek Air Solutions units) can yield 5-10% cost savings through volume discounts",
-      "Early procurement of long-lead items like the York chiller (CH-21-1) and Mammoth AC Package is critical to prevent 8-12 week schedule delays",
-      "The project requires specialized glass systems that must meet multiple performance criteria including bird-friendly requirements per Local Law 15 of 2020 and OITC-28 acoustical standards",
-      "Sealant compatibility testing and qualification is essential before procurement to prevent costly rework and ensure the 20-year warranty requirements can be met"
+      "Multiple manufacturers are specified as Basis of Design (York chillers, Nortek air handling units, and Mammoth unitary equipment), creating potential integration and maintenance challenges",
+      "Current supply chain issues in the HVAC industry make early procurement essential, with the project already designated for pre-purchase in specifications",
+      "The storefront and revolving door specifications include stringent performance requirements that may influence mechanical equipment selection and integration",
+      "Energy code compliance (ASHRAE 90.1 and NYC Energy Conservation Code) is mandatory and impacts equipment selection criteria"
     ],
     "highestPriorityActions": [
-      "Immediately initiate procurement of all long-lead HVAC equipment, particularly the York chiller and Nortek Air Solutions units, to prevent schedule impacts",
-      "Establish a pre-procurement sealant qualification program to verify compatibility with project substrates before finalizing purchases",
-      "Consolidate storefront, revolving door, and glass procurement with suppliers who can demonstrate integrated system compatibility and meet all performance requirements",
-      "Create a comprehensive equipment delivery schedule aligned with the installation sequence to minimize storage requirements and optimize site logistics"
+      "Consolidate HVAC equipment procurement where possible to leverage volume pricing, simplify maintenance, and improve system integration",
+      "Implement early procurement strategy for long-lead items, particularly the York chiller, to avoid schedule delays",
+      "Verify all equipment meets or exceeds energy performance requirements and coordinate dimensional requirements with architectural elements",
+      "Negotiate comprehensive warranty packages across all equipment types, standardizing coverage periods and ensuring both parts and labor are included"
     ]
   }
 }

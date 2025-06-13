@@ -1,0 +1,379 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+Prudential Plaza - Heat Pump Project Cop...
+
+    packages
+
+MH
+Organization Logo
+Prudential Plaza - Heat Pump Project Copy
+Structure Tone (NY)
+Stakeholders
+739-759 Broad Street, Newark, NJ 07102
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Due Date
+	
+Action
+6/25/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HP-3B-1	Oilon US	Modular Water Chillers	P450	
+Annotation
+	
+HP-3B-2	Oilon US	Modular Water Chillers	P450	
+Annotation
+	
+HP-3B-3	Oilon US	Modular Water Chillers	P450	
+Annotation
+	
+HP-3B-4	Oilon US	Modular Water Chillers	P450	
+Annotation
+	
+HP-3B-5	Oilon US	Modular Water Chillers	P450	
+Annotation
+	
+HP-9R-1	York	Modular Water Chillers	YMAE0035PJP46VBXSA	
+Annotation
+	
+HP-9R-2	York	Modular Water Chillers	YMAE0035PJP46VBXSA	
+Annotation
+	
+HP-9R-3	York	Modular Water Chillers	YMAE0035PJP46VBXSA	
+Annotation
+	
+HP-9R-4	York	Modular Water Chillers	YMAE0035PJP46VBXSA	
+Annotation
+	
+HP-9R-5	York	Modular Water Chillers	YMAE0035PJP46VBXSA	
+Annotation
+	
+HP-9R-6	York	Modular Water Chillers	YMAE0035PJP46VBXSA	
+Annotation
+	
+HP-9R-7	York	Modular Water Chillers	YMAE0035PJP46VBXSA	
+Annotation
+	
+6/25/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CHMP-1	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-2G-5.25-HT1.5-2B	
+Annotation
+	
+CHMP-2	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-2G-5.25-HT1.5-2B	
+Annotation
+	
+CHMP-3	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-2G-5.25-HT1.5-2B	
+Annotation
+	
+EP-1	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E80-3X3X15-S526VM-1A	
+Annotation
+	
+EP-12	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-HSPC 35X15X15 2.5T LHS SPACER	
+Annotation
+	
+EP-13	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-2GB-55-5AT-0	
+Annotation
+	
+EP-14	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-2GB-55-5AT-0	
+Annotation
+	
+EP-15	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-2GB-55-1HP-0	
+Annotation
+	
+EP-16	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-HSPC 35X15X15 2.5T LHS SPACER	
+Annotation
+	
+EP-2	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E80-3X3X15-S526VM-1A	
+Annotation
+	
+EP-47	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-HSPC 75X15X15 2.5T LHS SPACER	
+Annotation
+	
+EP-48	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	E1510-PSF60-55-1HP-0	
+Annotation
+	
+EP-49	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-2GB-55-1HP-0	
+Annotation
+	
+EP-50	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-2GB-55-1HP-0	
+Annotation
+	
+EP-51	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-HSPC 75X15X15 2.5T LHS SPACER	
+Annotation
+	
+HMP-BL1	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-1.5B-30-5AT-0	
+Annotation
+	
+HMP-BL2	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-1.5B-30-5AT-0	
+Annotation
+	
+HMP-BL3	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-1.5B-30-5AT-0	
+Annotation
+	
+HMP-BL4	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-5GB-55-4571-5A	
+Annotation
+	
+HMP-BL5	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-5GB-55-4571-5A	
+Annotation
+	
+HMP-BL6	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	BG-E1510-5GB-55-4571-5A	
+Annotation
+	
+HTP-1	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	E1510-5GB-5536AT-1	
+Annotation
+	
+HTP-2	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	E1510-5GB-5536AT-1	
+Annotation
+	
+HTP-3	Bell & Gossett	In-Line Centrifugal Hydronic Pumps	E1510-5GB-5536AT-1	
+Annotation
+	
+6/25/25
+Upcoming
+	
+DeadlineJun 25, 2025 12:00 PM
+Upcoming
+ReminderJun 23, 2025 12:00 PM
+Valid UntilAug 8, 2025 2:00 PM
+Time ZoneAmerica/New_York
+	
+Supplier
+	
+Contacts
+	
+Status
+	
+Pricing
+	
+Lead Time
+	
+Quote
+	
+Action
+Organization Logo
+Wallace Eannace (New York)
+	
+-	-	-	
+Organization Logo
+Mechanical Technologies LLC (New York)
+	
+-	-	-	
+Organization Logo
+Gil Bar Inc (New York)
+	
+-	-	-	
+Organization Logo
+Ascent
+	
+-	-	-	
+Organization Logo
+Trane
+	
+-	-	-	
+Organization Logo
+Trane (Long Island City)
+	
+-	-	-	
+Organization Logo
+Carrier (New York City)
+	
+-	-	-	
+Organization Logo
+Daikin Applied (New York)
+	
+-	-	-	
+6/25/25
+Upcoming
+	
+6/25/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+(N)CHWP-2B-1	ABB	Variable Frequency Drives	ACH580-BCBR-124A-4+F267	
+Annotation
+	
+(N)CHWP-2B-2	ABB	Variable Frequency Drives	ACH580-BCBR-124A-4+F267	
+Annotation
+	
+(N)CHWP-2B-3	ABB	Variable Frequency Drives	ACH580-BCBR-124A-4+F267	
+Annotation
+	
+(N)DTGP-2B-1	ABB	Variable Frequency Drives	ACH580-VCR-077A-4+F267+J429	
+Annotation
+	
+(N)DTGP-2B-2	ABB	Variable Frequency Drives	ACH580-VCR-077A-4+F267+J429	
+Annotation
+	
+(N)DTGP-2B-3	ABB	Variable Frequency Drives	ACH580-VCR-077A-4+F267+J429	
+Annotation
+	
+(N) VFD-25-P-47	ABB	Variable Frequency Drives	ACH580-VCR-014A-4+F267+J429	
+Annotation
+	
+(N) VFD-25-P-48	ABB	Variable Frequency Drives	ACH580-VCR-07.6-4+F267+J429	
+Annotation
+	
+(N) VFD-25-P-49	ABB	Variable Frequency Drives	ACH580-VCR-012A-4+F267+J429	
+Annotation
+	
+(N) VFD-25-P-50	ABB	Variable Frequency Drives	ACH580-VCR-012A-4+F267+J429	
+Annotation
+	
+(N) VFD-25-P-51	ABB	Variable Frequency Drives	ACH580-VCR-014A-4+F267+J429	
+Annotation
+	
+(N) VFD-8-P-1	ABB	Variable Frequency Drives	ACH580-VCR-027A-4+F267+J429	
+Annotation
+	
+(N) VFD-8-P-12	ABB	Variable Frequency Drives	ACH580-VCR-023A-4+F267+J429	
+Annotation
+	
+(N) VFD-8-P-13	ABB	Variable Frequency Drives	ACH580-VCR-023A-4+F267+J429	
+Annotation
+	
+(N) VFD-8-P-14	ABB	Variable Frequency Drives	ACH580-VCR-014A-4+F267+J429	
+Annotation
+	
+(N) VFD-8-P-15	ABB	Variable Frequency Drives	ACH580-VCR-07.6-4+F267+J429	
+Annotation
+	
+(N) VFD-8-P-16	ABB	Variable Frequency Drives	ACH580-VCR-023A-4+F267+J429	
+Annotation
+	
+(N) VFD-8-P-2	ABB	Variable Frequency Drives	ACH580-VCR-027A-4+F267+J429	
+Annotation
+	
+(N) VFD-HWP-B3-1	ABB	Variable Frequency Drives	ACH580-VCR-023A-4+F267+J429	
+Annotation
+	
+(N) VFD-HWP-B3-2	ABB	Variable Frequency Drives	ACH580-VCR-023A-4+F267+J429	
+Annotation
+	
+(N) VFD-HWP-B3-3	ABB	Variable Frequency Drives	ACH580-VCR-023A-4+F267+J429	
+Annotation
+	
+(N) VFD-HWP-B3-4	ABB	Variable Frequency Drives	ACH580-BCBR-156A-4+F267	
+Annotation
+	
+(N) VFD-HWP-B3-5	ABB	Variable Frequency Drives	ACH580-BCBR-156A-4+F267	
+Annotation
+	
+(N) VFD-HWP-B3-6	ABB	Variable Frequency Drives	ACH580-BCBR-156A-4+F267	
+Annotation
+	
+
+https://app.buildvision.io/admin/organizations/c7c68879-ecac-4d8a-91b8-eb887e680de2/package-projects/d34f658c-028d-422c-afdd-0dac0fb2d47b/packages
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Structure Tone (NY)
+package projects
+Prudential Plaza - Heat Pump Project Cop...
+
+    details
+
+MH
+Organization Logo
+Prudential Plaza - Heat Pump Project Copy
+Structure Tone (NY)
+Stakeholders
+739-759 Broad Street, Newark, NJ 07102
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+John Mathew (john.mathew@structuretone.com)
+Address
+739-759 Broad Street, Newark, NJ 07102
+Created
+6/3/2025
+Expected Start
+--
+Date Due
+6/26/2025
+Job Walk
+6/16/2025
+Contract Type
+--
+RFIs Due
+6/20/2025
+Date Invited
+6/3/2025
+Request Type
+Proposal
+Project Size
+--

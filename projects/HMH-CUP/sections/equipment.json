@@ -1,0 +1,628 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Water-Cooled Centrifugal Water Chillers",
+      "notes": "Water cooled magnetic bearing centrifugal chillers with variable speed drive, AHRI certified",
+      "items": [
+        {
+          "equipmentTag": "CH-1",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CH-2",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CH-3",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CH-4",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CH-5",
+          "manufacturer": "York",
+          "model": "YZ MA129BV1",
+          "specifications": {
+            "capacity": "1250 tons",
+            "efficiency": "0.574 kW/tons",
+            "IPLV": "3.517 kW/tons",
+            "NPLV": "0.3554 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "1994 USGPM",
+            "condenser_entering_temp": "86°F",
+            "condenser_leaving_temp": "96°F",
+            "condenser_flow_rate": "3518 USGPM",
+            "total_power": "717.5 kW",
+            "FLA": "925 A",
+            "refrigerant": "R-1233zd(E)",
+            "shipping_weight": "66197 lbs",
+            "operating_weight": "78030 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Heat Recovery Centrifugal Chiller",
+      "notes": "Water-cooled heat recovery chiller with variable speed drive, custom unit not AHRI certified",
+      "items": [
+        {
+          "equipmentTag": "HRCH-1",
+          "manufacturer": "York",
+          "model": "CYKP8QD-ERES",
+          "specifications": {
+            "cooling_capacity": "366 tons",
+            "heating_capacity": "6000 MBH",
+            "efficiency": "3.001 kW/tons",
+            "evaporator_entering_temp": "57°F",
+            "evaporator_leaving_temp": "42°F",
+            "evaporator_flow_rate": "583.8 USGPM",
+            "condenser_entering_temp": "140°F",
+            "condenser_leaving_temp": "160°F",
+            "condenser_flow_rate": "611.1 USGPM",
+            "cooling_power": "258.9 kW",
+            "heating_power": "325.6 kW",
+            "cooling_FLA": "338 A",
+            "heating_FLA": "423.0 A",
+            "refrigerant": "R-1234ze",
+            "shipping_weight": "36465 lbs",
+            "operating_weight": "38254 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Open-Circuit Cooling Towers",
+      "notes": "Induced-draft counterflow cooling towers with structural dunnage, Factory Mutual approved",
+      "items": [
+        {
+          "equipmentTag": "CT-1",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CT-2",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CT-3",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CT-4",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        },
+        {
+          "equipmentTag": "CT-5",
+          "manufacturer": "EVAPCO",
+          "model": "AT 214-3G4H-FM",
+          "specifications": {
+            "capacity": "1863 tons",
+            "GPM": "5589",
+            "EWT": "96°F",
+            "LWT": "86°F",
+            "wet_bulb": "78°F",
+            "fan_qty": "2",
+            "fan_HP": "50 HP each",
+            "CFM": "412,500",
+            "voltage": "460V/3PH/60HZ",
+            "length": "47'-8-1/2\"",
+            "width": "13'-11-1/4\"",
+            "height": "20'-2\"",
+            "shipping_weight": "38,360 lbs",
+            "operating_weight": "70,840 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Base-Mounted Centrifugal Hydronic Pumps",
+      "notes": "Variable speed pumps with stainless steel construction and ABB ULHD VFD drives",
+      "items": [
+        {
+          "equipmentTag": "CHWP 1",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 2",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 3",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 4",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 5",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-6X8X17P5A-447TTS-STL",
+          "specifications": {
+            "pump_size": "6x8x17.5A",
+            "flow_rate": "2500 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "81.5%",
+            "BHP": "194",
+            "motor_power": "250 HP",
+            "speed": "1706 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "13.1",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "501 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 6",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-404TTS-STL",
+          "specifications": {
+            "pump_size": "4x6x17.5A",
+            "flow_rate": "650 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "64%",
+            "BHP": "64",
+            "motor_power": "100 HP",
+            "speed": "1755 RPM",
+            "impeller_diameter": "15.375 in",
+            "NPSHR": "6.42",
+            "motor_frame": "NEMA404",
+            "minimum_flow": "266 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CHWP 7",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-404TTS-STL",
+          "specifications": {
+            "pump_size": "4x6x17.5A",
+            "flow_rate": "650 USGPM",
+            "TDH": "250 ft",
+            "efficiency": "64%",
+            "BHP": "64",
+            "motor_power": "100 HP",
+            "speed": "1755 RPM",
+            "impeller_diameter": "15.375 in",
+            "NPSHR": "6.42",
+            "motor_frame": "NEMA404",
+            "minimum_flow": "266 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 1",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 2",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 3",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 4",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "CWP 5",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-8X10X17P5B-447TTS-STL",
+          "specifications": {
+            "pump_size": "8x10x17.5B",
+            "flow_rate": "3752 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "85.3%",
+            "BHP": "221",
+            "motor_power": "250 HP",
+            "speed": "1729 RPM",
+            "impeller_diameter": "17.5 in",
+            "NPSHR": "17.8",
+            "motor_frame": "NEMA447",
+            "minimum_flow": "905 GPM"
+          }
+        },
+        {
+          "equipmentTag": "HWP 1",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-365TTS-STL",
+          "specifications": {
+            "pump_size": "4x6x17.5A",
+            "flow_rate": "650 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "66.8%",
+            "BHP": "48",
+            "motor_power": "75 HP",
+            "speed": "1708 RPM",
+            "impeller_diameter": "14.25 in",
+            "NPSHR": "6.17",
+            "motor_frame": "NEMA365",
+            "minimum_flow": "233 GPM"
+          }
+        },
+        {
+          "equipmentTag": "HWP 2",
+          "manufacturer": "Bell & Gossett",
+          "model": "VSCS-4X6X17P5A-365TTS-STL",
+          "specifications": {
+            "pump_size": "4x6x17.5A",
+            "flow_rate": "650 USGPM",
+            "TDH": "200 ft",
+            "efficiency": "66.8%",
+            "BHP": "48",
+            "motor_power": "75 HP",
+            "speed": "1708 RPM",
+            "impeller_diameter": "14.25 in",
+            "NPSHR": "6.17",
+            "motor_frame": "NEMA365",
+            "minimum_flow": "233 GPM"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Custom Indoor Central-Station Air-Handling Units",
+      "notes": "Custom air handling units for central station applications",
+      "items": [
+        {
+          "equipmentTag": "AHU-1A",
+          "manufacturer": "Temtrol",
+          "model": "Custom Indoor Central-Station Air-Handling Units",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AHU-1B",
+          "manufacturer": "Temtrol",
+          "model": "Custom Indoor Central-Station Air-Handling Units",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Air Eliminator/Dirt Separator",
+      "notes": "ASME certified steel construction with removable lower portion for cleaning",
+      "items": [
+        {
+          "equipmentTag": "AS-1",
+          "manufacturer": "SPIROTHERM",
+          "model": "VDN3600FA",
+          "specifications": {
+            "construction": "Steel",
+            "pipe_size": "36\"",
+            "tank_volume": "3,550 GAL",
+            "flow_rate": "15,000 GPM",
+            "dry_weight": "19,200 lbs",
+            "max_working_pressure": "150 PSIG",
+            "max_operating_temperature": "270°F"
+          }
+        },
+        {
+          "equipmentTag": "AS-2",
+          "manufacturer": "SPIROTHERM",
+          "model": "VDN3000FA",
+          "specifications": {
+            "construction": "Steel",
+            "pipe_size": "30\"",
+            "tank_volume": "2,050 GAL",
+            "flow_rate": "10,000 GPM",
+            "dry_weight": "12,220 lbs",
+            "max_working_pressure": "150 PSIG",
+            "max_operating_temperature": "270°F"
+          }
+        },
+        {
+          "equipmentTag": "AS-3",
+          "manufacturer": "SPIROTHERM",
+          "model": "VDT600FAM",
+          "specifications": {
+            "construction": "Steel",
+            "pipe_size": "6\"",
+            "tank_volume": "40 GAL",
+            "flow_rate": "650 GPM",
+            "dry_weight": "456 lbs",
+            "max_working_pressure": "150 PSIG",
+            "max_operating_temperature": "270°F"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Expansion Tanks",
+      "notes": "Stainless steel tanks with seismic restraints included",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "AMTROL",
+          "model": "3000-L",
+          "specifications": {
+            "tank_volume": "792 GAL",
+            "tank_diameter": "48 in",
+            "tank_height": "118 in",
+            "stand_diameter": "42 in",
+            "system_connection": "2 in NPTF",
+            "drain_connection": "1-1/2 in",
+            "shipping_weight": "2950 lbs"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Condenser Water Filtration",
+      "notes": "Self-backwashing filtration system with optional tower water backwash pump",
+      "items": [
+        {
+          "equipmentTag": "",
+          "manufacturer": "Ameriwater",
+          "model": "330 LP",
+          "specifications": {
+            "filtration_rating_1": "0.5 Micron",
+            "filtration_rating_2": "0.25 Micron",
+            "backwash_flow_rate_1": "45 GPM",
+            "backwash_flow_rate_2": "35 GPM",
+            "pump_power": "7.5 HP",
+            "pump_voltage": "460V",
+            "pump_amps": "94 A",
+            "vessel_construction": "304L Stainless Steel",
+            "vessel_diameter": "30\"",
+            "shipping_weight": "10,000 lbs",
+            "space_requirements": "12' D x 6' W x 8' H"
+          }
+        }
+      ]
+    }
+  ]
+}

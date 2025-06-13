@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement competitive bidding for major chiller equipment alternatives to York chillers",
+      "rationale": "The project specifies York chillers for all five water-cooled centrifugal units (CH-1 through CH-5) plus one heat recovery unit (HRCH-1). Having a single manufacturer limits competitive pricing opportunities and creates potential supply chain risks. Alternative manufacturers like Carrier, Trane, or Johnson Controls could provide equivalent magnetic bearing centrifugal chillers with similar efficiency ratings.",
+      "estimatedImpact": "Potential cost savings of meaningful amounts through competitive pricing while maintaining backup supply options and reducing delivery risk",
+      "implementation": "Request equivalent specifications from alternative chiller manufacturers for 1250-ton magnetic bearing units with similar efficiency ratings. Evaluate lifecycle costs, warranty terms, and local service support capabilities before final selection.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Standardize pump procurement to single manufacturer with volume pricing negotiation",
+      "rationale": "The project requires 14 Bell & Gossett pumps across three different model configurations (CHWP, CWP, and HWP systems). All pumps are from the same VSCS series, presenting an opportunity for volume discount negotiations and standardized spare parts inventory.",
+      "estimatedImpact": "Significant cost savings through volume purchasing, reduced spare parts inventory costs, and simplified maintenance procedures",
+      "implementation": "Negotiate volume pricing with Bell & Gossett for the complete pump package. Establish service agreement terms and secure commitment for standardized spare parts availability. Consider requesting extended warranty coverage for the volume purchase.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Evaluate cooling tower manufacturer alternatives to EVAPCO for competitive pricing",
+      "rationale": "The project specifies five EVAPCO cooling towers (CT-1 through CT-5) with identical 1863-ton capacity and specific features. Single-source specification limits competitive pricing opportunities for this major equipment category.",
+      "estimatedImpact": "Potential cost savings through competitive bidding while maintaining equivalent performance specifications and Factory Mutual approval requirements",
+      "implementation": "Request equivalent proposals from alternative manufacturers like Baltimore Aircoil Company, SPX, or Marley for induced draft counterflow cooling towers meeting the same capacity and feature requirements. Verify Factory Mutual approval status for alternatives.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Negotiate comprehensive service agreements during equipment procurement phase",
+      "rationale": "The project involves sophisticated equipment including magnetic bearing chillers, VFD-controlled pumps, and multi-feature cooling towers. Establishing service agreements during procurement can provide better terms and guaranteed response times for critical hospital infrastructure.",
+      "estimatedImpact": "Reduced long-term maintenance costs, guaranteed service response times, and potential warranty extensions for critical utility plant equipment",
+      "implementation": "Include service agreement negotiations as part of equipment procurement packages. Define required response times, preventive maintenance schedules, and spare parts availability commitments. Negotiate multi-year service contracts at favorable rates.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consolidate auxiliary equipment suppliers for administrative efficiency",
+      "rationale": "The project includes multiple auxiliary components from different manufacturers including Spirotherm air eliminators, Amtrol expansion tanks, and Ameriwater filtration systems. Consolidating orders where possible can reduce administrative overhead and improve coordination.",
+      "estimatedImpact": "Modest cost savings through consolidated purchasing and reduced administrative complexity in procurement management",
+      "implementation": "Identify opportunities to source multiple auxiliary components from single suppliers where equivalent products are available. Negotiate package pricing for related components and establish single points of contact for delivery coordination.",
+      "priority": "Low"
+    }
+  ]
+}

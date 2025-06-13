@@ -1,0 +1,353 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Variable Refrigerant Flow (VRF) Systems",
+      "notes": "High efficiency units with excellent part load efficiency and high SEER & COP ratings. Indoor units located in apartments and common areas.",
+      "items": [
+        {
+          "equipmentTag": "VRF-OU",
+          "manufacturer": "Mitsubishi",
+          "model": "PURY-EP Heat Recovery",
+          "specifications": {
+            "capacity": "18-ton",
+            "quantity": "3",
+            "location": "Roof level on 24\" tall stands",
+            "features": "Heat Recovery heat pumps with branch circuit controllers"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-STUDIO",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.5-ton",
+            "quantity": "1 per studio unit",
+            "location": "Wall-mounted in studio units"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-1BR-BEDROOM",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.5-ton",
+            "quantity": "1 per 1BR unit bedroom",
+            "location": "Wall-mounted in 1BR unit bedrooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-1BR-LIVING",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.66-ton",
+            "quantity": "1 per 1BR unit living room",
+            "location": "Wall-mounted in 1BR unit living rooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-2BR-BEDROOM",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.5-ton",
+            "quantity": "1 per 2BR unit bedroom",
+            "location": "Wall-mounted in 2BR unit bedrooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-2BR-CORNER",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.66-ton",
+            "quantity": "1 per 2BR unit corner bedroom",
+            "location": "Wall-mounted in 2BR unit corner bedrooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-2BR-LIVING",
+          "manufacturer": "Mitsubishi",
+          "model": "Wall-mounted FCU",
+          "specifications": {
+            "capacity": "0.66-ton",
+            "quantity": "1 per 2BR unit living room",
+            "location": "Wall-mounted in 2BR unit living rooms"
+          }
+        },
+        {
+          "equipmentTag": "VRF-IU-CORRIDOR",
+          "manufacturer": "Mitsubishi",
+          "model": "PEFY",
+          "specifications": {
+            "type": "Ceiling concealed ducted units",
+            "features": "High static option",
+            "location": "Corridors and Amenity spaces"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Energy Recovery Ventilators (ERV)",
+      "notes": "Utilize 100% outside air units to pre-treat building fresh air by capturing waste heat and cooling from building exhaust systems.",
+      "items": [
+        {
+          "equipmentTag": "ERV-APARTMENT",
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "specifications": {
+            "sensible recovery effectiveness": "78% minimum",
+            "location": "Bathroom in each apartment unit",
+            "features": "Direct drive EC motor supply and exhaust fans, MERV 13 filtration, energy recovery core",
+            "control": "Wall mounted 20/40/60 timed boost controller",
+            "access": "30\" x 36\" access panel"
+          }
+        },
+        {
+          "equipmentTag": "ERV-CORRIDOR",
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "specifications": {
+            "sensible recovery effectiveness": "78% minimum",
+            "location": "Above ceiling on each floor corridor",
+            "features": "Direct drive EC motor supply and exhaust fans, MERV 13 filtration, energy recovery core",
+            "access": "30\" x 36\" access panel"
+          }
+        },
+        {
+          "equipmentTag": "ERV-AMENITY",
+          "manufacturer": "Lifebreath",
+          "model": "MAX-XTR",
+          "specifications": {
+            "sensible recovery effectiveness": "78% minimum",
+            "location": "Above ceiling in amenity spaces",
+            "features": "Direct drive EC motor supply and exhaust fans, MERV 13 filtration, energy recovery core",
+            "access": "30\" x 36\" access panel"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Domestic Hot Water System",
+      "notes": "High lift, CO2-based heat pump system with storage located in penthouse mechanical room.",
+      "items": [
+        {
+          "equipmentTag": "DHW-HP",
+          "manufacturer": "Mitsubishi",
+          "model": "QAHV",
+          "specifications": {
+            "capacity": "89,684 MBH per module",
+            "quantity": "3 modules (N+1)",
+            "total capacity": "178.9 MBH",
+            "location": "Roof",
+            "type": "Air to water (glycol) heat pumps",
+            "design conditions": "6°F DB/ 5°F WB winter"
+          }
+        },
+        {
+          "equipmentTag": "DHW-STORAGE",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "175 gallon per tank",
+            "quantity": "6 tanks",
+            "total storage": "940 gallons",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-SWING",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "150 gallon",
+            "heating element": "18kW",
+            "temperature maintenance": "4.9 kW",
+            "location": "Mechanical penthouse"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Domestic Hot Water System (Alternate)",
+      "notes": "Alternate hot water central plant system by Watts.",
+      "items": [
+        {
+          "equipmentTag": "DHW-HP-ALT",
+          "manufacturer": "Watts",
+          "model": "HPL-500A Aegis Heat Pump",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-HX-ALT",
+          "manufacturer": "Watts",
+          "model": "Mark II - HX Skid",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-STORAGE1-ALT",
+          "manufacturer": "Watts",
+          "model": "LC250S",
+          "specifications": {
+            "capacity": "250 Gallon",
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-STORAGE2-ALT",
+          "manufacturer": "Watts",
+          "model": "LC250-R144",
+          "specifications": {
+            "capacity": "250 Gallon",
+            "heating element": "144kW",
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-SWING-ALT",
+          "manufacturer": "Watts",
+          "model": "90 L 150A-VE",
+          "specifications": {
+            "capacity": "150 Gallon",
+            "heating element": "18kW",
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-MIXING-ALT",
+          "manufacturer": "Watts",
+          "model": "V71N-N Digital Mixing Valve",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-EXP-ALT",
+          "manufacturer": "Watts",
+          "model": "DTL-200 Expansion Tank",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        },
+        {
+          "equipmentTag": "DHW-GLYCOL-ALT",
+          "manufacturer": "Watts",
+          "model": "GFP-30 Glycol Feed System",
+          "specifications": {
+            "quantity": "1",
+            "location": "Mechanical penthouse"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Cooling Units",
+      "notes": "1-to-1 split cooling units that serve ancillary spaces throughout the building.",
+      "items": [
+        {
+          "equipmentTag": "SS-DATA",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2-ton",
+            "quantity": "1 per room",
+            "location": "Main telephone & data rooms",
+            "outdoor unit location": "Roof level"
+          }
+        },
+        {
+          "equipmentTag": "SS-ELEC",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2-ton",
+            "quantity": "1 per room",
+            "location": "Main electrical rooms",
+            "outdoor unit location": "Roof level"
+          }
+        },
+        {
+          "equipmentTag": "SS-ELEVATOR",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "2-ton",
+            "type": "Heat pump",
+            "quantity": "1 per room",
+            "location": "Elevator machine rooms",
+            "outdoor unit location": "Roof level on 24\" tall stands"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Generator",
+      "notes": "Diesel fueled generator serving emergency life-safety, legally required, and optional standby loads.",
+      "items": [
+        {
+          "equipmentTag": "GEN-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "200kW/250kVA",
+            "voltage": "208/120V, 3-ph, 4-wire",
+            "fuel": "Diesel",
+            "location": "Roof level on 3 feet tall dunnage",
+            "enclosure": "Walk-in weatherproof, sound attenuated",
+            "features": "Radiator mounted load bank (30% of generator capacity)",
+            "circuit breaker": "800AF/700AT 100% rated with LSIGA electronic trip unit"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Water Booster Pump System",
+      "notes": "Factory packaged and tested triplex variable-speed domestic water pressure boosting system.",
+      "items": [
+        {
+          "equipmentTag": "WBP-1",
+          "manufacturer": "QuantumFlo",
+          "model": "Prodigy Model QES_321.5-6.54",
+          "specifications": {
+            "system pressure": "119 Psig constant",
+            "flow rate range": "0 to 209 GPM",
+            "suction pressure": "72 Psig minimum",
+            "power": "208 Volt, 3 Phase, 60 hertz",
+            "pump delivery": "104 GPM at 109 ft. TDH",
+            "motor": "5 HP, 3450 RPM",
+            "features": "NSF 61 and NSF 372 Certified system with UL508A Industrial Control Panel"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dryer Exhaust System",
+      "notes": "Manifolded dryer exhaust system with common stack to roof in 2-hour rated shaft enclosure.",
+      "items": [
+        {
+          "equipmentTag": "DE-1",
+          "manufacturer": "",
+          "model": "",
+          "specifications": {
+            "capacity": "880-cfm",
+            "motor": "1-hp with VFD",
+            "control": "Duct static pressure control system",
+            "location": "Roof",
+            "features": "Inline lint collector"
+          }
+        }
+      ]
+    }
+  ]
+}

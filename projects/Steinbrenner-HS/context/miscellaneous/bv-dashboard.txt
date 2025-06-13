@@ -1,0 +1,137 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Ajax
+package projects
+Steinbrenner HS - Major Equipment Prepur...
+
+    packages
+
+MH
+Organization Logo
+Steinbrenner HS - Major Equipment Prepurchase
+Ajax
+Stakeholders
+5575 West Lutz Lake Fern Road, Lutz, FL 33558
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Due Date
+	
+Action
+N/A
+	
+6/18/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AHU-1 to AHU-15		Indoor Central-Station Air-Handling Units	--	
+Annotation
+	
+N/A
+	
+6/18/25
+Upcoming
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CH-3		Packaged Water Chillers	--	
+Annotation
+	
+https://app.buildvision.io/admin/organizations/09d34568-a191-4800-b45c-bd14c4621805/package-projects/e1a4f6a6-4c0a-4775-a938-4ee8c9c33f54/packages
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Ajax
+package projects
+Steinbrenner HS - Major Equipment Prepur...
+
+    details
+
+MH
+Organization Logo
+Steinbrenner HS - Major Equipment Prepurchase
+Ajax
+Stakeholders
+5575 West Lutz Lake Fern Road, Lutz, FL 33558
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+Daniel Simbol (daniel.simbol@ajaxbuilding.com)
+Address
+5575 West Lutz Lake Fern Road, Lutz, FL 33558
+Created
+6/5/2025
+Expected Start
+--
+Date Due
+6/20/2025
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+6/5/2025
+Request Type
+Proposal
+Project Size
+--

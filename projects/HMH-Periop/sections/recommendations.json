@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Standardize on Hospital-Grade Manufacturers with Proven Healthcare Experience",
+      "rationale": "The project lists multiple equipment categories including AHUs, heat exchangers, pumps, and CRAC units with 'No BOD Listed' status. Given the critical nature of perioperative environments requiring 24/7 reliability, establishing preferred manufacturers with proven hospital-grade equipment portfolios will ensure compatibility, reduce maintenance complexity, and provide better long-term support. Hospital-grade equipment meets stricter leakage requirements (less than 1% at 12 w.c.) and uses 100% aluminum or stainless steel internal components as specified in the narrative.",
+      "estimatedImpact": "Significant reduction in equipment downtime, streamlined maintenance procedures, and improved long-term reliability for critical perioperative functions. Enhanced procurement efficiency through consolidated vendor relationships.",
+      "implementation": "Develop a preferred vendor list for each equipment category based on hospital-grade certifications and healthcare experience. Require all air handling units to meet hospital-grade specifications with less than 1% leakage rating. Establish framework agreements with selected manufacturers for standardized components and service support across all 27 operating rooms and supporting systems.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Implement Redundant Equipment Strategy for Critical Systems",
+      "rationale": "The project specifies multiple critical systems including medical air compressors (74 hp triplex), medical vacuum systems (quadraplex), and heating/cooling equipment serving 27 operating rooms. The narrative emphasizes reliability through multiple-like sized equipment with 100% redundancy capability. Given the critical nature of perioperative services, implementing N+1 redundancy for all critical systems will ensure uninterrupted operations during equipment maintenance or failures.",
+      "estimatedImpact": "Elimination of service interruptions during equipment maintenance, enhanced patient safety through continuous system availability, and reduced risk of costly emergency repairs or service calls.",
+      "implementation": "Specify duplex configurations for all critical pumps and compressors. Require standby units for steam generators, heat exchangers, and exhaust fans. Design air handling systems with multiple fan arrays allowing for minimum one fan failure while maintaining 100% airflow. Establish preventive maintenance schedules that leverage redundant equipment capacity.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Establish Comprehensive Equipment Testing and Commissioning Program",
+      "rationale": "The project involves complex integration of HVAC, medical gas, fire protection, and electrical systems across a 128,000 square foot facility. The narrative specifies hospital-grade air handling units with custom configurations, specialized filtration (MERV 11, 14, and 17 HEPA), and critical pressure relationships for operating rooms and sterile processing. A structured commissioning program will ensure all equipment meets performance specifications before occupancy.",
+      "estimatedImpact": "Reduced startup delays, guaranteed performance compliance with healthcare codes and standards, minimized warranty issues, and enhanced system reliability from day one of operations.",
+      "implementation": "Develop equipment-specific testing protocols for all mechanical systems including air flow verification, pressure relationship testing, and filtration efficiency validation. Require factory testing reports for all major equipment. Establish commissioning agent requirements for independent verification of system performance. Create detailed acceptance criteria aligned with ASHRAE 170, NFPA 99, and FGI guidelines.",
+      "priority": "High"
+    },
+    {
+      "id": 4,
+      "recommendation": "Optimize Procurement Timing Through Phased Equipment Delivery Strategy",
+      "rationale": "The project includes long-lead-time equipment such as custom hospital-grade air handling units, medical gas systems, emergency power equipment, and specialized sterilization support systems. The narrative indicates equipment will be located on the Level 5 penthouse with service elevator access. Coordinating delivery schedules with construction milestones will prevent storage issues and reduce handling costs.",
+      "estimatedImpact": "Reduced equipment storage costs, minimized damage risk from multiple handling, improved construction schedule adherence, and optimized cash flow through strategic payment timing.",
+      "implementation": "Develop equipment delivery schedule aligned with construction milestones and penthouse access availability. Coordinate air handling unit deliveries with structural completion of Level 5 MER. Schedule medical gas equipment installation to align with piping rough-in completion. Establish secure staging areas for high-value equipment pending installation.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Establish Energy Efficiency Standards for All Mechanical Equipment",
+      "rationale": "The project narrative emphasizes energy conservation through ASHRAE 90.1-2019 compliance, variable frequency drives, and premium efficiency components. With significant cooling loads (920 tons) and heating requirements, selecting high-efficiency equipment will provide substantial operational savings over the facility lifecycle. The narrative specifically mentions right-sizing equipment and energy management through the building management system.",
+      "estimatedImpact": "Meaningful reduction in long-term operational costs through improved energy efficiency, enhanced system performance through proper sizing, and improved environmental sustainability metrics.",
+      "implementation": "Establish minimum efficiency requirements exceeding ASHRAE 90.1-2019 standards for all HVAC equipment. Require variable frequency drives on all pumps and fans. Specify premium efficiency motors and transformers meeting current DOE standards. Include energy performance requirements in equipment specifications and require efficiency testing documentation.",
+      "priority": "Medium"
+    }
+  ]
+}

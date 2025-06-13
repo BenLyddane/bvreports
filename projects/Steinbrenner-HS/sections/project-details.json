@@ -1,0 +1,48 @@
+{
+  "reportTitle": "BuildVision Project Report for Steinbrenner HS - Major Equipment Prepurchase",
+  "customerInformation": {
+    "customerName": "Hillsborough County Public Schools",
+    "contactPerson": "Daniel Simbol",
+    "contactEmail": "daniel.simbol@ajaxbuilding.com",
+    "contactPhone": "",
+    "projectId": "25016",
+    "additionalFields": {
+      "buildingConnectedLead": "Daniel Simbol"
+    }
+  },
+  "projectInformation": {
+    "projectName": "Steinbrenner HS - Major Equipment Prepurchase",
+    "location": "5575 West Lutz Lake Fern Road, Lutz, FL 33558",
+    "startDate": "",
+    "completionDate": "6/20/2025",
+    "budget": "",
+    "scope": "HVAC Replacement and Minor Renovations",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/09d34568-a191-4800-b45c-bd14c4621805/package-projects/e1a4f6a6-4c0a-4775-a938-4ee8c9c33f54/packages",
+    "additionalFields": {
+      "contractType": "BuildingConnected Lead",
+      "bidStatus": "Proposal",
+      "dateCreated": "6/5/2025",
+      "dateInvited": "6/5/2025",
+      "expectedStart": "--",
+      "jobWalk": "--",
+      "rfisDue": "--",
+      "projectSize": "--",
+      "equipmentTypes": "Indoor Central-Station Air-Handling Units (AHU-1 to AHU-15), Packaged Water Chillers (CH-3)"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

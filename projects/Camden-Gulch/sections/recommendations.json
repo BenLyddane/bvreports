@@ -1,0 +1,52 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Standardize HVAC Equipment Manufacturers to Reduce Inventory Complexity",
+      "rationale": "The project shows multiple HVAC equipment manufacturers across different systems (Mitsubishi, Goodman, Daikin, Carrier, Greenheck, Broan-NuTone). While specifications allow for alternates, consolidating to fewer manufacturers where possible can reduce spare parts inventory requirements, simplify training needs, and potentially provide volume purchasing advantages.",
+      "estimatedImpact": "Meaningful reduction in long-term maintenance costs and inventory management complexity while potentially securing better pricing through volume commitments",
+      "implementation": "During equipment procurement, evaluate opportunities to standardize on primary manufacturers for similar equipment types while maintaining performance requirements. Negotiate volume pricing agreements with selected manufacturers.",
+      "priority": "Medium"
+    },
+    {
+      "id": 2,
+      "recommendation": "Implement Bulk Purchasing Strategy for High-Volume Equipment",
+      "rationale": "The project includes numerous similar units such as multiple VRF indoor units (13 DFC/DCU units, 5 DFH/DHP units), multiple split system heat pumps (12 AH units), and multiple fans (14 exhaust fans). These represent opportunities for bulk purchasing to achieve economies of scale.",
+      "estimatedImpact": "Significant cost savings through volume discounts and reduced procurement administrative costs",
+      "implementation": "Group similar equipment into bulk purchase orders. Coordinate delivery schedules to accommodate storage limitations. Negotiate extended warranties and service agreements as part of bulk purchases.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Establish Equipment Standardization for Filters and Maintenance Items",
+      "rationale": "Multiple HVAC systems requiring different filter types and maintenance items creates ongoing operational complexity. The specifications reference MERV 6, MERV 8, and MERV 13 filters across different systems, creating multiple SKUs for similar functions.",
+      "estimatedImpact": "Moderate reduction in ongoing maintenance costs and simplified inventory management for building operations",
+      "implementation": "Where performance requirements allow, standardize on common filter sizes and MERV ratings. Establish preferred supplier agreements for consumable maintenance items. Create standardized maintenance kit specifications.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Optimize Supplier Selection for Long-term Support",
+      "rationale": "The specifications require manufacturers to have been in business for minimum periods and have local service support. Given the mix of equipment types and the importance of long-term serviceability, supplier evaluation should emphasize local service capabilities and parts availability.",
+      "estimatedImpact": "Improved equipment reliability and reduced service response times leading to better building performance and lower lifecycle costs",
+      "implementation": "Evaluate suppliers based on local service presence, parts inventory, response times, and service history. Prioritize suppliers with demonstrated long-term commitment to the market and comprehensive service capabilities.",
+      "priority": "High"
+    },
+    {
+      "id": 5,
+      "recommendation": "Consider Factory-Installed Options to Reduce Field Labor",
+      "rationale": "Many equipment specifications include numerous field-installed accessories and options. Factory-installed options typically provide better quality control, reduced field labor costs, and improved warranty coverage.",
+      "estimatedImpact": "Modest reduction in installation costs and improved quality control with enhanced warranty coverage",
+      "implementation": "During equipment selection, maximize factory-installed options where economically viable. Coordinate with manufacturers to bundle accessories and options at the factory level rather than field installation.",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Negotiate Extended Warranty Coverage for Critical Equipment",
+      "rationale": "The project includes critical equipment such as VRF systems, rooftop units, and specialized fans. Extended warranties beyond standard coverage can provide cost protection and ensure continued performance.",
+      "estimatedImpact": "Meaningful risk mitigation and potential cost avoidance for major equipment repairs during extended warranty periods",
+      "implementation": "Negotiate extended warranty terms during equipment procurement. Focus on equipment with high replacement costs or critical operational importance. Consider manufacturer service agreements as part of extended warranty packages.",
+      "priority": "Medium"
+    }
+  ]
+}
