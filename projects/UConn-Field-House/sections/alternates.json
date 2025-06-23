@@ -1,0 +1,559 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Cabinet Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Mestek",
+          "model": "RC-03, RC-04, RW-03, RW-04",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedules as BoD Manufacturer for Cabinet Unit Heaters tags CUH-A through CUH-D"
+        },
+        {
+          "manufacturer": "QMark",
+          "model": "AWH4404F",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedules as BoD Manufacturer for Cabinet Unit Heaters tag EWH-A"
+        },
+        {
+          "manufacturer": "Vulcan",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for Unit Heaters in specification Section 238200"
+        },
+        {
+          "manufacturer": "Sterling",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for Unit Heaters and Cabinet Unit Heaters in specification Section 238200"
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for Unit Heaters, Cabinet Unit Heaters, and Electric Unit Heaters in specification Section 238200"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for Unit Heaters and Cabinet Unit Heaters in specification Section 238200"
+        }
+      ]
+    },
+    {
+      "componentType": "Electric Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "QMark",
+          "model": "EFF1500, AWH4404F, MUH05-21",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "QMark appears as the manufacturer for electric heaters EH-A, EWH-A, and EUH-A in the equipment schedules, making them the basis of design for this project."
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer for electric unit heaters in specification section 238200"
+        },
+        {
+          "manufacturer": "Indeeco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer for electric unit heaters in specification section 238200"
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Well-known manufacturer of electric heating equipment, commonly used as alternate for electric unit heaters"
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Established manufacturer of electric heating equipment suitable for similar applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Hydronic Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Mestek",
+          "model": "HS-125A",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Horizontal hydronic unit heater, 27.8 MBH capacity at 180°F EWT, 160°F LWT, 60°F EAT, 30% propylene glycol"
+        },
+        {
+          "manufacturer": "Vulcan",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for unit heaters in Section 238200"
+        },
+        {
+          "manufacturer": "Sterling",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for unit heaters in Section 238200"
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for unit heaters in Section 238200"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for unit heaters in Section 238200"
+        }
+      ]
+    },
+    {
+      "componentType": "Radiant Heating and Cooling Hydronic Panels",
+      "suppliers": [
+        {
+          "manufacturer": "Zehnder Rittling",
+          "model": "PR2F-1",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Equipment tags R-1 and R-2 on mechanical schedules"
+        },
+        {
+          "manufacturer": "Armstrong World Industries",
+          "model": "AR-X",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Equipment tags RP-1 and RP-2 on mechanical schedules. Listed as 'AIRTITE' in hydronic radiant ceiling panel schedule"
+        },
+        {
+          "manufacturer": "Runtal",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard alternative for radiant panel radiators"
+        },
+        {
+          "manufacturer": "Myson",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard alternative for radiant panel radiators"
+        },
+        {
+          "manufacturer": "Buderus",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard alternative for radiant heating panels"
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "FCHC 06",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Horizontal Fan Coil Unit specified in schedule"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for various fan coil units and air terminal equipment"
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for air terminal units including VAV boxes with controls"
+        },
+        {
+          "manufacturer": "Johnson Controls Inc. / Enviro-Tec",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for air terminal units"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Industry standard alternative for fan coil units, may require different piping connections"
+        },
+        {
+          "manufacturer": "York",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible alternative for horizontal fan coil applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Noise Control Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "NCC-VCR",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Noise Control Curbs for AHU-1b, AHU-3, and AHU-4"
+        },
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "RED",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Duct Silencers for various air handling systems"
+        },
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "RD",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Duct Silencers for various air handling systems"
+        },
+        {
+          "manufacturer": "IAC",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative manufacturer for duct silencers"
+        },
+        {
+          "manufacturer": "Kinetics Noise Control",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative manufacturer for duct silencers and noise control equipment"
+        },
+        {
+          "manufacturer": "McGill AirSilence",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative manufacturer for duct silencers"
+        },
+        {
+          "manufacturer": "Ruskin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative manufacturer for duct silencers"
+        }
+      ]
+    },
+    {
+      "componentType": "Duct Silencers",
+      "suppliers": [
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "RD",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Multiple models including RD-HV-AY32147, RD-MV-AY32147, RD-MHV-AY32147, RD-UHV-AY32147"
+        },
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "RED",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Multiple models including RED-HV-AY32147, RED-MHV-AY32147, RED-MLV-AY32147, RED-UHV-AY32147"
+        },
+        {
+          "manufacturer": "IAC",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate manufacturer in Section 23 3300"
+        },
+        {
+          "manufacturer": "Kinetics Noise Control",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate manufacturer in Section 23 3300"
+        },
+        {
+          "manufacturer": "McGill AirSilence",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate manufacturer in Section 23 3300"
+        },
+        {
+          "manufacturer": "Ruskin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate manufacturer in Section 23 3300"
+        }
+      ]
+    }
+  ]
+}

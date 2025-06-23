@@ -1,0 +1,37 @@
+Packaged RTUs
+Daikin Rebel is a DOAS capable rooftop unit. This typically competes with the following:
+Trane Horizon
+Valent / Greenheck RV
+Klima for Valent and ADE for Greenheck. ADE doesn’t love to bid the greenheck unit unless they are BoD.
+AAON RN
+Typically at parity, especially in NYC market price wise with Daikin. In other markets, like Boston, we see AAON as a price deduct from Daikin. Gil-Bar usually bids an AAON unit over a York unit for DOAS.
+Carrier 62 Series - Carrier NYC.
+Captivaire Paragon
+You can buy captivaire through reps (like Air Control Concepts) or directly from the factory. These units are usually very cost competitive relative to the Daikin units. Their construction isn’t quite as robust, usually it’s an unpainted galvanized steel instead of painted with Daikin and you need to make sure you’re hitting the insulation spec. That said, we’ve seen these come in well under cost and WAY under the lead time (4-6 weeks) compared to Daikin.
+DOAS has become a large market over the past 10 years and there are some new manufacturers popping up that we don’t have as much experience with. If cost is primary driver, BV can help solicit quotations from these manufacturers:
+iAire
+Accuvent
+Nexgen DOAS
+Confirm the roof curb is included by reps, the schedule calls for roof curb carried by Mechanical Contractor, but the MC won’t carry it if they don’t buy the RTUs.
+Natatorium units
+Pool unit manufacturers have, counterintuitively, become a commodity product. One company purchased all three of the major pool unit manufacturers and they all manufacture the same product line. There is one caveat, in that if you have a “compressor” wall system, that is exclusive to the Seresco factory.
+Dectron
+Poolpak
+Seresco
+The only real alternative anymore is DesertAire. In NYC, your DesertAire rep is the same rep as the Seresco one (because they also sell MultiStack, which owns DesertAire). If it’s a tight dectron/poolpak/seresco specification it will be difficult to get DesertAire approved.
+I have seen a company called VentWell pop up, but was not very confident in their unit selections or cabinet. I believe they purchased designs from a European pool unit manufacturer and were building one-off units in a PA factory.
+Split system air conditioners (These are VRF)
+Engineer incorrectly specified R-454b, Daikin uses R-32
+This is a 3-pipe system. If there is no existing piping installed, you can use any manufacturer comfortably (from a piping perspective). In general, if there is existing piping pre-installed you should use the basis of design manufacturer.
+CYA schedule note: 6. CONTRACTOR IS RESPONSIBLE FOR ALL ADDITIONAL MECHANICAL, ELECTRICAL, RIGGING, OR PHYSICAL ALTERATION COST REQUIRED BY A SUBSTITUTED PRODUCT, EVEN WITH ENGINEER APPROVAL. COST SAVINGS FOR THE SUBSTITUTE PRODUCT SHALL BE PROVIDED TO THE OWNER.
+If this is true, the engineer just flat spec’d the basis of design. I would ask the owner about this note and use it to explain high pricing if you go with an alternate.
+Alternates
+Mitsubishi + Daikin.
+Tier 1 premium VRF, most common
+Trane rebrands Mitsubishi
+LG + Samsung
+Tier 2 second most common. Good reps in NYC and 3-pipe. Usually considerable cost savings over Daikin / Mitsubishi.
+Toshiba Carrier, Panasonic, Midea, Lennox, GE, Haier, Hitachi etc
+Tier 3 reps trying to get a piece of the market share. Some strong reps (like Gil-Bar) with Hitachi, but usually they are less VRF focused and smaller part of the total reps’ portfolio.
+Fans, VAVs, GRDs, etc
+For Fans you’re usually looking at Loren Cook (SRS Enterprises) and Greenheck (ADE Systems). You can usually buy the fans standalone, but there is sometimes less “juice to squeeze” relative to the compressorized units above.

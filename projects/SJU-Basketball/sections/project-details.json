@@ -1,0 +1,52 @@
+{
+  "reportTitle": "BuildVision Project Report for St. John's University - Basketball Training Facility",
+  "customerInformation": {
+    "customerName": "St. John's University",
+    "contactPerson": "Vimal Patel",
+    "contactEmail": "vpatel@shawmut.com",
+    "contactPhone": "",
+    "projectId": "006.3926.400",
+    "additionalFields": {
+      "contractorName": "Shawmut Design and Construction",
+      "buildingConnectedLead": "Vimal Patel",
+      "projectSize": "53800 sq. ft.",
+      "requestType": "Proposal",
+      "bidStatus": "BuildingConnected Lead"
+    }
+  },
+  "projectInformation": {
+    "projectName": "St. John's University - Basketball Training Facility",
+    "location": "175-02 Union Turnpike, Jamaica, NY 11439",
+    "startDate": "9/2/2025",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Basketball Training Facility",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/af293d30-3322-4f29-a141-1fabd2927d83/package-projects/7de45a75-9cf0-4ba3-934d-354297ea9293/packages",
+    "additionalFields": {
+      "dobNumber": "Q01215377-S3",
+      "expectedStart": "9/2/2025",
+      "dateDue": "5/30/2025",
+      "dateInvited": "6/18/2025",
+      "created": "6/18/2025",
+      "engineerFirm": "ME Engineers",
+      "architect": "Gensler",
+      "contractType": "Not specified",
+      "jobWalk": "Not specified"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

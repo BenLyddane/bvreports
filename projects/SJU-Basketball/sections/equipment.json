@@ -1,0 +1,718 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Packaged Rooftop Air-Conditioning Units",
+      "notes": "Air source heat pumps and DOAS units with energy recovery wheel, horizontal draw-thru configuration with DX coils, electric heating, ECM fans, and airside economizer",
+      "items": [
+        {
+          "equipmentTag": "ASHP-2-1",
+          "manufacturer": "Daikin Applied",
+          "model": "DHSA031",
+          "specifications": {
+            "configuration": "Exterior rooftop variable volume, 100% OA, horizontal draw thru with energy recovery wheel",
+            "designAirflow": "8000 CFM",
+            "minOAFlow": "8000 CFM",
+            "totalStaticPressure": "9.48 in WC clean filter",
+            "supplyFanMotorHP": "6.1 HP",
+            "exhaustFanMotorHP": "8 HP",
+            "refrigerant": "R-32",
+            "coolingCapacity": {
+              "total": "363 MBH",
+              "sensible": "232 MBH"
+            },
+            "heatingCapacity": {
+              "heatPump": "270 MBH",
+              "auxiliaryElectric": "706 MBH",
+              "backupElectric": "220 KW"
+            },
+            "electrical": {
+              "voltage": "460V",
+              "phase": "3",
+              "frequency": "60 Hz",
+              "MCA": "321.3 A",
+              "MROPD": "450 A"
+            },
+            "weight": "14612 lbs",
+            "dimensions": {
+              "length": "432 in",
+              "width": "97 in",
+              "height": "102 in"
+            }
+          }
+        },
+        {
+          "equipmentTag": "ASHP-2-2",
+          "manufacturer": "Daikin Applied",
+          "model": "DHSA031",
+          "specifications": {
+            "designAirflow": "8100 CFM",
+            "minOAFlow": "2673 CFM",
+            "totalStaticPressure": "4.86 in WC",
+            "supplyFanMotorHP": "6.1 HP",
+            "returnFanMotorHP": "8 HP",
+            "refrigerant": "R-32",
+            "coolingCapacity": {
+              "total": "344 MBH",
+              "sensible": "256 MBH"
+            },
+            "heatingCapacity": {
+              "heatPump": "455 MBH",
+              "auxiliaryElectric": "438 MBH",
+              "backupElectric": "158 MBH"
+            },
+            "electrical": {
+              "voltage": "460V",
+              "phase": "3",
+              "frequency": "60 Hz",
+              "MCA": "230 A",
+              "MROPD": "250 A"
+            },
+            "weight": "12494 lbs",
+            "dimensions": {
+              "length": "356 in",
+              "width": "97 in",
+              "height": "102 in"
+            }
+          }
+        },
+        {
+          "equipmentTag": "ASHP-2-3",
+          "manufacturer": "Daikin Applied",
+          "model": "DHSA031",
+          "specifications": {
+            "designAirflow": "8100 CFM",
+            "minOAFlow": "2673 CFM",
+            "totalStaticPressure": "4.86 in WC",
+            "supplyFanMotorHP": "6.1 HP",
+            "returnFanMotorHP": "8 HP",
+            "refrigerant": "R-32",
+            "coolingCapacity": {
+              "total": "344 MBH",
+              "sensible": "256 MBH"
+            },
+            "heatingCapacity": {
+              "heatPump": "455 MBH",
+              "auxiliaryElectric": "438 MBH",
+              "backupElectric": "158 MBH"
+            },
+            "electrical": {
+              "voltage": "460V",
+              "phase": "3",
+              "frequency": "60 Hz",
+              "MCA": "230 A",
+              "MROPD": "250 A"
+            },
+            "weight": "12494 lbs",
+            "dimensions": {
+              "length": "356 in",
+              "width": "97 in",
+              "height": "102 in"
+            }
+          }
+        },
+        {
+          "equipmentTag": "ASHP-2-4",
+          "manufacturer": "Daikin Applied",
+          "model": "DPSH25B",
+          "specifications": {
+            "designAirflow": "4500 CFM",
+            "minOAFlow": "1350 CFM",
+            "totalStaticPressure": "3.38 in WC",
+            "supplyFanMotorHP": "5 HP",
+            "returnFanMotorHP": "3 HP",
+            "refrigerant": "R-32",
+            "coolingCapacity": {
+              "total": "217 MBH",
+              "sensible": "155 MBH"
+            },
+            "heatingCapacity": {
+              "heatPump": "198 MBH",
+              "auxiliaryElectric": "204 MBH",
+              "backupElectric": "111 MBH"
+            },
+            "electrical": {
+              "voltage": "460V",
+              "phase": "3",
+              "frequency": "60 Hz",
+              "MCA": "93.2 A",
+              "MROPD": "110 A"
+            },
+            "weight": "4463 lbs",
+            "dimensions": {
+              "length": "203 in",
+              "width": "73 in",
+              "height": "73 in"
+            }
+          }
+        },
+        {
+          "equipmentTag": "DOAS-2-1",
+          "manufacturer": "Daikin Applied",
+          "model": "DPSH25B",
+          "specifications": {
+            "configuration": "100% OA horizontal draw thru unit",
+            "designAirflow": "3200 CFM",
+            "minOAFlow": "3200 CFM",
+            "totalStaticPressure": "2.6 in WC",
+            "supplyFanMotorHP": "5 HP",
+            "refrigerant": "R-32",
+            "coolingCapacity": {
+              "total": "251 MBH",
+              "sensible": "141 MBH"
+            },
+            "heatingCapacity": {
+              "auxiliaryElectric": "569 MBH"
+            },
+            "electrical": {
+              "voltage": "460V",
+              "phase": "3",
+              "frequency": "60 Hz",
+              "MCA": "137 A",
+              "MROPD": "150 A"
+            },
+            "weight": "4457 lbs",
+            "dimensions": {
+              "length": "203 in",
+              "width": "73 in",
+              "height": "77 in"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Liquid Coolers",
+      "notes": "Natatorium dehumidification units with remote dry cooler for heat rejection",
+      "items": [
+        {
+          "equipmentTag": "DCU-2-1",
+          "manufacturer": "Dectron",
+          "model": "NG-V-01",
+          "specifications": {
+            "targetConditions": {
+              "dryBulb": "75°F",
+              "wetBulb": "62.5°F",
+              "relativeHumidity": "55%"
+            },
+            "totalCapacity": "25.7 MBH",
+            "sensibleCapacity": "16.7 MBH",
+            "moistureRemoval": "8.3 lbs/hr",
+            "compressorSize": "2 tons",
+            "ESP": "0.5 in WC",
+            "motorHP": "1.4 HP",
+            "FLA": "2.5 A",
+            "dryCoilerCapacity": "32.1 MBH",
+            "electricalHeatingCapacity": "10 KW",
+            "compressorType": "Scroll",
+            "compressorStages": "2",
+            "electrical": {
+              "voltage": "460V",
+              "phase": "3",
+              "frequency": "60 Hz",
+              "FLA": "20.4 A",
+              "MCA": "26 A",
+              "MOCP": "30 A"
+            },
+            "weight": "450 lbs",
+            "dimensions": {
+              "length": "48 in",
+              "width": "46 in",
+              "height": "54 in"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Dehumidifiers",
+      "notes": "Natatorium dehumidification system with integrated heating and cooling",
+      "items": [
+        {
+          "equipmentTag": "DH-1-1",
+          "manufacturer": "Dectron",
+          "model": "DS-010-NP",
+          "specifications": {
+            "targetConditions": {
+              "dryBulb": "75°F",
+              "wetBulb": "62.5°F",
+              "relativeHumidity": "55%"
+            },
+            "supplyAirflow": "760 CFM",
+            "outdoorAirflow": "260 CFM",
+            "totalCapacity": "25.7 MBH",
+            "sensibleCapacity": "16.7 MBH",
+            "moistureRemoval": "8.3 lbs/hr",
+            "compressorSize": "2 tons",
+            "ESP": "0.5 in WC",
+            "motorHP": "1.4 HP",
+            "FLA": "2.5 A",
+            "reheatCoilConditions": {
+              "EAT": "75°F",
+              "EATRelativeHumidity": "55%",
+              "GPM": "6 GPM",
+              "WPD": "4.2 PSI"
+            },
+            "electricalHeatingCapacity": "12.6 KW",
+            "compressorType": "Scroll",
+            "compressorStages": "2",
+            "electrical": {
+              "voltage": "460V",
+              "phase": "3",
+              "frequency": "60 Hz"
+            },
+            "weight": "475 lbs",
+            "dimensions": {
+              "length": "54 in",
+              "width": "44 in",
+              "height": "36 in"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "VRF Indoor Units - Ductless",
+      "notes": "Wall-mounted ductless split system indoor units for individual zone control",
+      "items": [
+        {
+          "equipmentTag": "AC-A",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXZA05",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-B",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXZA07",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-C",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXZA09AAVJU",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-D",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXZA12",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-E",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXZA15",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-F",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXZA18",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-G",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXAA18",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "VRF Indoor Units - Ducted",
+      "notes": "Concealed ducted indoor units for multiple zone applications",
+      "items": [
+        {
+          "equipmentTag": "AC-H",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXMA48",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-I",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FBA24",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "AC-J",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXSA12",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "VRF Outdoor Units",
+      "notes": "Variable refrigerant flow outdoor condensing units for heat pump systems",
+      "items": [
+        {
+          "equipmentTag": "CU-A",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "REYA72",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-B",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "REYA96",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-C",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "REYA144",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-D",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "REYA192",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "CU-E",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "RXTA24",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Centrifugal HVAC Fans",
+      "notes": "Inline centrifugal fans for air movement and ventilation",
+      "items": [
+        {
+          "equipmentTag": "DEX-2-1",
+          "manufacturer": "LF Systems",
+          "model": "LES008",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "HVAC Fans",
+      "notes": "General purpose HVAC fans for air handling applications",
+      "items": [
+        {
+          "equipmentTag": "EF2-1",
+          "manufacturer": "Greenheck",
+          "model": "CUE-100HP-VG",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Single-Duct VAV Terminal Units",
+      "notes": "Variable air volume terminal units for zone control",
+      "items": [
+        {
+          "equipmentTag": "EAV-A",
+          "manufacturer": "Price Industries",
+          "model": "SDE 4",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EAV-B",
+          "manufacturer": "Price Industries",
+          "model": "SDE 5",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EAV-C",
+          "manufacturer": "Price Industries",
+          "model": "SDE 6",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EAV-D",
+          "manufacturer": "Price Industries",
+          "model": "SDE 7",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EAV-E",
+          "manufacturer": "Price Industries",
+          "model": "SDE 8",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EAV-F",
+          "manufacturer": "Price Industries",
+          "model": "SDE 10",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EAV-G",
+          "manufacturer": "Price Industries",
+          "model": "SDE 12",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EAV-H",
+          "manufacturer": "Price Industries",
+          "model": "SDE 14",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-A",
+          "manufacturer": "Titus",
+          "model": "DESV 5",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-B",
+          "manufacturer": "Titus",
+          "model": "DESV 6",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-C",
+          "manufacturer": "Titus",
+          "model": "DESV 7",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-D",
+          "manufacturer": "Titus",
+          "model": "DESV 8",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "VAV-E",
+          "manufacturer": "Titus",
+          "model": "DESV 12",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan-Powered VAV Terminal Units",
+      "notes": "Fan-powered VAV terminal units with integral fans for constant air circulation",
+      "items": [
+        {
+          "equipmentTag": "FPB-A",
+          "manufacturer": "Titus",
+          "model": "DTQP",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Electric Baseboard Heaters",
+      "notes": "Electric resistance baseboard heating units for perimeter heating",
+      "items": [
+        {
+          "equipmentTag": "EBB 1-1",
+          "manufacturer": "Stelpro",
+          "model": "AALUX215077",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 1-2",
+          "manufacturer": "Stelpro",
+          "model": "AALUX215077",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 1-3",
+          "manufacturer": "Stelpro",
+          "model": "AALUX206038",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 1-4",
+          "manufacturer": "Stelpro",
+          "model": "AALUX327227",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 1-5",
+          "manufacturer": "Stelpro",
+          "model": "AALUX206038",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 1-6",
+          "manufacturer": "Stelpro",
+          "model": "AALUX324207",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 1-7",
+          "manufacturer": "Stelpro",
+          "model": "AALUX324207",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 1-8",
+          "manufacturer": "Stelpro",
+          "model": "AALUX209047",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-1",
+          "manufacturer": "Stelpro",
+          "model": "AALUX206038",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-2",
+          "manufacturer": "Stelpro",
+          "model": "AALUX227137",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-3",
+          "manufacturer": "Stelpro",
+          "model": "AALUX224127",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-4",
+          "manufacturer": "Stelpro",
+          "model": "AALUX218097",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-5",
+          "manufacturer": "Stelpro",
+          "model": "AALUX224127",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-6",
+          "manufacturer": "Stelpro",
+          "model": "AALUX224127",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-7",
+          "manufacturer": "Stelpro",
+          "model": "AALUX218097",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-8",
+          "manufacturer": "Stelpro",
+          "model": "AALUX224127",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-9",
+          "manufacturer": "Stelpro",
+          "model": "AALUX227137",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-10",
+          "manufacturer": "Stelpro",
+          "model": "AALUX206038",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-11",
+          "manufacturer": "Stelpro",
+          "model": "AALUX221107",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EBB 2-12",
+          "manufacturer": "Stelpro",
+          "model": "AALUX221107",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Electric Unit Heaters",
+      "notes": "Electric unit heaters for space heating in mechanical and utility areas",
+      "items": [
+        {
+          "equipmentTag": "EUH 1-1",
+          "manufacturer": "Indeeco",
+          "model": "941IF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EUH 1-2",
+          "manufacturer": "Indeeco",
+          "model": "941IF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EUH 1-3",
+          "manufacturer": "Indeeco",
+          "model": "941IF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EUH 1-4",
+          "manufacturer": "Indeeco",
+          "model": "941IF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EUH 1-5",
+          "manufacturer": "Indeeco",
+          "model": "941IF",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EUH 1-6",
+          "manufacturer": "Indeeco",
+          "model": "925IU",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "EUH 2-1",
+          "manufacturer": "Indeeco",
+          "model": "925IU",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Small-Capacity Split-System Air-Conditioners",
+      "notes": "Small capacity split system air conditioning units for individual spaces",
+      "items": [
+        {
+          "equipmentTag": "SS-A",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTXV12",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "SS-B",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTXV18",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "SS-C",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTXV24",
+          "specifications": {}
+        },
+        {
+          "equipmentTag": "SS-D",
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FCA30",
+          "specifications": {}
+        }
+      ]
+    },
+    {
+      "equipmentType": "Split System Air Conditioners",
+      "notes": "Split system air conditioning units with separate indoor and outdoor components",
+      "items": [
+        {
+          "equipmentTag": "SS-E",
+          "manufacturer": "Daikin Applied",
+          "model": "RXTQ36TBVJUA",
+          "specifications": {}
+        }
+      ]
+    }
+  ]
+}

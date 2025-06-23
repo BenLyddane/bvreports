@@ -1,0 +1,54 @@
+{
+  "uploadedFiles": {
+    "mech-specifications.txt": {
+      "file_id": "file_011CQGMnfrZcRLyN6izKP4He",
+      "uploaded_at": "2025-06-18T21:00:01.774Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "mech-schedules-1.pdf": {
+      "file_id": "file_011CQGNFBxHD2MR1EmVWTAzt",
+      "uploaded_at": "2025-06-18T21:06:01.499Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "mech-schedules-2.pdf": {
+      "file_id": "file_011CQGNbet5u3kjYmM94Geft",
+      "uploaded_at": "2025-06-18T21:10:39.182Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "mech-schedules-3.pdf": {
+      "file_id": "file_011CQGNbh4o62EPA1FFPufAr",
+      "uploaded_at": "2025-06-18T21:10:39.607Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "mech-schedules-4.pdf": {
+      "file_id": "file_011CQGNbitBpCpydjB1cAU8s",
+      "uploaded_at": "2025-06-18T21:10:40.054Z",
+      "file_type": "application/pdf",
+      "original_type": "pdf",
+      "converted_from": null
+    },
+    "ben-remarks.txt": {
+      "file_id": "file_011CQRNL6fTUQH1keqRMWApK",
+      "uploaded_at": "2025-06-23T15:12:28.973Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    },
+    "bv-dashboard.txt": {
+      "file_id": "file_011CQRRJUSvdvCSAtX2ofFtT",
+      "uploaded_at": "2025-06-23T15:51:27.432Z",
+      "file_type": "text/plain",
+      "original_type": "txt",
+      "converted_from": null
+    }
+  },
+  "tempFiles": {}
+}

@@ -1,0 +1,39 @@
+{
+  "reportTitle": "BuildVision Project Report for UConn Field House - Old Rec Center Renovation",
+  "customerInformation": {
+    "customerName": "University of Connecticut",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "20210041",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "UConn Field House - Old Rec Center Renovation",
+    "location": "2111 Hillside Rd, Storrs, CT 06269",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Field House - Old Rec Center Renovation - Phase 2",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/75ae1f37-2abd-490a-8229-913f85bb2cef/package-projects/c634fccd-cd37-4c4a-bd2e-6f3ce6cf0ec6/details",
+    "additionalFields": {
+      "projectNumber": "300209",
+      "phase": "Phase 2"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

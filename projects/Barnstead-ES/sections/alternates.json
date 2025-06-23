@@ -1,0 +1,393 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Finned-Tube Radiation Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Sterling HVAC",
+          "model": "C3/4-435, JVB-SS",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Sterling HVAC appears as the BoD manufacturer on mechanical schedules for Finned-Tube Radiation Heaters FR-1 and FR-2"
+        },
+        {
+          "manufacturer": "Rittling",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for baseboard radiation in specifications"
+        },
+        {
+          "manufacturer": "Slant-Fin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for baseboard radiation in specifications"
+        },
+        {
+          "manufacturer": "Vulcan",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for baseboard radiation in specifications"
+        },
+        {
+          "manufacturer": "Beacon-Morris",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Well-established manufacturer of finned tube radiation products, commonly used in educational facilities"
+        },
+        {
+          "manufacturer": "Hydronic Alternatives",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Specializes in hydronic heating solutions, compatible with specified system requirements"
+        }
+      ]
+    },
+    {
+      "componentType": "Cabinet Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "FFEB-030",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design manufacturer identified in mechanical schedules. Model FFEB-030 specified for all Cabinet Unit Heater units CUH-1 through CUH-10."
+        },
+        {
+          "manufacturer": "Sterling Hydronics",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specification section 238200 for Cabinet Unit Heaters."
+        },
+        {
+          "manufacturer": "Beacon-Morris",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specification section 238200 for Cabinet Unit Heaters."
+        },
+        {
+          "manufacturer": "Dunham Bush",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specification section 238200 for Cabinet Unit Heaters."
+        },
+        {
+          "manufacturer": "McQuay",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specification section 238200 for Cabinet Unit Heaters."
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specification section 238200 for Cabinet Unit Heaters."
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specification section 238200 for Cabinet Unit Heaters."
+        },
+        {
+          "manufacturer": "Rittling",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specification section 238200 for Cabinet Unit Heaters."
+        }
+      ]
+    },
+    {
+      "componentType": "Hot Water Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Trane",
+          "model": "UHS-18",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Model UHS-18 as shown on mechanical schedules for equipment tag UH-1"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "UHS-19",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Model UHS-19 as shown on mechanical schedules for equipment tag UH-2"
+        },
+        {
+          "manufacturer": "Sterling HVAC",
+          "model": "Various Models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in Section 238200 for convection heating units including cabinet unit heaters"
+        },
+        {
+          "manufacturer": "Beacon-Morris",
+          "model": "Various Models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in Section 238200 for cabinet unit heaters"
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "Various Models",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in Section 238200 for cabinet unit heaters"
+        }
+      ]
+    },
+    {
+      "componentType": "Hot Water Coils",
+      "suppliers": [
+        {
+          "manufacturer": "Aerofin",
+          "model": "HWP-13.0 AF",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for HC-1 and HC-4 hot water coils"
+        },
+        {
+          "manufacturer": "Aerofin",
+          "model": "HW-12.0 OAS",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for HC-2 and HC-3 hot water coils"
+        },
+        {
+          "manufacturer": "Johnson Controls",
+          "model": "HWP-12.0 AS",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Used for HC-5 guidance offices hot water coil"
+        },
+        {
+          "manufacturer": "Bell & Gossett",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for hydronic specialties including strainers and balancing valves that may be used with hot water coil systems"
+        },
+        {
+          "manufacturer": "Armstrong",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for hydronic specialties including strainers and balancing valves that may be used with hot water coil systems"
+        },
+        {
+          "manufacturer": "Taco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for hydronic specialties including strainers and balancing valves that may be used with hot water coil systems"
+        }
+      ]
+    },
+    {
+      "componentType": "Radiant Heating and Cooling Hydronic Panels",
+      "suppliers": [
+        {
+          "manufacturer": "Sterling HVAC",
+          "model": "Radiant Heating Panel - Hydronic",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD Manufacturer in mechanical schedules for all RCP-1 through RCP-24 radiant ceiling panels"
+        },
+        {
+          "manufacturer": "Beacon-Morris",
+          "model": "Radiant Heating Panel - Hydronic",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative for radiant heating panels with similar specifications"
+        },
+        {
+          "manufacturer": "Runtal",
+          "model": "Radiant Heating Panel - Hydronic",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Premium radiant panel manufacturer with compatible hydronic systems"
+        }
+      ]
+    }
+  ]
+}

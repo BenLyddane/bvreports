@@ -1,0 +1,36 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Consolidate heating equipment suppliers to reduce procurement complexity",
+      "rationale": "The project currently specifies multiple manufacturers for similar heating equipment (Stelpro for baseboard heaters, wall heaters, and Indeeco for duct heaters). Consolidating to fewer suppliers can streamline procurement, reduce administrative overhead, and potentially leverage volume discounts across multiple equipment types.",
+      "estimatedImpact": "Significant reduction in procurement administrative costs and potential volume pricing benefits across multiple equipment categories",
+      "implementation": "Evaluate if Stelpro can provide equivalent duct heater solutions to replace Indeeco specification, or negotiate package pricing with primary supplier for majority of heating equipment across all categories",
+      "priority": "Medium"
+    },
+    {
+      "id": 2,
+      "recommendation": "Establish integrated controls procurement strategy for Daintree system compatibility",
+      "rationale": "All heating equipment requires integration with Daintree Building Energy Management System. Coordinating procurement of controls components, thermostats, and integration hardware as a package deal can ensure compatibility and reduce field coordination issues.",
+      "estimatedImpact": "Meaningful reduction in integration costs and potential elimination of compatibility issues that could cause schedule delays",
+      "implementation": "Contact Daintree authorized distributors to procure integrated control packages for all heating equipment simultaneously, including thermostats, relays, and wiring components specified in equipment schedules",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Procure MERV-13 filters and maintenance components with initial equipment order",
+      "rationale": "The Energy Recovery Unit M-AC1 requires MERV-13 filters and the specification indicates ongoing maintenance needs. Ordering initial replacement filters and maintenance kits with the primary equipment can reduce future procurement costs and ensure proper filtration from startup.",
+      "estimatedImpact": "Modest cost savings on filter procurement and improved equipment performance through proper filtration availability",
+      "implementation": "Include 2-year supply of MERV-13 replacement filters and manufacturer maintenance kit in the Mitsubishi Electric LGH-F600RVX2 equipment order",
+      "priority": "Low"
+    },
+    {
+      "id": 4,
+      "recommendation": "Coordinate electrical disconnect and starter procurement with heating equipment",
+      "rationale": "Multiple equipment schedules specify NEMA 1 starters and disconnect switches as separate requirements. Bundling these electrical components with the main heating equipment orders can ensure proper sizing and compatibility while potentially reducing procurement costs.",
+      "estimatedImpact": "Moderate cost reduction through bundled electrical component pricing and guaranteed equipment compatibility",
+      "implementation": "Require heating equipment suppliers to provide properly sized NEMA 1 starters and disconnects as part of their equipment packages, ensuring all electrical requirements are met with single-source responsibility",
+      "priority": "Medium"
+    }
+  ]
+}

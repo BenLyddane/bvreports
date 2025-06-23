@@ -1,0 +1,178 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Tunstall (Purchasing)
+package projects
+JPMC Wayland 44 Main
+
+    packages
+
+MH
+Organization Logo
+JPMC Wayland - 44 Main
+Tunstall (Purchasing)
+Stakeholders
+44 Main St, Wayland, MA 01778
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Due Date
+	
+Action
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+M-EB3	Stelpro	Finned-Tube Radiation Heaters	AAULUX3	
+Annotation
+	
+M-EB4	Stelpro	Finned-Tube Radiation Heaters	AAULUX3	
+Annotation
+	
+M-EB5	Stelpro	Finned-Tube Radiation Heaters	AAULUX3	
+Annotation
+	
+M-EBE	Stelpro	Finned-Tube Radiation Heaters	AAULUX3	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+M-EDH	Indeeco	Unit Heaters	QUA	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+M-WH-1	Stelpro	Electric Unit Heaters	AWFA4002	
+Annotation
+	
+M-WH-2	Stelpro	Electric Unit Heaters	AWFA4002	
+Annotation
+	
+M-WH-3	Stelpro	Electric Unit Heaters	ASSO1502	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+M-AC1	Mitsubishi Electric (Including Trane Products)	Energy Recovery Units	LGH-F600RVX2	
+Annotation
+	
+https://app.buildvision.io/admin/organizations/75ae1f37-2abd-490a-8229-913f85bb2cef/package-projects/0eba4f26-2d0b-4311-b480-cbce2a15e892/packages
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Tunstall (Purchasing)
+package projects
+JPMC Wayland 44 Main
+
+    details
+
+MH
+Organization Logo
+JPMC Wayland - 44 Main
+Tunstall (Purchasing)
+Stakeholders
+44 Main St, Wayland, MA 01778
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+--
+Address
+44 Main St, Wayland, MA 01778
+Created
+6/17/2025
+Expected Start
+--
+Date Due
+--
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+--
+Request Type
+--
+Project Size
+--

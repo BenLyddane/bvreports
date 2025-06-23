@@ -1,0 +1,344 @@
+{
+  "equipmentByType": [
+    {
+      "equipmentType": "Cabinet Unit Heaters",
+      "notes": "Recessed wall ceiling units with bottom inlet and discharge grilles, modulating control capability",
+      "items": [
+        {
+          "equipmentTag": "CUH-A",
+          "manufacturer": "Mestek",
+          "model": "RC-03",
+          "specifications": {
+            "performanceGPM": "1.50",
+            "performanceCFM": "335",
+            "performanceMBH": "18.8",
+            "fanSpeed": "HIGH",
+            "pressureDrop": "0.16",
+            "leavingAirTemp": "104°F",
+            "amps": "0.80",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol"
+          }
+        },
+        {
+          "equipmentTag": "CUH-B",
+          "manufacturer": "Mestek",
+          "model": "RC-04",
+          "specifications": {
+            "performanceGPM": "2.50",
+            "performanceCFM": "430",
+            "performanceMBH": "24.8",
+            "fanSpeed": "HIGH",
+            "pressureDrop": "0.41",
+            "leavingAirTemp": "105°F",
+            "amps": "1.40",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol"
+          }
+        },
+        {
+          "equipmentTag": "CUH-C",
+          "manufacturer": "Mestek",
+          "model": "RW-03",
+          "specifications": {
+            "performanceGPM": "1.50",
+            "performanceCFM": "335",
+            "performanceMBH": "18.8",
+            "fanSpeed": "HIGH",
+            "pressureDrop": "0.16",
+            "leavingAirTemp": "104°F",
+            "amps": "0.80",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol"
+          }
+        },
+        {
+          "equipmentTag": "CUH-D",
+          "manufacturer": "Mestek",
+          "model": "RW-04",
+          "specifications": {
+            "performanceGPM": "2.50",
+            "performanceCFM": "430",
+            "performanceMBH": "24.8",
+            "fanSpeed": "HIGH",
+            "pressureDrop": "0.41",
+            "leavingAirTemp": "105°F",
+            "amps": "1.40",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Electric Unit Heaters",
+      "notes": "Electric heating units with fan control and BMS monitoring capability",
+      "items": [
+        {
+          "equipmentTag": "EH-A",
+          "manufacturer": "QMark",
+          "model": "EFF1500",
+          "specifications": {
+            "capacity": "1.5 kW",
+            "stages": "1",
+            "amps": "5.12",
+            "cfm": "150",
+            "leavingAirTemp": "90°F",
+            "voltage": "12.5",
+            "mountingType": "Recessed ceiling mounted",
+            "controlType": "24 volt control",
+            "bmsCapable": "Yes",
+            "inletAirTemp": "60°F"
+          }
+        },
+        {
+          "equipmentTag": "EWH-A",
+          "manufacturer": "QMark",
+          "model": "AWH4404F",
+          "specifications": {
+            "capacity": "3.0 kW",
+            "stages": "1",
+            "amps": "10.2",
+            "cfm": "100",
+            "leavingAirTemp": "90°F",
+            "voltage": "14.4",
+            "location": "STAIR-MP101.A",
+            "mountingType": "Wall mounted electric heater",
+            "inletAirTemp": "60°F"
+          }
+        },
+        {
+          "equipmentTag": "EUH-A",
+          "manufacturer": "QMark",
+          "model": "MUH05-21",
+          "specifications": {
+            "capacity": "3.7 kW",
+            "stages": "1",
+            "amps": "12.6",
+            "cfm": "350",
+            "fanSpeed": "1600",
+            "leavingAirTemp": "90°F",
+            "voltage": "18.0",
+            "location": "041 MAIN ELEC. ROOM",
+            "mountingType": "Suspended unit heater",
+            "inletAirTemp": "60°F"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Hydronic Unit Heaters",
+      "notes": "Horizontal unit heaters with hot water supply and return connections",
+      "items": [
+        {
+          "equipmentTag": "UH-1",
+          "manufacturer": "Mestek",
+          "model": "HS-125A",
+          "specifications": {
+            "performanceMBH": "27.8",
+            "performanceGPM": "3",
+            "performanceCFM": "580",
+            "pressureDrop": "100",
+            "physicalWeight": "lbs",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol",
+            "mountingType": "Horizontal"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Radiant Heating and Cooling Hydronic Panels",
+      "notes": "Ceiling mounted radiant panels with copper tubing and aluminum construction",
+      "items": [
+        {
+          "equipmentTag": "R-1",
+          "manufacturer": "Zehnder Rittling",
+          "model": "PR2F-1",
+          "specifications": {
+            "location": "V1A VESTIBULE",
+            "depth": "2 inches",
+            "height": "5.75 inches",
+            "length": "15'-0\"",
+            "gpm": "1.00",
+            "btuPerFoot": "395",
+            "totalBtuh": "5,925",
+            "tubingPasses": "1",
+            "enteringWaterTemp": "140°F",
+            "workingPressure": "86 PSIG",
+            "connections": "3/4\" connections"
+          }
+        },
+        {
+          "equipmentTag": "R-2",
+          "manufacturer": "Zehnder Rittling",
+          "model": "PR2F-1",
+          "specifications": {
+            "location": "V1A VESTIBULE",
+            "depth": "2 inches",
+            "height": "5.75 inches",
+            "length": "7'-6\"",
+            "gpm": "1.00",
+            "btuPerFoot": "395",
+            "totalBtuh": "2,962",
+            "tubingPasses": "1",
+            "enteringWaterTemp": "140°F",
+            "workingPressure": "86 PSIG",
+            "connections": "3/4\" connections"
+          }
+        },
+        {
+          "equipmentTag": "RP-1",
+          "manufacturer": "Armstrong World Industries",
+          "model": "AR-X",
+          "specifications": {
+            "size": "24 inches",
+            "width": "AS PER PLANS",
+            "tubing": "5/8\" copper",
+            "tubingPasses": "4",
+            "flow": "1.0 GPM",
+            "capacity": "218 BTUH/LF",
+            "operatingTemp": "170°F mean fluid temperature, 70°F space temperature",
+            "mountingType": "Lay-in T-bar ceiling mount"
+          }
+        },
+        {
+          "equipmentTag": "RP-2",
+          "manufacturer": "Armstrong World Industries",
+          "model": "AR-X",
+          "specifications": {
+            "size": "12 inches",
+            "width": "AS PER PLANS",
+            "tubing": "5/8\" copper",
+            "tubingPasses": "4",
+            "flow": "1.0 GPM",
+            "capacity": "218 BTUH/LF",
+            "operatingTemp": "170°F mean fluid temperature, 70°F space temperature",
+            "mountingType": "Lay-in T-bar ceiling mount"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Horizontal concealed units with hot water coils and ECM motors",
+      "items": [
+        {
+          "equipmentTag": "FCU-A",
+          "manufacturer": "Daikin Applied",
+          "model": "FCHC 06",
+          "specifications": {
+            "cfm": "600",
+            "esp": "0.05 inches WG",
+            "coilRows": "4",
+            "fanWaterPressureDrop": "4.4 ft WG",
+            "gpm": "65.2",
+            "leavingWaterTemp": "150°F",
+            "mbh": "147",
+            "coilWeight": "120 lbs",
+            "watts": "139",
+            "voltage": "4",
+            "phase": "Single",
+            "mountingType": "Horizontal concealed with hot water coil and ECM motor"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Noise Control Equipment",
+      "notes": "Vibration isolation and noise control curbs for rooftop equipment",
+      "items": [
+        {
+          "equipmentTag": "AHU-1b",
+          "manufacturer": "Vibro Acoustics",
+          "model": "NCC-VCR",
+          "specifications": {
+            "equipmentType": "ROOF TOP UNIT",
+            "curbHeight": "30 inches",
+            "supplyAirFlow": "6900 CFM",
+            "returnAirFlow": "6900 CFM",
+            "supplyPressureDrop": "0.35 in. WG",
+            "returnPressureDrop": "0.35 in. WG",
+            "minimumDeflection": "3 inches",
+            "seismicRestraintRequired": "NO"
+          }
+        },
+        {
+          "equipmentTag": "AHU-3",
+          "manufacturer": "Vibro Acoustics",
+          "model": "NCC-VCR",
+          "specifications": {
+            "equipmentType": "ROOF TOP UNIT",
+            "curbHeight": "30 inches",
+            "supplyAirFlow": "6300 CFM",
+            "returnAirFlow": "6300 CFM",
+            "supplyPressureDrop": "0.35 in. WG",
+            "returnPressureDrop": "0.35 in. WG",
+            "minimumDeflection": "3 inches",
+            "seismicRestraintRequired": "NO"
+          }
+        },
+        {
+          "equipmentTag": "AHU-4",
+          "manufacturer": "Vibro Acoustics",
+          "model": "NCC-VCR",
+          "specifications": {
+            "equipmentType": "ROOF TOP UNIT",
+            "curbHeight": "30 inches",
+            "supplyAirFlow": "2975 CFM",
+            "returnAirFlow": "2975 CFM",
+            "supplyPressureDrop": "0.35 in. WG",
+            "returnPressureDrop": "0.35 in. WG",
+            "minimumDeflection": "3 inches",
+            "seismicRestraintRequired": "NO"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Duct Silencers",
+      "notes": "Acoustic silencers for HVAC ductwork with various configurations",
+      "items": [
+        {
+          "equipmentTag": "SA-1A-R",
+          "manufacturer": "Vibro Acoustics",
+          "model": "RED-HV-AY32147",
+          "specifications": {
+            "service": "AHU-1a",
+            "width": "12 inches",
+            "height": "50 inches",
+            "length": "96 inches",
+            "cfm": "4400",
+            "area": "4.16 sq ft",
+            "velocity": "1056 FPM",
+            "pressureDrop": "0.26 in WG",
+            "direction": "Return",
+            "configuration": "Rectangular"
+          }
+        },
+        {
+          "equipmentTag": "SA-1A-S",
+          "manufacturer": "Vibro Acoustics",
+          "model": "RD-HV-AY32147",
+          "specifications": {
+            "service": "AHU-1a",
+            "width": "40 inches",
+            "height": "14 inches",
+            "length": "96 inches",
+            "cfm": "4400",
+            "area": "3.88 sq ft",
+            "velocity": "1131 FPM",
+            "pressureDrop": "0.16 in WG",
+            "direction": "Supply",
+            "configuration": "Rectangular"
+          }
+        }
+      ]
+    }
+  ]
+}

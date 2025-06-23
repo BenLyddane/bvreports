@@ -1,0 +1,44 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement Strategic Equipment Substitution for Packaged RTU Systems",
+      "rationale": "The project specifies Daikin Rebel units as basis of design for DOAS applications. Based on the market analysis, alternative manufacturers like Trane Horizon, AAON RN, Carrier 62 Series, and Captivaire Paragon offer significant procurement advantages. Captivaire units specifically provide exceptional value with delivery times of 4-6 weeks versus standard lead times, while maintaining competitive pricing and meeting project specifications.",
+      "estimatedImpact": "Significant reduction in project schedule risk due to shortened delivery times, meaningful cost savings compared to basis of design pricing, and improved project cashflow through faster equipment delivery",
+      "implementation": "Conduct detailed specification compliance review for Captivaire Paragon units, verify insulation specifications meet project requirements, prepare formal substitution request with engineering analysis, coordinate with design team for approval, and establish delivery schedule to optimize construction sequencing",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Diversify VRF System Supplier Strategy",
+      "rationale": "The project specifies extensive VRF systems with Daikin as basis of design. Market intelligence indicates LG and Samsung provide tier 2 alternatives with considerable cost savings and strong representative support in the NYC market. Additionally, the specifications incorrectly reference R-454B when Daikin uses R-32, creating an opportunity to optimize the refrigerant specification across suppliers.",
+      "estimatedImpact": "Substantial cost reduction through competitive tier 2 pricing, improved local service support through established NYC representatives, and simplified refrigerant coordination",
+      "implementation": "Develop comprehensive VRF supplier comparison including LG and Samsung alternatives, verify 3-pipe system compatibility with existing specifications, prepare cost-benefit analysis for tier 2 manufacturers, coordinate refrigerant specification correction with engineering team, and establish installation and service support agreements",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Optimize Pool Equipment Procurement Through Market Consolidation Understanding",
+      "rationale": "The natatorium specifications indicate Dectron equipment with notes that major pool unit manufacturers have been consolidated under single ownership. This market condition creates procurement opportunities through understanding that Dectron, Poolpak, and Seresco essentially offer the same product line, allowing for competitive bidding optimization.",
+      "estimatedImpact": "Enhanced negotiating position through supplier consolidation awareness, potential cost savings through competitive positioning of essentially equivalent products, and improved delivery scheduling through multiple supplier pathways",
+      "implementation": "Engage all three consolidated manufacturers simultaneously for competitive pricing, leverage market consolidation knowledge in negotiations, establish delivery timeline comparisons, and verify technical specifications equivalency across the consolidated product lines",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Establish Fan Equipment Procurement Efficiency Strategy",
+      "rationale": "The project includes various fan applications with Greenheck (ADE Systems) and Loren Cook (SRS Enterprises) as primary suppliers. The specifications note less competitive advantage for standalone fan purchases compared to compressorized units, suggesting bundling opportunities for improved procurement efficiency.",
+      "estimatedImpact": "Modest cost optimization through strategic bundling, reduced administrative overhead through consolidated purchasing, and improved delivery coordination",
+      "implementation": "Evaluate fan requirements across all project systems, assess bundling opportunities with primary equipment suppliers, compare standalone versus integrated fan procurement costs, coordinate delivery schedules for optimal construction sequencing, and establish service support consistency across fan suppliers",
+      "priority": "Low"
+    },
+    {
+      "id": 5,
+      "recommendation": "Implement Proactive Roof Curb Coordination Strategy",
+      "rationale": "The specifications explicitly note that roof curbs are called for by mechanical contractor but must be included in equipment purchases if RTUs are procured separately. This coordination requirement presents both risk and opportunity for cost optimization and schedule management.",
+      "estimatedImpact": "Significant reduction in project schedule delays, elimination of potential coordination conflicts, and meaningful cost control through integrated procurement approach",
+      "implementation": "Confirm roof curb inclusion in all RTU equipment packages, establish clear responsibility matrix between equipment suppliers and installation contractors, coordinate curb specifications with roofing contractor requirements, and create delivery sequencing plan to support construction schedule optimization",
+      "priority": "High"
+    }
+  ]
+}

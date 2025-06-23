@@ -1,0 +1,1004 @@
+{
+  "reportTitle": "BuildVision Project Report for UConn Field House - Old Rec Center Renovation",
+  "customerInformation": {
+    "customerName": "University of Connecticut",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "20210041",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "UConn Field House - Old Rec Center Renovation",
+    "location": "2111 Hillside Rd, Storrs, CT 06269",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "Field House - Old Rec Center Renovation - Phase 2",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/75ae1f37-2abd-490a-8229-913f85bb2cef/package-projects/c634fccd-cd37-4c4a-bd2e-6f3ce6cf0ec6/details",
+    "additionalFields": {
+      "projectNumber": "300209",
+      "phase": "Phase 2"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": "2025-06-17"
+  },
+  "equipmentByType": [
+    {
+      "equipmentType": "Cabinet Unit Heaters",
+      "notes": "Recessed wall ceiling units with bottom inlet and discharge grilles, modulating control capability",
+      "items": [
+        {
+          "equipmentTag": "CUH-A",
+          "manufacturer": "Mestek",
+          "model": "RC-03",
+          "specifications": {
+            "performanceGPM": "1.50",
+            "performanceCFM": "335",
+            "performanceMBH": "18.8",
+            "fanSpeed": "HIGH",
+            "pressureDrop": "0.16",
+            "leavingAirTemp": "104°F",
+            "amps": "0.80",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol"
+          }
+        },
+        {
+          "equipmentTag": "CUH-B",
+          "manufacturer": "Mestek",
+          "model": "RC-04",
+          "specifications": {
+            "performanceGPM": "2.50",
+            "performanceCFM": "430",
+            "performanceMBH": "24.8",
+            "fanSpeed": "HIGH",
+            "pressureDrop": "0.41",
+            "leavingAirTemp": "105°F",
+            "amps": "1.40",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol"
+          }
+        },
+        {
+          "equipmentTag": "CUH-C",
+          "manufacturer": "Mestek",
+          "model": "RW-03",
+          "specifications": {
+            "performanceGPM": "1.50",
+            "performanceCFM": "335",
+            "performanceMBH": "18.8",
+            "fanSpeed": "HIGH",
+            "pressureDrop": "0.16",
+            "leavingAirTemp": "104°F",
+            "amps": "0.80",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol"
+          }
+        },
+        {
+          "equipmentTag": "CUH-D",
+          "manufacturer": "Mestek",
+          "model": "RW-04",
+          "specifications": {
+            "performanceGPM": "2.50",
+            "performanceCFM": "430",
+            "performanceMBH": "24.8",
+            "fanSpeed": "HIGH",
+            "pressureDrop": "0.41",
+            "leavingAirTemp": "105°F",
+            "amps": "1.40",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Electric Unit Heaters",
+      "notes": "Electric heating units with fan control and BMS monitoring capability",
+      "items": [
+        {
+          "equipmentTag": "EH-A",
+          "manufacturer": "QMark",
+          "model": "EFF1500",
+          "specifications": {
+            "capacity": "1.5 kW",
+            "stages": "1",
+            "amps": "5.12",
+            "cfm": "150",
+            "leavingAirTemp": "90°F",
+            "voltage": "12.5",
+            "mountingType": "Recessed ceiling mounted",
+            "controlType": "24 volt control",
+            "bmsCapable": "Yes",
+            "inletAirTemp": "60°F"
+          }
+        },
+        {
+          "equipmentTag": "EWH-A",
+          "manufacturer": "QMark",
+          "model": "AWH4404F",
+          "specifications": {
+            "capacity": "3.0 kW",
+            "stages": "1",
+            "amps": "10.2",
+            "cfm": "100",
+            "leavingAirTemp": "90°F",
+            "voltage": "14.4",
+            "location": "STAIR-MP101.A",
+            "mountingType": "Wall mounted electric heater",
+            "inletAirTemp": "60°F"
+          }
+        },
+        {
+          "equipmentTag": "EUH-A",
+          "manufacturer": "QMark",
+          "model": "MUH05-21",
+          "specifications": {
+            "capacity": "3.7 kW",
+            "stages": "1",
+            "amps": "12.6",
+            "cfm": "350",
+            "fanSpeed": "1600",
+            "leavingAirTemp": "90°F",
+            "voltage": "18.0",
+            "location": "041 MAIN ELEC. ROOM",
+            "mountingType": "Suspended unit heater",
+            "inletAirTemp": "60°F"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Hydronic Unit Heaters",
+      "notes": "Horizontal unit heaters with hot water supply and return connections",
+      "items": [
+        {
+          "equipmentTag": "UH-1",
+          "manufacturer": "Mestek",
+          "model": "HS-125A",
+          "specifications": {
+            "performanceMBH": "27.8",
+            "performanceGPM": "3",
+            "performanceCFM": "580",
+            "pressureDrop": "100",
+            "physicalWeight": "lbs",
+            "hwsBranchPipeSize": "3/4\"",
+            "operatingTemp": "180°F EWT, 160°F LWT, 60°F EAT",
+            "glycolConcentration": "30% Propylene Glycol",
+            "mountingType": "Horizontal"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Radiant Heating and Cooling Hydronic Panels",
+      "notes": "Ceiling mounted radiant panels with copper tubing and aluminum construction",
+      "items": [
+        {
+          "equipmentTag": "R-1",
+          "manufacturer": "Zehnder Rittling",
+          "model": "PR2F-1",
+          "specifications": {
+            "location": "V1A VESTIBULE",
+            "depth": "2 inches",
+            "height": "5.75 inches",
+            "length": "15'-0\"",
+            "gpm": "1.00",
+            "btuPerFoot": "395",
+            "totalBtuh": "5,925",
+            "tubingPasses": "1",
+            "enteringWaterTemp": "140°F",
+            "workingPressure": "86 PSIG",
+            "connections": "3/4\" connections"
+          }
+        },
+        {
+          "equipmentTag": "R-2",
+          "manufacturer": "Zehnder Rittling",
+          "model": "PR2F-1",
+          "specifications": {
+            "location": "V1A VESTIBULE",
+            "depth": "2 inches",
+            "height": "5.75 inches",
+            "length": "7'-6\"",
+            "gpm": "1.00",
+            "btuPerFoot": "395",
+            "totalBtuh": "2,962",
+            "tubingPasses": "1",
+            "enteringWaterTemp": "140°F",
+            "workingPressure": "86 PSIG",
+            "connections": "3/4\" connections"
+          }
+        },
+        {
+          "equipmentTag": "RP-1",
+          "manufacturer": "Armstrong World Industries",
+          "model": "AR-X",
+          "specifications": {
+            "size": "24 inches",
+            "width": "AS PER PLANS",
+            "tubing": "5/8\" copper",
+            "tubingPasses": "4",
+            "flow": "1.0 GPM",
+            "capacity": "218 BTUH/LF",
+            "operatingTemp": "170°F mean fluid temperature, 70°F space temperature",
+            "mountingType": "Lay-in T-bar ceiling mount"
+          }
+        },
+        {
+          "equipmentTag": "RP-2",
+          "manufacturer": "Armstrong World Industries",
+          "model": "AR-X",
+          "specifications": {
+            "size": "12 inches",
+            "width": "AS PER PLANS",
+            "tubing": "5/8\" copper",
+            "tubingPasses": "4",
+            "flow": "1.0 GPM",
+            "capacity": "218 BTUH/LF",
+            "operatingTemp": "170°F mean fluid temperature, 70°F space temperature",
+            "mountingType": "Lay-in T-bar ceiling mount"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Fan Coil Units",
+      "notes": "Horizontal concealed units with hot water coils and ECM motors",
+      "items": [
+        {
+          "equipmentTag": "FCU-A",
+          "manufacturer": "Daikin Applied",
+          "model": "FCHC 06",
+          "specifications": {
+            "cfm": "600",
+            "esp": "0.05 inches WG",
+            "coilRows": "4",
+            "fanWaterPressureDrop": "4.4 ft WG",
+            "gpm": "65.2",
+            "leavingWaterTemp": "150°F",
+            "mbh": "147",
+            "coilWeight": "120 lbs",
+            "watts": "139",
+            "voltage": "4",
+            "phase": "Single",
+            "mountingType": "Horizontal concealed with hot water coil and ECM motor"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Noise Control Equipment",
+      "notes": "Vibration isolation and noise control curbs for rooftop equipment",
+      "items": [
+        {
+          "equipmentTag": "AHU-1b",
+          "manufacturer": "Vibro Acoustics",
+          "model": "NCC-VCR",
+          "specifications": {
+            "equipmentType": "ROOF TOP UNIT",
+            "curbHeight": "30 inches",
+            "supplyAirFlow": "6900 CFM",
+            "returnAirFlow": "6900 CFM",
+            "supplyPressureDrop": "0.35 in. WG",
+            "returnPressureDrop": "0.35 in. WG",
+            "minimumDeflection": "3 inches",
+            "seismicRestraintRequired": "NO"
+          }
+        },
+        {
+          "equipmentTag": "AHU-3",
+          "manufacturer": "Vibro Acoustics",
+          "model": "NCC-VCR",
+          "specifications": {
+            "equipmentType": "ROOF TOP UNIT",
+            "curbHeight": "30 inches",
+            "supplyAirFlow": "6300 CFM",
+            "returnAirFlow": "6300 CFM",
+            "supplyPressureDrop": "0.35 in. WG",
+            "returnPressureDrop": "0.35 in. WG",
+            "minimumDeflection": "3 inches",
+            "seismicRestraintRequired": "NO"
+          }
+        },
+        {
+          "equipmentTag": "AHU-4",
+          "manufacturer": "Vibro Acoustics",
+          "model": "NCC-VCR",
+          "specifications": {
+            "equipmentType": "ROOF TOP UNIT",
+            "curbHeight": "30 inches",
+            "supplyAirFlow": "2975 CFM",
+            "returnAirFlow": "2975 CFM",
+            "supplyPressureDrop": "0.35 in. WG",
+            "returnPressureDrop": "0.35 in. WG",
+            "minimumDeflection": "3 inches",
+            "seismicRestraintRequired": "NO"
+          }
+        }
+      ]
+    },
+    {
+      "equipmentType": "Duct Silencers",
+      "notes": "Acoustic silencers for HVAC ductwork with various configurations",
+      "items": [
+        {
+          "equipmentTag": "SA-1A-R",
+          "manufacturer": "Vibro Acoustics",
+          "model": "RED-HV-AY32147",
+          "specifications": {
+            "service": "AHU-1a",
+            "width": "12 inches",
+            "height": "50 inches",
+            "length": "96 inches",
+            "cfm": "4400",
+            "area": "4.16 sq ft",
+            "velocity": "1056 FPM",
+            "pressureDrop": "0.26 in WG",
+            "direction": "Return",
+            "configuration": "Rectangular"
+          }
+        },
+        {
+          "equipmentTag": "SA-1A-S",
+          "manufacturer": "Vibro Acoustics",
+          "model": "RD-HV-AY32147",
+          "specifications": {
+            "service": "AHU-1a",
+            "width": "40 inches",
+            "height": "14 inches",
+            "length": "96 inches",
+            "cfm": "4400",
+            "area": "3.88 sq ft",
+            "velocity": "1131 FPM",
+            "pressureDrop": "0.16 in WG",
+            "direction": "Supply",
+            "configuration": "Rectangular"
+          }
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "componentType": "Cabinet Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Mestek",
+          "model": "RC-03, RC-04, RW-03, RW-04",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedules as BoD Manufacturer for Cabinet Unit Heaters tags CUH-A through CUH-D"
+        },
+        {
+          "manufacturer": "QMark",
+          "model": "AWH4404F",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed on mechanical schedules as BoD Manufacturer for Cabinet Unit Heaters tag EWH-A"
+        },
+        {
+          "manufacturer": "Vulcan",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for Unit Heaters in specification Section 238200"
+        },
+        {
+          "manufacturer": "Sterling",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for Unit Heaters and Cabinet Unit Heaters in specification Section 238200"
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for Unit Heaters, Cabinet Unit Heaters, and Electric Unit Heaters in specification Section 238200"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for Unit Heaters and Cabinet Unit Heaters in specification Section 238200"
+        }
+      ]
+    },
+    {
+      "componentType": "Electric Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "QMark",
+          "model": "EFF1500, AWH4404F, MUH05-21",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "QMark appears as the manufacturer for electric heaters EH-A, EWH-A, and EUH-A in the equipment schedules, making them the basis of design for this project."
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer for electric unit heaters in specification section 238200"
+        },
+        {
+          "manufacturer": "Indeeco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as an acceptable manufacturer for electric unit heaters in specification section 238200"
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Well-known manufacturer of electric heating equipment, commonly used as alternate for electric unit heaters"
+        },
+        {
+          "manufacturer": "Berko",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Established manufacturer of electric heating equipment suitable for similar applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Hydronic Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Mestek",
+          "model": "HS-125A",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Horizontal hydronic unit heater, 27.8 MBH capacity at 180°F EWT, 160°F LWT, 60°F EAT, 30% propylene glycol"
+        },
+        {
+          "manufacturer": "Vulcan",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for unit heaters in Section 238200"
+        },
+        {
+          "manufacturer": "Sterling",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for unit heaters in Section 238200"
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for unit heaters in Section 238200"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for unit heaters in Section 238200"
+        }
+      ]
+    },
+    {
+      "componentType": "Radiant Heating and Cooling Hydronic Panels",
+      "suppliers": [
+        {
+          "manufacturer": "Zehnder Rittling",
+          "model": "PR2F-1",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Equipment tags R-1 and R-2 on mechanical schedules"
+        },
+        {
+          "manufacturer": "Armstrong World Industries",
+          "model": "AR-X",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Equipment tags RP-1 and RP-2 on mechanical schedules. Listed as 'AIRTITE' in hydronic radiant ceiling panel schedule"
+        },
+        {
+          "manufacturer": "Runtal",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard alternative for radiant panel radiators"
+        },
+        {
+          "manufacturer": "Myson",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard alternative for radiant panel radiators"
+        },
+        {
+          "manufacturer": "Buderus",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Industry standard alternative for radiant heating panels"
+        }
+      ]
+    },
+    {
+      "componentType": "Fan Coil Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "FCHC 06",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Horizontal Fan Coil Unit specified in schedule"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for various fan coil units and air terminal equipment"
+        },
+        {
+          "manufacturer": "Price Industries",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for air terminal units including VAV boxes with controls"
+        },
+        {
+          "manufacturer": "Johnson Controls Inc. / Enviro-Tec",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for air terminal units"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+8%",
+          "compatibilityNotes": "Industry standard alternative for fan coil units, may require different piping connections"
+        },
+        {
+          "manufacturer": "York",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Compatible alternative for horizontal fan coil applications"
+        }
+      ]
+    },
+    {
+      "componentType": "Noise Control Equipment",
+      "suppliers": [
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "NCC-VCR",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Noise Control Curbs for AHU-1b, AHU-3, and AHU-4"
+        },
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "RED",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Duct Silencers for various air handling systems"
+        },
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "RD",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Duct Silencers for various air handling systems"
+        },
+        {
+          "manufacturer": "IAC",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative manufacturer for duct silencers"
+        },
+        {
+          "manufacturer": "Kinetics Noise Control",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative manufacturer for duct silencers and noise control equipment"
+        },
+        {
+          "manufacturer": "McGill AirSilence",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative manufacturer for duct silencers"
+        },
+        {
+          "manufacturer": "Ruskin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative manufacturer for duct silencers"
+        }
+      ]
+    },
+    {
+      "componentType": "Duct Silencers",
+      "suppliers": [
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "RD",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Multiple models including RD-HV-AY32147, RD-MV-AY32147, RD-MHV-AY32147, RD-UHV-AY32147"
+        },
+        {
+          "manufacturer": "Vibro Acoustics",
+          "model": "RED",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Multiple models including RED-HV-AY32147, RED-MHV-AY32147, RED-MLV-AY32147, RED-UHV-AY32147"
+        },
+        {
+          "manufacturer": "IAC",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate manufacturer in Section 23 3300"
+        },
+        {
+          "manufacturer": "Kinetics Noise Control",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate manufacturer in Section 23 3300"
+        },
+        {
+          "manufacturer": "McGill AirSilence",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate manufacturer in Section 23 3300"
+        },
+        {
+          "manufacturer": "Ruskin",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable alternate manufacturer in Section 23 3300"
+        }
+      ]
+    }
+  ],
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement Standardized HVAC Equipment Strategy",
+      "rationale": "The project requires numerous manufacturers across various HVAC equipment categories. Having too many different manufacturers increases inventory complexity, maintenance training requirements, and spare parts management. The specifications show multiple acceptable manufacturers for fans, valves, pumps, and other equipment, which can lead to procurement challenges and higher long-term costs.",
+      "estimatedImpact": "Significant reduction in maintenance costs and training requirements. Lower spare parts inventory costs and streamlined maintenance procedures.",
+      "implementation": "Establish preferred manufacturer lists for each equipment category early in the procurement process. Prioritize manufacturers with strong local service support within 100 miles of the project. Create equipment standardization guidelines that limit the number of manufacturers per category while maintaining competitive bidding.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Establish Equipment Service and Support Requirements",
+      "rationale": "The specifications repeatedly reference manufacturer requirements for service facilities within 100 miles and minimum three years of documented experience. This indicates the importance of reliable service support, but procurement should verify these capabilities upfront to avoid future service issues.",
+      "estimatedImpact": "Reduced downtime and faster response times for equipment repairs. Lower lifecycle costs due to better maintenance support.",
+      "implementation": "Include service capability verification as part of the procurement evaluation criteria. Require manufacturers to provide documentation of local service centers, certified technicians, and parts availability. Consider weighting these factors in the equipment selection process.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Optimize Valve and Control Component Procurement",
+      "rationale": "The project includes extensive valve schedules and specifications for different pressure classes and applications. The specifications show detailed valve requirements for various services (hot water, steam, cooling) with specific manufacturers. Coordinating valve procurement with system requirements can achieve better pricing and compatibility.",
+      "estimatedImpact": "Moderate cost savings through bulk procurement and improved system compatibility. Reduced installation complexity.",
+      "implementation": "Bundle valve procurement by system type and pressure class. Coordinate with the controls contractor early to ensure compatibility between valves and actuators. Consider pre-fabricated valve assemblies where appropriate to reduce field labor.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Implement Vibration Isolation Equipment Coordination",
+      "rationale": "The specifications require extensive vibration isolation for various equipment including pumps, fans, and AHUs. The requirements vary by equipment type, location, and capacity. Coordinating isolation requirements early can prevent compatibility issues and ensure proper system performance.",
+      "estimatedImpact": "Improved system performance and reduced noise transmission. Prevention of costly rework due to inadequate vibration control.",
+      "implementation": "Create a comprehensive vibration isolation matrix that matches equipment types with appropriate isolation requirements. Coordinate with structural engineers to ensure adequate support for isolated equipment. Verify that all isolation components are from the same manufacturer family for compatibility.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Establish Testing and Commissioning Equipment Requirements",
+      "rationale": "The specifications include extensive testing requirements for ductwork leakage, hydronic systems, and equipment performance. The testing requirements are detailed but may require specialized equipment and certified personnel that should be considered during procurement planning.",
+      "estimatedImpact": "Ensured system performance and warranty compliance. Reduced risk of system deficiencies and callbacks.",
+      "implementation": "Include testing equipment and certified personnel requirements in the procurement planning phase. Verify that contractors have access to required testing equipment or budget for rental/purchase. Coordinate testing schedules to avoid conflicts between different systems.",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Coordinate Control System Integration Requirements",
+      "rationale": "The project includes DDC controls, building automation systems, and various control sequences. The specifications reference BACnet communication and integration with existing campus systems. Early coordination of control system requirements can prevent compatibility issues and reduce programming costs.",
+      "estimatedImpact": "Seamless system integration and reduced commissioning time. Lower long-term operational costs through integrated control.",
+      "implementation": "Establish control system architecture requirements early in procurement. Verify BACnet compatibility and integration capabilities with existing campus systems. Coordinate with UConn IT and facilities management to ensure proper network integration and security protocols.",
+      "priority": "High"
+    }
+  ],
+  "conclusion": {
+    "summary": "The UConn Field House - Old Rec Center Renovation project requires comprehensive procurement of HVAC equipment including cabinet unit heaters, electric unit heaters, hydronic systems, radiant panels, fan coil units, and noise control equipment. The project specifications detail extensive requirements for vibration isolation, control systems integration, and testing protocols. Key procurement considerations include managing multiple manufacturer options across equipment categories, ensuring adequate local service support within 100 miles, and coordinating control system integration with existing campus BACnet infrastructure.",
+    "keyFindings": [
+      "Multiple approved manufacturers exist for most equipment categories, creating opportunities for competitive pricing but requiring careful coordination to avoid compatibility issues and excessive spare parts inventory",
+      "Extensive vibration isolation and noise control requirements throughout the project demand specialized equipment and proper coordination between trades to ensure performance specifications are met",
+      "Control system integration with existing campus BACnet infrastructure requires early coordination with UConn IT and facilities management to ensure seamless operation and security compliance",
+      "Comprehensive testing requirements for ductwork leakage, hydronic systems, and equipment performance necessitate specialized testing equipment and certified personnel that must be factored into procurement planning",
+      "Service support requirements specify manufacturers must have facilities within 100 miles and minimum three years documented experience, indicating the critical importance of long-term maintenance capabilities"
+    ],
+    "highestPriorityActions": [
+      "Establish preferred manufacturer lists for each equipment category early in procurement to balance competitive pricing with standardization benefits and coordinate with UConn facilities management for input on preferred vendors",
+      "Verify manufacturer service capabilities including local service centers, certified technicians, and parts availability within 100 miles before final equipment selection to ensure adequate long-term support",
+      "Coordinate control system integration requirements with UConn IT and existing campus BACnet infrastructure early in the procurement process to prevent compatibility issues and ensure proper network security protocols",
+      "Bundle procurement of similar equipment types and validate vibration isolation compatibility across all equipment to achieve better pricing and ensure proper system performance throughout the facility"
+    ]
+  }
+}

@@ -1,0 +1,1387 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Packaged Rooftop Air-Conditioning Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "DHSA031",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules for ASHP-2-1, ASHP-2-2, ASHP-2-3"
+        },
+        {
+          "manufacturer": "Daikin Applied",
+          "model": "DPSH25B",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Appears on mechanical schedules for ASHP-2-4, DOAS-2-1"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "Horizon",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Competes with Daikin Rebel DOAS capable rooftop units"
+        },
+        {
+          "manufacturer": "Valent / Greenheck",
+          "model": "RV",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Klima / ADE",
+            "company": "Klima for Valent, ADE for Greenheck",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "ADE doesn't love to bid the Greenheck unit unless they are BoD"
+        },
+        {
+          "manufacturer": "AAON",
+          "model": "RN",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "Gil-Bar",
+            "company": "Gil-Bar",
+            "contact": ""
+          },
+          "costDifference": "Typically at parity in NYC market, price deduct in Boston",
+          "compatibilityNotes": "Gil-Bar usually bids AAON unit over York unit for DOAS"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "62 Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Carrier NYC",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": ""
+        },
+        {
+          "manufacturer": "Captivaire",
+          "model": "Paragon",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "Air Control Concepts or direct from factory",
+            "contact": ""
+          },
+          "costDifference": "Usually very cost competitive relative to Daikin units",
+          "compatibilityNotes": "Construction isn't quite as robust - unpainted galvanized steel instead of painted. Check insulation spec. 4-6 weeks lead time vs Daikin"
+        },
+        {
+          "manufacturer": "Nortek",
+          "model": "Governaire",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Standard rooftop unit manufacturer option"
+        },
+        {
+          "manufacturer": "Seasons 4",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Standard rooftop unit manufacturer option"
+        },
+        {
+          "manufacturer": "Engineered Air",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Standard rooftop unit manufacturer option"
+        }
+      ]
+    },
+    {
+      "componentType": "Liquid Coolers",
+      "suppliers": [
+        {
+          "manufacturer": "Dectron",
+          "model": "NG-V-01",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Liquid cooler model listed on mechanical schedule for equipment tag DCU-2-1 in natatorium dehumidifier and remote drycooler system"
+        },
+        {
+          "manufacturer": "Poolpak",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pool unit manufacturer mentioned in ben-remarks.txt as acceptable alternative for natatorium dehumidification systems"
+        },
+        {
+          "manufacturer": "Seresco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pool unit manufacturer mentioned in ben-remarks.txt as acceptable alternative for natatorium dehumidification systems"
+        },
+        {
+          "manufacturer": "DesertAire",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative pool unit manufacturer noted in ben-remarks.txt, though more difficult to get approved with tight Dectron/Poolpak/Seresco specifications"
+        },
+        {
+          "manufacturer": "VentWell",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pool unit manufacturer mentioned in ben-remarks.txt but with limited confidence in unit selections and cabinet construction. Purchased designs from European manufacturer and builds one-off units in PA factory"
+        }
+      ]
+    },
+    {
+      "componentType": "Dehumidifiers",
+      "suppliers": [
+        {
+          "manufacturer": "Dectron",
+          "model": "DS-010-NP",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Natatorium dehumidifier for wet area dehumidification - 760 CFM SA, 260 CFM OA"
+        },
+        {
+          "manufacturer": "Poolpak",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pool unit manufacturer - part of same company that purchased all three major pool unit manufacturers"
+        },
+        {
+          "manufacturer": "Seresco",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Pool unit manufacturer - exclusive for compressor wall systems"
+        },
+        {
+          "manufacturer": "DesertAire",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Only real alternative to Dectron/Poolpak/Seresco - may be difficult to get approved for tight specifications"
+        },
+        {
+          "manufacturer": "Therma-Stor",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for dehumidification applications"
+        },
+        {
+          "manufacturer": "Quest",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for dehumidification applications"
+        }
+      ]
+    },
+    {
+      "componentType": "VRF Indoor Units - Ductless",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FXZA05, FXZA07, FXZA09AAVJU, FXZA12, FXZA15, FXZA18, FXAA18",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as BoD Manufacturer in dashboard for VRF Indoor Units - Ductless equipment tags AC-A through AC-G"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 1 premium VRF, most common. Trane rebrands Mitsubishi."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "Usually considerable cost savings over Daikin / Mitsubishi",
+          "compatibilityNotes": "Tier 2 second most common. Good reps in NYC and 3-pipe."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "Usually considerable cost savings over Daikin / Mitsubishi",
+          "compatibilityNotes": "Tier 2 second most common. Good reps in NYC and 3-pipe."
+        },
+        {
+          "manufacturer": "Toshiba",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 3 reps trying to get a piece of the market share. Usually less VRF focused and smaller part of the total reps' portfolio."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suitable alternative manufacturer for VRF systems with established market presence."
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 3 alternative with established HVAC product line, suitable for VRF indoor ductless applications."
+        }
+      ]
+    },
+    {
+      "componentType": "VRF Indoor Units - Ducted",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Comfort Technologies",
+          "model": "FXMA48",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Ducted VRF indoor unit appearing on mechanical schedules as BoD manufacturer for AC-H"
+        },
+        {
+          "manufacturer": "Daikin Comfort Technologies",
+          "model": "FBA24",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Ducted VRF indoor unit appearing on mechanical schedules as BoD manufacturer for AC-I"
+        },
+        {
+          "manufacturer": "Daikin Comfort Technologies",
+          "model": "FXSA12",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Ducted VRF indoor unit appearing on mechanical schedules as BoD manufacturer for AC-J"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 1 premium VRF manufacturer listed as alternate in specifications. Most common alternative to Daikin."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 2 VRF manufacturer with good reps in NYC and 3-pipe systems. Usually considerable cost savings over Daikin/Mitsubishi."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 2 VRF manufacturer with good reps in NYC and 3-pipe systems. Usually considerable cost savings over Daikin/Mitsubishi."
+        },
+        {
+          "manufacturer": "Toshiba Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 3 manufacturer trying to gain market share. Smaller part of rep portfolio compared to Tier 1/2 options."
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative VRF manufacturer suitable for ducted indoor units when compatible with project requirements."
+        }
+      ]
+    },
+    {
+      "componentType": "VRF Outdoor Units",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "Various (REYA72, REYA96, REYA144, REYA192, RXTA24)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as manufacturer on mechanical schedules for VRF Outdoor Units"
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 1 premium VRF, most common. Trane rebrands Mitsubishi"
+        },
+        {
+          "manufacturer": "LG",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 2 second most common. Good reps in NYC and 3-pipe. Usually considerable cost savings over Daikin/Mitsubishi"
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 2 second most common. Good reps in NYC and 3-pipe. Usually considerable cost savings over Daikin/Mitsubishi"
+        },
+        {
+          "manufacturer": "Toshiba Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 3 manufacturer, less VRF focused and smaller part of total reps' portfolio"
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 3 manufacturer, less VRF focused and smaller part of total reps' portfolio"
+        },
+        {
+          "manufacturer": "Midea",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 3 manufacturer, less VRF focused and smaller part of total reps' portfolio"
+        }
+      ]
+    },
+    {
+      "componentType": "Centrifugal HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "LF Systems",
+          "model": "LES008",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as basis of design in mechanical schedules for dryer exhaust fan DEX-2-1"
+        },
+        {
+          "manufacturer": "Greenheck",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for various fan types in specifications"
+        },
+        {
+          "manufacturer": "Cook",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for in-line centrifugal fans in specifications"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for in-line centrifugal fans in specifications"
+        },
+        {
+          "manufacturer": "Aerovent",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for in-line centrifugal fans in specifications"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for centrifugal fans in specifications"
+        },
+        {
+          "manufacturer": "American Coolair",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for in-line centrifugal fans in specifications"
+        },
+        {
+          "manufacturer": "Twin City",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for in-line centrifugal fans in specifications"
+        },
+        {
+          "manufacturer": "Chicago Blower",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested suitable alternative manufacturer for centrifugal HVAC fans with extensive product line for industrial and commercial applications"
+        },
+        {
+          "manufacturer": "Penn Fan",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Suggested suitable alternative manufacturer specializing in centrifugal fans for HVAC applications"
+        }
+      ]
+    },
+    {
+      "componentType": "HVAC Fans",
+      "suppliers": [
+        {
+          "manufacturer": "Greenheck",
+          "model": "CUE-100HP-VG",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "ADE Systems",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "ADE Systems represents Greenheck for fans"
+        },
+        {
+          "manufacturer": "LF Systems",
+          "model": "LES008",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "SRS Enterprises",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Dryer exhaust fan application"
+        },
+        {
+          "manufacturer": "Loren Cook",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "SRS Enterprises",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as alternate in specifications. SRS Enterprises represents Loren Cook fans"
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for in-line centrifugal fans"
+        },
+        {
+          "manufacturer": "Aerovent",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for in-line centrifugal fans"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for multiple fan types"
+        }
+      ]
+    },
+    {
+      "componentType": "Single-Duct VAV Terminal Units",
+      "suppliers": [
+        {
+          "manufacturer": "Price Industries",
+          "model": "SDE Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design manufacturer shown on mechanical schedules for Single-Duct VAV Terminal Units"
+        },
+        {
+          "manufacturer": "Titus",
+          "model": "DESV Series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as basis of design in specifications and shown on mechanical schedules for Single-Duct VAV Terminal Units"
+        },
+        {
+          "manufacturer": "Anemostat",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Metal Aire",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Enviro-Tec",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Carnes",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications"
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Suitable alternative manufacturer for single-duct VAV terminal units with comparable performance specifications"
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+2%",
+          "compatibilityNotes": "Alternative manufacturer offering single-duct VAV terminal units with similar control capabilities"
+        }
+      ]
+    },
+    {
+      "componentType": "Fan-Powered VAV Terminal Units",
+      "suppliers": [
+        {
+          "manufacturer": "Titus",
+          "model": "DTQP",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design manufacturer appearing on mechanical schedules for Fan-Powered VAV Terminal Units equipment tag FPB-A"
+        },
+        {
+          "manufacturer": "Anemostat",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications Section 23 36 00"
+        },
+        {
+          "manufacturer": "Enviro-Tec",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications Section 23 36 00"
+        },
+        {
+          "manufacturer": "Carnes",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications Section 23 36 00"
+        },
+        {
+          "manufacturer": "Metal Aire",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications Section 23 36 00"
+        },
+        {
+          "manufacturer": "Nailor",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for fan-powered VAV terminal units with similar product offerings"
+        },
+        {
+          "manufacturer": "Krueger",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Additional suitable manufacturer for fan-powered VAV terminal units with compatible features"
+        }
+      ]
+    },
+    {
+      "componentType": "Electric Baseboard Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Stelpro",
+          "model": "AALUX series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Various models shown on mechanical schedules including AALUX215077, AALUX206038, AALUX327227, AALUX324207, AALUX209047, AALUX221107, AALUX227137, AALUX224127, AALUX218097"
+        },
+        {
+          "manufacturer": "Q-Mark",
+          "model": "QMKC",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as design basis in specifications Section 23 82 39, 18 gauge front cover and brackets, 120V thermostat or BMS thermostat, UL Listed"
+        },
+        {
+          "manufacturer": "Marley Engineered Products",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Industry standard electric baseboard heater manufacturer, comparable specifications and mounting requirements"
+        },
+        {
+          "manufacturer": "Cadet Manufacturing",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Established manufacturer of electric heating products, compatible with specified voltage and control requirements"
+        },
+        {
+          "manufacturer": "Dimplex",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Premium electric heating manufacturer, compatible with BMS integration and thermostat controls"
+        }
+      ]
+    },
+    {
+      "componentType": "Electric Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Indeeco",
+          "model": "941IF and 925IU series",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Basis of design per mechanical schedules. Models include 941IF-U1000-W and 925IU-UH5004-N for various applications."
+        },
+        {
+          "manufacturer": "Modine",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in specifications for electric unit heaters."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for electric cabinet heaters and unit heaters."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for electric cabinet heaters and unit heaters."
+        },
+        {
+          "manufacturer": "McQuay",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for electric cabinet heaters and unit heaters."
+        },
+        {
+          "manufacturer": "Dunham-Bush",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer for electric cabinet heaters and unit heaters."
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Alternative manufacturer for electric unit heaters with similar UL listing requirements and mounting configurations."
+        },
+        {
+          "manufacturer": "Markel",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-3%",
+          "compatibilityNotes": "Alternative for electric infrared and unit heaters with comparable performance ratings."
+        }
+      ]
+    },
+    {
+      "componentType": "Small-Capacity Split-System Air-Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "FTXV12, FTXV18, FTXV24, FCA30",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "BoD manufacturer on mechanical schedules for Small-Capacity Split-System Air-Conditioners. Engineer incorrectly specified R-454b, Daikin uses R-32. CYA schedule note regarding contractor responsibility for additional costs with substituted products."
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 1 premium VRF, most common alternative to Daikin. Good compatibility with existing 3-pipe systems."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "considerable cost savings",
+          "compatibilityNotes": "Tier 2 second most common. Good reps in NYC and 3-pipe. Usually considerable cost savings over Daikin / Mitsubishi."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "considerable cost savings",
+          "compatibilityNotes": "Tier 2 second most common. Good reps in NYC and 3-pipe. Usually considerable cost savings over Daikin / Mitsubishi."
+        },
+        {
+          "manufacturer": "Trane",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Rebrands Mitsubishi VRF systems. Listed as acceptable manufacturer in split system specifications."
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in split system specifications. Standard industry alternative."
+        },
+        {
+          "manufacturer": "York",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Listed as acceptable manufacturer in split system specifications. Standard industry alternative."
+        }
+      ]
+    },
+    {
+      "componentType": "Split System Air Conditioners",
+      "suppliers": [
+        {
+          "manufacturer": "Daikin Comfort Technologies (VRV and Mini Split)",
+          "model": "Various split system models (FTXV, FCA, FXAA, etc.)",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Currently used R-454B instead of correct R-32 refrigerant. 3-pipe system allows flexible manufacturer selection if no existing piping. Note 6 requires contractor responsibility for substitution costs."
+        },
+        {
+          "manufacturer": "Mitsubishi",
+          "model": "VRF systems",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Tier 1 premium VRF manufacturer, most common alternate to Daikin. Often rebranded by Trane."
+        },
+        {
+          "manufacturer": "LG",
+          "model": "VRF systems",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-10% to -15%",
+          "compatibilityNotes": "Tier 2 manufacturer with good NYC representatives and 3-pipe capability. Usually considerable cost savings over Daikin/Mitsubishi."
+        },
+        {
+          "manufacturer": "Samsung",
+          "model": "VRF systems",
+          "isBasisOfDesign": false,
+          "isListedAlternate": true,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-10% to -15%",
+          "compatibilityNotes": "Tier 2 manufacturer with good NYC representatives and 3-pipe capability. Usually considerable cost savings over Daikin/Mitsubishi."
+        },
+        {
+          "manufacturer": "Toshiba Carrier",
+          "model": "VRF systems",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-15% to -25%",
+          "compatibilityNotes": "Tier 3 manufacturer trying to gain market share. VRF typically smaller part of rep's portfolio. May have limited local support."
+        },
+        {
+          "manufacturer": "Panasonic",
+          "model": "VRF systems",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-15% to -25%",
+          "compatibilityNotes": "Tier 3 manufacturer trying to gain market share. VRF typically smaller part of rep's portfolio. May have limited local support."
+        },
+        {
+          "manufacturer": "Hitachi",
+          "model": "VRF systems",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "Gil-Bar",
+            "company": "Gil-Bar",
+            "contact": ""
+          },
+          "costDifference": "-15% to -25%",
+          "compatibilityNotes": "Tier 3 manufacturer with strong Gil-Bar representation. VRF usually less focused and smaller part of rep's total portfolio."
+        }
+      ]
+    }
+  ]
+}

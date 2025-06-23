@@ -1,0 +1,42 @@
+{
+  "reportTitle": "BuildVision Project Report for JPMC Wayland 44 Main",
+  "customerInformation": {
+    "customerName": "JPMorgan Chase",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "240963",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "JPMC Wayland 44 Main",
+    "location": "44 Main Street, Wayland, MA 01778",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "MEP systems including energy recovery units, electric unit heaters, electric duct heaters, and baseboard unit heaters with Daintree building energy management system integration",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/75ae1f37-2abd-490a-8229-913f85bb2cef/package-projects/0eba4f26-2d0b-4311-b480-cbce2a15e892/packages",
+    "additionalFields": {
+      "architect": "TPG Architecture",
+      "engineer": "AKF",
+      "contractType": "",
+      "bidStatus": "BuildingConnected Lead",
+      "dateCreated": "6/17/2025"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

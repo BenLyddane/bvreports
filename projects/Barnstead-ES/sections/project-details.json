@@ -1,0 +1,43 @@
+{
+  "reportTitle": "BuildVision Project Report for Barnstead ES Additions & Renovations",
+  "customerInformation": {
+    "customerName": "Tunstall (Purchasing)",
+    "contactPerson": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "projectId": "927efb28-6593-472f-a377-702743c3ef3b",
+    "additionalFields": {}
+  },
+  "projectInformation": {
+    "projectName": "Barnstead ES Additions & Renovations",
+    "location": "91 Maple St, Center Barnstead, NH 03225",
+    "startDate": "",
+    "completionDate": "",
+    "budget": "",
+    "scope": "HVAC mechanical systems including heating water systems, air conditioning systems, air moving and handling systems, control dampers and valves, cooling and heating coils, terminal units, exhaust and supply fans, temperature and humidity monitoring, hot water heating systems, fire alarm system interfaces, variable frequency drives for pumps and fans",
+    "projectUrl": "https://app.buildvision.io/admin/organizations/75ae1f37-2abd-490a-8229-913f85bb2cef/package-projects/927efb28-6593-472f-a377-702743c3ef3b/details",
+    "additionalFields": {
+      "projectNumber": "TTG Proj No. 5199",
+      "buildingType": "Elementary School",
+      "issueDate": "05/20/2025",
+      "architect": "The H.L. Turner Group Inc.",
+      "engineer": "Milestone Engineering & Construction",
+      "contractType": "Bid Pack No2"
+    }
+  },
+  "preparerInformation": {
+    "preparers": [
+      {
+        "name": "Ben Lyddane",
+        "email": "Ben@BuildVision.io",
+        "phone": "202-365-8628"
+      },
+      {
+        "name": "Mackenzie Hoover",
+        "email": "Mackenzie@buildvision.io",
+        "phone": "843-609-3265"
+      }
+    ],
+    "preparationDate": ""
+  }
+}

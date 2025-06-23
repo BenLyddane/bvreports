@@ -1,0 +1,245 @@
+{
+  "suppliers": [
+    {
+      "componentType": "Energy Recovery Units",
+      "suppliers": [
+        {
+          "manufacturer": "Mitsubishi Electric",
+          "model": "LGH-F600RVX2",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Unit specified for 510 CFM outdoor air flow with 69% temperature recovery effectiveness and 51% enthalpy recovery effectiveness"
+        },
+        {
+          "manufacturer": "Daikin",
+          "model": "ERV Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible alternative with similar recovery effectiveness and electrical specifications"
+        },
+        {
+          "manufacturer": "Carrier",
+          "model": "Energy Recovery Ventilator",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Alternative option meeting project specifications for single-phase 208V operation"
+        }
+      ]
+    },
+    {
+      "componentType": "Electric Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Stelpro",
+          "model": "AWFA4002",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Wall heater for vestibule areas, 10.2 MBH capacity"
+        },
+        {
+          "manufacturer": "Stelpro",
+          "model": "ASSO1502",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Wall heater for restroom, 3.8 MBH capacity"
+        },
+        {
+          "manufacturer": "Indeeco",
+          "model": "QUA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Electric duct heater with SCR control, 5kW capacity"
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative electric heating manufacturer"
+        },
+        {
+          "manufacturer": "Marley Engineered Products",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative electric unit heater manufacturer"
+        },
+        {
+          "manufacturer": "King Electrical",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Alternative electric heating manufacturer"
+        }
+      ]
+    },
+    {
+      "componentType": "Electric Duct Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Indeeco",
+          "model": "QUA",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "5kW SCR control, 208V 3-phase, 60Hz for 510 CFM living room application"
+        },
+        {
+          "manufacturer": "Chromalox",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Leading manufacturer of electric duct heaters with SCR controls"
+        },
+        {
+          "manufacturer": "Tempco Electric Heater Corporation",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Offers electric duct heaters with modular construction and SCR controls"
+        },
+        {
+          "manufacturer": "Tutco-Farnam",
+          "model": "",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "Provides electric duct heaters with temperature sensors and control integration"
+        }
+      ]
+    },
+    {
+      "componentType": "Baseboard Unit Heaters",
+      "suppliers": [
+        {
+          "manufacturer": "Stelpro",
+          "model": "ALUX3",
+          "isBasisOfDesign": true,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "",
+          "compatibilityNotes": "208V, 1 phase, 60Hz electrical requirements. Integral thermostat and control section required."
+        },
+        {
+          "manufacturer": "Cadet",
+          "model": "Softheat",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+3%",
+          "compatibilityNotes": "Compatible with 208V systems, similar mounting requirements"
+        },
+        {
+          "manufacturer": "Marley Engineered Products",
+          "model": "Qmark",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "+5%",
+          "compatibilityNotes": "Available in matching electrical configurations, similar dimensions"
+        },
+        {
+          "manufacturer": "King Electric",
+          "model": "KP Series",
+          "isBasisOfDesign": false,
+          "isListedAlternate": false,
+          "representativeInfo": {
+            "name": "",
+            "company": "",
+            "contact": ""
+          },
+          "costDifference": "-2%",
+          "compatibilityNotes": "Compatible with Daintree controls integration, similar capacity range"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Tunstall (Purchasing)
+package projects
+Barnstead ES Additions & Renovations
+
+    details
+
+MH
+Organization Logo
+Barnstead ES - Additions & Renovations
+Tunstall (Purchasing)
+Stakeholders
+91 Maple St, Center Barnstead, NH 03225
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+--
+Address
+91 Maple St, Center Barnstead, NH 03225
+Created
+6/17/2025
+Expected Start
+--
+Date Due
+--
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+--
+Request Type
+--
+Project Size
+--
+
+https://app.buildvision.io/admin/organizations/75ae1f37-2abd-490a-8229-913f85bb2cef/package-projects/927efb28-6593-472f-a377-702743c3ef3b/details
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Tunstall (Purchasing)
+package projects
+Barnstead ES Additions & Renovations
+
+    packages
+
+MH
+Organization Logo
+Barnstead ES - Additions & Renovations
+Tunstall (Purchasing)
+Stakeholders
+91 Maple St, Center Barnstead, NH 03225
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Due Date
+	
+Action
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+FR-1	Sterling HVAC	Finned-Tube Radiation Heaters	C3/4-435	
+Annotation
+	
+FR-2	Sterling HVAC	Finned-Tube Radiation Heaters	JVB-SS	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+CUH-1	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-10	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-2	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-3	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-4	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-5	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-6	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-7	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-8	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+CUH-9	Trane	Cabinet Unit Heaters	FFEB-030	
+Annotation
+	
+UH-1	Trane	Hot Water Unit Heaters	UHS-18	
+Annotation
+	
+UH-2	Trane	Hot Water Unit Heaters	UHS-19	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+HC-1	Aerofin	Hot Water Coils	HWP-13.0 AF	
+Annotation
+	
+HC-2	Aerofin	Hot Water Coils	HW-12.0 OAS	
+Annotation
+	
+HC-3	Aerofin	Hot Water Coils	HW-12.0 OAS	
+Annotation
+	
+HC-4	Aerofin	Hot Water Coils	HWP-13.0 AF	
+Annotation
+	
+HC-5	Aerofin	Hot Water Coils	HWP-12.0 AS	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+RCP-1	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-10	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-11	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-12	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-13	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-14	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-15	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-16	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-17	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-18	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-19	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-2	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-20	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-21	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-22	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-23	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-24	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-3	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-4	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-5	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-6	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-7	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-8	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	
+RCP-9	Sterling HVAC	Radiant Heating and Cooling Hydronic Panels	Radiant Heating Panel - Hydronic	
+Annotation
+	

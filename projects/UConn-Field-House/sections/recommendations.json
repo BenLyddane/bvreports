@@ -1,0 +1,52 @@
+{
+  "buildVisionRecommendations": [
+    {
+      "id": 1,
+      "recommendation": "Implement Standardized HVAC Equipment Strategy",
+      "rationale": "The project requires numerous manufacturers across various HVAC equipment categories. Having too many different manufacturers increases inventory complexity, maintenance training requirements, and spare parts management. The specifications show multiple acceptable manufacturers for fans, valves, pumps, and other equipment, which can lead to procurement challenges and higher long-term costs.",
+      "estimatedImpact": "Significant reduction in maintenance costs and training requirements. Lower spare parts inventory costs and streamlined maintenance procedures.",
+      "implementation": "Establish preferred manufacturer lists for each equipment category early in the procurement process. Prioritize manufacturers with strong local service support within 100 miles of the project. Create equipment standardization guidelines that limit the number of manufacturers per category while maintaining competitive bidding.",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "recommendation": "Establish Equipment Service and Support Requirements",
+      "rationale": "The specifications repeatedly reference manufacturer requirements for service facilities within 100 miles and minimum three years of documented experience. This indicates the importance of reliable service support, but procurement should verify these capabilities upfront to avoid future service issues.",
+      "estimatedImpact": "Reduced downtime and faster response times for equipment repairs. Lower lifecycle costs due to better maintenance support.",
+      "implementation": "Include service capability verification as part of the procurement evaluation criteria. Require manufacturers to provide documentation of local service centers, certified technicians, and parts availability. Consider weighting these factors in the equipment selection process.",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "recommendation": "Optimize Valve and Control Component Procurement",
+      "rationale": "The project includes extensive valve schedules and specifications for different pressure classes and applications. The specifications show detailed valve requirements for various services (hot water, steam, cooling) with specific manufacturers. Coordinating valve procurement with system requirements can achieve better pricing and compatibility.",
+      "estimatedImpact": "Moderate cost savings through bulk procurement and improved system compatibility. Reduced installation complexity.",
+      "implementation": "Bundle valve procurement by system type and pressure class. Coordinate with the controls contractor early to ensure compatibility between valves and actuators. Consider pre-fabricated valve assemblies where appropriate to reduce field labor.",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "recommendation": "Implement Vibration Isolation Equipment Coordination",
+      "rationale": "The specifications require extensive vibration isolation for various equipment including pumps, fans, and AHUs. The requirements vary by equipment type, location, and capacity. Coordinating isolation requirements early can prevent compatibility issues and ensure proper system performance.",
+      "estimatedImpact": "Improved system performance and reduced noise transmission. Prevention of costly rework due to inadequate vibration control.",
+      "implementation": "Create a comprehensive vibration isolation matrix that matches equipment types with appropriate isolation requirements. Coordinate with structural engineers to ensure adequate support for isolated equipment. Verify that all isolation components are from the same manufacturer family for compatibility.",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "recommendation": "Establish Testing and Commissioning Equipment Requirements",
+      "rationale": "The specifications include extensive testing requirements for ductwork leakage, hydronic systems, and equipment performance. The testing requirements are detailed but may require specialized equipment and certified personnel that should be considered during procurement planning.",
+      "estimatedImpact": "Ensured system performance and warranty compliance. Reduced risk of system deficiencies and callbacks.",
+      "implementation": "Include testing equipment and certified personnel requirements in the procurement planning phase. Verify that contractors have access to required testing equipment or budget for rental/purchase. Coordinate testing schedules to avoid conflicts between different systems.",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "recommendation": "Coordinate Control System Integration Requirements",
+      "rationale": "The project includes DDC controls, building automation systems, and various control sequences. The specifications reference BACnet communication and integration with existing campus systems. Early coordination of control system requirements can prevent compatibility issues and reduce programming costs.",
+      "estimatedImpact": "Seamless system integration and reduced commissioning time. Lower long-term operational costs through integrated control.",
+      "implementation": "Establish control system architecture requirements early in procurement. Verify BACnet compatibility and integration capabilities with existing campus systems. Coordinate with UConn IT and facilities management to ensure proper network integration and security protocols.",
+      "priority": "High"
+    }
+  ]
+}

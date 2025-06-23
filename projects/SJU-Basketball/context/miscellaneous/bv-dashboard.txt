@@ -1,0 +1,415 @@
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Shawmut Design and Construction
+package projects
+St. John's University - Basketball Train...
+
+    packages
+
+MH
+Organization Logo
+St. John's University - Basketball Training Facility
+Shawmut Design and Construction
+Stakeholders
+175-02 Union Turnpike, Jamaica , NY 11439
+Package
+	
+Status
+	
+Phase
+	
+Alternates
+	
+Scope Sheet
+	
+BoD Manufacturer
+	
+Due Date
+	
+Action
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+ASHP-2-1	Daikin Applied	Packaged Rooftop Air-Conditioning Units	DHSA031	
+Annotation
+	
+ASHP-2-2	Daikin Applied	Packaged Rooftop Air-Conditioning Units	DHSA031	
+Annotation
+	
+ASHP-2-3	Daikin Applied	Packaged Rooftop Air-Conditioning Units	DHSA031	
+Annotation
+	
+ASHP-2-4	Daikin Applied	Packaged Rooftop Air-Conditioning Units	DPSH25B	
+Annotation
+	
+DOAS-2-1	Daikin Applied	Packaged Rooftop Air-Conditioning Units	DPSH25B	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+DCU-2-1	Dectron	Liquid Coolers	NG-V-01	
+Annotation
+	
+DH-1-1	Dectron	Dehumidifiers	DS-010-NP	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+AC-A	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ductless	FXZA05	
+Annotation
+	
+AC-B	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ductless	FXZA07	
+Annotation
+	
+AC-C	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ductless	FXZA09AAVJU	
+Annotation
+	
+AC-D	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ductless	FXZA12	
+Annotation
+	
+AC-E	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ductless	FXZA15	
+Annotation
+	
+AC-F	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ductless	FXZA18	
+Annotation
+	
+AC-G	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ductless	FXAA18	
+Annotation
+	
+AC-H	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ducted	FXMA48	
+Annotation
+	
+AC-I	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ducted	FBA24	
+Annotation
+	
+AC-J	Daikin Comfort Technologies (VRV and Mini Split)	VRF Indoor Units - Ducted	FXSA12	
+Annotation
+	
+CU-A	Daikin Comfort Technologies (VRV and Mini Split)	VRF Outdoor Units	REYA72	
+Annotation
+	
+CU-B	Daikin Comfort Technologies (VRV and Mini Split)	VRF Outdoor Units	REYA96	
+Annotation
+	
+CU-C	Daikin Comfort Technologies (VRV and Mini Split)	VRF Outdoor Units	REYA144	
+Annotation
+	
+CU-D	Daikin Comfort Technologies (VRV and Mini Split)	VRF Outdoor Units	REYA192	
+Annotation
+	
+CU-E	Daikin Comfort Technologies (VRV and Mini Split)	VRF Outdoor Units	RXTA24	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+DEX-2-1	LF Systems	Centrifugal HVAC Fans	LES008	
+Annotation
+	
+EF2-1	Greenheck	HVAC Fans	CUE-100HP-VG	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+EAV-A	Price Industries	Single-Duct VAV Terminal Units	SDE 4	
+Annotation
+	
+EAV-B	Price Industries	Single-Duct VAV Terminal Units	SDE 5	
+Annotation
+	
+EAV-C	Price Industries	Single-Duct VAV Terminal Units	SDE 6	
+Annotation
+	
+EAV-D	Price Industries	Single-Duct VAV Terminal Units	SDE 7	
+Annotation
+	
+EAV-E	Price Industries	Single-Duct VAV Terminal Units	SDE 8	
+Annotation
+	
+EAV-F	Price Industries	Single-Duct VAV Terminal Units	SDE 10	
+Annotation
+	
+EAV-G	Price Industries	Single-Duct VAV Terminal Units	SDE 12	
+Annotation
+	
+EAV-H	Price Industries	Single-Duct VAV Terminal Units	SDE 14	
+--
+	
+FPB-A	Titus	Fan-Powered VAV Terminal Units	DTQP	
+Annotation
+	
+VAV-A	Titus	Single-Duct VAV Terminal Units	DESV 5	
+Annotation
+	
+VAV-B	Titus	Single-Duct VAV Terminal Units	DESV 6	
+Annotation
+	
+VAV-C	Titus	Single-Duct VAV Terminal Units	DESV 7	
+Annotation
+	
+VAV-D	Titus	Single-Duct VAV Terminal Units	DESV 8	
+Annotation
+	
+VAV-E	Titus	Single-Duct VAV Terminal Units	DESV 12	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+EBB 1-1	Stelpro	Electric Baseboard Heaters	AALUX215077	
+Annotation
+	
+EBB 1-2	Stelpro	Electric Baseboard Heaters	AALUX215077	
+Annotation
+	
+EBB 1-3	Stelpro	Electric Baseboard Heaters	AALUX206038	
+Annotation
+	
+EBB 1-4	Stelpro	Electric Baseboard Heaters	AALUX327227	
+Annotation
+	
+EBB 1-5	Stelpro	Electric Baseboard Heaters	AALUX206038	
+Annotation
+	
+EBB 1-6	Stelpro	Electric Baseboard Heaters	AALUX324207	
+Annotation
+	
+EBB 1-7	Stelpro	Electric Baseboard Heaters	AALUX324207	
+Annotation
+	
+EBB 1-8	Stelpro	Electric Baseboard Heaters	AALUX209047	
+Annotation
+	
+EBB 2-1	Stelpro	Electric Baseboard Heaters	AALUX206038	
+Annotation
+	
+EBB 2-10	Stelpro	Electric Baseboard Heaters	AALUX206038	
+Annotation
+	
+EBB 2-11	Stelpro	Electric Baseboard Heaters	AALUX221107	
+Annotation
+	
+EBB 2-12	Stelpro	Electric Baseboard Heaters	AALUX221107	
+Annotation
+	
+EBB 2-2	Stelpro	Electric Baseboard Heaters	AALUX227137	
+Annotation
+	
+EBB 2-3	Stelpro	Electric Baseboard Heaters	AALUX224127	
+Annotation
+	
+EBB 2-4	Stelpro	Electric Baseboard Heaters	AALUX218097	
+Annotation
+	
+EBB 2-5	Stelpro	Electric Baseboard Heaters	AALUX224127	
+Annotation
+	
+EBB 2-6	Stelpro	Electric Baseboard Heaters	AALUX224127	
+Annotation
+	
+EBB 2-7	Stelpro	Electric Baseboard Heaters	AALUX218097	
+Annotation
+	
+EBB 2-8	Stelpro	Electric Baseboard Heaters	AALUX224127	
+Annotation
+	
+EBB 2-9	Stelpro	Electric Baseboard Heaters	AALUX227137	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+EUH 1-1	Indeeco	Electric Unit Heaters	941IF	
+Annotation
+	
+EUH 1-2	Indeeco	Electric Unit Heaters	941IF	
+Annotation
+	
+EUH 1-3	Indeeco	Electric Unit Heaters	941IF	
+Annotation
+	
+EUH 1-4	Indeeco	Electric Unit Heaters	941IF	
+Annotation
+	
+EUH 1-5	Indeeco	Electric Unit Heaters	941IF	
+Annotation
+	
+EUH 1-6	Indeeco	Electric Unit Heaters	925IU	
+Annotation
+	
+EUH 2-1	Indeeco	Electric Unit Heaters	925IU	
+Annotation
+	
+-
+	
+Equipment Tag
+	
+BoD Manufacturer
+	
+Component Type
+	
+Component
+	
+Linked File
+	
+Actions
+SS-A	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FTXV12	
+Annotation
+	
+SS-B	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FTXV18	
+AnnotationAnnotation
+	
+SS-C	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FTXV24	
+Annotation
+	
+SS-D	Daikin Comfort Technologies (VRV and Mini Split)	Small-Capacity Split-System Air-Conditioners	FCA30	
+Annotation
+	
+SS-E	Daikin Applied	Split System Air Conditioners	RXTQ36TBVJUA	
+Annotation
+	
+
+	
+https://app.buildvision.io/admin/organizations/af293d30-3322-4f29-a141-1fabd2927d83/package-projects/7de45a75-9cf0-4ba3-934d-354297ea9293/packages
+
+ BuildVision
+
+    BuildVision
+
+Components
+
+BuildingConnected
+
+Tools
+
+Communication
+
+        0
+
+Shawmut Design and Construction
+package projects
+St. John's University - Basketball Train...
+
+    details
+
+MH
+Organization Logo
+St. John's University - Basketball Training Facility
+Shawmut Design and Construction
+Stakeholders
+175-02 Union Turnpike, Jamaica , NY 11439
+Project Details
+High-level information about the project
+
+Project Status:
+
+Contract type:
+
+Bid Status:
+BuildingConnected Lead
+Vimal Patel (vpatel@shawmut.com)
+Address
+175-02 Union Turnpike, Jamaica , NY 11439
+Created
+6/18/2025
+Expected Start
+9/2/2025
+Date Due
+5/30/2025
+Job Walk
+--
+Contract Type
+--
+RFIs Due
+--
+Date Invited
+6/18/2025
+Request Type
+Proposal
+Project Size
+53800 sq. ft.
